@@ -1,0 +1,19 @@
+{
+  "quickadd:choice:bec6c636-1c39-4bcc-ad46-c6c315fd3a30": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "quickadd:choice:0fa3b190-7868-4b1b-9252-ba7f7fb6ce7a": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ]
+}

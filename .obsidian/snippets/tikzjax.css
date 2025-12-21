@@ -1,0 +1,19 @@
+/* 针对 TikZJax 渲染的容器 */
+.block-language-tikz {
+    text-align: center; /* 让图片居中 */
+    margin: 1.5em 0;    /* 图片上下留出一点间距，间距也随字号变化 */
+}
+
+/* 针对 SVG 图形本身 */
+.block-language-tikz svg {
+    /* 关键：使用 em 单位 */
+    /* 1em 等于当前正文的一个文字高度 */
+    /* 设置 height 为 12em，意味着图的高度永远是文字高度的 12 倍 */
+    height: 7em !important; 
+    
+    /* 宽度设置为 auto，确保图片不会被拉伸变形 */
+    width: auto !important;
+    
+    /* 优化显示 */
+    vertical-align: middle;
+}

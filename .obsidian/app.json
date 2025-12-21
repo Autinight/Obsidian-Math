@@ -1,0 +1,12 @@
+{
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "strictLineBreaks": true,
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
+}

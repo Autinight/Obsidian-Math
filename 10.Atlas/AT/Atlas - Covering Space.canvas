@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"9199d18d2b6f3764","type":"text","text":"[[thm - Lifting Properties]]","x":-840,"y":-133,"width":250,"height":80,"color":"1"},
+		{"id":"39cc6f5fc64eda44","type":"text","text":"[[dfn - Covering Space]]","x":-840,"y":-403,"width":250,"height":80,"color":"6"},
+		{"id":"8bb55526da87b49a","type":"text","text":"[[lem - end-point of path-lifting is homotopy-free]]","x":-460,"y":-323,"width":256,"height":127,"color":"2"},
+		{"id":"0d5e7342942d0837","type":"text","text":"[[thm - Lifting and Fundemental Group]]","x":-204,"y":-143,"width":250,"height":123,"color":"1"},
+		{"id":"05d064f81fe9c469","type":"text","text":"[[thm - Monodromy Action 1]]","x":46,"y":-423,"width":250,"height":100,"color":"1"},
+		{"id":"cbcb4d32a6a00c4a","type":"text","text":"[[Normal Covering]]","x":380,"y":-226,"width":250,"height":60,"color":"6"},
+		{"id":"18453bafb4a4c23c","type":"text","text":"[[thm - Covering Induces Monomorphism]]","x":-380,"y":-639,"width":220,"height":119,"color":"1"},
+		{"id":"620fc9f581ff8956","type":"text","text":"[[pps - Fiber and Conjugacy Class]]","x":46,"y":-639,"width":250,"height":107,"color":"2"},
+		{"id":"243b71c2f6e03143","type":"text","text":"[[thm - lifting criterion]]","x":255,"y":300,"width":250,"height":85,"color":"1"}
+	],
+	"edges":[
+		{"id":"7712afcf803483e1","fromNode":"8bb55526da87b49a","fromSide":"right","toNode":"0d5e7342942d0837","toSide":"top","label":"used in"},
+		{"id":"d2da34398e2fccd3","fromNode":"39cc6f5fc64eda44","fromSide":"bottom","toNode":"9199d18d2b6f3764","toSide":"top"},
+		{"id":"508f3788386ad515","fromNode":"9199d18d2b6f3764","fromSide":"right","toNode":"0d5e7342942d0837","toSide":"left","label":"base to"},
+		{"id":"137a5594771b954a","fromNode":"9199d18d2b6f3764","fromSide":"right","toNode":"8bb55526da87b49a","toSide":"left","label":"used in"},
+		{"id":"1c5716c1a4c7f3e9","fromNode":"8bb55526da87b49a","fromSide":"right","toNode":"05d064f81fe9c469","toSide":"left","label":"make it well define"},
+		{"id":"bdd597b5e65139c8","fromNode":"39cc6f5fc64eda44","fromSide":"top","toNode":"18453bafb4a4c23c","toSide":"left"},
+		{"id":"2dcfdc477d8cc8ad","fromNode":"0d5e7342942d0837","fromSide":"right","toNode":"05d064f81fe9c469","toSide":"bottom"},
+		{"id":"641e0ca7b7eb7530","fromNode":"620fc9f581ff8956","fromSide":"right","toNode":"cbcb4d32a6a00c4a","toSide":"top","label":"gives the loop characterization"},
+		{"id":"c6d2c48b439557dd","fromNode":"0d5e7342942d0837","fromSide":"bottom","toNode":"cbcb4d32a6a00c4a","toSide":"bottom","label":"gives the loop characterization"},
+		{"id":"6efb4e9f61e4a449","fromNode":"9199d18d2b6f3764","fromSide":"bottom","toNode":"243b71c2f6e03143","toSide":"left","fromEnd":"arrow","label":"concludes all lifting properties together"}
+	]
+}
