@@ -15,5 +15,40 @@
       ],
       "key": "V"
     }
+  ],
+  "templater-obsidian:create-50.Templates/TPL - Auto Metadata.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:create-50.Templates/NOTES.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:e04adf2d-ed1b-4f60-969c-4b0d898167df": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "quickadd:choice:fe2543ae-fa5e-4c69-ad80-1f34d2599a0b": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
   ]
 }

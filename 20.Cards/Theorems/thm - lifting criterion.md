@@ -11,6 +11,8 @@
 > \end{tikzcd}
 > \end{document}
 > ```
+> if and only if
+>  $$ f_{\sharp }\left(\pi _1 \left(Y,y\right)\right)\subseteq p_{\sharp }\left(\pi _1 \left(\overline{X},\bar{x}\right)\right) $$ 
 
 
 ## Corollary

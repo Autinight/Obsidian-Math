@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"e636f4389494dd53","type":"group","x":40,"y":440,"width":400,"height":400,"label":"Complete Vector Fields"},
+		{"id":"8b39cdc75ee93cc0","type":"text","text":"[[pps - Global Flow as family of Integral Curves for Infinitesimal Generator|Global Flow as family of Integral Curves for Infinitesimal Generator]]]","x":-175,"y":-540,"width":360,"height":97,"color":"1"},
+		{"id":"d4e713692c9214bc","type":"text","text":"[[dfn - Infinitesimal Generator of a Glowbal Flow|Infinitesimal Generator of a Glowbal Flow]]","x":475,"y":-493,"width":250,"height":100,"color":"6"},
+		{"id":"fd9db021fc8e9f91","type":"text","text":"[[dfn - Global Flow|Global Flow]]","x":-324,"y":-144,"width":250,"height":60,"color":"6"},
+		{"id":"2b990a5878966a6e","type":"text","text":"[[pps - Diffeomorphism Invariance of Flows|Diffeomorphism Invariance of Flows]]","x":1000,"y":-136,"width":250,"height":105,"color":"3"},
+		{"id":"76bb479a620fc730","type":"text","text":"[[dfn - Maximal Flow|Maximal Flow]]","x":80,"y":-65,"width":250,"height":60,"color":"6"},
+		{"id":"e2e1ad5f9fb492d4","type":"text","text":"[[dfn - Flow Domain and Flow|Flow Domain and Flow]]","x":-300,"y":50,"width":250,"height":80,"color":"6"},
+		{"id":"ad5ac77590384ea3","type":"text","text":"[[dfn - Complete Vector Field|Complete Vector Field]]","x":-324,"y":520,"width":250,"height":80,"color":"6"},
+		{"id":"7049aba19edb964c","type":"text","text":"[[lem - Uniform Time Lemma|Uniform Time Lemma]]","x":-324,"y":720,"width":250,"height":76,"color":"3"},
+		{"id":"148663ed8e4254ab","type":"text","text":"[[thm - Flowout Theorem|Flowout Theorem]]","x":-380,"y":1100,"width":250,"height":60,"color":"1"},
+		{"id":"55a0a8012dc115d9","type":"text","text":"[[thm - Boundary Flowout Theorem|Boundary Flowout Theorem]]","x":-380,"y":1362,"width":250,"height":82,"color":"1"},
+		{"id":"6d0c6e03ba1577bb","type":"text","text":"[[pps - Naturality of Flows|Naturality of Flows]]","x":600,"y":21,"width":250,"height":80,"color":"3"},
+		{"id":"949fff9c2e09911e","type":"text","text":"[[lem - Escape Lemma|Escape Lemma]]","x":655,"y":500,"width":250,"height":60,"color":"3"},
+		{"id":"88bae5cbf668eeff","type":"text","text":"[[thm - Compactly Supported Vector Fields is Complete|Compactly Supported Vector Fields is Complete]]","x":80,"y":460,"width":325,"height":120,"color":"1"},
+		{"id":"748328ac55a30571","type":"text","text":"[[thm - Left-invariant Vector Field is Complete]]","x":80,"y":645,"width":325,"height":113,"color":"1"},
+		{"id":"5d95890d23ab47bb","type":"text","text":"[[pps - All Vector Fields are Complete on a Compact Manifold|All Vector Fields are Complete on a Compact Manifold]]","x":545,"y":295,"width":360,"height":99,"color":"3"},
+		{"id":"ad89919845fcba91","type":"text","text":"[[thm - Fundamental Theorem on Flows|Fundamental Theorem on Flows]]","x":40,"y":195,"width":290,"height":100,"color":"1"},
+		{"id":"73a9e7bfad1ac99c","type":"text","text":"[[thm - Canonical Form Near a Regular Point|Canonical Form Near a Regular Point]]","x":155,"y":1051,"width":250,"height":109,"color":"1"},
+		{"id":"beaf598bb53b2f9f","type":"text","text":"[[thm - Canonical Form for Commuting Vector Fields]]","x":155,"y":1362,"width":250,"height":115,"color":"1"}
+	],
+	"edges":[
+		{"id":"6548bcee352d3bf1","fromNode":"fd9db021fc8e9f91","fromSide":"top","toNode":"8b39cdc75ee93cc0","toSide":"left"},
+		{"id":"5e511f4dff0e250c","fromNode":"ad89919845fcba91","fromSide":"top","toNode":"76bb479a620fc730","toSide":"bottom","label":"generate"},
+		{"id":"cc1e3602c2902940","fromNode":"6d0c6e03ba1577bb","fromSide":"right","toNode":"2b990a5878966a6e","toSide":"left","label":"leads to"},
+		{"id":"42df1e316bd8647e","fromNode":"fd9db021fc8e9f91","fromSide":"bottom","toNode":"e2e1ad5f9fb492d4","toSide":"top","label":"generalize to"},
+		{"id":"8298ec77aaa34f31","fromNode":"e2e1ad5f9fb492d4","fromSide":"right","toNode":"76bb479a620fc730","toSide":"left"},
+		{"id":"a93866bdfb58b960","fromNode":"e2e1ad5f9fb492d4","fromSide":"right","toNode":"ad89919845fcba91","toSide":"left"},
+		{"id":"afff6d7d6654b946","fromNode":"ad5ac77590384ea3","fromSide":"left","toNode":"fd9db021fc8e9f91","toSide":"left","label":"defined as to generate"},
+		{"id":"1f7b4cd59304249b","fromNode":"ad89919845fcba91","fromSide":"right","toNode":"6d0c6e03ba1577bb","toSide":"left","label":"has the property that"},
+		{"id":"0b0c595f7842f91c","fromNode":"8b39cdc75ee93cc0","fromSide":"right","toNode":"d4e713692c9214bc","toSide":"left","label":"characterize"},
+		{"id":"44932658d18245cb","fromNode":"ad5ac77590384ea3","fromSide":"right","toNode":"e636f4389494dd53","toSide":"left"},
+		{"id":"35bc1618a288670f","fromNode":"7049aba19edb964c","fromSide":"right","toNode":"e636f4389494dd53","toSide":"left"},
+		{"id":"2b04fe49b7628a4f","fromNode":"88bae5cbf668eeff","fromSide":"right","toNode":"5d95890d23ab47bb","toSide":"left"},
+		{"id":"d99f331f5a2544c1","fromNode":"6d0c6e03ba1577bb","fromSide":"bottom","toNode":"748328ac55a30571","toSide":"right","color":"5","label":"used in"},
+		{"id":"b13e53582b457b3b","fromNode":"88bae5cbf668eeff","fromSide":"right","toNode":"949fff9c2e09911e","toSide":"left"},
+		{"id":"139cbc384b76bfbc","fromNode":"148663ed8e4254ab","fromSide":"right","toNode":"73a9e7bfad1ac99c","toSide":"left"},
+		{"id":"7896d50288ebf0f7","fromNode":"148663ed8e4254ab","fromSide":"bottom","toNode":"55a0a8012dc115d9","toSide":"top","fromEnd":"arrow","label":"compare"},
+		{"id":"9f3e236710bc1d1a","fromNode":"73a9e7bfad1ac99c","fromSide":"bottom","toNode":"beaf598bb53b2f9f","toSide":"top","fromEnd":"arrow","label":"please compare"}
+	]
+}

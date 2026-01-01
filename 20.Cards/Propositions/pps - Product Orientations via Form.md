@@ -1,0 +1,2 @@
+> [!proposition] Proposition: Product Orientations.
+> Suppose $M_1,\dots,M_k$ are orientable smooth manifolds. There is a unique orientation on $M_1\times\cdots\times M_k$, called the **product orientation**, with the following property: if for each $i=1,\dots,k$, $\omega_i$ is an orientation form for the given orientation on $M_i$, then $\pi_1^*\omega_1\wedge\cdots\wedge\pi_k^*\omega_k$ is an orientation form for the product orientation.

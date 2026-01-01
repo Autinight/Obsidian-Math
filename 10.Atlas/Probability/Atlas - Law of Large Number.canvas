@@ -3,14 +3,14 @@
 		{"id":"10ae4ae68e0c2e17","type":"group","x":-1180,"y":500,"width":400,"height":400,"label":"Distributions"},
 		{"id":"4126f96ce547b0c2","type":"group","x":-680,"y":500,"width":400,"height":400,"label":"Law of Large Number"},
 		{"id":"e2152e5a4e9391ee","type":"text","text":"[[thm - Weak Law of Large Number]]","x":-620,"y":620,"width":260,"height":100,"color":"1"},
-		{"id":"e64b1f258e078815","type":"text","text":"[[Gamma Distribution]]","x":-1115,"y":535,"width":250,"height":100,"color":"6"},
+		{"id":"e64b1f258e078815","type":"text","text":"[[ep - Gamma Distribution]]","x":-1115,"y":535,"width":250,"height":100,"color":"6"},
 		{"id":"df5e99f9fac0b73c","type":"text","text":"[[Weak Convergence]]","x":-1095,"y":240,"width":230,"height":120,"color":"6"},
-		{"id":"757a7f7c18417f31","type":"text","text":"[[lem - Lp Convergence and Convergent in Measure]]","x":-40,"y":360,"width":250,"height":140,"color":"2"},
+		{"id":"757a7f7c18417f31","type":"text","text":"[[lem - Lp Convergence and Convergent in Measure]]","x":-40,"y":360,"width":250,"height":157,"color":"2"},
 		{"id":"b2f7e44efc3676fc","type":"text","text":"[[Characteristic Functions]]","x":-160,"y":190,"width":240,"height":110,"color":"6"},
-		{"id":"fd07043082f9c6d0","type":"text","text":"[[thm - Lévy's Continuity Theorem]]","x":-580,"y":130,"width":250,"height":170,"color":"1"},
-		{"id":"8e6ea3a7ac8b8c44","type":"text","text":"[[Poisson Distribution]]","x":-1115,"y":667,"width":250,"height":106,"color":"6"},
+		{"id":"8e6ea3a7ac8b8c44","type":"text","text":"[[ep - Poisson Distribution]]","x":-1115,"y":667,"width":250,"height":106,"color":"6"},
 		{"id":"1ccf6172765d1098","type":"text","text":"[[thm - Continuous Mapping]]","x":40,"y":535,"width":200,"height":135,"color":"1"},
-		{"id":"fb0b6d4887c86e78","type":"text","text":"[[thm - L^2 Weak Law]]","x":-620,"y":517,"width":250,"height":86,"color":"1"}
+		{"id":"fb0b6d4887c86e78","type":"text","text":"[[thm - L^2 Weak Law]]","x":-620,"y":517,"width":250,"height":86,"color":"1"},
+		{"id":"fd07043082f9c6d0","type":"text","text":"[[thm - Lévy's Continuity Theorem]]","x":-580,"y":130,"width":250,"height":170,"color":"1"}
 	],
 	"edges":[
 		{"id":"10c8ff72c40d83cc","fromNode":"fd07043082f9c6d0","fromSide":"bottom","toNode":"df5e99f9fac0b73c","toSide":"right","label":"sufficient\n"},

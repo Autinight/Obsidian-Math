@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "017c61fd6f1ce234",
+        "id": "a059cd687cc40b4d",
         "type": "tabs",
         "children": [
           {
-            "id": "65eb20553f91b540",
+            "id": "dfdb1af3e843f348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Theorems/thm - lifting criterion.md",
-                "mode": "preview",
-                "source": false,
+                "file": "00.Inbox/dfn - Left-invariant Vector Fields.md",
+                "mode": "source",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thm - lifting criterion"
+              "title": "dfn - Left-invariant Vector Fields"
             }
           }
         ]
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "1d7d919e91158b8f",
+            "id": "f8c717c24a5cf7c6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Mayer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,23 +73,12 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
-          {
-            "id": "72167a71bee2a270",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5069465637207,
-    "collapsed": true
+    "width": 322.5069465637207
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -119,20 +108,6 @@
             }
           },
           {
-            "id": "80cede57a3f0d289",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "未命名/未命名.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "未命名 的出链列表"
-            }
-          },
-          {
             "id": "5ab4d8370c5e599b",
             "type": "leaf",
             "state": {
@@ -148,7 +123,22 @@
             }
           },
           {
-            "id": "6f5b116b51718e07",
+            "id": "2ff55bc2b6b939fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00.Inbox/期末/LA - Final Test.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "LA - Final Test 的大纲"
+            }
+          },
+          {
+            "id": "97d0eab1f9c3870b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -162,34 +152,21 @@
             }
           },
           {
-            "id": "2ff55bc2b6b939fb",
+            "id": "36c50bf10be88d16",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "未命名/未命名.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "00.Inbox/期末/LA - Final Test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-list",
-              "title": "未命名 的大纲"
-            }
-          },
-          {
-            "id": "beabd6a5bbed12eb",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "00.Inbox/thm - Lifting Properties.md"
-              },
-              "icon": "lucide-info",
-              "title": "thm - Lifting Properties的笔记属性"
+              "icon": "links-going-out",
+              "title": "LA - Final Test 的出链列表"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -201,61 +178,66 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "open-vscode:VSCode": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "templater-obsidian:Templater": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "65eb20553f91b540",
+  "active": "dfdb1af3e843f348",
   "lastOpenFiles": [
-    "00.Inbox/Normal Covering.md",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "00.Inbox/DM - HW12.md",
+    "00.Inbox/dfn - The Lie Algebra of a Lie Group.md",
+    "00.Inbox/dfn - Left-invariant Vector Fields.md",
+    "10.Atlas/DM/Atlas - Lie Group and Lie Algebra.canvas",
+    "20.Cards/Theorems/thm - Existence of a Universal Covering Group.md",
+    "20.Cards/Propositions/pps - Bijective Lie Group Homomorphism is Isomorphism.md",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "20.Cards/Definitions/dfn - Flat Chart and Completely Integrable Distribution.md",
+    "20.Cards/Propositions/pps - Involutive Distribution given by a Foliation.md",
+    "20.Cards/Concepts/Tangent Distributions.md",
+    "20.Cards/Propositions/pps - Involutive Distribution , Embedded Submanifold and Flat chart.md",
+    "20.Cards/Propositions/pps - Involutive Distribution and Lie Subalgebra.md",
+    "20.Cards/Theorems/thm - Global Frobenius Theorem.md",
+    "20.Cards/Definitions/dfn - Foliation.md",
+    "20.Cards/Theorems/thm - Frobenius.md",
+    "20.Cards/Theorems/thm - Local Structure of Integral Manifolds.md",
+    "20.Cards/Lemmas/lem -  Local Frame Criterion for Involutivity.md",
+    "20.Cards/Concepts/dnf - Flat Chart and Completely Integrable Distribution.md",
+    "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
+    "20.Cards/Definitions/dfn - Involutive.md",
+    "20.Cards/Definitions/dfn - Integrable Distribution.md",
+    "20.Cards/Theorems/thm - Canonical Form for Commuting Vector Fields.md",
+    "00.Inbox/draft.md",
+    "00.Inbox/期末/拓扑-期末提示.md",
+    "00.Inbox/期末/DM - Final.md",
+    "20.Cards/Theorems/thm - Flowout Theorem.md",
+    "20.Cards/Theorems/thm - Canonical Form Near a Regular Point.md",
+    "30.Recources/DM/Course HW/DM - HW14.md",
+    "10.Atlas/DM/Atlas - Dist.md",
+    "10.Atlas/LA/Atlas - Orientations.canvas",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-    "20.Cards/Theorems/thm - lifting criterion.md",
-    "00.Inbox/AT - HW13.md",
-    "20.Cards/Theorems/thm - Lifting and Fundemental Group.md",
-    "20.Cards/Lemma/lem - Lp Convergence and Convergent in Measure.md",
-    "20.Cards/Definitions/dfn - Orientation of Vector Space.md",
-    "20.Cards/Definitions/dfn - equivalent covering.md",
-    "20.Cards/Definitions/dfn - Covering Space.md",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
-    "20.Cards/Lemma/lem - end-point of path-lifting is homotopy-free.md",
-    "20.Cards/Definitions/dfn - Orientation of Manifolds.md",
-    "30.Recources/Probability/Probability - HW15.md",
-    "20.Cards/Concepts/Gamma Distribution.md",
-    "20.Cards/Concepts/Normal Covering.md",
-    "20.Cards/Theorems/thm - Monodromy Action 1.md",
-    "20.Cards/Proposition/pps - Fiber and Conjugacy Class.md",
-    "20.Cards/Theorems/thm - Covering Induces Monomorphism.md",
-    "20.Cards/Theorems/thm - Continuous Mapping.md",
-    "30.Recources/未命名",
-    "20.Cards/Concepts/Characteristic Functions.md",
-    "20.Cards/Concepts/Weak Convergence.md",
-    "20.Cards/Theorems/thm - Lévy's Continuity Theorem.md",
-    "20.Cards/Theorems/thm - L^2 Weak Law.md",
-    "20.Cards/Theorems/thm - Weak Law of Large Number.md",
-    "20.Cards/Theorems/thm - Lifting Properties.md",
-    "10.Atlas/LA/Atlas - Semisimple Lie Algebra and its Applications.canvas",
-    "未命名.md",
-    "20.Cards/Proposition/pps - nonzero Covector and Orientation.md",
-    "Pasted image 20251219154850.png",
-    "40.Image",
+    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
+    "10.Atlas/LA/Atlas - Root Systems.canvas",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "00.Inbox/马原/未命名",
+    "00.Inbox/马原/唯物辩证法是科学的认识方法.canvas",
+    "00.Inbox/马原",
+    "00.Inbox/01.Todo List",
+    "40.Image/Others/ac6b3feee51db4e782f498821a2b6288.jpg",
+    "40.Image/Others/44344218e46bedec6e5c518c139ac257.jpg",
+    "40.Image/Others/0aff2fd1c6c6dd2fff80d9cc937620f6.jpg",
+    "30.Recources/AT/Course HW",
+    "30.Recources/AT",
+    "未命名.base",
+    "00.Inbox/HW待处理",
+    "00.Inbox/00.Complished",
+    "Move to Concepts.js",
+    "新建 文本文档.txt",
     "40.Image/Pasted image 20251219153957.png",
-    "20.Cards/Proposition",
+    "Pasted image 20251219154850.png",
     "Pasted image 20251219103117.png",
-    "10.Atlas/DM",
-    "20.Cards/Lemma",
-    "10.Atlas/LA",
-    "my-style.css",
     "20.Cards/Theorems/image.png",
-    "10.Atlas/AT",
-    "10.Atlas/Probability/未命名",
-    "30.Recources/Probability/Course HW",
-    "10.Atlas/未命名.canvas",
     "Pasted image 20251217230252.png"
   ]
 }

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"f74a3c688867e21c","type":"text","text":"[[thm - Lindeberg-Lévy CLT|Lindeberg-Lévy CLT]]","x":-287,"y":-176,"width":250,"height":56,"color":"1"},
+		{"id":"30ea1e60ee2943d4","type":"text","text":"[[lem - Exponential-like Limit]]","x":-640,"y":-360,"width":250,"height":60,"color":"2"},
+		{"id":"ce9667ebef80febf","type":"text","text":"[[ep - Binomial Distribution]]","x":-593,"y":-23,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"5159bbe671332a38","fromNode":"30ea1e60ee2943d4","fromSide":"right","toNode":"f74a3c688867e21c","toSide":"top"},
+		{"id":"1559661508056a7c","fromNode":"f74a3c688867e21c","fromSide":"left","toNode":"ce9667ebef80febf","toSide":"top"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"b99d6ceb16610c66","type":"group","x":-560,"y":80,"width":400,"height":240,"label":"Elementary Computations"},
+		{"id":"2d2157dd41df852d","type":"text","text":"[[dfn - de Rham Cohomology Group]]","x":-920,"y":160,"width":250,"height":104,"color":"6"},
+		{"id":"d5529256cbf7b66b","type":"text","text":"[[Degree of a Smooth Map]]","x":-89,"y":-60,"width":199,"height":76,"color":"1"},
+		{"id":"92b8fa6cfcf31e68","type":"text","text":"[[lem - Poincaré Lemma with Compact Support|Poincaré Lemma with Compact Support]]","x":-89,"y":-380,"width":277,"height":80,"color":"2"},
+		{"id":"93c6e04fcd8ffc8a","type":"text","text":"[[thm - Mayer-Vietoris|Mayer-Vietoris]]","x":-300,"y":-240,"width":211,"height":50,"color":"1"},
+		{"id":"5c2af3b0b0dfd07c","type":"text","text":"[[pps - Induced Cohomology Maps|Induced Cohomology Maps]]","x":-540,"y":-69,"width":250,"height":85,"color":"2"},
+		{"id":"50de39730e5a558e","type":"text","text":"[[pps - Cohomology of Disjoint Unions|Cohomology of Disjoint Unions]]","x":-520,"y":118,"width":250,"height":60,"color":"2"},
+		{"id":"0bf56ecb6e5f0cc3","type":"text","text":"[[pps - Cohomology in Degree Zero|Cohomology in Degree Zero]]","x":-520,"y":220,"width":250,"height":60,"color":"2"},
+		{"id":"8d959da60af871e4","x":-540,"y":360,"width":250,"height":95,"color":"2","type":"text","text":"[[thm - Homotopy Invariance of de Rham Cohomology]]"}
+	],
+	"edges":[
+		{"id":"92f03553fdd0392c","fromNode":"2d2157dd41df852d","fromSide":"right","toNode":"5c2af3b0b0dfd07c","toSide":"left"},
+		{"id":"e10aedb2c8fe606d","fromNode":"2d2157dd41df852d","fromSide":"right","toNode":"b99d6ceb16610c66","toSide":"left"},
+		{"id":"68f9ef9bb4c4f60f","fromNode":"2d2157dd41df852d","fromSide":"right","toNode":"8d959da60af871e4","toSide":"left"}
+	]
+}

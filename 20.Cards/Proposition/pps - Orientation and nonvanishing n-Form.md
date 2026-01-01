@@ -1,3 +1,0 @@
-
-> [!proposition] Proposition: The Orientation Determined by an $n$-Form
-> Let $M$ be a smooth $n$-manifold with or without boundary. Any nonvanishing $n$-form $\omega$ on $M$ determines a unique orientation of $M$ for which $\omega$ is positively oriented at each point. Conversely, if $M$ is given an orientation, then there is a smooth nonvanishing $n$-form on $M$ that is positively oriented at each point.

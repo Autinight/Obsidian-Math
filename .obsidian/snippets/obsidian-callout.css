@@ -1,22 +1,22 @@
 /* ================================================================= */
-/*  VS Code Math Layout - Clean Textbook Style (Default Font)        */
+/*  VS Code Math Layout - Clean Textbook Style (Final Optimized)     */
 /*  1. 全局: 强制白纸黑字, 字体跟随编辑器设置                             */
 /*  2. Type A (Thm/Def): 仿 LaTeX 教科书风格 (圆角, 阴影)                */
 /*  3. Type B (Proof): 保持透明背景 + 细线                               */
-/*  4. Type C (Note/Remark): 侧边栏风格 (无标题栏, 斜体)                 */
+/*  4. Type C (Note/Remark): 侧边栏风格 (无标题栏, 斜体, 紧凑布局)         */
 /* ================================================================= */
 
 /* --- 强制覆盖 VS Code 的默认背景 --- */
 body, .vscode-body, .vscode-light, .vscode-dark {
   background-color: #ffffff !important;
   color: #222222 !important;
-  /* 已移除强制衬线字体，现在跟随 VS Code 默认设置 */
   line-height: 1.2; 
 }
 
+
 body {
   color-scheme: light;
-  
+
   /* --- 基础颜色定义 (RGB) --- */
   /* Type A: 核心数学环境 */
   --color-theorem-rgb: 85, 70, 180;     /* Deep Violet */
@@ -26,22 +26,21 @@ body {
   --color-corollary-rgb: 210, 100, 0;   /* Deep Orange */
   --color-example-rgb: 180, 140, 40;    /* Deep Gold */
   --color-exercise-rgb: 44, 62, 80;     /* Midnight Blue */
-  
+
   /* Type B: 证明 */
   --color-gray-rgb: 100, 100, 100;
 
-   /* [新增] Solution 专用颜色 (森林绿) */
+   /* Solution 专用颜色 (森林绿) */
   --color-solution-rgb: 34, 139, 34;   /* ForestGreen */
 
-  
   /* Type C: 辅助/笔记 */
   --color-remark-rgb: 0, 128, 128;       /* Teal */
   --color-proofsketch-rgb: 41, 128, 185; /* Strong Blue */
   --color-note-rgb: 200, 50, 50;         /* Strong Red */
 
   /* --- 尺寸与字体 --- */
-  --line-height-tight: 1.3; 
-  --font-weight-bold: 700;       
+  --line-height-tight: 1.2; 
+  --font-weight-bold: 700;     
 
   /* --- Callout 变量映射 --- */
   --callout-default: var(--color-definition-rgb);
@@ -55,7 +54,7 @@ body {
   --callout-problem: var(--color-exercise-rgb); 
   --callout-solution: var(--color-solution-rgb);
   --callout-proof: var(--color-gray-rgb);
-  
+
   --callout-remark: var(--color-remark-rgb);
   --callout-proofsketch: var(--color-proofsketch-rgb);
   --callout-note: var(--color-note-rgb); 
@@ -63,7 +62,6 @@ body {
 
 /* ================================================================= */
 /*  1. 通用基础设置 (Type A Default - Textbook Style)                */
-/*  风格: 圆角, 阴影, 实心标题栏                                         */
 /* ================================================================= */
 
 .callout {
@@ -71,11 +69,8 @@ body {
   padding: 0; 
   overflow: hidden;
   margin: 1.5em 0; 
-  
-  /* 核心高级感来源: 阴影与圆角 */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
   border-radius: 6px; 
-  
   background-color: #fff; 
   border: 1px solid rgb(var(--callout-color)); 
 }
@@ -90,10 +85,7 @@ body {
   min-height: 0 !important;
   line-height: var(--line-height-tight);
   font-weight: var(--font-weight-bold);
-  
-  /* 字体大小调整为 1em，与正文一致 */
   font-size: 1em; 
-  
   display: flex;
   align-items: center;
 }
@@ -102,10 +94,7 @@ body {
 .callout-content {
   background-color: rgba(var(--callout-color), 0.04); 
   color: #222222 !important; 
-  
-  /* 间距优化: 上方减小为 6px，消除空隙感 */
   padding: 6px 15px 12px 15px; 
-  
   overflow-x: auto;
   font-size: 1em;
 }
@@ -122,15 +111,15 @@ body {
 .callout[data-callout="example"] { --callout-color: var(--callout-example); }
 .callout[data-callout="exercise"] { --callout-color: var(--callout-exercise); }
 .callout[data-callout="problem"] { --callout-color: var(--callout-problem); }
-
 .callout[data-callout="solution"] { --callout-color: var(--callout-solution); }
+
 /* Type C 类 */
 .callout[data-callout="remark"] { --callout-color: var(--callout-remark); }
 .callout[data-callout="proofsketch"] { --callout-color: var(--callout-proofsketch); }
 .callout[data-callout="note"] { --callout-color: var(--callout-note); }
+
 /* ================================================================= */
 /*  3. Type B: 证明与解答风格 (Proof & Solution)                     */
-/*  风格: 极简, 无阴影, 左侧细线                                        */
 /* ================================================================= */
 
 .callout[data-callout="proof"],
@@ -157,14 +146,8 @@ body {
   padding: 5px 15px;
 }
 
-/* 证毕/解毕符号 */
 .callout[data-callout="proof"] .callout-content::after,
 .callout[data-callout="solution"] .callout-content::after {
-  /* 
-     如果你希望 Solution 使用空心方块，可以将 content 分开写:
-     Proof 用 "∎", Solution 用 "\25A1" (□) 
-     目前保持一致使用实心方块。
-  */
   content: "∎";
   display: block;
   text-align: right;
@@ -173,10 +156,9 @@ body {
   font-style: normal;
 }
 
-
 /* ================================================================= */
 /*  4. Type C: 侧边栏风格 (Remark, Note, Proofsketch)                */
-/*  风格: 左侧粗线, 浅色背景, 无实心标题栏, 标题斜体(不加粗)              */
+/*  [关键修改] 移除了标题底部的 padding，消除与列表的空隙                  */
 /* ================================================================= */
 
 .callout[data-callout="remark"],
@@ -196,7 +178,8 @@ body {
   color: #000000 !important;
   font-style: italic;
   font-weight: normal; 
-  padding: 10px 15px 5px 15px;
+  /* 底部 padding 设为 0，让内容紧贴标题 */
+  padding: 10px 15px 0px 15px;
 }
 
 .callout[data-callout="remark"] .callout-content,
@@ -212,9 +195,7 @@ body {
 
 .markdown-alert .codicon,
 .markdown-alert-title > svg, 
-.markdown-alert-title .markdown-alert-icon {
-  display: none !important;
-}
+.markdown-alert-title .markdown-alert-icon { display: none !important; }
 
 .markdown-alert.markdown-alert-note {
   --callout-color: var(--color-note-rgb);
@@ -232,7 +213,7 @@ body {
   color: #000000 !important;
   font-style: italic;
   font-weight: normal;
-  padding: 10px 15px 5px 15px;
+  padding: 10px 15px 0px 15px; /* 同样移除底部 padding */
   margin: 0 !important;
   display: block;
 }
@@ -243,7 +224,40 @@ body {
 }
 
 /* ================================================================= */
-/*  杂项修正                                                         */
+/*  6. 列表排版优化 (List Layout Optimization) [增强版]               */
+/*  彻底解决列表顶部的空隙问题                                           */
+/* ================================================================= */
+
+/* 1. 统一列表基础缩进和间距 */
+.callout-content ul,
+.callout-content ol {
+  padding-left: 0.0em !important;
+  margin-bottom: -0.8em;
+  margin-top: -0.8em;
+}
+
+/* 2. [核心] 强制消除作为第一个元素的列表顶部间距 */
+/* 只要列表是内容区的第一个元素，就强制 margin-top 为 0 */
+.callout-content > ul:first-child,
+.callout-content > ol:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 3. 列表项之间的呼吸感 */
+.callout-content li {
+  margin-bottom: 0.2em;
+  line-height: var(--line-height-tight);
+}
+
+/* 4. 隐藏可能存在的空段落 (防止 Markdown 解析出空行占位) */
+.callout-content > p:empty {
+  display: none;
+  margin: 0;
+}
+
+/* ================================================================= */
+/*  7. 杂项修正                                                      */
 /* ================================================================= */
 
 p {
@@ -251,15 +265,9 @@ p {
   margin-block-end: 0.8em;
 }
 
-/* 强制移除内容区第一个元素的上边距, 彻底消除标题栏下方的多余空白 */
+/* 确保内容区第一个元素（无论是P还是List）都没有上边距 */
 .callout-content > :first-child { 
   margin-top: 0 !important; 
-}
-/* 针对列表的额外修正 */
-.callout-content > ul:first-child,
-.callout-content > ol:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
 }
 
 .callout-content > :last-child { 
@@ -269,3 +277,18 @@ p {
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
+
+/* ================================================================= */
+/*  8. 公式显示优化 (Math Formula Enhancement)                       */
+/* ================================================================= */
+
+/* 统一放大公式至 115% (覆盖 KaTeX 和 MathJax) */
+.katex, .mjx-container, .MathJax {
+  font-size: 1.15em !important;
+}
+
+
+/* 强制所有段落和列表使用新的行高 */
+p, li, .callout-content {
+  line-height: 1.2 !important; 
+}

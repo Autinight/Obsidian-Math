@@ -2,5 +2,7 @@
   "open-vscode",
   "quickadd",
   "dataview",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "templater-obsidian",
+  "obsidian-excalidraw-plugin"
 ]

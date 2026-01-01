@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"21f560ad29d648e7","type":"text","text":"[[dfn - Involutive|Involutive]]","x":-440,"y":164,"width":250,"height":56,"color":"6"},
+		{"id":"c96eafab494fd9ae","type":"text","text":"[[pps - Involutive Distribution and Lie Subalgebra|Involutive Distribution and Lie Subalgebra]]","x":-20,"y":140,"width":250,"height":108,"color":"3"},
+		{"id":"562446b1ee53ba24","type":"text","text":"[[dfn - Integrable Distribution|Integrable Distribution]]","x":-400,"y":540,"width":250,"height":60,"color":"6"},
+		{"id":"4277e913e8eda082","type":"text","text":"[[pps - Integrable Distribution is Involutive|Integrable Distribution is Involutive]]","x":-275,"y":315,"width":255,"height":93,"color":"2"},
+		{"id":"c799c1dda4acf056","type":"text","text":"[[lem -  Local Frame Criterion for Involutivity|Local Frame Criterion for Involutivity]]","x":-360,"y":-100,"width":250,"height":97,"color":"3"},
+		{"id":"8d75867e9474db7d","type":"text","text":"[[Tangent Distributions|Distribution]]","x":-1084,"y":450,"width":250,"height":60,"color":"6"},
+		{"id":"a9c3219c935bf6fc","type":"text","text":"[[dfn - Flat Chart and Completely Integrable Distribution|Flat Chart and Completely Integrable Distribution]]","x":-463,"y":834,"width":316,"height":80,"color":"6"},
+		{"id":"3dc08b8cbf825bb7","type":"text","text":"[[thm - Local Structure of Integral Manifolds|Local Structure of Integral Manifolds]]","x":-400,"y":1098,"width":250,"height":88,"color":"1"},
+		{"id":"702f950842066ff8","type":"text","text":"[[thm - Canonical Form for Commuting Vector Fields|Canonical Form for Commuting Vector Fields]]","x":-1334,"y":911,"width":250,"height":92,"color":"1"},
+		{"id":"064d69706605a744","type":"text","text":"[[pps - Involutive Distribution , Embedded Submanifold and Flat chart]]","x":-1560,"y":1142,"width":399,"height":102,"color":"3"},
+		{"id":"96cb973be36debe5","type":"text","text":"[[thm - Frobenius]]","x":-920,"y":740,"width":250,"height":60,"color":"1"},
+		{"id":"53a9b9138a34c7f7","type":"text","text":"[[dfn - Foliation|Foliation]]","x":440,"y":570,"width":232,"height":60,"color":"6"},
+		{"id":"ec2f699fd029d96e","type":"text","text":"[[pps - Involutive Distribution given by a Foliation|Involutive Distribution given by a Foliation]]","x":306,"y":828,"width":250,"height":129,"color":"3"},
+		{"id":"8887278f0edbbb55","type":"text","text":"[[thm - Global Frobenius Theorem|Global Frobenius Theorem]]","x":800,"y":849,"width":250,"height":88,"color":"1"}
+	],
+	"edges":[
+		{"id":"b24ccadd6e2db58c","fromNode":"8d75867e9474db7d","fromSide":"right","toNode":"21f560ad29d648e7","toSide":"left"},
+		{"id":"46438752469b1273","fromNode":"c96eafab494fd9ae","fromSide":"left","toNode":"21f560ad29d648e7","toSide":"right","fromEnd":"arrow"},
+		{"id":"cd304c8e2480750f","fromNode":"8d75867e9474db7d","fromSide":"right","toNode":"562446b1ee53ba24","toSide":"left"},
+		{"id":"2d55cf0e48f1c309","fromNode":"562446b1ee53ba24","fromSide":"top","toNode":"4277e913e8eda082","toSide":"bottom"},
+		{"id":"0e48e2c59b4a89f8","fromNode":"4277e913e8eda082","fromSide":"top","toNode":"21f560ad29d648e7","toSide":"bottom"},
+		{"id":"9c0fd841493f7288","fromNode":"c799c1dda4acf056","fromSide":"bottom","toNode":"21f560ad29d648e7","toSide":"top","label":"tool to verify"},
+		{"id":"794bab1b4ecbc0a6","fromNode":"21f560ad29d648e7","fromSide":"bottom","toNode":"96cb973be36debe5","toSide":"top","color":"5","label":"use"},
+		{"id":"80bd46c342e3d677","fromNode":"96cb973be36debe5","fromSide":"bottom","toNode":"a9c3219c935bf6fc","toSide":"top","color":"5","label":"to give"},
+		{"id":"7f772eb87730392a","fromNode":"8d75867e9474db7d","fromSide":"right","toNode":"a9c3219c935bf6fc","toSide":"left"},
+		{"id":"dca5d3d4e8aba125","fromNode":"a9c3219c935bf6fc","fromSide":"top","toNode":"562446b1ee53ba24","toSide":"bottom","color":"3","label":"obviously implies"},
+		{"id":"865a9dcdb93f257d","fromNode":"96cb973be36debe5","fromSide":"bottom","toNode":"702f950842066ff8","toSide":"top","label":"use"},
+		{"id":"b56d4b209e9ec32b","fromNode":"702f950842066ff8","fromSide":"bottom","toNode":"064d69706605a744","toSide":"top","label":"to give"},
+		{"id":"b07bd3b58d7357e6","fromNode":"8d75867e9474db7d","fromSide":"right","toNode":"3dc08b8cbf825bb7","toSide":"left"},
+		{"id":"f415a4ba73fb15f9","fromNode":"96cb973be36debe5","fromSide":"bottom","toNode":"3dc08b8cbf825bb7","toSide":"left","fromEnd":"arrow","color":"3","label":"together gives the both side's characterization"},
+		{"id":"74ddc56cef710df5","fromNode":"53a9b9138a34c7f7","fromSide":"bottom","toNode":"ec2f699fd029d96e","toSide":"top"},
+		{"id":"8ec293f54481e409","fromNode":"ec2f699fd029d96e","fromSide":"right","toNode":"8887278f0edbbb55","toSide":"left","fromEnd":"arrow","label":"gives each other"}
+	]
+}

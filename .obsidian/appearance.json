@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 28,
+  "baseFontSize": 21,
   "baseFontSizeAction": true,
-  "textFontFamily": "Lucida Bright,思源黑体 CN",
+  "textFontFamily": "Lucida Bright,字体管家楷体",
   "interfaceFontFamily": "Lucida Bright",
   "monospaceFontFamily": "Aa顺風顺水顺财神",
   "cssTheme": "Flexoki Warm",
@@ -9,8 +9,8 @@
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
     "math-callout",
-    "obsidian-callout",
-    "tikzjax"
+    "tikzjax",
+    "obsidian-callout"
   ],
   "nativeMenus": false
 }

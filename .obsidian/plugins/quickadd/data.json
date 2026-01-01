@@ -67,6 +67,46 @@
           }
         ]
       }
+    },
+    {
+      "id": "e04adf2d-ed1b-4f60-969c-4b0d898167df",
+      "name": "Archive",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Archive",
+        "id": "8defb984-f0f8-48ac-a9d9-cf983201e880",
+        "commands": [
+          {
+            "name": "Archive",
+            "type": "UserScript",
+            "id": "4e4e7829-d037-4e74-9620-18046c75c716",
+            "path": "Archive.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe2543ae-fa5e-4c69-ad80-1f34d2599a0b",
+      "name": "Move to Concepts",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Move to Concepts",
+        "id": "115b13f8-7bbc-429b-98cb-801759cb29a5",
+        "commands": [
+          {
+            "name": "Move to Concepts",
+            "type": "UserScript",
+            "id": "2d2da83e-1aab-4490-a572-7de53fa275cb",
+            "path": "Move to Concepts.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

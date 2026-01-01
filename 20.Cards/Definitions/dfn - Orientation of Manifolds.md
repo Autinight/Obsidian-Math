@@ -8,3 +8,4 @@
 > * An **orientation of $M$** is a continuous pointwise orientation.
 > * We say that $M$ is **orientable** if there exists an orientation for it, and **nonorientable** if not.
 > * An **oriented manifold(with boundary)** is an ordered pair $\left(M, \mathcal{O}\right)$, where $M$ is an orientable smooth manifold(with boundary) and $\mathcal{O}$ is a choice of orientation for $M$.
+

@@ -1,0 +1,4 @@
+> [!definition] Definition:
+> Let $M$ and $N$ be oriented smooth manifolds with or without boundary, and suppose $F:M\to N$ is a local diffeomorphism. If $M$ and $N$ are positive-dimensional, we say that $F$ is **orientation-preserving** if for each $p\in M$, the isomorphism $dF_p$ takes oriented bases of $T_pM$ to oriented bases of $T_{F(p)}N$, and **orientation-reversing** if it takes oriented bases of $T_pM$ to negatively oriented bases of $T_{F(p)}N$.
+>
+> If $M$ and $N$ are $0$-manifolds, then $F$ is orientation-preserving if for every $p\in M$, the points $p$ and $F(p)$ have the same orientation; and it is orientation-reversing if they have the opposite orientation.

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"0fad994507f2c248","type":"text","text":"[[dfn - Orientation of Vector Space]]","x":-640,"y":-120,"width":290,"height":98,"color":"6"},
+		{"id":"6c4ab1268c867b3a","type":"text","text":"[[dfn - Orientation of Manifolds]]","x":-640,"y":-373,"width":290,"height":100,"color":"6"},
+		{"id":"00d73f8b0fbf9f8d","type":"text","text":"[[pps - Orientation and nonvanishing n-Form]]","x":-100,"y":-373,"width":320,"height":100,"color":"3"},
+		{"id":"2f40671bfedf9a65","type":"text","text":"[[pps - nonzero Covector and Orientation]]","x":-100,"y":-120,"width":320,"height":99,"color":"3"},
+		{"id":"bc6d8d6e78e5d6e5","type":"text","text":"[[dfn - Orientation-preseving(reversing) local diffeomorphism]]","x":-1200,"y":-710,"width":400,"height":130,"color":"6"},
+		{"id":"65aa7ceb44f9d184","type":"text","text":"[[pps - The Orientation Determined by a Coordinate Atlas.]]","x":-640,"y":-700,"width":290,"height":120,"color":"3"},
+		{"id":"6e383e443e81e92f","type":"text","text":"[[pps - Product Orientations via Form]]","x":220,"y":-766,"width":250,"height":113,"color":"3"},
+		{"id":"640f13a7b6e89d21","type":"text","text":"[[pps - The Pullback Orientation]]","x":-720,"y":-920,"width":339,"height":80,"color":"3"}
+	],
+	"edges":[
+		{"id":"734e4a70e36d2bed","fromNode":"2f40671bfedf9a65","fromSide":"left","toNode":"0fad994507f2c248","toSide":"right","fromEnd":"arrow","label":"correspond"},
+		{"id":"451a7802284f9d47","fromNode":"0fad994507f2c248","fromSide":"top","toNode":"6c4ab1268c867b3a","toSide":"bottom","label":"generalize to"},
+		{"id":"8718494d24e4dda7","fromNode":"2f40671bfedf9a65","fromSide":"top","toNode":"00d73f8b0fbf9f8d","toSide":"bottom","label":"generalize to"},
+		{"id":"d3e0e01907954889","fromNode":"00d73f8b0fbf9f8d","fromSide":"left","toNode":"6c4ab1268c867b3a","toSide":"right","fromEnd":"arrow","label":"correspond"},
+		{"id":"cc0c30f3cec9b449","fromNode":"65aa7ceb44f9d184","fromSide":"bottom","toNode":"6c4ab1268c867b3a","toSide":"top","fromEnd":"arrow","label":"correspond"},
+		{"id":"4da0227676233ba3","fromNode":"00d73f8b0fbf9f8d","fromSide":"right","toNode":"6e383e443e81e92f","toSide":"bottom","label":"easily gives a product orientation\n"},
+		{"id":"523be6a10350db77","fromNode":"65aa7ceb44f9d184","fromSide":"right","toNode":"00d73f8b0fbf9f8d","toSide":"top","fromEnd":"arrow","label":"correspond"},
+		{"id":"4f0c177b8101c745","fromNode":"6c4ab1268c867b3a","fromSide":"left","toNode":"bc6d8d6e78e5d6e5","toSide":"bottom","label":"define via differention"},
+		{"id":"2375b4efde877037","fromNode":"bc6d8d6e78e5d6e5","fromSide":"top","toNode":"640f13a7b6e89d21","toSide":"left","label":"used to give"}
+	]
+}

@@ -1,12 +1,20 @@
 {
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
-  "smartIndentList": false,
+  "smartIndentList": true,
   "useTab": false,
   "strictLineBreaks": true,
   "foldHeading": true,
   "defaultViewMode": "preview",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "livePreview": false,
+  "vimMode": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
