@@ -26,6 +26,9 @@ body {
   --color-corollary-rgb: 210, 100, 0;   /* Deep Orange */
   --color-example-rgb: 180, 140, 40;    /* Deep Gold */
   --color-exercise-rgb: 44, 62, 80;     /* Midnight Blue */
+  
+  /* [新增] Technique 专用颜色 (Cyan/Dark Turquoise) */
+  --color-technique-rgb: 0, 150, 160;   
 
   /* Type B: 证明 */
   --color-gray-rgb: 100, 100, 100;
@@ -54,6 +57,9 @@ body {
   --callout-problem: var(--color-exercise-rgb); 
   --callout-solution: var(--color-solution-rgb);
   --callout-proof: var(--color-gray-rgb);
+  
+  /* [新增] 映射 Technique */
+  --callout-technique: var(--color-technique-rgb);
 
   --callout-remark: var(--color-remark-rgb);
   --callout-proofsketch: var(--color-proofsketch-rgb);
@@ -112,6 +118,9 @@ body {
 .callout[data-callout="exercise"] { --callout-color: var(--callout-exercise); }
 .callout[data-callout="problem"] { --callout-color: var(--callout-problem); }
 .callout[data-callout="solution"] { --callout-color: var(--callout-solution); }
+
+/* [新增] 绑定 Technique 类 */
+.callout[data-callout="technique"] { --callout-color: var(--callout-technique); }
 
 /* Type C 类 */
 .callout[data-callout="remark"] { --callout-color: var(--callout-remark); }

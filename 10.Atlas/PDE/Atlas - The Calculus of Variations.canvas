@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"eb6d8ab26074b305","x":560,"y":-160,"width":320,"height":260,"type":"group","label":"Examples"},
+		{"id":"7a9ab918c24613ec","type":"text","text":"[[Variations]]","x":-80,"y":50,"width":177,"height":50,"color":"6"},
+		{"id":"843922030c70fc5c","type":"text","text":"[[First Variation, Euler-Lagrange equation]]","x":200,"y":-60,"width":250,"height":91,"color":"1"},
+		{"id":"1e089ffde9821c4a","x":580,"y":-140,"width":250,"height":60,"color":"4","type":"text","text":"[[ep - Dirichlet's Principle|Dirichlet's Principle]]"},
+		{"id":"32f2ebb91585fcc5","x":580,"y":-64,"width":250,"height":60,"color":"4","type":"text","text":"[[ep - Nonlinear Poission Equation|Nonlinear Poission Equation]]"},
+		{"id":"b00fc00e168081b7","x":580,"y":20,"width":250,"height":60,"color":"4","type":"text","text":"[[ep - Minimal Surfaces|Minimal Surfaces]]"}
+	],
+	"edges":[
+		{"id":"6ee1635180cb6920","fromNode":"7a9ab918c24613ec","fromSide":"right","toNode":"843922030c70fc5c","toSide":"left"},
+		{"id":"87ce69d9b1e51ea8","fromNode":"843922030c70fc5c","fromSide":"right","toNode":"eb6d8ab26074b305","toSide":"left"}
+	]
+}

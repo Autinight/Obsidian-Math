@@ -1,5 +1,5 @@
 {
-  "autoPairBrackets": false,
+  "autoPairBrackets": true,
   "autoPairMarkdown": false,
   "smartIndentList": true,
   "useTab": false,
@@ -12,9 +12,10 @@
   "livePreview": false,
   "vimMode": false,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 80
   }
 }

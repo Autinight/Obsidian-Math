@@ -4,5 +4,7 @@
   "dataview",
   "obsidian-tikzjax",
   "templater-obsidian",
-  "obsidian-excalidraw-plugin"
+  "webpage-html-export",
+  "obsidian-zotero-desktop-connector",
+  "dust-calendar"
 ]

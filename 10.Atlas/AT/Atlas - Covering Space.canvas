@@ -3,23 +3,23 @@
 		{"id":"18453bafb4a4c23c","type":"text","text":"[[thm - Covering Induces Monomorphism]]","x":-380,"y":-639,"width":220,"height":119,"color":"1"},
 		{"id":"39cc6f5fc64eda44","type":"text","text":"[[dfn - Covering Space]]","x":-885,"y":-440,"width":250,"height":80,"color":"6"},
 		{"id":"243b71c2f6e03143","type":"text","text":"[[thm - lifting criterion]]","x":251,"y":73,"width":250,"height":85,"color":"1"},
-		{"id":"9199d18d2b6f3764","type":"text","text":"[[thm - Lifting Properties]]","x":-594,"y":-213,"width":250,"height":80,"color":"1"},
 		{"id":"620fc9f581ff8956","type":"text","text":"[[pps - Fibre and Conjugacy Class]]","x":425,"y":-746,"width":250,"height":107,"color":"2"},
 		{"id":"0d5e7342942d0837","type":"text","text":"[[thm - Lifting and Fundamental Group]]","x":80,"y":-213,"width":250,"height":123,"color":"1"},
 		{"id":"8bb55526da87b49a","type":"text","text":"[[lem - end-point of path-lifting is homotopy-free]]","x":-270,"y":-423,"width":256,"height":127,"color":"2"},
 		{"id":"05d064f81fe9c469","type":"text","text":"[[thm - Fibre and Right Cosets]]","x":300,"y":-520,"width":250,"height":100,"color":"1"},
 		{"id":"cbcb4d32a6a00c4a","type":"text","text":"[[Normal Covering]]","x":620,"y":-326,"width":250,"height":60,"color":"6"},
-		{"id":"9d151a74f9019362","type":"text","text":"[[lem - Deck Transformation and Right Cosets]]","x":-380,"y":285,"width":250,"height":103,"color":"2"},
 		{"id":"483e3b53f8405619","type":"text","text":"[[Deck Transformation|Deck Transformation]]","x":-885,"y":237,"width":250,"height":96,"color":"6"},
-		{"id":"5ee852368a28d540","type":"text","text":"[[dfn - Even Action|Even Action]]","x":-635,"y":620,"width":250,"height":80,"color":"6"},
-		{"id":"35dd0b4ba464cddc","type":"text","text":"[[thm - Simply Transitively when Normal]]","x":-760,"y":440,"width":250,"height":104,"color":"1"},
 		{"id":"94e96668fb819096","type":"text","text":"[[dfn - Universal Covering|Universal Covering]]","x":-885,"y":800,"width":250,"height":60,"color":"6"},
 		{"id":"bd76d770e4e3a9d9","type":"text","text":"[[lem - Uniqueness of Universal Covering]]","x":-380,"y":960,"width":250,"height":102,"color":"2"},
 		{"id":"f678090a3fc796e2","type":"text","text":"[[thm - Covering and Subgroup|Covering and Subgroup]]","x":50,"y":727,"width":250,"height":76,"color":"1"},
 		{"id":"f2395eaeb42fe228","type":"text","text":"[[thm - Existence of Simply Connected Covering|Existence of Simply Connected Covering]]","x":351,"y":903,"width":250,"height":114,"color":"1"},
-		{"id":"6ea485f267a28257","type":"text","text":"[[dfn - Semi-locally Simply connected space|Semi-locally Simply connected space]]","x":679,"y":602,"width":250,"height":121,"color":"6"},
-		{"id":"3778fc637034574f","type":"text","text":"[[thm - Even Action and Covering]]","x":-255,"y":705,"width":250,"height":60,"color":"1"},
-		{"id":"d4862cb6b3033617","type":"text","text":"[[thm - the Exact Sequence of Normal Covering]]","x":175,"y":285,"width":250,"height":128,"color":"1"}
+		{"id":"6ea485f267a28257","type":"text","text":"[[dfn - Semi-locally Simply connected space|Semi-locally Simply connected space]]","x":679,"y":602,"width":250,"height":98,"color":"6"},
+		{"id":"d4862cb6b3033617","type":"text","text":"[[thm - the Exact Sequence of Normal Covering]]","x":175,"y":285,"width":250,"height":128,"color":"1"},
+		{"id":"3778fc637034574f","type":"text","text":"[[thm - Even Action and Covering]]","x":-255,"y":723,"width":250,"height":60,"color":"1"},
+		{"id":"5ee852368a28d540","type":"text","text":"[[dfn - Even Action|Even Action]]","x":-635,"y":663,"width":250,"height":50,"color":"6"},
+		{"id":"35dd0b4ba464cddc","type":"text","text":"[[thm - Simply Transitively when Normal]]","x":-760,"y":440,"width":250,"height":120,"color":"1"},
+		{"id":"9d151a74f9019362","type":"text","text":"[[lem - Deck Transformation and Right Cosets]]","x":-392,"y":282,"width":250,"height":103,"color":"2"},
+		{"id":"9199d18d2b6f3764","type":"text","text":"[[thm - Lifting Properties]]","x":-594,"y":-213,"width":250,"height":80,"color":"1"}
 	],
 	"edges":[
 		{"id":"7712afcf803483e1","fromNode":"8bb55526da87b49a","fromSide":"right","toNode":"0d5e7342942d0837","toSide":"top","label":"used in"},
@@ -42,6 +42,7 @@
 		{"id":"1a6be013516d508d","fromNode":"bd76d770e4e3a9d9","fromSide":"left","toNode":"94e96668fb819096","toSide":"right","label":"describe"},
 		{"id":"a11dbf6751db7e09","fromNode":"6ea485f267a28257","fromSide":"bottom","toNode":"f2395eaeb42fe228","toSide":"right","label":"required in"},
 		{"id":"0c6c5ae20eb5beb9","fromNode":"f2395eaeb42fe228","fromSide":"left","toNode":"f678090a3fc796e2","toSide":"bottom","label":"required in"},
-		{"id":"c58aedf0e69a4714","fromNode":"d4862cb6b3033617","fromSide":"bottom","toNode":"3778fc637034574f","toSide":"top","fromEnd":"arrow"}
+		{"id":"c58aedf0e69a4714","fromNode":"d4862cb6b3033617","fromSide":"bottom","toNode":"3778fc637034574f","toSide":"top","fromEnd":"arrow"},
+		{"id":"25bc038a5d80df42","fromNode":"5ee852368a28d540","fromSide":"right","toNode":"3778fc637034574f","toSide":"left"}
 	]
 }

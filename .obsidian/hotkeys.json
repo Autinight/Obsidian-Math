@@ -8,14 +8,6 @@
     }
   ],
   "editor:toggle-bold": [],
-  "quickadd:choice:0fa3b190-7868-4b1b-9252-ba7f7fb6ce7a": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
-  ],
   "templater-obsidian:create-50.Templates/TPL - Auto Metadata.md": [
     {
       "modifiers": [
@@ -49,6 +41,30 @@
         "Shift"
       ],
       "key": "Q"
+    }
+  ],
+  "templater-obsidian:create-60.Templates/NOTES.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-60.Templates/Script_DailyDraft.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "open-vscode:open-vscode": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
     }
   ]
 }

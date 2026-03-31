@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"e471737fe81c859c","type":"group","x":20,"y":20,"width":360,"height":280,"label":"未命名组"},
+		{"id":"4a5c6af437501544","type":"group","x":-20,"y":-280,"width":400,"height":220,"label":"未命名组"},
+		{"id":"7b48e1597e357f5e","type":"text","text":"[[dfn - Riemannian Metric|Riemannian Metric]]","x":-360,"y":-60,"width":250,"height":60,"color":"6"},
+		{"id":"f6a871cd5442d2ea","type":"text","text":"[[Laplace-Beltrami Operator]]","x":60,"y":40,"width":250,"height":60,"color":"6"},
+		{"id":"a6d672c9099598e3","type":"text","text":"[[pps - Riemannian Metric Induced by Immersion|Riemannian Metric Induced by Immersion]]","x":0,"y":-380,"width":250,"height":60,"color":"3"},
+		{"id":"cfa88dc4bb1840fe","type":"text","text":"[[Gradient on Riemannian Manifold]]","x":60,"y":200,"width":250,"height":60,"color":"6"},
+		{"id":"de61740eea33f28c","type":"text","text":"[[Divergence on Riemannian Manifold]]","x":60,"y":120,"width":250,"height":60,"color":"6"},
+		{"id":"afe3ae21bddb6e02","type":"text","text":"[[dfn - Riemannian Immersion(Embedding)|Riemannian Immersion(Embedding)]]","x":20,"y":-240,"width":250,"height":60,"color":"6"},
+		{"id":"c1c29d7b216b39be","type":"text","text":"[[dfn - Riemannian Submersion|Riemannian Submersion]]","x":20,"y":-140,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"8835d5bbddf7de59","fromNode":"7b48e1597e357f5e","fromSide":"right","toNode":"4a5c6af437501544","toSide":"left"},
+		{"id":"9f230ae0d5550bae","fromNode":"7b48e1597e357f5e","fromSide":"right","toNode":"e471737fe81c859c","toSide":"left"},
+		{"id":"83a4325df35059ac","fromNode":"a6d672c9099598e3","fromSide":"bottom","toNode":"afe3ae21bddb6e02","toSide":"top"}
+	]
+}

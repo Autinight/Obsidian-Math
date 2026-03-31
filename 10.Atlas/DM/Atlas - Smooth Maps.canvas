@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"af52c80448a7cfbb","type":"text","text":"[[thm - Exsistence of Partition of Unity on Manifolds|Exsistence of Partition of Unity on Manifolds]]","x":80,"y":-228,"width":250,"height":116,"color":"1"},
+		{"id":"9df37970a4c758e2","type":"text","text":"[[dfn - Partition of Unity|Partition of Unity]]","x":-440,"y":-200,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"d115e977157b22aa","fromNode":"9df37970a4c758e2","fromSide":"right","toNode":"af52c80448a7cfbb","toSide":"left"}
+	]
+}

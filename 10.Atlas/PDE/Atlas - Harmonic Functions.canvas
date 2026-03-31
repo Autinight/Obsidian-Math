@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"525fe403def7e37d","type":"group","x":480,"y":260,"width":750,"height":380,"label":"Harnack"},
+		{"id":"a05b35c5a0cc99b6","type":"text","text":"[[pps - Harnack Inequality for Nonnegative Harmonic Function|Harnack Inequality for Nonnegative Harmonic Function]]","x":980,"y":342,"width":250,"height":98,"color":"1"},
+		{"id":"46b459566963d7ac","type":"text","text":"[[thm - Harnack Inequality for Harmonic Function|Harnack Inequality for Harmonic Function]]","x":520,"y":347,"width":250,"height":87,"color":"1"},
+		{"id":"c1179d6cf3b4363a","type":"text","text":"[[lem - Differential Harnack Inequality for Nonnegative Harmonic Function|Differential Harnack Inequality for Nonnegative Harmonic Function]]","x":749,"y":477,"width":250,"height":117,"color":"1"},
+		{"id":"c5128387733d9c8c","type":"text","text":"[[pps - Interior Gradient Estimates by Boundary Value for Harmonic Functions|Interior Gradient Estimates by Boundary Value for Harmonic Functions]]","x":411,"y":820,"width":359,"height":105,"color":"1"},
+		{"id":"6ce9684660c2f16e","type":"text","text":"[[thm - Gradient Estimates for Harmonic Functions|Gradient Estimates for Harmonic Functions]]","x":466,"y":680,"width":250,"height":120,"color":"1"},
+		{"id":"3868fb249034b076","type":"text","text":"[[pps - Maximum Principle for Mean Value Property|Maximum Principle for Mean Value Property]]","x":-340,"y":599,"width":250,"height":98,"color":"2"},
+		{"id":"9c93a1db28087597","type":"text","text":"[[thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations|Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations]]","x":-76,"y":415,"width":316,"height":124,"color":"1"},
+		{"id":"9072b540bae67f1a","type":"text","text":"[[tec - Probing Singularities via Moving Boundaries]]","x":952,"y":38,"width":250,"height":102,"color":"5"},
+		{"id":"074b5c539240798f","type":"text","text":"[[pps - Quantitative Hopf Lemma for Harmonic Function|Quantitative Hopf Lemma for Harmonic Function]]","x":497,"y":1062,"width":250,"height":118,"color":"1"},
+		{"id":"8957d44680285fc1","type":"text","text":"[[thm - Harmonic Function with Removable Singularity|Harmonic Function with Removable Singularity]]","x":457,"y":21,"width":250,"height":119,"color":"1"},
+		{"id":"cb7d38e2f7ba47fa","type":"text","text":"[[thm - Characterization of harmonic functions in the sense of distributions|Characterization of harmonic functions in the sense of distributions]]","x":487,"y":-130,"width":255,"height":120,"color":"1"},
+		{"id":"51f2c60693b8bd54","type":"text","text":"[[thm - Harmonic Function is Analytic|Harmonic Function is Analytic]]","x":440,"y":-290,"width":250,"height":88,"color":"1"},
+		{"id":"2636b2cd42de66fe","type":"text","text":"[[thm - Harmonicity and Mean Value Property are Equivalent|Harmonicity and Mean Value Property are Equivalent]]","x":-296,"y":-70,"width":289,"height":121,"color":"1"},
+		{"id":"b7f3993edb934e3f","type":"text","text":"[[dfn - Mean Value Properties|Mean Value Properties]]","x":-536,"y":261,"width":240,"height":70,"color":"6"},
+		{"id":"5bfa75cfe111ee6e","type":"text","text":"[[dfn - Harmonic Function|Harmonic Function]]","x":-76,"y":261,"width":300,"height":70,"color":"6"}
+	],
+	"edges":[
+		{"id":"40d1053029fc5781","fromNode":"b7f3993edb934e3f","fromSide":"right","toNode":"5bfa75cfe111ee6e","toSide":"left","fromEnd":"arrow","label":"equivalent"},
+		{"id":"35d96f143992dd77","fromNode":"2636b2cd42de66fe","fromSide":"bottom","toNode":"b7f3993edb934e3f","toSide":"top"},
+		{"id":"926a74f4c090d841","fromNode":"2636b2cd42de66fe","fromSide":"bottom","toNode":"5bfa75cfe111ee6e","toSide":"top"},
+		{"id":"65c783aeb628bcc3","fromNode":"b7f3993edb934e3f","fromSide":"left","toNode":"3868fb249034b076","toSide":"left"},
+		{"id":"e17f19387c4fe4b5","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"6ce9684660c2f16e","toSide":"left"},
+		{"id":"a81dddbb58f06444","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"525fe403def7e37d","toSide":"left"},
+		{"id":"b15de78c76ed9e0e","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"cb7d38e2f7ba47fa","toSide":"left"},
+		{"id":"5f63b2fccb4d6dfe","fromNode":"3868fb249034b076","fromSide":"top","toNode":"9c93a1db28087597","toSide":"left","label":"generallized to"},
+		{"id":"f29dd65af3bbfde5","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"8957d44680285fc1","toSide":"left"},
+		{"id":"b0fce4f4e5905278","fromNode":"9072b540bae67f1a","fromSide":"left","toNode":"8957d44680285fc1","toSide":"right"},
+		{"id":"986aecb6dcaa398e","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"c5128387733d9c8c","toSide":"left"},
+		{"id":"bb85077ccb87d302","fromNode":"46b459566963d7ac","fromSide":"right","toNode":"a05b35c5a0cc99b6","toSide":"left","fromEnd":"arrow","label":"equivalent"},
+		{"id":"232e205876ce9339","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"51f2c60693b8bd54","toSide":"left"},
+		{"id":"380199b9cfacbf11","fromNode":"6ce9684660c2f16e","fromSide":"right","toNode":"51f2c60693b8bd54","toSide":"right","color":"5","label":"used in"},
+		{"id":"c43eb7e54fc93085","fromNode":"3868fb249034b076","fromSide":"right","toNode":"c5128387733d9c8c","toSide":"bottom","color":"5"},
+		{"id":"b4881170249d2b2c","fromNode":"5bfa75cfe111ee6e","fromSide":"right","toNode":"074b5c539240798f","toSide":"left"},
+		{"id":"42f46ef0616053c7","fromNode":"3868fb249034b076","fromSide":"bottom","toNode":"074b5c539240798f","toSide":"bottom","color":"5"},
+		{"id":"3799fdf68eebaeea","fromNode":"a05b35c5a0cc99b6","fromSide":"right","toNode":"074b5c539240798f","toSide":"right","color":"5"}
+	]
+}

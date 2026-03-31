@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"4782349c342abb3c","type":"text","text":"[[thm - Passing Smoothness to The Quotient|Passing Smoothness to The Quotient]]","x":-301,"y":-173,"width":250,"height":93,"color":"1"},
+		{"id":"75c6a135b30c01f1","type":"text","text":"[[thm - First Isomorphism Theorem for Lie Groups|First Isomorphism Theorem for Lie Groups]]","x":127,"y":-15,"width":250,"height":95,"color":"1"},
+		{"id":"45c7e4e1090741c5","x":-240,"y":160,"width":367,"height":100,"color":"1","type":"text","text":"[[thm - Homogeneous Space Characterization Theorem|Homogeneous Space Characterization Theorem]]"}
+	],
+	"edges":[]
+}

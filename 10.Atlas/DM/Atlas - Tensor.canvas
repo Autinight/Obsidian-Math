@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"0c1d3e6e562c02f5","type":"text","text":"[[dfn - Alternation|Alternation]]","x":-460,"y":-400,"width":162,"height":60,"color":"6"},
+		{"id":"e5ff6dd7769822c9","x":-220,"y":-240,"width":250,"height":60,"color":"6","type":"text","text":"[[dfn - Wedge Product|Wedge Product]]"}
+	],
+	"edges":[]
+}

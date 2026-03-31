@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"1f743aae933ac26b","type":"group","x":-220,"y":1160,"width":420,"height":400,"label":"Maximum Principle"},
+		{"id":"dd7fa4a04aefffcd","type":"group","x":-220,"y":720,"width":360,"height":360,"label":"Regularity of Weak Solutions"},
+		{"id":"dd0cc79b183a341d","type":"group","x":-220,"y":440,"width":400,"height":225,"label":"Existence of Weak Solutions"},
+		{"id":"ce6222ac5b6b33b4","type":"group","x":-720,"y":553,"width":320,"height":230,"label":"Subject"},
+		{"id":"96c7369ece7bad9e","type":"text","text":"[[Weak-Solutions for Elliptic Equations]]","x":-200,"y":200,"width":250,"height":60,"color":"6"},
+		{"id":"460d0ea19b2eac00","type":"text","text":"[[thm - Energy Estimates|Energy Estimates]]","x":-200,"y":319,"width":250,"height":60,"color":"6"},
+		{"id":"dbb578c4083636d0","type":"text","text":"[[thm - Interior H^2-regularity|Interior H^2-regularity]]","x":-200,"y":760,"width":250,"height":60,"color":"1"},
+		{"id":"cd3a375989baf4cc","type":"text","text":"[[thm - Higher Interior Regularity|Higher Interior Regularity]]","x":-200,"y":850,"width":250,"height":60,"color":"1"},
+		{"id":"1d7904aedd19fb86","type":"text","text":"[[thm - Infinite Differentiability in the Interior|Infinite Differentiability in the Interior]]","x":-200,"y":940,"width":250,"height":100,"color":"1"},
+		{"id":"a0f3296565184c21","type":"text","text":"[[The Space H^{-1}]]","x":-160,"y":-20,"width":250,"height":60,"color":"6"},
+		{"id":"ce4e68687b6f7d7e","type":"text","text":"[[thm - Lax-Milgram Theorem|Lax-Milgram Theorem]]","x":140,"y":259,"width":250,"height":60,"color":"1"},
+		{"id":"3a668bb3a4043b65","type":"text","text":"[[thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations|Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations]]","x":-200,"y":1180,"width":366,"height":109,"color":"1"},
+		{"id":"ea94e03a7aefea40","type":"text","text":"[[thm - First Existence Theorem for weak solutions|First Existence Theorem for weak solutions]]","x":-200,"y":470,"width":250,"height":110,"color":"1"},
+		{"id":"10696061078f913e","type":"text","text":"[[tec - Interpolation Principle|Interpolation Principle]]","x":320,"y":790,"width":250,"height":60,"color":"5"},
+		{"id":"82bfca3acc64f074","type":"text","text":"[[thm - Difference Quotients and Weak Derivatives|Difference Quotients and Weak Derivatives]]","x":280,"y":640,"width":250,"height":94,"color":"1"},
+		{"id":"827940e164bb3903","type":"text","text":"[[dfn - Boundary Value Problem|Boundary Value Problem]]","x":-685,"y":693,"width":250,"height":60,"color":"6"},
+		{"id":"142da77702c0b0d9","type":"text","text":"[[dfn - Elliptic Partial Differential Operator]]","x":-680,"y":572,"width":240,"height":90,"color":"6"},
+		{"id":"b7d6fc61de21d036","type":"text","text":"[[thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term|Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term]]","x":-200,"y":1360,"width":366,"height":140,"color":"1"}
+	],
+	"edges":[
+		{"id":"50eeb2a8df3fe56b","fromNode":"ce6222ac5b6b33b4","fromSide":"right","toNode":"96c7369ece7bad9e","toSide":"left"},
+		{"id":"826c43423bb7d396","fromNode":"a0f3296565184c21","fromSide":"bottom","toNode":"96c7369ece7bad9e","toSide":"top"},
+		{"id":"60db3ca0be5f64c3","fromNode":"ce6222ac5b6b33b4","fromSide":"right","toNode":"460d0ea19b2eac00","toSide":"left"},
+		{"id":"7ba67e5e263812f7","fromNode":"ce6222ac5b6b33b4","fromSide":"right","toNode":"dd0cc79b183a341d","toSide":"left"},
+		{"id":"08aef58c5ae8fba0","fromNode":"460d0ea19b2eac00","fromSide":"right","toNode":"ea94e03a7aefea40","toSide":"right"},
+		{"id":"443e42700e21a632","fromNode":"ce4e68687b6f7d7e","fromSide":"bottom","toNode":"ea94e03a7aefea40","toSide":"right"},
+		{"id":"9a858451f879c640","fromNode":"10696061078f913e","fromSide":"left","toNode":"dbb578c4083636d0","toSide":"right"},
+		{"id":"afbaba3fd54b24d5","fromNode":"ce6222ac5b6b33b4","fromSide":"right","toNode":"dd7fa4a04aefffcd","toSide":"left"},
+		{"id":"d97e450aa32b93b6","fromNode":"82bfca3acc64f074","fromSide":"left","toNode":"dbb578c4083636d0","toSide":"right"},
+		{"id":"d521941e43c256bf","fromNode":"ce6222ac5b6b33b4","fromSide":"right","toNode":"1f743aae933ac26b","toSide":"left"}
+	]
+}

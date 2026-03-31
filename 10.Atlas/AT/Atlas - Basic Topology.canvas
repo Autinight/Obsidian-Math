@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"4399c8753b12abd2","type":"text","text":"[[pps - A map from compact to Hausdorff spaces is closed|A map from compact to Hausdorff spaces is closed]]","x":-141,"y":31,"width":250,"height":129,"color":"3"},
+		{"id":"04f5e982f3312af9","type":"text","text":"[[thm - Seperate a point and a compact set|Seperate a point and a compact set]]","x":-600,"y":96,"width":250,"height":85,"color":"1"},
+		{"id":"396b9d49f02de916","x":-780,"y":340,"width":250,"height":60,"color":"6","type":"text","text":"[[dfn - Local Compactness|Local Compactness]]"},
+		{"id":"9348e0bf674ccd02","x":-220,"y":320,"width":250,"height":80,"color":"1","type":"text","text":"[[thm - One-point Compactification|One-point Compactification]]"}
+	],
+	"edges":[
+		{"id":"03249f3dade045f8","fromNode":"396b9d49f02de916","fromSide":"right","toNode":"9348e0bf674ccd02","toSide":"left"}
+	]
+}

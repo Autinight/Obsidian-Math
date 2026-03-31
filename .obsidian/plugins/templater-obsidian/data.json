@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "50.Templates",
+  "templates_folder": "60.Templates",
   "templates_pairs": [
     [
       "",
@@ -12,14 +12,20 @@
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": false,
-  "folder_templates": [],
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "40.Drafts/2026-03",
+      "template": "60.Templates/Daily Draft.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "50.Templates/NOTES.md"
+    "60.Templates/NOTES.md",
+    "60.Templates/Script_DailyDraft.md"
   ],
   "startup_templates": [
     ""

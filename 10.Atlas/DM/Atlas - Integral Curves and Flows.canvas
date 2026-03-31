@@ -8,17 +8,18 @@
 		{"id":"76bb479a620fc730","type":"text","text":"[[dfn - Maximal Flow|Maximal Flow]]","x":80,"y":-65,"width":250,"height":60,"color":"6"},
 		{"id":"e2e1ad5f9fb492d4","type":"text","text":"[[dfn - Flow Domain and Flow|Flow Domain and Flow]]","x":-300,"y":50,"width":250,"height":80,"color":"6"},
 		{"id":"ad5ac77590384ea3","type":"text","text":"[[dfn - Complete Vector Field|Complete Vector Field]]","x":-324,"y":520,"width":250,"height":80,"color":"6"},
-		{"id":"7049aba19edb964c","type":"text","text":"[[lem - Uniform Time Lemma|Uniform Time Lemma]]","x":-324,"y":720,"width":250,"height":76,"color":"3"},
 		{"id":"148663ed8e4254ab","type":"text","text":"[[thm - Flowout Theorem|Flowout Theorem]]","x":-380,"y":1100,"width":250,"height":60,"color":"1"},
 		{"id":"55a0a8012dc115d9","type":"text","text":"[[thm - Boundary Flowout Theorem|Boundary Flowout Theorem]]","x":-380,"y":1362,"width":250,"height":82,"color":"1"},
 		{"id":"6d0c6e03ba1577bb","type":"text","text":"[[pps - Naturality of Flows|Naturality of Flows]]","x":600,"y":21,"width":250,"height":80,"color":"3"},
+		{"id":"7049aba19edb964c","type":"text","text":"[[lem - Uniform Time Lemma|Uniform Time Lemma]]","x":-324,"y":720,"width":250,"height":76,"color":"3"},
 		{"id":"949fff9c2e09911e","type":"text","text":"[[lem - Escape Lemma|Escape Lemma]]","x":655,"y":500,"width":250,"height":60,"color":"3"},
 		{"id":"88bae5cbf668eeff","type":"text","text":"[[thm - Compactly Supported Vector Fields is Complete|Compactly Supported Vector Fields is Complete]]","x":80,"y":460,"width":325,"height":120,"color":"1"},
 		{"id":"748328ac55a30571","type":"text","text":"[[thm - Left-invariant Vector Field is Complete]]","x":80,"y":645,"width":325,"height":113,"color":"1"},
 		{"id":"5d95890d23ab47bb","type":"text","text":"[[pps - All Vector Fields are Complete on a Compact Manifold|All Vector Fields are Complete on a Compact Manifold]]","x":545,"y":295,"width":360,"height":99,"color":"3"},
 		{"id":"ad89919845fcba91","type":"text","text":"[[thm - Fundamental Theorem on Flows|Fundamental Theorem on Flows]]","x":40,"y":195,"width":290,"height":100,"color":"1"},
 		{"id":"73a9e7bfad1ac99c","type":"text","text":"[[thm - Canonical Form Near a Regular Point|Canonical Form Near a Regular Point]]","x":155,"y":1051,"width":250,"height":109,"color":"1"},
-		{"id":"beaf598bb53b2f9f","type":"text","text":"[[thm - Canonical Form for Commuting Vector Fields]]","x":155,"y":1362,"width":250,"height":115,"color":"1"}
+		{"id":"beaf598bb53b2f9f","type":"text","text":"[[thm - Canonical Form for Commuting Vector Fields]]","x":155,"y":1362,"width":250,"height":115,"color":"1"},
+		{"id":"6d0d07e800e87d66","x":597,"y":819,"width":250,"height":60,"color":"3","type":"text","text":"[[pps - Naturality of Integral Curves]]"}
 	],
 	"edges":[
 		{"id":"6548bcee352d3bf1","fromNode":"fd9db021fc8e9f91","fromSide":"top","toNode":"8b39cdc75ee93cc0","toSide":"left"},
@@ -37,6 +38,7 @@
 		{"id":"b13e53582b457b3b","fromNode":"88bae5cbf668eeff","fromSide":"right","toNode":"949fff9c2e09911e","toSide":"left"},
 		{"id":"139cbc384b76bfbc","fromNode":"148663ed8e4254ab","fromSide":"right","toNode":"73a9e7bfad1ac99c","toSide":"left"},
 		{"id":"7896d50288ebf0f7","fromNode":"148663ed8e4254ab","fromSide":"bottom","toNode":"55a0a8012dc115d9","toSide":"top","fromEnd":"arrow","label":"compare"},
-		{"id":"9f3e236710bc1d1a","fromNode":"73a9e7bfad1ac99c","fromSide":"bottom","toNode":"beaf598bb53b2f9f","toSide":"top","fromEnd":"arrow","label":"please compare"}
+		{"id":"9f3e236710bc1d1a","fromNode":"73a9e7bfad1ac99c","fromSide":"bottom","toNode":"beaf598bb53b2f9f","toSide":"top","fromEnd":"arrow","label":"please compare"},
+		{"id":"a91ff287a9df0b8c","fromNode":"6d0d07e800e87d66","fromSide":"left","toNode":"748328ac55a30571","toSide":"right"}
 	]
 }

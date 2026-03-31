@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"10be15d459dc6d06","x":-151,"y":-149,"width":250,"height":60,"type":"text","text":"[[pps - Law of Total Variance|Law of Total Variance]]"},
+		{"id":"b3bb61c1d87cb97b","x":-161,"y":35,"width":250,"height":60,"type":"text","text":"[[pps - Law of Total Expectation|Law of Total Expectation]]"}
+	],
+	"edges":[]
+}

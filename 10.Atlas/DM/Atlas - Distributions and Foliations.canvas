@@ -6,14 +6,14 @@
 		{"id":"4277e913e8eda082","type":"text","text":"[[pps - Integrable Distribution is Involutive|Integrable Distribution is Involutive]]","x":-275,"y":315,"width":255,"height":93,"color":"2"},
 		{"id":"c799c1dda4acf056","type":"text","text":"[[lem -  Local Frame Criterion for Involutivity|Local Frame Criterion for Involutivity]]","x":-360,"y":-100,"width":250,"height":97,"color":"3"},
 		{"id":"8d75867e9474db7d","type":"text","text":"[[Tangent Distributions|Distribution]]","x":-1084,"y":450,"width":250,"height":60,"color":"6"},
-		{"id":"a9c3219c935bf6fc","type":"text","text":"[[dfn - Flat Chart and Completely Integrable Distribution|Flat Chart and Completely Integrable Distribution]]","x":-463,"y":834,"width":316,"height":80,"color":"6"},
-		{"id":"3dc08b8cbf825bb7","type":"text","text":"[[thm - Local Structure of Integral Manifolds|Local Structure of Integral Manifolds]]","x":-400,"y":1098,"width":250,"height":88,"color":"1"},
+		{"id":"a9c3219c935bf6fc","type":"text","text":"[[20.Cards/Definitions/dfn - Flat Chart and Completely Integrable Distribution|Flat Chart and Completely Integrable Distribution]]","x":-463,"y":834,"width":316,"height":80,"color":"6"},
 		{"id":"702f950842066ff8","type":"text","text":"[[thm - Canonical Form for Commuting Vector Fields|Canonical Form for Commuting Vector Fields]]","x":-1334,"y":911,"width":250,"height":92,"color":"1"},
 		{"id":"064d69706605a744","type":"text","text":"[[pps - Involutive Distribution , Embedded Submanifold and Flat chart]]","x":-1560,"y":1142,"width":399,"height":102,"color":"3"},
 		{"id":"96cb973be36debe5","type":"text","text":"[[thm - Frobenius]]","x":-920,"y":740,"width":250,"height":60,"color":"1"},
 		{"id":"53a9b9138a34c7f7","type":"text","text":"[[dfn - Foliation|Foliation]]","x":440,"y":570,"width":232,"height":60,"color":"6"},
 		{"id":"ec2f699fd029d96e","type":"text","text":"[[pps - Involutive Distribution given by a Foliation|Involutive Distribution given by a Foliation]]","x":306,"y":828,"width":250,"height":129,"color":"3"},
-		{"id":"8887278f0edbbb55","type":"text","text":"[[thm - Global Frobenius Theorem|Global Frobenius Theorem]]","x":800,"y":849,"width":250,"height":88,"color":"1"}
+		{"id":"8887278f0edbbb55","type":"text","text":"[[thm - Global Frobenius Theorem|Global Frobenius Theorem]]","x":800,"y":849,"width":250,"height":88,"color":"1"},
+		{"id":"3dc08b8cbf825bb7","type":"text","text":"[[thm - Local Structure of Integral Manifolds|Local Structure of Integral Manifolds]]","x":-430,"y":1120,"width":250,"height":88,"color":"1"}
 	],
 	"edges":[
 		{"id":"b24ccadd6e2db58c","fromNode":"8d75867e9474db7d","fromSide":"right","toNode":"21f560ad29d648e7","toSide":"left"},
