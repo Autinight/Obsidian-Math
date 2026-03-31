@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+                "file": "00.Inbox/ex - Scale for Curvature Tensor.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch03"
+              "title": "ex - Scale for Curvature Tensor"
             }
           }
         ]
@@ -172,9 +172,19 @@
               "icon": "lucide-calendar-check",
               "title": "日历"
             }
+          },
+          {
+            "id": "7c1fc6334743113c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -188,14 +198,16 @@
       "open-vscode:VSCode": false,
       "templater-obsidian:Templater": true,
       "webpage-html-export:导出为HTML": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "00.Inbox/ex - Scale for Curvature Tensor.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
@@ -218,7 +230,6 @@
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
     "20.Cards/Exercises/ex - Orthonormal Frame with Connection Vanish at a Point.md",
     "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
-    "20.Cards/Exercises/ex - Quotient map as Riemannian Submersion.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
