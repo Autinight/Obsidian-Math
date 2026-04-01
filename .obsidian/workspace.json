@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex- Integrability for PDEs and RG.md",
-                "mode": "preview",
+                "file": "20.Cards/Concepts/Tangent Distributions.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex- Integrability for PDEs and RG"
+              "title": "Tangent Distributions"
             }
           }
         ]
@@ -204,8 +204,21 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "20.Cards/Definitions/dfn - Involutive.md",
+    "20.Cards/Theorems/thm - Local Structure of Integral Manifolds.md",
+    "20.Cards/Theorems/thm - Frobenius.md",
+    "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "10.Atlas/DM/Atlas - Tensor.canvas",
+    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
+    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "00.Inbox/ex- Integrability for PDEs and RG.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
@@ -225,18 +238,7 @@
     "20.Cards/Exercises/ex - Commutibility between Contraction and Differentiation.md",
     "20.Cards/Exercises/ex - Constant length and Perpendicular Covariant Derivation.md",
     "20.Cards/Exercises/ex - Coordinates Representation for Connection of 0,2-Tensor.md",
-    "20.Cards/Exercises/ex - Distribution and Gradient.md",
-    "20.Cards/Exercises/ex - Lebniz Rule of Some Operator.md",
-    "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
-    "20.Cards/Exercises/ex - Normal Coordinates at p.md",
-    "20.Cards/Exercises/ex - Orthonormal Frame with Connection Vanish at a Point.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
@@ -245,9 +247,6 @@
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
     "journals",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "30.Recources/PDE",
     "30.Recources/RG/Petersen Ex",
     "40.Drafts/2026-03/2026",
