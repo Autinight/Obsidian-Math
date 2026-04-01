@@ -190,7 +190,7 @@
 > \frac{\partial u^i}{\partial x^k}&=P_k^i(x,u(x)),\\
 > u(x_0)&=u_0.
 > \end{aligned}$$
-> 1. Show that
+>   1. Show that
 > $$\frac{\partial^2u^i}{\partial x^k\partial x^l}=\frac{\partial P_l^i}{\partial x^k}+\frac{\partial P_l^i}{\partial u^j}P_k^j,$$
 > and conclude that all such initial value problems can only be solved when the **integrability conditions**
 > $$\frac{\partial P_l^i}{\partial x^k}+\frac{\partial P_l^i}{\partial u^j}P_k^j=\frac{\partial P_k^i}{\partial x^l}+\frac{\partial P_k^i}{\partial u^j}P_l^j$$

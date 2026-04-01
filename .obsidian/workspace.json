@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+                "file": "00.Inbox/ex- Integrability for PDEs and RG.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch03"
+              "title": "ex- Integrability for PDEs and RG"
             }
           }
         ]
@@ -204,9 +204,10 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "00.Inbox/ex- Integrability for PDEs and RG.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
@@ -229,7 +230,6 @@
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
     "20.Cards/Exercises/ex - Orthonormal Frame with Connection Vanish at a Point.md",
-    "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
