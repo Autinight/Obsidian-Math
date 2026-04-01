@@ -38,6 +38,8 @@
 > 因此$L$是良定义的. 此外,  
 >  $$ L\left(x+ y+ M\right)= x-a_{x}e+ y-a_{y}e= L\left(x+ M\right)+ L\left(y+ M\right) $$
 > $L$是一个线性映射. 任取$x_0\in c_0$, 我们有$L\left(x_0+ M\right)= x_0$, 故$L$是满的. 此外, 若$L\left(x+ M\right)= 0$, 则$x-a_{x}e= 0$, $x= a_{x}e\in M$, 故$L$是单的. 因此$L$是一个线性同构.
+> 
+> $c_0$的范数是有界的, 只要证明$c/M$泛式不是有界的即可, 但是商范数不超过原范数, 而$c$也是有界的, 这个不行.
 
 > [!exercise] Exercise: 3
 > 考虑集合
