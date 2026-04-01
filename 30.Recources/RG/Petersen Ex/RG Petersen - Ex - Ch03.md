@@ -190,16 +190,16 @@
 > \frac{\partial u^i}{\partial x^k}&=P_k^i(x,u(x)),\\
 > u(x_0)&=u_0.
 > \end{aligned}$$
-> 21. Show that
+> 1. Show that
 > $$\frac{\partial^2u^i}{\partial x^k\partial x^l}=\frac{\partial P_l^i}{\partial x^k}+\frac{\partial P_l^i}{\partial u^j}P_k^j,$$
 > and conclude that all such initial value problems can only be solved when the **integrability conditions**
 > $$\frac{\partial P_l^i}{\partial x^k}+\frac{\partial P_l^i}{\partial u^j}P_k^j=\frac{\partial P_k^i}{\partial x^l}+\frac{\partial P_k^i}{\partial u^j}P_l^j$$
 > hold.
-> 22. Conversely show that all such initial value problems can be solved if the integrability conditions hold. Hint: This is equivalent to the Frobenius integrability theorem but can be established directly (see also [97, vol. 1]). When $P$ does not depend on $u$, this result goes back to Clairaut. The general case appears to have been a folklore result that predates what we call the Frobenius theorem about integrability of distributions.
-> 23. Using coordinates $x^i$ on a Riemannian $n$-manifold form the system
+> 2. Conversely show that all such initial value problems can be solved if the integrability conditions hold. Hint: This is equivalent to the Frobenius integrability theorem but can be established directly (see also [97, vol. 1]). When $P$ does not depend on $u$, this result goes back to Clairaut. The general case appears to have been a folklore result that predates what we call the Frobenius theorem about integrability of distributions.
+> 3. Using coordinates $x^i$ on a Riemannian $n$-manifold form the system
 > $$\frac{\partial U_j^i}{\partial x^k}=\Gamma_{kj}^sU_s^i,\quad i,j=1,\ldots,n$$
 > and show that its integrability conditions are equivalent to $R^s_{klj}=0$.
-> 24. Show that a flat Riemannian manifold admits Cartesian coordinates. Hint: Denote the potential Cartesian coordinates by $u^i$ and consider the system:
+> 4. Show that a flat Riemannian manifold admits Cartesian coordinates. Hint: Denote the potential Cartesian coordinates by $u^i$ and consider the system:
 > $$\frac{\partial u^i}{\partial x^k}=U_k^i$$
 > with appropriate initial values. Make sure you check that $u^i$ really form a Cartesian coordinate system. This way of locally characterizing Euclidean space is very close in spirit to Riemann's original approach. Hint: Consider the derivative of
 > $$g^{kl}\frac{\partial u^i}{\partial x^k}\frac{\partial u^j}{\partial x^l},$$
@@ -211,14 +211,14 @@
 > $$\bigl(u^1(x),\dots,u^{n+1}(x)\bigr)=F(x)=F(x^1,\dots,x^n).$$
 > and we define
 > $$U^i_k=\frac{\partial u^i}{\partial x^k}.$$
-> 25. Show that
+> 5. Show that
 >    $$\frac{\partial U^i_j}{\partial x^k}=\Gamma^s_{kj}U^i_s-\Pi_{jk}N^i,$$
 >    where $N=N^i\partial_i$ is a choice of unit normal and the second fundamental form is $\Pi_{jk}=\Pi(\partial_j,\partial_k)=g(\nabla_{\partial_j}N,\partial_k)$.
-> 26. Show that the integrability conditions for this system are equivalent to the Gauss (tangential) and Codazzi (mixed) curvature equations:
+> 6. Show that the integrability conditions for this system are equivalent to the Gauss (tangential) and Codazzi (mixed) curvature equations:
 >    $$R_{iklj}=\Pi_{ij}\Pi_{kl}-\Pi_{ik}\Pi_{jl},$$
 >    $$\frac{\partial\Pi_{jk}}{\partial x^l}-\frac{\partial\Pi_{jl}}{\partial x^k}=\Gamma^s_{lj}\Pi_{sk}-\Gamma^s_{kj}\Pi_{sl}.$$
-> 27. Given metric coefficients $g_{ij}$ and a symmetric tensor $\Pi_{ij}$ that is related to the metric coefficients through the Gauss and Codazzi equations, show that locally there exists a Riemannian immersion such that the second fundamental form is given by $\Pi_{ij}$.
-> 28. We can now give a local characterization of spaces with constant positive curvature. Given a metric of constant curvature $R^{-2}>0$, show that there is a Riemannian immersion into $\mathbb{R}^{n+1}$ whose image lies in a sphere of radius $R$. Hint: Guess what the second fundamental form should look like and show that the constant curvature condition gives the Gauss and Codazzi equations. Note that for $S^n(R)$ the unit normal is $N=\pm R^{-1}F$.
+> 7. Given metric coefficients $g_{ij}$ and a symmetric tensor $\Pi_{ij}$ that is related to the metric coefficients through the Gauss and Codazzi equations, show that locally there exists a Riemannian immersion such that the second fundamental form is given by $\Pi_{ij}$.
+> 8. We can now give a local characterization of spaces with constant positive curvature. Given a metric of constant curvature $R^{-2}>0$, show that there is a Riemannian immersion into $\mathbb{R}^{n+1}$ whose image lies in a sphere of radius $R$. Hint: Guess what the second fundamental form should look like and show that the constant curvature condition gives the Gauss and Codazzi equations. Note that for $S^n(R)$ the unit normal is $N=\pm R^{-1}F$.
 
 > [!exercise] Exercise 3.4.22:
 > Repeat the previous exercise with a Riemannian immersion $F:M^n\hookrightarrow\mathbb{R}^{n,1}$ where $M$ is a Riemannian manifold and the normal $N$ satisfies $\lvert N\rvert^2=-1$. This time we obtain a local characterization of the hyperbolic spaces $H^n(R)$ from example 1.1.7 as the local model for spaces of constant curvature $-R^{-2}$. Note that for $H^n(R)$ the unit normal is $N=\pm R^{-1}F$.
@@ -230,28 +230,28 @@
 > &\quad-\frac12\bigl(h(v_1,v_3)\cdot k(v_2,v_4)+h(v_2,v_4)\cdot k(v_1,v_3)\bigr).
 > \end{aligned}$$
 > The factor $\frac12$ is not used consistently in the literature, but is convenient when $h=k$. Part (6) of this exercise explains our choice.
-> 29. Show that $h\circ k=k\circ h$.
-> 30. Show that $h\circ h=0$ if $h$ has rank $1$.
-> 31. Show that if $n>2$, $k$ is nondegenerate, and $h\circ k=0$, then $h=0$. Hint: Let $v_i$ be "eigenvectors" for $k$ and $v_2=v_3$.
-> 32. Show that $h\circ k$ satisfies the first $3$ properties of proposition 3.1.1.
-> 33. Show that $\nabla_X(h\circ k)=(\nabla_Xh)\circ k+h\circ(\nabla_Xk)$.
-> 34. Show that $(M,g)$ has constant curvature $c$ if and only if the $(0,4)$-curvature tensor satisfies $R=c\cdot(g\circ g)$.
+> 9. Show that $h\circ k=k\circ h$.
+> 10. Show that $h\circ h=0$ if $h$ has rank $1$.
+> 11. Show that if $n>2$, $k$ is nondegenerate, and $h\circ k=0$, then $h=0$. Hint: Let $v_i$ be "eigenvectors" for $k$ and $v_2=v_3$.
+> 12. Show that $h\circ k$ satisfies the first $3$ properties of proposition 3.1.1.
+> 13. Show that $\nabla_X(h\circ k)=(\nabla_Xh)\circ k+h\circ(\nabla_Xk)$.
+> 14. Show that $(M,g)$ has constant curvature $c$ if and only if the $(0,4)$-curvature tensor satisfies $R=c\cdot(g\circ g)$.
 
 > [!exercise] Exercise 3.4.24:
 > Define the **Schouten tensor**
 > $$P=\frac{2}{n-2}\operatorname{Ric}-\frac{\operatorname{scal}}{(n-1)(n-2)}\cdot g$$
 > for Riemannian manifolds of dimension $n>2$.
-> 35. Show that if $P$ vanishes on $M$, then $\operatorname{Ric}=0$.
-> 36. Show that the decomposition
+> 15. Show that if $P$ vanishes on $M$, then $\operatorname{Ric}=0$.
+> 16. Show that the decomposition
 >    $$P=\frac{\operatorname{scal}}{n(n-1)}g+\frac{2}{n-2}\left(\operatorname{Ric}-\frac{\operatorname{scal}}{n}\cdot g\right)$$
 >    of the Schouten tensor is orthogonal.
-> 37. Show that when $n=2$, then
+> 17. Show that when $n=2$, then
 >    $$R=\frac{\operatorname{scal}}{2}g\circ g.$$
-> 38. Show that when $n=3$, then
+> 18. Show that when $n=3$, then
 >    $$R=\frac{\operatorname{scal}}{6}g\circ g+2\left(\operatorname{Ric}-\frac{\operatorname{scal}}{3}\cdot g\right)\circ g=P\circ g.$$
-> 39. Show that $(M,g)$ has constant curvature when $n>2$ if and only if
+> 19. Show that $(M,g)$ has constant curvature when $n>2$ if and only if
 >    $$R=P\circ g\quad\text{and}\quad\operatorname{Ric}=\frac{\operatorname{scal}}{n}g.$$
-> 40. Show that
+> 20. Show that
 >    $$\operatorname{Ric}(X,Y)=\sum_{i=1}^n(P\circ g)(X,E_i,E_i,Y)$$
 >    for any orthonormal frame $E_i$.
 
@@ -262,11 +262,11 @@
 > &=P\circ g+W,
 > \end{aligned}$$
 > where $P$ was defined in the previous exercise.
-> 41. Show that if $n=3$, then $W=0$.
-> 42. Show that
+> 21. Show that if $n=3$, then $W=0$.
+> 22. Show that
 >    $$\sum_{i=1}^nW(X,E_i,E_i,Y)=0$$
 >    for any orthonormal frame $E_i$. Hint: Use (6) from exercise 3.4.24.
-> 43. Show that the decomposition $R=P\circ g+W$ is orthogonal. Hint: This is similar to showing that homotheties and traceless matrices are perpendicular.
+> 23. Show that the decomposition $R=P\circ g+W$ is orthogonal. Hint: This is similar to showing that homotheties and traceless matrices are perpendicular.
 
 > [!exercise] Exercise 3.4.26:
 > Show that
@@ -289,22 +289,22 @@
 > $$\nabla_vE_i=\omega_i^{\,j}(v)E_j.$$
 > Suppose additionally that the frame is orthonormal and let $\omega^i$ be the dual coframe, i.e., $\omega^i(E_j)=\delta_j^i$.
 > 
-> 44. Show that the connection forms satisfy
+> 24. Show that the connection forms satisfy
 > $$\omega_i^{\,j}=-\omega_j^{\,i},\qquad d\omega^i=\omega^j\wedge\omega_j^{\,i}.$$
 > These two equations can, conversely, be used to compute the connection forms given the orthonormal frame. Therefore, if the metric is given by declaring a certain frame to be orthonormal, then this method can be very effective in computing the connection.
-> 45. If we think of $[\omega_i^{\,j}]$ as a matrix, then it represents a $1$-form with values in the skew-symmetric $n\times n$ matrices, or in other words, with values in the Lie algebra $\mathfrak{so}(n)$ for $O(n)$. The **curvature forms** $\Omega_i^{\,j}$ are $2$-forms with values in $\mathfrak{so}(n)$ defined as
+> 25. If we think of $[\omega_i^{\,j}]$ as a matrix, then it represents a $1$-form with values in the skew-symmetric $n\times n$ matrices, or in other words, with values in the Lie algebra $\mathfrak{so}(n)$ for $O(n)$. The **curvature forms** $\Omega_i^{\,j}$ are $2$-forms with values in $\mathfrak{so}(n)$ defined as
 > $$R(X,Y)E_i=\Omega_i^{\,j}(X,Y)E_j.$$
 > Show that they satisfy
 > $$d\omega_i^{\,j}=\omega_i^{\,k}\wedge\omega_k^{\,j}+\Omega_i^{\,j}.$$
-> 46. When reducing to Riemannian metrics on surfaces we obtain for an orthonormal frame $E_1,E_2$ with coframe $\omega^1,\omega^2$
+> 26. When reducing to Riemannian metrics on surfaces we obtain for an orthonormal frame $E_1,E_2$ with coframe $\omega^1,\omega^2$
 > $$d\omega^1=\omega^2\wedge\omega_2^{\,1},\qquad d\omega^2=-\omega^1\wedge\omega_2^{\,1},\qquad d\omega_2^{\,1}=\Omega_2^{\,1},\qquad \Omega_2^{\,1}=\operatorname{sec}\cdot d\operatorname{vol}.$$
 
 > [!exercise] Exercise 3.4.29:
 > This exercise will give you a way of finding the curvature tensor from the sectional curvatures. Assume that $R(X,Y,Z,W)$ is an algebraic curvature tensor, i.e., satisfies (1), (2), and (3) of proposition 3.1.1.
 > 
-> 47. Show that
+> 27. Show that
 > $$6R(X,Y,V,W)=\left.\frac{\partial^2 R(X+sW,Y+tV,Y+tV,X+sW)}{\partial s\partial t}\right|_{s=t=0}-\left.\frac{\partial^2 R(X+sV,Y+tW,Y+tW,X+sV)}{\partial s\partial t}\right|_{s=t=0}.$$
-> 48. Show that
+> 28. Show that
 > $$\begin{aligned}
 > 6R(X,Y,V,W)&=R(X+W,Y+V,Y+V,X+W)\\
 > &-R(X,Y+V,Y+V,X)-R(W,Y+V,Y+V,W)\\
@@ -327,26 +327,26 @@
 
 > [!exercise] Exercise 3.4.31:
 > Let $G$ be a Lie group with a left-invariant metric $(\cdot,\cdot)$ on $\mathfrak{g}$ (it need not be positive definite, just nondegenerate). For $X\in\mathfrak{g}$ denote by $\operatorname{ad}_X^*:\mathfrak{g}\to\mathfrak{g}$ the adjoint of $\operatorname{ad}_X Y=[X,Y]$ with respect to $(\cdot,\cdot)$. Show that:
-> 49. $\nabla_XY=\frac12\bigl([X,Y]+\operatorname{ad}_X^*Y-\operatorname{ad}_Y^*X\bigr)$. Conclude that if $X,Y\in\mathfrak{g}$, then $\nabla_XY\in\mathfrak{g}$.
-> 50. $R(X,Y,Z,W)=-(\nabla_YZ,\nabla_XW)+(\nabla_XZ,\nabla_YW)-(\nabla_{[X,Y]}Z,W)$.
-> 51. $$\begin{aligned}
+> 29. $\nabla_XY=\frac12\bigl([X,Y]+\operatorname{ad}_X^*Y-\operatorname{ad}_Y^*X\bigr)$. Conclude that if $X,Y\in\mathfrak{g}$, then $\nabla_XY\in\mathfrak{g}$.
+> 30. $R(X,Y,Z,W)=-(\nabla_YZ,\nabla_XW)+(\nabla_XZ,\nabla_YW)-(\nabla_{[X,Y]}Z,W)$.
+> 31. $$\begin{aligned}
 > R(X,Y,Y,X)=&\frac14\|\operatorname{ad}_X^*Y+\operatorname{ad}_Y^*X\|^2-(\operatorname{ad}_X^*X,\operatorname{ad}_Y^*Y)-\frac34\|[X,Y]\|^2\\
 > &-\frac12([[X,Y],Y],X)-\frac12([[Y,X],X],Y).
 > \end{aligned}$$
 
 > [!exercise] Exercise 3.4.32:
 > Let $G$ be a Lie group with a biinvariant metric $(\cdot,\cdot)$ on $\mathfrak{g}$ (it need not be positive definite, just nondegenerate). Using left-invariant fields establish the following formulas. **Hint:** First go back to the exercise 1.6.24 and take a peek at section 4.4.1 where some of these things are proved. Show that:
-> 52. $\nabla_XY=\frac12[X,Y]$.
-> 53. $R(X,Y)Z=\frac14[Z,[X,Y]]$.
-> 54. $R(X,Y,Z,W)=-\frac14([X,Y],[Z,W])$. Conclude that the sectional curvatures are nonnegative when $(\cdot,\cdot)$ is positive definite.
-> 55. Show that the curvature operator is also nonnegative when $(\cdot,\cdot)$ is positive definite by showing that:
+> 32. $\nabla_XY=\frac12[X,Y]$.
+> 33. $R(X,Y)Z=\frac14[Z,[X,Y]]$.
+> 34. $R(X,Y,Z,W)=-\frac14([X,Y],[Z,W])$. Conclude that the sectional curvatures are nonnegative when $(\cdot,\cdot)$ is positive definite.
+> 35. Show that the curvature operator is also nonnegative when $(\cdot,\cdot)$ is positive definite by showing that:
 > $$g\Bigl(\mathcal{R}\bigl(\sum_{i=1}^kX_i\wedge Y_i\bigr),\bigl(\sum_{i=1}^kX_i\wedge Y_i\bigr)\Bigr)=\frac14\Bigl|\sum_{i=1}^k[X_i,Y_i]\Bigr|^2.$$
-> 56. Assume again that $(\cdot,\cdot)$ is positive definite. Show that $\operatorname{Ric}(X,X)=0$ if and only if $X$ commutes with all other left-invariant vector fields. Thus $G$ has positive Ricci curvature if the center of $G$ is discrete.
+> 36. Assume again that $(\cdot,\cdot)$ is positive definite. Show that $\operatorname{Ric}(X,X)=0$ if and only if $X$ commutes with all other left-invariant vector fields. Thus $G$ has positive Ricci curvature if the center of $G$ is discrete.
 
 > [!exercise] Exercise 3.4.33:
 > Consider a Lie group where the Killing form $B$ is nondegenerate and use $-B$ as the left-invariant metric (see exercise 1.6.27).
-> 57. Show that this metric is biinvariant.
-> 58. Show that $\operatorname{Ric}=-\frac14B$.
+> 37. Show that this metric is biinvariant.
+> 38. Show that $\operatorname{Ric}=-\frac14B$.
 
 > [!exercise] Exercise 3.4.34:
 > It is illustrative to use the Cartan formalism in the previous exercise and compute all quantities in terms of the structure constants for the Lie algebra. Given that the metric is biinvariant, it follows that with respect to an orthonormal basis they satisfy
