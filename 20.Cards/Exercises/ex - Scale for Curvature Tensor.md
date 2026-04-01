@@ -7,14 +7,14 @@ book: RG Petersen
 chapter: 3
 number: "18"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
 > [!exercise] Exercise 3.4.18:
 > Consider a Riemannian metric $(M,g)$ and **scale** the metric by multiplying it by a number $\lambda^2$. This creates a new Riemannian manifold $(M,\lambda^2g)$.
 > 1. Show that the new connection and $(1,3)$-curvature tensor remain the same.
-> 2. Show that $\operatorname{sec}$, $\operatorname{scal}$, and $\mathcal{R}$ all get multiplied by $\lambda^{-2}$.
+> 2. Show that $\operatorname{sec}$, $\operatorname{scal}$, and $\mathfrak{R}$ all get multiplied by $\lambda^{-2}$.
 > 3. Show that $\operatorname{Ric}$ as a $(1,1)$-tensor is multiplied by $\lambda^{-2}$.
 > 4. Show that $\operatorname{Ric}$ as a $(0,2)$-tensor is unchanged.
 
@@ -23,10 +23,23 @@ tags: []
 >     We have
 >      $$  \left(\lambda ^{2}g\right)\left(\nabla ^{\lambda ^{2}g}_{X}Y,Z\right)= \lambda ^{2}g\left(\nabla _{X}^{g}Y,Z\right)  $$ 
 >     Thus $\nabla _{X}^{\lambda ^{2}g}= \nabla _{X}^{g}$. Since $\left(1,3\right)$-curvature is determined by the connetction, thus remain the same.
-> 2. $\left(\mathcal{R}_{new}\right)_{ijkl}=\lambda ^{2} g_{ml}\left(R_{new}\right)_{ijk}^{m}= \lambda ^{2}g_{ml}R_{ijk}^{m}= \lambda ^{2}\mathcal{R}_{ijkl}$
->   
->    $$ \operatorname{sec}_{new}\left(v,w\right)= \frac{\mathcal{R}_{new}\left(v,w,w,v\right) }{g\left(v\wedge w,v\wedge w\right) } = \lambda ^{-2}\frac{\mathcal{R}\left(v,w,w,v\right) }{g\left(v\wedge w,v\wedge w\right) }= \lambda ^{-2}\operatorname{sec}$$ 
->    $$ \left(\operatorname{Ric}_{new}\right)_{ij}= \left(R_{new}\right)_{kij}^{k}= \lambda ^{2} $$ 
+> 2. 
+> $\left(\mathcal{R}_{new}\right)_{ijkl}=\lambda ^{2} g_{ml}\left(R_{new}\right)_{ijk}^{m}= \lambda ^{2}g_{ml}R_{ijk}^{m}= \lambda ^{2}\mathcal{R}_{ijkl}$
+>
+> Thus $\mathcal{R}_{new}= \lambda ^{2}\mathcal{R}$
+>  $$ \begin{aligned} \operatorname{sec}_{new}\left(v,w\right)&= \frac{\mathcal{R}_{new}\left(v,w,w,v\right) }{ \left(\lambda ^{2}g\right)\left(v\wedge w,v\wedge w\right)}\\&= \frac{\lambda ^{2}\mathcal{R}\left(v,w,w,v\right) }{\lambda ^{4}g\left(v\wedge w,v\wedge w\right) }\\&= \lambda ^{-2}\operatorname{sec}\left(v,w\right) \end{aligned} $$ 
+> From
+>  $$ \left(\operatorname{Ric}^{\left(0,2\right)}\right)_{ij}= R_{kij}^{k} $$ 
+> we have 
+>  $$ \operatorname{Ric}^{\left(0,2\right)}_{new}= \operatorname{Ric}^{\left(0,2\right)}  $$ 
+> and 
+>  $$ \left(\operatorname{Ric}^{\left(1,1\right)}\right)^{i}_{j}= g^{ik}\operatorname{Ric}^{\left(0,2\right)} _{kj}$$ 
+>  $$ \begin{aligned} &\lambda ^{4}g\left(\mathfrak{R}_{new}\left(\sum X_{i}\wedge Y_{i},\sum V_{j}\wedge W_{j}\right)\right)\\&= \left(\lambda ^{2}g\right)\left(\mathfrak{R}_{new}\left(\sum X_{i}\wedge Y_{i}, \sum V_{j}\wedge W_{j}\right)\right)\\&= \sum \mathcal{R}_{new}\left(X_{i},Y_{i},W_{j},V_{j}\right) \\&= \lambda ^{2}\sum \mathcal{R}\left(X_{i},Y_{i},W_{j},V_{j}\right)\\&= \lambda ^{2}g\left(\mathfrak{R}\left(\sum X_{i}\wedge Y_{i},\sum V_{j}\wedge W_{j}\right)\right)\end{aligned} $$ 
+> Thus
+>  $$ \mathfrak{R}_{new}= \lambda ^{-2}\mathfrak{R} $$ 
+> Alternatively,  we can consider
+>  $$\mathfrak{R}^{ij}_{kl}= g^{pi}g^{qj}\mathcal{R}_{pqkl} $$ 
+
 
 ```dataviewjs
 const techs = dv.current().technique;
