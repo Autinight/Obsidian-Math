@@ -49,7 +49,7 @@
 > 证明: $\{e_n\}$ 是 $l^p(1 \le p < +\infty)$ 空间的 **Schauder** 基, 但不是 $l^\infty$ 空间的 **Schauder** 基.
 
 > [!proof] Proof: 
->  $$ \ell ^{p}=  $$ 
+>  $$ \ell ^{p}= \left\{ \left(x\right)_{n}: \sum _{n = 1}^{\infty}x_{k}^{p}< \infty \right\} $$ 
 
 > [!exercise] Exercise: 4
 > 证明 $c_0$ 是可分的 Banach 空间.
