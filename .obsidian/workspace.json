@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Concepts/Tangent Distributions.md",
-                "mode": "source",
+                "file": "30.Recources/FA/Course HW/FA - HW4.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tangent Distributions"
+              "title": "FA - HW4"
             }
           }
         ]
@@ -204,6 +204,9 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "30.Recources/FA/Course HW/FA - HW3.md",
+    "30.Recources/FA/Course HW/FA - HW4.md",
+    "20.Cards/Concepts/Tangent Distributions.md",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Definitions/dfn - Involutive.md",
     "20.Cards/Theorems/thm - Local Structure of Integral Manifolds.md",
@@ -236,8 +239,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "20.Cards/Exercises/ex - Commutibility between Contraction and Differentiation.md",
-    "20.Cards/Exercises/ex - Constant length and Perpendicular Covariant Derivation.md",
-    "20.Cards/Exercises/ex - Coordinates Representation for Connection of 0,2-Tensor.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
