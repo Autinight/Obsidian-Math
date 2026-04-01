@@ -5,12 +5,39 @@
 > $$
 > 证明: 如果 $X_1$ 和 $X_2$ 完备, 则 $X$ 是 **Banach** 空间.
 
+> [!proof] Proof: 
+> $X$作为线性空间的积, 自然地构成一个线性空间.
+>
+> 考虑$\left\| \cdot  \right\|$:
+>   1. 显然$\left\| x \right\|\ge 0$. 若$\left\| x \right\|= 0$, 则$\left\| x_1 \right\|_{1}= \left\| x_{2} \right\|_{2}= 0\implies x_1= 0_{X_1},x_2= 0_{X_2}$.
+>   2.  $$ \begin{aligned} \left\| \lambda x \right\| &= \max \left(\left\|\lambda  x_1 \right\|_{1},\left\| \lambda x_2 \right\|_{2}\right)\\&= \max \left(\left| \lambda  \right|\left\| x_1 \right\|_{1},\left| \lambda  \right|\left\| x_2 \right\|_{2}  \right)\\&= \left| \lambda  \right|\max \left(\left\| x_1 \right\|_{1},\left\| x_2 \right\|_{2}\right)\\&= \left| \lambda  \right|\left\| x \right\|   \end{aligned}$$ 
+>  3.  $$ \begin{aligned} \left\| x+ y \right\|&= \max \left(\left\| x_1 + y_1\right\|_{1},\left\| x_2+ y_2 \right\|_{2}\right)\\&\le \max \left(\left\| x_1 \right\|_{1}+ \left\| y_1 \right\|_{1}, \left\| x_2 \right\|_{2}+ \left\| y_2 \right\|_{2}\right)\\&\le \max \left(\left\| x_1 \right\|_{1},\left\| x_2\right\|_{2}\right)+ \max \left(\left\| y_1 \right\|_{1},\left\| y_2 \right\|_{2}\right)\\&= \left\| x \right\|+ \left\| y \right\| \end{aligned} $$ 
+> 故$X$是赋范线性空间.
+> 为了说明$X$完备, 任取$X$的Cauchy列$\left\{ x^{\left(k\right)} \right\}$, 由
+>  $$ \left\| x^{\left(k\right)}_{1}-x^{\left(l\right)}_{1} \right\|_{1} = \left\| \left(x^{\left(k\right)}-x^{\left(l\right)}\right)_{1} \right\|_{1}\le \left\| x \right\|$$ 
+> 可得$\left\{ x^{\left(k\right)}_{1} \right\}$也是$X_1$上的Cauchy列; 类似地, $\left\{ x_2^{\left(k\right)} \right\}$是$X_2$上的Cauchy列. 设$\lim_{k\to \infty}x_{1}^{\left(k\right)}= x_1$, $\lim_{k\to \infty}x_{2}^{\left(k\right)}= x_2$. 令$x= \left(x_1,x_2\right)$. 那么
+>  $$ \lim_{k\to \infty}\left\| x^{\left(k\right)}-x \right\|= \lim_{k\to \infty}\max \left(\left\| x_1^{\left(k\right)}-x_1 \right\|_{1},\left\| x_2 ^{\left(k\right)}-x_2\right\|_{2}\right)= 0 $$ 
+> 故$\left\{ x^{\left(k\right)} \right\}$在$X$上收敛于$x$, $X$是Banach的.
+
 > [!exercise] Exercise: 2
 > 考虑 $c$ 空间中的子空间
 > $$
 > M = \{x = \{\xi_k\} | \xi_1 = \xi_2 = \cdots = \operatorname{const}\}.
 > $$
 > 证明商空间 $c/M$ 与空间 $c_0$ 线性同构但不等距.
+
+> [!proof] Proof: 
+> $c/M$定义为集合$c+ M$和范数
+>  $$ \left\| x+ M \right\|_{c/M}= \inf _{y\in M}\left\| x+ y \right\|_{c} $$ 
+> 设$x= \left\{ \xi _{k} \right\}\in c$, 记$a_{x}= \lim_{k\to \infty}\xi _{k}$. 则令$e= \left(1,1,\cdots \right)$, 则$M= \operatorname{span}\left\{ e \right\}$, 且$x-a_{x}e\in c_0$.
+> 
+> 定义映射$L:c/M\to c_0$,
+>  $$ L\left(x+ M\right)= x-a_{x}e $$ 
+> 则若$x+ M= y+ M$, 则$x-y\in M$, 设$x-y= ke$, 则$a_{x}-a_{y}= k$, 
+>  $$ \left(x-a_{x}e\right)-\left(y-a_{y}e\right)= \left(x-y\right)-\left(a_{x}-a_{y}\right)e= ke-ke= 0 $$
+> 因此$L$是良定义的. 此外,  
+>  $$ L\left(x+ y+ M\right)= x-a_{x}e+ y-a_{y}e= L\left(x+ M\right)+ L\left(y+ M\right) $$
+> $L$是一个线性映射. 任取$x_0\in c_0$, 我们有$L\left(x_0+ M\right)= x_0$, 故$L$是满的. 此外, 若$L\left(x+ M\right)= 0$, 则$x-a_{x}e= 0$, $x= a_{x}e\in M$, 故$L$是单的. 因此$L$是一个线性同构.
 
 > [!exercise] Exercise: 3
 > 考虑集合

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
+                "file": "00.Inbox/ep - ell^p Space.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW4"
+              "title": "ep - ell^p Space"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "product manifold",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,8 +204,11 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW3.md",
+    "00.Inbox/ep - Hopf Fibration.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
+    "30.Recources/FA/Course HW/FA - HW3.md",
     "20.Cards/Concepts/Tangent Distributions.md",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Definitions/dfn - Involutive.md",
@@ -227,7 +230,6 @@
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "20.Cards/Exercises/ex - Parallel Ricci Tensor has Constant Scalar Curvature.md",
@@ -237,8 +239,6 @@
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "20.Cards/Exercises/ex - Commutibility between Contraction and Differentiation.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
