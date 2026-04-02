@@ -40,17 +40,6 @@
 > $L$是一个线性映射. 任取$x_0\in c_0$, 我们有$L\left(x_0+ M\right)= x_0$, 故$L$是满的. 此外, 若$L\left(x+ M\right)= 0$, 则$x-a_{x}e= 0$, $x= a_{x}e\in M$, 故$L$是单的. 因此$L$是一个线性同构.
 > 
 >  $$ \begin{aligned} \left\| x+ M \right\|_{c/M}&= \inf _{k\in \mathbb{R} }\left\| x+ ke \right\|_{c}\\&= \inf _{k\in \mathbb{R} }\left\{ \sup _{n}\left| x_{n}+ k \right|  \right\} \end{aligned} $$  
->  $$ \left\| \tilde{x} \right\|_{c_0}= \sup _{n}\left| \left(\tilde{x}\right)_{n} \right| $$
-> 考虑
->  $$ S_{c_0}= \left\{ \tilde{x}\in c_0: \left\| \tilde{x} \right\|_{c_0}= 1 \right\} $$
->  $$ S_{c/M}= \left\{ x\in c: \left\| x \right\|_{c/M} = 1\right\} $$
-> 若$\varphi :c_0\to c / M$是等距同构.
-> 任取$\tilde{x}\in c_0$, 则 $\left| \left(\tilde{x}\right)_{k} \right|\le 1,\forall k\in \mathbb{Z} _{> 0}$, 且存在$n_{\tilde{x}}\in \mathbb{Z} _{> 0}$, 使得$\left| \left(\tilde{x}\right)_{n_{\tilde{x}}} \right|= 1$. 由$\lim_{k\to \infty}\left(\tilde{x}\right)_{k}= 0$, 可知存在$m_{\tilde{x}}$, 使得$\left| \left(\tilde{x}\right)_{m_{\tilde{x}}} \right| < \frac{1}{2}$. 令$e_{m_{\tilde{x}}}= \left(0,\cdots ,1,0,\cdots \right)\in c_{0}$, 其中第$m_{\tilde{x}}$个位置是$1$, 其余是零. 则对于任意的$\varepsilon < \frac{1}{2}$, 都有
->  $$ \tilde{x}\pm \varepsilon  e_{m_{\tilde{x}}}\in S_{c_0}  $$ 
-> 那么
->  $$ \varphi \left(\tilde{x}\pm  \varepsilon e_{m_{\tilde{x}}}\right)= \varphi \left(\tilde{x}\right)\pm  \varepsilon \varphi \left(e_{m_{\tilde{x}}}\right)\in S_{c / M} $$ 
-> 由于$\varphi:S_{c_0}\to S_{c/M}$是双射, 以上表明对于任意的$x\in S_{c / M}$, 存在$y\in S_{c/M}$, 使得对于任意的$\varepsilon < \frac{1}{2}$, 都有
->
 > 断言
 >  $$ \left\| x+ M \right\|_{c/M}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
 >  $$ x\pm \varepsilon y\in S_{c_0} $$ 
@@ -69,8 +58,27 @@
 >    $$ \sup _{n}\left(x_{n}-k\right)= \sup _{n}\left(k-x_{n}\right)= k-\inf _{n}x_{n}\ge \sup _{n}x_{n}-\inf _{n}x_{n}\ge \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
 > - 若 $\inf _{n}x_{n}< k< \sup _{n}x_{n}$, 则
 >   $$ \sup _{n}\left| x_{n}-k \right|= \max \left\{ \sup _{n}x_{n}-k,k-\inf _{n}x_{n} \right\}  $$ 
->   此时, 不妨设$\sup _{n}\left| x_{n}-k \right|$
-
+>   此时, 不妨设$\sup _{n}\left| x_{n}-k \right|= \sup _{n}x_{n}-k$, 则
+>    $$ \sup _{n}x_{n}-k\ge k-\inf _{n}x_{n}\implies k\le \frac{1 }{2 }\left(\sup _{n}x_{n}+ \inf _{n}x_{n}\right) \implies \sup _{n}x_{n}-k\ge \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)$$ 
+> 综上可得
+>    $$ \left\| x+ M \right\|_{c / M}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
+> 此外, 
+>  $$ \left\| \tilde{x} \right\|_{c_0}= \sup _{n}\left| \tilde{x}_{n} \right|  $$ 
+> 考虑
+>  $$ S_{c_0}= \left\{ \tilde{x}\in c_0: \left\| \tilde{x} \right\|_{c_0}= 1 \right\} $$
+>  $$ S_{c/M}= \left\{ x\in c: \left\| x \right\|_{c/M} = 1\right\} $$
+> 若$\varphi :c_0\to c / M$是等距同构.
+> 任取$\tilde{x}\in S_{c_0}$, 则 $\left| \left(\tilde{x}\right)_{k} \right|\le 1,\forall k\in \mathbb{Z} _{> 0}$, 且存在$n_{\tilde{x}}\in \mathbb{Z} _{> 0}$, 使得$\left| \left(\tilde{x}\right)_{n_{\tilde{x}}} \right|= 1$. 由$\lim_{k\to \infty}\left(\tilde{x}\right)_{k}= 0$, 可知存在$m_{\tilde{x}}$, 使得$\left| \left(\tilde{x}\right)_{m_{\tilde{x}}} \right| < \frac{1}{2}$. 令$e_{m_{\tilde{x}}}= \left(0,\cdots ,1,0,\cdots \right)\in c_{0}$, 其中第$m_{\tilde{x}}$个位置是$1$, 其余是零. 则对于任意的$\varepsilon < \frac{1}{2}$, 都有
+>  $$ \tilde{x}\pm \varepsilon  e_{m_{\tilde{x}}}\in S_{c_0}  $$ 
+> 那么
+>  $$ \varphi \left(\tilde{x}\pm  \varepsilon e_{m_{\tilde{x}}}\right)= \varphi \left(\tilde{x}\right)\pm  \varepsilon \varphi \left(e_{m_{\tilde{x}}}\right)\in S_{c / M} $$ 
+> 由于$\varphi:S_{c_0}\to S_{c/M}$是双射, 以上表明对于任意的$x\in S_{c / M}$, 存在$y\in S_{c/M}$, 使得对于任意的$\varepsilon < \frac{1}{2}$, 都有
+>  $$ x\pm \varepsilon y\in S_{c/M} $$ 
+> 但是, 
+> 考虑$x= \left(2,2,\cdots \right)$, 则显然$\frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)= 1$, $x+ M\in S_{c/M}$, 此时对于任意的$y\in S_{c / M}$, 即$\frac{1}{2}\left(\sup _{n}y_{n}-\inf _{n}y_{n}\right)= 1$, 我们有
+>  $$ \begin{aligned} \left\| x+\varepsilon y+ M \right\|_{c / M}&= \frac{1}{2}\left(\sup _{n}\left(x_{n}+ \varepsilon y_{n}\right)-\inf _{n}\left(x_{n}+ \varepsilon y_{n}\right)\right)\\&= \frac{1}{2}\left(\varepsilon \sup _{n}y_{n}+ 2-\varepsilon \inf _{n}y_{n}\right)\\&= 1+ \frac{1}{2}\varepsilon > 1 \end{aligned}$$ 
+> 故$x+ \varepsilon y\not \in S_{c/M}$, 矛盾.
+> 因此不存在$c/M$与$c_0$之间的等距同构.
 
 > [!exercise] Exercise: 3
 > 考虑集合
@@ -80,7 +88,13 @@
 > 证明: $\{e_n\}$ 是 $l^p(1 \le p < +\infty)$ 空间的 **Schauder** 基, 但不是 $l^\infty$ 空间的 **Schauder** 基.
 
 > [!proof] Proof: 
->  $$ \ell ^{p}= \left\{ \left(x\right)_{n}: \sum _{n = 1}^{\infty}x_{k}^{p}< \infty \right\} $$ 
+>  $$ \ell ^{p}= \left\{ \left(x\right)_{n}: \sum _{n = 1}^{\infty}x_{n}^{p}< \infty \right\} $$ 
+> 
+> 任取$x\in \ell ^{p}$,  令$y^{\left(m\right)}= \sum _{n = 1}^{m}x_{n}e_{n}$, 则
+>  $$ \left\| x-y^{\left(m\right)} \right\|_{\ell ^{p}}= \sum _{n = m+ 1}^{\infty}x_{n}^{p}$$ 
+> 由于$\sum _{n = 1}^{\infty}x_{n}^{p}$收敛, 我们有$\lim_{m\to \infty}\sum _{n = m}^{\infty}x_{n}^{p}= 0$, 因此
+>  $$ \sum _{n = 1}^{\infty}x_{n}e_{n} $$
+> 收敛于$x$. 故$\left\{ e_{n} \right\}$是$\ell ^{p}\left(1\le p< \infty\right)$空间的Schauder基. 
 
 > [!exercise] Exercise: 4
 > 证明 $c_0$ 是可分的 Banach 空间.
