@@ -88,13 +88,22 @@
 > 证明: $\{e_n\}$ 是 $l^p(1 \le p < +\infty)$ 空间的 **Schauder** 基, 但不是 $l^\infty$ 空间的 **Schauder** 基.
 
 > [!proof] Proof: 
->  $$ \ell ^{p}= \left\{ \left(x\right)_{n}: \sum _{n = 1}^{\infty}x_{n}^{p}< \infty \right\} $$ 
+> **$\ell ^{p}$**:
+>  $$ \ell ^{p}= \left\{ \left(x\right)_{n}: \sum _{n = 1}^{\infty}\left| x_{n} \right| ^{p}< \infty \right\} $$ 
 > 
 > 任取$x\in \ell ^{p}$,  令$y^{\left(m\right)}= \sum _{n = 1}^{m}x_{n}e_{n}$, 则
->  $$ \left\| x-y^{\left(m\right)} \right\|_{\ell ^{p}}= \sum _{n = m+ 1}^{\infty}x_{n}^{p}$$ 
-> 由于$\sum _{n = 1}^{\infty}x_{n}^{p}$收敛, 我们有$\lim_{m\to \infty}\sum _{n = m}^{\infty}x_{n}^{p}= 0$, 因此
+>  $$ \left\| x-y^{\left(m\right)} \right\|_{\ell ^{p}}^{p}= \sum _{n = m+ 1}^{\infty}\left| x_{n} \right| ^{p}$$ 
+> 由于$\sum _{n = 1}^{\infty}\left| x_{n} \right| ^{p}$收敛, 我们有$\lim_{m\to \infty}\sum _{n = m}^{\infty}\left| x_{n} \right| ^{p}= 0$, 因此
 >  $$ \sum _{n = 1}^{\infty}x_{n}e_{n} $$
-> 收敛于$x$. 故$\left\{ e_{n} \right\}$是$\ell ^{p}\left(1\le p< \infty\right)$空间的Schauder基. 
+> 收敛于$x$.  若$\sum _{n = 1}^{\infty}z_{n}e_{n}$也收敛于$x$, 则令$z^{\left(m\right)}= \sum _{n = 1}^{m}z_{n}e_{n}$, 我们有
+>  $$ \left| z_{n}-x_{n} \right| ^{p}\le \sum _{k = 1}^{m}\left| z_{k}-x_{k} \right|^{p} = \left\| x-z^{\left(m\right)} \right\|_{\ell ^{p}} ^{p}\to 0\left(m\to \infty\right)$$ 
+> 因此$z_{n}= x_{n}$. 这$x$由$\left\{ e_{n} \right\}$唯一地表示为$\sum _{n = 1}^{\infty}x_{n}e_{n}$
+> 故$\left\{ e_{n} \right\}$是$\ell ^{p}\left(1\le p< \infty\right)$空间的Schauder基. 
+>
+> $\ell ^{\infty}$: 
+> 考虑$x= \left(1,1,1,\cdots \right)$, 则$\left\| x \right\|_{\ell ^{\infty}}= 1$, $x\in \ell ^{\infty}$.  若任取点列$\left\{ y_{n} \right\}$, 令$\sum _{n = 1}^{\infty}y_{n}e_{n}$在$\ell ^{\infty}$中收敛于$x$, 令$y^{\left(m\right)}= \sum _{n = 1}^{m}y_{n}e_{n}$,   则
+>  $$ \left\| x-y^{\left(m\right)} \right\|= \sup _{n}\left| x_{n}-y_{n} \right|= \sup  \left(\left\{ \left| x_{n}-y_{n} \right|: 1\le n\le m  \right\}\cup \left\{ 1 \right\}\right)  \ge 1 $$ 
+> 因此$\sum _{n = 1}^{\infty}y_{n}e_{n}$不可能收敛于$x$. 故$\left\{ e_{n} \right\}$不是$\ell ^{\infty}$空间的Schauder基.
 
 > [!exercise] Exercise: 4
 > 证明 $c_0$ 是可分的 Banach 空间.
