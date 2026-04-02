@@ -185,3 +185,12 @@
 > - 点列依范数收敛等价于在任一基底下坐标系数收敛;
 > - 必是完备可分的;
 > - 有界集必是列紧集.
+
+> [!proof] Proof: 
+> 设$X$是$n$-维赋范线性空间, 取定一组基$e_1,\cdots ,e_{n}$. 则存在唯一的$X$上的范数$\left\| \cdot  \right\|_{\mathbb{R} ^{n}}$, 使得线性映射$T:X\to \mathbb{R} ^{n}$, 
+>  $$ T\left(e_{i}\right) = \left(0,\cdots ,1,0,\cdots ,0\right),\text{第i个位置是1}$$ 
+> 成为一个等距同构. 只需要证明任意范数$\left\| \cdot  \right\|_{X}$都和此范数等价. 
+> 令
+>  $$ M= \max \left\{  \right\}$$ 
+> 则任取$x\in X$, $x= x^{i}e_{i}$, 我们有
+>  $$ \left\| x \right\|_{\mathbb{R} ^{n}}=\left\| x^{i}e_{i} \right\|_{\mathbb{R} ^{n}} \le x^{i}\left\| e_{i} \right\|_{\mathbb{R} ^{n}} = \sum _{i}\left| x^{i} \right| $$ 
