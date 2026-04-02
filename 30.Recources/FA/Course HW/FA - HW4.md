@@ -27,6 +27,7 @@
 > 证明商空间 $c/M$ 与空间 $c_0$ 线性同构但不等距.
 
 > [!proof] Proof: 
+> **证明线性同构**: 
 > $c/M$定义为集合$c+ M$和范数
 >  $$ \left\| x+ M \right\|_{c/M}= \inf _{y\in M}\left\| x+ y \right\|_{c} $$ 
 > 设$x= \left\{ \xi _{k} \right\}\in c$, 记$a_{x}= \lim_{k\to \infty}\xi _{k}$. 则令$e= \left(1,1,\cdots \right)$, 则$M= \operatorname{span}\left\{ e \right\}$, 且$x-a_{x}e\in c_0$.
@@ -38,11 +39,11 @@
 > 因此$L$是良定义的. 此外,  
 >  $$ L\left(x+ y+ M\right)= x-a_{x}e+ y-a_{y}e= L\left(x+ M\right)+ L\left(y+ M\right) $$
 > $L$是一个线性映射. 任取$x_0\in c_0$, 我们有$L\left(x_0+ M\right)= x_0$, 故$L$是满的. 此外, 若$L\left(x+ M\right)= 0$, 则$x-a_{x}e= 0$, $x= a_{x}e\in M$, 故$L$是单的. 因此$L$是一个线性同构.
-> 
+>
+> **计算范数表达式**: 
 >  $$ \begin{aligned} \left\| x+ M \right\|_{c/M}&= \inf _{k\in \mathbb{R} }\left\| x+ ke \right\|_{c}\\&= \inf _{k\in \mathbb{R} }\left\{ \sup _{n}\left| x_{n}+ k \right|  \right\} \end{aligned} $$  
 > 断言
 >  $$ \left\| x+ M \right\|_{c/M}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
->  $$ x\pm \varepsilon y\in S_{c_0} $$ 
 > 
 > 事实上, 
 > 取$k_0= \frac{\sup _{n}x_{n}+ \inf _{n}x_{n} }{2 }$, 则
@@ -64,6 +65,7 @@
 >    $$ \left\| x+ M \right\|_{c / M}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
 > 此外, 
 >  $$ \left\| \tilde{x} \right\|_{c_0}= \sup _{n}\left| \tilde{x}_{n} \right|  $$ 
+> **构造落在$S_{c_0}$上的直线, 并映到$S_{c/M}$上**: 
 > 考虑
 >  $$ S_{c_0}= \left\{ \tilde{x}\in c_0: \left\| \tilde{x} \right\|_{c_0}= 1 \right\} $$
 >  $$ S_{c/M}= \left\{ x\in c: \left\| x \right\|_{c/M} = 1\right\} $$
@@ -74,10 +76,17 @@
 >  $$ \varphi \left(\tilde{x}\pm  \varepsilon e_{m_{\tilde{x}}}\right)= \varphi \left(\tilde{x}\right)\pm  \varepsilon \varphi \left(e_{m_{\tilde{x}}}\right)\in S_{c / M} $$ 
 > 由于$\varphi:S_{c_0}\to S_{c/M}$是双射, 以上表明对于任意的$x\in S_{c / M}$, 存在$y\in S_{c/M}$, 使得对于任意的$\varepsilon < \frac{1}{2}$, 都有
 >  $$ x\pm \varepsilon y\in S_{c/M} $$ 
+> **构造反例: $x$不能落在直线内部点**: 
 > 但是, 
-> 考虑$x= \left(2,2,\cdots \right)$, 则显然$\frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)= 1$, $x+ M\in S_{c/M}$, 此时对于任意的$y\in S_{c / M}$, 即$\frac{1}{2}\left(\sup _{n}y_{n}-\inf _{n}y_{n}\right)= 1$, 我们有
->  $$ \begin{aligned} \left\| x+\varepsilon y+ M \right\|_{c / M}&= \frac{1}{2}\left(\sup _{n}\left(x_{n}+ \varepsilon y_{n}\right)-\inf _{n}\left(x_{n}+ \varepsilon y_{n}\right)\right)\\&= \frac{1}{2}\left(\varepsilon \sup _{n}y_{n}+ 2-\varepsilon \inf _{n}y_{n}\right)\\&= 1+ \frac{1}{2}\varepsilon > 1 \end{aligned}$$ 
-> 故$x+ \varepsilon y\not \in S_{c/M}$, 矛盾.
+> 考虑$x= \left(-1,1,1,1,\cdots  \right)$, 则显然$\frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)= 1$, $x+ M\in S_{c/M}$, 此时对于任意的$y\in S_{c / M}$, 即$\frac{1}{2}\left(\sup _{n}y_{n}-\inf _{n}y_{n}\right)= 1$, 则对于$0< \varepsilon < \frac{1}{2}$, 
+>  $$ \begin{aligned} \left\| x+\varepsilon y+ M \right\|_{c / M}&= \frac{1}{2}\left(\sup _{n}\left(x_{n}+ \varepsilon y_{n}\right)-\inf _{n}\left(x_{n}+ \varepsilon y_{n}\right)\right) \end{aligned}$$ 
+>  $$ \sup _{n}\left(x_{n}+ \varepsilon y_{n}\right) = \max \left\{ -1+ \varepsilon y_1, \varepsilon \sup _{n \ge  2}y_{n}+ 1 \right\}$$ 
+>  $$ \inf _{n}\left(x_{n}+ \varepsilon y_{n}\right)=\min \left\{ -1+ \varepsilon y_1 , \varepsilon \inf _{n \ge   2}y_{n}+ 1\right\}  $$ 
+> 当$\varepsilon$充分小时, 总有$\varepsilon \sup _{n\ge 2}y_{n}+ 1> -1+ \varepsilon y_1$, $\varepsilon \inf _{n\ge 2}y_{n}+ 1\ge -1+ \varepsilon y_1$, 此时$\sup _{n}\left(x_{n}+ \varepsilon y_{n}\right)= \varepsilon \sup _{n\ge 2}y_{n}+ 1$, $\inf _{n}\left(x_{n}+ \varepsilon y_{n}\right)= -1+ \varepsilon y_1$.
+>   则
+>   $$ \begin{aligned} \left\| x+ \varepsilon y+ M \right\|_{c/M} &=\frac{1}{2}\varepsilon \left( \sup _{n\ge 2}y_{n}- y_1\right)+ 1 \end{aligned}$$ 
+>   若$\left\| x+ \varepsilon y+ M \right\|_{c/M}= 1$, 则$\sup _{n\ge 2}y_{n}= y_1$. 类似地, 可知若$\left\| x-\varepsilon y+ M \right\|_{c/M}= 1$, 则 $\inf _{n\ge 2}y_{n}= y_1$, 因此$y= \left(y_1,y_1,\cdots \right)$, $\left\| y+ M \right\|_{c/M}= 0$, 与$y\in S_{c/M}$矛盾.
+>  
 > 因此不存在$c/M$与$c_0$之间的等距同构.
 
 > [!exercise] Exercise: 3
