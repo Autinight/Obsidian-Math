@@ -39,7 +39,17 @@
 >  $$ L\left(x+ y+ M\right)= x-a_{x}e+ y-a_{y}e= L\left(x+ M\right)+ L\left(y+ M\right) $$
 > $L$是一个线性映射. 任取$x_0\in c_0$, 我们有$L\left(x_0+ M\right)= x_0$, 故$L$是满的. 此外, 若$L\left(x+ M\right)= 0$, 则$x-a_{x}e= 0$, $x= a_{x}e\in M$, 故$L$是单的. 因此$L$是一个线性同构.
 > 
-> 考虑单位闭球的极值点, 
+>  $$ \begin{aligned} \left\| x+ M \right\|_{c/M}&= \inf _{k\in \mathbb{R} }\left\| x+ ke \right\|_{c}\\&= \inf _{k\in \mathbb{R} }\left\{ \sup _{n}\left| x_{n}+ k \right|  \right\} \end{aligned} $$  
+>  $$ \left\| \tilde{x} \right\|_{c_0}= \sup _{n}\left| \left(\tilde{x}\right)_{n} \right| $$
+> 考虑
+>  $$ S_{c_0}= \left\{ \tilde{x}\in c_0: \left\| \tilde{x} \right\|_{c_0}= 1 \right\} $$
+>  $$ S_{c/M}= \left\{ x\in c: \left\| x \right\|_{c/M} = 1\right\} $$
+> 若$\varphi :c_0\to c / M$是等距同构.
+> 任取$\tilde{x}\in c_0$, 则 $\left| \left(\tilde{x}\right)_{k} \right|\le 1,\forall k\in \mathbb{Z} _{> 0}$, 且存在$n_{\tilde{x}}\in \mathbb{Z} _{> 0}$, 使得$\left| \left(\tilde{x}\right)_{n_{\tilde{x}}} \right|= 1$. 由$\lim_{k\to \infty}\left(\tilde{x}\right)_{k}= 0$, 可知存在$m_{\tilde{x}}$, 使得$\left| \left(\tilde{x}\right)_{m_{\tilde{x}}} \right| < \frac{1}{2}$. 令$e_{m_{\tilde{x}}}= \left(0,\cdots ,1,0,\cdots \right)\in c_{0}$, 其中第$m_{\tilde{x}}$个位置是$1$, 其余是零. 则对于任意的$\varepsilon < \frac{1}{2}$, 都有
+>  $$ \tilde{x}\pm \varepsilon  e_{m_{\tilde{x}}}\in S_{c_0}  $$ 
+> 那么
+>  $$ \varphi \left(\tilde{x}\pm  \varepsilon e_{m_{\tilde{x}}}\right)= \varphi \left(\tilde{x}\right)\pm  \varepsilon \varphi \left(e_{m_{\tilde{x}}}\right)\in S_{c / M} $$ 
+> 从而存在$x,y\in $
 
 > [!exercise] Exercise: 3
 > 考虑集合
