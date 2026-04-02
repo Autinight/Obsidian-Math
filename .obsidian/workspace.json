@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
+                "file": "00.Inbox/ex- Integrability for PDEs and RG.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW4"
+              "title": "ex- Integrability for PDEs and RG"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "INteg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,17 +204,24 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "30.Recources/RG/Course HW/RG - HW1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
+    "20.Cards/Definitions/dfn - Integrable Distribution.md",
+    "30.Recources/FA/Course HW/FA - HW4.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Hopf Fibration.md",
-    "30.Recources/FA/Course HW/FA - HW4.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
     "20.Cards/Concepts/Tangent Distributions.md",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Definitions/dfn - Involutive.md",
     "20.Cards/Theorems/thm - Local Structure of Integral Manifolds.md",
     "20.Cards/Theorems/thm - Frobenius.md",
-    "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
@@ -224,11 +231,7 @@
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "00.Inbox/ex- Integrability for PDEs and RG.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
-    "30.Recources/RG/Course HW/RG - HW1.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
@@ -236,10 +239,6 @@
     "20.Cards/Exercises/ex - Petersen 3.4.8.md",
     "60.Templates/Script_DailyDraft.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
-    "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
-    "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",

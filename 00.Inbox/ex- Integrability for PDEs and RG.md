@@ -12,28 +12,6 @@ priority:
 tags: []
 ---
 
-If the integrability conditions hold, then 
-
-how to show that it holds, 
-not depend on $u$, 
-how to find that 
-consider a solution to generate all , 
-
-Once we have a 
-
- $$ \frac{\partial v^{i}}{\partial x^{k}}= P_{k}^{i}\left(x,u\left(x\right)\right) $$ 
- $$ v\left(0\right)= 0 $$ 
- 
-Define 
- $$ X_{k}= \frac{\partial }{\partial x^{k}}+ \frac{\partial }{\partial u^{j}}P_{k}^{j} $$
-
-
-Consider a $M\times \mathbb{R} ^{m}$, $\left(x^{1},\cdots ,x^{n},u^{1},\cdots ,u^{m}\right)$  is a chart for $M\times \mathbb{R} ^{m}$, define
- $$ X_{k}= \frac{\partial }{\partial x^{k}}+ P_{k}^{j}\frac{\partial }{\partial u^{j}} $$
- $$ \begin{aligned} [X_{k},X_{l}]&= \left(X_{k}\left(P_{l}^{i}\right)- X_{l}\left(P_{k}^{i}\right)\right)\frac{\partial }{\partial u^{i}}\\&= \left(\frac{\partial P_{l}^{i}}{\partial x^{k}}+ \frac{\partial P_{l}^{i}}{\partial u^{j}}P_{k}^{j}-\frac{\partial P_{k}^{i}}{\partial x^{k}}-\frac{\partial P_{k}^{i}}{\partial u^{j}}P_{l}^{j}\right)\partial   u^{j} \\&= 0\end{aligned} $$
-
-Let $\mathcal{D}= \operatorname{span}\left\{ X_1,\cdots ,X_{k} \right\}$, then $\mathcal{D}$ is a involutive distribution. From Frobenius Theorem, $\mathcal{D}$ is completely integrable.
-
 
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
 > For given functions $P_k^i(x,u)$, where $x=(x^1,\ldots,x^n)$, $u=(u^1,\ldots,u^m)$, $i=1,\ldots,m$, and $k=1,\ldots,n$, consider the initial value problems for a system of first-order PDEs
@@ -60,12 +38,34 @@ Let $\mathcal{D}= \operatorname{span}\left\{ X_1,\cdots ,X_{k} \right\}$, then $
 >    where $g_{kl}$ denotes the metric with respect to $x$ and use 2.5.8.
 
 > [!proof] Proof: 
-> If $u^{i}$ solves the PDE, then
+> 1. If $u^{i}$ solves the PDE, then
 >  $$ \begin{aligned} \frac{\partial ^{2}u^{i}}{\partial x^{k}\partial x^{l}}&= \frac{\partial }{\partial x^{k}}\left(P_{l}^{i}\left(x,u\left(x\right)\right)\right)\\&= \frac{\partial P_{l}^{i}}{\partial x^{k}}+ \frac{\partial P_{l}^{i}}{\partial u^{j}}\frac{\partial u^{j}}{\partial x^{k}}\\&= \frac{\partial P_{l}^{i}}{\partial x^{k}}+ \frac{\partial P_{l}^{i}}{\partial u^{j}}P_{k}^{j} \end{aligned} $$ 
 > From
 >  $$ \frac{\partial ^{2}u^{i}}{\partial x^{k}\partial x^{l}}= \frac{\partial ^{2}u^{i}}{\partial x^{l}\partial x^{k}} $$ 
 > we have 
 >  $$ \frac{\partial P_{l}^{i}}{\partial x^{k}}+ \frac{\partial P_{l}^{i}}{\partial u^{j}}P_{k}^{j}= \frac{\partial P_{k}^{i}}{\partial x^{l}}+ \frac{\partial P_{k}^{i}}{\partial u^{j}}P_{l}^{j} $$ 
+> 2. 
+>   If the integrability conditions hold, then 
+>   
+>   how to show that it holds, 
+>   not depend on $u$, 
+>   how to find that 
+>   consider a solution to generate all , 
+>   
+>   Once we have a 
+>   
+>    $$ \frac{\partial v^{i}}{\partial x^{k}}= P_{k}^{i}\left(x,u\left(x\right)\right) $$ 
+>    $$ v\left(0\right)= 0 $$ 
+>    
+>   Define 
+>    $$ X_{k}= \frac{\partial }{\partial x^{k}}+ \frac{\partial }{\partial u^{j}}P_{k}^{j} $$
+
+
+Consider a $M\times \mathbb{R} ^{m}$, $\left(x^{1},\cdots ,x^{n},u^{1},\cdots ,u^{m}\right)$  is a chart for $M\times \mathbb{R} ^{m}$, define
+ $$ X_{k}= \frac{\partial }{\partial x^{k}}+ P_{k}^{j}\frac{\partial }{\partial u^{j}} $$
+ $$ \begin{aligned} [X_{k},X_{l}]&= \left(X_{k}\left(P_{l}^{i}\right)- X_{l}\left(P_{k}^{i}\right)\right)\frac{\partial }{\partial u^{i}}\\&= \left(\frac{\partial P_{l}^{i}}{\partial x^{k}}+ \frac{\partial P_{l}^{i}}{\partial u^{j}}P_{k}^{j}-\frac{\partial P_{k}^{i}}{\partial x^{k}}-\frac{\partial P_{k}^{i}}{\partial u^{j}}P_{l}^{j}\right)\partial   u^{j} \\&= 0\end{aligned} $$
+
+Let $\mathcal{D}= \operatorname{span}\left\{ X_1,\cdots ,X_{k} \right\}$, then $\mathcal{D}$ is a involutive distribution. From Frobenius Theorem, $\mathcal{D}$ is completely integrable.
 
 
 ```dataviewjs
