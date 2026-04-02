@@ -187,10 +187,40 @@
 > - 有界集必是列紧集.
 
 > [!proof] Proof: 
+> **范数等价**: 
 > 设$X$是$n$-维赋范线性空间, 取定一组基$e_1,\cdots ,e_{n}$. 则存在唯一的$X$上的范数$\left\| \cdot  \right\|_{\mathbb{R} ^{n}}$, 使得线性映射$T:X\to \mathbb{R} ^{n}$, 
 >  $$ T\left(e_{i}\right) = \left(0,\cdots ,1,0,\cdots ,0\right),\text{第i个位置是1}$$ 
 > 成为一个等距同构. 只需要证明任意范数$\left\| \cdot  \right\|_{X}$都和此范数等价. 
 > 令
->  $$ M= \max \left\{  \right\}$$ 
+>  $$ M= \max _{i}\left\{ \left\| e_{i} \right\|_{X}  \right\}$$ 
 > 则任取$x\in X$, $x= x^{i}e_{i}$, 我们有
->  $$ \left\| x \right\|_{\mathbb{R} ^{n}}=\left\| x^{i}e_{i} \right\|_{\mathbb{R} ^{n}} \le x^{i}\left\| e_{i} \right\|_{\mathbb{R} ^{n}} = \sum _{i}\left| x^{i} \right| $$ 
+>  $$ \left\| x \right\|_{X} = \left\| \sum _{i}x^{i}e_{i} \right\|_{X}\le \sum _{i}\left| x^{i} \right| \left\| e_{i} \right\|_{X}\le M\sum _{i}\left| x^{i} \right| $$ 
+>  $$ n\left\| x \right\|_{\mathbb{R} ^{n}}=n \sqrt{\sum _{i}\left(x^{i}\right)^{2}}\ge \sum _{i}\left| x^{i} \right| $$ 
+> 因此
+>  $$ \left\| x \right\|_{X}\le Mn\left\| x \right\|_{\mathbb{R} ^{n}} $$ 
+>  这也表明$\left\| \cdot  \right\|_{X}: \left(X,\left\| \cdot  \right\|_{\mathbb{R} ^{n}}\right)\to \mathbb{R}_{\ge 0}$是连续映射. 令
+>  $$ S= \left\{ x\in X: \left\| x \right\|_{\mathbb{R} ^{n}}= 1 \right\} $$ 
+> 则由Heine-Borel定理, $S$是紧集. $\left\| \cdot  \right\|_{X}$在$S$上存在最小值, 记作$m$. 若$m= 0$, 则存在$x\in S$使得$\left\| x \right\|_{X}= 0\implies x= 0$矛盾, 因此$m> 0$. 此时, 对于任意的$y\in X$, 都有
+>  $$ \left\| y \right\|_{X}=\left\| y \right\|_{\mathbb{R} ^{n}} \left\| \frac{y }{\left\| y \right\|_{\mathbb{R} ^{n}} } \right\| _{X}\ge m\left\| y \right\|_{\mathbb{R} ^{n}}$$ 
+> 因此
+>  $$ m\left\| y \right\|_{\mathbb{R} ^{n}} \le \left\| y \right\|_{X}\le Mn\left\| y \right\|_{\mathbb{R} ^{n}}$$
+> 故$\left\|  \right\|_{X}$与$\left\|  \right\|_{\mathbb{R} ^{n}}$等价. 
+>
+> **点列收敛当且仅当分量收敛**: 
+> 任取坐标基$e_1,\cdots ,e_{n}$, 在$X$上定义
+>  $$ \left\| \sum _{i}x^{i}e_{i} \right\|_{\infty}= \max _{1\le m\le n}\left| x^{m} \right|  $$ 
+> 易见$\left\| \cdot  \right\|_{\infty}$是$X$上的一个范数. 任取$X$上的范数$\left\| \cdot  \right\|_{X}$, 若点列$\left\{ x_{\left(k\right)} \right\}$在$X$上依$\left\|  \right\|_{X}$收敛于$x$, 令$y_{\left(k\right)}= x_{\left(k\right)}-x$, 则$\left\{ y_{\left(k\right)} \right\}$在$X$依$\left\|  \right\|_{X}$收敛于零. 由于$\left\|  \right\|_{X}$与$\left\|  \right\|_{\infty}$等价, 这当且仅当$\left\{ y_{\left(k\right)} \right\}$在$X$上依$\left\|  \right\|_{\infty}$收敛于$0$, 即
+>  $$ \lim_{k\to \infty}\max _{1\le m\le n}\left| y_{\left(k\right)}^{m} \right| = 0 $$ 
+> 这又当且仅当对于每个$1\le m\le n$, 都有$\lim_{k\to \infty}y_{\left(k\right)}^{m}=\lim_{k\to \infty}x_{\left(k\right)}^{m}-x^{m}=  0$. 即$\left\{ x_{\left(k\right)} \right\}$每个分量对应收敛于$x$的. 因此依$\left\| \cdot  \right\|_{X}$收敛当且仅当每个分量对应收敛.
+> 
+> **完备可分**: 
+> 任取Cauchy列 $\left\{ x_{\left(k\right)} \right\}$ , $x_{\left(k\right)}= \sum _{i}x^{i}_{\left(k\right)}e_{i}$. 则$\left\{ x_{\left(k\right)} \right\}$在$\left\|  \right\|_{\infty}$下也是Cauchy列, 进而每个分量数列是$\mathbb{R}$上的Cauchy列. 由实数的完备性, 对于每个$1\le m\le n$, 存在数$x^{m}$, 使得分量数列$\left\{ x_{\left(k\right)}^{m} \right\}_{k}$收敛于$x^{m}$. 故而由上面的结论, $\left\{ x_{\left(k\right)} \right\}$收敛于$x= \sum _{i}x^{i}e_{i}$. 为了说明可分性, 令
+>  $$ \mathcal{Q}= \left\{ \sum _{i}q^{i}e_{i}: q^{1},\cdots ,q^{n}\in \mathbb{Q}  \right\} $$ 
+> 则对于任意的$x= \sum _{i}x^{i}e_{i}\in X$, 以及任意的$\varepsilon > 0$, 对于每个$1\le i\le n$, 都存在$q^{i}$, 使得
+>  $$ \left| q^{i}-x^{i} \right|  \le \varepsilon $$ 
+> 于是
+>  $$ \left\| x-\sum _{i}q^{i}e_{i} \right\|_{\infty}= \max _{1\le i\le n}\left| q^{i}-x^{i} \right|\le \varepsilon   $$
+> 这表明$\mathcal{Q}$依$\left\|  \right\|_{\infty}$在$X$中稠密. 由范数的等价性, $\mathcal{Q}$依任意范数在$X$中稠密. 故$\mathcal{Q}$是$X$的一个稠密子集, $X$是可分的.
+>
+> **有界集列紧**: 
+> 任取$\left(X,\left\| \cdot  \right\|_{X}\right)$上的有界集$B$, 则由范数的等价性, $B$在$\left\|  \right\|_{\mathbb{R} ^{n}}$下也有界. 任取$B$中的点列$\left\{ x_{\left(k\right)} \right\}$, 由Bonlzano-Weiersetrass定理, $\left\{ x_{\left(k\right)} \right\}$存在依$\left\|  \right\|_{\mathbb{R} ^{n}}$收敛的子列$\left\{ x_{\left(k_{m}\right)} \right\}$, 由范数的等价性, $\left\{ x_{\left(k_{m}\right)} \right\}$依$\left\| \cdot  \right\|_{X}$也是收敛的. 故$B$是$\left(X,\left\| \cdot  \right\|_{X}\right)$的列紧集.

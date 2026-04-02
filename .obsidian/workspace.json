@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ep - ell^p Space.md",
+                "file": "30.Recources/FA/Course HW/FA - HW4.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ep - ell^p Space"
+              "title": "FA - HW4"
             }
           }
         ]
@@ -204,8 +204,8 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "00.Inbox/ep - Hopf Fibration.md",
     "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/ep - Hopf Fibration.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
