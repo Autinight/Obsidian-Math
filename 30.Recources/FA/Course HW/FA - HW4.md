@@ -105,26 +105,49 @@
 > 由于$\sum _{n = 1}^{\infty}\left| x_{n} \right| ^{p}$收敛, 我们有$\lim_{m\to \infty}\sum _{n = m}^{\infty}\left| x_{n} \right| ^{p}= 0$, 因此
 >  $$ \sum _{n = 1}^{\infty}x_{n}e_{n} $$
 > 收敛于$x$.  若$\sum _{n = 1}^{\infty}z_{n}e_{n}$也收敛于$x$, 则令$z^{\left(m\right)}= \sum _{n = 1}^{m}z_{n}e_{n}$, 我们有
->  $$ \left| z_{n}-x_{n} \right| ^{p}\le \sum _{k = 1}^{m}\left| z_{k}-x_{k} \right|^{p} = \left\| x-z^{\left(m\right)} \right\|_{\ell ^{p}} ^{p}\to 0\left(m\to \infty\right)$$ 
+>  $$ \left| z_{n}-x_{n} \right| ^{p}\le \sum _{k = 1}^{m}\left| z_{k}-x_{k} \right|^{p} \le  \left\| x-z^{\left(m\right)} \right\|_{\ell ^{p}} ^{p}\to 0\left(m\to \infty\right)$$ 
 > 因此$z_{n}= x_{n}$. 这$x$由$\left\{ e_{n} \right\}$唯一地表示为$\sum _{n = 1}^{\infty}x_{n}e_{n}$
 > 故$\left\{ e_{n} \right\}$是$\ell ^{p}\left(1\le p< \infty\right)$空间的Schauder基. 
 >
 > $\ell ^{\infty}$: 
-> 考虑$x= \left(1,1,1,\cdots \right)$, 则$\left\| x \right\|_{\ell ^{\infty}}= 1$, $x\in \ell ^{\infty}$.  若任取点列$\left\{ y_{n} \right\}$, 令$\sum _{n = 1}^{\infty}y_{n}e_{n}$在$\ell ^{\infty}$中收敛于$x$, 令$y^{\left(m\right)}= \sum _{n = 1}^{m}y_{n}e_{n}$,   则
+> 考虑$x= \left(1,1,1,\cdots \right)$, 则$\left\| x \right\|_{\ell ^{\infty}}= 1$, $x\in \ell ^{\infty}$.  若任取点列$\left\{ y_{n} \right\}$,  令$y^{\left(m\right)}= \sum _{n = 1}^{m}y_{n}e_{n}$,   则
 >  $$ \left\| x-y^{\left(m\right)} \right\|= \sup _{n}\left| x_{n}-y_{n} \right|= \sup  \left(\left\{ \left| x_{n}-y_{n} \right|: 1\le n\le m  \right\}\cup \left\{ 1 \right\}\right)  \ge 1 $$ 
 > 因此$\sum _{n = 1}^{\infty}y_{n}e_{n}$不可能收敛于$x$. 故$\left\{ e_{n} \right\}$不是$\ell ^{\infty}$空间的Schauder基.
 
 > [!exercise] Exercise: 4
 > 证明 $c_0$ 是可分的 Banach 空间.
 
+> [!proof] Proof: 
+> 令$e_{n}= \left(0,0,\cdots ,1,0,\cdots ,\right)$, 其中第$n$个位置为$1$, 其余为$0$. 任取$x= \left(x_1,x_2,\cdots \right)\in c_0$, 则$\lim_{n\to \infty}x_{n}= 0$. 
+> 令$y^{\left(k\right)}= \sum _{n = 1}^{k}x_{n}e_{n}$, 则
+>  $$ \left\| y^{\left(k\right)}-x \right\| _{c_0}= \sup _{n\ge k+ 1}\left| x_{n} \right| $$
+> 因此
+>  $$ \lim_{k\to \infty}\left\| y^{\left(k\right)}-x \right\|_{c_0}= \limsup_{k\to \infty}\left| x_{k} \right|= \lim_{k\to \infty}\left| x_{k} \right| = 0  $$   
+> 故$\sum _{n = 1}^{\infty}x_{n}e_{n}$收敛于$x$.  若$\sum _{n = 1}^{\infty}z_{n}e_{n}$也收敛到$x$, 令$z^{\left(k\right)}= \sum _{n = 1}^{k}z_{n}e_{n}$, 则
+>  $$ \left| x_{k}-z_{k} \right|\le \left\| x-z^{\left(m\right)} \right\|_{c_0},\forall m\ge k$$
+> 令$m\to \infty$, 得到$z_{k}=x_{k}$.  因此$x$在$\left\{ e_{n} \right\}$下唯一地表示为$x= \sum _{n = 1}^{\infty}x_{n}e_{n}$. 因此$\left\{ e_{n} \right\}$是$c_0$的一个Schauder基, 而具有Schauder基的Banach空间是可分的, 又$c_0$在$\left\|  \cdot \right\|_{\ell ^{\infty}}$下是Banach空间, 故$c_0$可分.
+
 > [!exercise] Exercise: 5
 > 设$(X_1,\|\cdot\|_1), (X_2,\|\cdot\|_2)$是赋范空间, 在乘积线性空间$X_1\times X_2$中定义
 > $$ \|z\|_1 = \|x_1\|_1 + \|x_2\|_2; \|z\|_2 = \max(\|x_1\|_1, \|x_2\|_2), $$
 > 其中$z\in X_1\times X_2, z=(x_1,x_2)$. 证明: $\|z\|_1, \|z\|_2$是$X_1\times X_2$上的等价范数.
 
+> [!proof] Proof: 
+> $\left\| z \right\|_{1}$的正定性和齐次性是显然的, 且有两个范数$\left\| x_1 \right\|_{1}$, $\left\| x_2 \right\|_{1}$的三角不等式可得此范数的三角不等式. 因此$\left\| z \right\|_{1}$确实是一个范数. 而Exercise 1已经说明了$\left\| z \right\|_{2}$也是一个范数.
+> 
+> 显然
+>  $$ \max \left(\left\| x_1 \right\|_{1},\left\| x_2 \right\|_{2}\right) \le \left\| x_1 \right\|_{1}+ \left\| x_2 \right\|_{2}$$
+> 另一方面, 
+>  $$ \left\| x_1 \right\|_{1}+ \left\| x_2 \right\|_{2}\le 2\max \left(\left\| x_1 \right\|_{1},\left\| x_2 \right\|_{2}\right) $$  
+> 因此
+>  $$ \left\| z \right\|_{2}\le \left\| z \right\|_{1} \le 2\left\| z \right\|_{2}$$
+> 这表明范数$\left\| \cdot  \right\|_{1},\left\| \cdot  \right\|_{2}$等价. 
 
 > [!exercise] Exercise: 6
 > 证明: 若线性空间中两个范数等价, 则它们的诱导拓扑相同.
+
+> [!proof] Proof: 
+> 设$X$是线性空间, $\left\| \cdot  \right\|_{1}$, $\left\| \cdot  \right\|_{2}$是其上的两个等价的范数.
 
 > [!exercise] Exercise: 7
 > 证明: 线性赋范空间之间的线性映射 $T:X\to Y$ 是 (在诱导拓扑意义下) 连续的当且仅当 $T$ 是有界的, 即 $\exists C>0, \text{s.t.}$
