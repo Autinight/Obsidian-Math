@@ -49,7 +49,28 @@
 >  $$ \tilde{x}\pm \varepsilon  e_{m_{\tilde{x}}}\in S_{c_0}  $$ 
 > 那么
 >  $$ \varphi \left(\tilde{x}\pm  \varepsilon e_{m_{\tilde{x}}}\right)= \varphi \left(\tilde{x}\right)\pm  \varepsilon \varphi \left(e_{m_{\tilde{x}}}\right)\in S_{c / M} $$ 
-> 从而存在$x,y\in $
+> 由于$\varphi:S_{c_0}\to S_{c/M}$是双射, 以上表明对于任意的$x\in S_{c / M}$, 存在$y\in S_{c/M}$, 使得对于任意的$\varepsilon < \frac{1}{2}$, 都有
+>
+> 断言
+>  $$ \left\| x+ M \right\|_{c/M}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
+>  $$ x\pm \varepsilon y\in S_{c_0} $$ 
+> 
+> 事实上, 
+> 取$k_0= \frac{\sup _{n}x_{n}+ \inf _{n}x_{n} }{2 }$, 则
+>  $$ \left\| x+ M \right\|_{c / M}\le \left\| x- k_0e \right\|= \sup _{n}\left| x_{n}-k_0 \right|  $$ 
+> 而
+>  $$ \sup _{n}\left| x_{n}-k_0 \right|= \max _{n}\left\{ \sup _{n}x_{n}-k_0, k_0-\inf _{n}x_{n} \right\}= \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)$$
+> 因此
+>  $$ \left\| x+ M \right\|_{c / M}\le \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
+> 另一方面, 只需要证明对于任意的$k\in \mathbb{R}$, 都有$\sup _{n}\left| x_{n}-k \right| \ge \frac{1}{2}\left(\sup _{n}x_{n}-\inf_{n}x_{n} \right)$.
+> - 若$k\le \inf _{n}x_{n}$, 则
+>    $$ \sup _{n} \left| x_{n}-k \right| = \sup _{n}\left(x_{n}-k\right)= \sup _{n}x_{n}-k\ge \sup _{n}x_{n}-\inf _{n}x_{n}\ge \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right)$$ 
+> - 若$k\ge \sup _{n}x_{n}$, 则
+>    $$ \sup _{n}\left(x_{n}-k\right)= \sup _{n}\left(k-x_{n}\right)= k-\inf _{n}x_{n}\ge \sup _{n}x_{n}-\inf _{n}x_{n}\ge \frac{1}{2}\left(\sup _{n}x_{n}-\inf _{n}x_{n}\right) $$ 
+> - 若 $\inf _{n}x_{n}< k< \sup _{n}x_{n}$, 则
+>   $$ \sup _{n}\left| x_{n}-k \right|= \max \left\{ \sup _{n}x_{n}-k,k-\inf _{n}x_{n} \right\}  $$ 
+>   此时, 不妨设$\sup _{n}\left| x_{n}-k \right|$
+
 
 > [!exercise] Exercise: 3
 > 考虑集合
