@@ -1,3 +1,6 @@
+
+代靖涵 25120222201319
+
 > [!exercise] Exercise: 1
 > 设 $(X_1, \|\cdot\|_1)$ 和 $(X_1, \|\cdot\|_1)$ 是两个 $B^*$ 空间, 在乘积空间 $X = X_1 \times X_2$ 中定义范数
 > $$
@@ -147,11 +150,34 @@
 > 证明: 若线性空间中两个范数等价, 则它们的诱导拓扑相同.
 
 > [!proof] Proof: 
-> 设$X$是线性空间, $\left\| \cdot  \right\|_{1}$, $\left\| \cdot  \right\|_{2}$是其上的两个等价的范数.
+> 设$X$是线性空间, $\left\| \cdot  \right\|_{1}$, $\left\| \cdot  \right\|_{2}$是其上的两个等价的范数. 则它们的拓扑分别由以下基生成: 
+>  $$ \mathcal{B}_{i}= \left\{ B^{\left(i\right)}_{r}\left(x\right): x\in X, r > 0\right\},\quad B_{r}^{\left(i\right)}\left(x\right)= \left\{ y\in X: \left\| y-x \right\|_{i} < r\right\},\quad i= 1,2 $$ 
+> 由于范数等价, 存在$c,C> 0$, 使得
+>  $$ c\left\| x \right\|_{1}\le \left\| x \right\|_{2}\le C\left\| x \right\|_{1},\quad \forall x\in X $$  
+> 任取$B_{r}^{\left(1\right)}\left(x\right)\in \mathcal{B}_{1}$, 对于任意的$y\in B_{r}^{\left(1\right)}\left(x\right)$, 令$r_0=r-\left\| x-y \right\|_{1}> 0$, 我们有$B_{r_0}^{\left(1\right)}\left(y\right)\subseteq B_{r}^{\left(1\right)}\left(x\right)$. 由于$\left\| x \right\|_{2}\ge c\left\| x \right\|_{1}$, 任取$z\in B_{cr_0}^{\left(2\right)}\left(y\right)$, 则
+>  $$ \left\| z-y \right\|_{1}\le \frac{1 }{c }\left\| z-y \right\|_{2}< \frac{1 }{c }cr_0= r_0 $$ 
+>  因此
+>  $$ B_{cr_0}^{\left(2\right)}\left(y\right)\subseteq B_{r_0}^{\left(1\right)}\left(y\right)\subseteq B_{r}^{\left(1\right)}\left(x\right) $$ 
+> 这表明
+>  $$ B_{r}^{\left(1\right)}\left(x\right) = \bigcup _{y\in B_{r}^{\left(1\right)}\left(x\right)}B_{cr_0}^{\left(2\right)}\left(y\right)$$ 
+> 因此$\mathcal{B}_{2}$生成了$\mathcal{B}_{1}$. 有对称性可知$\mathcal{B}_{1}$生成了$\mathcal{B}_{2}$. 因此$\mathcal{B}_{1}$, $\mathcal{B}_{2}$生成了相同的拓扑, 即两个范数诱导的拓扑相同.
 
 > [!exercise] Exercise: 7
 > 证明: 线性赋范空间之间的线性映射 $T:X\to Y$ 是 (在诱导拓扑意义下) 连续的当且仅当 $T$ 是有界的, 即 $\exists C>0, \text{s.t.}$
 > $$\|Tx\|_{Y}\le C\|x\|_{X}, \forall x\in X.$$
+
+> [!proof] Proof: 
+> 若$T$是有界的, 则对于任意的$x,y\in X$, 我们有
+>  $$ \left\| Tx-Ty \right\|_{Y}= \left\| T\left(x-y\right) \right\|_{Y}\le C\left\| x-y \right\|_{X} $$
+> 即$T$是Lipschitz连续的, 特别地$T$是连续的.
+>
+> 反过来, 若$T$是无界的, 设$S_{X}$是$X$上的单位球. 则对于任意的$n\in \mathbb{Z} _{> 0}$, 存在$x_{n}\in S_{X}$, 使得$\left\| T x_{n}\right\|\ge n$. 令$y_{n}= \frac{1 }{n }x_{n}$, 则
+>  $$ \left\| y_{n} \right\|_{X}= \frac{1 }{n }\left\| x_{n} \right\|_{X}= \frac{1 }{n } $$ 
+> 因此
+>  $$ \lim_{n\to \infty}\left\| y_{n} \right\|_{X}= 0 $$
+> 但是 
+> $$ \left\| Ty_{n} \right\|=\left\| \frac{1 }{n }Tx_{n} \right\|= \frac{1 }{n }\left\| Tx_{n} \right\|\ge 1$$  
+> 因此$\liminf_{n\to \infty}\left\| Ty_{n} \right\|> 0$, 但$T\left(0\right)= 0$, 故而$\left\{ Ty_{n} \right\}$不收敛与$0$. 因此$T$不是连续的.
 
 > [!exercise] Exercise: 8 
 > 证明有限维赋范线性空间具有以下性质:
