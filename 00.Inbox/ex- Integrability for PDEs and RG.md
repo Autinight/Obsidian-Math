@@ -17,6 +17,13 @@ If the Riemannian manifold is flat , then the initial value problem
   $$ U\left(x_0\right)= U_0 $$
   can be solved.  
 
+If $u^{1},\cdots ,u^{n}$ is the Cartesian corrdinates, they ought to satisfies
+ $$ g\left(\frac{\partial }{\partial u^{i}},\frac{\partial }{\partial u^{j}}\right)= \delta _{i}^{j} $$ 
+but 
+ $$ \frac{\partial }{\partial x^{k}}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial }{\partial u^{i}} ,\quad \frac{\partial }{\partial x^{l}}= \frac{\partial u^{j}}{\partial x^{l}}\frac{\partial }{\partial u^{j}}$$ 
+ $$ g_{kl}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\delta _{ij}\implies \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}g^{kl}= \delta _{ij} $$
+  
+
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
 > For given functions $P_k^i(x,u)$, where $x=(x^1,\ldots,x^n)$, $u=(u^1,\ldots,u^m)$, $i=1,\ldots,m$, and $k=1,\ldots,n$, consider the initial value problems for a system of first-order PDEs
 > $$\begin{aligned}
