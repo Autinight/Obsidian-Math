@@ -12,6 +12,10 @@ priority:
 tags: []
 ---
 
+ $$ \frac{\partial ^{2}U_{j}^{i}}{\partial x^{k}x^{l}}= \left(\frac{\partial }{\partial x^{k}}\Gamma _{lj}^{s}\right)U_{s}^{i}+ \Gamma _{kj}^{s}\frac{\partial U_{s}^{i}}{\partial x^{k}} $$ 
+  $$ \left(\frac{\partial }{\partial x^{k}}\Gamma _{lj}^{s}\right)U_{s}^{i}+ \Gamma _{kj}^{s}\frac{\partial U_{s}^{i}}{\partial x^{k}}= \left(\frac{\partial }{\partial x^{l}}\Gamma _{kj}^{s}\right)U_{s}^{i}+ \Gamma _{lj}^{s}\frac{\partial U_{s}^{i}}{\partial x^{l}} $$ 
+ $$ \begin{aligned} R_{klj}^{s}&= R\left(\partial _{k},\partial _{l},\partial _{j}\right)\\&=\nabla _{\partial _{k}}\nabla _{\partial _{l}}\partial _{j}-\nabla _{\partial _{l}}\nabla _{\partial _{k}}\partial _{j}\\&= \nabla _{\partial _{k}}\left(\Gamma _{lj}^{t}\partial _{t}\right)-\nabla _{\partial _{l}}\left(\Gamma _{kj}^{t}\partial _{t}\right)\\&= \frac{\partial \Gamma _{lj}^{s}}{\partial x^{k}}\partial _{s}+ \Gamma _{lj}^{t}\Gamma _{kt}^{s}\partial _{s}- \frac{\partial \Gamma _{kj}^{s}}{\partial x^{k}}\partial _{s}-\Gamma _{kj}^{t}\Gamma _{lt}^{s}\partial _{s} \end{aligned} $$ 
+
 
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
 > For given functions $P_k^i(x,u)$, where $x=(x^1,\ldots,x^n)$, $u=(u^1,\ldots,u^m)$, $i=1,\ldots,m$, and $k=1,\ldots,n$, consider the initial value problems for a system of first-order PDEs
