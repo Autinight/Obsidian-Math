@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex- Integrability for PDEs and RG.md",
-                "mode": "source",
+                "file": "30.Recources/FA/Course HW/FA - HW5.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex- Integrability for PDEs and RG"
+              "title": "FA - HW5"
             }
           }
         ]
@@ -204,6 +204,9 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
+    "00.Inbox/ex- Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -230,7 +233,6 @@
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "00.Inbox/ex- Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
@@ -238,7 +240,6 @@
     "20.Cards/Exercises/ex - Parallel Ricci Tensor has Constant Scalar Curvature.md",
     "20.Cards/Exercises/ex - Petersen 3.4.8.md",
     "60.Templates/Script_DailyDraft.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
