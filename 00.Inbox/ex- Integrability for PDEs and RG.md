@@ -64,6 +64,9 @@ tags: []
 >  $$ Y_{k}= D F\left(\frac{\partial }{\partial x_{k}}\right) = \frac{\partial }{\partial x_{k}}+ \frac{\partial f^{j}}{\partial x_{k}}\frac{\partial }{\partial u^{j}}$$ 
 > Then 
 >  $$ T_{q}\Sigma = \operatorname{span}\left\{ Y_1,\cdots ,Y_{n} \right\}= \operatorname{span}\left\{ X_1,\cdots ,X_{n} \right\} $$ 
+> If
+>  $$ Y_{k}= g^{i}X_{i}\implies \frac{\partial }{\partial x^{k}}+ \frac{\partial f^{j}}{\partial x^{k}}\frac{\partial}{\partial u^{j}}= g^{i}\left(\frac{\partial }{\partial x^{i}}+ P^{k}_{i}\frac{\partial }{\partial u^{k}}\right)\implies g^{k}= 1,g^{i}= 0(i\neq k)$$ 
+> Thus $Y_{k}= X_{k}$, $\frac{\partial f^{j}}{\partial x^{k}}= P_{k}^{j}$. Then $\left(f^{1},\cdots ,f^{m}\right)$ is the solution for the PDEs.
 
 
 ```dataviewjs
