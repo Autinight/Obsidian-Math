@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex- Integrability for PDEs and RG.md",
+                "file": "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex- Integrability for PDEs and RG"
+              "title": "ex - Partial of Metric in Coordinates"
             }
           }
         ]
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,14 +205,16 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "新建 文本文档.txt",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "00.Inbox/ex- Integrability for PDEs and RG.md",
+    "新建 文本文档.txt",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
-    "00.Inbox/ex- Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
@@ -239,7 +242,6 @@
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "20.Cards/Exercises/ex - Parallel Ricci Tensor has Constant Scalar Curvature.md",
-    "20.Cards/Exercises/ex - Petersen 3.4.8.md",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
@@ -251,7 +253,6 @@
     "30.Recources/PDE",
     "30.Recources/RG/Petersen Ex",
     "40.Drafts/2026-03/2026",
-    "41.Drafts",
     "Pasted image 20260204114038.png",
     "Pasted image 20260204114138.png",
     "Pasted image 20260204114244.png",

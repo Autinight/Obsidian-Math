@@ -21,7 +21,13 @@ If $u^{1},\cdots ,u^{n}$ is the Cartesian corrdinates, they ought to satisfies
  $$ g\left(\frac{\partial }{\partial u^{i}},\frac{\partial }{\partial u^{j}}\right)= \delta _{i}^{j} $$ 
 but 
  $$ \frac{\partial }{\partial x^{k}}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial }{\partial u^{i}} ,\quad \frac{\partial }{\partial x^{l}}= \frac{\partial u^{j}}{\partial x^{l}}\frac{\partial }{\partial u^{j}}$$ 
+ Then we have 
+
  $$ g_{kl}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\delta _{ij}\implies \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}g^{kl}= \delta _{ij} $$
+We do derivative, 
+ $$ \frac{\partial }{\partial x^{s}}\left(\frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}g^{kl}\right) = 0$$
+ $$ \frac{\partial ^{2}u^{i}}{\partial x^{s}\partial x^{l}} \frac{\partial u^{j}}{\partial x^{l}}g^{kl}+ \frac{\partial ^{2}u^{j}}{\partial x^{s}\partial x^{l}}\frac{\partial u^{i}}{\partial x^{k}} g^{kl}+ \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\partial _{s}g^{kl}$$
+ $$ \partial _{s}g^{kl}= g^{ki}\partial _{s}g_{ij}g^{jl} $$   
   
 
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
