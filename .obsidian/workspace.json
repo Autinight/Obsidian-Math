@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+                "file": "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch03"
+              "title": "ex - Fundamental Theorem of Hypersurface Theory"
+            }
+          },
+          {
+            "id": "77f1e5ffaff4cdc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily Draft 2026-04-04"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Integrability",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2026-03-20.md",
+                "file": "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-20 的大纲"
+              "title": "Daily Draft 2026-04-04 的大纲"
             }
           },
           {
@@ -184,12 +209,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,13 +227,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "238565ae5332747e",
+  "active": "77f1e5ffaff4cdc2",
   "lastOpenFiles": [
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
+    "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
+    "40.Drafts/2026-04",
+    "40.Drafts/新建文件夹",
+    "40.Drafts/未命名",
+    "40.Drafts/2026-03/202",
+    "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
+    "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
@@ -231,9 +262,6 @@
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
     "20.Cards/Concepts/Tangent Distributions.md",
-    "20.Cards/Definitions/dfn - Involutive.md",
-    "20.Cards/Theorems/thm - Local Structure of Integral Manifolds.md",
-    "20.Cards/Theorems/thm - Frobenius.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
@@ -249,10 +277,6 @@
     "20.Cards/Exercises",
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
-    "journals",
-    "30.Recources/PDE",
-    "30.Recources/RG/Petersen Ex",
-    "40.Drafts/2026-03/2026",
     "Pasted image 20260204114038.png",
     "Pasted image 20260204114138.png",
     "Pasted image 20260204114244.png",
