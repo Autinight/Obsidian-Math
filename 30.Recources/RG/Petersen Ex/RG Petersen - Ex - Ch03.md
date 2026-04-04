@@ -117,13 +117,13 @@
 
 > [!exercise] Exercise 3.4.13:
 > A hypersurface of a Riemannian manifold is called **totally geodesic** if its second fundamental form vanishes.
-> 4. Show that the spaces $S_k^n$ have the property that any tangent vector is normal to a **totally geodesic** hypersurface.
-> 5. Show a Riemannian $n$-manifold, $n>2$, with the property that any tangent vector is a normal vector to a **totally geodesic** hypersurface has constant curvature. Hint: Start by showing that $R(X,Y)Z=0$ when the three vectors are orthogonal to each other and use exercise 3.4.10.
+> 1. Show that the spaces $S_k^n$ have the property that any tangent vector is normal to a **totally geodesic** hypersurface.
+> 2. Show a Riemannian $n$-manifold, $n>2$, with the property that any tangent vector is a normal vector to a **totally geodesic** hypersurface has constant curvature. Hint: Start by showing that $R(X,Y)Z=0$ when the three vectors are orthogonal to each other and use exercise 3.4.10.
 
 > [!exercise] Exercise 3.4.14:
 > Use exercise 2.5.26 to define the normal curvature $R^\perp(X,Y,V,W)$ for tangent fields $X,Y$ and normal fields $V,W$.
-> 6. Show that $R^\perp$ is tensorial and skew-symmetric in $X,Y$ as well as $V,W$.
-> 7. Show that
+> 3. Show that $R^\perp$ is tensorial and skew-symmetric in $X,Y$ as well as $V,W$.
+> 4. Show that
 > $$\bar{R}^M(X,Y,V,W)=R^\perp(X,Y,V,W)+g_M(T_XV,T_YW)-g_M(T_YV,T_XW).$$
 > These are also known as the Ricci equations.
 
@@ -138,12 +138,12 @@
 > Consider the $(0,2)$-tensor
 > $$T=\operatorname{Ric}+b\operatorname{scal}g+cg,$$
 > where $b,c\in\mathbb{R}$.
-> 8. Show that $\nabla^*T=0$ if $b=-\frac{1}{2}$. The tensor
+> 1. Show that $\nabla^*T=0$ if $b=-\frac{1}{2}$. The tensor
 > $$G=\operatorname{Ric}-\frac{\operatorname{scal}}{2}g+cg$$
 > is known as the **Einstein tensor** and $c$ as the **cosmological constant**.
-> 9. Show that if $c=0$, then $G=0$ in dimension $2$.
-> 10. When $n>2$ show that if $G=0$, then the metric is an **Einstein metric**.
-> 11. When $n>2$ show that if $G=0$ and $c=0$, then the metric is **Ricci flat**.
+> 2. Show that if $c=0$, then $G=0$ in dimension $2$.
+> 3. When $n>2$ show that if $G=0$, then the metric is an **Einstein metric**.
+> 4. When $n>2$ show that if $G=0$ and $c=0$, then the metric is **Ricci flat**.
 
 > [!exercise] Exercise 3.4.17:
 > Let $T_\mathbb{C}M=TM\otimes\mathbb{C}$ be the complexified tangent bundle to a manifold. A vector $v\in T_\mathbb{C}M$ looks like $v=v_1+iv_2$, where $v_1,v_2\in TM$, and can be conjugated $\bar{v}=v_1-iv_2$. Any tensorial object on $TM$ can be complexified. For example, if $S$ is a $(1,1)$-tensor, then its complexification is given by
@@ -165,20 +165,20 @@
 > &=g(v_1,v_1)-g(v_2,v_2)+i(g(v_2,v_1)+g(v_1,v_2)).
 > \end{aligned}$$
 > More generally, **isotropic** subspaces are defined as subspaces on which $g_\mathbb{C}$ vanishes. The **complex sectional curvature** spanned by Hermitian orthonormal vectors $v,w$ is given by the expression $R_\mathbb{C}(v,w,\bar{w},\bar{v})$. It is called **isotropic sectional curvature** when $v,w$ span an isotropic plane.
-> 12. Show that a vector $v=v_1+iv_2$ is **isotropic** if $v_1,v_2$ are orthogonal and have the same length.
-> 13. An isotropic plane can be spanned by two Hermitian orthonormal vectors $v,w$ that are isotropic. Show that if $v=v_1+iv_2$ and $w=w_1+iw_2$, then $v_1,v_2,w_1,w_2$ are orthonormal.
-> 14. Show that $R_\mathbb{C}(v,w,\bar{w},\bar{v})$ is always a real number.
-> 15. Show that if the original metric is **strictly quarter pinched**, i.e., all sectional curvatures lie in an open interval of the form $(\frac{1}{4}k,k)$ with $k>0$, then the complex sectional curvatures are positive.
-> 16. Show that the complex sectional curvatures are nonnegative (resp. positive) if the curvature operator is nonnegative (resp. positive). Hint: Calculate
+> 1. Show that a vector $v=v_1+iv_2$ is **isotropic** if $v_1,v_2$ are orthogonal and have the same length.
+> 2. An isotropic plane can be spanned by two Hermitian orthonormal vectors $v,w$ that are isotropic. Show that if $v=v_1+iv_2$ and $w=w_1+iw_2$, then $v_1,v_2,w_1,w_2$ are orthonormal.
+> 3. Show that $R_\mathbb{C}(v,w,\bar{w},\bar{v})$ is always a real number.
+> 4. Show that if the original metric is **strictly quarter pinched**, i.e., all sectional curvatures lie in an open interval of the form $(\frac{1}{4}k,k)$ with $k>0$, then the complex sectional curvatures are positive.
+> 5. Show that the complex sectional curvatures are nonnegative (resp. positive) if the curvature operator is nonnegative (resp. positive). Hint: Calculate
 > $$g(\mathcal{R}(x\wedge u-y\wedge v),x\wedge u-y\wedge v)+g(\mathcal{R}(x\wedge v+y\wedge u),x\wedge v+y\wedge u)$$
 > and compare it to a suitable complex curvature.
 
 > [!exercise] Exercise 3.4.18:
 > Consider a Riemannian metric $(M,g)$ and **scale** the metric by multiplying it by a number $\lambda^2$. This creates a new Riemannian manifold $(M,\lambda^2g)$.
-> 17. Show that the new connection and $(1,3)$-curvature tensor remain the same.
-> 18. Show that $\operatorname{sec}$, $\operatorname{scal}$, and $\mathcal{R}$ all get multiplied by $\lambda^{-2}$.
-> 19. Show that $\operatorname{Ric}$ as a $(1,1)$-tensor is multiplied by $\lambda^{-2}$.
-> 20. Show that $\operatorname{Ric}$ as a $(0,2)$-tensor is unchanged.
+> 1. Show that the new connection and $(1,3)$-curvature tensor remain the same.
+> 2. Show that $\operatorname{sec}$, $\operatorname{scal}$, and $\mathcal{R}$ all get multiplied by $\lambda^{-2}$.
+> 3. Show that $\operatorname{Ric}$ as a $(1,1)$-tensor is multiplied by $\lambda^{-2}$.
+> 4. Show that $\operatorname{Ric}$ as a $(0,2)$-tensor is unchanged.
 
 > [!exercise] Exercise 3.4.19:
 > We say that $X$ is an **affine vector field** if $L_X\nabla=0$. Show that such a field satisfies the equation:
@@ -211,14 +211,14 @@
 > $$\bigl(u^1(x),\dots,u^{n+1}(x)\bigr)=F(x)=F(x^1,\dots,x^n).$$
 > and we define
 > $$U^i_k=\frac{\partial u^i}{\partial x^k}.$$
-> 5. Show that
+> 1. Show that
 >    $$\frac{\partial U^i_j}{\partial x^k}=\Gamma^s_{kj}U^i_s-\Pi_{jk}N^i,$$
 >    where $N=N^i\partial_i$ is a choice of unit normal and the second fundamental form is $\Pi_{jk}=\Pi(\partial_j,\partial_k)=g(\nabla_{\partial_j}N,\partial_k)$.
-> 6. Show that the integrability conditions for this system are equivalent to the Gauss (tangential) and Codazzi (mixed) curvature equations:
+> 2. Show that the integrability conditions for this system are equivalent to the Gauss (tangential) and Codazzi (mixed) curvature equations:
 >    $$R_{iklj}=\Pi_{ij}\Pi_{kl}-\Pi_{ik}\Pi_{jl},$$
 >    $$\frac{\partial\Pi_{jk}}{\partial x^l}-\frac{\partial\Pi_{jl}}{\partial x^k}=\Gamma^s_{lj}\Pi_{sk}-\Gamma^s_{kj}\Pi_{sl}.$$
-> 7. Given metric coefficients $g_{ij}$ and a symmetric tensor $\Pi_{ij}$ that is related to the metric coefficients through the Gauss and Codazzi equations, show that locally there exists a Riemannian immersion such that the second fundamental form is given by $\Pi_{ij}$.
-> 8. We can now give a local characterization of spaces with constant positive curvature. Given a metric of constant curvature $R^{-2}>0$, show that there is a Riemannian immersion into $\mathbb{R}^{n+1}$ whose image lies in a sphere of radius $R$. Hint: Guess what the second fundamental form should look like and show that the constant curvature condition gives the Gauss and Codazzi equations. Note that for $S^n(R)$ the unit normal is $N=\pm R^{-1}F$.
+> 3. Given metric coefficients $g_{ij}$ and a symmetric tensor $\Pi_{ij}$ that is related to the metric coefficients through the Gauss and Codazzi equations, show that locally there exists a Riemannian immersion such that the second fundamental form is given by $\Pi_{ij}$.
+> 4. We can now give a local characterization of spaces with constant positive curvature. Given a metric of constant curvature $R^{-2}>0$, show that there is a Riemannian immersion into $\mathbb{R}^{n+1}$ whose image lies in a sphere of radius $R$. Hint: Guess what the second fundamental form should look like and show that the constant curvature condition gives the Gauss and Codazzi equations. Note that for $S^n(R)$ the unit normal is $N=\pm R^{-1}F$.
 
 > [!exercise] Exercise 3.4.22:
 > Repeat the previous exercise with a Riemannian immersion $F:M^n\hookrightarrow\mathbb{R}^{n,1}$ where $M$ is a Riemannian manifold and the normal $N$ satisfies $\lvert N\rvert^2=-1$. This time we obtain a local characterization of the hyperbolic spaces $H^n(R)$ from example 1.1.7 as the local model for spaces of constant curvature $-R^{-2}$. Note that for $H^n(R)$ the unit normal is $N=\pm R^{-1}F$.
@@ -230,28 +230,28 @@
 > &\quad-\frac12\bigl(h(v_1,v_3)\cdot k(v_2,v_4)+h(v_2,v_4)\cdot k(v_1,v_3)\bigr).
 > \end{aligned}$$
 > The factor $\frac12$ is not used consistently in the literature, but is convenient when $h=k$. Part (6) of this exercise explains our choice.
-> 9. Show that $h\circ k=k\circ h$.
-> 10. Show that $h\circ h=0$ if $h$ has rank $1$.
-> 11. Show that if $n>2$, $k$ is nondegenerate, and $h\circ k=0$, then $h=0$. Hint: Let $v_i$ be "eigenvectors" for $k$ and $v_2=v_3$.
-> 12. Show that $h\circ k$ satisfies the first $3$ properties of proposition 3.1.1.
-> 13. Show that $\nabla_X(h\circ k)=(\nabla_Xh)\circ k+h\circ(\nabla_Xk)$.
-> 14. Show that $(M,g)$ has constant curvature $c$ if and only if the $(0,4)$-curvature tensor satisfies $R=c\cdot(g\circ g)$.
+> 1. Show that $h\circ k=k\circ h$.
+> 2. Show that $h\circ h=0$ if $h$ has rank $1$.
+> 3. Show that if $n>2$, $k$ is nondegenerate, and $h\circ k=0$, then $h=0$. Hint: Let $v_i$ be "eigenvectors" for $k$ and $v_2=v_3$.
+> 4. Show that $h\circ k$ satisfies the first $3$ properties of proposition 3.1.1.
+> 5. Show that $\nabla_X(h\circ k)=(\nabla_Xh)\circ k+h\circ(\nabla_Xk)$.
+> 6. Show that $(M,g)$ has constant curvature $c$ if and only if the $(0,4)$-curvature tensor satisfies $R=c\cdot(g\circ g)$.
 
 > [!exercise] Exercise 3.4.24:
 > Define the **Schouten tensor**
 > $$P=\frac{2}{n-2}\operatorname{Ric}-\frac{\operatorname{scal}}{(n-1)(n-2)}\cdot g$$
 > for Riemannian manifolds of dimension $n>2$.
-> 15. Show that if $P$ vanishes on $M$, then $\operatorname{Ric}=0$.
-> 16. Show that the decomposition
+> 1. Show that if $P$ vanishes on $M$, then $\operatorname{Ric}=0$.
+> 2. Show that the decomposition
 >    $$P=\frac{\operatorname{scal}}{n(n-1)}g+\frac{2}{n-2}\left(\operatorname{Ric}-\frac{\operatorname{scal}}{n}\cdot g\right)$$
 >    of the Schouten tensor is orthogonal.
-> 17. Show that when $n=2$, then
+> 3. Show that when $n=2$, then
 >    $$R=\frac{\operatorname{scal}}{2}g\circ g.$$
-> 18. Show that when $n=3$, then
+> 4. Show that when $n=3$, then
 >    $$R=\frac{\operatorname{scal}}{6}g\circ g+2\left(\operatorname{Ric}-\frac{\operatorname{scal}}{3}\cdot g\right)\circ g=P\circ g.$$
-> 19. Show that $(M,g)$ has constant curvature when $n>2$ if and only if
+> 5. Show that $(M,g)$ has constant curvature when $n>2$ if and only if
 >    $$R=P\circ g\quad\text{and}\quad\operatorname{Ric}=\frac{\operatorname{scal}}{n}g.$$
-> 20. Show that
+> 6. Show that
 >    $$\operatorname{Ric}(X,Y)=\sum_{i=1}^n(P\circ g)(X,E_i,E_i,Y)$$
 >    for any orthonormal frame $E_i$.
 
@@ -262,11 +262,11 @@
 > &=P\circ g+W,
 > \end{aligned}$$
 > where $P$ was defined in the previous exercise.
-> 21. Show that if $n=3$, then $W=0$.
-> 22. Show that
+> 1. Show that if $n=3$, then $W=0$.
+> 2. Show that
 >    $$\sum_{i=1}^nW(X,E_i,E_i,Y)=0$$
 >    for any orthonormal frame $E_i$. Hint: Use (6) from exercise 3.4.24.
-> 23. Show that the decomposition $R=P\circ g+W$ is orthogonal. Hint: This is similar to showing that homotheties and traceless matrices are perpendicular.
+> 3. Show that the decomposition $R=P\circ g+W$ is orthogonal. Hint: This is similar to showing that homotheties and traceless matrices are perpendicular.
 
 > [!exercise] Exercise 3.4.26:
 > Show that
@@ -289,22 +289,22 @@
 > $$\nabla_vE_i=\omega_i^{\,j}(v)E_j.$$
 > Suppose additionally that the frame is orthonormal and let $\omega^i$ be the dual coframe, i.e., $\omega^i(E_j)=\delta_j^i$.
 > 
-> 24. Show that the connection forms satisfy
+> 1. Show that the connection forms satisfy
 > $$\omega_i^{\,j}=-\omega_j^{\,i},\qquad d\omega^i=\omega^j\wedge\omega_j^{\,i}.$$
 > These two equations can, conversely, be used to compute the connection forms given the orthonormal frame. Therefore, if the metric is given by declaring a certain frame to be orthonormal, then this method can be very effective in computing the connection.
-> 25. If we think of $[\omega_i^{\,j}]$ as a matrix, then it represents a $1$-form with values in the skew-symmetric $n\times n$ matrices, or in other words, with values in the Lie algebra $\mathfrak{so}(n)$ for $O(n)$. The **curvature forms** $\Omega_i^{\,j}$ are $2$-forms with values in $\mathfrak{so}(n)$ defined as
+> 2. If we think of $[\omega_i^{\,j}]$ as a matrix, then it represents a $1$-form with values in the skew-symmetric $n\times n$ matrices, or in other words, with values in the Lie algebra $\mathfrak{so}(n)$ for $O(n)$. The **curvature forms** $\Omega_i^{\,j}$ are $2$-forms with values in $\mathfrak{so}(n)$ defined as
 > $$R(X,Y)E_i=\Omega_i^{\,j}(X,Y)E_j.$$
 > Show that they satisfy
 > $$d\omega_i^{\,j}=\omega_i^{\,k}\wedge\omega_k^{\,j}+\Omega_i^{\,j}.$$
-> 26. When reducing to Riemannian metrics on surfaces we obtain for an orthonormal frame $E_1,E_2$ with coframe $\omega^1,\omega^2$
+> 3. When reducing to Riemannian metrics on surfaces we obtain for an orthonormal frame $E_1,E_2$ with coframe $\omega^1,\omega^2$
 > $$d\omega^1=\omega^2\wedge\omega_2^{\,1},\qquad d\omega^2=-\omega^1\wedge\omega_2^{\,1},\qquad d\omega_2^{\,1}=\Omega_2^{\,1},\qquad \Omega_2^{\,1}=\operatorname{sec}\cdot d\operatorname{vol}.$$
 
 > [!exercise] Exercise 3.4.29:
 > This exercise will give you a way of finding the curvature tensor from the sectional curvatures. Assume that $R(X,Y,Z,W)$ is an algebraic curvature tensor, i.e., satisfies (1), (2), and (3) of proposition 3.1.1.
 > 
-> 27. Show that
+> 1. Show that
 > $$6R(X,Y,V,W)=\left.\frac{\partial^2 R(X+sW,Y+tV,Y+tV,X+sW)}{\partial s\partial t}\right|_{s=t=0}-\left.\frac{\partial^2 R(X+sV,Y+tW,Y+tW,X+sV)}{\partial s\partial t}\right|_{s=t=0}.$$
-> 28. Show that
+> 2. Show that
 > $$\begin{aligned}
 > 6R(X,Y,V,W)&=R(X+W,Y+V,Y+V,X+W)\\
 > &-R(X,Y+V,Y+V,X)-R(W,Y+V,Y+V,W)\\
@@ -327,26 +327,29 @@
 
 > [!exercise] Exercise 3.4.31:
 > Let $G$ be a Lie group with a left-invariant metric $(\cdot,\cdot)$ on $\mathfrak{g}$ (it need not be positive definite, just nondegenerate). For $X\in\mathfrak{g}$ denote by $\operatorname{ad}_X^*:\mathfrak{g}\to\mathfrak{g}$ the adjoint of $\operatorname{ad}_X Y=[X,Y]$ with respect to $(\cdot,\cdot)$. Show that:
-> 29. $\nabla_XY=\frac12\bigl([X,Y]+\operatorname{ad}_X^*Y-\operatorname{ad}_Y^*X\bigr)$. Conclude that if $X,Y\in\mathfrak{g}$, then $\nabla_XY\in\mathfrak{g}$.
-> 30. $R(X,Y,Z,W)=-(\nabla_YZ,\nabla_XW)+(\nabla_XZ,\nabla_YW)-(\nabla_{[X,Y]}Z,W)$.
-> 31. $$\begin{aligned}
+> 1. $\nabla_XY=\frac12\bigl([X,Y]+\operatorname{ad}_X^*Y-\operatorname{ad}_Y^*X\bigr)$. Conclude that if $X,Y\in\mathfrak{g}$, then $\nabla_XY\in\mathfrak{g}$.
+> 2. $R(X,Y,Z,W)=-(\nabla_YZ,\nabla_XW)+(\nabla_XZ,\nabla_YW)-(\nabla_{[X,Y]}Z,W)$.
+> 3. $$\begin{aligned}
 > R(X,Y,Y,X)=&\frac14\|\operatorname{ad}_X^*Y+\operatorname{ad}_Y^*X\|^2-(\operatorname{ad}_X^*X,\operatorname{ad}_Y^*Y)-\frac34\|[X,Y]\|^2\\
 > &-\frac12([[X,Y],Y],X)-\frac12([[Y,X],X],Y).
 > \end{aligned}$$
 
+
 > [!exercise] Exercise 3.4.32:
 > Let $G$ be a Lie group with a biinvariant metric $(\cdot,\cdot)$ on $\mathfrak{g}$ (it need not be positive definite, just nondegenerate). Using left-invariant fields establish the following formulas. **Hint:** First go back to the exercise 1.6.24 and take a peek at section 4.4.1 where some of these things are proved. Show that:
-> 32. $\nabla_XY=\frac12[X,Y]$.
-> 33. $R(X,Y)Z=\frac14[Z,[X,Y]]$.
-> 34. $R(X,Y,Z,W)=-\frac14([X,Y],[Z,W])$. Conclude that the sectional curvatures are nonnegative when $(\cdot,\cdot)$ is positive definite.
-> 35. Show that the curvature operator is also nonnegative when $(\cdot,\cdot)$ is positive definite by showing that:
+> 1. $\nabla_XY=\frac12[X,Y]$.
+> 2. $R(X,Y)Z=\frac14[Z,[X,Y]]$.
+> 3. $R(X,Y,Z,W)=-\frac14([X,Y],[Z,W])$. Conclude that the sectional curvatures are nonnegative when $(\cdot,\cdot)$ is positive definite.
+> 4. Show that the curvature operator is also nonnegative when $(\cdot,\cdot)$ is positive definite by showing that:
 > $$g\Bigl(\mathcal{R}\bigl(\sum_{i=1}^kX_i\wedge Y_i\bigr),\bigl(\sum_{i=1}^kX_i\wedge Y_i\bigr)\Bigr)=\frac14\Bigl|\sum_{i=1}^k[X_i,Y_i]\Bigr|^2.$$
-> 36. Assume again that $(\cdot,\cdot)$ is positive definite. Show that $\operatorname{Ric}(X,X)=0$ if and only if $X$ commutes with all other left-invariant vector fields. Thus $G$ has positive Ricci curvature if the center of $G$ is discrete.
+> 5. Assume again that $(\cdot,\cdot)$ is positive definite. Show that $\operatorname{Ric}(X,X)=0$ if and only if $X$ commutes with all other left-invariant vector fields. Thus $G$ has positive Ricci curvature if the center of $G$ is discrete.
+
 
 > [!exercise] Exercise 3.4.33:
 > Consider a Lie group where the Killing form $B$ is nondegenerate and use $-B$ as the left-invariant metric (see exercise 1.6.27).
-> 37. Show that this metric is biinvariant.
-> 38. Show that $\operatorname{Ric}=-\frac14B$.
+> 1. Show that this metric is biinvariant.
+> 2. Show that $\operatorname{Ric}=-\frac14B$.
+
 
 > [!exercise] Exercise 3.4.34:
 > It is illustrative to use the Cartan formalism in the previous exercise and compute all quantities in terms of the structure constants for the Lie algebra. Given that the metric is biinvariant, it follows that with respect to an orthonormal basis they satisfy
