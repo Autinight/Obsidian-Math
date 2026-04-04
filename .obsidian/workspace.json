@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
-                "mode": "preview",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Integrability for PDEs and RG"
+              "title": "chnt - RG Petersen Ch03"
             }
           }
         ]
@@ -205,8 +205,8 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
