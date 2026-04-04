@@ -27,7 +27,29 @@ but
 We do derivative, 
  $$ \frac{\partial }{\partial x^{s}}\left(\frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}g^{kl}\right) = 0$$
  $$ \frac{\partial ^{2}u^{i}}{\partial x^{s}\partial x^{l}} \frac{\partial u^{j}}{\partial x^{l}}g^{kl}+ \frac{\partial ^{2}u^{j}}{\partial x^{s}\partial x^{l}}\frac{\partial u^{i}}{\partial x^{k}} g^{kl}+ \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\partial _{s}g^{kl}$$
- $$ \partial _{s}g^{kl}= g^{ki}\partial _{s}g_{ij}g^{jl} $$   
+ $$ \partial _{s}g^{kl}= -g^{km}\Gamma _{sm}^{l}-g^{lm}\Gamma _{sm}^{k}$$   
+ 
+ If $u$ is the solution to the system 
+  $$ \frac{\partial u^{i}}{\partial x^{k}}= U_{k}^{i} $$
+  then the above becomes
+   $$ \begin{aligned} \frac{\partial U_{l}^{i}}{\partial x^{s}}U^{j}_{l}g^{kl}+ \frac{\partial U^{j}_{l}}{\partial x^{s}}U^{i}_{k}g^{kl}&=  U^{i}_{k}U^{j}_{l}\left(g^{km}\Gamma _{sm}^{l}+ g^{lm}\Gamma _{sm}^{k}\right)\\&= g^{km}U_{k}^{i}\left(\Gamma _{sm}^{l}U_{l}^{j}\right)+ g^{lm}U_{l}^{j}\left(U_{k}^{i}\Gamma _{sm}^{k}\right)\\&= g^{km}U_{k}^{i} \frac{\partial U_{m}^{j}}{\partial x^{s}}+ g^{lm}U_{l}^{j}\frac{\partial U_{m}^{i}}{\partial x^{s}}\end{aligned} $$  
+ $$ \begin{aligned} \frac{\partial U_{l}^{i}}{\partial x^{s}}U_{l}^{j}+ \frac{\partial U_{l}^{j}}{\partial x^{s}}U_{k}^{i}&= \delta _{l}^{m}U_{k}^{i}\frac{\partial U_{m}^{j}}{\partial x^{s}}+ \delta _{k}^{m}U_{i}^{j}\frac{\partial U_{m}^{i}}{\partial x^{s}}\\&= U_{k}^{i}\frac{\partial U_{l}^{j}}{\partial x^{s}}+ U_{i}^{j}\frac{\partial U_{k}^{i}}{\partial x^{s}} \end{aligned}$$ 
+It's a equality. It will be a true road.
+
+The integrability
+
+
+
+
+----
+
+We need to show that if $u$ is the solution to the system, then 
+ $$ g\left(\frac{\partial }{\partial u^{i}},\frac{\partial }{\partial u^{j}}\right)= \delta _{i}^{j} $$ 
+ which is equivalent to
+   $$ g_{kl}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\delta _{ij} $$ 
+
+ which is equivalent to 
+  $$ g_{kl}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\delta _{ij}\iff \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}g^{kl}= \delta _{ij} $$ 
   
 
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
