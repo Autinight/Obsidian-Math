@@ -7,26 +7,10 @@ book: RG Petersen
 chapter: 3
 number: "20"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
-
-If the Riemannian manifold is flat , then the initial value problem
- $$ \frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i},\quad i,j=  1,\cdots,n  $$
-  $$ U\left(x_0\right)= U_0 $$
-  can be solved.  
-
-
-To solve the initial value problem 
- $$ \frac{\partial u^{i}}{\partial x^{k}}= U_{k}^{i} $$
-  $$ u^{i}\left(x_0\right)= u_0 $$  
-We only need to check the integrability conditions:
- $$ \frac{\partial U_{l}^{i}}{\partial x^{k}}+ \frac{\partial U_{l}^{i}}{\partial u^{j}}U_{k}^{j}= \frac{\partial U_{k}^{i}}{\partial x^{l}}+ \frac{\partial U_{k}^{i}}{\partial u^{j}}U_{l}^{j} $$ 
-By using $\frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i}$, $\frac{\partial U_{j}^{i}}{\partial u^{s}}= 0$,  the conditions can be written as 
- $$ \Gamma _{kl}^{s}U_{s}^{i}= \Gamma _{lk}^{s}U_{s}^{i}$$ 
-which is obviously true since $\nabla$ is torsion-free.
-
 
 > [!exercise] Exercise 3.4.20 (**Integrability for PDEs**):
 > For given functions $P_k^i(x,u)$, where $x=(x^1,\ldots,x^n)$, $u=(u^1,\ldots,u^m)$, $i=1,\ldots,m$, and $k=1,\ldots,n$, consider the initial value problems for a system of first-order PDEs
@@ -93,6 +77,42 @@ which is obviously true since $\nabla$ is torsion-free.
 >     $$ \frac{\partial \Gamma _{lj}^{s}}{\partial x^{k}}+ \Gamma _{lj}^{m}\Gamma _{km}^{s}= \frac{\partial \Gamma _{kj}^{s}}{\partial x^{l}}+ \Gamma _{kj}^{m}\Gamma _{lm}^{s} \tag{*}$$    
 >     From which we know that the integrability condition holds iff $(*)$ holds, which is equivalent to the following.
 >    $$ \begin{aligned} R_{klj}^{s}&= R\left(\partial _{k},\partial _{l},\partial _{j}\right)\\&=\nabla _{\partial _{k}}\nabla _{\partial _{l}}\partial _{j}-\nabla _{\partial _{l}}\nabla _{\partial _{k}}\partial _{j}\\&= \nabla _{\partial _{k}}\left(\Gamma _{lj}^{t}\partial _{t}\right)-\nabla _{\partial _{l}}\left(\Gamma _{kj}^{t}\partial _{t}\right)\\&= \frac{\partial \Gamma _{lj}^{s}}{\partial x^{k}}\partial _{s}+ \Gamma _{lj}^{t}\Gamma _{kt}^{s}\partial _{s}- \frac{\partial \Gamma _{kj}^{s}}{\partial x^{l}}\partial _{s}-\Gamma _{kj}^{t}\Gamma _{lt}^{s}\partial _{s} \\&= \left(\frac{\partial \Gamma _{lj}^{s}}{\partial x^{k}}-\frac{\partial \Gamma _{kj}^{s}}{\partial x^{l}}+ \Gamma _{km}^{s}\Gamma ^{m}_{lj}-\Gamma _{lm}^{s}\Gamma _{kj}^{m}\right)= 0\end{aligned} $$ 
+> 4.    
+>    If the Riemannian manifold is flat , then the initial value problem
+>     $$ \frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i},\quad i,j=  1,\cdots,n  $$
+>      $$ U\left(x_0\right)= U_0 $$
+>      can be solved.  
+>    
+>    
+>    To solve the initial value problem 
+>     $$ \frac{\partial u^{i}}{\partial x^{k}}= U_{k}^{i} $$
+>      $$ u^{i}\left(x_0\right)= u_0 $$  
+>    We only need to check the integrability conditions:
+>     $$ \frac{\partial U_{l}^{i}}{\partial x^{k}}+ \frac{\partial U_{l}^{i}}{\partial u^{j}}U_{k}^{j}= \frac{\partial U_{k}^{i}}{\partial x^{l}}+ \frac{\partial U_{k}^{i}}{\partial u^{j}}U_{l}^{j} $$ 
+>    By using $\frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i}$, $\frac{\partial U_{j}^{i}}{\partial u^{s}}= 0$,  the conditions can be written as 
+>     $$ \Gamma _{kl}^{s}U_{s}^{i}= \Gamma _{lk}^{s}U_{s}^{i}$$ 
+>    which is obviously true since $\nabla$ is torsion-free.
+>    
+>    In order to show that $u$ is actually a cartesian coordinates, we fisrt choose $U_0$ such that 
+>     $$ g_{kl}= \left(U_0\right) _{k}^{i}\left(U_0\right)_{l}^{j}\delta _{ij}$$ 
+>    Then at $x_0$, 
+>     $$ g_{kl}= \frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\delta _{ij}$$  
+>    We have at $x_0$
+>     $$ \tilde{g}_{ij}= g_{x_0}\left(\frac{\partial }{\partial u^{i}},\frac{\partial }{\partial u^{j}}\right)= g_{kl}\frac{\partial x^{k}}{\partial u^{i}}\frac{\partial x^{l}}{\partial u^{j}}= \delta _{ij}$$ 
+>    To show $\tilde{g}_{ij}= \delta _{ij}$ globally, we only need to show that for each $s$, there is 
+>     $$ \partial _{s}\tilde{g}_{ij}= 0 $$ 
+>    or equivalently, 
+>     $$ \partial _{s}\tilde{g}^{ij}= \partial _{s}\left(g^{kl}\frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\right)= 0 $$
+>    In fact
+>     $$ \begin{aligned} \partial _{s}\left(g^{kl}\frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\right) &= \left(\partial _{s}g^{kl}\right)U^{i}_{k}U^{j}_{l}+ g^{kl}\frac{\partial U_{k}^{i}}{\partial x^{s}}U_{l}^{i}+ g^{kl}\frac{\partial U_{l}^{j}}{\partial x^{s}}U_{k}^{i}\\&=  \left(\partial _{s}g^{kl}\right)U_{k}^{i}U_{l}^{j}+ g^{kl}\Gamma _{sk}^{m}U_{m}^{i}U_{l}^{i}+ g^{kl}\Gamma _{sl}^{m}U_{m}^{j}U_{k}^{i} \end{aligned}$$
+>    By using
+>     $$ \left(\partial _{s}g^{kl}\right)= -g^{km}\Gamma _{sm}^{l}-g^{lm}\Gamma _{sm}^{k} $$
+>    we get 
+>     $$ \begin{aligned} \left(\partial _{s}g^{kl}\right)U_{l}^{j}U_{k}^{i}&= -g^{km}\Gamma _{sm}^{l}U_{k}^{i}U_{l}^{j}-g^{lm}\Gamma _{sm}^{k}U_{k}^{i}U_{l}^{j}\\&= -g^{kl}\Gamma _{sl}^{m}U_{k}^{i}U_{m}^{j}-g^{kl}\Gamma _{sk}^{m}U_{m}^{i}U_{l}^{j} \end{aligned}$$    
+>     Then 
+>      $$ \partial _{s}\left(g^{kl}\frac{\partial u^{i}}{\partial x^{k}}\frac{\partial u^{j}}{\partial x^{l}}\right)= 0 $$ 
+>    Thus $\tilde{g}^{ij}$ is constant for each $i,j$. We get $\tilde{g}^{ij}= \delta ^{ij}$ since $\tilde{g}^{ij}_{x_0}= \delta ^{ij}$, that is $u^{i}$ forms a Cartesian coordinates.
+
 
 
 ```dataviewjs

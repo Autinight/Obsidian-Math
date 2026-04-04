@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
+                "file": "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Partial of Metric in Coordinates"
+              "title": "ex - Constant Curvature has Parallel Curvature Tensor"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "INteg",
+                "query": "Integrability",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,12 +205,13 @@
   },
   "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "20.Cards/Concepts/ex - Integrability for PDEs and RG.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "00.Inbox/ex- Integrability for PDEs and RG.md",
     "新建 文本文档.txt",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
@@ -241,7 +242,6 @@
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
-    "20.Cards/Exercises/ex - Parallel Ricci Tensor has Constant Scalar Curvature.md",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
