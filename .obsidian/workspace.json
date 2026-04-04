@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
+                "file": "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Constant Curvature has Parallel Curvature Tensor"
+              "title": "ex - Integrability for PDEs and RG"
             }
           }
         ]
@@ -206,7 +206,9 @@
   "active": "238565ae5332747e",
   "lastOpenFiles": [
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "20.Cards/Concepts/ex - Integrability for PDEs and RG.md",
+    "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
+    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
+    "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
@@ -238,10 +240,8 @@
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
-    "30.Recources/HA/Course HW/HA - HW1.2.md",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
