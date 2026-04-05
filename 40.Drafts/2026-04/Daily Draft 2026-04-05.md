@@ -132,7 +132,7 @@ TMD, 算出来把$\partial _{l}\operatorname{II} _{kj}$给消掉了, 那不算�
 
 问题是, 如何通过存在性反推浸入映射的存在性.
 
-有了这两个方程, 我们就有上面这个系统解的存在性, 我们希望这组$U_{k}^{i}$, 能不能造出一个Immersion.
+有了这两个方程, 我们就有上面这个系统解的存在性, 我们希望这组解$U_{k}^{i}$, 能不能造出一个Immersion.
 
 In convex coordinates centered at $0$, we write $u^{i}$ as 
  $$ u^{i}\left(x^{1},\cdots ,x^{n}\right)= \int _{0}^{x^{k}}U_{k}^{i}\left(x^{1},\cdots ,t^{k},\cdots ,x^{n}\right)\,d t^{k} $$ 
