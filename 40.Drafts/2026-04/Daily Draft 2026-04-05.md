@@ -27,3 +27,23 @@ Directly prove,
  $$ g\left(N, \right) $$ 
 
  $$ \overline{R}\left(X,W,Z,W\right)= R\left(X,Y,Z,W\right)-\operatorname{II} \left(X,W\right)\operatorname{II} \left(Y,Z\right)+ \operatorname{II} \left(X,Z\right)\operatorname{II} \left(Y,W\right) $$ 
+
+In the Euclidean space, there is 
+ $$ 0= R_{ijkl}-\operatorname{II} _{il}\operatorname{II} _{jk}+ \operatorname{II} _{ik}\operatorname{II} _{jl} $$
+ $$ R_{ijkl}= \operatorname{II} _{lj}\operatorname{II} _{jk}-\operatorname{II} _{ik}\operatorname{II} _{jl} $$  
+
+  $$ \bar{\nabla}_{\partial_k} F_*(\partial_j) = \frac{\partial U_j^i}{\partial x^k}\,\frac{\partial}{\partial u^i} \tag{1} $$ 
+
+ $$ \bar{\nabla}_{\partial_k} F_*(\partial_j) = F_*\!\bigl(\nabla_{\partial_k}\partial_j\bigr) + \bigl\langle \bar{\nabla}_{\partial_k} F_*(\partial_j),\, N \bigr\rangle N \tag{2} $$ 
+
+  $$ \partial _{j}= U_{j}^{k}\mathbf{e}_k $$ 
+
+  $$ \begin{aligned} \overline{\nabla}_{\partial _{i}} \partial _{j}&= \overline{\nabla}_{\partial _{i}}U_{j}^{k} \mathbf{e}_{k}+ U_{j}^{k}\overline{\nabla}_{\partial _{i}}\mathbf{e}_{k}\\&=  \frac{\partial U_{j}^{k}}{\partial x^{i}}\mathbf{e}_{k}\end{aligned}$$ 
+
+
+ $$ \frac{\partial U_{j}^{i}}{\partial x^{k}}= \bar{g}\left(\overline{\nabla}_{\partial _{k}}\partial _{j} ,\mathbf{e}_{k}\right)$$ 
+ $$ \overline{\nabla}_{X}Y= \nabla _{X}Y+ \operatorname{II} \left(X,Y\right)N $$ 
+
+ $$ \begin{aligned} \begin{aligned} \frac{\partial U_{j}^{i}}{\partial x^{k}}&= \bar{g}\left(\nabla _{\partial _{k}}\partial _{j},\mathbf{e}_{i}\right)+ \bar{g}\left(\operatorname{II} _{kj}N,\mathbf{e}_{k}\right)\\&= \bar{g}\left(\Gamma _{kj}^{s}\partial _{s},\mathbf{e}_{i}\right)+ \operatorname{II} _{kj}N^{i}\\&= \Gamma _{kj}^{s}\bar{g}\left(U_{s}^{k}\mathbf{e}_{k},\mathbf{e}_{i}\right)+ \operatorname{II} _{kj}N^{i}\\&= \Gamma _{kj}^{s}U_{s}^{i}+ \operatorname{II} _{kj}N^{i} \end{aligned} \end{aligned} $$ 
+
+ 
