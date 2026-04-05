@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
+                "file": "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-04-04"
+              "title": "ex - Fundamental Theorem of Hypersurface Theory"
             }
           }
         ],
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
+                "file": "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-04-04 的大纲"
+              "title": "ex - Fundamental Theorem of Hypersurface Theory 的大纲"
             }
           },
           {
@@ -229,8 +229,11 @@
   },
   "active": "77f1e5ffaff4cdc2",
   "lastOpenFiles": [
-    "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
     "40.Drafts/未命名",
@@ -238,9 +241,7 @@
     "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
@@ -257,7 +258,6 @@
     "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
     "20.Cards/Definitions/dfn - Integrable Distribution.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
-    "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Hopf Fibration.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
