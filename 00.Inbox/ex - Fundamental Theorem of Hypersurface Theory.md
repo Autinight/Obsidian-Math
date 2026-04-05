@@ -57,7 +57,14 @@ tags: []
 >  $$ \partial _{l}\operatorname{II} _{jk}-\Gamma _{kj}^{s}\Gamma _{sl}= \partial _{k}\operatorname{II} _{jl}-\Gamma _{lj}^{s}\Gamma _{sk} $$
 >  $$  \partial _{l}\operatorname{II} _{jk}-\partial _{k}\operatorname{II} _{jl}= $$       
 > [!remark] Remark:
-> 有点问题, 但想法是没错的.
+> 符号稍微有点问题, 但想法是没错的.
+> 
+> 3. If Coddazi equiation holds, then we have weingarten equiation holds. If Gauss+Coddazi holds and Weingraten holds, we have The system
+>  $$ \frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i}-\operatorname{II} _{jk}N^{i} $$
+> can be solved. 
+> We define
+>  $$ u^{i}= \int _{0}^{x}U^{i}\,d x = \int _{0}^{1}U^{i}_{k}\left(tx\right)\cdot x^{k}\,d t$$ 
+> In appropriate chart.
  
 
 
