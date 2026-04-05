@@ -46,4 +46,18 @@ In the Euclidean space, there is
 
  $$ \begin{aligned} \begin{aligned} \frac{\partial U_{j}^{i}}{\partial x^{k}}&= \bar{g}\left(\nabla _{\partial _{k}}\partial _{j},\mathbf{e}_{i}\right)+ \bar{g}\left(\operatorname{II} _{kj}N,\mathbf{e}_{k}\right)\\&= \bar{g}\left(\Gamma _{kj}^{s}\partial _{s},\mathbf{e}_{i}\right)+ \operatorname{II} _{kj}N^{i}\\&= \Gamma _{kj}^{s}\bar{g}\left(U_{s}^{k}\mathbf{e}_{k},\mathbf{e}_{i}\right)+ \operatorname{II} _{kj}N^{i}\\&= \Gamma _{kj}^{s}U_{s}^{i}+ \operatorname{II} _{kj}N^{i} \end{aligned} \end{aligned} $$ 
 
+ Let 
+  $$ P_{k,j}^{i}\left(x,U\right)= \frac{\partial U_{j}^{i}}{\partial x^{k}}= \Gamma _{kj}^{s}U_{s}^{i}+ \operatorname{II} _{kj}N^{i} $$
+Then
+ $$ \frac{\partial U_{j}^{i}}{\partial x^{k}}= P_{k,j}^{i} $$
+
+
  
+  $$ \frac{\partial U_{j}^{i}}{\partial x^{l}\partial x^{k}}= \frac{\partial P_{k,j}^{i}}{\partial x^{l}}+ \frac{\partial P_{k,j}^{i}}{\partial U_{s}^{m}}P_{l,s}^{m} $$
+The integrability conditions are 
+ $$ \frac{\partial P_{k,j}^{i}}{\partial x^{l}}+ \frac{\partial P_{k,j}^{i}}{\partial U_{s}^{m}}P_{l,s}^{m}= \frac{\partial P_{l,j}^{i}}{\partial x^{k}}+ \frac{\partial P_{l,j}^{i}}{\partial U_{s}^{m}}P_{k,s}^{m} $$
+
+where 
+
+ $$ \frac{\partial P_{k,j}^{i}}{\partial x^{l}}= \partial _{l}\Gamma _{kj}^{s}U_{s}^{i}+ \Gamma _{kj}^{s}P_{l,s}^{i}+ \partial _{l}\operatorname{II} _{kj}N^{i}+ \operatorname{II} _{kj}\partial _{l}N^{i} $$ 
+ $$ g\left(\overline{\nabla}_{\partial _{l}}N,\partial _{s}\right)= -g\left(W_{}\right) $$ 
