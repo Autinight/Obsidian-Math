@@ -11,6 +11,8 @@ status: todo
 priority:
 tags: []
 ---
+
+
 > [!exercise] EXERCISE 3.4.21 (FUNDAMENTAL THEOREM OF (HYPER-)SURFACE THEORY).
 > Consider a Riemannian immersion $F : M^n \looparrowright \mathbb{R}^{n+1}$. In coordinates on $M$ it can be written as
 > $$ (u^1(x), \dots, u^{n+1}(x)) = F(x) = F(x^1, \dots, x^n) $$
