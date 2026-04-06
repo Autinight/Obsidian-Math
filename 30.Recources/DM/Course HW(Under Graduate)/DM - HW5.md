@@ -37,7 +37,7 @@
 
 > [!proof] Proof: 
 > 任取$p\in M$, $v\in T_{p}M$. 设$\left(U,\left(x^{1},\cdots ,x^{n}\right)\right)$是以$p$为中心的一个坐标卡. 则
->  $$ v\in T_{p}M= \operatorname{span}\left\{ \left. \frac{\partial }{\partial x^{1}} \right|_{p},\cdots ,\left. \frac{\partial }{\partial x^{n}}  \right|_{p}\right\} $$
+>  $$ v\in T_{p}M= \operatorname{span}\left\{ \partial _{1}|_{0},\cdots ,\partial _{n}|_{0} \right\}$$
 > 设
 >  $$ v= v^{i}\left. \partial _{i} \right|_{0} $$
 > 定义$\gamma \left(t\right):I\to U$, 
@@ -48,10 +48,47 @@
 > [!exercise] Exercise:
 > 求下列光滑映射在指定点的切映射 $f_{*}$ 和余切映射 $f^{*}$:
 > 
-> 1. $f:\mathbb{R}\to\mathbb{R}^{2},\ f(t)=(t,\alpha t)$, 其中 $\alpha$ 是固定实数, 指定点是 $t_{0}$.
-> 2. $f:\mathbb{R}^{2}\to\mathbb{R}^{2},\ f(x,y)=(x\cos y,x\sin y)$, 指定点是 $p=(x_{0},y_{0})$.
-> 3. $f:\mathbb{R}\to\mathbb{R}^{2},\ f(t)=(\cos 2\pi t,\sin 2\pi t)$, 指定点是 $t_{0}=0,\frac{1}{3},\frac{5}{8}$.
-> 4. $f:\mathbb{R}^{2}\to\mathbb{R},\ f(x,y)=x^{2}y-\sin x$, 指定点是 $p=(x_{0},y_{0})$.
+> 1. $f:\mathbb{R}\to\mathbb{R}^{2}, f(t)=(t,\alpha t)$, 其中 $\alpha$ 是固定实数, 指定点是 $t_{0}$.
+> 2. $f:\mathbb{R}^{2}\to\mathbb{R}^{2}, f(x,y)=(x\cos y,x\sin y)$, 指定点是 $p=(x_{0},y_{0})$.
+> 3. $f:\mathbb{R}\to\mathbb{R}^{2}, f(t)=(\cos 2\pi t,\sin 2\pi t)$, 指定点是 $t_{0}=0,\frac{1}{3},\frac{5}{8}$.
+> 4. $f:\mathbb{R}^{2}\to\mathbb{R}, f(x,y)=x^{2}y-\sin x$, 指定点是 $p=(x_{0},y_{0})$.
+
+> [!solution] Solution: 
+> 1.  $$ f_{*}\left(\frac{\mathrm{d}}{\mathrm{d}t}\right)=\partial _{x}+ \alpha \partial _{y} $$
+> 切映射 $f_{*}:T_{t_0}\mathbb{R} \to T_{\left(t_0,\alpha t_0\right)}\mathbb{R} ^{2}$
+>    $$ f_{*}\left(k\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t_0}\right)= k\left. \partial _{x} \right|_{\left(t_0,\alpha t_0\right)}+ k\alpha \left. \partial _{y} \right|_{\left(t_0,\alpha t_0\right)} $$
+> 余切映射 $f^{*}:T^{*}_{\left(t_0,\alpha t_0\right)}\mathbb{R} ^{2}\to T^{*}_{t_0}\mathbb{R}$ 
+>    $$ \begin{aligned} f^{*}\left(\omega ^{1}\,\left. \mathrm{d} x \right|_{\left(t_0,\alpha t_0\right)}+ \omega ^{2}\left. \,\mathrm{d} y \right|_{\left(t_0,\alpha t_0\right)}\right)&= \left(\omega ^{1}+ \alpha \omega ^{2}\right)\,\left. \mathrm{d} t \right|_{t_0} \end{aligned} $$
+> 
+> 2.  $$ f_{*}\left(\partial _{x}\right)= \cos y\partial _{x}+ \sin y\partial _{y} $$
+>  $$ f_{*}\left(\partial _{y}\right)= -x\sin y\partial _{x}+ x\cos y\partial _{y} $$
+> $f_{*}:T_{p}\mathbb{R} ^{2}\to T_{f\left(p\right)}\mathbb{R} ^{2}$
+>  $$ f_{*}\left(a\partial _{x}|_{p}+ b\partial _{y}|_{p}\right)= \left(a\cos y_0-bx_0\sin y_0\right)\partial _{x}|_{f\left(p\right)}+ \left(a\sin y_0+ bx_0\cos y_0\right)\partial _{y} |_{f\left(p\right)} $$
+> $f^{*}:T^{*}_{f\left(p\right)}\mathbb{R} ^{2}\to T^{*}_{p}\mathbb{R} ^{2}$
+>  $$ \begin{aligned} f^{*}\left(a\,\mathrm{d} x|_{f\left(p\right)}+ b\,\mathrm{d} y|_{f\left(p\right)}\right)&= a\left(\,\mathrm{d} \left(x\cos y\right)\right)|_{p}+ b\left(\mathrm{d}\left(x\sin y\right)\right)|_{p}\\&= a\left(\cos y\,\mathrm{d} x-x\sin y\,\mathrm{d} y\right)_{p}+ b\left(\sin y\,\mathrm{d} x+ x\cos y\,\mathrm{d} y\right)_{p}\\&= \left(a\cos y_0+ b\sin y_0\right)\,\mathrm{d} x|_{p}+ \left(bx_0\cos y_0-ax_0\sin y_0\right)\,\mathrm{d} y|_{p} \end{aligned} $$
+> 
+> 3.  $$ f_{*}\left(\frac{\mathrm{d}}{\mathrm{d}t}\right)= -2\pi\sin 2\pi t\partial _{x}+ 2\pi\cos 2\pi t\partial _{y} $$
+> $f_{*}:T_{t_0}\mathbb{R} \to T_{f\left(t_0\right)}\mathbb{R} ^{2}$
+>  $$ f_{*}\left(k\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t_0}\right)= -2k\pi\sin 2\pi t_0\left. \partial _{x} \right|_{f\left(t_0\right)}+ 2k\pi\cos 2\pi t_0\left. \partial _{y} \right|_{f\left(t_0\right)} $$
+> $f^{*}:T^{*}_{f\left(t_0\right)}\mathbb{R} ^{2}\to T^{*}_{t_0}\mathbb{R}$
+>  $$ \begin{aligned} f^{*}\left(a\left. \,\mathrm{d} x \right|_{f\left(t_0\right)}+ b\left. \,\mathrm{d} y \right|_{f\left(t_0\right)}\right)&= a\left(\mathrm{d}\left(\cos 2\pi t\right)\right)|_{t_0}+ b\left(\mathrm{d}\left(\sin 2\pi t\right)\right)|_{t_0}\\&= \left(-2a\pi\sin 2\pi t_0+ 2b\pi\cos 2\pi t_0\right)\,\left. \mathrm{d} t \right|_{t_0} \end{aligned} $$
+> 代入具体的指定点:
+>  - 对于 $t_0=0$:
+>    $$ f_{*}\left(k\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{0}\right)= 2k\pi\left. \partial _{y} \right|_{\left(1,0\right)} $$
+>    $$ f^{*}\left(a\left. \,\mathrm{d} x \right|_{\left(1,0\right)}+ b\left. \,\mathrm{d} y \right|_{\left(1,0\right)}\right)= 2b\pi\left. \,\mathrm{d} t \right|_{0} $$
+>  - 对于 $t_0=\frac{1}{3}$:
+>    $$ f_{*}\left(k\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{\frac{1}{3}}\right)= -k\pi\sqrt{3}\left. \partial _{x} \right|_{\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)}- k\pi\left. \partial _{y} \right|_{\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)} $$
+>    $$ f^{*}\left(a\left. \,\mathrm{d} x \right|_{\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)}+ b\left. \,\mathrm{d} y \right|_{\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)}\right)= \left(-a\pi\sqrt{3}-b\pi\right)\left. \,\mathrm{d} t \right|_{\frac{1}{3}} $$
+>  - 对于 $t_0=\frac{5}{8}$:
+>    $$ f_{*}\left(k\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{\frac{5}{8}}\right)= k\pi\sqrt{2}\left. \partial _{x} \right|_{\left(-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)}- k\pi\sqrt{2}\left. \partial _{y} \right|_{\left(-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)} $$
+>    $$ f^{*}\left(a\left. \,\mathrm{d} x \right|_{\left(-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)}+ b\left. \,\mathrm{d} y \right|_{\left(-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)}\right)= \left(a\pi\sqrt{2}-b\pi\sqrt{2}\right)\left. \,\mathrm{d} t \right|_{\frac{5}{8}} $$
+> 
+> 4.  $$ f_{*}\left(\partial _{x}\right)= \left(2xy-\cos x\right)\frac{\mathrm{d}}{\mathrm{d}t} $$
+>  $$ f_{*}\left(\partial _{y}\right)= x^{2}\frac{\mathrm{d}}{\mathrm{d}t} $$
+> $f_{*}:T_{p}\mathbb{R} ^{2}\to T_{f\left(p\right)}\mathbb{R}$
+>  $$ f_{*}\left(a\partial _{x}|_{p}+ b\partial _{y}|_{p}\right)= \left(a\left(2x_0y_0-\cos x_0\right)+ bx_0^{2}\right)\left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{f\left(p\right)} $$
+> $f^{*}:T^{*}_{f\left(p\right)}\mathbb{R}\to T^{*}_{p}\mathbb{R} ^{2}$
+>  $$ \begin{aligned} f^{*}\left(c\left. \,\mathrm{d} t \right|_{f\left(p\right)}\right)&= c\left(\mathrm{d}\left(x^{2}y-\sin x\right)\right)|_{p}\\&= c\left(2x_0y_0-\cos x_0\right)\,\mathrm{d} x|_{p}+ cx_0^{2}\,\mathrm{d} y|_{p} \end{aligned} $$
 
 > [!exercise] Exercise:
 > 设映射 $f:\mathbb{R}^{2}\to\mathbb{R}^{2}$ 定义为
@@ -62,6 +99,15 @@
 > \end{aligned}
 > $$
 > 验证 $f$ 是光滑同胚, 并且求在各点 $p=(x,y)\in\mathbb{R}^{2}$ 处的切映射 $f_{*}$ 和余切映射 $f^{*}$ 在自然基下的矩阵.
+
+> [!proof] Proof: 
+> $u,v:\mathbb{R} ^{2}\to \mathbb{R}$是光滑映射, 并且$\left(u,v\right)$有逆映射
+>  $$ y= \frac{u-v }{2 },\quad x= \frac{u+ v }{2e^{\frac{u-v }{2 }} } $$
+> 也是光滑的. 故$f$是光滑同胚.
+> $f_{*}$的矩阵为
+>  $$ \begin{pmatrix} \frac{\partial u}{\partial x}&\frac{\partial v}{\partial x}\\ \frac{\partial u}{\partial y}&\frac{\partial v}{\partial y}\end{pmatrix} = \begin{pmatrix} e^{y}&xe^{y}+ 1\\e^{y}&xe^{y}-1 \end{pmatrix}$$  
+> $f^{*}$的矩阵为$f_{*}$矩阵的转置, 为
+>  $$ \begin{pmatrix} e^{y} &e^{y}\\xe^{y}+ 1&xe^{y}-1\end{pmatrix} $$ 
 
 > [!exercise] Exercise:
 > 设 $M^m$, $N^n$ 是两个光滑流形, 且 $M$ 是连通的, 即 $M$ 不能是两个非空的, 互不相交的开子集之并, $f:M\to N$ 是光滑映射. 证明: 若在每一点 $p\in M$ 都有 $f_{*p}=0$, 则 $f$ 是常值映射.
