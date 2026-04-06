@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise:
 >  设 $(U,\varphi)$ 是 $3$ 维光滑流形 $M$ 的坐标卡, 相应的局部坐标系是 $(U;u^i)$, 假定光滑曲线 $\gamma$ 的参数方程是
 > 
@@ -139,13 +141,43 @@
 > $$f(x^1,\cdots,x^{n+1})=[(x^1,\cdots,x^{n+1})],\quad \forall(x^1,\cdots,x^{n+1})\in S^n,$$
 > 其中 $[(x^1,\cdots,x^{n+1})]$ 表示与 $(x^1,\cdots,x^{n+1})$ 共线的向量的等价类. 试在 $S^n$, $\mathbb{R}P^n$ 各自相应的局部坐标系下写出映射 $f$ 的表达式, 证明: 这是光滑映射, 并且它的秩处处是 $n$.
 
-> [!proof] Proof: 
-> $\mathbb{R}P^{n}$有一族坐标卡$\left(U_{k},\varphi _{k}\right)$, $U_{k}= \left\{ [x^{1},\cdots ,x^{n+ 1}]\in \mathbb{R}P^{n}: x^{k}\neq 0  \right\}$, 
->  $$ \varphi _{k}\left(\left[ x^1,\cdots,x^{n+ 1} \right]\right)= \left(\frac{x^{1} }{x^{k} },\cdots ,\widehat{\frac{x^{k} }{x^{k} }},\cdots ,\frac{x^{n+ 1} }{x^{k} }\right) $$ 
-> $S^{n}$有一族坐标卡$\left(V_{k}^{\pm }, \psi _{k}^{\pm }\right)$, 
->  $$ V_{k}^{\pm }= \left\{ \left(x^{1},\cdots ,x^{n+ 1}\right) \in S^{n}:  \pm x^{k}> 0\right\} $$ 
->  $$ \begin{aligned} \varphi _{k}^{\pm }\left(x^{1},\cdots ,\sqrt{1-\left(x^{1}\right)^{2}-\cdots -\widehat{\left(x^{k}\right)^{2}}-\cdots -\left(x^{n+ 1}\right)^{2}},\cdots ,x^{n+ 1}\right) &=\left(x^{k},\cdots ,\widehat{x^{k}},\cdots ,x^{n+ 1}\right) \end{aligned}$$ 
-> 则$f\left(V_{k}^{\pm }\right)\subseteq U_{k}$. 坐标表示为
->  $$ \left(x^{1},\cdots ,x^{k-1},x^{k+ 1},\cdots ,x^{n+ 1}\right)\to \left(\frac{x^{1} }{\sqrt{1-\left(x^{1}\right)^{2}-\cdots -\widehat{\left(x^{k}\right)^{2}} -\cdots -\left(x^{n+ 1}\right)^{2}}},\cdots ,\widehat{\frac{x^{k} }{\sqrt{\cdots }  }},\cdots ,\frac{x^{n+ 1} }{\sqrt{\cdots } }\right) $$ 
-> 对应的Jaccobi为
->  $$ \begin{pmatrix} \frac{1 }{x^{k} }&0&\cdots  &0&\cdots &\frac{-x^{1} }{\sqrt{\cdots }x^{k} }&\cdots &0 \\0&\frac{1 }{x^{k} }&\cdots &0&\cdots &\frac{-x^{2} }{\sqrt{\cdots }x^{k} }&\cdots &0\\\vdots\\0&0&\cdots &0&\cdots &0&\cdots &0\\\vdots\\0&0&\cdots &0&\cdots &\frac{-x^{n+ 1} }{\sqrt{\cdots }x^{k} }&\cdots &\frac{1 }{x^{n+ 1} }\end{pmatrix} $$ 
+> [!proof] Proof:
+> $\mathbb{R}P^{n}$ 有一族坐标卡 $(U_{k},\varphi _{k})$, 其中
+> $$U_{k}= \left\{ [x^{1},\cdots ,x^{n+1}]\in \mathbb{R}P^{n}: x^{k}\neq 0  \right\},$$
+> $$\varphi _{k}\left(\left[ x^1,\cdots,x^{n+ 1} \right]\right)= \left(\frac{x^{1} }{x^{k} },\cdots ,\widehat{\frac{x^{k} }{x^{k} }},\cdots ,\frac{x^{n+ 1} }{x^{k} }\right).$$
+> 
+> $S^{n}$ 有一族坐标卡 $(V_{k}^{\pm }, \psi _{k}^{\pm })$, 其中
+> $$V_{k}^{\pm }= \left\{ \left(x^{1},\cdots ,x^{n+ 1}\right) \in S^{n}:  \pm x^{k}> 0\right\},$$
+> $$\psi _{k}^{\pm }\left(x^{1},\cdots ,x^{n+ 1}\right)=\left(x^{1},\cdots ,\widehat{x^{k}},\cdots ,x^{n+ 1}\right).$$
+> 其逆映射为
+> $$(\psi_k^\pm)^{-1}(u^1,\cdots,u^n)
+> =
+> \left(u^1,\cdots,u^{k-1},\pm\sqrt{1-(u^1)^2-\cdots-(u^n)^2},u^k,\cdots,u^n\right).$$
+> 
+> 则 $f\left(V_{k}^{\pm }\right)\subseteq U_{k}$. 在坐标下,
+> $$\varphi_k\circ f\circ (\psi_k^\pm)^{-1}(u^1,\cdots,u^n)
+> =
+> \left(
+> \frac{u^1}{\pm\sqrt{1-|u|^2}},
+> \cdots,
+> \frac{u^n}{\pm\sqrt{1-|u|^2}}
+> \right),$$
+> 即
+> $$\varphi_k\circ f\circ (\psi_k^\pm)^{-1}(u)=\pm \frac{u}{\sqrt{1-|u|^2}},\qquad |u|<1.$$
+> 这是光滑映射. 而 $\{V_k^\pm\}$ 覆盖 $S^n$, 因此 $f$ 是光滑映射.
+> 
+> 下面证明 $\operatorname{rank}df\equiv n$. 记
+> $$F_\pm(u)=\pm \frac{u}{\sqrt{1-|u|^2}},\qquad u\in B_1(0).$$
+> 则
+> $$F_\pm^{-1}(y)=\pm \frac{y}{\sqrt{1+|y|^2}},\qquad y\in \mathbb R^n.$$
+> 因而 $F_\pm:B_1(0)\to\mathbb R^n$ 是微分同胚, 所以其微分处处可逆, 即
+> $$\operatorname{rank} dF_\pm(u)=n,\qquad \forall u\in B_1(0).$$
+> 于是对任意 $p\in V_k^\pm$,
+> $$\operatorname{rank}df_p
+> =
+> \operatorname{rank} d\bigl(\varphi_k\circ f\circ (\psi_k^\pm)^{-1}\bigr)_{\psi_k^\pm(p)}
+> =
+> n.$$
+> 因此
+> $$\operatorname{rank}df_p=n,\qquad \forall p\in S^n.$$
+> 故 $f:S^n\to \mathbb RP^n$ 是光滑映射, 且秩处处为 $n$.
