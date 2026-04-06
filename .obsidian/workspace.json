@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-                "mode": "preview",
+                "file": "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch03"
-            }
-          },
-          {
-            "id": "e849b05f04b0cd25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch03"
+              "title": "ex - Stereographic Projection and Conformal Model"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,13 +202,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "238565ae5332747e",
   "lastOpenFiles": [
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - Fundamental Theorem of Hypersurface Theory.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
+    "20.Cards/Exercises/ex - Curvature for Product Metric.md",
+    "30.Recources/RG/Course HW/RG - HW1.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-05.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
@@ -245,23 +226,17 @@
     "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "20.Cards/Exercises/ex - Partial of Metric in Coordinates.md",
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "新建 文本文档.txt",
     "30.Recources/HA/Course HW/HA - HW2.2.md",
-    "30.Recources/RG/Course HW/RG - HW1.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Propositions/pps - Integrable Distribution is Involutive.md",
-    "20.Cards/Definitions/dfn - Integrable Distribution.md",
-    "30.Recources/FA/Course HW/FA - HW4.md",
-    "00.Inbox/ep - Hopf Fibration.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
