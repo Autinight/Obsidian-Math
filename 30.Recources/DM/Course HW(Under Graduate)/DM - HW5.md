@@ -113,12 +113,26 @@
 > 设 $M^m$, $N^n$ 是两个光滑流形, 且 $M$ 是连通的, 即 $M$ 不能是两个非空的, 互不相交的开子集之并, $f:M\to N$ 是光滑映射. 证明: 若在每一点 $p\in M$ 都有 $f_{*p}=0$, 则 $f$ 是常值映射.
 
 > [!proof] Proof: 
-> 取定$p_0\in M^{n}$, 定义
+> 取定$p_0\in M^{m}$, 定义
 >  $$ U= \left\{ p\in M:f\left(p\right)= f\left(p_0\right) \right\} $$
-> 则$U$非空. 任取$p\in U$, 取$p$附近的凸坐标卡$\left(V,\varphi \right)$,  
+> 则$U$非空. 任取$p\in U$, 取$p$附近的凸坐标卡$\left(V,\varphi \right)$, 和$f\left(p\right)$附近的坐标卡$\left(W,\psi \right)$, 使得$f\left(V\right)\subseteq W$.  设$p= \varphi ^{-1} \left(x_0\right)$, $q= \varphi ^{-1} \left(y_0\right)$, 则
+> 记$\tilde{f}= \psi \circ f\circ \varphi ^{-1}$, 则$\left(\tilde{f}_{*}\right)_{\varphi \left(p\right)}=\left(\psi _{*}\right)_{f\left(p\right)}\circ \left(f_{*}\right)_{p}\circ \left(\varphi ^{-1} \right)_{\varphi \left(p\right)}= 0$, 因此$\tilde{f}^{\prime} = 0$. 于是
+>  $$ \begin{aligned} \psi \left(f\left(q\right)\right)-\psi \left(f\left(p\right)\right)&= \tilde{f}\left(y_0\right)-\tilde{f}\left(x_0\right)\\&= \int _{0}^{1}\tilde{f}^{\prime} \left(ty_0+ \left(1-t\right)x_0\right)\cdot \left(y_0-x_0\right)\,d t\\&= 0 \end{aligned}$$
+> 因此
+>  $$ \psi \left(f\left(q\right)\right)= \psi \left(f\left(p\right)\right)\implies f\left(q\right)= f\left(p\right)= f\left(p_0\right) $$  
+>因此$V\subseteq U$, $U$是一个开集.
+> 
+> 另一方面, 
+>  $$ U= f^{-1} \left(\left\{ f\left(p_0\right) \right\}\right) $$ 
+> 由于$N$是Hausdorff的, 单点集$\left\{ f\left(p_0\right) \right\}$是闭集, 而$f$是连续映射, 因此$U$也是闭集.
+> 由于$M$是连通的, $U$是非空的既开又闭的集合, 只能有$U= M$, 即$f$在$M$上恒为$f\left(p_0\right)$, 为常值映射.
 
 > [!exercise] Exercise:
 > 设 $M$ 是 $n$ 维紧致的光滑流形, $f:M\to\mathbb{R}^n$ 是光滑映射. 证明: 在 $M$ 上至少存在一点 $p$, 使得切映射 $f_{*p}$ 的秩小于 $n$.
+
+> [!proof] Proof: 
+> 我们证明, 若$f_{*p}$的秩恒等于$n$, 则由于$f$连续, $f\left(M\right)$是$\mathbb{R} ^{n}$的一个开子集, 进而不可能是紧的(因为$\mathbb{R} ^{n}$的紧集必然是有界闭的,而非空开集如果是闭的, 必然等于$\mathbb{R} ^{n}$是无界的).
+> 事实上, 任取$q\in f\left(M\right)$, 设$q= f\left(p\right)$. 则由反函数定理, 存在$p$的开邻域$U$, 和$f\left(p\right)$的开邻域$V$, 使得$f:U\to V$成为一个微分同胚. 故而$V= f\left(U\right)\subseteq f\left(M\right)$是$q$在$f\left(M\right)$中的一个开邻域. 这表明$f\left(M\right)$是开子集.
 
 > [!exercise] Exercise:
 > 设 $S^n$ 是 $\mathbb{R}^{n+1}$ 中的单位球面, $\mathbb{R}P^n$ 是 $n$ 维射影空间, 定义映射 $f:S^n\to\mathbb{R}P^n$ 如下:
