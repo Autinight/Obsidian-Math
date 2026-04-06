@@ -112,6 +112,11 @@
 > [!exercise] Exercise:
 > 设 $M^m$, $N^n$ 是两个光滑流形, 且 $M$ 是连通的, 即 $M$ 不能是两个非空的, 互不相交的开子集之并, $f:M\to N$ 是光滑映射. 证明: 若在每一点 $p\in M$ 都有 $f_{*p}=0$, 则 $f$ 是常值映射.
 
+> [!proof] Proof: 
+> 取定$p_0\in M^{n}$, 定义
+>  $$ U= \left\{ p\in M:f\left(p\right)= f\left(p_0\right) \right\} $$
+> 则$U$非空. 任取$p\in U$, 取$p$附近的凸坐标卡$\left(V,\varphi \right)$,  
+
 > [!exercise] Exercise:
 > 设 $M$ 是 $n$ 维紧致的光滑流形, $f:M\to\mathbb{R}^n$ 是光滑映射. 证明: 在 $M$ 上至少存在一点 $p$, 使得切映射 $f_{*p}$ 的秩小于 $n$.
 
