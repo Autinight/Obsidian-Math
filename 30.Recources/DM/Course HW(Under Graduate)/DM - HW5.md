@@ -131,10 +131,21 @@
 > 设 $M$ 是 $n$ 维紧致的光滑流形, $f:M\to\mathbb{R}^n$ 是光滑映射. 证明: 在 $M$ 上至少存在一点 $p$, 使得切映射 $f_{*p}$ 的秩小于 $n$.
 
 > [!proof] Proof: 
-> 我们证明, 若$f_{*p}$的秩恒等于$n$, 则由于$f$连续, $f\left(M\right)$是$\mathbb{R} ^{n}$的一个开子集, 进而不可能是紧的(因为$\mathbb{R} ^{n}$的紧集必然是有界闭的,而非空开集如果是闭的, 必然等于$\mathbb{R} ^{n}$是无界的).
+> 我们证明, 若$f_{*p}$的秩恒等于$n$, 则$f\left(M\right)$是$\mathbb{R} ^{n}$的一个开子集, 但是由于$f$连续, $f\left(M\right)$是紧子集, 这导致矛盾(因为$\mathbb{R} ^{n}$的紧集必然是有界闭的,而非空开集如果是闭的, 必然等于$\mathbb{R} ^{n}$是无界的).
 > 事实上, 任取$q\in f\left(M\right)$, 设$q= f\left(p\right)$. 则由反函数定理, 存在$p$的开邻域$U$, 和$f\left(p\right)$的开邻域$V$, 使得$f:U\to V$成为一个微分同胚. 故而$V= f\left(U\right)\subseteq f\left(M\right)$是$q$在$f\left(M\right)$中的一个开邻域. 这表明$f\left(M\right)$是开子集.
 
 > [!exercise] Exercise:
 > 设 $S^n$ 是 $\mathbb{R}^{n+1}$ 中的单位球面, $\mathbb{R}P^n$ 是 $n$ 维射影空间, 定义映射 $f:S^n\to\mathbb{R}P^n$ 如下:
 > $$f(x^1,\cdots,x^{n+1})=[(x^1,\cdots,x^{n+1})],\quad \forall(x^1,\cdots,x^{n+1})\in S^n,$$
 > 其中 $[(x^1,\cdots,x^{n+1})]$ 表示与 $(x^1,\cdots,x^{n+1})$ 共线的向量的等价类. 试在 $S^n$, $\mathbb{R}P^n$ 各自相应的局部坐标系下写出映射 $f$ 的表达式, 证明: 这是光滑映射, 并且它的秩处处是 $n$.
+
+> [!proof] Proof: 
+> $\mathbb{R}P^{n}$有一族坐标卡$\left(U_{k},\varphi _{k}\right)$, $U_{k}= \left\{ [x^{1},\cdots ,x^{n+ 1}]\in \mathbb{R}P^{n}: x^{k}\neq 0  \right\}$, 
+>  $$ \varphi _{k}\left(\left[ x^1,\cdots,x^{n+ 1} \right]\right)= \left(\frac{x^{1} }{x^{k} },\cdots ,\widehat{\frac{x^{k} }{x^{k} }},\cdots ,\frac{x^{n+ 1} }{x^{k} }\right) $$ 
+> $S^{n}$有一族坐标卡$\left(V_{k}^{\pm }, \psi _{k}^{\pm }\right)$, 
+>  $$ V_{k}^{\pm }= \left\{ \left(x^{1},\cdots ,x^{n+ 1}\right) \in S^{n}:  \pm x^{k}> 0\right\} $$ 
+>  $$ \begin{aligned} \varphi _{k}^{\pm }\left(x^{1},\cdots ,\sqrt{1-\left(x^{1}\right)^{2}-\cdots -\widehat{\left(x^{k}\right)^{2}}-\cdots -\left(x^{n+ 1}\right)^{2}},\cdots ,x^{n+ 1}\right) &=\left(x^{k},\cdots ,\widehat{x^{k}},\cdots ,x^{n+ 1}\right) \end{aligned}$$ 
+> 则$f\left(V_{k}^{\pm }\right)\subseteq U_{k}$. 坐标表示为
+>  $$ \left(x^{1},\cdots ,x^{k-1},x^{k+ 1},\cdots ,x^{n+ 1}\right)\to \left(\frac{x^{1} }{\sqrt{1-\left(x^{1}\right)^{2}-\cdots -\widehat{\left(x^{k}\right)^{2}} -\cdots -\left(x^{n+ 1}\right)^{2}}},\cdots ,\widehat{\frac{x^{k} }{\sqrt{\cdots }  }},\cdots ,\frac{x^{n+ 1} }{\sqrt{\cdots } }\right) $$ 
+> 对应的Jaccobi为
+>  $$ \begin{pmatrix} \frac{1 }{x^{k} }&0&\cdots  &0&\cdots &\frac{-x^{1} }{\sqrt{\cdots }x^{k} }&\cdots &0 \\0&\frac{1 }{x^{k} }&\cdots &0&\cdots &\frac{-x^{2} }{\sqrt{\cdots }x^{k} }&\cdots &0\\\vdots\\0&0&\cdots &0&\cdots &0&\cdots &0\\\vdots\\0&0&\cdots &0&\cdots &\frac{-x^{n+ 1} }{\sqrt{\cdots }x^{k} }&\cdots &\frac{1 }{x^{n+ 1} }\end{pmatrix} $$ 
