@@ -56,7 +56,25 @@
 
 
 > [!exercise] Exercise:
-   > 设 $X$ 是赋范线性空间, $C$ 是以 $0$ 为内点的均衡的有界凸集. 证明: $C$ 的 Minkowski 泛函 $P_C$ 是 $X$ 上的一个范数.
+> 设 $X$ 是赋范线性空间, $C$ 是以 $0$ 为内点的均衡的有界凸集. 证明: $C$ 的 Minkowski 泛函 $P_C$ 是 $X$ 上的一个范数.
+
+> [!proof] Proof: 
+> 不妨设$X$是非零的线性空间, 则由于$0$是$C$的内点, $C$至少有非零点. 
+> 已知$P_{C}$满足
+> 
+> 1.  $P_{C}\left(x\right)\in \left[ 0,\infty \right],\;P_{C}\left(0\right)= 0$
+> 2. $P_{C}\left(\lambda x\right)= \lambda P_{C}\left(x\right),\quad \forall x\in X,\forall \lambda > 0$
+> 3. $P_{C}\left(x+ y\right)\le P_{C}\left(x\right)+ P_{C}\left(y\right)$
+>
+> 只需要进一步说明"$P_{C}\left(x\right)= 0\implies x= 0$"和$P_{C}\left( cx\right)=\left| c \right|P_{C}\left(x\right), \forall x\in X,c\in \mathbb{C}$.
+>
+> 事实上, 若$P_{C}\left(x\right)= 0$, 则
+>  $$ 0= \inf \left\{ \lambda > 0:\frac{x }{ \lambda }\in C \right\} $$ 
+> 可知对于任意的$n$, $nx\in C$. 若$\left\| x \right\|> 0$, 则$\left\{ nx \right\}$是$C$上但在$X$中无界的点列, 与$C$为有界集矛盾, 因此$x= 0$.
+>
+> 此外, 任取$x\in X\setminus \left\{ 0 \right\}$, 存在一列正数$\left\{ \lambda _{n} \right\}$, 使得 $\lim_{n\to \infty}\lambda _{n}= P_{C}\left(x\right)$, $x_{n}:= \frac{x }{\lambda _{n} }\in C$.
+>
+> 
 
 > [!exercise] Exercise:
    > 设 $X$ 是 $B^*$ 空间, $E$ 是以 $0$ 为内点的真凸子集, $P$ 是 $E$ 的 Minkowski 泛函, 求证:
@@ -64,7 +82,7 @@
    > 1. $x$ 是 $E$ 的内点当且仅当 $P(x)<1$.
    > 2. $E$ 的内部的闭包等于 $E$ 的闭包.
    
- > [!exercise] Exercise:
+> [!exercise] Exercise:
 >  设Banach空间$(X,\|\cdot\|)$具有Schauder基$\{e_n\}$, 用$M$表示所有使得$\sum_{k=1}^\infty\xi_ke_k$在$X$中收敛的数列$\{\xi_k\}$的全体, 按通常方式定义线性运算构成的线性空间. 对于每一$x=\{\xi_k\}\in M$, 定义:
 >
 > $$\|x\|_1=\operatorname{sup}_n\left\|\sum_{k=1}^n\xi_ke_k\right\|$$
