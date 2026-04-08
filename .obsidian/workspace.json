@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-04/Daily Draft 2026-04-08.md",
+                "file": "00.Inbox/ex - Let Local Metric to be Warped Product.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-04-08"
+              "title": "ex - Let Local Metric to be Warped Product"
             }
           }
         ],
@@ -253,16 +253,17 @@
   },
   "active": "221ee4c6a19b4074",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW5.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-08.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-07.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-06.md",
-    "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "20.Cards/Exercises/ex - Fundamental Theorem of Hypersurface Theory.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
@@ -282,7 +283,6 @@
     "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "新建 文本文档.txt",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
