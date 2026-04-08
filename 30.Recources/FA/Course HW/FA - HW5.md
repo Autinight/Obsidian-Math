@@ -68,13 +68,23 @@
 >
 > 只需要进一步说明"$P_{C}\left(x\right)= 0\implies x= 0$"和$P_{C}\left( cx\right)=\left| c \right|P_{C}\left(x\right), \forall x\in X,c\in \mathbb{C}$.
 >
-> 事实上, 若$P_{C}\left(x\right)= 0$, 则
->  $$ 0= \inf \left\{ \lambda > 0:\frac{x }{ \lambda }\in C \right\} $$ 
-> 可知对于任意的$n$, $nx\in C$. 若$\left\| x \right\|> 0$, 则$\left\{ nx \right\}$是$C$上但在$X$中无界的点列, 与$C$为有界集矛盾, 因此$x= 0$.
+> - 事实上, 若$P_{C}\left(x\right)= 0$, 则
+>      $$ 0= \inf \left\{ \lambda > 0:\frac{x }{ \lambda }\in C \right\} $$ 
+>     可知对于任意的$n$, $nx\in C$. 若$\left\| x \right\|> 0$, 则$\left\{ nx \right\}$是$C$上但在$X$中无界的点列, 与$C$为有界集矛盾, 因此$x= 0$.
 >
-> 此外, 任取$x\in X\setminus \left\{ 0 \right\}$, 存在一列正数$\left\{ \lambda _{n} \right\}$, 使得 $\lim_{n\to \infty}\lambda _{n}= P_{C}\left(x\right)$, $x_{n}:= \frac{x }{\lambda _{n} }\in C$.
->
-> 
+> - 此外, 任取$x\in X\setminus \left\{ 0 \right\}$, 存在一列正数$\left\{ \lambda _{n} \right\}$, 使得 $\lim_{n\to \infty}\lambda _{n}= P_{C}\left(x\right)$, $\frac{x }{\lambda _{n} }\in C$.
+>    任取$c\in \mathbb{C}\setminus \left\{ 0 \right\}$, 则由$C$是均衡的, 
+>     $$ \frac{c }{\left| c \right|  }\frac{x }{\lambda _{n} }\in C $$
+>    进而$P_{C}\left(cx\right)\le  \left| c \right|\lambda _{n}$ 
+>    令$n\to \infty$, 可得
+>     $$ P_{C}\left(cx\right)\le \left| c \right| P_{C}\left(x\right) $$ 
+>     用$c^{-1}$替换$c$, 用$cx$替换$x$, 得到
+>     $$ P_{C}\left(c^{-1} \left(cx\right)\right)\le \left| c \right|^{-1} P_{C}\left(cx\right)  $$
+>    即
+>     $$ \left| c \right| P_{C}\left(x\right) \le P_{C}\left(cx\right)$$  
+>    因此
+>     $$ P_{C}\left(cx\right)= \left| c \right|x ,\quad \forall x\in X\setminus \left\{ 0 \right\} $$ 
+>    又$P_{C}\left(0\right)= 0$, 因此$P_{C}\left(x\right)= \left| c \right|x,\forall x\in X$. 
 
 > [!exercise] Exercise:
    > 设 $X$ 是 $B^*$ 空间, $E$ 是以 $0$ 为内点的真凸子集, $P$ 是 $E$ 的 Minkowski 泛函, 求证:
@@ -82,6 +92,20 @@
    > 1. $x$ 是 $E$ 的内点当且仅当 $P(x)<1$.
    > 2. $E$ 的内部的闭包等于 $E$ 的闭包.
    
+> [!proof] Proof: 
+> 1. 若$P\left(x\right)< 1$, 则存在$\lambda<  1$, 使得$\frac{x }{\lambda  } \in E$, 记$\tilde{x}= \frac{x }{\lambda  }$. 由于$0$是$E$的内点, 存在$r> 0$, 使得$B_{r}= B_{r}\left(0\right)\subseteq E$. 令$\tilde{r}= \left(1-\lambda \right)r$. 则任取$y\in B_{\tilde{r}}\left(x\right)$, 我们有$\frac{y-x }{1-\lambda  }\in B_{r}\left(0\right)\subseteq E$. 由于$E$是凸集, 我们有
+>      $$ y= \left(1-\lambda \right)\left(\frac{y-x }{1-\lambda  }\right)+ \lambda \tilde{x}\in E $$
+>    因此$B_{\tilde{r}}\left(x\right)\subseteq E$, $x$是$E$的内点.  
+>
+>    反过来, 若$x$是$E$的内点, 则存在$r> 0$使得$B_{r}\left(x\right)\subseteq E$. 则$\left(1+ \frac{r }{2 }\right)x\in E$, 那么
+>      $$ P\left(x\right)\le \frac{1 }{1+ \frac{r }{2 } }< 1 $$ 
+>
+> 2. 易见$\overline{E^{\circ}}\subseteq \overline{E}$.  另一方面, 任取$x\in \overline{E}$, 则存在$E$上的点列$\left\{ x_{n} \right\}$, 使得$\lim_{n\to \infty}x_{n}= x$. 则$P\left(x_{n}\right)\le 1$, 且存在$M> 0$, 使得$\left\| x_{n} \right\|\le M,\forall n$. 令$y_{n}= \frac{n }{n+ 1 }x_n$, 则$P\left(y_{n}\right)= \frac{n }{n+ 1 }P\left(x_{n}\right)< 1$, 由1.知$y_{n}$是$E$的内点.
+>  $$ \left\| y_{n}-x \right\|\le  \left\| y_{n}-x_{n} \right\|+ \left\| x_{n}-x \right\| $$
+> 其中
+>  $$ \left\| y_{n}-x_{n} \right\| = \frac{1 }{n+ 1 }\left\| x_{n} \right\|\le \frac{M }{n+ 1 }$$  
+> 因此 $\lim_{n\to \infty}\left\| y_{n}-x_{n}\right\|= 0$, 又$\lim_{n\to \infty}\left\| x_{n}-x \right\|= 0$, 故$\lim_{n\to \infty}\left\| y_{n}-x \right\|= 0$. 这表明$x\in \overline{E^{\circ}}$.
+
 > [!exercise] Exercise:
 >  设Banach空间$(X,\|\cdot\|)$具有Schauder基$\{e_n\}$, 用$M$表示所有使得$\sum_{k=1}^\infty\xi_ke_k$在$X$中收敛的数列$\{\xi_k\}$的全体, 按通常方式定义线性运算构成的线性空间. 对于每一$x=\{\xi_k\}\in M$, 定义:
 >
