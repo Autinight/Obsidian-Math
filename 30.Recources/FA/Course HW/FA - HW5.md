@@ -7,6 +7,54 @@
    >
    > 证明: 不存在 $f_0\in X\setminus X_0$, 使得 $\|f_0\|=1$ 且 $d(f_0,X_0)=1$.
 
+> [!proof] Proof: 
+> 
+> 定义
+>  $$ \begin{aligned} \Phi :X&\to \mathbb{R}\\ \Phi \left(f\right)&= \int _{0}^{1}f\left(x\right)\,d x \end{aligned} $$
+> 
+> 则$X_0= \operatorname{ker}\Phi$, 
+> 
+> 考虑$f_0\in X\setminus X_0$, 使得$\left\| f_0 \right\|= 1$, 则$\Phi \left(f_0\right) \neq 0$, 且
+> 
+> 
+>  $$ \left\| \Phi  \right\|\ge \left| \Phi \left(f_0\right) \right|  $$ 
+> 
+> 
+> 如果
+>  $$ \left| \Phi \left(f_0\right) \right|\ge 1  $$
+> 则
+>  $$ \int _{0}^{1}\left| f_0 \right|\,d x\ge \left| \int _{0}^{1}f_0 \,d x\right|= \left| \Phi \left(f_0\right) \right|\ge 1    $$  
+> 只能有$\left| f_0 \right|\ge 1$,  那么由于$\left\| f_0 \right\|= 1$, 这迫使$\left| f_0 \right|\equiv 1$, 与$f_0\in X$矛盾. 因此 $\left| \Phi \left(f_0\right) \right|< 1$.
+> 
+> 令
+>  $$ g_{n}\left(x\right)= f_0\left(x\right)-\Phi \left(f_0\right)u_{n}\left(x\right) $$
+> 其中 $u_{n}$待定, 满足
+>  $$ \int _{0}^{1}u_{n}\left(x\right)= 1,\quad u_{n}\left(x\right)= 0 $$
+> 则
+>  $$ \Phi \left(g_{n}\right) = \Phi \left(f_0\right)-\Phi \left(f_0\right)\Phi \left(u_{n}\right)= 0,\quad g_{n}\left(0\right)= 0$$
+> $g_{n}\in X_0$.  此时 
+>  
+>  $$ d\left(f_0,g_{n}\right)= \left| \Phi \left(f_0\right) \right|\left\| u _{n}\right\|   $$ 
+> 定义
+>  $$ u_{n}\left(x\right)= \frac{n+ 1 }{n }x^{\frac{1}{n}} $$
+> 则此时
+>  $$ \int _{0}^{1}u_{n}\left(x\right)\,d x= \int _{0}^{1}\frac{n+ 1 }{n }x^{\frac{1}{n}}\,d x= \int _{0}^{1}\frac{n+ 1 }{n }t\,d t^{n}= 1 $$
+>  $$ \left\| u_{n} \right\|= \frac{n+ 1 }{n } $$ 
+>  那么
+>  $$ d\left(f_0,g_{n}\right)= \left| \Phi \left(f_0\right) \right|\frac{n+ 1 }{n }  $$ 
+>
+> 因此
+>  $$ d\left(f_0,X_0\right)\le \lim_{n\to \infty}d\left(f_0,g_{n}\right)= \left| \Phi \left(f_0\right) \right|  $$ 
+> 
+> 
+> 
+> 
+> 但是前面给出了$\left| \Phi \left(f_0\right) \right|< 1$, 这迫使 $d\left(f_0,X_0\right)< 1$. 因此不存在$f_0\in X\setminus X_0, \left\| f_0 \right\|= 1$, 使得$d\left(f_0,X_0\right)= 1$.
+
+
+
+
+
 > [!exercise] Exercise:
    > 设 $X$ 是赋范线性空间, $C$ 是以 $0$ 为内点的均衡的有界凸集. 证明: $C$ 的 Minkowski 泛函 $P_C$ 是 $X$ 上的一个范数.
 
