@@ -24,7 +24,11 @@ tags: []
    1. 一般来说, 写成$\operatorname{grad}r= \partial _{r}$.
    2. 对$\operatorname{Hess}$沿着$\partial _{r}$求导, $\operatorname{Hess}^{2}$, $R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$有一个公式.
    3. $r$-水平集上(即度量下的r-球面上),  $\operatorname{II}$就是$\operatorname{Hess}$.
-2. 
+2. 球面
+   1. $\operatorname{Hess}r= \operatorname{II}$就是$\frac{1 }{r }g_{r}$
+   2. 曲率就是$R\left(X,Y\right)Z= -r^{-2}\left(X\wedge Y\right)\left(Z\right)$, 常曲率$r^{-2}$.
+3. 球面乘积
+   1. 乘积度量下, 曲率张量, Ricci曲率都有纯正的直和分解. 截面曲率体现为纯平面和混合平面的差异, 纯平面保持, 混合平面为零.
 
 ## 核心工具
 - Computational Simplifications
