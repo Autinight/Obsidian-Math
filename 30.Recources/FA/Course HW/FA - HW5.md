@@ -114,13 +114,34 @@
 > 证明$(M,\|\cdot\|_1)$是Banach空间.
 
 > [!proof] Proof: 
-> 取$M$上的Cauchy列$\left\{ x^{\left(m\right)}_{k} \right\}_{m}$, 则设$\sum _{k = 1}^{\infty}\xi _{k}^{\left(m\right)}e_{k}$收敛到$a^{\left(m\right)}$
- $$ \begin{aligned} \left\| x^{\left(m\right)}-x^{\left(p\right)} \right\|_{1}&=\sup _{n}\left\| \sum _{k= 1}^{n}\left(\xi ^{\left(m\right)}_{k}-\xi ^{\left(p\right)}_{k}\right) e_{k}\right\|< \varepsilon  \end{aligned} $$ 
-对于任意的$k$, 
- $$ \left\|\left( \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)}\right)e_{n}\right\|\le \left\| \sum _{k = 1}^{n+ 1}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k} \right\|  $$ 
-令$n\to \infty$, 得到
- $$ \left\| a^{\left(m\right)}-a^{\left(p\right)} \right\|< \varepsilon  $$ 
-因此 $\left\{ a^{\left(m\right)} \right\}_{m}$构成$X$上的一个Cauchy列, 由于$X$是完备的, 可设它收敛到$a\in X$.
+> 取$M$上的Cauchy列$\left\{ x^{\left(m\right)}_{k} \right\}_{m}$. 任取$\varepsilon > 0$, 存在$N$, 使得对于所有的$m,p> N$, 都有
+>  $$ \begin{aligned} \left\| x^{\left(m\right)}-x^{\left(p\right)} \right\|_{1}&=\sup _{n}\left\| \sum _{k= 1}^{n}\left(\xi ^{\left(m\right)}_{k}-\xi ^{\left(p\right)}_{k}\right) e_{k}\right\|< \varepsilon \tag{*} \end{aligned} $$ 
+> 对于任意的$n$, 
+>  $$ \begin{aligned} \left| \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)} \right|\left\| e_{n} \right\|=  \left\|\left( \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)}\right)e_{n}\right\|&\le \left\| \sum _{k = 1}^{n}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k} \right\| + \left\|  \sum _{k= 1}^{n-1}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k}\right\| \\&\le 2\varepsilon \end{aligned} $$ 
+> 因此$\left\{ \xi _{n}^{\left(k\right)} \right\}_{k}$是一个Cauchy列, 设它收敛到$\xi _{n}$. 令$x= \sum _{k= 1}^{\infty}\xi _{k}e_{k}$.
+> 考虑到
+> 
+>  $$ \left\| \sum _{k= n}^{l}\xi _{k}e_{k} \right\| \le \left\| \sum _{k= n}^{l}\left(\xi _{k}-\xi _{k}^{\left(m\right)}\right) e_{k}\right\|+ \left\| \sum _{k= n}^{l}\xi _{k}^{\left(m\right)}e_{k} \right\|$$ 
+>  对于固定的$m> N$, 充分大的$p$和任意的$n$, 由(*)式可知
+>   $$\left\|  \sum _{k= 1}^{n}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k} \right\| \le \varepsilon  $$
+> 其中令$p\to \infty$, 得到
+>  $$ \left\| \sum _{k= 1}^{n}\left(\xi _{k}^{\left(m\right)}-\xi _{k}\right)e_{k} \right\|\le \varepsilon \tag{**}  $$
+> 于是
+> 当$l> n>  N$时,
+>  $$ \left\| \sum _{k = n}^{l}\left(\xi _{k}-\xi _{k}^{\left(m\right)}\right)e_{k} \right\|\le \left\| \sum _{k= 1}^{n-1}\left(\xi _{k}-\xi _{k}^{\left(m\right)}\right)e_{k} \right\|-\left\| \sum _{k= 1}^{l}\left(\xi _{k}-\xi _{k}^{\left(m\right)}\right)e_{k} \right\|\le 2\varepsilon  $$ 
+> 此外, 存在$N^{\prime}$, 使得当$l> n> N^{\prime}$时,
+>   $$ \left\| \sum _{k= n}^{l}\xi _{k}^{\left(m\right)}e_{k} \right\| < \varepsilon $$
+> 此时
+>  $$ \left\| \sum _{k= n}^{l}\xi _{k}e_{k} \right\|< 3\varepsilon  $$
+> 再有$X$的完备性, 可知$\sum _{k= 1}^{\infty}\xi _{k}e_{k}$收敛于$X$.  
+> 
+> 最后, 回到(**), 令$n\to \infty$, 得到
+>  $$ \left\| x^{\left(m\right)}-x \right\|\le \varepsilon  $$
+> 令$\varepsilon \to \infty$, 得到
+>  $$ \lim_{m\to \infty}x^{\left(m\right)}= x $$  
+> 因此$M$是Banach空间.
+  
+
 
 > [!exercise] Exercise:
 >  设$(X,\|\cdot\|)$是赋范空间, $Y$是$X$的子空间. 对于$x\in X$, 令:
