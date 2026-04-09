@@ -168,7 +168,29 @@
 >     因此
 >      $$ d\left(x,y_0\right)= d\left(x,Y\right) $$
 >     $x$存在最佳逼近.  
-> 2. 考虑$X= C\left[ 0,1 \right]$是连续函数空间, $Y= P\left[0,1 \right]$是多项式函数空间. 
+> 2. 考虑$c_0$上的有界线性泛函$f\left(x\right)= \sum _{n = 1}^{\infty}\frac{x_{n} }{2^{n} }$ , 则算子范数
+>     $$ \left\| f \right\|= \sum _{n = 1}^{\infty}\frac{1 }{2^{n} }= 1 $$
+>    考虑$x= \left(1,0,0,\cdots \right)$, 则$\left\| x \right\|= 1$. 
+>     $$ d\left(x,\operatorname{ker}f\right)= \frac{\left| f\left(x\right) \right| }{\left\| f \right\| }= \frac{1}{2} $$
+>    接下来说明不存在$y\in \operatorname{ker}f$, 使得$d\left(x,y\right)= \frac{1}{2}$, 事实上, 若$d\left(x,y\right)= \frac{1}{2}$, 则对于任意的$n$
+>     $$ \left| x_{n}-y_{n} \right|\le \frac{1}{2}  $$
+>    其中
+>     $$ \left| y_1 \right|\ge  \left| x_1 \right|-\left| x_1-y_1 \right|\ge  1- \frac{1}{2} = \frac{1}{2}  $$
+>     $$ \left| y_{n} \right| \le \frac{1}{2},\quad n\ge 2 $$
+>    则
+>     $$0=  \left| f\left(y\right) \right|= \left| \sum _{n = 1}^{\infty}\frac{y_{n} }{2^{n} } \right| \ge \frac{1 }{2 }\left| y_1 \right|-\sum _{n = 2}\frac{\left| y_{n} \right|  }{2^{n} } \ge \frac{1}{4}-\frac{1}{4}= 0  $$
+>    于是
+>     $$ \left| y_{n} \right| = \frac{1}{2},\forall n $$   
+>    再带入$f\left(y\right)= 0$, 发现只能有$y_1= \pm \frac{1}{2}$, $y_{k}= \mp\frac{1}{2},\forall k\ge 2$, 无论如何, $\left\{ y_{n} \right\}$不是收敛到零的序列, $y\not \in c_0$, 矛盾.
+> 3. 考虑$\left(\mathbb{R} ^{2},\left\| \cdot  \right\|_{\infty}\right)$, 令$Y= \left\{ 0 \right\}\times \mathbb{R}$, 则对于$x= \left(1,0\right)$,
+>    $$ d\left(x,Y\right)= \inf _{t\in \mathbb{R} }\left\| \left(0,1\right)-\left(0,t\right) \right\|= \inf _{t\in \mathbb{R} }\max \left(1,\left| t \right| \right)= 1 $$
+>    则只有$t\in \left[ -1,1 \right]$, 都有$\left(0,t\right)$是$x$的最佳逼近点. 
+> 
+> 4. 设$S$为最佳逼近点集, 即
+>  $$ S= \left\{ y\in Y:\left\| x-y \right\|= \delta  \right\} $$
+> 若$S$为空集和单点集, 则$S$是凸的. 若$S$至少有两个点, 任取$y_1,y_2\in S$, 以及$\lambda \in \left[ 0,1 \right]$, 则$\lambda y_1+ \left(1-\lambda \right)y_2\in Y$, 计算
+>  $$ \begin{aligned} \left\| x-\left(\lambda y_1+ \left(1-\lambda \right)y_2\right) \right\|&=\left\| \lambda x+ \left(1-\lambda \right)x-\lambda y_1-\left(1-y\lambda \right)y_2 \right\| \\&\le \lambda \left\| x-y_1 \right\|+ \left(1-\lambda \right)\left\| x-y_2 \right\|\\&\le \lambda \delta + \left(1-\lambda \right)\delta = \delta   \end{aligned} $$ 
+> 又根据$\delta$的定义, $\left\| x-\left(\lambda y_1+ \left(1-\lambda \right)y_2\right) \right\|\le \delta$, 因此$\lambda y_1+ \left(1-\lambda \right)y_2\in S$.
 
 
 
@@ -180,6 +202,21 @@
 > 取$C$在子空间拓扑的意义下的一个内点$x_0\in C$, 通过平移, 不妨设$x_0= 0$. 考虑
 >  $$ V= \bigcap _{K}\left\{ K\text{是包含了C的线性子空间} \right\} $$ 
 > 则$V$是包含了$C$的一个线性子空间, 设$\operatorname{dim}V= m\le n$.
+> 存在$R> \varepsilon > 0$, 使得
+>  $$ B_{V}\left(0,\varepsilon \right)\subseteq C\subseteq B_{V}\left(0,R\right) $$ 
+> 设$P_{C}$是Minkowski泛函, 定义
+>  $$ F:C\to B^{m}: $$
+>  $$ F\left(x\right)= \begin{cases} \frac{P_{C}\left(x\right) }{\left\| x \right\| }x,&x\neq 0\\0,&x= 0 \end{cases}  $$  
+> 当$x\neq 0$时, $P_{C}$和$\left\| \cdot  \right\|$均连续, 故$F$连续. 当$x\to 0$时, 由$B_{V}\left(0,\varepsilon \right)\subseteq C$, 可知$P_{C}\left(x\right)\le \frac{1 }{\varepsilon  }\left\| x \right\|$, 从而
+>  $$ \left\| F\left(x\right) \right\|= p_{C}\left(x\right)\to 0 $$
+> 故$F$在原点连续. 
+> 定义
+>  $$ G:B^{m}\to C $$
+>  $$ G\left(y\right)= \begin{cases} \frac{\left\| y \right\| }{P_{C}\left(y\right) }y,&y\neq 0\\0,&y= 0 \end{cases}  $$
+> 则
+>  $$ p_{C}\left(G\left(y\right)\right)= P_{C}\left(\frac{\left\| y \right\| }{p_{C}\left(y\right) }y\right)= \left\| y \right\|\le 1 $$
+> 故$G\left(y\right)\in C$. 
+> 由$C\subseteq B_{V}\left(0,\mathbb{R} \right)$, 可得$P_{C}\left(y\right)\ge \frac{1 }{R }\left\| y \right\|$, $\left\| G\left(y\right) \right\|\le R\left\| y \right\|\to 0$. 故$G$连续. 容易验证$F\circ G= \operatorname{Id}$, $G\circ F= \operatorname{Id}$. 因此$F$是$C$与$B^{m}$之间的同胚映射.   
 
 > [!exercise] Exercise: 
 > 设$C$是$B$空间$X$中的一个有界闭凸集, 映射$T_1, T_2 : C \to X$满足:
@@ -187,7 +224,30 @@
 > 2. $T_1$是一个压缩映射, $T_2$是一个**紧映射**(把有界集映为列紧集的连续映射).
 > 求证: $T_1 + T_2$在$C$上至少有一个不动点.
 
+> [!proof] Proof: 
+> 固定$y\in C$, 定义$F_{y}:C\to X$
+>  $$ F_{y}\left(x\right)= T_1x+ T_2y $$ 
+> 由1.可知, $F_{y}\left(C\right)\subseteq C$. 由于$T_1$是压缩映射
+>  $$ \left\| F_{y}\left(x_1\right)-F_{y}\left(x_2\right) \right\|\le \left\| T_1x_1-T_1x_2 \right\|\le \lambda \left\| x_1-x_2 \right\|,\quad \lambda < 1 $$
+> 于是$F_{y}$是$C$上的压缩映射. 由于$X$是Banach空间, $C$是闭集, $C$也是完备的度量空间. 由Banach不动点定理, 存在$F_{y}$的不动点$P_{y}$. 考虑映射
+>  $$ G:C\to C,\quad y\mapsto  P_{y} $$  
+> 则
+>  $$ \begin{aligned} \begin{aligned} \begin{aligned} \left\| P_{y_1}-P_{y_2} \right\|&=\left\| F_{y_1}\left(P_{y_1}\right)-F_{y_2} \left(P_{y_2}\right)\right\|\\&\le \left\| T_1P_{y_1}+ T_2y_1-T_1P_{y_2}-T_2y_2 \right\|\\&\le  \left\| T_1\left(P_{y_1}-P_{y_2}\right) \right\|+ \left\| T_2\left(y_1-y_2\right) \right\|\\&\le  \lambda \left\| P_{y_1} -P_{y_2}\right\|+ \left\| T_2\left(y_1-y_2\right) \right\| \end{aligned}\end{aligned} \end{aligned} $$
+> 移项可得
+>  $$ \left\| P_{y_1}-P_{y_2} \right\|\le  \frac{\left\| T_2\left(y_1-y_2\right) \right\| }{1-\lambda  } $$ 
+> 由于$T_1,T_2$连续, $G$也连续. 任取$C$中的序列$\left\{ y_{n} \right\}$, 由于$C$有界, $T_2$紧, 可知$\left\{ T_2y_{n} \right\}$有收敛子列. 记作$\left\{ T_2y_{n_{k}} \right\}$.
+> 根据
+>  $$ \left\| P_{y_{n_{i}}}-P_{y_{n_{j}}} \right\|\le \frac{1 }{1-\lambda  }\left\| T_2 y_{n_{i}}-T_2y_{n_{j}}\right\| $$
+> 可知$\left\{ P_{y_{n_{k}}} \right\}$也是Cauchy列, 进而由完备性可知收敛于$C$中某一点. 故$G\left(C\right)$是列紧的. 由Schauder不动点定理, 必然存在$G$的不动点. 设$P_{y_0}= y_0$, 那么
+>  $$ \left(T_1+ T_2\right)y_0= T_1y_0+ T_2y_0= F_{y_0}\left(y_0\right)= y_0 $$
+> 故$y_0$是$T_1+ T_2$在$C$上的不动点. 
+
 > [!exercise] Exercise: 
 > 设$K(x,y)$是$[0,1] \times [0,1]$上的正值连续函数, 定义映射
 > $$T : C[0,1] \to C[0,1], \quad u(x) \mapsto (Tu)(x) = \int_0^1 K(x,y)u(y)dy.$$
 > 求证: 存在$\lambda > 0$以及非负但不恒为零的连续函数$u$, 满足$Tu = \lambda u$.
+
+> [!proof] Proof: 
+> 定义
+>  $$ C= \left\{ u\in L^{1}\left(0,1\right): u\ge 0,a.e., \int _{0}^{1}u\,d x= 1 \right\} $$
+> 则$C$是$L^{1}\left(0,1\right)$上的有界闭的凸集. 
