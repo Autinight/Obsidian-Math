@@ -1,0 +1,2 @@
+
+ $$ \begin{aligned} R\left(X,\partial _{r},\partial _{r},Y\right)&=\left<  \nabla _{X}\nabla _{\partial _{r}}\partial _{r}-\nabla _{\partial _{r}}\nabla _{X}\partial _{R},Y \right>\\&=  \end{aligned} $$ 

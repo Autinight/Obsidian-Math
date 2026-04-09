@@ -20,15 +20,21 @@ tags: []
 - 
 
 ## 核心对象
-1. 旋转对称度量中的距离函数$r$
+1. 距离函数$r$
    1. 一般来说, 写成$\operatorname{grad}r= \partial _{r}$.
    2. 对$\operatorname{Hess}$沿着$\partial _{r}$求导, $\operatorname{Hess}^{2}$, $R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$有一个公式.
    3. $r$-水平集上(即度量下的r-球面上),  $\operatorname{II}$就是$\operatorname{Hess}$.
+   4. $\nabla _{\partial _{r}}\partial _{r}= 0$.
 2. 球面
    1. $\operatorname{Hess}r= \operatorname{II}$就是$\frac{1 }{r }g_{r}$
    2. 曲率就是$R\left(X,Y\right)Z= -r^{-2}\left(X\wedge Y\right)\left(Z\right)$, 常曲率$r^{-2}$.
 3. 球面乘积
    1. 乘积度量下, 曲率张量, Ricci曲率都有纯正的直和分解. 截面曲率体现为纯平面和混合平面的差异, 纯平面保持, 混合平面为零.
+   2. 取纯$S^{n}$, 纯$S^{m}$, 混合的三对代表向量场, 计算$R$下的退化性, 给出对角化.
+4. 旋转对称度量
+   1. 对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$
+   2. 借助1.的表示, 可以分别计算切于$S^{n-1}$的和$\partial _{r}$方向上, $\nabla _{X}\partial _{r}$和$R\left(X,\partial _{r}\right)\partial _{r}$的值, 后者为零.
+
 
 ## 核心工具
 - Computational Simplifications

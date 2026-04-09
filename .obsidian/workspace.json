@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "pps - Several Representations of Hess"
             }
+          },
+          {
+            "id": "46793edaee3684cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily Draft 2026-04-09"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,10 +275,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "221ee4c6a19b4074",
+  "active": "46793edaee3684cd",
   "lastOpenFiles": [
-    "00.Inbox/pps - Properties of Totally Bounded.md",
     "00.Inbox/pps - Several Representations of Hess.md",
+    "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
+    "00.Inbox/pps - Properties of Totally Bounded.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
@@ -282,7 +307,6 @@
     "40.Drafts/新建文件夹",
     "40.Drafts/未命名",
     "40.Drafts/2026-03/202",
-    "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "新建 文本文档.txt",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
