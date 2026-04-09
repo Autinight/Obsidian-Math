@@ -155,6 +155,19 @@
 > 3. 试举例说明, 一般地, 最佳逼近不惟一.
 > 4. 证明对于每一点$x\in X$, $x$关于子空间$Y$的最佳逼近点集是凸集.
 
+> [!proof] Proof: 
+> 1.  任取$x\in X$, 考虑连续映射
+>  定义
+>  $$  K= \left\{ y\in Y: \left\| x-y \right\|\le \left\| x \right\| \right\}$$
+> 则$K$是$Y$中的有界闭集, 由Heine-Borel定理, $K$是紧集. 则考虑连续映射
+>  $$ K\to \mathbb{R} ,\quad y\mapsto d\left(y,x\right) $$
+> 它存在最小值点$y_0$, 使得
+>  $$ d\left(x,y_0\right)= d\left(x,K\right) $$ 
+> 注意到
+>  $$ d\left(x,K\right)= \inf _{y\in Y\cap \left\{  \right\}}\left\{ \left\| x-y \right\|  \right\}$$ 
+
+
+
 > [!exercise] Exercise: 
 > 证明: 若$C$是$\mathbb{R}^n$中的一个紧凸子集, 则存在$m \le n$, 使得$C$同胚于$\mathbb{R}^m$中的单位球.
 
