@@ -156,7 +156,7 @@
 > 4. 证明对于每一点$x\in X$, $x$关于子空间$Y$的最佳逼近点集是凸集.
 
 > [!proof] Proof: 
-> 1.  任取$x\in X$, 考虑连续映射
+> 1.  任取$x\in X$, 若$x\in Y$, 则$x$就是自己的最佳逼近, 若$x\not \in Y$, 则$\left\| x \right\|= d\left(x,0\right)\ge d\left(x,Y\right)$.
 >      定义
 >      $$  K= \left\{ y\in Y: \left\| x-y \right\|\le \left\| x \right\| \right\}$$
 >     则$K$是$Y$中的有界闭集, 由Heine-Borel定理, $K$是紧集. 则考虑连续映射
@@ -174,6 +174,12 @@
 
 > [!exercise] Exercise: 
 > 证明: 若$C$是$\mathbb{R}^n$中的一个紧凸子集, 则存在$m \le n$, 使得$C$同胚于$\mathbb{R}^m$中的单位球.
+
+
+> [!proof] Proof: 
+> 取$C$在子空间拓扑的意义下的一个内点$x_0\in C$, 通过平移, 不妨设$x_0= 0$. 考虑
+>  $$ V= \bigcap _{K}\left\{ K\text{是包含了C的线性子空间} \right\} $$ 
+> 则$V$是包含了$C$的一个线性子空间, 设$\operatorname{dim}V= m\le n$.
 
 > [!exercise] Exercise: 
 > 设$C$是$B$空间$X$中的一个有界闭凸集, 映射$T_1, T_2 : C \to X$满足:
