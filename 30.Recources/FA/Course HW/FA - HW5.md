@@ -115,7 +115,7 @@
 
 > [!proof] Proof: 
 > 取$M$上的Cauchy列$\left\{ x^{\left(m\right)}_{k} \right\}_{m}$. 任取$\varepsilon > 0$, 存在$N$, 使得对于所有的$m,p> N$, 都有
->  $$ \begin{aligned} \left\| x^{\left(m\right)}-x^{\left(p\right)} \right\|_{1}&=\sup _{n}\left\| \sum _{k= 1}^{n}\left(\xi ^{\left(m\right)}_{k}-\xi ^{\left(p\right)}_{k}\right) e_{k}\right\|< \varepsilon \tag{*} \end{aligned} $$ 
+>  $$ \begin{aligned} \left\| x^{\left(m\right)}-x^{\left(p\right)} \right\|_{1}&=\sup _{n}\left\| \sum _{k= 1}^{n}\left(\xi ^{\left(m\right)}_{k}-\xi ^{\left(p\right)}_{k}\right) e_{k}\right\|< \varepsilon  \end{aligned}\tag{*} $$ 
 > 对于任意的$n$, 
 >  $$ \begin{aligned} \left| \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)} \right|\left\| e_{n} \right\|=  \left\|\left( \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)}\right)e_{n}\right\|&\le \left\| \sum _{k = 1}^{n}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k} \right\| + \left\|  \sum _{k= 1}^{n-1}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k}\right\| \\&\le 2\varepsilon \end{aligned} $$ 
 > 因此$\left\{ \xi _{n}^{\left(k\right)} \right\}_{k}$是一个Cauchy列, 设它收敛到$\xi _{n}$. 令$x= \sum _{k= 1}^{\infty}\xi _{k}e_{k}$.
@@ -251,3 +251,25 @@
 > 定义
 >  $$ C= \left\{ u\in L^{1}\left(0,1\right): u\ge 0,a.e., \int _{0}^{1}u\,d x= 1 \right\} $$
 > 则$C$是$L^{1}\left(0,1\right)$上的有界闭的凸集. 
+>
+> $K\left(x,y\right)$是紧集上的严格正的连续函数, 存在$m,M> 0$, 使得
+>  $$ 0< m\le K\left(x,y\right)\le M,\quad \forall x,y\in \left[ 0,1 \right] $$ 
+> 则
+>  $$ m\le \left(Tu\right)\left(x\right)\le M $$
+> 则$Tu$严格正, 且因此$\left\| Tu \right\|_{L^{1}}\ge m$. 
+>
+> 定义$A:C\to L^{1}\left(0,1\right)$
+>  $$ A\left(u\right)= \frac{Tu }{\left\| Tu \right\|_{L^{1}} } $$ 
+> 则$A\left(C\right)\subseteq C$.
+>
+> 为了说明$A$在$C$上连续, 取$u_{m}\to u$于$L^{1}$, 则
+>  $$ \left| \left(Tu_{n}\right)\left(x\right)-\left(Tu\right)\left(x\right) \right|\le \int _{0}^{1}K\left(x,y\right)\left| u_{n}\left(y\right)-u\left(y\right) \right|\,d y\le M\left\| u_{n}-u \right\|_{L^{1}}   $$ 
+> 故$Tu_{n}\to Tu$是一致收敛的, 进而$L^{1}$收敛. 又$\left\| Tu \right\|_{L^{1}}$连续且有正下届$m$, 可知$A\left(u_{n}\right)\to A\left(u\right)$, $A$连续.
+>
+> 任取$u\in C$
+>  $$ \begin{aligned} \left| \left(Tu\right)\left(x_1\right)-\left(Tu\right)\left(x_2\right) \right|&\le \sup _{x_1,x_2} \left| K\left(x_1,y\right)-K\left(x_2,y\right) \right|\int _{0}^{1}u\left(y\right)\,d y\\&= \sup _{x_1,x_2}\left| K\left(x_1,y\right)-K\left(x_2,y\right) \right| \end{aligned}  $$ 
+> 由于$K$关于$x$一致连续, 可见$T\left(C\right)$是等度连续的. 又$T\left(C\right)$一致有界, 由A-A定理, $T\left(C\right)$是列紧的. 进而$A\left(C\right)$是在$C\left[ 0,1 \right]$列紧. 又$C\left[ 0,1 \right]$连续地嵌入到$L^{1}\left(0,1\right)$, $A\left(C\right)$在$L^{1}$中列紧.
+> 由Schauder不动点定理, 存在$u\in C$, 使得$u= A\left(u\right)$. 又$Tu$一定是连续的, 因此$u$连续.
+> 令$\lambda = \left\| Tu \right\|_{L^{1}}$, 则
+>  $$ Tu= \lambda u $$
+> 且$u\in C\cap C\left[ 0,1 \right]$为满足条件的函数.
