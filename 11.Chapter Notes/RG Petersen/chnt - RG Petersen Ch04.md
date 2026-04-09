@@ -17,7 +17,11 @@ tags: []
 - 状态： `= this.status`
 
 ## 本章主线
-- 
+
+
+对于旋转对称度量, 想法就是以径向的等值面(球面)为跳板, 通过研究等值面中, 切向面之间的相互弯曲, 切向面与含法向面的弯曲, 和含法向面之间的弯曲, 来确定氛围空间的弯曲. 这样做的原因, 是因为旋转对称度量下, 等值面具有常值曲率. 
+- 对于旋转对称度量,  我们计算径向距离函数$r$的$\operatorname{Hess}$得到$\operatorname{II}$和$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$的信息, 进而$\nabla _{X}\partial _{r}$, $R\left(X,\partial _{r}\right)\partial _{r}$, 这是Riccati方程, 径向曲率截面信息.
+- 对于旋转对称度量, 通过切向曲率方程, 带入$\operatorname{II} = \operatorname{Hess}r$和$R^{r}$的常曲率表示, 直接曲率张量的切向行为. 再直接计算$\nabla _{X}\operatorname{II} = \nabla _{X}\operatorname{Hess}$, 得到混合曲率退化. 从而得到曲率的完全信息.
 
 ## 核心对象
 1. 距离函数$r$
@@ -31,9 +35,16 @@ tags: []
 3. 球面乘积
    1. 乘积度量下, 曲率张量, Ricci曲率都有纯正的直和分解. 截面曲率体现为纯平面和混合平面的差异, 纯平面保持, 混合平面为零.
    2. 取纯$S^{n}$, 纯$S^{m}$, 混合的三对代表向量场, 计算$R$下的退化性, 给出对角化.
+   3. 特征向量下带入常曲率的性质, 给出曲率算子, 算子给出Ric和scal
 4. 旋转对称度量
-   1. 对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$
+   1. 对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$, 得到Riccati信息.
    2. 借助1.的表示, 可以分别计算切于$S^{n-1}$的和$\partial _{r}$方向上, $\nabla _{X}\partial _{r}$和$R\left(X,\partial _{r}\right)\partial _{r}$的值, 后者为零.
+   3.  $$ g\left(\left(x\wedge y\right)v,w\right)= g\left(x\wedge y,v\wedge w\right) $$ 
+   4.  通过球面度量的表示$R^{r}\left(X,Y\right)=-\frac{1 }{r^{2} }\left(X\wedge Y\right)$, $\operatorname{II} = \operatorname{Hess}r$简化切向法向曲率方程, 计算出曲率的切向行为
+         $$ \mathfrak{R}= \frac{1-\left(\partial _{r}\rho \right)^{2} }{\rho ^{2} }g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right) $$ 
+        这是Gauss-信息.
+       其中第二基本形式化为$\left(\frac{\partial _{r}\rho  }{\rho  }\right)^{2}\left(g_{r}\left(\cdots \right)g_{r}\left(\cdots \right)-g_{r}\cdot g_{r}\right)= \left(\frac{\partial _{r}\rho  }{ \rho }\right)^{2}g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right)$ 球面曲率项是分母的那个$1$
+    5. 最后, 直接算出Coddazi-信息, 混合曲率消失.
 
 
 ## 核心工具
