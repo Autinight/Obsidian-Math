@@ -20,13 +20,10 @@ tags: []
 - 
 
 ## 核心对象
-1. - Homogeneous Riemannian manifold, 存在等距同构把$p$搬到$q$. (每个点都一样)
-      - Isotropy Repersentation, 保$p$的等距同构群$\operatorname{Iso} _{p}\left(M,g\right)$的忠实矩阵表示$I_{p}\left(\varphi \right)= \,d \varphi _{p}$
-   - Iststropic at $p$, 表示传递地作用在$T_{p}M$上. (各向同性, 一个点的每个方向看起来一样)
-   - Frame-homogeneous, 令$O\left(M\right)$是正交基的全体, $\operatorname{Iso} \left(M,g\right)$在$O\left(M\right)$上的作用是传递的.
-
-    Homogeneous可以把一点的istropic搬到全局.
-
+1. 旋转对称度量中的距离函数$r$
+   1. 一般来说, 写成$\operatorname{grad}r= \partial _{r}$.
+   2. 对$\operatorname{Hess}$沿着$\partial _{r}$求导, $\operatorname{Hess}^{2}$, $R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$有一个公式.
+   3. $r$-水平集上(即度量下的r-球面上),  $\operatorname{II}$就是$\operatorname{Hess}$.
 2. 
 
 ## 核心工具

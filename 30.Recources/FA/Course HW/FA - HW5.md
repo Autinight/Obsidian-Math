@@ -101,10 +101,10 @@
 >      $$ P\left(x\right)\le \frac{1 }{1+ \frac{r }{2 } }< 1 $$ 
 >
 > 2. 易见$\overline{E^{\circ}}\subseteq \overline{E}$.  另一方面, 任取$x\in \overline{E}$, 则存在$E$上的点列$\left\{ x_{n} \right\}$, 使得$\lim_{n\to \infty}x_{n}= x$. 则$P\left(x_{n}\right)\le 1$, 且存在$M> 0$, 使得$\left\| x_{n} \right\|\le M,\forall n$. 令$y_{n}= \frac{n }{n+ 1 }x_n$, 则$P\left(y_{n}\right)= \frac{n }{n+ 1 }P\left(x_{n}\right)< 1$, 由1.知$y_{n}$是$E$的内点.
->  $$ \left\| y_{n}-x \right\|\le  \left\| y_{n}-x_{n} \right\|+ \left\| x_{n}-x \right\| $$
-> 其中
->  $$ \left\| y_{n}-x_{n} \right\| = \frac{1 }{n+ 1 }\left\| x_{n} \right\|\le \frac{M }{n+ 1 }$$  
-> 因此 $\lim_{n\to \infty}\left\| y_{n}-x_{n}\right\|= 0$, 又$\lim_{n\to \infty}\left\| x_{n}-x \right\|= 0$, 故$\lim_{n\to \infty}\left\| y_{n}-x \right\|= 0$. 这表明$x\in \overline{E^{\circ}}$.
+>     $$ \left\| y_{n}-x \right\|\le  \left\| y_{n}-x_{n} \right\|+ \left\| x_{n}-x \right\| $$
+>     其中
+>     $$ \left\| y_{n}-x_{n} \right\| = \frac{1 }{n+ 1 }\left\| x_{n} \right\|\le \frac{M }{n+ 1 }$$  
+>      因此 $\lim_{n\to \infty}\left\| y_{n}-x_{n}\right\|= 0$, 又$\lim_{n\to \infty}\left\| x_{n}-x \right\|= 0$, 故$\lim_{n\to \infty}\left\| y_{n}-x \right\|= 0$. 这表明$x\in \overline{E^{\circ}}$.
 
 > [!exercise] Exercise:
 >  设Banach空间$(X,\|\cdot\|)$具有Schauder基$\{e_n\}$, 用$M$表示所有使得$\sum_{k=1}^\infty\xi_ke_k$在$X$中收敛的数列$\{\xi_k\}$的全体, 按通常方式定义线性运算构成的线性空间. 对于每一$x=\{\xi_k\}\in M$, 定义:
