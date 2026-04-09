@@ -113,6 +113,15 @@
 >
 > 证明$(M,\|\cdot\|_1)$是Banach空间.
 
+> [!proof] Proof: 
+> 取$M$上的Cauchy列$\left\{ x^{\left(m\right)}_{k} \right\}_{m}$, 则设$\sum _{k = 1}^{\infty}\xi _{k}^{\left(m\right)}e_{k}$收敛到$a^{\left(m\right)}$
+ $$ \begin{aligned} \left\| x^{\left(m\right)}-x^{\left(p\right)} \right\|_{1}&=\sup _{n}\left\| \sum _{k= 1}^{n}\left(\xi ^{\left(m\right)}_{k}-\xi ^{\left(p\right)}_{k}\right) e_{k}\right\|< \varepsilon  \end{aligned} $$ 
+对于任意的$k$, 
+ $$ \left\|\left( \xi _{n}^{\left(m\right)}-\xi _{n}^{\left(p\right)}\right)e_{n}\right\|\le \left\| \sum _{k = 1}^{n+ 1}\left(\xi _{k}^{\left(m\right)}-\xi _{k}^{\left(p\right)}\right)e_{k} \right\|  $$ 
+令$n\to \infty$, 得到
+ $$ \left\| a^{\left(m\right)}-a^{\left(p\right)} \right\|< \varepsilon  $$ 
+因此 $\left\{ a^{\left(m\right)} \right\}_{m}$构成$X$上的一个Cauchy列, 由于$X$是完备的, 可设它收敛到$a\in X$.
+
 > [!exercise] Exercise:
 >  设$(X,\|\cdot\|)$是赋范空间, $Y$是$X$的子空间. 对于$x\in X$, 令:
 >
