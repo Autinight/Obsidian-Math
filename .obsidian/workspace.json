@@ -83,17 +83,24 @@
             "id": "46793edaee3684cd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/AT/Atlas - Covering Space.canvas",
-                "viewState": {
-                  "x": 22,
-                  "y": 158,
-                  "zoom": -1.253778912720459
+                "file": "00.Inbox/ep - ell^p Space.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Covering Space"
+              "icon": "lucide-file",
+              "title": "ep - ell^p Space"
             }
           }
         ],
@@ -268,21 +275,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "46793edaee3684cd",
   "lastOpenFiles": [
-    "10.Atlas/AT/Atlas - Basic Topology.canvas",
+    "00.Inbox/ep - Hopf Fibration.md",
+    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Concepts/Cartan Matrix.md",
     "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "Untitled.md",
-    "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/pps - Properties of Totally Bounded.md",
     "00.Inbox/pps - Several Representations of Hess.md",
-    "30.Recources/FA/Course HW/FA - HW5.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
@@ -299,7 +308,6 @@
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Exercises/ex - Curvature for Product Metric.md",
-    "30.Recources/RG/Course HW/RG - HW1.md",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
     "40.Drafts/未命名",
@@ -310,7 +318,6 @@
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",

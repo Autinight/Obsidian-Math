@@ -157,14 +157,18 @@
 
 > [!proof] Proof: 
 > 1.  任取$x\in X$, 考虑连续映射
->  定义
->  $$  K= \left\{ y\in Y: \left\| x-y \right\|\le \left\| x \right\| \right\}$$
-> 则$K$是$Y$中的有界闭集, 由Heine-Borel定理, $K$是紧集. 则考虑连续映射
->  $$ K\to \mathbb{R} ,\quad y\mapsto d\left(y,x\right) $$
-> 它存在最小值点$y_0$, 使得
->  $$ d\left(x,y_0\right)= d\left(x,K\right) $$ 
-> 注意到
->  $$ d\left(x,K\right)= \inf _{y\in Y\cap \left\{  \right\}}\left\{ \left\| x-y \right\|  \right\}$$ 
+>      定义
+>      $$  K= \left\{ y\in Y: \left\| x-y \right\|\le \left\| x \right\| \right\}$$
+>     则$K$是$Y$中的有界闭集, 由Heine-Borel定理, $K$是紧集. 则考虑连续映射
+>      $$ K\to \mathbb{R} ,\quad y\mapsto d\left(y,x\right) $$
+>     它存在最小值点$y_0$, 使得
+>      $$ d\left(x,y_0\right)= d\left(x,K\right) $$ 
+>     注意到
+>      $$ d\left(x,K\right)= \inf _{y\in Y}\left\{ \left\| x-y \right\| : \left\| x-y \right\| \le \left\| x \right\|\right\}= \inf _{y\in Y}\left\| x-y \right\|= d\left(x,Y\right)$$
+>     因此
+>      $$ d\left(x,y_0\right)= d\left(x,Y\right) $$
+>     $x$存在最佳逼近.  
+> 2. 考虑$X= C\left[ 0,1 \right]$是连续函数空间, $Y= P\left[0,1 \right]$是多项式函数空间. 
 
 
 
