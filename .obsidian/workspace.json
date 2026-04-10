@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
+                "file": "00.Inbox/pps - Properties of Totally Bounded.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Stereographic Projection and Conformal Model"
+              "title": "pps - Properties of Totally Bounded"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW5.md",
+                "file": "00.Inbox/ex - Let Local Metric to be Warped Product.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -100,11 +100,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW5"
+              "title": "ex - Let Local Metric to be Warped Product"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,28 +274,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46793edaee3684cd",
+  "active": "238565ae5332747e",
   "lastOpenFiles": [
-    "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
+    "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
+    "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
+    "00.Inbox/pps - Properties of Totally Bounded.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
+    "00.Inbox/pps - Several Representations of Hess.md",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "30.Recources/RG/Course HW/RG - HW1.md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Hopf Fibration.md",
-    "30.Recources/FA/Course HW/FA - HW5.md",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Concepts/Cartan Matrix.md",
-    "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "Untitled.md",
-    "00.Inbox/pps - Properties of Totally Bounded.md",
-    "00.Inbox/pps - Several Representations of Hess.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-08.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
@@ -304,16 +306,12 @@
     "40.Drafts/2026-04/Daily Draft 2026-04-07.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-06.md",
     "20.Cards/Exercises/ex - Fundamental Theorem of Hypersurface Theory.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
-    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
-    "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
     "40.Drafts/未命名",
     "40.Drafts/2026-03/202",
     "新建 文本文档.txt",
-    "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
