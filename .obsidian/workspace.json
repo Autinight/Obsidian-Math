@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-04/Daily Draft 2026-04-10.md",
+                "file": "00.Inbox/ex - Let Local Metric to be Warped Product.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-04-10"
+              "title": "ex - Let Local Metric to be Warped Product"
             }
           },
           {
@@ -301,8 +301,10 @@
   },
   "active": "ddc7e6e94271f123",
   "lastOpenFiles": [
-    "00.Inbox/pps - Properties of Totally Bounded.md",
+    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
+    "00.Inbox/ep - Hopf Fibration.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-10.md",
+    "00.Inbox/pps - Properties of Totally Bounded.md",
     "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
@@ -313,9 +315,7 @@
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/ep - ell^p Space.md",
-    "00.Inbox/ep - Hopf Fibration.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
