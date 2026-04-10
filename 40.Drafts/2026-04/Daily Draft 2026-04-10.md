@@ -31,3 +31,5 @@ For $f\in L\left(\mathbb{T}\right)$, Fourier
   $$ D_{n}\left(t\right)= \frac{1 }{2\pi  }\sum _{k= -n}^{n}e^{ikt}= \begin{cases} \frac{1 }{2\pi  }\frac{\sin \left(n+ \frac{1}{2}t\right) }{\sin \frac{1}{2}t } ,&t\neq 2j\pi \\\frac{1 }{2\pi  }\left(2n+ 1\right),&t= 2j\pi \end{cases}  $$ 
 
  $$ \sigma _{n}\left(x\right)= \frac{1 }{n+ 1 }\sum _{k= 0}^{n}\left(f*D_{k}\right) \left(x\right)$$ 
+
+ $$ K_{n}\left(t\right)= \frac{1 }{2\pi \left(n+ 1\right) }\left(\frac{\sin \left(\frac{n+ 1 }{2 }t\right) }{\sin \frac{t }{2 } }\right)^{2} $$ 
