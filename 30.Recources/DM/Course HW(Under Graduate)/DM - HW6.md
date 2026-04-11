@@ -29,10 +29,20 @@
 
 > [!exercise] Exercise: 
 > 设$D$是$\mathbb{R} ^{r}= \left\{ \left(x^{1},\cdots ,x^{r}\right): x^{a}\in \mathbb{R} , 1\le a\le r \right\}$中的一个开子集, $f:D\to M$是从$D$到$n$维光滑流形$M$的一个光滑映射. 定义切向量
->  $$ \eta _{\alpha } \left(f\left(p\right)\right)= f_{*p}\left(\left. \frac{\partial }{\partial ^{\alpha }} \right|_{p}\right)\in T_{f\left(p\right)}M,\quad p\in D,1\le a\le r$$ 
+>  $$ \eta _{\alpha } \left(f\left(p\right)\right)= f_{*p}\left(\left. \frac{\partial }{\partial x^{\alpha }} \right|_{p}\right)\in T_{f\left(p\right)}M,\quad p\in D,1\le a\le r$$ 
 > 固定一点$p\in D$, 设$\left(U;u^{i}\right)$是$M$在点$f\left(p\right)$的一个局部坐标系, 则映射$f$在点$p$的邻域$V\left(f\left(V\right)\subseteq U\right)$内表示为
 >  $$ u^{i}= f^{i}\left(x^{1},\cdots ,x^{r}\right),\quad 1\le i\le n $$
 > 假定
 >  $$ X_1= X_1^{\alpha }\frac{\partial }{\partial x^{\alpha }},\quad X_2= X_2^{\alpha }\frac{\partial }{\partial x^{\alpha }} ,\quad X_1^{\alpha },X_2^{\alpha }\in C^{\infty}\left(V\right)$$
 >  $$ Y_1\left(f\left(q\right)\right)= f_{*p}\left(X_1\left(q\right)\right),\quad Y_2\left(f\left(q\right)\right)= f_{*p}\left(X_2\left(q\right)\right),\quad \forall q\in V$$   
-> 证明: $\left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)= \left. \left(X_1^{\alpha }\frac{\partial X_2^{b}}{\partial x^{\alpha }}-X_2^{\alpha }\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right)$
+> 证明: $\left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)= \left. \left(X_1^{\alpha }\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a }\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right)$
+
+> [!proof] Proof: 
+>
+>  $$ Y_1= f_{*p}\left(X_1\left(q\right)\right)= f_{*p}\left(X_1^{\alpha }\left. \frac{\partial }{\partial x^{\alpha }} \right|_{q}\right)= X_1^{\alpha } \frac{\partial f^{b}}{\partial x^{\alpha }}\frac{\partial }{\partial u^{b}} $$
+>   $$ Y_2= X_{2}^{a}\frac{\partial f^{b}}{\partial x^{a}}\frac{\partial }{\partial u^{b}}  $$   
+>  $$ [fX,Y] = f\left[ X,Y \right]-\left(Yf\right)X$$ 
+>  $$ [X,fY] =  f[X,Y]+ \left(Xf\right)Y$$ 
+>
+>  $$ \begin{aligned} \begin{aligned} [Y_1,Y_2] &= \left[ X_{1}^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}} \frac{\partial }{\partial u^{b_1}}, X_{2}^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\frac{\partial }{\partial u^{b_2}} \right]\\&= X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\left[ \frac{\partial }{\partial u^{b_1}}, X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\frac{\partial }{\partial u^{b_2}} \right]- \left(\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\frac{\partial }{\partial u^{b_2}}\left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\right)\frac{\partial }{\partial u^{b_1}}\\&=\left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right) \left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\left[ \frac{\partial }{\partial u^{b_1}} ,\frac{\partial }{\partial u^{b_2}}\right]+ \left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right) \left(\frac{\partial }{\partial u^{b_1}}\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\right) \frac{\partial }{\partial u^{b_2}}\\&-\left(\left(\left(X_2^{a_2}\right)\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\frac{\partial }{\partial u^{b_2}}\left(X_1^{a_2}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\right)\frac{\partial }{\partial u^{b_1}}\\&= \left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\left(\frac{\partial X_2^{a_2}}{\partial u^{b_1}}\frac{\partial f^{b_2}}{\partial x^{a_2}}+ X_2^{a_2}\left(\frac{\partial }{\partial u^{b_1}}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\right)\frac{\partial }{\partial u^{b_2}}\\&-\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\left(\frac{\partial X_1^{a_2}}{\partial u^{b_2}}\frac{\partial f^{b_1}}{\partial x^{a_1}}+ X_1^{a_2}\right)\end{aligned}\end{aligned}$$ 
+>  
