@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "petersen_ch4_exercises.md",
+                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "petersen_ch4_exercises"
+              "title": "RG Petersen - Ex - Ch03"
             }
           }
         ]
@@ -204,8 +204,12 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW/DM - Review of HW13.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "rg_ch4_exercises_obsidian.md",
+    "rg_ch4_obsidian.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "petersen_ch4_exercises.md",
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/DM/Course HW/DM - Review of HW11.md",
     "30.Recources/DM/Course HW/DM - Review of HW10.md",
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
@@ -217,7 +221,6 @@
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/DM/Course HW/DM - Review of HW6.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
     "30.Recources/DM/Course HW/DM - Review of HW4.md",
@@ -229,9 +232,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
-    "00.Inbox/pps - Several Representations of Hess.md",
-    "30.Recources/FA/Course HW/FA - HW5.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
