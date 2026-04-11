@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/DM/Course HW/DM - Review of HW7.md",
+                "file": "petersen_ch4_exercises.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DM - Review of HW7"
+              "title": "petersen_ch4_exercises"
             }
           }
         ]
@@ -204,8 +204,13 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW/DM - Review of HW9.md",
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
+    "petersen_ch4_exercises.md",
+    "30.Recources/DM/Course HW/DM - Review of HW11.md",
     "30.Recources/DM/Course HW/DM - Review of HW10.md",
+    "30.Recources/DM/Course HW/DM - Review of HW12.md",
+    "30.Recources/DM/Course HW/DM - Review of HW7.md",
+    "30.Recources/DM/Course HW/DM - Review of HW9.md",
     "30.Recources/DM/Course HW/DM - HW14.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
@@ -213,7 +218,6 @@
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "30.Recources/DM/Course HW/DM - Review of HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW6.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
     "30.Recources/DM/Course HW/DM - Review of HW4.md",
@@ -228,10 +232,6 @@
     "00.Inbox/pps - Several Representations of Hess.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
-    "00.Inbox/ep - Hopf Fibration.md",
-    "40.Drafts/2026-04/Daily Draft 2026-04-10.md",
-    "00.Inbox/pps - Properties of Totally Bounded.md",
-    "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
