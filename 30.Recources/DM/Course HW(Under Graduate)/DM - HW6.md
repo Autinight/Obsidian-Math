@@ -1,3 +1,4 @@
+代靖涵25120222201319
 
 > [!exercise] Exercise: 
 > 给出光滑流形$M$上的余切丛$T^{*}M= \bigcup _{p\in M}T_{p}^{*}M$的$C^{\infty}$坐标覆盖.
@@ -35,14 +36,19 @@
 > 假定
 >  $$ X_1= X_1^{\alpha }\frac{\partial }{\partial x^{\alpha }},\quad X_2= X_2^{\alpha }\frac{\partial }{\partial x^{\alpha }} ,\quad X_1^{\alpha },X_2^{\alpha }\in C^{\infty}\left(V\right)$$
 >  $$ Y_1\left(f\left(q\right)\right)= f_{*p}\left(X_1\left(q\right)\right),\quad Y_2\left(f\left(q\right)\right)= f_{*p}\left(X_2\left(q\right)\right),\quad \forall q\in V$$   
-> 证明: $\left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)= \left. \left(X_1^{\alpha }\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a }\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right)$
+> 证明: $\left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)= \left. \left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a }\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right)$
 
 > [!proof] Proof: 
->
->  $$ Y_1= f_{*p}\left(X_1\left(q\right)\right)= f_{*p}\left(X_1^{\alpha }\left. \frac{\partial }{\partial x^{\alpha }} \right|_{q}\right)= X_1^{\alpha } \frac{\partial f^{b}}{\partial x^{\alpha }}\frac{\partial }{\partial u^{b}} $$
->   $$ Y_2= X_{2}^{a}\frac{\partial f^{b}}{\partial x^{a}}\frac{\partial }{\partial u^{b}}  $$   
->  $$ [fX,Y] = f\left[ X,Y \right]-\left(Yf\right)X$$ 
->  $$ [X,fY] =  f[X,Y]+ \left(Xf\right)Y$$ 
->
->  $$ \begin{aligned} \begin{aligned} [Y_1,Y_2] &= \left[ X_{1}^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}} \frac{\partial }{\partial u^{b_1}}, X_{2}^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\frac{\partial }{\partial u^{b_2}} \right]\\&= X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\left[ \frac{\partial }{\partial u^{b_1}}, X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\frac{\partial }{\partial u^{b_2}} \right]- \left(\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\frac{\partial }{\partial u^{b_2}}\left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\right)\frac{\partial }{\partial u^{b_1}}\\&=\left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right) \left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\left[ \frac{\partial }{\partial u^{b_1}} ,\frac{\partial }{\partial u^{b_2}}\right]+ \left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right) \left(\frac{\partial }{\partial u^{b_1}}\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\right) \frac{\partial }{\partial u^{b_2}}\\&-\left(\left(\left(X_2^{a_2}\right)\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\frac{\partial }{\partial u^{b_2}}\left(X_1^{a_2}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\right)\frac{\partial }{\partial u^{b_1}}\\&= \left(X_1^{a_1}\frac{\partial f^{b_1}}{\partial x^{a_1}}\right)\left(\frac{\partial X_2^{a_2}}{\partial u^{b_1}}\frac{\partial f^{b_2}}{\partial x^{a_2}}+ X_2^{a_2}\left(\frac{\partial }{\partial u^{b_1}}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\right)\frac{\partial }{\partial u^{b_2}}\\&-\left(X_2^{a_2}\frac{\partial f^{b_2}}{\partial x^{a_2}}\right)\left(\frac{\partial X_1^{a_2}}{\partial u^{b_2}}\frac{\partial f^{b_1}}{\partial x^{a_1}}+ X_1^{a_2}\right)\end{aligned}\end{aligned}$$ 
->  
+> 对于所有的$g\in C^{\infty}\left(M\right)$
+>   $$ \left(Y_1g\right)\circ f = f_{*}\left(X_1\right)g = X_1\left(g\circ f\right)  $$ 
+>  $$\left(Y_2g\right)\circ f= X_2\left(g\circ f\right)$$ 
+> 于是
+>  $$ \begin{aligned} \left(\left[ Y_1,Y_2 \right]g\right)\circ f &= \left(Y_1\left(Y_2g\right)\right)\circ f-\left(Y_2\left(Y_1g\right)\right)\circ f\\&= X_1\left(Y_2g\circ f\right)-X_2\left(Y_1g\circ f\right)\\&= X_1X_2\left(g\circ f\right)-X_2X_1\left(g\circ f\right)\\&= \left[ X_1,X_2 \right]\left(g\circ f\right) \end{aligned} $$ 
+> 因此
+>  $$ \begin{aligned} \left(\left[ Y_1,Y_2 \right]g\right)|_{f\left(p\right)} &= \left(\left[ X_1,X_2 \right]\left(g\circ f\right)\right)|_{p}\\&=\left. \left( \left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a}\frac{\partial X_1^{b}}{\partial x^{a}}\right)\frac{\partial }{\partial x^{b}}\right) \right|_{p}\left(g\circ f\right) \end{aligned}$$ 
+> 而
+>  $$ \left. \frac{\partial }{\partial x^{b}} \right|_{p}\left(g\circ f\right)= f_{*p}\left(\left. \frac{\partial }{\partial x^{b}} \right|_{p}\right)g = \left(\eta _{b}\left(f\left(p\right)\right)\right)\left(g\right) $$ 
+> 因此
+>  $$ \left(\left[ Y_1,Y_2 \right]g\right)|_{f\left(p\right)}= \left. \left(\left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a}\frac{\partial X_1^{b}}{\partial x^{a}}\right)\right) \right|_{p} \left(\eta _{b}\left(f\left(p\right)\right)\right)g $$
+> 即
+>  $$ \left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)=\left.  \left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a}\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right) $$  
