@@ -24,19 +24,19 @@ tags: []
 - 对于旋转对称度量, 通过切向曲率方程, 带入$\operatorname{II} = \operatorname{Hess}r$和$R^{r}$的常曲率表示, 直接曲率张量的切向行为. 再直接计算$\nabla _{X}\operatorname{II} = \nabla _{X}\operatorname{Hess}$, 得到混合曲率退化. 从而得到曲率的完全信息.
 
 ## 核心对象
-1. 距离函数$r$
+-  距离函数$r$
    1. 一般来说, 写成$\operatorname{grad}r= \partial _{r}$.
    2. 对$\operatorname{Hess}$沿着$\partial _{r}$求导, $\operatorname{Hess}^{2}$, $R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$有一个公式.
    3. $r$-水平集上(即度量下的r-球面上),  $\operatorname{II}$就是$\operatorname{Hess}$.
    4. $\nabla _{\partial _{r}}\partial _{r}= 0$.
-2. 球面
+-  球面
    1. $\operatorname{Hess}r= \operatorname{II}$就是$\frac{1 }{r }g_{r}$
    2. 曲率就是$R\left(X,Y\right)Z= -r^{-2}\left(X\wedge Y\right)\left(Z\right)$, 常曲率$r^{-2}$.
-3. 球面乘积
+-  球面乘积
    1. 乘积度量下, 曲率张量, Ricci曲率都有纯正的直和分解. 截面曲率体现为纯平面和混合平面的差异, 纯平面保持, 混合平面为零.
    2. 取纯$S^{n}$, 纯$S^{m}$, 混合的三对代表向量场, 计算$R$下的退化性, 给出对角化.
    3. 特征向量下带入常曲率的性质, 给出曲率算子, 算子给出Ric和scal
-4. 旋转对称度量
+-  旋转对称度量
    1. 首先, 考虑
        $$ \operatorname{Hess}r= \frac{\partial _{r}\rho  }{\rho  }g_{r} $$ 
     对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$, 得到Riccati信息.
@@ -64,7 +64,7 @@ tags: []
           $$ \operatorname{scal}= -2\left(n-1\right)\frac{\ddot{\rho} }{\rho  }+ \left(n-1\right)\left(n-2\right)\frac{1-\dot{\rho}^{2} }{\rho ^{2} } $$
           可以通过这个解出常Ricci曲率$\rho \left(r\right)= a\pm r$, 无论如何, Ricci flat的旋转对称度量都是平坦的.
 
-5. **双旋转对称的Doubly Warped Products**: 
+-  **双旋转对称的Doubly Warped Products**: 
       度量为
       $$ \left(I\times S^{p}\times S^{q},\,d r^{2}+ \rho ^{2}\left(r\right)\,d s_{p}^{2}+ \phi ^{2}\left(r\right)\,d s_{q}^{2}\right) $$ 
    1. 此时
@@ -78,11 +78,13 @@ tags: []
        还有一个交叉的
        $$ \mathfrak{R}\left(X\wedge V\right)=-\frac{\dot{\rho} }{\rho  }\frac{\dot{\phi} }{\phi  }X\wedge V  $$  
 
-6. Conformal Hessian for General Warped Products: 考虑
+-  **Conformal Hessian for General Warped Products**: 考虑
     $$ \ge \,d r^{2}+ \rho ^{2}\left(r\right)g_{H} $$
     1. 令$f= \int \rho \,d r$, $df= \rho dr$, 则
        $$ \operatorname{Hess}f= \dot{\rho}g,\quad \dot{\rho}= \frac{1}{2}\frac{\left| \nabla f \right|^{2}  }{\,d f } $$  
    
+- **李群上的左不变度量**: 
+   1. 将$T_{e}G$处的内积通过左平移推出到$G$成为一个度量. 也就是说, $G$被强制赋予了使得所有$DL_{g}|_{e}$成为等距线性同构的度量. 通过群性质推举$L_{g}$成为一个等距同构.
    
 
 ## 核心工具
@@ -103,6 +105,7 @@ tags: []
     $$ \,d r^{2}+ \rho ^{2}\left(r\right)g_{H}= \psi ^{2}\left(\rho \right)\left(d\rho ^{2}+ \rho ^{2}g_{H}\right) $$
     with
      $$ dr= \psi \left(\rho \right)d\rho  ,\quad \rho \left(r\right)= \rho \psi \left(\rho \right)$$    
+
   
 
 ## 本章打卡
