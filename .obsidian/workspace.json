@@ -11,17 +11,24 @@
             "id": "bb6722d12b58c397",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-                "viewState": {
-                  "x": -366,
-                  "y": 37.5,
-                  "zoom": -0.016428258681799462
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - De Rham Cohomology"
+              "icon": "lucide-file",
+              "title": "HA - HW2.5 - 1"
             }
           }
         ]
@@ -197,11 +204,12 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "00.Inbox/thm - Sequentially Compact and Totally Bounded.md",
@@ -228,7 +236,6 @@
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
     "30.Recources/DM/Course HW/DM - Review of HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW9.md",
-    "30.Recources/DM/Course HW/DM - HW14.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
@@ -237,7 +244,6 @@
     "40.Drafts/未命名",
     "40.Drafts/2026-03/202",
     "新建 文本文档.txt",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "11.Chapter Notes/PDE Evans",
     "11.Chapter Notes/RG Petersen",
     "11.Chapter Notes",
