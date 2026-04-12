@@ -69,7 +69,19 @@ tags: []
       $$ \left(I\times S^{p}\times S^{q},\,d r^{2}+ \rho ^{2}\left(r\right)\,d s_{p}^{2}+ \phi ^{2}\left(r\right)\,d s_{q}^{2}\right) $$ 
    1. 此时
        $$ \operatorname{Hess}r= \left(\partial _{r}\rho \right)\rho \,d s_{p}^{2}+ \left(\partial _{r}\phi \right)\phi \,d s_{q}^{2} $$ 
-   2. $\nabla _{X}\operatorname{II}$无非是两个旋转对称度量的样式加在一起, 所以也有$\nabla _{X}\operatorname{II} = 0$.
+   2. $\nabla _{X}\operatorname{II}$无非是两个旋转对称度量的样式加在一起, 所以也有$\nabla _{X}\operatorname{II} = 0$, 混合曲率消失.
+   3. 设$X,Y$切于$S^{p}$, $V,W$切于$S^{q}$, 则在两个球面上分别套用旋转对称度量的情形
+       $$ \mathfrak{R}\left(\partial _{r}\wedge X\right)= -\frac{\ddot{\rho} }{\rho  }\partial _{r}\wedge X $$ 
+       $$ \mathfrak{R}\left(\partial _{r}\wedge V\right)= -\frac{\ddot{\varphi} }{\varphi  }\partial _{r}\wedge V $$
+       $$ \mathfrak{R}\left(X\wedge Y\right)= \frac{1-\dot{\rho}^{2} }{\rho ^{2} }X\wedge Y $$  
+       $$ \mathfrak{R}\left(U\wedge V\right)= \frac{1-\dot{\phi}^{2} }{\phi ^{2} }U\wedge V $$
+       还有一个交叉的
+       $$ \mathfrak{R}\left(X\wedge V\right)=-\frac{\dot{\rho} }{\rho  }\frac{\dot{\phi} }{\phi  }X\wedge V  $$  
+
+6. Conformal Hessian for General Warped Products: 考虑
+    $$ \ge \,d r^{2}+ \rho ^{2}\left(r\right)g_{H} $$
+    1. 令$f= \int \rho \,d r$, $df= \rho dr$, 则
+       $$ \operatorname{Hess}f= \dot{\rho}g,\quad \dot{\rho}= \frac{1}{2}\frac{\left| \nabla f \right|^{2}  }{\,d f } $$  
    
    
 
@@ -79,8 +91,11 @@ tags: []
     - 彼此曲率为零的正交标价下, 可以做以下简化,  应对旋转对称和doubly warped 积的计算.
         - $R\left(e_{i},e_{j}\right)e_{k}= 0$, 曲率算子可对角化.
         - $R\left(e_{i},e_{j},e_{k},e_{l}\right)= 0$, Ric可对角化.
-- 
-- 
+- **Brinkmann,1925**: 从Conformal Hess到度量, 当$df \neq 0$, 局部地$g =  \,d r^{2}+ \rho ^{2}\left(r\right)g_{H}$. 若还有$df\left(p\right)= 0$, $\lambda \left(p\right)\neq 0$, 则局部地$g =  \,d r^{2}+ \rho ^{2}\left(r\right)\,d s_{n-1}^{2}$
+  - 若$f\left(p\right)= 0$, $df|_{p}= 0$, 则
+   $$ \operatorname{Hess}f= \left(1-kf\right)g $$
+   然后度量就是$k$-曲率的warped product. 
+  
 
 ## 本章打卡
 - [ ] 速览
