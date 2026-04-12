@@ -79,7 +79,7 @@ tags: []
        $$ \mathfrak{R}\left(X\wedge V\right)=-\frac{\dot{\rho} }{\rho  }\frac{\dot{\phi} }{\phi  }X\wedge V  $$  
 
 -  **Conformal Hessian for General Warped Products**: 考虑
-    $$ \ge \,d r^{2}+ \rho ^{2}\left(r\right)g_{H} $$
+    $$  g =  \,d r^{2}+ \rho ^{2}\left(r\right)g_{H} $$
     1. 令$f= \int \rho \,d r$, $df= \rho dr$, 则
        $$ \operatorname{Hess}f= \dot{\rho}g,\quad \dot{\rho}= \frac{1}{2}\frac{\left| \nabla f \right|^{2}  }{\,d f } $$  
    
@@ -91,6 +91,11 @@ tags: []
         是右平移
    4. 左不变向量场的流是右平移, 因此Killing field, 即流等距同构的向量场, 需要$X$是双不变的; 
    5. **对于左不变度量, Killing field恰恰是右不变向量场**.
+   6. 对于伴随作用$\operatorname{Ad}_{g}:\mathfrak{g}\to \mathfrak{g}$, 它是通过左平移和右平移的复合求微分得到的. 而左不变向量场自动是左平移-不变的, 因此要求其总是右平移不变的, 恰恰相当于要求$\operatorname{Ad}_{g}$是等距同构.
+   7. **双不变度量**: 设李群$G$上有双不变度量$\left(\cdot ,\cdot \right)$, 那么
+       $$ \nabla _{Y}X= \frac{1}{2}\left[ Y,X \right] $$ 
+       $$ R\left(X,Y\right)Z= -\frac{1}{4}\left[ \left[ X,Y \right],Z \right] $$ 
+        $$ R\left(X,Y,Z,W\right)= -\frac{1}{4}\left[ \left[ X,Y \right],\left[ Z,W \right] \right] $$ 
    
 
 ## 核心工具

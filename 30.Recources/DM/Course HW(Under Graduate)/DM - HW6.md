@@ -23,6 +23,8 @@
 > 1. $0\le \rho \le 1$;
 > 2. $\operatorname{supp}\left(\rho \right)\subseteq U$
 > 3. 存在$p$的开邻域$V$, 使得在$V$上$\rho \equiv 1$.
+>
+> 
 > 定义
 >  $$ \tilde{v}= \begin{cases} \rho v,&q\in U\\0,&q\in M\setminus \operatorname{supp}\rho  \end{cases}  $$ 
 > 在$U\cap M\setminus \operatorname{supp}\rho= U\setminus \operatorname{supp}\rho$上, $\rho v= 0$, 因此$\tilde{v}$良定义. 且$\tilde{v}$在$U$和$M\setminus \operatorname{supp}\rho$上分别光滑, 因此$\tilde{v}$是光滑的向量场, 并且
@@ -39,12 +41,12 @@
 > 证明: $\left[ Y_1,Y_2 \right]\left(f\left(p\right)\right)= \left. \left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a }\frac{\partial X_1^{b}}{\partial x^{a}}\right) \right|_{p}\eta _{b}\left(f\left(p\right)\right)$
 
 > [!proof] Proof: 
-> 对于所有的$g\in C^{\infty}\left(M\right)$
+> 对于所有的$g\in C^{\infty}\left(M\right)$, 根据微分的定义, 
 >   $$ \left(Y_1g\right)\circ f = f_{*}\left(X_1\right)g = X_1\left(g\circ f\right)  $$ 
 >  $$\left(Y_2g\right)\circ f= X_2\left(g\circ f\right)$$ 
-> 于是
+> 逐层带入上面的关系式, 我们发现
 >  $$ \begin{aligned} \left(\left[ Y_1,Y_2 \right]g\right)\circ f &= \left(Y_1\left(Y_2g\right)\right)\circ f-\left(Y_2\left(Y_1g\right)\right)\circ f\\&= X_1\left(Y_2g\circ f\right)-X_2\left(Y_1g\circ f\right)\\&= X_1X_2\left(g\circ f\right)-X_2X_1\left(g\circ f\right)\\&= \left[ X_1,X_2 \right]\left(g\circ f\right) \end{aligned} $$ 
-> 因此
+> 让上面的结果在$p$处取值, 并按照坐标分量展开的, 得到
 >  $$ \begin{aligned} \left(\left[ Y_1,Y_2 \right]g\right)|_{f\left(p\right)} &= \left(\left[ X_1,X_2 \right]\left(g\circ f\right)\right)|_{p}\\&=\left. \left( \left(X_1^{a}\frac{\partial X_2^{b}}{\partial x^{a}}-X_2^{a}\frac{\partial X_1^{b}}{\partial x^{a}}\right)\frac{\partial }{\partial x^{b}}\right) \right|_{p}\left(g\circ f\right) \end{aligned}$$ 
 > 而
 >  $$ \left. \frac{\partial }{\partial x^{b}} \right|_{p}\left(g\circ f\right)= f_{*p}\left(\left. \frac{\partial }{\partial x^{b}} \right|_{p}\right)g = \left(\eta _{b}\left(f\left(p\right)\right)\right)\left(g\right) $$ 
