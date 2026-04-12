@@ -37,18 +37,24 @@ tags: []
    2. 取纯$S^{n}$, 纯$S^{m}$, 混合的三对代表向量场, 计算$R$下的退化性, 给出对角化.
    3. 特征向量下带入常曲率的性质, 给出曲率算子, 算子给出Ric和scal
 4. 旋转对称度量
-   1. 对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$, 得到Riccati信息.
+   1. 首先, 考虑
+       $$ \operatorname{Hess}r= \frac{\partial _{r}\rho  }{\rho  }g_{r} $$ 
+    对$\operatorname{Hess}r$求导的过程中, 产生$\operatorname{Hess}^{2}r$和纯对$\rho$的导数项, 前者正好与基本方程中的$\operatorname{Hess}^{2}$抵消, 得到$R\left(\cdot ,\partial _{r},\partial _{r},\cdot \right)$化为$-\frac{\partial _{r}^{2}\rho  }{\rho  }g_{r}$, 得到Riccati信息.
    2. 借助1.的表示, 可以分别计算切于$S^{n-1}$的和$\partial _{r}$方向上, $\nabla _{X}\partial _{r}$和$R\left(X,\partial _{r}\right)\partial _{r}$的值, 后者为零.
+   
    3.  $$ g\left(\left(x\wedge y\right)v,w\right)= g\left(x\wedge y,v\wedge w\right) $$ 
    4.  通过球面度量的表示$R^{r}\left(X,Y\right)=-\frac{1 }{r^{2} }\left(X\wedge Y\right)$, $\operatorname{II} = \operatorname{Hess}r$简化切向法向曲率方程, 计算出曲率的切向行为
          $$ \mathfrak{R}= \frac{1-\left(\partial _{r}\rho \right)^{2} }{\rho ^{2} }g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right) $$ 
         这是Gauss-信息.
        其中第二基本形式化为$\left(\frac{\partial _{r}\rho  }{\rho  }\right)^{2}\left(g_{r}\left(\cdots \right)g_{r}\left(\cdots \right)-g_{r}\cdot g_{r}\right)= \left(\frac{\partial _{r}\rho  }{ \rho }\right)^{2}g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right)$ 球面曲率项是分母的那个$1$
-   5. 最后, 直接算出Coddazi-信息, 混合曲率消失.
+   5. 最后, 直接算出Coddazi-信息$\nabla _{X}\operatorname{II}= 0$, 混合曲率消失.
 
    6. 总结一下
       1.  $$ \mathfrak{R}\left(X\wedge \partial _{r}\right)= -\frac{\ddot{\rho } }{\rho  }X\wedge \partial _{r} $$
       2.   $$ \mathfrak{R}\left(X\wedge Y\right)= \frac{1- \dot{\rho}^{2} }{ \rho ^{2}}X\wedge Y $$  
+      那么考虑
+       $$ \operatorname{sn}_{k}\left(r\right)= \begin{cases} \frac{1 }{\sqrt{k} }\sin \left(\sqrt{k}r\right),&k> 0\\0,&k= 0\\\frac{1 }{\sqrt{-k} }\sinh\left(\sqrt{-k}r\right),&k< 0 \end{cases}  $$ 
+       度量$\,d r^{2}+ \operatorname{sn}_{k}^{2}\left(r\right)\,d s_{n-1}^{2}$的$\rho= \operatorname{sn}_{k}$满足1.2.对应的两个$k$-特征方程, 于是有常曲率$k$.
    7. 曲率算子被对角化, 截面曲率落在$-\frac{\ddot{\rho} }{\rho  }$, $\frac{1-\dot{\rho}^{2} }{\rho ^{2} }$之间.
    8.  一组正交标价下, $\left(n-1\right)$个径向中, $\left(n-2\right)$个正交的径向, 和一个切向, 对3-1张量缩并后两个, 利用
           $$ R\left(X,Y\right)Z= \left(\mathfrak{R}\left(X\wedge Y\right)\right)\left(Z\right) $$ 
@@ -56,7 +62,15 @@ tags: []
          $$ \operatorname{Ric}\left(X\right)= \left(\left(n-2\right)\frac{1-\dot{\rho}^{2} }{\rho ^{2} }-\frac{\ddot{\rho} }{\rho  }\right)X $$ 
           $$ \operatorname{Ric}\left(\partial _{r}\right)= -\left(n-1\right)\frac{\ddot{\rho} }{\rho ^{2} }\partial _{r} $$
           $$ \operatorname{scal}= -2\left(n-1\right)\frac{\ddot{\rho} }{\rho  }+ \left(n-1\right)\left(n-2\right)\frac{1-\dot{\rho}^{2} }{\rho ^{2} } $$
-5. 设$k$-常曲率流形的度量为$\,d r^{2}+ \operatorname{sn}_{k}^{2}\left(r\right)\,d s_{n-1}^{2}$  
+          可以通过这个解出常Ricci曲率$\rho \left(r\right)= a\pm r$, 无论如何, Ricci flat的旋转对称度量都是平坦的.
+
+5. **双旋转对称的Doubly Warped Products**: 
+      度量为
+      $$ \left(I\times S^{p}\times S^{q},\,d r^{2}+ \rho ^{2}\left(r\right)\,d s_{p}^{2}+ \phi ^{2}\left(r\right)\,d s_{q}^{2}\right) $$ 
+   1. 此时
+       $$ \operatorname{Hess}r= \left(\partial _{r}\rho \right)\rho \,d s_{p}^{2}+ \left(\partial _{r}\phi \right)\phi \,d s_{q}^{2} $$ 
+   2. $\nabla _{X}\operatorname{II}$无非是两个旋转对称度量的样式加在一起, 所以也有$\nabla _{X}\operatorname{II} = 0$.
+   
    
 
 ## 核心工具
