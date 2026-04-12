@@ -32,7 +32,7 @@ tags: []
 > [!proposition] Proposition: 
 > The Hopf map $H:S^{1}\left(1\right)\to S^{2}\left(\frac{1}{2}\right)$
 > can be wriiten explicitly as 
->  $$ H\left(z,w\right)eq\left(\frac{1}{2}\left(\left| w \right|^{2}-\left| z \right|^{2}  \right), z \bar{w}\right) $$ 
+>  $$ H\left(z,w\right)=\left(\frac{1}{2}\left(\left| w \right|^{2}-\left| z \right|^{2}  \right), z \bar{w}\right) $$ 
 
 ```dataviewjs
 const techs = dv.current().technique;
