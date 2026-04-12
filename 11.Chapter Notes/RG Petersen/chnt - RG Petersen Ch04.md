@@ -44,8 +44,20 @@ tags: []
          $$ \mathfrak{R}= \frac{1-\left(\partial _{r}\rho \right)^{2} }{\rho ^{2} }g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right) $$ 
         这是Gauss-信息.
        其中第二基本形式化为$\left(\frac{\partial _{r}\rho  }{\rho  }\right)^{2}\left(g_{r}\left(\cdots \right)g_{r}\left(\cdots \right)-g_{r}\cdot g_{r}\right)= \left(\frac{\partial _{r}\rho  }{ \rho }\right)^{2}g_{r}\left(\cdot \wedge \cdot ,\cdot \wedge \cdot \right)$ 球面曲率项是分母的那个$1$
-    5. 最后, 直接算出Coddazi-信息, 混合曲率消失.
+   5. 最后, 直接算出Coddazi-信息, 混合曲率消失.
 
+   6. 总结一下
+      1.  $$ \mathfrak{R}\left(X\wedge \partial _{r}\right)= -\frac{\ddot{\rho } }{\rho  }X\wedge \partial _{r} $$
+      2.   $$ \mathfrak{R}\left(X\wedge Y\right)= \frac{1- \dot{\rho}^{2} }{ \rho ^{2}}X\wedge Y $$  
+   7. 曲率算子被对角化, 截面曲率落在$-\frac{\ddot{\rho} }{\rho  }$, $\frac{1-\dot{\rho}^{2} }{\rho ^{2} }$之间.
+   8.  一组正交标价下, $\left(n-1\right)$个径向中, $\left(n-2\right)$个正交的径向, 和一个切向, 对3-1张量缩并后两个, 利用
+          $$ R\left(X,Y\right)Z= \left(\mathfrak{R}\left(X\wedge Y\right)\right)\left(Z\right) $$ 
+          得到
+         $$ \operatorname{Ric}\left(X\right)= \left(\left(n-2\right)\frac{1-\dot{\rho}^{2} }{\rho ^{2} }-\frac{\ddot{\rho} }{\rho  }\right)X $$ 
+          $$ \operatorname{Ric}\left(\partial _{r}\right)= -\left(n-1\right)\frac{\ddot{\rho} }{\rho ^{2} }\partial _{r} $$
+          $$ \operatorname{scal}= -2\left(n-1\right)\frac{\ddot{\rho} }{\rho  }+ \left(n-1\right)\left(n-2\right)\frac{1-\dot{\rho}^{2} }{\rho ^{2} } $$
+5. 设$k$-常曲率流形的度量为$\,d r^{2}+ \operatorname{sn}_{k}^{2}\left(r\right)\,d s_{n-1}^{2}$  
+   
 
 ## 核心工具
 - Computational Simplifications
