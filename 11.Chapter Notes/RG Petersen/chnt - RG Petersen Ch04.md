@@ -95,6 +95,14 @@ tags: []
   - 若$f\left(p\right)= 0$, $df|_{p}= 0$, 则
    $$ \operatorname{Hess}f= \left(1-kf\right)g $$
    然后度量就是$k$-曲率的warped product. 
+- Conformal Representation of Warped Products: $\left(M,g\right)\to \left(M,\psi ^{2}g\right)$ is called a **conformal change**.
+    $$ dr^{2}+ \rho ^{2}\left(r\right)g_{H}= \psi ^{2}\left(\rho \right)\left(d\rho ^{2}+ g_{H}\right) $$
+    with
+     $$ \,d r= \psi \left(\rho \right)d\rho ,\quad \rho \left(r\right)= \psi \left(\rho \right) $$
+   or 
+    $$ \,d r^{2}+ \rho ^{2}\left(r\right)g_{H}= \psi ^{2}\left(\rho \right)\left(d\rho ^{2}+ \rho ^{2}g_{H}\right) $$
+    with
+     $$ dr= \psi \left(\rho \right)d\rho  ,\quad \rho \left(r\right)= \rho \psi \left(\rho \right)$$    
   
 
 ## 本章打卡
