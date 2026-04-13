@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA - HW2.5 - 1"
+              "title": "DM - HW6"
             }
           }
         ]
@@ -204,10 +204,13 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+    "00.Inbox/01.Todo List/han-lin/lem - Cacciopolli's Inequality.md",
+    "20.Cards/Lemmas/lem - Young's Inequality.md",
+    "00.Inbox/01.Todo List/ex - Exercises for PDE (Evans) Ch5..md",
     "00.Inbox/thm - Sequentially Compact and Totally Bounded.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "00.Inbox/thm - Arzelà.md",
     "00.Inbox/pps - Several Representations of Hess.md",
     "00.Inbox/pps - Properties of Totally Bounded.md",
@@ -236,9 +239,6 @@
     "rg_ch4_obsidian.md",
     "petersen_ch4_exercises.md",
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
-    "30.Recources/DM/Course HW/DM - Review of HW11.md",
-    "30.Recources/DM/Course HW/DM - Review of HW10.md",
-    "30.Recources/DM/Course HW/DM - Review of HW12.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
