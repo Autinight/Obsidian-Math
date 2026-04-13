@@ -30,13 +30,22 @@ $$\mathbb{C} ^{n}\times \mathbb{C} ^{1}\to \mathbb{C}^{n+ 1} $$
 
 把$\mathbb{C} ^{n+ 1}\simeq \mathbb{C} ^{n}\times \mathbb{C} ^{1}$, $\mathbb{C} ^{n}\simeq \mathbb{R} \times S^{2n-1}$,$\mathbb{C} \simeq \mathbb{R}\times S^{1}$细细揉碎, 一切的$\simeq$都看成是等距同构, 这里我们把无数笛卡尔积的等距同构拼成这个稀碎的一堆笛卡尔积的等距同构.
 
- $$ \mathbb{R} \times S^{2n-1} \times \mathbb{R} \times S^{1}\to \mathbb{C}^{n+ 1}= \mathbb{C}^{n}\times \mathbb{C}^{1}\to  \mathbb{R} \times S^{2n+ 1}$$ 
+ $$\mathbb{R} ^{+ }\times \left[ 0,\pi  \right]\times S^{2n-1}\times S^{1}\to  \mathbb{R} \times S^{2n-1} \times \mathbb{R} \times S^{1}\to \mathbb{C}^{n+ 1}= \mathbb{C}^{n}\times \mathbb{C}^{1}\to  \mathbb{R} \times S^{2n+ 1}$$ 
   $$ \left(r_1,p,r_2,q\right)\mapsto \left(r_1p,r_2q\right)\mapsto \left(\sqrt{r_1^{2}+ r_2^{2}},\frac{r_1p }{\sqrt{r_1^{2}+ r_2^{2}} },\frac{r_2q }{ \sqrt{r_1^{2}+ r_2^{2}}}\right) $$ 
 考虑映射
  $$ F:\mathbb{R} \times \mathbb{R} \to \mathbb{R} ,\quad F\left(x,y\right)= x^{2}+ y^{2} $$
  它诱导一个等距同构
   $$ [0,\pi )\to F^{-1} \left(1\right)= S^{1} $$  
+这个不好, 我们需要的是极分解
+ $$ \mathbb{R} \times \mathbb{R}  $$ 
 这里赋予$\left[ 0,\pi  \right)$使得上述成为等距同构的度量.
 
 那么上面的一大串笛卡尔积分解, 限制在水平集$\left\{ 1 \right\}\times S^{2n+ 1}$上, 这一大堆等距同构就耦合在一起, 变成我们想要的分解了.
  
+我们的因子是形如这些等距同构一起组成的:
+极分解
+ $$ \mathbb{R} ^{+ }\times \left[ 0,\pi  \right]\to \mathbb{R} \times \mathbb{R}  $$
+复空间极分解
+  $$ \mathbb{R} \times S^{2k-1}\to \mathbb{C}^{k} $$  
+无视一个参数
+   $$ A\times B\to A\times C\implies \left\{ a \right\}\times B\to \left\{ a \right\}\times C $$ 
