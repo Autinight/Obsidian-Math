@@ -117,6 +117,12 @@ tags: []
     with
      $$ dr= \psi \left(\rho \right)d\rho  ,\quad \rho \left(r\right)= \rho \psi \left(\rho \right)$$    
 
+- **黎曼淹没的几何量计算**: 设$\overline{X}$是$X$的水平提升, $V$ is vertical
+   1.  $\left[ V,\overline{X} \right]$ is vertical 
+   2.  $\left(\mathcal{L}_{V}\bar{g}\right)\left(\overline{X},\overline{Y}\right)= D_{V}\bar{g}\left(\overline{X},\overline{Y}\right)= 0$
+   3.  $\bar{g}\left(\left[ \overline{X},\overline{Y},V \right]\right)= 2\bar{g}\left(\nabla _{\overline{X}}\overline{Y},V\right)= -2\bar{g}\left(\nabla _{V}\overline{X}, \overline{Y}\right)= 2\bar{g}\left(\nabla _{\overline{Y}}V,\overline{X}\right)$
+   4.  $\nabla _{\overline{X}}\overline{Y}= \overline{\nabla_{X}Y}+ \frac{1}{2}\left[ \overline{X},\overline{Y} \right]^{\mathscr{V}}$
+   5.  $g\left(R\left(X,Y\right)Y,X\right)= \bar{g}\left(\overline{R}\left(\overline{X},\overline{Y}\right)\overline{Y},\overline{X}\right)+ \frac{3}{4}\left| \left[ \overline{X},\overline{Y} \right]^{\mathscr{V}} \right|^{2} $
   
 
 ## 本章打卡
