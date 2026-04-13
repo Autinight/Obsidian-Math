@@ -19,7 +19,7 @@
 > 设$U$是$n$为光滑流形$M$的一个开子集, $v\in \mathfrak{X}\left(U\right)$. 证明:在任意一点$p\in U$, 存在点$p$的开邻域$V\subseteq U$, 以及光滑切向量场$\tilde{v}\in \mathfrak{X}\left(M\right)$, 使得$\tilde{v}|_{V}= v|_{V}$
 
 > [!proof] Proof: 
-> 任取$p\in U$, 由光滑流形上bump function的存在性, 可知存在 $\rho :M\to \mathbb{R}$, 使得
+> 任取$p\in U$, 由光滑流形上bump function的存在性(可通过取$V\subset \subset U$, 取从属于$\left\{ U, M\setminus \overline{V} \right\}$的单位分解得到), 可知存在 $\rho :M\to \mathbb{R}$, 使得
 > 1. $0\le \rho \le 1$;
 > 2. $\operatorname{supp}\left(\rho \right)\subseteq U$
 > 3. 存在$p$的开邻域$V$, 使得在$V$上$\rho \equiv 1$.

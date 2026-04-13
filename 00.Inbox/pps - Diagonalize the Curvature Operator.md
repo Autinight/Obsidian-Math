@@ -6,6 +6,8 @@ technique: []
 tags: []
 ---
 
+> [!proposition] Proposition: 
+> Let $e_{i}$ be an orthonormal basis for $T_{p}M$. If $R\left(e_{i},e_{j}\right)e_{k}= 0$, when the indices are mutually distinct, then $e_{i}\wedge e_{j}$ diagonalize the curvature operator.
 
 ```dataviewjs
 const techs = dv.current().technique;

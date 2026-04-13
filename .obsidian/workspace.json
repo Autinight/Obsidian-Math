@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/pps - Diagonalize the Curvature Operator.md",
-                "mode": "source",
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pps - Diagonalize the Curvature Operator"
+              "title": "HA - HW2.5 - 1"
             }
           }
         ]
@@ -204,17 +204,20 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
-    "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
-    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
-    "10.Atlas/RG/Riemannian Metric.canvas",
     "00.Inbox/thm - Sequentially Compact and Totally Bounded.md",
-    "00.Inbox/thm - Characterization of Compact Sets in Metric Space.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "00.Inbox/thm - Arzelà.md",
+    "00.Inbox/pps - Several Representations of Hess.md",
+    "00.Inbox/pps - Properties of Totally Bounded.md",
+    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
+    "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
+    "00.Inbox/thm - Characterization of Compact Sets in Metric Space.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/ex - Stereographic Projection and Conformal Model.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
@@ -223,8 +226,6 @@
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "00.Inbox/thm - Convolution Convergence Theorem with Radially Decreasing Controlled Kernels.md",
-    "00.Inbox/pps - Several Representations of Hess.md",
-    "00.Inbox/pps - Properties of Totally Bounded.md",
     "00.Inbox/dfn - epsilon-net and Totally Bounded.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Hopf Fibration.md",
