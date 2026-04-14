@@ -26,8 +26,44 @@
 > [!exercise] Exercise: 2
 > 设 $y \in C[0, 1]$, 定义泛函 $f: C[0, 1] \to \mathbb{R}, x \mapsto \int_0^1 x(t)y(t)dt$, 求 $\|f\|$.
 
+> [!proof] Proof: 
+> 若$\left\| y \right\|_{C\left[ 0,1 \right]}= 0$, 则$\left\| f \right\|= 0$.
+>
+> 下设$\left\| y \right\|_{C\left[ 0,1 \right]}> 0$, 则令 $z= \frac{y }{\left\| y \right\|_{C\left[ 0 ,1 \right]} }$, $g:C\left[ 0,1 \right]\to \mathbb{R} , x\mapsto \int _{0}^{1}x\left(t\right)z\left(t\right)\,d t$. 则$g = \frac{1 }{\left\| y \right\|_{C\left[ 0,1 \right]} }f$.
+> 
+> 将$g$自然地延拓为$L^{1}\left[ 0,1 \right]$上的算子, 
+> 考虑$L^{1}$可积函数$x= \chi _{\left\{ z> 0 \right\}}-\chi _{\left\{ z< 0 \right\}}$
+> 则
+>  $$ \left| gx \right|= \int _{0}^{1}\chi _{\left\{ z> 0 \right\}}z\,d t+ \int _{0}^{1}\chi _{\left\{ z< 0 \right\}}\left(-z\right)\,d t= \int _{0}^{1}\left| z \right|\,d z= \left\| z \right\|_{L^{1}}   $$ 
+>
+> 由 Lusin 定理和有界 Tietze 延拓定理, 存在一列连续函数$\varphi _{n}\in C\left[ 0,1 \right]$, 使得$\lim_{n\to \infty}\left\| \varphi _{n}-x \right\|_{L^{1}}= 0$, $\lim_{n\to \infty}\left\| \varphi _{n} \right\|_{C\left[ 0,1 \right]}= 1$则
+>
+>  $$ \begin{aligned}  \left| g\varphi _{n} \right|= \left| \int _{0}^{1}\varphi _{n}z\,d t \right|&\ge  \int _{0}^{1}\left| xz \right|\,d t- \int _{0}^{1}\left| \varphi _{n}-x \right|z\,d t\\&\ge  \left\| z \right\|_{L^{1}}-\left\| \varphi _{n}-x \right\|_{L^{1}}  \end{aligned}     $$ 
+> 于是
+>  $$ \left\| g \right\|\ge  \frac{\left| g\varphi _{n} \right|  }{\left\| \varphi _{n} \right\|_{C\left[ 0,1 \right]} }\ge \frac{\left\| z \right\|_{L^{1}} }{ \left\| \varphi _{n} \right\|_{C\left[ 0,1 \right]}}- \frac{\left\| \varphi _{n}-x \right\|_{L^{1}} }{\left\| \varphi _{n} \right\|_{C\left[ 0,1 \right]} } $$ 
+> 令$n\to \infty$, 得到
+>  $$ \left\| g \right\|\ge \left\| z \right\|_{L^{1}} $$ 
+>  
+> 另一方面, 对于任意的$x\in C\left[ 0,1 \right]$使得$\left\| x \right\|_{C\left[ 0,1 \right]}= 1$, 我们有
+>  $$ \left| gx \right|= \left| \int _{0}^{1}x\left(t\right) z\left(t\right)\,d t\right|\le \left\| x \right\|_{L^{\infty}}\left\| z \right\|_{L^{1}}= \left\| z \right\|_{L^{1}} $$ 
+> 
+> 由于$x$是任意的, 可知
+>  $$ \left\| g \right\|\le \left\| z \right\|_{L^{1}} $$   
+>
+> 因此
+>  $$ \left\| g \right\|= \left\|z \right\|_{L^{1}} $$ 
+> 而
+>  $$ \left\| g \right\|= \frac{1 }{\left\| y \right\|_{C\left[ 0,1 \right]} }\left\| f \right\|,\quad \left\| z \right\|_{L^{1}}= \frac{\left\| y \right\|_{L^{1}} }{\left\| y \right\|_{C\left[ 0,1 \right]} } $$ 
+> 我们得到
+>  $$ \left\| f \right\|= \left\|y \right\|_{L^{1}} $$ 
+
+
+
 > [!exercise] Exercise: 3
 > 证明: 线性算子 $T: X \to Y$ 有界, 当且仅当 $\exists x_0 \in X$ 以及 $r_0 > 0$, 使得 $T$ 把 $\bar{B}_{r_0}(x_0) = \{x \in X | \|x - x_0\| \le r_0\}$ 映为 $Y$ 中的有界集.
+
+> [!proof] Proof: 
+> 
 
 > [!exercise] Exercise: 4
 > 线性算子 $T: X \to Y$ 的**核 (kernel)** 定义为 $N(T) = \{x \in X | Tx = 0\}$. 证明: $X$ 上的线性泛函 $f: X \to \mathbb{K}$ 是有界的, 当且仅当 $N(f)$ 是 $X$ 的闭线性子空间.
