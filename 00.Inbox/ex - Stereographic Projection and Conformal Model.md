@@ -21,6 +21,16 @@ tags: []
 > 2. When $M=H^n(1)\in\mathbb{R}^{n,1}$ show that $\lambda(1-|x|^2)=2$ and that $S$ is a conformal map with the property that in these coordinates the metric on $H^n(1)$ is Poincaré disc
 > $$\frac{4}{(1-|x|^2)^2}g_{\mathbb{R}^n}.$$
 
+$S\left(x\right)+ e_{n+ 1}$这个向量于$\left(x,0\right)+ e_{n+ 1}$这个向量共线, 即
+ $$ \frac{S\left(x\right)+ e_{n+ 1} }{e_{n+ 1}+ \left(x,0\right) }= \lambda \left(x\right) $$
+于是$S\left(x\right)$由$x$如此参数化 
+
+横截相交是说$M$和射线的交点的切空间张成整个空间, 这里由于直线的切空间就是子集, 意思是射线不切于$M$.
+
+
+
+
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
