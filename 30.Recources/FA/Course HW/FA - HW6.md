@@ -1,6 +1,28 @@
 > [!exercise] Exercise: 1
 > 给定一个 $m \times n$ 阶矩阵 $A$, 定义线性算子 $T: \mathbb{R}^n \to \mathbb{R}^m, x \mapsto Ax$. 试证明: $T$ 的算子范数等于 $A$ 的最大奇异值, 即矩阵 $A^T A$ 的最大特征值的平方根.
 
+> [!proof] Proof: 
+>  $$ \left< A^{\top}Ax,x \right>= \left< Ax,Ax \right>\ge 0 $$
+> 因此$A^{\top}A$是半正定的,  
+> $A^{\top}A$是实对称矩阵, 可对角化
+> 设其特征值为$\lambda _1 \ge \lambda _2 \ge \cdots \ge \lambda _{n}\ge 0$.
+>  $$ \left\| T \right\|= \max \left\{ \left\|  Ax \right\|: x\in S^{n-1}  \right\} $$  
+> 存在 $x_0\in S^{n-1}\subseteq \mathbb{R} ^{n}$, 使得$A^{\top}Ax_0= \lambda _1 x_0$. 那么
+>
+>  $$\left(\left\| T \right\|\left\| x_0 \right\|\right)^{2}\ge  \left\| Ax_0 \right\|^{2}= \left< Ax_0,Ax_0 \right>= \left< A^{\top}Ax_0,x_0 \right>= \left< \lambda _1 x_0,x_0 \right>= \lambda _1 \left\| x_0 \right\|^{2}  $$ 
+> 于是
+>  $$ \left\| T \right\|\ge \sqrt{\lambda _1 } $$ 
+> 另一方面, 
+> 由Raileigh Quotient不等式, 对于任意的$x\in S^{n-1}\subseteq \mathbb{R} ^{n}$, 我们有
+>  $$ \lambda _{n}\le \left< A^{\top}Ax,x \right>\le \lambda _1  $$ 
+> 于是
+>  $$ \lambda _1 \ge \left\| Ax \right\|^{2} $$
+> 而$x$是$S^{n-1}$上的任意向量, 因此$\lambda _1 \ge \left\| T \right\|^{2}$, $\sqrt{\lambda _1 }\ge \left\| T \right\|$. 
+>
+> 因此
+>  $$ \sqrt{\lambda _1 }= \left\| T \right\| $$ 
+
+
 > [!exercise] Exercise: 2
 > 设 $y \in C[0, 1]$, 定义泛函 $f: C[0, 1] \to \mathbb{R}, x \mapsto \int_0^1 x(t)y(t)dt$, 求 $\|f\|$.
 
