@@ -37,6 +37,9 @@ tags: []
 >
 > This is referred to as the conformal invariance of the Weyl tensor under conformal changes and was discovered by Weyl.
 
+> [!proof] Proof: 
+> 
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
