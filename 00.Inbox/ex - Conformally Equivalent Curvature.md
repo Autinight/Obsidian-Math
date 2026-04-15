@@ -11,6 +11,10 @@ status: todo
 priority:
 tags: []
 ---
+
+
+ $$2 \begin{aligned} \left< \widetilde{\nabla}_{X}Y ,Z\right>_{\tilde{g}} &= \left<  \right> \end{aligned}$$ 
+
 > [!exercise] Exercise: 4.7.14
 > Let $\tilde{g}=e^{2\psi}g$ be a metric conformally equivalent to $g$ and a $\tilde{\ }$ referring to metric objects in the conformally changed metric.
 >
