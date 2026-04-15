@@ -7,7 +7,7 @@ book: RG Petersen
 chapter: 4
 number: "13"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---

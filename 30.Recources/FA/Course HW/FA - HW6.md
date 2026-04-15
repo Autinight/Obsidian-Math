@@ -63,11 +63,23 @@
 > 证明: 线性算子 $T: X \to Y$ 有界, 当且仅当 $\exists x_0 \in X$ 以及 $r_0 > 0$, 使得 $T$ 把 $\bar{B}_{r_0}(x_0) = \{x \in X | \|x - x_0\| \le r_0\}$ 映为 $Y$ 中的有界集.
 
 > [!proof] Proof: 
-> 
+> 由于$T$是有界的, 存在$N$, 使得$T\left(\overline{B}_{X}\left(0,1\right)\right)\subseteq \overline{B}_{Y}\left(0,N\right)$. 于是取$x_0= 0, r_0= 1$, 即可知"当"的方向成立.
+>
+> 反之, 若存在$x_0\in X$, $r_0> 0$, 使得$T$把$\overline{B}_{X}\left(x_0,r_0\right)$映为$Y$中的有界集$A$, 设$A\subseteq B_{Y}\left(0,N\right)$. 
+>
+> 任取$y\in S_{X}$, 其中$S_{X}$为 $X$上的单位球面, 则$\tilde{y}:= r_0y+ x_0\in \overline{B}_{X}\left(x_0,r_0\right)$,  $y= \frac{\tilde{y}-x_0 }{r_0 }$.
+>  $$ \left\| T\left(y\right) \right\|= \frac{1 }{r_0 }\left\| T\tilde{y}-Tx_0 \right\|\le \frac{1 }{r_0 }\left(\left\| T\tilde{y} \right\|+ \left\| Tx_0 \right\|\right)\le \frac{1 }{r_0 }\left(N+ \left\| Tx_0 \right\|\right)$$
+> 因此$T$是有界的. 
 
 > [!exercise] Exercise: 4
 > 线性算子 $T: X \to Y$ 的**核 (kernel)** 定义为 $N(T) = \{x \in X | Tx = 0\}$. 证明: $X$ 上的线性泛函 $f: X \to \mathbb{K}$ 是有界的, 当且仅当 $N(f)$ 是 $X$ 的闭线性子空间.
 
+> [!proof] Proof: 
+> 易见线性算子的kernal是线性子空间. 不妨设$f$不是零映射.
+> 
+> 若$f$是有界的, 则$f$是连续的, 由于$\mathbb{K}$是Hausdorff空间, $\left\{ 0 \right\}\subseteq \mathbb{K}$是闭集. 我们得到$N\left(f\right)= f^{-1} \left(\left\{ 0 \right\}\right)$是一个闭集, 故而是一个闭线性子空间.
+>
+> 反之, 若$N\left(f\right)$是闭的线性子空间, 为了说明$f$是连续的, 任取$X$上收敛于$0$的点列$\left\{ x_{n} \right\}$, 
 
 > [!exercise] Exercise: 5
 > 设$\sup_{n\geq 1}|a_n|<\infty$, 在$l^1$上定义算子$T: y=Tx$, 其中$x=\{\xi_k\}$, $y=\{\eta_k\}$, $\eta_k=a_k\xi_k$ ($k=1,2,\cdots$). 证明$T$是$l^1$上的有界线性算子并且$\|T\|=\sup_{n\geq 1}|a_n|$.
