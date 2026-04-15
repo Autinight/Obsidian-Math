@@ -13,7 +13,6 @@ tags: []
 ---
 
 
- $$2 \begin{aligned} \left< \widetilde{\nabla}_{X}Y ,Z\right>_{\tilde{g}} &= \left<  \right> \end{aligned}$$ 
 
 > [!exercise] Exercise: 4.7.14
 > Let $\tilde{g}=e^{2\psi}g$ be a metric conformally equivalent to $g$ and a $\tilde{\ }$ referring to metric objects in the conformally changed metric.
@@ -42,7 +41,12 @@ tags: []
 > This is referred to as the conformal invariance of the Weyl tensor under conformal changes and was discovered by Weyl.
 
 > [!proof] Proof: 
-> 
+> 1. From Koszule formula
+>     $$ \begin{aligned}2e^{2\psi }\left< \widetilde{\nabla}_{X}Y,Z \right>_{g}=  2\left< \widetilde{\nabla}_{X}Y ,Z\right>_{\tilde{g}} &= X\left< Y,Z \right>_{\tilde{g}} + Y\left< Z,X \right>_{\tilde{g}}-Z\left< X,Y \right>_{\tilde{g}}\\&+ \left< \left[ X,Y \right],Z \right>_{\tilde{g}}-\left< \left[ X,Z \right],Y \right>_{\tilde{g}}-\left< \left[ Y,Z \right],X \right>_{\tilde{g}}\\&= X\left(e^{2\psi }\left< Y,Z \right>_{g}\right)+ Y\left(e^{2\psi }\left< Z,X \right>_{g}\right)-Z\left(e^{2\psi }\left< X,Y \right>_{g}\right)\\&+ e^{2\psi }\left(\left< \left[ X,Y \right],Z \right>_{g}-\left< \left[ X,Z \right],Y \right>_{g}-\left< \left[ Y,Z \right],X \right>_{g}\right)\\&= 2e^{2\psi }\left< \nabla _{X}Y,Z \right>_{g}+2e^{2\psi } \left(D_{X}\psi \right)\left< Y,Z \right>_{g}+2e^{2\psi } \left(D_{Y}\psi \right)\left< Z,X \right>_{g}\\&-2e^{2\psi }\left(D_{Z}\psi \right)\left< X,Y \right>_{g}\end{aligned}$$ 
+>     Thus
+>     $$ \begin{aligned} \left< \widetilde{\nabla}_{X}Y,Z \right>_{g}&= \left< \nabla _{X}Y,Z \right>_{g}+ \left(D_{X}\psi \right)\left< Y,Z \right>_{g}+ \left(D_{Y}\psi \right)\left< Z,X \right>_{g}-\left< X,Y \right>_{g}\left< \nabla \psi ,Z \right>_{g}\\&=\left< \nabla _{X}Y+ \left(D_{X}\psi \right)Y+ \left(D_{Y}\psi \right)-g\left(X,Y\right)\nabla \psi ,Z \right>_{g} \end{aligned} $$ 
+>     Which implies that 
+>     $$ \widetilde{\nabla}_{X}Y= \nabla _{X}Y+ \left(D_{X}\psi \right)Y+ \left(D_{Y}\psi \right)X-g\left(X,Y\right)\nabla \psi  $$ 
 
 ```dataviewjs
 const techs = dv.current().technique;
