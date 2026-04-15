@@ -75,23 +75,87 @@
 > 线性算子 $T: X \to Y$ 的**核 (kernel)** 定义为 $N(T) = \{x \in X | Tx = 0\}$. 证明: $X$ 上的线性泛函 $f: X \to \mathbb{K}$ 是有界的, 当且仅当 $N(f)$ 是 $X$ 的闭线性子空间.
 
 > [!proof] Proof: 
-> 易见线性算子的kernal是线性子空间. 不妨设$f$不是零映射.
+> 易见线性算子的kernal是线性子空间. 
 > 
 > 若$f$是有界的, 则$f$是连续的, 由于$\mathbb{K}$是Hausdorff空间, $\left\{ 0 \right\}\subseteq \mathbb{K}$是闭集. 我们得到$N\left(f\right)= f^{-1} \left(\left\{ 0 \right\}\right)$是一个闭集, 故而是一个闭线性子空间.
 >
-> 反之, 若$N\left(f\right)$是闭的线性子空间, 为了说明$f$是连续的, 任取$X$上收敛于$0$的点列$\left\{ x_{n} \right\}$, 
+>
+> 
+> $f$诱导出线性算子
+>  $$ \bar{f}: X/N\left(f\right)\to \mathbb{K},\quad \bar{f}\left(x+ N\left(f\right)\right)= f\left(x\right) $$ 
+> 由于$N\left(f\right)$是闭子空间, $X/N\left(f\right)$是赋范线性空间. 由于$\bar{f}$是线性同构, $\operatorname{dim}\left(X/N\left(f\right)\right)= 1$, $\bar{f}$是有限维赋范线性空间上的线性算子, 故而连续. 又$f= \bar{f}\circ \pi$, 故而$f$也连续, 进而有界.
+> 
 
 > [!exercise] Exercise: 5
 > 设$\sup_{n\geq 1}|a_n|<\infty$, 在$l^1$上定义算子$T: y=Tx$, 其中$x=\{\xi_k\}$, $y=\{\eta_k\}$, $\eta_k=a_k\xi_k$ ($k=1,2,\cdots$). 证明$T$是$l^1$上的有界线性算子并且$\|T\|=\sup_{n\geq 1}|a_n|$.
 
+> [!proof] Proof: 
+>  $$ \begin{aligned} T\left(x^{\left(1\right)}+ sx^{\left(2\right)}\right)&= T\left(\left\{ \xi _{k}^{\left(1\right)}+ s\xi _{k}^{\left(2\right)} \right\}\right)= \left\{ a_{k}\xi _{k}^{\left(1\right)}+ sa_{k}\xi _{k}^{\left(2\right)} \right\}\\&= \left\{ a_{k}\xi _{k}^{\left(1\right)} \right\}+ s\left\{a_{k} \xi _{k}^{\left(2\right)} \right\} \\&=Tx^{\left(1\right)}+ sTx^{\left(2\right)}\end{aligned}  $$ 
+> 因此$T$是线性算子.
+>
+> 任取$x= \left\{ \xi _{k} \right\}\in \ell ^{1}$, 我们有$\left| \eta _{k} \right|= \left| a_{k} \right|\left| \xi _{k} \right|\le \sup _{n\ge 1}\left| a_{n} \right|\left| \xi _{k} \right|$. 于是
+>  $$ \left\| Ty \right\|_{\ell ^{1}}= \sum _{k= 1}^{\infty} \left| a_{k} \right|\left| \xi _{k} \right|\le \sup _{n\ge 1}\left| a_{n} \right|\sum _{k= 1}^{\infty}\left| \xi _{k} \right|= \sup _{n\ge 1}\left| a_{n} \right|\left\| x \right\| _{\ell ^{1}}    $$ 
+> 因此
+>  $$ \frac{\left\| Ty \right\|_{\ell ^{1}} }{\left\| x \right\|_{\ell ^{1}} }\le \sup _{n\ge 1}\left| a_{n} \right|  $$ 
+> 故$T$有界, $\left\| T \right\|\le \sup _{n\ge 1}\left| a_{n} \right|$.
+> 取$\left\{ a_n \right\}$的子列$\left\{ a_{n_{k}} \right\}$, 使得$\lim_{k\to \infty}\left| a_{n_{k}} \right|= \sup _{n\ge 1}\left| a_{n} \right|$. 定义$x_{k}$为第$n_{k}$个位置为$\operatorname{sgn}\left(a_{n_{k}}\right)$, 其余位置为零的点, 则$\left\| x_{k} \right\|_{\ell ^{1}}= 1$, 并且
+>  $$ \left\| Tx_{k} \right\|_{\ell ^{1}}= \left| a_{n_{k}} \right|\operatorname{sgn}\left(a_{n_{k}}\right)= \left| a_{n_{k}} \right|   $$ 
+> 从而
+>  $$ \lim_{k\to \infty}\left\| Tx_{k} \right\|_{\ell ^{1}}= \lim_{k\to \infty}\left| a_{n_{k}} \right|= \sup _{n\ge 1}\left| a_{n} \right|   $$ 
+> 故而
+>  $$ \left\| T \right\|\ge \sup _{n\ge 1}\left| a_{n} \right|  $$ 
+> 因此$\left\| T \right\|= \sup _{n\ge 1}\left| a_{n} \right|$.
+
 > [!exercise] Exercise: 6
 > 若$f$是$[a,b]$上的可测函数，而且对$\forall g\in L^p[a,b](1<p<\infty)$，都有$f\cdot g\in L^1[a,b]$，求证:$f\in L^q[a,b]$，其中$\frac{1}{p}+\frac{1}{q}=1$.
+
+> [!proof] Proof: 
+> 定义
+>  $$ T: L^{p}\left(\left[ a,b \right]\right)\to \mathbb{R}  $$
+>  $$ T\left(g\right)= \int _{a}^{b}f\cdot g $$
+> 由题设可知, $T$是良定义的.
+> 考虑图像
+>  $$ G= \left\{ \left(g, \int _{a}^{b}f\cdot g\right): g\in L^{p} \right\} $$  
+> 取$G$上的收敛点列$\left(g_{n}, \int _{a}^{b}fg_{n}\right)$, 使得
+>  $$ \lim_{n\to \infty}\left\| g_{n}-g \right\|_{L^{p}}= 0,\quad \lim_{n\to \infty}\int _{a}^{b}fg_{n}= S $$
+> 存在子列$\left\{ g_{n_{k}} \right\}$, 使得$\lim_{k\to \infty}g_{n_{k}}= g,a.e$, 进而存在非负函数$H\in L^{p}$, 使得$\left| g_{n_{k}} \right|\le H,a.e.$ 于是
+>  $$ \left\| fg_{n_{k}} \right\|_{L^{1}}= \int _{a}^{b}\left| f \right|\left| g \right| \le \int _{a}^{b}\left| f \right|H= \left\| fH \right\|_{L^{1}}  ,\quad \forall k $$
+> 由控制收敛定理, 
+>  $$ \lim_{k\to \infty}\int _{a}^{b}fg_{n_{k}}= \int _{a}^{b}fg $$
+> 由极限的唯一性, 
+>  $$ \lim_{n\to \infty}\int _{a}^{b}fg_{n}= \lim_{k\to \infty}\int _{a}^{b}fg_{n_{k}}= \int _{a}^{b}fg $$  
+> 而$g\in L^{p}$, 因此点列$\left\{ \left(g_{n},\int _{a}^{b}fg_{n}\right) \right\}$收敛于$G$上的点$\left(g,\int _{a}^{b}fg\right)$. 因此$G$是闭的. 由闭图像定理, $T$是有界的线性算子.
+>
+> 因此$T\in\left(L^{p}\right)^{*}$, 由Riesze表示定理, $f= \left(T\right)^{*}\in L^{q}$.
 
 > [!exercise] Exercise: 7
 > 如果序列$a=\{a_k\}$使得$\forall x=\{\xi_k\}\in l^1$，线性泛函$f(x)=\sum_{k=1}^{\infty}a_k\xi_k$都收敛.
 > 证明：
 > 1. $a\in l^{\infty}$;
 > 2. $\|f\|=\|a\|_{l^{\infty}}=\sup_{k\ge 1}|a_k|$.
+
+> [!proof] Proof: 
+> 1. 若$a\not \in \ell ^{\infty}$, 则存在子列$\left\{ a_{k_{n}} \right\}$, 使得$\left| a_{k_{n}} \right| \ge 2^{n}$. 
+>    令
+>     $$ x= \left\{ \xi _{m} \right\}= \begin{cases}\frac{1 }{2^{n} }\operatorname{sgn}\left(a_{k_{n}}\right), & n\text{ such that } m= k_{n}\\ \frac{1 }{2^{m} }\operatorname{sgn}\left(a_{m}\right),&else \end{cases}  $$ 
+>    则
+>     $$ \sum _{m = 1}^{\infty}\left| \xi _{m} \right| \le \sum _{n= 1}^{\infty}\xi _{k_{n}}+ \sum _{m= 1}^{\infty}\frac{1 }{2^{m} }\le \sum _{n= 1}^{\infty}\frac{1 }{2^{n} }+ \sum _{m= 1}^{\infty}\frac{1 }{2^{m} }\le 2 $$
+>    因此$x\in \ell ^{1}$. 但是此时$\left\{ a_{k}\xi _{k} \right\}$的每一项都是非负的, 并且
+>     $$ \sum _{k= 1}^{\infty}a_{k}\xi _{k}\ge \sum _{n = 1}^{\infty}\operatorname{sgn}\left(a_{k_{n}}\right) a_{k_{n}}\frac{1 }{2^{n} }= \sum _{n = 1}^{\infty}\left| a_{k_{n}} \right|\frac{1 }{2^{n} }\ge \sum _{n = 1}^{\infty}1= \infty $$  
+>    与$f\left(x\right)$收敛矛盾. 因此$a\in \ell ^{\infty}$.
+> 
+> 2. 取$\left\{ a_{k} \right\}$的子列$\left\{ a_{k_{n}} \right\}$, 使得$\lim_{n\to \infty}\left| a_{k_{n}} \right| =\left\| a \right\|_{\ell ^{\infty}}$. 令$x_{n}= \left(0,\cdots ,0,\operatorname{sgn}\left(a_{k_{n}}\right),0,\cdots \right)$, 其中第$k_{n}$个位置是$\operatorname{sgn}\left(a_{k_{n}}\right)$, 其余位置为零, 则$\left\| x_{n} \right\|_{\ell ^{1}}= 1$. 而
+>  $$ \left| f\left(x_{n}\right) \right|= a_{k_{n}}\operatorname{sgn}\left(a_{kn}\right)= \left| a_{k_{n}} \right|   $$
+> 因此
+>  $$ \lim_{n\to \infty}\left| f\left(x_{n}\right) \right|  = \sup _{k\ge 1}\left| a_{k} \right| $$  
+> 故
+>  $$ \left\| f \right\|\ge \sup _{k\ge 1}\left| a_{{k}} \right|= \left\| a \right\|_{\ell ^{\infty}}  $$ 
+> 另一方面, 任取$x= \left\{ \xi _{k} \right\}\in \ell ^{1}$, 我们有$\left| a_{k}\xi _{k} \right|\le \left\| a \right\|_{\ell ^{\infty}}\left| \xi _{k} \right|$
+> 于是
+>  $$ \sum _{k= 1}^{\infty}\left| a_{k}\xi _{k} \right|\le \left\| a \right\|_{\ell ^{\infty}}\sum _{k= 1}^{\infty}\left| \xi _{k} \right|= \left\| a \right\|_{\ell ^{\infty}}\left\| x \right\|_{\ell ^{1}}   $$ 
+> 于是
+>  $$ \frac{\left| f\left(x\right) \right|  }{\left\| x \right\|_{\ell ^{1}} }\le \left\| a \right\|_{\ell ^{\infty}} $$ 
+> 这表明$\left\| f \right\|\le \left\| a \right\|_{\ell ^{\infty}}$. 因此$\left\| f \right\|=\left\| a \right\|_{\ell ^{\infty}}$
 
 > [!exercise] Exercise: 8
 > 设 $\{x_n\} \subset L^p[a,b] (1 < p < \infty)$. 证明对于每一个 $y \in L^q[a,b] \left(\frac{1}{p} + \frac{1}{q} = 1\right)$, $\int_a^b x_n(t)y(t)\mathrm{d}t \to 0 \quad (n \to \infty)$, 当且仅当 $\sup_n \| x_n \| < \infty$, 并且对于每一个可测子集 $E \subset [a,b]$, $\int_E x_n(t)\mathrm{d}t \to 0 (n \to \infty)$.
