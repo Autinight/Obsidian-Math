@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW6.md",
+                "file": "20.Cards/Theorems/thm - Lebesgue Differentiation Theorem.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW6"
+              "title": "thm - Lebesgue Differentiation Theorem"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Riesze",
+                "query": "LDT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,17 +231,20 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
-    "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "00.Inbox/ex - Conformally Equivalent Curvature.md",
+    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
     "00.Inbox/pps - Several Representations of Hess.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
     "40.Drafts/2026-01/Daily Draft 2026-01-23.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "00.Inbox/ex - Conformally Equivalent Curvature.md",
-    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/pps - Diagonalize the Curvature Operator.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
@@ -253,9 +257,6 @@
     "00.Inbox/01.Todo List/Functional/pps - Properties of Totally Bounded.md",
     "00.Inbox/01.Todo List/Functional/thm - Characterization of Compact Sets in Metric Space.md",
     "00.Inbox/01.Todo List/Functional/thm - Arzelà.md",
-    "00.Inbox/01.Todo List/Functional/thm - Sequentially Compact and Totally Bounded.md",
-    "00.Inbox/01.Todo List/Functional/dfn - epsilon-net and Totally Bounded.md",
-    "00.Inbox/01.Todo List/Functional/ep - ell^p Space.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
