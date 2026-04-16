@@ -208,13 +208,7 @@
 
 > [!proof] Proof: 
 >  
-> 定义
->  $$ T\left(x\right)= p\left(x\right)-p\left(-x\right) $$
-> 当$\alpha \ge 0$时,
->  $$ T\left(\alpha x\right)= \alpha p\left(x\right)-\alpha p\left(-x\right) $$  
-> 当$\alpha \le 0$时,
->  $$ T\left(\alpha x\right)= \left(-\alpha \right)p\left(-x\right)-\left(-\alpha \right)p\left(x\right)= \alpha \left(p\left(x\right)-\left(-x\right)\right)= \alpha T\left(x\right) $$ 
-> 因此$T$是一个线性泛函.
+>
 
 > [!exercise] Exercise: 10
 > 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列. 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
