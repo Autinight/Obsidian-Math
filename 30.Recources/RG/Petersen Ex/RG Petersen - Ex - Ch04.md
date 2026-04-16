@@ -10,7 +10,7 @@
 - [ ] 4.7.9 Riemannian product：曲率分解、Einstein 条件、Weyl 张量
 - [ ] 4.7.10 warped product 的常曲率条件；双曲空间的两种 warped product 表示
 - [ ] 4.7.12 warped product 的显式曲率公式、$W = 0$、Schouten 的 Codazzi 性质
-- [ ] 4.7.13(4)(5) 球面/双曲空间的 stereographic projection 与共形模型
+- [x] 4.7.13(4)(5) 球面/双曲空间的 stereographic projection 与共形模型
 - [ ] 4.7.14 conformal change 公式：$\tilde{\nabla}$、$\tilde{R}$、$\widetilde{\operatorname{Ric}}$、$\widetilde{\operatorname{scal}}$、$\tilde{W}$
 - [ ] 4.7.17 局部共形平坦、Einstein + LCF $\Rightarrow$ 常曲率、二维等温坐标
 - [ ] 4.7.18 Schouten 判据：局部共形平坦的刻画
