@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise: 1
 > 给定一个 $m \times n$ 阶矩阵 $A$, 定义线性算子 $T: \mathbb{R}^n \to \mathbb{R}^m, x \mapsto Ax$. 试证明: $T$ 的算子范数等于 $A$ 的最大奇异值, 即矩阵 $A^T A$ 的最大特征值的平方根.
 
@@ -168,7 +170,7 @@
 > 设
 >  $$ \varphi = \sum _{i= 1}^{m}\chi _{E_{i}}a_{i} $$ 
 >  
->  $$ \lim_{n\to \infty}\int _{a}^{b}x_{n}\left(t\right) \varphi \left(t\right)\,d t= \lim_{n\to \infty}\sum _{i= 1}^{m}a_{i}\int _{E_{i}}x_{n\left(t\right)}\,d t= 0$$ 
+>  $$ \lim_{n\to \infty}\int _{a}^{b}x_{n}\left(t\right) \varphi \left(t\right)\,d t= \lim_{n\to \infty}\sum _{i= 1}^{m}a_{i}\int _{E_{i}}x_{n}\left(t\right)\,d t= 0$$ 
 >
 >  $$ \begin{aligned} \left| \int _{a}^{b}x_{n}y \right|&\le \left| \int _{a}^{b}x_{n}\varphi  \right|+ \left| \int _{a}^{b}x_{n}\left(\varphi -y\right) \right|\\&\le\left| \int _{a}^{b}x_{n}\varphi  \right|+ \left\| x_{n} \right\|_{L^{p}}\left\| \varphi-y \right\|_{L^{q}}\\&\le \left| \int _{a}^{b}x_{n}\varphi  \right|+ \sup _{n}\left\| x_{n} \right\|\varepsilon    \end{aligned}    $$ 
 > 令$n\to \infty$, 得到
@@ -180,7 +182,10 @@
 >  $$ T_{n}: L^{q}\left[ a,b \right]\to \mathbb{R} ,\quad T_{n}\left(y\right)= \int _{a}^{b}x_{n}\left(t\right)y\left(t\right)\,d t $$ 
 > 则对于每个$y$, 
 >  $$ \lim_{n\to \infty}\left| T_{n}\left(y\right) \right|  = 0$$ 
-> 于是
+> 特别地, 对于每个可测集$E\subseteq \left[ a,b \right]$, 取$y= \chi _{E}$, 得到
+>  $$ \lim_{n\to \infty}\int _{E}x_{n}\left(t\right)\,d t= 0$$
+> 此外, 对于每个$y$, 我们有 
+> 
 >  $$ \sup _{n}\left| T_{n}\left(y\right) \right|< \infty,  $$ 
 > 由Banach-Steinhause原理, 算子$\left\{ T_{n} \right\}$是一致有界的, 即存在$C$, 使得
 >  $$ \left\| T_{n} \right\|\le C,\quad n\in \mathbb{N} \tag{*}  $$ 
@@ -201,6 +206,8 @@
 > 于是$\left\| T_{n} \right\|= \left\| x_{n} \right\|_{L^{p}}$
 > 带入$(*)$, 得到
 >  $$ \sup _{n}\left\| x_{n} \right\|_{L^{p}}\le C< \infty $$ 
+>
+> 
 
 > [!exercise] Exercise: 9
 > 设 $X$ 是 Banach 空间, $p(x)$ 是 $X$ 上的泛函, 满足: 1) $p(x) \geqslant 0$; 2) 当 $\alpha \geqslant 0$ 时, $p(\alpha x) = \alpha p(x)$; 3) $p(x+y) \leqslant p(x) + p(y)$. 并且当 $x, x_n \in X, x_n \to x (n \to \infty)$ 时, $\varliminf\limits_{n} p(x_n) \geqslant p(x)$. 证明存在常数 $M$, 使得
@@ -211,11 +218,11 @@
 >  $$ F_{n}:= \left\{ x\in X: p\left(x\right)\le n \right\} $$
 > 是一个闭集. 由于$X$是Banach空间, 且$X= \bigcup _{n = 1}^{\infty}F_{n}$,  由Baire纲定理, 至少存在一个$n_0$, 使得$\left(F_{n_0}\right)^{\circ}\neq \varnothing$.
 > 即存在开球$B_{r}\left(x_0\right)$, 使得对于任意的$y\in B_{r}\left(x_0\right)$, $p\left(y\right)\le n_0$.
-> 任取$x\in S_{X}$, 则$z:= r\left(x-x_0\right)\in B_{r}\left(x_0\right)$, 
->  $$ x= \frac{1 }{r }z+ x_0 $$ 
->  $$ p\left(x\right)\le p\left(\frac{1 }{r }z\right)+ p\left(x_0\right)= \frac{1 }{r }p\left(z\right)+ x_0\le \frac{n_0 }{r }+ x_0 $$
+> 任取$x\in S_{X}$, 则$z:= x_0+ rx\in B_{r}\left(x_0\right)$, 
+>  $$ x= \frac{1 }{r }\left(z-x_0\right)$$ 
+>  $$ p\left(x\right)= \frac{1 }{r }p\left(z-x_0\right)\le \frac{1 }{r }\left(p\left(z\right)+ p\left(x_0\right)\right)\le \frac{1 }{r }\left(n_0+ p\left(x_0\right)\right) $$
 > 于是对于一般的$x\in X$, 
->  $$ p\left(x\right)= \left\| x \right\|p\left(\frac{x }{ \left\| x \right\|}\right) \le \left(\frac{n_0 }{ r}+ x_0\right)\left\| x \right\|$$  
+>  $$ p\left(x\right)= \left\| x \right\|p\left(\frac{x }{ \left\| x \right\|}\right) \le \frac{1 }{r }\left(n_0+ p\left(x_0\right)\right)\left\| x \right\|$$  
 
 > [!exercise] Exercise: 10
 > 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列 . 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
@@ -223,20 +230,28 @@
 
 > [!proof] Proof: 
 > **构造泛函$p$**
-> 对于每个$n$, 定义
->  $$ T_{n}= \left| x_1^{*}\left(\cdot \right) \right|  + \cdots + \left| x_{n}^{*}\left(\cdot \right) \right| $$
-> 则$T_{n}\in X^{*}$.  对于每个$f\in X^{*}$, 
->  $$ T_{n}\left(f^{*}\right)=\left| f\left(x_1\right) \right|+ \cdots + \left| f\left(x_{n}\right) \right|  $$
->  定义 $p:X\to \mathbb{R}$, 
->  $$ p\left(x\right)= \sup _{n}\left\| T_{n}\left(x\right) \right\| $$ 
+> 对于每个$n$, 定义 $T_{n}:X^{*}\to \mathbb{R}$
+>  $$ T_{n}\left(f\right)= \left| f\left(x_1\right) \right|+ \cdots + \left| f\left(x_{n}\right) \right|   $$
+> 
+>  定义 $p:X^{*}\to \mathbb{R}$, 
+>  $$ p\left(f\right)= \sup _{n}\left| T_{n}\left(f\right) \right|= \sup _{n}T_{n}\left(f\right)  $$ 
 > 
 > **验证Exercise 9中的条件**: 
 > 则显然$p\left(x\right)\ge 0$. 当$\alpha \ge 0$时, 
->  $$ p\left(\alpha x\right)= \sup _{n}\left\| T_{n}\left(\alpha x\right) \right\| $$ 
+>  $$ p\left(\alpha f\right)= \sup _{n}T_{n}\left(\alpha f\right)$$ 
 > 其中
->  $$ T_{n}\left(\alpha x\right)= \sum _{i= 1}^{n}\left| x_{i}^{*}\left(\alpha x\right) \right|  = \sum _{i= 1}^{n}\alpha \left| x_{i}^{*}\left(x\right) \right|= \alpha T_{n}\left(x\right) $$
+>  $$ T_{n}\left(\alpha f\right)= \sum _{i= 1}^{n}\left|\left(\alpha f\right)\left(x_{i}\right) \right|  = \sum _{i= 1}^{n}\alpha \left| f\left(x_{i}\right) \right|= \alpha T_{n}\left(f\right) $$
 > 因此
->  $$ p\left(\alpha x\right)= \sup _{n}\left\| \alpha T_{n}\left(x\right) \right\|= \alpha \sup _{n}\left\| T_{n}\left(x\right) \right\| = \alpha p\left(x\right)$$
-> 并且由$\left| x_{i}^{*}\left(x+ y\right) \right|\le \left| x_{i}^{*}\left(x\right) \right|+ \left| x_{i}^{2}\left(y\right) \right|$, 可知$\left| T_{n}\left(x+ y\right) \right|\le \left| T_{n}\left(x\right) \right|+ \left| T_{n}\left(y\right) \right|$, 进而$p\left(x+ y\right)\le p\left(x\right)+ p\left(y\right)$ .
-> 当$y,y_{n}\in X$, $y_{n}\to y$时, 
->  $$ \liminf_{n\to \infty}T\left(y_{n}\right)=  $$  
+>  $$ p\left(\alpha f\right)= \sup _{n}\left(\alpha T_{n}\left(f\right)\right)= \alpha \sup _{n}T_{n}\left(f\right)= \alpha p\left(f\right)$$
+> 并且由$\left| \left(f_1+ f_2\right)\left(x_{i}\right) \right|\le \left| f_{1}\left(x_{i}\right) \right|+ \left|f_{2}\left(x_{i}\right) \right|$, 可知$T_{n}\left(f_1+ f_2\right)\le T_{n}\left(f_1\right)+ T_{n}\left(f_2\right)$, 进而$p\left(f_1+ f_2\right)\le p\left(f_1\right)+ p\left(f_2\right)$ .
+> 当$f,f_{n}\in X^{*}$, $f_{n}\to f$时, 
+>  $$ \lim_{n\to \infty}T_{k}\left(f_{n}\right)= \lim_{n\to \infty} \sum _{i= 1}^{k}\left| f_{n}\left(x_{i}\right) \right|= \sum _{i= 1}^{k}\left|f_{n}\left(x_{i}\right) \right|= T_{k}\left(f\right)  $$  
+> 对于任意的$\varepsilon > 0$, 存在$N$, 使得$\sup _{1\le k\le N}T_{k}\left(f_{n}\right)\ge \sup _{k}T_{k}\left(f_{n}\right)-\varepsilon$
+>  $$ \begin{aligned} \liminf_{n\to \infty} p\left(f_{n}\right)&= \liminf_{n\to \infty}\sup _{k}T_{k}\left(f_{n}\right)\\&\ge\liminf_{n\to \infty}\sup _{1\le k\le N}T_{k}\left(f_{n}\right)\\&= \sup _{1\le n\le N}\left\{ \lim_{n\to \infty}T_{k}\left(f_{n}\right) \right\}\\&= \sup _{1\le n\le N}T_{k}\left(f\right)\ge \sup _{k}T_{k}\left(f\right)-\varepsilon   \end{aligned}$$ 
+> 令$\varepsilon \to 0^{+ }$, 得到
+>  $$ \liminf_{n\to \infty}p\left(f_{n}\right)\ge \sup _{k}T_{k}\left(f\right)= p\left(f\right) $$ 
+> 于是$p$满足Exercise 9中的三个条件, 存在常数$M$, 使得
+>  $$ \left| p\left(f\right) \right|\le M\left\| f \right\|  ,\quad \forall f\in X$$ 
+> 
+> 因此
+>  $$ \sum _{k= 1}^{\infty}\left| f\left(x_{k}\right) \right|\le M\left\| f \right\|  $$ 

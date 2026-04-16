@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
+                "file": "30.Recources/FA/Course HW/FA - HW6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thm - Lax-Milgram Theorem"
+              "title": "FA - HW6"
             }
           }
         ],
@@ -99,8 +99,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,6 +230,7 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
+    "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -256,7 +256,6 @@
     "00.Inbox/01.Todo List/Functional/thm - Sequentially Compact and Totally Bounded.md",
     "00.Inbox/01.Todo List/Functional/dfn - epsilon-net and Totally Bounded.md",
     "00.Inbox/01.Todo List/Functional/ep - ell^p Space.md",
-    "00.Inbox/01.Todo List/Fourier/thm - Convolution Convergence Theorem with Radially Decreasing Controlled Kernels.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
