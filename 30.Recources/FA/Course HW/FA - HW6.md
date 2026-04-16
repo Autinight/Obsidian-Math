@@ -160,9 +160,61 @@
 > [!exercise] Exercise: 8
 > 设 $\{x_n\} \subset L^p[a,b] (1 < p < \infty)$. 证明对于每一个 $y \in L^q[a,b] \left(\frac{1}{p} + \frac{1}{q} = 1\right)$, $\int_a^b x_n(t)y(t)\mathrm{d}t \to 0 \quad (n \to \infty)$, 当且仅当 $\sup_n \| x_n \| < \infty$, 并且对于每一个可测子集 $E \subset [a,b]$, $\int_E x_n(t)\mathrm{d}t \to 0 (n \to \infty)$.
 
+> [!proof] Proof: 
+>
+> **充分性:**
+> 对于$y\in L^{q}\left[ a,b \right]$, 任取$\varepsilon > 0$, 存在阶梯函数$\varphi$, 使得
+>  $$ \left\| \varphi -y \right\|_{L^{q}}< \varepsilon  $$ 
+> 设
+>  $$ \varphi = \sum _{i= 1}^{m}\chi _{E_{i}}a_{i} $$ 
+>  
+>  $$ \lim_{n\to \infty}\int _{a}^{b}x_{n}\left(t\right) \varphi \left(t\right)\,d t= \lim_{n\to \infty}\sum _{i= 1}^{m}a_{i}\int _{E_{i}}x_{n\left(t\right)}\,d t= 0$$ 
+>
+>  $$ \begin{aligned} \left| \int _{a}^{b}x_{n}y \right|&\le \left| \int _{a}^{b}x_{n}\varphi  \right|+ \left| \int _{a}^{b}x_{n}\left(\varphi -y\right) \right|\\&\le\left| \int _{a}^{b}x_{n}\varphi  \right|+ \left\| x_{n} \right\|_{L^{p}}\left\| \varphi-y \right\|_{L^{q}}\\&\le \left| \int _{a}^{b}x_{n}\varphi  \right|+ \sup _{n}\left\| x_{n} \right\|\varepsilon    \end{aligned}    $$ 
+> 令$n\to \infty$, 得到
+>  $$ \limsup_{n\to \infty}\left| \int _{a}^{b}x_{n}\left(t\right)y \left(t\right) \,d t \right| \le \sup _{n}\left\| x_{n} \right\|\varepsilon $$
+> 令$\varepsilon \to 0^{+ }$, 得到
+>  $$ \lim_{n\to \infty}\int _{a}^{b}x_{n}\left(t\right)y\left(t\right)\,d t= 0 $$  
+>
+> **必要性**: 定义
+>  $$ T_{n}: L^{q}\left[ a,b \right]\to \mathbb{R} ,\quad T_{n}\left(y\right)= \int _{a}^{b}x_{n}\left(t\right)y\left(t\right)\,d t $$ 
+> 则对于每个$y$, 
+>  $$ \lim_{n\to \infty}\left| T_{n}\left(y\right) \right|  = 0$$ 
+> 于是
+>  $$ \sup _{n}\left| T_{n}\left(y\right) \right|< \infty,  $$ 
+> 由Banach-Steinhause原理, 算子$\left\{ T_{n} \right\}$是一致有界的, 即存在$C$, 使得
+>  $$ \left\| T_{n} \right\|\le C,\quad n\in \mathbb{N} \tag{*}  $$ 
+>
+>  **验证$T_{n}$的算子范数就是$\left\| x_{n} \right\|_{L^{p}}$**
+>
+> 对于任意的$y\in L^{q}$, 我们有
+>  $$ \left| T_{n}\left(y\right) \right|\le \left\| x_{n}y \right\|_{L^{1}}\le \left\| x_{n} \right\|_{L^{p}}\left\| y \right\|_{L^{q}}  $$ 
+> 这表明
+>  $$ \left\| T _{n}\right\|\le \left\| x_{n} \right\|_{L^{p}} $$ 
+> 另一方面, 取$y_{n}\left(t\right)= \operatorname{sgn}\left(x_{n}\right)\left(x_{n}\left(t\right)\right)^{p-1}$
+>  $$ \left\| y_{n} \right\|_{L^{q}}=  \left\| \left(x_{n}\right) ^{p-1}\right\|_{L^{q}}= \left| \int \left| x_{n} \right|^{\left(p-1\right)q}  \right|^{\frac{1}{q}}= \left| \int \left| x_{n} \right|^{p}  \right|^{\frac{1}{q}}= \left\| x_{n} \right\| _{L^{p}}^{\frac{p }{q }}< \infty  $$ 
+>
+>  因此$y_{n}\in L^{q}$. 
+>
+>
+>  $$ \left\| T_{n} \right\| \ge \frac{\left| T_{n}y_{n} \right|  }{\left\| y_{n} \right\|_{L^{q}} }= \frac{\left\| x_{n}^{p} \right\|_{L^{1}} }{\left\| x_{n} \right\|_{L^{p}}^{\frac{p}{q}} }= \frac{\left\| x_{n} \right\|_{L^{p}}^{p} }{ \left\| x_{n} \right\|^{\frac{p}{q}}_{L^{p}}} = \left\| x_{n} \right\|_{L^{p}}^{p\left(1-\frac{1 }{ q}\right)}=\left\| x_{n} \right\|_{L^{p}} $$ 
+> 于是$\left\| T_{n} \right\|= \left\| x_{n} \right\|_{L^{p}}$
+> 带入$(*)$, 得到
+>  $$ \sup _{n}\left\| x_{n} \right\|_{L^{p}}\le C< \infty $$ 
+
 > [!exercise] Exercise: 9
 > 设 $X$ 是 Banach 空间, $p(x)$ 是 $X$ 上的泛函, 满足: 1) $p(x) \geqslant 0$; 2) 当 $\alpha \geqslant 0$ 时, $p(\alpha x) = \alpha p(x)$; 3) $p(x+y) \leqslant p(x) + p(y)$. 并且当 $x, x_n \in X, x_n \to x (n \to \infty)$ 时, $\varliminf\limits_{n} p(x_n) \geqslant p(x)$. 证明存在常数 $M$, 使得
 > $$ p(x) \leqslant M \| x \| \quad \quad (x \in X). $$
+
+> [!proof] Proof: 
+>  
+> 定义
+>  $$ T\left(x\right)= p\left(x\right)-p\left(-x\right) $$
+> 当$\alpha \ge 0$时,
+>  $$ T\left(\alpha x\right)= \alpha p\left(x\right)-\alpha p\left(-x\right) $$  
+> 当$\alpha \le 0$时,
+>  $$ T\left(\alpha x\right)= \left(-\alpha \right)p\left(-x\right)-\left(-\alpha \right)p\left(x\right)= \alpha \left(p\left(x\right)-\left(-x\right)\right)= \alpha T\left(x\right) $$ 
+> 因此$T$是一个线性泛函.
 
 > [!exercise] Exercise: 10
 > 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列. 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
