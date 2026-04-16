@@ -210,9 +210,33 @@
 >  由于$p$是下半连续的, 则对于每个$n$, 
 >  $$ F_{n}:= \left\{ x\in X: p\left(x\right)\le n \right\} $$
 > 是一个闭集. 由于$X$是Banach空间, 且$X= \bigcup _{n = 1}^{\infty}F_{n}$,  由Baire纲定理, 至少存在一个$n_0$, 使得$\left(F_{n_0}\right)^{\circ}\neq \varnothing$.
-> 即存在开球$B_{r}\left(x_0\right)$, 使得对于任意的$y\in B_{r}\left(x_0\right)$, $p\left(y\right)\le n$.,
->
+> 即存在开球$B_{r}\left(x_0\right)$, 使得对于任意的$y\in B_{r}\left(x_0\right)$, $p\left(y\right)\le n_0$.
+> 任取$x\in S_{X}$, 则$z:= r\left(x-x_0\right)\in B_{r}\left(x_0\right)$, 
+>  $$ x= \frac{1 }{r }z+ x_0 $$ 
+>  $$ p\left(x\right)\le p\left(\frac{1 }{r }z\right)+ p\left(x_0\right)= \frac{1 }{r }p\left(z\right)+ x_0\le \frac{n_0 }{r }+ x_0 $$
+> 于是对于一般的$x\in X$, 
+>  $$ p\left(x\right)= \left\| x \right\|p\left(\frac{x }{ \left\| x \right\|}\right) \le \left(\frac{n_0 }{ r}+ x_0\right)\left\| x \right\|$$  
 
 > [!exercise] Exercise: 10
 > 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列 . 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
 > $$ \sum_{k=1}^\infty \mid f(x_k) \mid \leqslant M \| f \|. $$
+
+> [!proof] Proof: 
+> **构造泛函$p$**
+> 对于每个$n$, 定义
+>  $$ T_{n}= \left| x_1^{*}\left(\cdot \right) \right|  + \cdots + \left| x_{n}^{*}\left(\cdot \right) \right| $$
+> 则$T_{n}\in X^{*}$.  对于每个$f\in X^{*}$, 
+>  $$ T_{n}\left(f^{*}\right)=\left| f\left(x_1\right) \right|+ \cdots + \left| f\left(x_{n}\right) \right|  $$
+>  定义 $p:X\to \mathbb{R}$, 
+>  $$ p\left(x\right)= \sup _{n}\left\| T_{n}\left(x\right) \right\| $$ 
+> 
+> **验证Exercise 9中的条件**: 
+> 则显然$p\left(x\right)\ge 0$. 当$\alpha \ge 0$时, 
+>  $$ p\left(\alpha x\right)= \sup _{n}\left\| T_{n}\left(\alpha x\right) \right\| $$ 
+> 其中
+>  $$ T_{n}\left(\alpha x\right)= \sum _{i= 1}^{n}\left| x_{i}^{*}\left(\alpha x\right) \right|  = \sum _{i= 1}^{n}\alpha \left| x_{i}^{*}\left(x\right) \right|= \alpha T_{n}\left(x\right) $$
+> 因此
+>  $$ p\left(\alpha x\right)= \sup _{n}\left\| \alpha T_{n}\left(x\right) \right\|= \alpha \sup _{n}\left\| T_{n}\left(x\right) \right\| = \alpha p\left(x\right)$$
+> 并且由$\left| x_{i}^{*}\left(x+ y\right) \right|\le \left| x_{i}^{*}\left(x\right) \right|+ \left| x_{i}^{2}\left(y\right) \right|$, 可知$\left| T_{n}\left(x+ y\right) \right|\le \left| T_{n}\left(x\right) \right|+ \left| T_{n}\left(y\right) \right|$, 进而$p\left(x+ y\right)\le p\left(x\right)+ p\left(y\right)$ .
+> 当$y,y_{n}\in X$, $y_{n}\to y$时, 
+>  $$ \liminf_{n\to \infty}T\left(y_{n}\right)=  $$  
