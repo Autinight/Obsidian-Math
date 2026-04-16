@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Theorems/thm - Lebesgue Differentiation Theorem.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thm - Lebesgue Differentiation Theorem"
+              "title": "HA - HW2.5 - 2"
             }
           }
         ],
@@ -99,8 +99,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,11 +230,12 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "20.Cards/Theorems/thm - Lebesgue Differentiation Theorem.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "00.Inbox/ex - Conformally Equivalent Curvature.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -256,7 +256,6 @@
     "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
     "00.Inbox/01.Todo List/Functional/pps - Properties of Totally Bounded.md",
     "00.Inbox/01.Todo List/Functional/thm - Characterization of Compact Sets in Metric Space.md",
-    "00.Inbox/01.Todo List/Functional/thm - Arzelà.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
