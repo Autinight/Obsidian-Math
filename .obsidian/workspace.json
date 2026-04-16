@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Conformally Equivalent Curvature.md",
+                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Conformally Equivalent Curvature"
+              "title": "RG Petersen - Ex - Ch04"
             }
           }
         ],
@@ -230,12 +230,17 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
-    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "00.Inbox/pps - Several Representations of Hess.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
+    "40.Drafts/2026-01/Daily Draft 2026-01-23.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "00.Inbox/ex - Conformally Equivalent Curvature.md",
+    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/pps - Diagonalize the Curvature Operator.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
     "30.Recources/DM/Course HW/DM - Review of HW4.md",
@@ -243,7 +248,6 @@
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/ep - Hopf Fibration.md",
-    "00.Inbox/pps - Several Representations of Hess.md",
     "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
     "00.Inbox/01.Todo List/Functional/pps - Properties of Totally Bounded.md",
     "00.Inbox/01.Todo List/Functional/thm - Characterization of Compact Sets in Metric Space.md",
@@ -253,11 +257,7 @@
     "00.Inbox/01.Todo List/Functional/ep - ell^p Space.md",
     "00.Inbox/01.Todo List/Fourier/thm - Convolution Convergence Theorem with Radially Decreasing Controlled Kernels.md",
     "00.Inbox/01.Todo List/Functional",
-    "00.Inbox/01.Todo List/han-lin/未命名.md",
     "00.Inbox/01.Todo List/Fourier",
-    "00.Inbox/01.Todo List/Question-List.md",
-    "00.Inbox/01.Todo List/note- 导数的系谱图.md",
-    "00.Inbox/01.Todo List/Note List.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
