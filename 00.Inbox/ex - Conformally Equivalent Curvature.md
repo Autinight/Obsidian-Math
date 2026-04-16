@@ -11,19 +11,31 @@ status: todo
 priority:
 tags: []
 ---
+`
 
- $$\widetilde{R}\left(X,Y\right)Z= \widetilde{\nabla}_{X}\widetilde{\nabla}_{Y}Z-\widetilde{\nabla}_{Y}\widetilde{\nabla}_{X}Z-\widetilde{\nabla}_{\left[X,Y \right]}Z $$ 
- $$ \widetilde{R}\left(\partial _{i},\partial _{j}\right)\partial _{k}= \widetilde{\nabla}_{\partial _{i}}\widetilde{\nabla}_{\partial _{j}}\partial _{k}-\widetilde{\nabla }_{\partial _{j}}\widetilde{\nabla}_{\partial _{i}}\partial _{k} $$ 
-  $$ \begin{aligned} \widetilde{\nabla}_{X}\widetilde{\nabla}_{Y}Z&= \widetilde{\nabla}_{X}\left(\nabla _{Y}Z+ \left(D_{Y}\psi \right)Z+ \left(D_{Z}\psi \right)Y-g\left(Y,Z\right)\nabla \psi \right)\\&= \nabla _{X}\nabla _{Y}Z+ \left(D_{X}D_{Y}\psi \right)Z+ \left(D_{X}D_{Z}\psi \right)Y-Xg\left(Y,Z\right)\nabla \psi  \end{aligned} $$ 
- $$ \widetilde{\nabla}_{Y}\widetilde{\nabla}_{X}Z= \nabla _{Y}\nabla _{X}Z+ \left(D_{Y}D_{X}\psi \right)Z+ \left(D_{Y}D_{Z}\psi \right)X-Yg\left(X,Z\right)\nabla \psi  $$ 
+`
 
- $$ \operatorname{Hess}\psi =  $$ 
+`
+
+`
+
+`
 
 
-  $$ \widetilde{R}\left(\partial _{i},\partial _{j}\right)\partial _{k}= R\left(\partial _{i},\partial _{j}\right)\partial _{k}+ \left(\partial _{i}\partial _{k}\psi \right)\partial _{j}-\left(\partial _{j}\partial _{k}\psi \right)\partial _{i}- g\left(\partial _{j},\nabla _{\partial _{i}}\partial _{k}\right)\nabla \psi + g\left(\partial _{i},\nabla _{\partial _{j}}\partial _{k}\right)\nabla \psi $$ 
 
- $$ \begin{aligned} e^{-2\psi } \widetilde{R}\left(\partial _{i},\partial _{j},\partial _{k},\partial _{l}\right)&=R\left(\partial _{i},\partial _{j},\partial _{k},\partial _{l}\right)+ \left(\partial _{i}\partial _{k}\psi \right)g\left(\partial _{j},\partial _{l}\right)-\left(\partial _{j}\partial _{k}\psi \right)g\left(\partial _{i},\partial _{l}\right)\\&-g\left(\partial _{j},\nabla _{\partial _{i}}\partial _{k}\right)\left(d\psi \right)\left(\partial _{l}\right)+ g\left(\partial _{i},\nabla _{\partial _{j}}\partial _{k}\right)\left(d\psi \right)\left(\partial _{l}\right) \end{aligned}$$ 
+ $$ \widetilde{\nabla}_{\partial _{i}}\widetilde{\nabla}_{\partial _{j}}\partial _{k}= \nabla _{\partial _{i}}\left(\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)+ \left(\partial _{i}\psi \right)\left(\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)+ \left(D_{\widetilde{\nabla}_{\partial j}\partial _{k}} \psi \right)\partial _{i}-g\left(\partial _{i},\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)\nabla \psi  $$ 
 
+ $$ \widetilde{\nabla}_{\partial _{j}}\partial _{k}= \nabla _{\partial _{j}}\partial _{k}+ \left(\partial _{j}\psi \right)\partial _{k}+ \left(\partial _{k}\psi \right)\partial _{j}-g_{jk}\nabla \psi  $$ 
+
+ $$ \nabla _{\partial _{i}}\left(\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)= \nabla _{\partial _{i}}\nabla _{\partial _{j}}\partial _{k}+ \left(\partial _{i}\partial _{j}\psi \right)\partial _{k}+ \left(\partial _{j}\psi \right)\nabla _{\partial _{i}}\partial _{k}+ \left(\partial _{i}\partial _{k}\psi \right)\partial _{j}+ \left(\partial _{k}\psi \right)\nabla _{\partial _{i}}\partial _{j}-\partial _{i}g_{jk}\nabla \psi -g_{jk}\nabla _{\partial _{i}}\nabla \psi  $$ 
+
+  $$ \begin{aligned} \nabla _{\partial _{i}}\left(\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)-\nabla _{\partial _{j}}\left(\widetilde{\nabla}_{\partial _{i}}\partial _{k}\right)&= R\left(\partial _{i},\partial _{j}\right)\partial _{k}+ \left(\partial _{j}\psi \right)\nabla _{\partial _{i}}\partial _{k}-\left(\partial _{i}\psi \right)\nabla _{\partial _{j}}\partial _{k}+ \left(\partial _{i}\partial _{k}\psi \right)\partial _{j}-\left(\partial _{j}\partial _{k}\psi \right)\partial _{i}\\&-\partial _{i}g_{jk}\nabla \psi + \partial _{j}g_{ik}\nabla \psi -g_{jk}\nabla _{\partial _{i}}\nabla \psi + g_{ik}\nabla _{\partial _{j}}\nabla \psi \end{aligned} $$ 
+
+   $$ \left(\partial _{i}\psi \right)\left(\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)= \left(\partial _{i}\psi \right)\left(\nabla _{\partial _{j}}\partial _{k}\right)+ \left(\partial _{i}\psi \right)\left(\partial _{j}\psi \right)\partial _{k}+ \left(\partial _{i}\psi \right)\left(\partial _{k}\psi \right)\partial _{j}-g_{jk}\nabla \psi  $$ 
+
+  $$ \begin{aligned} g\left(\partial _{i},\widetilde{\nabla}_{\partial _{j}}\partial _{k}\right)\nabla \psi &= g\left(\partial _{i},\nabla _{\partial _{j}}\partial _{k}\right)\nabla \psi + g\left(\partial _{i}, \left(\partial _{j}\psi \right)\partial _{k}+ \left(\partial _{k}\psi \right)\partial _{j}-g_{jk}\nabla \psi \right)\nabla \psi \\&=g\left(\partial _{i},\nabla _{\partial _{j}}\partial _{k}\right)\nabla \psi + \left(\partial _{j}\psi \right)g_{ik}\nabla \psi + \left(\partial _{k}\psi \right)g_{ij}\nabla \psi -g_{jk}\left(\partial _{i}\psi \right)\nabla \psi  \end{aligned} $$ 
+
+ $$ \begin{aligned} D_{\widetilde{\nabla}_{\partial _{j}}\partial _{k}}\psi &=\left(\nabla _{\partial _{j}}\partial _{k}\right)\psi + \left(\partial _{j}\psi \right)\left(\partial _{k}\psi \right)+ \left(\partial _{k}\psi \right)\left(\partial _{j}\psi \right)-g_{jk}\left(\nabla \psi \right)\psi\\&=  \end{aligned} $$ 
 
 
 
