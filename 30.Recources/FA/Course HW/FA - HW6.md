@@ -207,9 +207,12 @@
 > $$ p(x) \leqslant M \| x \| \quad \quad (x \in X). $$
 
 > [!proof] Proof: 
->  
+>  由于$p$是下半连续的, 则对于每个$n$, 
+>  $$ F_{n}:= \left\{ x\in X: p\left(x\right)\le n \right\} $$
+> 是一个闭集. 由于$X$是Banach空间, 且$X= \bigcup _{n = 1}^{\infty}F_{n}$,  由Baire纲定理, 至少存在一个$n_0$, 使得$\left(F_{n_0}\right)^{\circ}\neq \varnothing$.
+> 即存在开球$B_{r}\left(x_0\right)$, 使得对于任意的$y\in B_{r}\left(x_0\right)$, $p\left(y\right)\le n$.,
 >
 
 > [!exercise] Exercise: 10
-> 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列. 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
+> 设 $\{x_k\}$ 是 Banach 空间 $X$ 中的点列 . 证明如果对于每一个 $f \in X^*$, $\sum\limits_{k=1}^\infty \mid f(x_k) \mid < \infty$, 则存在常数 $M$, 使得对于每一个 $f \in X^*$
 > $$ \sum_{k=1}^\infty \mid f(x_k) \mid \leqslant M \| f \|. $$
