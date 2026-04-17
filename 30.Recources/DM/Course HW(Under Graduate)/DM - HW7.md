@@ -46,10 +46,20 @@
 > 设$\varphi:\mathbb{R} \times \mathbb{R} ^{2}\to \mathbb{R} ^{2}$是$X$所生成的单参数变换群, 即$\varphi ^{\left(x,y\right)}\left(t\right)= \varphi \left(t,\left(x,y\right)\right)$则
 > 设
 >  $$ \varphi _{t}\left(x,y\right)= \varphi ^{\left(x,y\right)}\left(t\right)= \left(x\left(t\right),y\left(t\right)\right) $$ 
+> 
 > 则由
 >   $$ \varphi ^{\left(x,y\right)}\left(t+ s\right) = \varphi ^{\varphi _{t}\left(x,y\right)}\left(s\right)$$ 
 > 可得
->  $$ \left(\varphi ^{\left(x,y\right)}\right) ^{\prime} \left(t\right)= \left(\varphi ^{\varphi _{t}\left(x,y\right)}\right)^{\prime} \left(0\right)= X_{\varphi _{t}\left(x,y\right)}$$ 
+>  $$ \left(\varphi ^{\left(x,y\right)}\right) ^{\prime} \left(t\right)= \left(\varphi ^{\varphi _{t}\left(x,y\right)}\right)^{\prime} \left(0\right)= X_{\varphi _{t}\left(x,y\right)}= \left(y\left(t\right),-x\left(t\right)\right)$$ 
+> 另一方面
+>  $$ \left(\varphi ^{\left(x,y\right)}\right)^{\prime} \left(t\right)= \left(x^{\prime} \left(t\right),y^{\prime} \left(t\right)\right) $$ 
+> 得到
+>  $$ \begin{cases} x^{\prime} \left(t\right)= y\left(t\right)\\y^{\prime} \left(t\right)= -x\left(t\right) \end{cases} $$ 
+> 并且$x\left(0\right)= x$, $y\left(0\right)= y$, 进而$x^{\prime} \left(0\right)= y$, $y^{\prime} \left(0\right)= -x$. 得到
+>  $$ \begin{cases} x\left(t\right)= x\cos t+ y\sin t\\y\left(t\right)= y\cos t-x\sin t \end{cases}  $$ 
+> 于是
+>  $$ \varphi \left(t,\left(x,y\right)\right)= \left(x\cos t+ y\sin t,y\cos t-x\sin t\right) $$ 
+> 为$X$所生成的单参数变换群.
 
 > [!exercise] Exercise: 3.25
 > 假定 $X$ 是 $n$ 维光滑流形 $M$ 上的光滑切向量场, 并且它的支撑集
