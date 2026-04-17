@@ -66,3 +66,5 @@
 > $$ \operatorname{Supp}(X) = \overline{\{p \in M : X(p) \neq 0\}} $$
 > 是紧致的. 证明: 存在作用在光滑流形 $M$ 上的单参数变换群 $\varphi: \mathbb{R} \times M \to M$, 使得它所诱导的光滑切向量场是 $X$.
 
+> [!proof] Proof: 
+> 设$\left(U,\varphi \right)$是$M$上的坐标卡.
