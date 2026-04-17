@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise: 3.18
 > 设 $M=GL(2,\mathbb{R})$. 定义 $\mathbb{R}$ 在 $M$ 上的作用为
 > $$\theta(t,A)=\begin{pmatrix}1&t\\0&1\end{pmatrix}\cdot A,\quad\forall A\in M.$$
@@ -70,4 +72,21 @@
 > 由流的基本定理, 存在唯一的$X$的光滑极大流$\varphi :\mathscr{D}\to M$. 这里$\mathscr{D}$是开集, 使得每个$\mathscr{D}^{\left(p\right)}:= \left\{ t\in \mathbb{R} : \left(t,p\right)\in \mathscr{D} \right\}$是包含了零的开区间. 
 > 我们需要证明对于每个$p\in M$, $\mathscr{D}^{\left(p\right)}= \mathbb{R}$.
 >
->  任取$p\in \operatorname{supp}\left(X\right)$, 则$\left(0,p\right)\in \mathscr{D}$. 由于$\mathscr{D}$是开集, 
+>  任取$p\in \operatorname{supp}\left(X\right)$, 则$\left(0,p\right)\in \mathscr{D}$. 由于$\mathscr{D}$是开集, 存在$\varepsilon _{p}> 0$, 以及$p$在$M$中的开邻域$U_{p}$, 使得$\left(-\varepsilon _{p},\varepsilon _{p}\right)\times U_{p}\subseteq \mathscr{D}$. 由于 $\operatorname{supp}X$是紧的,  存在有限多个$p_1,\cdots ,p_{m}$, 使得
+>  $$ \operatorname{supp}\left(X\right)\subseteq \bigcup _{i= 1}^{m}U_{p_{i}} $$ 
+> 令
+>  $$ \varepsilon = \min \left\{ \varepsilon _{p_1},\cdots ,\varepsilon _{p_{m}} \right\} $$ 
+>  $\left(-\varepsilon ,\varepsilon \right)\times \operatorname{supp}\left(X\right)\subseteq \mathscr{D}$.  对于$p\not \in \operatorname{supp}\left(X\right)$, 由于$X_{p}= 0$, $\varphi ^{\left(p\right)}\left(t\right):\mathbb{R} \to M$, $\varphi ^{\left(p\right)}\left(t\right)=p$是$X$的过$p$的积分曲线. 而极大积分曲线唯一, 且定义域为$\mathscr{D}^{\left(p\right)}$, 因此$\mathscr{D}^{\left(p\right)}= \mathbb{R}(p\not \in \operatorname{supp}X)$.
+> 我们得到$\left(-\varepsilon ,\varepsilon \right)\times M\subseteq \mathscr{D}$.
+>
+> 最后, 断言对于任意的$p\in M$, $\mathscr{D}^{\left(p\right)}= \mathbb{R}$. 若不然, 不妨设$\mathscr{D}^{\left(p\right)}$有上界$a_{p}$,  即$\varphi ^{\left(p\right)}:\mathscr{D}^{\left(p\right)}\to M$是从$p$出发的$X$的积分曲线. 令$\tilde{p}= \varphi ^{\left(p\right)}\left(a_{p}-\frac{\varepsilon  }{2 }\right)$, 则 $\left(-\varepsilon ,\varepsilon \right)\subseteq D^{\left(\tilde{p}\right)}$, 即$\varphi ^{\left(\tilde{p}\right)}$至少在$\left(-\varepsilon ,\varepsilon \right)$上有定义. 但是定义
+>  $$ \psi ^{\left(p\right)}\left(t\right)= \begin{cases} \varphi ^{\left(p\right)}\left(t\right),&t\in \mathscr{D}^{\left(p\right)}\\\varphi ^{\left(\tilde{p}\right)}\left(t-a_{p}+ \frac{\varepsilon  }{2 }\right),&a_{p}-\frac{3\varepsilon  }{2 }<  t< a_{p}+ \frac{\varepsilon  }{2 }\end{cases}  $$ 
+> $\mathscr{D}^{\left(p\right)}\cap \left(a_{p}-\frac{3\varepsilon  }{2 },a_{p}+ \frac{\varepsilon  }{2 }\right)$非空, 且在其上, 由群性质
+>  $$ \varphi ^{\left(\tilde{p}\right)}\left(t-a_{p}+ \frac{\varepsilon  }{2 }\right)= \varphi \left(t-a_{p}+ \frac{\varepsilon  }{2 }, \tilde{p}\right)= \varphi \left(t-a_{p}+ \frac{\varepsilon  }{2 }, \varphi \left(a_{p}-\frac{\varepsilon  }{2 },p\right)\right)= \varphi ^{\left(p\right)}\left(t\right) $$ 
+> 故$\psi ^{\left(p\right)}\left(t\right)$是良定义且光滑的. 且在$a_{p}-\frac{3\varepsilon  }{2 }< t< a_{p}+ \frac{\varepsilon  }{2 }$上, 
+>  $$ \left(\psi ^{\left(p\right)}\right) ^{\prime} \left(t\right)= \left(\varphi ^{\left(\tilde{p}\right)}\right)^{\prime} \left(t-a_{p}+ \frac{\varepsilon  }{2 }\right)= X_{\varphi ^{\left(\tilde{p}\right)}\left(t-a_{p}+ \frac{\varepsilon  }{2 }\right)}= X_{\psi ^{\left(p\right)}\left(t\right)}$$ 
+> 在$\mathscr{D}^{\left(p\right)}$上
+>  $$ \left(\psi ^{\left(p\right)}\right)^{\prime} \left(t\right)= \left(\varphi ^{\left(p\right)}\right)^{\prime} \left(t\right)= X_{\varphi ^{\left(p\right)}\left(t\right)}= X_{\psi ^{\left(p\right)}\left(t\right)} $$ 
+> 因此$\psi ^{\left(p\right)}$是以$p$为原点的$X$的积分曲线, 这与$\varphi ^{\left(p\right)}$是极大积分曲线矛盾. 因此断言成立, $\mathscr{D}^{\left(p\right)}= \mathbb{R}$.
+>
+> 最终, 我们知道$\mathscr{D}= \mathbb{R} \times M$, 给出了$X$的全局流(即单参数变换群)$\varphi :\mathbb{R} \times M\to M$.

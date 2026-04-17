@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+                "file": "20.Cards/Theorems/thm - Fundamental Theorem on Flows.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch04"
+              "title": "thm - Fundamental Theorem on Flows"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "lem - Uniform Time Lemma"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,9 +227,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3ff8647d9b2b80a",
+  "active": "bb6722d12b58c397",
   "lastOpenFiles": [
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
     "20.Cards/Definitions/dfn - Complete Vector Field.md",
     "20.Cards/Propositions/pps - Global Flow as family of Integral Curves for Infinitesimal Generator.md",
     "20.Cards/Theorems/thm - Fundamental Theorem on Flows.md",
@@ -245,7 +246,6 @@
     "20.Cards/Definitions/dfn - Infinitesimal Generator of a Glowbal Flow.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
     "20.Cards/Theorems/thm - Lebesgue Differentiation Theorem.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
@@ -256,7 +256,6 @@
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
     "40.Drafts/2026-01/Daily Draft 2026-01-23.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
