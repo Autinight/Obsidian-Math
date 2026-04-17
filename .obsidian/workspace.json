@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+                "file": "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DM - HW7"
+              "title": "lem - Uniform Time Lemma"
             }
           }
         ],
@@ -230,17 +230,19 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "20.Cards/Definitions/dfn - Complete Vector Field.md",
+    "20.Cards/Propositions/pps - Global Flow as family of Integral Curves for Infinitesimal Generator.md",
+    "20.Cards/Theorems/thm - Fundamental Theorem on Flows.md",
+    "20.Cards/Definitions/dfn - Flow Domain and Flow.md",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
-    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "20.Cards/Definitions/dfn - Global Flow.md",
-    "20.Cards/Definitions/dfn - Flow Domain and Flow.md",
-    "20.Cards/Theorems/thm - Fundamental Theorem on Flows.md",
     "20.Cards/Definitions/dfn - Infinitesimal Generator of a Glowbal Flow.md",
-    "20.Cards/Propositions/pps - Global Flow as family of Integral Curves for Infinitesimal Generator.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -255,8 +257,6 @@
     "40.Drafts/2026-04/Daily Draft 2026-04-09.md",
     "40.Drafts/2026-01/Daily Draft 2026-01-23.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
-    "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -265,7 +265,6 @@
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "40.Drafts/2026-04",

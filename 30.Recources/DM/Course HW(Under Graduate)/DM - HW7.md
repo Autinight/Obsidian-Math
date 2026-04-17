@@ -67,4 +67,7 @@
 > 是紧致的. 证明: 存在作用在光滑流形 $M$ 上的单参数变换群 $\varphi: \mathbb{R} \times M \to M$, 使得它所诱导的光滑切向量场是 $X$.
 
 > [!proof] Proof: 
-> 设$\left(U,\varphi \right)$是$M$上的坐标卡.
+> 由流的基本定理, 存在唯一的$X$的光滑极大流$\varphi :\mathscr{D}\to M$. 这里$\mathscr{D}$是开集, 使得每个$\mathscr{D}^{\left(p\right)}:= \left\{ t\in \mathbb{R} : \left(t,p\right)\in \mathscr{D} \right\}$是包含了零的开区间. 
+> 我们需要证明对于每个$p\in M$, $\mathscr{D}^{\left(p\right)}= \mathbb{R}$.
+>
+>  任取$p\in \operatorname{supp}\left(X\right)$, 则$\left(0,p\right)\in \mathscr{D}$. 由于$\mathscr{D}$是开集, 
