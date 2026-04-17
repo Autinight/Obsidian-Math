@@ -23,8 +23,33 @@
 > $$\varphi(t, (x, y, z))=(x\cos at+y\sin at, -x\sin at+y\cos at, z+bt),$$
 > 其中 $a, b$ 是两个取定的实数. 证明: $\varphi:\mathbb{R}\times M\to M$ 是作用在 $M$ 上的一个单参数变换群, 并且求它的诱导向量场. 
 
+> [!proof] Proof: 
+> 1. 易见$\varphi$是一个光滑映射
+> 2.  $$ \varphi \left(0,\left(x,y,z\right)\right)= \left(x\cdot 1+ y\cdot 0,-x\cdot 0+ y\cdot 1,z+ 0\right)= \left(x,y,z\right) $$
+> 3. 注意到
+>    $$ \varphi \left(t,\left(x,y,z\right)\right)^{T}= \begin{pmatrix}  \cos at &\sin at & 0\\-\sin  at &\cos at & 0\\0& 0&1 \end{pmatrix}\begin{pmatrix} x\\y\\z \end{pmatrix} + \begin{pmatrix} 0\\0\\bt \end{pmatrix}$$  
+>    记$R\left(\theta \right)= \begin{pmatrix} \cos \theta &\sin \theta \\-\sin \theta &\cos \theta  \end{pmatrix}$
+>    则 
+>    $$ \begin{aligned} \varphi \left(t_1+ t_2,\left(x,y,z\right)\right)^{\top}&= \begin{pmatrix} R\left(at_1+ at_2\right)&0\\0&1 \end{pmatrix}\begin{pmatrix} x\\y\\z \end{pmatrix}+ \begin{pmatrix} 0\\0\\b\left(t_1+ t_2\right) \end{pmatrix}\\&= \begin{pmatrix} R\left(at_1\right)&0\\0&1 \end{pmatrix}\begin{pmatrix} R\left(at_2\right)&0\\0&1 \end{pmatrix}\begin{pmatrix} x\\y\\z \end{pmatrix}+ \begin{pmatrix} 0\\0\\bt_1 \end{pmatrix} + \begin{pmatrix} 0\\0\\bt_2 \end{pmatrix}\\&= \begin{pmatrix} R\left(at_1\right)&0\\0&1 \end{pmatrix}\left(\begin{pmatrix} R\left(at_2\right)&0\\0&1 \end{pmatrix}\begin{pmatrix} x\\y\\z \end{pmatrix}+ \begin{pmatrix} 0\\0\\bt_2 \end{pmatrix}\right)+ \begin{pmatrix} 0\\0\\bt_1 \end{pmatrix}\\&= \varphi \left(t_1, \varphi \left(t_2,\left(x,y,z\right)\right)\right)^{T}\end{aligned} $$ 
+>       因此
+>       $$ \varphi \left(t_1+ t_2,\left(x,y,z\right)\right)= \varphi \left(t_1,\varphi \left(t_2,\left(x,y,z\right)\right)\right) $$ 
+>
+> 以上表明$\varphi$是$M$上的一个单参数变换群
+> 设$p_0= \left(x_0,y_0,z_0\right)$, 则$p_0$处的诱导向量场为
+>  $$ \begin{aligned} X_{p_0}&= \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\left(\varphi \left(t,p_0\right)\right)= \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\left(x_0 \cos at+ y_0\sin at,-x_0\sin at+ y_0\cos at,z_0+ bt\right)\\&=\left(ay_0,-ax_0,b\right) \in \mathbb{R} ^{3}\simeq T_{p_0}\mathbb{R} ^{3}\end{aligned} $$ 
+> 
+
 > [!exercise] Exercise: 3.21
 > 设 $X=y\frac{\partial}{\partial x}-x\frac{\partial}{\partial y}$ 是 $\mathbb{R}^2$ 上的光滑切向量场, 求 $X$ 所生成的单参数变换群.
+
+> [!proof] Proof: 
+> 设$\varphi:\mathbb{R} \times \mathbb{R} ^{2}\to \mathbb{R} ^{2}$是$X$所生成的单参数变换群, 即$\varphi ^{\left(x,y\right)}\left(t\right)= \varphi \left(t,\left(x,y\right)\right)$则
+> 设
+>  $$ \varphi _{t}\left(x,y\right)= \varphi ^{\left(x,y\right)}\left(t\right)= \left(x\left(t\right),y\left(t\right)\right) $$ 
+> 则由
+>   $$ \varphi ^{\left(x,y\right)}\left(t+ s\right) = \varphi ^{\varphi _{t}\left(x,y\right)}\left(s\right)$$ 
+> 可得
+>  $$ \left(\varphi ^{\left(x,y\right)}\right) ^{\prime} \left(t\right)= \left(\varphi ^{\varphi _{t}\left(x,y\right)}\right)^{\prime} \left(0\right)= X_{\varphi _{t}\left(x,y\right)}$$ 
 
 > [!exercise] Exercise: 3.25
 > 假定 $X$ 是 $n$ 维光滑流形 $M$ 上的光滑切向量场, 并且它的支撑集

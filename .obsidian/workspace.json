@@ -35,24 +35,17 @@
             "id": "c3ff8647d9b2b80a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+                "viewState": {
+                  "x": 201.22554598352502,
+                  "y": 514.4835985041937,
+                  "zoom": -0.3333333333333332
                 }
               },
-              "icon": "lucide-file",
-              "title": "DM - HW7"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - Integral Curves and Flows"
             }
           }
         ],
@@ -103,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 337.5
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -230,8 +223,14 @@
   },
   "active": "c3ff8647d9b2b80a",
   "lastOpenFiles": [
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "20.Cards/Definitions/dfn - Global Flow.md",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "20.Cards/Definitions/dfn - Flow Domain and Flow.md",
+    "20.Cards/Theorems/thm - Fundamental Theorem on Flows.md",
+    "20.Cards/Definitions/dfn - Infinitesimal Generator of a Glowbal Flow.md",
+    "20.Cards/Propositions/pps - Global Flow as family of Integral Curves for Infinitesimal Generator.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
@@ -250,12 +249,6 @@
     "00.Inbox/pps - Diagonalize the Curvature Operator.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
-    "30.Recources/DM/Course HW/DM - Review of HW4.md",
-    "30.Recources/DM/Course HW/DM - HW14.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
-    "00.Inbox/ep - Hopf Fibration.md",
-    "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -267,7 +260,6 @@
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
     "40.Drafts/未命名",
