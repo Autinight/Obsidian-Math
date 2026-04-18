@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Metric Connectin.md",
+                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Metric Connectin"
+              "title": "RG Petersen - Ex - Ch05"
             }
           },
           {
@@ -229,8 +229,8 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
-    "00.Inbox/Curvature.md",
     "00.Inbox/Metric Connectin.md",
+    "00.Inbox/Curvature.md",
     "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
