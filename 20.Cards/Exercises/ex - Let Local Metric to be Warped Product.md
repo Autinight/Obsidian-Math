@@ -1,11 +1,11 @@
 ---
 type: exercise
 aliases:
-- Let Local Metric to be Warped Product
+  - Let Local Metric to be Warped Product
 technique: []
-book:
-chapter:
-number:
+book: RG Petersen
+chapter: 4
+number: "4"
 category:
 status: todo
 priority:

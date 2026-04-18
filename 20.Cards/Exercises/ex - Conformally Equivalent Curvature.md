@@ -1,11 +1,11 @@
 ---
 type: exercise
 aliases:
-- Conformally Equivalent Curvature
+  - Conformally Equivalent Curvature
 technique: []
-book:
-chapter:
-number:
+book: RG Petersen
+chapter: 4
+number: "14"
 category:
 status: todo
 priority:

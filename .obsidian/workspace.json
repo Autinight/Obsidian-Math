@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+                "file": "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch05"
+              "title": "ex - How Regular Curve be Geodesic"
             }
           },
           {
@@ -229,11 +229,15 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
+    "20.Cards/Exercises/ex - Let Local Metric to be Warped Product.md",
+    "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "00.Inbox/Metric Connectin.md",
     "00.Inbox/Curvature.md",
-    "00.Inbox/ex - Let Local Metric to be Warped Product.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "00.Inbox/ep - Hopf Fibration.md",
     "20.Cards/Exercises/ex - Torsion Free Connection for Lie Group.md",
@@ -251,11 +255,7 @@
     "20.Cards/Exercises/ex - Scale for Curvature Tensor.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
-    "20.Cards/Exercises/ex - Curvature for Product Metric.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
-    "20.Cards/Exercises/ex - Petersen 3.4.8.md",
-    "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "00.Inbox/01.Todo List/Functional",
