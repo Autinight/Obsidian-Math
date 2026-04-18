@@ -29,6 +29,7 @@ tags: []
   - 定义为$\ddot{c}= 0$, $\left| \dot{c} \right|= 1$.
   - 测地线方程表示为, 每个分量上,二阶导加上"关于一阶导的, 系数矩阵为$\left(\Gamma _{ij}^{k}\right)_{i,j}$的二次型"等于零.
      $$ \frac{d^{2}c^{k} }{dt^{2} }\partial _{k}+ \frac{dc^{i} }{dt }\frac{dc^{j} }{dt }\Gamma _{ij}^{k}\partial _{k}$$ 
+  - **测地线的局部存在唯一性**: 由二阶ODE的局部存在唯一性(一阶ODE组)
 
 ## 核心技术
 1. 
