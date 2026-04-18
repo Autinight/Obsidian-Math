@@ -24,6 +24,12 @@ tags: []
   -  通过Lebniz律定义二阶偏导, 其中把$\frac{\partial }{\partial t}\left(\partial _{i}\right)$按照这种方式定义 $\left. \frac{\partial X}{\partial t} \right|_{p}= \nabla _{\dot{c}\left(t\right)}X,$, 即沿着曲线速度向量的斜变导数.
   -  沿着氛围流形求二阶偏导, 做切向投影, 等于沿着子流形求二阶偏导.
 
+
+- **geodesic**
+  - 定义为$\ddot{c}= 0$, $\left| \dot{c} \right|= 1$.
+  - 测地线方程表示为, 每个分量上,二阶导加上"关于一阶导的, 系数矩阵为$\left(\Gamma _{ij}^{k}\right)_{i,j}$的二次型"等于零.
+     $$ \frac{d^{2}c^{k} }{dt^{2} }\partial _{k}+ \frac{dc^{i} }{dt }\frac{dc^{j} }{dt }\Gamma _{ij}^{k}\partial _{k}$$ 
+
 ## 核心技术
 1. 
 2. 
