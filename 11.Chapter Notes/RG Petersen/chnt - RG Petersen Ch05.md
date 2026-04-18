@@ -17,15 +17,23 @@ tags: []
 - 状态： `= this.status`
 
 ## 本章主线
-- 
+- **Mixed Partials**
+  - 考虑$c:\Omega \to M$, $\Omega \subseteq \mathbb{R} ^{m}$.
+  - 我们把一阶偏导定义为沿单参数变动的曲线
+  -  二阶偏导数的度量性和对称性决定了Koszul type formula, 而后者给出了满足这两种性质的偏导数的唯一性.
+  -  通过Lebniz律定义二阶偏导, 其中把$\frac{\partial }{\partial t}\left(\partial _{i}\right)$按照这种方式定义 $\left. \frac{\partial X}{\partial t} \right|_{p}= \nabla _{\dot{c}\left(t\right)}X,$, 即沿着曲线速度向量的斜变导数.
+  -  沿着氛围流形求二阶偏导, 做切向投影, 等于沿着子流形求二阶偏导.
 
-## 核心定理
+## 核心技术
 1. 
 2. 
 3. 
 
 ## 核心工具
-- 
+- 度量性质可以写成
+     $$ \partial _{k}g_{ij}= \Gamma _{ki,j}+ \Gamma _{kj,i} $$
+     其中$\Gamma _{ki,j}$是$\Gamma _{ki}^{j}$通过$g$把指标降低, 即
+     $$ \Gamma _{ki,j}= g_{jl}\Gamma _{ki}^{l} $$  
 - 
 - 
 

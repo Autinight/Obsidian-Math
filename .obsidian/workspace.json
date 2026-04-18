@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - How Regular Curve be Geodesic"
+              "title": "chnt - RG Petersen Ch05"
             }
           },
           {
@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -229,11 +230,11 @@
   },
   "active": "bb6722d12b58c397",
   "lastOpenFiles": [
+    "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Let Local Metric to be Warped Product.md",
-    "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "00.Inbox/Metric Connectin.md",
     "00.Inbox/Curvature.md",
