@@ -55,3 +55,4 @@
 >  $$ f\left(x\right)= \psi _{M\setminus B} \left(x\right)$$
 > 则$f\in C^{\infty}\left(M\right)$. 由于$\psi_{M\setminus A}, \psi _{M\setminus B}$非负, 我们有$0\le f\le 1$.
 > 由于$\operatorname{supp}\psi _{M\setminus A}\subseteq M\setminus A$, 当$x\in A$时, $\psi _{M\setminus A}= 0$, 故$\psi _{M\setminus B}\left(x\right)= 1$.  因此$f|_{A}\equiv 1$. 又$\operatorname{supp}\psi _{M\setminus B}\subseteq M\setminus B$, 当$x\in B$时, $\psi _{M\setminus B}= 0$, 此时$f\left(x\right)= 0$. 因此$f|_{B}= 0$.
+
