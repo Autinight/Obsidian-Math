@@ -52,6 +52,10 @@ tags: []
     - $L$被$E$控制, 且当且仅当曲线为常速率时成立一个等式关系. 
     - 回忆任意曲线总能几乎不**增加**长度地被一个常速率曲线代替. 因此想要极小化$L$, 只需要极小化$E$的过程中, 用常速率曲线的逼近给出等式关系换回去.
     - 但是极小化$L$的曲线如果不是常速率的, 则换不回去能量.
+  - **曲线的变分**: 一族曲线$\bar{c}:\left(-\varepsilon ,\varepsilon \right)\times \left[ a,b \right]$, 其中$\left(-\varepsilon ,\varepsilon \right)$是参数集,$\left[ a,b \right]$是时间. 规定$\bar{c}$关于时间分段光滑, 关于参数是光滑的.
+    - 速度场是$\frac{\partial \bar{c} }{\partial t}$, 在每个分段区间$\left[ a_{i},a_{i+ 1} \right]$的内部良定义, 在折点$a_{i}$需要分左右定义.
+    - 变分场是$\frac{\partial \bar{c}}{\partial s}$, 处处良定义,在每个区间片上光滑, 整体连续.
+    - **proper variation**是经常研究的一类, 即时间为$\left[ 0,1 \right]$, 且这一组曲线共用起点和终点.
 
 ## 核心技术
 1. 
