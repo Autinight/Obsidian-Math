@@ -63,6 +63,20 @@ tags: []
     - 通过变分公式来证明**极小化能量泛函的分段光滑曲线**是**光滑测地线**, 就是通过调试变分场的样板, 来客制化分别提取**内部弯曲信息**和**折点信息**, 从而导出"极小曲线内部不拐弯"和"分段测地不会有折点(整体测地)"的事实.
   - **segment**是测地线: segment自动极小化了能量泛函.
 
+- **Exponential Map**
+  - **Definition**: $O_{p}\subseteq T_{p}M$是由那些测地线的存在区间包含$1$的那些速度构成的集合.
+    - 由于$\left(p,v\right)\mapsto L_{v}$是$TM$上的下半连续映射[[pps - Continuous Reliance for Flow Characterized by Compact Interval|reference]], 故
+       $$ \mathcal{O}= \left\{ \left(p,v\right): L_{v}> 1 \right\} $$
+       是开集. 
+       于是
+        $$ \mathcal{O}_{p}= i_{p}^{-1} \left(\mathcal{O}\right) $$
+       也是开的. 
+    - 定义**exponential map**
+       $$ \exp _{p}\left(v\right)= c_{v}\left(1\right) $$ 
+       其中$v\in \mathcal{O}_{p}$, $c_{v}$是测地线.
+  - **Properties**:
+    - $D\exp _{p}:T_{p}\mathcal{O}_{p}= T_{0}\left(T_{p}M\right)\simeq T_{p}M\to T_{p}M$在原点是恒等映射, 从而$\exp _{p}$是局部微分同胚.
+      - 通过求曲线速度来求$D\exp _{p}$, 把$v\in T_{p}M$变成曲线$tv\in T_{p}M$然后求曲线速度的方式将$v$等同于$I_0\left(v\right)= \frac{\mathrm{d}}{\mathrm{d}t}\left(tv\right)\in T_0\left(T_{p}M\right)$.
 
 ## 核心技术
 1. 
