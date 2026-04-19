@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+                "file": "00.Inbox/Question List.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch05"
+              "title": "Question List"
             }
           }
         ]
@@ -205,10 +205,13 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "00.Inbox/Curvature.md",
+    "00.Inbox/ep - Hopf Fibration.md",
+    "00.Inbox/Metric Connectin.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "00.Inbox/pps - Several Representations of Hess.md",
     "00.Inbox/pps - Diagonalize the Curvature Operator.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
@@ -220,10 +223,7 @@
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Let Local Metric to be Warped Product.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
-    "00.Inbox/Metric Connectin.md",
-    "00.Inbox/Curvature.md",
     "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
-    "00.Inbox/ep - Hopf Fibration.md",
     "20.Cards/Exercises/ex - Torsion Free Connection for Lie Group.md",
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
