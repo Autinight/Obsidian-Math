@@ -56,6 +56,10 @@ tags: []
     - 速度场是$\frac{\partial \bar{c} }{\partial t}$, 在每个分段区间$\left[ a_{i},a_{i+ 1} \right]$的内部良定义, 在折点$a_{i}$需要分左右定义.
     - 变分场是$\frac{\partial \bar{c}}{\partial s}$, 处处良定义,在每个区间片上光滑, 整体连续.
     - **proper variation**是经常研究的一类, 即时间为$\left[ 0,1 \right]$, 且这一组曲线共用起点和终点.
+  - **变分公式**
+    - 第一变分公式的想法就是, 不要让任何算子作用在变分场$\frac{\partial \bar{c}}{\partial s}$上, 因为这通常是我们用来测试的函数, 变分公式就是借助度量性, 把作用在$\frac{\partial \bar{c}}{\partial s}$上的算子转嫁给$\frac{\partial \bar{c}}{\partial t}$这个速度场.
+    - 变分公式的右端, 是由加速度场, 速度场和变分场共同组成的, 再无它项.
+
 
 ## 核心技术
 1. 
