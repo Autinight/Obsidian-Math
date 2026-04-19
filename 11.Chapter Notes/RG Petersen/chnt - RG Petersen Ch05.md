@@ -74,9 +74,12 @@ tags: []
     - 定义**exponential map**
        $$ \exp _{p}\left(v\right)= c_{v}\left(1\right) $$ 
        其中$v\in \mathcal{O}_{p}$, $c_{v}$是测地线.
+  - $\exp _{p}\left(v\right)= q$是说, $c_{v}\left(t\right)$是从$p$的$q$的测地线.  测地线的长度就是速度向量的长度$\left| v \right|$.
   - **Properties**:
     - $D\exp _{p}:T_{p}\mathcal{O}_{p}= T_{0}\left(T_{p}M\right)\simeq T_{p}M\to T_{p}M$在原点是恒等映射, 从而$\exp _{p}$是局部微分同胚.
-      - 通过求曲线速度来求$D\exp _{p}$, 把$v\in T_{p}M$变成曲线$tv\in T_{p}M$然后求曲线速度的方式将$v$等同于$I_0\left(v\right)= \frac{\mathrm{d}}{\mathrm{d}t}\left(tv\right)\in T_0\left(T_{p}M\right)$.
+      - 通过求曲线速度来求$D\exp _{p}$, 把$v\in T_{p}M$视为直线$tv$的几何速度, 与抽象的速度向量$I_0\left(v\right)= \frac{\mathrm{d}}{\mathrm{d}t}\left(tv\right)\in T_0\left(T_{p}M\right)$等同. 于是
+         $$ D\exp _{p}\left(I_0\left(v\right)\right)= \frac{\mathrm{d}}{\mathrm{d}t} \exp _{p}\left(tv\right)|_{t= 0}= \frac{\mathrm{d}}{\mathrm{d}t}c_{v}\left(t\right)|_{t= 0}= v$$ 
+      - 设$\exp _{p}: U\to V$是微分同胚, 则$U$可以看成是一些足够小的向量. 而向量代表的测地线的长度就是向量的长度, 这说明对于$q\in V$, 连接$p,q$的充分小的测地线$c_{\exp _{p}^{-1} \left(q\right)}\left(t\right)$是唯一的, 这一定是它们的segment(因为segment一定是测地线, 而别的测地线的速度向量一定落在$U$外面, 从而那些测地线一定比这条长).
 
 ## 核心技术
 1. 
