@@ -37,7 +37,14 @@ tags: []
     - 但是可能跳跃式增长, 比如$\mathbb{R} ^{2}\setminus \left\{ 0,0 \right\}$上, 从负半轴出发直线原点的直线, 是有限时间存在的. 但是如果你稍微偏一点越过原点, 就可以肆无忌惮地延伸.
 
 - **Distance**
+  - **segment**: $\sigma \in \Omega _{p,q}$常速率,  $L\left(\sigma \right)= \left| pq \right|$
   - 欧式空间是点的距离给出了曲线长度. 在黎曼流形上, 我们事先没有点的距离, 而恰恰是通过曲线的长度来给出点的距离的.
+  - 定义距离为
+       $$ \left| pq \right|= \inf \left\{ L\left(c\right):c\in \Omega _{p,q} \right\}  $$ 
+       where
+       $$ \Omega _{p,q} = \left\{ c:\left[ 0,1 \right]\to M: c\text{ is piecewise} C^{\infty}\text{ and }c\left(0\right)= p,c\left(1\right)= q \right\}$$ 
+  - Distance function 的梯度场$\nabla r$的积分曲线是测地线段. 如果$c\in \Omega _{p,q}$, 使得端点的$r$-距离等于真正的距离$L\left(c\right)$, 则$c$无非是$\nabla r$的积分曲线的$c$-弧长重参数化.
+  - $c\in \Omega _{pq}$总是能几乎不改变长度地被常速率曲线替换.
 
 ## 核心技术
 1. 
