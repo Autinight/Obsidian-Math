@@ -35,7 +35,9 @@ tags: []
   - **有限区间上的测地线逃逸任何紧集**: 即像落在紧集上的测地线一定是全局存在的, 这与流的逃逸引理几乎一样, 只不过我们要在TM上构造紧集, 这个过程借助了$\left| \dot{c} \right|$是常数.
   - **测地线的存在时间不会跳跃式下降**. 更严谨地, 定义在紧区间上的测地线, 存在速度的邻域$V$, 使得任何以$v\in V$为初速度的测地线, 在$\left[ a,b \right]$也有定义. 我们在$TM$上应用[[pps - Continuous Reliance for Flow Characterized by Compact Interval|Continuous Reliance for Flow Characterized by Compact Interval]]就可以得到这个结论.
     - 但是可能跳跃式增长, 比如$\mathbb{R} ^{2}\setminus \left\{ 0,0 \right\}$上, 从负半轴出发直线原点的直线, 是有限时间存在的. 但是如果你稍微偏一点越过原点, 就可以肆无忌惮地延伸.
-  
+
+- **Distance**
+  - 欧式空间是点的距离给出了曲线长度. 在黎曼流形上, 我们事先没有点的距离, 而恰恰是通过曲线的长度来给出点的距离的.
 
 ## 核心技术
 1. 
