@@ -57,8 +57,11 @@ tags: []
     - 变分场是$\frac{\partial \bar{c}}{\partial s}$, 处处良定义,在每个区间片上光滑, 整体连续.
     - **proper variation**是经常研究的一类, 即时间为$\left[ 0,1 \right]$, 且这一组曲线共用起点和终点.
   - **变分公式**
+     $$ \begin{aligned} \frac{\mathrm{d}E\left(c_{s}\right)}{\mathrm{d}s}&= -\int _{a}^{b}g\left(\frac{\partial ^{2}\bar{c}}{\partial t^{2}}, \frac{\partial \bar{c}}{\partial s}\right)+ g\left(\frac{\partial \bar{c}}{\partial t^{-}},\frac{\partial \bar{c}}{\partial s}\right)|_{\left(s,b\right)}-g\left(\frac{\partial \bar{c}}{\partial t^{+ }},\frac{\partial \bar{c}}{\partial s}\right)|_{s,a}\\&+ \sum _{i= 1}^{m-1}g\left(\frac{\partial \bar{c}}{\partial t^{-}}-\frac{\partial \bar{c}}{\partial t^{+ }},\frac{\partial \bar{c}}{\partial s}\right) |_{\left(s,a_{i}\right)}\end{aligned}  $$ 
     - 第一变分公式的想法就是, 不要让任何算子作用在变分场$\frac{\partial \bar{c}}{\partial s}$上, 因为这通常是我们用来测试的函数, 变分公式就是借助度量性, 把作用在$\frac{\partial \bar{c}}{\partial s}$上的算子转嫁给$\frac{\partial \bar{c}}{\partial t}$这个速度场.
-    - 变分公式的右端, 是由加速度场, 速度场和变分场共同组成的, 再无它项.
+    - 当在$s= 0$处时, 我们就看出来, 对于测试变分在原点处的能量变化, 就是由曲线的内蕴几何信息在变分场上的某种**投影**.
+    - 通过变分公式来证明**极小化能量泛函的分段光滑曲线**是**光滑测地线**, 就是通过调试变分场的样板, 来客制化分别提取**内部弯曲信息**和**折点信息**, 从而导出"极小曲线内部不拐弯"和"分段测地不会有折点(整体测地)"的事实.
+  - **segment**是测地线: segment自动极小化了能量泛函.
 
 
 ## 核心技术
