@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
-                "mode": "source",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch05"
+              "title": "chnt - RG Petersen Ch05"
             }
           }
         ]
@@ -205,6 +205,8 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "00.Inbox/ex - Local Expansion for Metric.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
@@ -227,7 +229,6 @@
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
     "30.Recources/DM/Course HW/DM - HW13.md",
     "20.Cards/Definitions/dfn - Riemannian Submersion.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "00.Inbox/Question List.md",
     "00.Inbox/ep - Hopf Fibration.md",
     "00.Inbox/pps - Several Representations of Hess.md",
