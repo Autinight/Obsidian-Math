@@ -105,7 +105,17 @@ tags: []
         - 通过一个函数$r\left(x\right)= \left| \exp _{p}^{-1} \left(x\right) \right|$, 把切空间距离变成与$p$的测地距离, 借助Gauss lemma, $\nabla _{r}= \partial _{r}$, 来说明连接$p,q$的曲线长度不小于$r\left(q\right)$, 从而$r$才是距离界的那个不可逾越的顶峰, 碰到了$r$就是真距离.
         - 这个过程顺便说明了长度小于$\varepsilon$的曲线是穿不出$\exp _{p}\left(B\left(0,\varepsilon \right)\right)$的, 这给出$B\left(p,\varepsilon \right)\subseteq \exp _{p}\left(B\left(0,\varepsilon \right)\right)$
    - **Gauss Lemma**, 把向量场分解为径向场$\partial _{r}= \frac{1 }{r }x^{i}\partial _{i}$和旋转场$J_{ij}= -x^{j}\partial _{j}+ x^{i}\partial _{i}$.
-     - 难点是验证$g\left(\partial _{r},J\right)= 0$, 关键是利用$[J,\partial _{r}]$来把$\nabla _{J}\partial _{r}$替换$\nabla _{\partial _{r}}J$, 实现$\partial _{r}g\left(\partial _{r},J\right)= Jg\left(\partial _{r},\partial _{r}\right)= 0$. 得到$g\left(\partial _{r},J\right)$是一个常数. 而$g\left(\partial _{r},J\right)\le \left| \partial _{r} \right|\left| J \right|= \left| J \right|\le \left| x^{i} \right|+ \left| x^{j} \right|$再让其靠近原点即可.
+     - 难点是验证$g\left(\partial _{r},J\right)= 0$, 关键是利用$[J,\partial _{r}]$来把$\nabla _{J}\partial _{r}$替换$\nabla _{\partial _{r}}J$, 实现$\partial _{r}g\left(\partial _{r},J\right)= Jg\left(\partial _{r},\partial _{r}\right)= 0$. 得到$g\left(\partial _{r},J\right)$是一个常数. 而$g\left(\partial _{r},J\right)\le \left| \partial _{r} \right|\left| J \right|= \left| J \right|\le \left| x^{i} \right|\left| \partial _{i} \right| + \left| x^{j} \right|\left| \partial _{j} \right|$再让其靠近原点即可.
+ - **Riemannian Coordinates**: 
+   - $\partial _{r}= \nabla r$相当于是说, $\exp _{p}$是径向的等距同构, 即把$dr\left(v\right)= g\left(\partial _{r},v\right)$写开, 就是
+      $$ g_{ij}x^{j}= \delta _{ij}x^{j} $$ 
+      通过求一次导, 得到
+       $$ \delta _{ik}= \left(\partial _{k}g_{ij}\right)x^{j}+ g_{ik} $$
+      再求一次导, 可以弄出来
+        $$ \partial _{k}g_{ij}= 0 $$  
+   - 把$g_{ij}$泰勒展开, 得到
+   -  $$ g_{ij}= \delta _{ij}+ O\left(r^{2}\right) $$ 
+   -  由于$\exp _{p}$是径向等距同构, 所以$\partial _{r}$与等值面正交.
 ## 核心技术
 1. 
 2. 
