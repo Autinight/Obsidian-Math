@@ -11,12 +11,39 @@ status: todo
 priority:
 tags: []
 ---
+> [!proof] Proof: 
+> 1. From 
+>    $$dr\left(v\right)= g\left(\partial _{r},v\right) $$
+>    We have 
+>    $$ \left(\sum _{i}x^{i}\varepsilon _{i}\right) \left(v^{i}\partial _{i}\right)= g_{ij}\left(x^{i}\partial _{i},v^{i}\partial _{i}\right)$$
+>    $$ \delta _{ij}x^{i}v^{j}= g_{ij}x^{i}v^{j} \implies \delta _{ij}x^{i}= g_{ij}x^{i}$$     
+>    Sum over $i$, to get
+>    $$ x^{j}= g_{ij}x^{i} $$
+>    $$ \partial _{k}x^{j}= \delta _{k}^{j}= \left(\partial _{k}g_{ij}\right)x^{i}+ g_{ij}\delta _{k}^{i} $$  
+>    $$ 0= \left(\partial _{l}\partial _{k}g_{ij}\right)x^{i}+ \left(\partial _{k}g_{ij}\right)\delta ^{i}_{l}+ \left(\partial _{l}g_{ij}\right)\delta _{k}^{i} $$ 
+>    Take value at $p$, we have 
+>    $$ \left(\partial _{k}g_{ij}\right)\delta _{l}^{i}+ \left(\partial _{l}g_{ij}\right)\delta _{k}^{i}= 0 $$ 
+>    Sum over $i$, we have 
+>    $$ \left(\partial _{k}g_{lj}\right)+ \left(\partial _{l}g_{kj}\right)= 0 $$
+>    $$ \left(\partial _{i}\partial _{k}g_{lj}\right)+ \left(\partial _{i}\partial _{l}g_{kj}\right)= 0\tag{*} $$ 
+>    Use 
+>    $$ \partial _{l}\partial _{k}g_{ji}= -\partial _{l}\partial _{j}g_{ki}= -\partial _{j}\partial _{l}g_{ki},\quad \partial _{j}\partial _{l}g_{ki}= -\partial _{j}\partial _{k}g_{li}= -\partial _{k}\partial _{j}g_{li},\quad \partial _{k}\partial _{j}g_{li}= -\partial _{k}\partial _{l}g_{j}= -\partial _{l}\partial _{k}g_{ji} $$ 
+>    Sum over the three, we get
+>    $$\partial _{l}\partial _{k}g_{ji}+ \partial _{j}\partial _{l}g_{ki}+ \partial _{k}\partial _{j}g_{li}=-\left(\partial _{l}\partial _{k}g_{ji}+ \partial _{j}\partial _{l}g_{ki}+ \partial _{k}\partial _{j}g_{li}\right)  \implies \cdots = 0 $$ 
+
+
+
+2. From (*)
+$$ \left(\partial _{i}\partial _{j}g_{kl}\right)= -\partial _{i}\partial _{k}g_{jl}= -\partial _{k}\partial _{i}g_{lj}= \partial _{k}\partial _{l}g_{ij} $$ 
+
 
 > [!exercise] EXERCISE 5.9.42.
 > Consider exponential normal coordinates around $p\in M$, i.e., $\delta_{ij}x^{j}=g_{ij}x^{j}$ and $x^{i}(p)=0$. All calculations below are at $p$.
 > 1. Show that the second partials of the metric satisfy the Bianchi identity
 > $$\partial_{l}\partial_{k}g_{ji}+\partial_{j}\partial_{l}g_{ki}+\partial_{k}\partial_{j}g_{li}=0.$$
 > Hint: Take three derivatives of the defining relation $x^{i}=\sum_{s}g_{is}x^{s}$ as in lemma 5.5.7.
+>
+> 
 > 2. Use all four of these Bianchi identities with the last index being $i,j,k$, or $l$ to conclude
 > $$\partial_{i}\partial_{j}g_{kl}=\partial_{k}\partial_{l}g_{ij}.$$
 > 3. Use the formula for the curvature tensor in normal coordinates from section 3.1.6 to show
