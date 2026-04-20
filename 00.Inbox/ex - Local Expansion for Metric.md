@@ -20,8 +20,20 @@ $$ R_{ijk}^{l}= \partial _{i}\Gamma _{jk}^{l} -\partial _{j}\Gamma _{ik}^{l}+ \G
 $$ R_{ijkl}= g_{ml}R_{ijk}^{m}= g_{ml}\left(\partial _{i}\Gamma _{jk}^{m}-\partial _{j}\Gamma _{ik}^{m}+ \Gamma _{jk}^{s}\Gamma _{is}^{m}-\Gamma _{ik}^{s}\Gamma _{js}^{m}\right) $$ 
 
 $$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}+ g^{st}\Gamma _{ik,s}\Gamma _{jl,t}-g^{st}\Gamma _{jk,s}\Gamma _{il,t}$$ 
-
+where
 $$ \Gamma _{jk,l}= g_{ml}\Gamma _{jk}^{m} $$ 
+We have at $p$
+$$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}$$ 
+
+$$2\Gamma _{jk,l}= \partial _{j}g_{kl}+ \partial _{k}g_{jl}-\partial _{l}g_{jk} $$
+$$ 2\partial _{i}\Gamma _{jk,l}= \partial _{i}\partial _{j}g_{kl}+ \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} $$  
+$$ 2\partial _{j}\Gamma _{ik,l}= \partial _{j}\partial _{i}g_{kl}+ \partial _{j}\partial _{k}g_{il}-\partial _{j}\partial _{l}g_{ik} $$ 
+
+We have from 2.
+$$ \begin{aligned} 2R_{ijkl}&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk}-\partial _{j}\partial _{k}g_{il}+ \partial _{j}\partial _{l}g_{ik}\\&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} -\partial _{i}\partial _{l}g_{jk}+ \partial _{i}\partial _{k}g_{jl}\\&= 2\partial _{i}\partial _{k}g_{jl}-2\partial _{i}\partial _{l}g_{jk}\end{aligned} $$ 
+By adjusting index, we have 
+$$ R_{ikjl}= \partial _{i}\partial _{j}g_{kl}-\partial _{i}\partial _{l}g_{jk} $$ 
+$\partial _{\cdot }\partial _{\cdot }g_{\cdot \cdot }$, 1324-1423
 
 > [!exercise] EXERCISE 5.9.42.
 > Consider exponential normal coordinates around $p\in M$, i.e., $\delta_{ij}x^{j}=g_{ij}x^{j}$ and $x^{i}(p)=0$. All calculations below are at $p$.
