@@ -92,7 +92,6 @@ tags: []
      其中$\Gamma _{ki,j}$是$\Gamma _{ki}^{j}$通过$g$把指标降低, 即
      $$ \Gamma _{ki,j}= g_{jl}\Gamma _{ki}^{l} $$  
 - 
-- 
 
 ## 本章打卡
 - [ ] 速览

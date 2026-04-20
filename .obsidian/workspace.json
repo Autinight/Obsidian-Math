@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-                "mode": "preview",
+                "file": "20.Cards/Definitions/dfn - Riemannian Submersion.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch05"
+              "title": "dfn - Riemannian Submersion"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LDT",
+                "query": "Riemannian submersion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,8 +206,9 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Definitions/dfn - Riemannian Submersion.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "00.Inbox/Question List.md",
@@ -230,7 +232,6 @@
     "20.Cards/Exercises/ex - Some Calculation for Product Metric.md",
     "20.Cards/Exercises/ex - Quotient map as Riemannian Submersion.md",
     "20.Cards/Exercises/ex - Riemannian Covering and Volume.md",
-    "20.Cards/Exercises/ex - Integrability for PDEs and RG.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
