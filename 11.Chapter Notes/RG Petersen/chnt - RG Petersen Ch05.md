@@ -96,6 +96,14 @@ tags: []
        (发现在求导的过程中, $TN^{\perp}$恰好补齐了与$M$的维数插件.)
      在把$N$看成是余$m-n$维的流形, 通过散射$m-n$个方向的测地线, 把$N$扩充为$M$上的一个开集.
     - 进而, 如果$N$是properly embedded的, $TN^{\perp}$的零截面由此也是properly embedded的,  就能拼出通过$\exp ^{\perp}$微分同胚于$M$中开集的$TN^{\perp}$零截面的邻域, 这个邻域被映到一个$N$的管状邻域.
+
+  -  $$ \exp _{p}:T_{p}M\supseteq B\left(0,\varepsilon \right)\to B\left(p,\varepsilon \right) \subseteq M$$ 
+      是微分同胚. 
+      前一个球的意义下指数映射给出测地线的距离小于$\varepsilon$, 后者的意义是存在连接$p$和其中点的曲线距离小于$\varepsilon$
+        - $\exp _{p}\left(B\left(0,\varepsilon \right)\right)\subseteq B\left(p,\varepsilon \right)$是简单的, 因为$v\in B\left(0,\varepsilon \right)$的意义就是它所代表的测地线长度小于$\varepsilon$, 而这条测地线两点的点的距离不会比测地线长度大.
+        - 反过来, 要说明$v$所代表的那条测地线就是唯一的segment, 就需要说明任意一条连接$p,q$的曲线长度会大于它, 除非它是这条测地线的重参数化. 只考察最后一次从$p$出发, 达到$q$或穿出$\exp _{p}\left(B\left(0,\varepsilon \right)\right)$的那段即可.
+        - 通过一个函数$r\left(x\right)= \left| \exp _{p}^{-1} \left(x\right) \right|$, 把切空间距离变成与$p$的测地距离, 借助Gauss lemma, $\nabla _{r}= \partial _{r}$, 来说明连接$p,q$的曲线长度不小于$r\left(q\right)$, 从而$r$才是距离界的那个不可逾越的顶峰, 碰到了$r$就是真距离.
+        - 这个过程顺便说明了长度小于$\varepsilon$的曲线是穿不出$\exp _{p}\left(B\left(0,\varepsilon \right)\right)$的, 这给出$B\left(p,\varepsilon \right)\subseteq \exp _{p}\left(B\left(0,\varepsilon \right)\right)$
 ## 核心技术
 1. 
 2. 
