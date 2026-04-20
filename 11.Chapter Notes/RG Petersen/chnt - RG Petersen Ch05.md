@@ -104,6 +104,8 @@ tags: []
         - 反过来, 要说明$v$所代表的那条测地线就是唯一的segment, 就需要说明任意一条连接$p,q$的曲线长度会大于它, 除非它是这条测地线的重参数化. 只考察最后一次从$p$出发, 达到$q$或穿出$\exp _{p}\left(B\left(0,\varepsilon \right)\right)$的那段即可.
         - 通过一个函数$r\left(x\right)= \left| \exp _{p}^{-1} \left(x\right) \right|$, 把切空间距离变成与$p$的测地距离, 借助Gauss lemma, $\nabla _{r}= \partial _{r}$, 来说明连接$p,q$的曲线长度不小于$r\left(q\right)$, 从而$r$才是距离界的那个不可逾越的顶峰, 碰到了$r$就是真距离.
         - 这个过程顺便说明了长度小于$\varepsilon$的曲线是穿不出$\exp _{p}\left(B\left(0,\varepsilon \right)\right)$的, 这给出$B\left(p,\varepsilon \right)\subseteq \exp _{p}\left(B\left(0,\varepsilon \right)\right)$
+   - **Gauss Lemma**, 把向量场分解为径向场$\partial _{r}= \frac{1 }{r }x^{i}\partial _{i}$和旋转场$J_{ij}= -x^{j}\partial _{j}+ x^{i}\partial _{i}$.
+     - 难点是验证$g\left(\partial _{r},J\right)= 0$, 关键是利用$[J,\partial _{r}]$来把$\nabla _{J}\partial _{r}$替换$\nabla _{\partial _{r}}J$, 实现$\partial _{r}g\left(\partial _{r},J\right)= Jg\left(\partial _{r},\partial _{r}\right)= 0$. 得到$g\left(\partial _{r},J\right)$是一个常数. 而$g\left(\partial _{r},J\right)\le \left| \partial _{r} \right|\left| J \right|= \left| J \right|\le \left| x^{i} \right|+ \left| x^{j} \right|$再让其靠近原点即可.
 ## 核心技术
 1. 
 2. 
