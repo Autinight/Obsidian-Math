@@ -121,7 +121,7 @@ tags: []
     - $2\operatorname{Hess}r= \mathcal{L}_{\partial _{r}}g =\mathcal{L}_{\partial _{r}}g_{r}$ 
     - $$ \lim_{r\to 0}\left(\mathcal{L}_{\partial _{r}}g_{r}-\mathcal{L}_{\partial _{r}}\left(r^{2}\,d s_{n-1}^{2}\right)\right)= 0 $$ 
     - $$ \lim_{r\to 0}\left(\operatorname{Hess}r-rds_{n-1}^{2}\right)= \lim_{r\to 0}\left(\operatorname{Hess}r-\frac{1 }{r }g_{r}\right)= 0 $$ 
-     
+- **常曲率$k$**的流形局部等距同构与形如$S_{k}^{n}$空间中的开集.
 ## 核心技术
 1. 
 2. 

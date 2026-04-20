@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch02"
+              "title": "RG Petersen - Ex - Ch05"
             }
           }
         ]
@@ -206,6 +206,7 @@
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -237,8 +238,6 @@
     "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Let Local Metric to be Warped Product.md",
-    "20.Cards/Exercises/ex - Stereographic Projection and Conformal Model.md",
-    "10.Atlas/RG/Riemannian Metric.canvas",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
