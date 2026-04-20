@@ -74,7 +74,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b913b1f1f662da95",
+  "active": "f8c717c24a5cf7c6",
   "lastOpenFiles": [
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
