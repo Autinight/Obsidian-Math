@@ -118,6 +118,10 @@ tags: []
    -  由于$\exp _{p}$是径向等距同构, 所以$\partial _{r}$与等值面正交, $g$总能表示为
        $$ g =  dr^{2}+ g_{r} $$
        其中$g_{r}$是$g$在测地球上的限制 
+    - $2\operatorname{Hess}r= \mathcal{L}_{\partial _{r}}g =\mathcal{L}_{\partial _{r}}g_{r}$ 
+    - $$ \lim_{r\to 0}\left(\mathcal{L}_{\partial _{r}}g_{r}-\mathcal{L}_{\partial _{r}}\left(r^{2}\,d s_{n-1}^{2}\right)\right)= 0 $$ 
+    - $$ \lim_{r\to 0}\left(\operatorname{Hess}r-rds_{n-1}^{2}\right)= \lim_{r\to 0}\left(\operatorname{Hess}r-\frac{1 }{r }g_{r}\right)= 0 $$ 
+     
 ## 核心技术
 1. 
 2. 
