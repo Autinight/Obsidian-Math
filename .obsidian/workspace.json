@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Definitions/dfn - Riemannian Submersion.md",
-                "mode": "source",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dfn - Riemannian Submersion"
+              "title": "DM - HW7"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,8 +205,11 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
+    "30.Recources/DM/Course HW/DM - Review of HW12.md",
+    "30.Recources/DM/Course HW/DM - HW13.md",
     "20.Cards/Definitions/dfn - Riemannian Submersion.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
@@ -229,9 +231,6 @@
     "20.Cards/Exercises/ex - Torsion Free Connection for Lie Group.md",
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "20.Cards/Exercises/ex - Some Calculation for Product Metric.md",
-    "20.Cards/Exercises/ex - Quotient map as Riemannian Submersion.md",
-    "20.Cards/Exercises/ex - Riemannian Covering and Volume.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",

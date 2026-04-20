@@ -80,7 +80,12 @@ tags: []
       - 通过求曲线速度来求$D\exp _{p}$, 把$v\in T_{p}M$视为直线$tv$的几何速度, 与抽象的速度向量$I_0\left(v\right)= \frac{\mathrm{d}}{\mathrm{d}t}\left(tv\right)\in T_0\left(T_{p}M\right)$等同. 于是
          $$ D\exp _{p}\left(I_0\left(v\right)\right)= \frac{\mathrm{d}}{\mathrm{d}t} \exp _{p}\left(tv\right)|_{t= 0}= \frac{\mathrm{d}}{\mathrm{d}t}c_{v}\left(t\right)|_{t= 0}= v$$ 
       - 设$\exp _{p}: U\to V$是微分同胚, 则$U$可以看成是一些足够小的向量. 而向量代表的测地线的长度就是向量的长度, 这说明对于$q\in V$, 连接$p,q$的充分小的测地线$c_{\exp _{p}^{-1} \left(q\right)}\left(t\right)$是唯一的, 这一定是它们的segment(因为segment一定是测地线, 而别的测地线的速度向量一定落在$U$外面, 从而那些测地线一定比这条长).
-
+      - 对于$E\left(v\right)= \left(\pi \left(v\right),\exp \left(v\right)\right)$, 
+      -  $$ DE:T_{\left(p,0_{p}\right)}\left(TM\right)\to T_{\left(p,p\right)}\left(M\times M\right) $$
+         是非奇异的, 给出$TM$的零截面的一个开邻域到$M\times M$的对角线的一个开邻域的微分同胚.
+      - 这意味着, 对于足够近的$\left(p,q\right)$, 存在唯一的充分小的$v$,  使得$\exp _{p}\left(v\right)= q$. 即对于足够近的两点, 充分小的测地线唯一且一定是segement.
+  - **injectivity radius**
+    - 令$\varepsilon > 0$是最大的使得$\exp _{p}:B\left(0,\varepsilon \right)\to M$是微分同胚的点. 由于取遍上确界, 每一点的局部微分同胚和整体单射都是被保持的, 因此最大值确实存在.
 ## 核心技术
 1. 
 2. 
@@ -91,7 +96,9 @@ tags: []
      $$ \partial _{k}g_{ij}= \Gamma _{ki,j}+ \Gamma _{kj,i} $$
      其中$\Gamma _{ki,j}$是$\Gamma _{ki}^{j}$通过$g$把指标降低, 即
      $$ \Gamma _{ki,j}= g_{jl}\Gamma _{ki}^{l} $$  
-- 
+- 局部紧的Hausdorff空间, 含入映射proper当且仅当子空间是闭的.
+- proper嵌入当且仅当嵌入的子空间是闭的.
+- proper嵌入子流形上的单射, 如果是局部微分同胚, 则存在其邻域上的单射.
 
 ## 本章打卡
 - [ ] 速览
