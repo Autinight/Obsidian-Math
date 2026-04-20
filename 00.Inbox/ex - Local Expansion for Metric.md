@@ -12,6 +12,17 @@ priority:
 tags: []
 ---
 
+Recall
+$$ R_{ijk}^{l}\partial _{l}= \nabla _{i}\nabla _{j}\partial _{k}- \nabla _{j}\nabla _{i}\partial _{k} $$
+$$ R_{ijk}^{l}= \partial _{i}\Gamma _{jk}^{l} -\partial _{j}\Gamma _{ik}^{l}+ \Gamma _{jk}^{s}\Gamma _{is}^{l}-\Gamma _{ik}^{s}\Gamma _{js}^{l}$$  
+
+
+$$ R_{ijkl}= g_{ml}R_{ijk}^{m}= g_{ml}\left(\partial _{i}\Gamma _{jk}^{m}-\partial _{j}\Gamma _{ik}^{m}+ \Gamma _{jk}^{s}\Gamma _{is}^{m}-\Gamma _{ik}^{s}\Gamma _{js}^{m}\right) $$ 
+
+$$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}+ g^{st}\Gamma _{ik,s}\Gamma _{jl,t}-g^{st}\Gamma _{jk,s}\Gamma _{il,t}$$ 
+
+$$ \Gamma _{jk,l}= g_{ml}\Gamma _{jk}^{m} $$ 
+
 > [!exercise] EXERCISE 5.9.42.
 > Consider exponential normal coordinates around $p\in M$, i.e., $\delta_{ij}x^{j}=g_{ij}x^{j}$ and $x^{i}(p)=0$. All calculations below are at $p$.
 > 1. Show that the second partials of the metric satisfy the Bianchi identity
