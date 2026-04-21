@@ -49,9 +49,36 @@ From the symmetry of $\operatorname{Hess}r$, we have
 $$ g\left(\nabla _{\operatorname{grad}r}\operatorname{grad}r,X\right)= \operatorname{Hess}r\left(X,\operatorname{grad}r\right)= 0 $$ 
 Then we know $\nabla _{\operatorname{grad}r}\operatorname{grad}r= 0$.
 
-Thus for each integral curves $\gamma \left(t\right)$ for $\operatorname{grad}r$, we have $\gamma \left(t\right)$ is geodesics.
+Thus for each integral curves $\gamma \left(t\right)$ for $\operatorname{grad}r$ emanating from $p$,  we have $\gamma \left(t\right)$ is a geodesic. 
+
+If
+$$ \gamma ^{\prime} \left(t\right)= \operatorname{grad}r $$ 
+
+We have 
+$$ \left| \gamma ^{\prime} \left(t\right) \right|= 1  $$ 
+
+$$ L\left(\gamma |_{\left[ 0,t \right]}\right)= \int _{0}^{t}\left| \gamma ^{\prime} \left(t\right) \right|\,d t=   $$ 
+
+$$ r\left(\gamma \left(s\right)\right)= \int _{0}^{s} dr\left(\gamma ^{\prime} \left(t\right)\right)\le \int _{0}^{s}\left| dr \right|\left| \gamma ^{\prime} \left(t\right) \right|= s  $$ 
+We have 
+$$ \gamma \left(t\right)= \gamma \left(r\right) $$ 
+
+Suppose that 
+$$ \gamma \left(r\right)= \left(x^{1}\left(r\right),\cdots ,x^{n}\left(r\right)\right) $$ 
+Since
+$$ \operatorname{grad}r= r^{i}\partial _{i}= g^{ik}r_{k}\partial _{i}= \sum _{i}g^{ik}\frac{x^{k} }{r }\partial _{i}= \sum _{i}\frac{\delta ^{ik}x^{k} }{r }\partial _{i}= \sum _{i}\frac{x^{i} }{r }\partial _{i} $$ 
+Then
+$$ \dot{x}^{i}\left(r\right)= \frac{x^{i} }{r } $$ 
 
 
+$$ x^{\prime} \left(r\right)-\frac{x }{r }= 0\iff \frac{dx }{dr }-\frac{x }{r }= 0\iff \frac{1 }{x }dx= \frac{1 }{r }dr\implies \ln \left| x \right|= \ln \left| r \right|+ C\implies x= cr   $$ 
+
+We have 
+$$ \dot{x}^{i}\left(r\right)= c^{i}r $$ 
+
+$$ \gamma \left(r\right)= \left(c^{1}r,\cdots ,c^{n}r\right) $$ 
+
+is a line under the coordinates $\left(x^{1},\cdots ,x^{n}\right)$.
 
 
 
