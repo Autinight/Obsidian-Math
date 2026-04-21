@@ -7,13 +7,22 @@ book: RG Petersen
 chapter: 5
 number: "30"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
 > [!exercise] EXERCISE 5.9.30.
 > Assume that we have coordinates $x^{i}$ around a point $p\in(M,g)$ such that $x^{i}(p)=0$ and $g_{ij}x^{j}=\delta_{ij}x^{j}$. Show that these must be exponential normal coordinates. Hint: Define $r=\sqrt{\delta_{ij}x^{i}x^{j}}$; show that it is a smooth distance function away from $p$; and that the integral curves for the gradient are geodesics emanating from $p$.
 
+> [!remark] Remark: 
+> 如果能说明$g_{ij}= \delta _{ij}$在$p$处成立, 就能把$T_{p}M$中的量保长度地用$x^{i}$分量表示出来.
+> 
+> 法坐标的特征就是, 用切空间上过原点的速率为$\left| v \right|$直线, 代替$M$中长度为$\left| v \right|$的从原点出发的测地线的终点.
+>
+> 因此想要说明坐标是法坐标, 就需要说明用法坐标的分量来表示向量, 能替代$T_{p}M$的作用, 坐标直线代表相应的测地线.
+
+> [!note] Note: 
+> 想清楚坐标为什么是法坐标, 就要想清楚$T_{p}M$是如何起到法坐标的特征的.
 
 We define 
 $$ r= \sqrt{\delta _{ij}x^{i}x^{j}} $$ 
@@ -80,6 +89,9 @@ $$ \gamma \left(r\right)= \left(c^{1}r,\cdots ,c^{n}r\right) $$
 
 is a line under the coordinates $\left(x^{1},\cdots ,x^{n}\right)$.
 
+That is 
+
+$$ \gamma _{v}\left(r\right)= \gamma _{rv}\left(1\right) $$ 
 
 
 ```dataviewjs

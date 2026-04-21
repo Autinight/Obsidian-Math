@@ -11,7 +11,7 @@
 *   [x] **⭐ 5.9.42 (Riemann & Gauss 度量展开)**：**必做！** 掌握 $g_{kl} = \delta_{kl} + \frac{1}{3}R_{ikjl}x^ix^j + O(|x|^3)$。
 *   [x] **⭐ 5.9.43 (A. Gray 体积展开公式)**：**必做！** 理解纯量曲率 (Scalar Curvature) 如何决定测地小球体积。
 *   [x] **5.9.27 (距离函数的 Hessian 展开)**：推导 $\text{Hess}(r)$ 在法坐标系下的渐近行为。
-*   [ ] **5.9.30 (识别法坐标系)**：从定义出发识别 Normal Coordinates 的本质。
+*   [x] **5.9.30 (识别法坐标系)**：从定义出发识别 Normal Coordinates 的本质。
 *   [ ] **⭐ 5.9.21 (函数的凸性与 Hessian)**：建立沿测地线的二阶导数与 $\text{Hess}(f)$ 的联系。
 
 #### 🔵 第二阶段：全局几何结构 (李群与 Submersion)
