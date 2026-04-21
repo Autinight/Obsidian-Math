@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Local Expansion for Metric.md",
+                "file": "20.Cards/Exercises/ex - A.Gray.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Local Expansion for Metric"
+              "title": "ex - A.Gray"
             }
           }
         ]
@@ -206,8 +206,11 @@
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "20.Cards/Exercises/ex - A.Gray.md",
+    "00.Inbox/Metric Connectin.md",
+    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
+    "20.Cards/Propositions/pps - Differentiation of det on Matrix Lie Group.md",
     "20.Cards/Exercises/ex - Local Expansion for Metric.md",
+    "20.Cards/Exercises/ex - A.Gray.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -216,8 +219,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
-    "00.Inbox/Metric Connectin.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/Curvature.md",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
@@ -238,7 +239,6 @@
     "20.Cards/Lemmas/lem - Tube Lemma.md",
     "00.Inbox/01.Todo List/Pr.md",
     "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
-    "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
