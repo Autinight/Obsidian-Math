@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Local Expansion for Metric.md",
+                "file": "20.Cards/Exercises/ex - Local Expansion for Metric.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -206,8 +206,10 @@
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Exercises/ex - A.Gray.md",
+    "20.Cards/Exercises/ex - Local Expansion for Metric.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
-    "00.Inbox/ex - Local Expansion for Metric.md",
+    "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
@@ -236,9 +238,7 @@
     "20.Cards/Lemmas/lem - Tube Lemma.md",
     "00.Inbox/01.Todo List/Pr.md",
     "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
-    "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
-    "20.Cards/Exercises/ex - Let Local Metric to be Warped Product.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",

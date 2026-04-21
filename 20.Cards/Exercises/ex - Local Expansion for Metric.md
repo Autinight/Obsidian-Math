@@ -1,13 +1,13 @@
 ---
 type: exercise
 aliases:
-- Local Expansion for Metric
-technique: []
-book:
-chapter:
-number:
+  - Local Expansion for Metric
+technique:
+book: RG Petersen
+chapter: 5
+number: "42"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
@@ -85,7 +85,14 @@ tags: []
 > 5.  We know that $\partial _{r}g_{kl}= 0$ at $p$.
 >    Then 
 >    $$ \begin{aligned} g_{kl}&= \delta _{kl}+ \frac{1 }{2 }\left(\partial _{i}\partial _{j}g_{kl}\right)x^{i}x^{j} + O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}\left(R_{ikjl}+ R_{jkil}\right)x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ \frac{1}{6}R_{jkil}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{3}R_{ikjl}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right) \end{aligned}$$ 
-
+> 6. $$ \begin{aligned} g &= \sum _{k,l}^{n}g_{kl}dx^{k}dx^{l}\\&= \sum _{k,l = 1}^{n}\left(\delta _{kl}+ \frac{1}{3}R_{ijkl}x^{i}x^{j}\right)\,d x^{k}\,d x^{l}+ O\left(\left| x \right|^{3} \right)\\&= \sum _{i= 1}^{n}\,d x^{i}\,d x^{i}+ \frac{1 }{3 }\sum _{i,j,k,l = 1}^{n}R_{ijkl}x^{i}x^{j}\,d x^{k}\,d x^{l}  \end{aligned} $$ 
+>    
+>    $$ \begin{aligned}\sum _{i,j,k,l} R_{ikjl}\left(x^{i}\,d x^{k}-x^{k}\,d x^{i}\right)\left(x^{j}\,d x^{l}-x^{l}\,d x^{j}\right)&=\sum _{i,j,k,l} R_{ikjl}\left(x^{i}x^{j}\,d x^{k}\,d x^{l}-x^{i}x^{l}\,d x^{k}\,d x^{j}-x^{k}x^{j}\,d x^{i}\,d x^{l} + x^{k}x^{l}\,d x^{i}\,d x^{j}\right)\\&= \sum _{i,j,k,l}R_{ikjl}x^{i}x^{j}\,d x^{k}\,d x^{l}-\sum _{i,j,k,l}R_{iklj}x^{i}x^{j}\,d x^{k}\,d x^{l}\\&-\sum _{i,j,k,l}R_{kijl}x^{i}x^{j}\,d x^{k}\,d x^{l}+ \sum_{i,j,k,l}R_{kilj}x^{i}x^{j}\,d x^{k}\,d x^{l}\\&= 4R_{ikjl}\sum _{i,j,k,l}x^{i}x^{j}\,d x^{k}\,d x^{l}  \end{aligned}$$ 
+>    
+>    Thus
+>    $$ \begin{aligned} g &= \sum _{i= 1}^{n}\,d x^{i}\,d x^{i}+ \frac{1 }{12 }\sum _{i,j,k,l}R_{ikjl}\left(x^{i}\,d x^{k}-x^{k}\,d x^{i}\right)\left(x^{j}\,d x^{l}-x^{l}\,d x^{j}\right)+ O\left(\left| x \right|^{3} \right)\\ &= \sum _{i= 1}^{n}\,d x^{i}\,d x^{i}+ \frac{1 }{3 }\sum _{i< j,k< l}R_{ikjl}\left(x^{i}\,d x^{k}-x^{k}\,d x^{i}\right)\left(x^{j}\,d x^{l}-x^{l}\,d x^{j}\right)+ O\left(\left| x\right|^{3} \right) \end{aligned} $$ 
+> 7. In $\operatorname{dim}$ 2,
+>    $$ \begin{aligned} g &= \,d x^{^{2}}+ \,d y^{2}+ \frac{1}{3}R_{1212}\left(xdy-ydx\right)\left(xdy-ydx\right)+ O\left(\left| \sqrt{x^{2}+ y^{2}} \right|^{3} \right)\\&= \,d x^{2}+ \,d y^{2}+ \frac{1}{3}R_{1212}\left(xdy-ydx\right)^{2}+ o\left(x^{2}+ y^{2}\right)\\&= dx^{2}+ dy^{2}-\frac{1}{3}R_{1221}\left(xdy-ydx\right)^{2}+ o\left(x^{2}+ y^{2}\right)\\&=dx^{2}+ dy^{2}-\frac{1}{3}\operatorname{sec}\left(p\right)\left(xdy-ydx\right)^{2}+ o\left(x^{2}+ y^{2}\right) \end{aligned} $$ 
 
 ```dataviewjs
 const techs = dv.current().technique;
