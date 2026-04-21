@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Construct Normal Coordinates from Metric Components.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Construct Normal Coordinates from Metric Components"
+              "title": "chnt - RG Petersen Ch05"
             }
           }
         ]
@@ -205,9 +205,10 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "00.Inbox/ex - Construct Normal Coordinates from Metric Components.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
     "00.Inbox/Metric Connectin.md",
     "20.Cards/Exercises/ex - Local Expansion for Metric.md",
@@ -218,7 +219,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/Question List.md",
     "00.Inbox/Curvature.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "20.Cards/Exercises/ex - How Regular Curve be Geodesic.md",
     "20.Cards/Exercises/ex - A.Gray.md",
     "00.Inbox/ep - Hopf Fibration.md",
