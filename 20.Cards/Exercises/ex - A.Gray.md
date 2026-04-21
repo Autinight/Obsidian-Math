@@ -13,6 +13,17 @@ tags: []
 ---
 
 
+$$ \begin{aligned} \begin{aligned} B\left(p,r\right)&= \int _{B\left(0,r\right)}\sqrt{\det \left(g_{kl}\right)}\,d x\\&= \omega _{n}r^{n}-\frac{1}{6} \int _{B\left(0,r\right)} \operatorname{Ric}_{ij}x^{i}x^{j}\,d x+  \int _{B\left(0,r\right)}O\left(\left| x \right|^{3} \right)\,d x\\&= \omega _{n}r^{n}-\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}\left(ry^{i}\right)\left(ry^{j}\right)\left(r^{n}\right)\,d y+ \int _{B\left(0,1\right)}r^{3}O\left(1\right)r^{n}\,d y\\&= \omega _{n}r^{n}-r^{n}r^{2}\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}y^{i}y^{j}\,d y+ O\left(r^{3}\right)\omega _{n}r^{n}\\&= \omega _{n}r^{n}\left(1-\frac{1 }{\omega _{n} }r^{2}\operatorname{Ric}_{ij}\int _{B\left(0,1\right)}y^{j}y^{j}\,d y+ O\left(r^{3}\right)\right) \end{aligned} \end{aligned}$$ 
+
+$$ \begin{aligned} \int _{B\left(0,1\right)}\left(y^{i}\right)^{2}dy&= \frac{1 }{n }\int _{B\left(0,1\right)}r^{2}\,d y= \frac{1 }{n } \int _{0}^{1}\int _{\partial B\left(0,t\right)} r^{2}\,d \omega \,d t\\&= \frac{1 }{n }\int _{0}^{1}t^{2}\int _{\partial B\left(0,1\right)}\,d \omega \,d t \end{aligned}$$ 
+
+$$  $$ 
+$$ \int _{B\left(0,1\right)}y^{i}y^{j}\,d y= \begin{cases} 0,&i\neq j\\ \int _{B\left(0,1\right)}\left(y^{i}\right)^{2}\,d y= \frac{1 }{n }\int _{B\left(0,1\right)}\left(y^{1}\right)^{2}+ \cdots + \left(y^{n}\right)^{2},&i= j \end{cases}  $$ 
+
+
+
+
+
 > [!exercise] EXERCISE 5.9.43.
 > With notation as in the previous exercise show:
 > 1. $\sqrt{\det(g_{kl})}=1-\frac{1}{6}\operatorname{Ric}_{ij}x^{i}x^{j}+O(|x|^{3})$.
@@ -33,7 +44,7 @@ tags: []
 >    $$ X= \left(X_{kl}\right)= \frac{1}{3}\left(R_{ikjl}a^{i}a^{j}\right) $$
 >    where $x_1^{2}+ \cdots + x_{n}^{2}= 1$    
 >    $$ g =  1+  t^{2}X+ O\left(t^{3}\right) $$
->    $$ \begin{aligned} \sqrt{\det \left(g_{kl}\right)|_{tx}} &= \sqrt{\det \left(I+t^{2}\left(X+ O\left(t\right)\right)\right)}\\&= I+ \frac{1}{2}t^{2} \operatorname{tr}\left(X+ O\left(t\right)\right)- \frac{1}{4}t^{4} \operatorname{tr}\left(X^{2}+ O\left(t\right)\right)+ \frac{1}{8}t^{4} \operatorname{tr}\left(X+ O\left(t\right)\right)^{2}+ O\left(t^{6}\right)\\&= I+ \frac{1}{2}t ^{2}\operatorname{tr}\left(X\right)+ O\left(t^{3}\right)  \end{aligned}$$      
+>    $$ \begin{aligned} \sqrt{\det \left(g_{kl}\right)|_{tx}} &= \sqrt{\det \left(I+t^{2}\left(X+ O\left(t\right)\right)\right)}\\&= 1+ \frac{1}{2}t^{2} \operatorname{tr}\left(X+ O\left(t\right)\right)- \frac{1}{4}t^{4} \operatorname{tr}\left(X^{2}+ O\left(t\right)\right)+ \frac{1}{8}t^{4} \operatorname{tr}\left(X+ O\left(t\right)\right)^{2}+ O\left(t^{6}\right)\\&= 1+ \frac{1}{2}t ^{2}\operatorname{tr}\left(X\right)+ O\left(t^{3}\right)  \end{aligned}$$      
 >    $$ \begin{aligned} \operatorname{Ric}_{ij}= R_{kij}^{k}= g^{kl}R_{kijl}= \left(\delta ^{kl}+ O\left(t^{2}\right)\right)R_{kijl}&= \delta ^{kl}R_{kijl}+ O\left(t^{2}\right)R_{kijl}\\&= \sum _{k}R_{kijk}+ O\left(t^{2}\right)R_{kijk}\\&= \sum _{k}R_{ikkj}+ O\left(t^{2}\right)R_{ikkj} \end{aligned}$$    
 >    $$ \sum _{k}R_{ikkj}= \operatorname{Ric}_{ij}+ O\left(t^{2}\right) $$   
 >    $$ \begin{aligned} \operatorname{tr}\left(X\right)&= \sum _{i,j} \sum _{k}\frac{1}{3}R_{ikjk}a^{i}a^{j}\\&= -\sum _{i,j}\sum _{k}\frac{1 }{3 }R_{ikkj}a^{i}a^{j}\\&= -\frac{1}{3}\sum _{i,j}\left(\operatorname{Ric}_{ij}+ O\left(t^{2}\right)\right)a^{i}a^{j}\\&=  -\frac{1}{3}\sum _{ij}\operatorname{Ric}_{ij}a^{i}a^{j}+ O\left(t^{2}\right) \end{aligned} $$         
