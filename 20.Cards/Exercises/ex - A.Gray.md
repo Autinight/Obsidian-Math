@@ -21,7 +21,25 @@ $$ \det \left(A\right)= \exp \left(\operatorname{tr}\left(\ln A\right)\right) $$
 
 Let $A= I+ tX$
 
-$$ \begin{aligned} \det \left(I+ tX\right)&= \exp \left(\operatorname{tr}\left(\ln \left(I+ tX\right)\right)\right)\\&= \exp \left(\operatorname{tr}\left(I-tX+ \frac{1}{2}t^{2}X^{2}+ O\left(t^{3}\right) \right)\right) \end{aligned}$$ 
+$$ \begin{aligned} \det \left(I+ tX\right)&= \exp \left(\operatorname{tr}\left(\ln \left(I+ tX\right)\right)\right)\\&= \exp \left(\operatorname{tr}\left(tX-\frac{1}{2}t^{2}X^{2}+ O\left(t^{3}\right)\right)\right)\\&= \exp \left(t \operatorname{tr}\left(X\right)-\frac{1}{2}t^{2} \operatorname{tr}\left(X^{2}\right)+ O\left(t^{3}\right)\right)\\&= I+ t\cdot \operatorname{tr}\left(X\right)-\frac{1}{2}t^{2} \operatorname{tr}\left(X^{2}\right)+ \frac{1}{2}\left(t \operatorname{tr}\left(X\right)-\frac{1}{2}t^{2}\operatorname{tr}\left(X^{2}\right)\right)^{2}+ O\left(t^{3}\right)\\&= I+ t\cdot \operatorname{tr}\left(X\right)- \frac{1}{2}t^{2} \operatorname{tr}\left(X^{2}\right)+ \frac{1}{2}t^{2} \left(\operatorname{tr}\left(X\right)\right)^{2}+ O\left(t^{3}\right)\\&= I+t\cdot  \operatorname{tr}\left(X\right)+ \frac{1}{2}t^{2}\left(\left(\operatorname{tr}\left(X\right)\right)^{2}-\operatorname{tr}\left(X^{2}\right)\right)+ O\left(t^{3}\right) \end{aligned}$$ 
+
+$$ \begin{aligned} \sqrt{\det \left(I+ tX\right)}&= \exp \left(\frac{1 }{2 }\operatorname{tr}\left(\ln \left(I+ tX\right)\right)\right)\\&= \exp \left(\frac{1}{2}\operatorname{tr}\left(tX-\frac{1}{2}t^{2}X^{2}+ O\left(t^{3}\right)\right)\right)\\&= \exp \left(\frac{1}{2}t \operatorname{tr}\left(X\right)- \frac{1}{4}t^{2} \operatorname{tr}\left(X^{2}\right)+ O\left(t^{3}\right)\right)\\&= I+ \frac{1}{2}t \operatorname{tr}\left(X\right)-\frac{1}{4}t^{2} \operatorname{tr}\left(X^{2}\right)+ \frac{1}{2}\left(\frac{1}{2}t \operatorname{tr}\left(X\right)-\frac{1}{4}t^{2} \operatorname{tr}\left(X^{2}\right)\right)^{2}+ O\left(t^{3}\right)\\&= I+ \frac{1}{2}t \operatorname{tr}\left(X\right)-\frac{1}{4} t^{2} \operatorname{tr}\left(X^{2}\right)+  \frac{1}{8}t^{2} \operatorname{tr}\left(X\right)^{2}+ O\left(t^{3}\right) \end{aligned} $$ 
+
+$$ g _{kl}= \delta _{kl}+ \frac{1}{12}R_{ikjl}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right) $$ 
+
+令
+$$ X= \left(X_{kl}\right)= \frac{1}{12}\left(R_{ikjl}x^{i}x^{j}\right)+ O\left(\left| x \right|^{3} \right) $$
+where $x_1^{2}+ \cdots + x_{n}^{2}= 1$
+
+$$ g =  I+  tX+ O\left(t^{3}\right) $$
+$$ \begin{aligned} \sqrt{\det \left(g_{kl}\right)|_{tx}} &= \sqrt{\det \left(I+t\left(X+ O\left(t^{3}\right)\right)\right)}\\&= I+ \frac{1}{2}t \operatorname{tr}\left(X+ O\left(t^{3}\right)\right)- \frac{1}{4}t^{2} \operatorname{tr}\left(X^{2}+ O\left(t^{3}\right)\right)+ \frac{1}{8}t^{2} \operatorname{tr}\left(X+ O\left(t^{3}\right)\right)^{2}+ O\left(t^{3}\right)\\&= I+ \frac{1}{2}t \operatorname{tr}\left(X\right)-\frac{1}{4}t^{2} \operatorname{tr}\left(X^{2}\right)+  \frac{1}{8}t^{2} \operatorname{tr}\left(X\right)^{2}+ O\left(t^{3}\right) \\&= I+ \end{aligned}$$  
+
+$$ \begin{aligned} \operatorname{tr}\left(X\right)&= \sum _{i,j} \sum _{k}\frac{1}{12}R_{ikjk}x^{i}x^{j}\\&= -\sum _{i,j}\sum _{k}\frac{1 }{12 }R_{ikkj}x^{i}x^{j}\\&= -\frac{1}{12}\sum _{i,j}\left(\operatorname{Ric}_{ij}+ O\left(t^{2}\right)\right)x^{i}x^{j} \end{aligned} $$ 
+
+$$ \begin{aligned} \operatorname{Ric}_{ij}= R_{kij}^{k}= g^{kl}R_{kijl}= \left(\delta ^{kl}+ o\left(t\right)\right)R_{kijl}&= \delta ^{kl}R_{kijl}+ o\left(t\right)R_{kijl}\\&= \sum _{k}R_{kijk}+ o\left(t\right)R_{kijk}\\&= \sum _{k}R_{ikkj}+ o\left(t\right)R_{ikkj} \end{aligned}$$ 
+
+$$ \sum _{k}R_{ikkj}= \operatorname{Ric}_{ij}+ O\left(t^{2}\right) $$ 
+ 
 
 > [!exercise] EXERCISE 5.9.43.
 > With notation as in the previous exercise show:
