@@ -12,28 +12,6 @@ priority:
 tags: []
 ---
 
-Recall
-$$ R_{ijk}^{l}\partial _{l}= \nabla _{i}\nabla _{j}\partial _{k}- \nabla _{j}\nabla _{i}\partial _{k} $$
-$$ R_{ijk}^{l}= \partial _{i}\Gamma _{jk}^{l} -\partial _{j}\Gamma _{ik}^{l}+ \Gamma _{jk}^{s}\Gamma _{is}^{l}-\Gamma _{ik}^{s}\Gamma _{js}^{l}$$  
-
-
-$$ R_{ijkl}= g_{ml}R_{ijk}^{m}= g_{ml}\left(\partial _{i}\Gamma _{jk}^{m}-\partial _{j}\Gamma _{ik}^{m}+ \Gamma _{jk}^{s}\Gamma _{is}^{m}-\Gamma _{ik}^{s}\Gamma _{js}^{m}\right) $$ 
-
-$$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}+ g^{st}\Gamma _{ik,s}\Gamma _{jl,t}-g^{st}\Gamma _{jk,s}\Gamma _{il,t}$$ 
-where
-$$ \Gamma _{jk,l}= g_{ml}\Gamma _{jk}^{m} $$ 
-We have at $p$
-$$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}$$ 
-
-$$2\Gamma _{jk,l}= \partial _{j}g_{kl}+ \partial _{k}g_{jl}-\partial _{l}g_{jk} $$
-$$ 2\partial _{i}\Gamma _{jk,l}= \partial _{i}\partial _{j}g_{kl}+ \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} $$  
-$$ 2\partial _{j}\Gamma _{ik,l}= \partial _{j}\partial _{i}g_{kl}+ \partial _{j}\partial _{k}g_{il}-\partial _{j}\partial _{l}g_{ik} $$ 
-
-We have from 2.
-$$ \begin{aligned} 2R_{ijkl}&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk}-\partial _{j}\partial _{k}g_{il}+ \partial _{j}\partial _{l}g_{ik}\\&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} -\partial _{i}\partial _{l}g_{jk}+ \partial _{i}\partial _{k}g_{jl}\\&= 2\partial _{i}\partial _{k}g_{jl}-2\partial _{i}\partial _{l}g_{jk}\end{aligned} $$ 
-By adjusting index, we have 
-$$ R_{ikjl}= \partial _{i}\partial _{j}g_{kl}-\partial _{i}\partial _{l}g_{jk} $$ 
-$\partial _{\cdot }\partial _{\cdot }g_{\cdot \cdot }$, 1324-1423
 
 > [!exercise] EXERCISE 5.9.42.
 > Consider exponential normal coordinates around $p\in M$, i.e., $\delta_{ij}x^{j}=g_{ij}x^{j}$ and $x^{i}(p)=0$. All calculations below are at $p$.
@@ -79,6 +57,35 @@ $\partial _{\cdot }\partial _{\cdot }g_{\cdot \cdot }$, 1324-1423
 >    $$\partial _{l}\partial _{k}g_{ji}+ \partial _{j}\partial _{l}g_{ki}+ \partial _{k}\partial _{j}g_{li}=-\left(\partial _{l}\partial _{k}g_{ji}+ \partial _{j}\partial _{l}g_{ki}+ \partial _{k}\partial _{j}g_{li}\right)  \implies \cdots = 0 $$ 
 > 2. From (*)
 >    $$ \left(\partial _{i}\partial _{j}g_{kl}\right)= -\partial _{i}\partial _{k}g_{jl}= -\partial _{k}\partial _{i}g_{lj}= \partial _{k}\partial _{l}g_{ij} $$ 
+> 3. Recall
+>    $$ R_{ijk}^{l}\partial _{l}= \nabla _{i}\nabla _{j}\partial _{k}- \nabla _{j}\nabla _{i}\partial _{k} $$
+>    $$ R_{ijk}^{l}= \partial _{i}\Gamma _{jk}^{l} -\partial _{j}\Gamma _{ik}^{l}+ \Gamma _{jk}^{s}\Gamma _{is}^{l}-\Gamma _{ik}^{s}\Gamma _{js}^{l}$$  
+>    
+>    $$ R_{ijkl}= g_{ml}R_{ijk}^{m}= g_{ml}\left(\partial _{i}\Gamma _{jk}^{m}-\partial _{j}\Gamma _{ik}^{m}+ \Gamma _{jk}^{s}\Gamma _{is}^{m}-\Gamma _{ik}^{s}\Gamma _{js}^{m}\right) $$ 
+>    
+>    $$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}+ g^{st}\Gamma _{ik,s}\Gamma _{jl,t}-g^{st}\Gamma _{jk,s}\Gamma _{il,t}$$ 
+>    where
+>    $$ \Gamma _{jk,l}= g_{ml}\Gamma _{jk}^{m} $$ 
+>    We have at $p$
+>    $$ R_{ijkl}= \partial _{i}\Gamma _{jk,l} -\partial _{j}\Gamma _{ik,l}$$ 
+>    
+>    $$2\Gamma _{jk,l}= \partial _{j}g_{kl}+ \partial _{k}g_{jl}-\partial _{l}g_{jk} $$
+>    $$ 2\partial _{i}\Gamma _{jk,l}= \partial _{i}\partial _{j}g_{kl}+ \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} $$  
+>    $$ 2\partial _{j}\Gamma _{ik,l}= \partial _{j}\partial _{i}g_{kl}+ \partial _{j}\partial _{k}g_{il}-\partial _{j}\partial _{l}g_{ik} $$ 
+>    
+>    We have from 2.
+>    $$ \begin{aligned} 2R_{ijkl}&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk}-\partial _{j}\partial _{k}g_{il}+ \partial _{j}\partial _{l}g_{ik}\\&= \partial _{i}\partial _{k}g_{jl}-\partial _{i}\partial _{l}g_{jk} -\partial _{i}\partial _{l}g_{jk}+ \partial _{i}\partial _{k}g_{jl}\\&= 2\partial _{i}\partial _{k}g_{jl}-2\partial _{i}\partial _{l}g_{jk}\end{aligned} $$ 
+>    By adjusting index, we have 
+>    $$ R_{ikjl}= \partial _{i}\partial _{j}g_{kl}-\partial _{i}\partial _{l}g_{jk} $$ 
+>    $\partial _{\cdot }\partial _{\cdot }g_{\cdot \cdot }$, 1324-1423
+>    
+> 4. 
+>    $$ \begin{aligned} \begin{aligned} R_{jkjl}+ R_{jkil}&= \partial _{i}\partial _{j}g_{kl}-\partial _{i}\partial _{l}g_{jk}+ \partial _{j}\partial _{i}g_{kl}-\partial _{j}\partial _{l}g_{ki}\\&= 2\partial _{i}\partial _{j}g_{kl}-\left(\partial _{i}\partial _{l}g_{jk}+ \partial _{j}\partial _{l}g_{ik}\right)\\&= 2\partial _{i}\partial _{j}g_{kl}-\left(-\partial _{i}\partial _{j}g_{kl}\right)\\&= 3\partial _{i}\partial _{j}g_{kl} \end{aligned} \end{aligned} $$ 
+>    
+> 5.  We know that $\partial _{r}g_{kl}= 0$ at $p$.
+>    Then 
+>    $$ \begin{aligned} g_{kl}&= \delta _{kl}+ \frac{1 }{2 }\left(\partial _{i}\partial _{j}g_{kl}\right)x^{i}x^{j} + O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}\left(R_{ikjl}+ R_{jkil}\right)x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ \frac{1}{6}R_{jkil}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ \frac{1}{6}R_{ikjl}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right)\\&= \delta _{kl}+ \frac{1}{3}R_{ikjl}x^{i}x^{j}+ O\left(\left| x \right|^{3} \right) \end{aligned}$$ 
+
 
 ```dataviewjs
 const techs = dv.current().technique;
