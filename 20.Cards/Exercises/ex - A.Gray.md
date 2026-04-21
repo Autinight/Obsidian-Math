@@ -7,20 +7,10 @@ book: RG Petersen
 chapter: 5
 number: "43"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
-
-
-$$ \begin{aligned} \begin{aligned} B\left(p,r\right)&= \int _{B\left(0,r\right)}\sqrt{\det \left(g_{kl}\right)}\,d x\\&= \omega _{n}r^{n}-\frac{1}{6} \int _{B\left(0,r\right)} \operatorname{Ric}_{ij}x^{i}x^{j}\,d x+  \int _{B\left(0,r\right)}O\left(\left| x \right|^{3} \right)\,d x\\&= \omega _{n}r^{n}-\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}\left(ry^{i}\right)\left(ry^{j}\right)\left(r^{n}\right)\,d y+ \int _{B\left(0,1\right)}r^{3}O\left(1\right)r^{n}\,d y\\&= \omega _{n}r^{n}-r^{n}r^{2}\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}y^{i}y^{j}\,d y+ O\left(r^{3}\right)\omega _{n}r^{n}\\&= \omega _{n}r^{n}\left(1-\frac{1 }{\omega _{n} }r^{2}\operatorname{Ric}_{ij}\int _{B\left(0,1\right)}y^{j}y^{j}\,d y+ O\left(r^{3}\right)\right) \end{aligned} \end{aligned}$$ 
-
-$$ \begin{aligned} \int _{B\left(0,1\right)}\left(y^{i}\right)^{2}dy&= \frac{1 }{n }\int _{B\left(0,1\right)}r^{2}\,d y= \frac{1 }{n } \int _{0}^{1}\int _{\partial B\left(0,t\right)} r^{2}\,d \omega \,d t\\&= \frac{1 }{n }\int _{0}^{1}t^{2}\int _{\partial B\left(0,1\right)}\,d \omega \,d t \end{aligned}$$ 
-
-$$  $$ 
-$$ \int _{B\left(0,1\right)}y^{i}y^{j}\,d y= \begin{cases} 0,&i\neq j\\ \int _{B\left(0,1\right)}\left(y^{i}\right)^{2}\,d y= \frac{1 }{n }\int _{B\left(0,1\right)}\left(y^{1}\right)^{2}+ \cdots + \left(y^{n}\right)^{2},&i= j \end{cases}  $$ 
-
-
 
 
 
@@ -50,6 +40,20 @@ $$ \int _{B\left(0,1\right)}y^{i}y^{j}\,d y= \begin{cases} 0,&i\neq j\\ \int _{B
 >    $$ \begin{aligned} \operatorname{tr}\left(X\right)&= \sum _{i,j} \sum _{k}\frac{1}{3}R_{ikjk}a^{i}a^{j}\\&= -\sum _{i,j}\sum _{k}\frac{1 }{3 }R_{ikkj}a^{i}a^{j}\\&= -\frac{1}{3}\sum _{i,j}\left(\operatorname{Ric}_{ij}+ O\left(t^{2}\right)\right)a^{i}a^{j}\\&=  -\frac{1}{3}\sum _{ij}\operatorname{Ric}_{ij}a^{i}a^{j}+ O\left(t^{2}\right) \end{aligned} $$         
 >    $$ \begin{aligned} \sqrt{\det g} &=1+ \frac{1}{2}t^{2}\left(-\frac{1}{3}\sum _{ij}\operatorname{Ric}_{ij}a^{i}a^{j}+ O\left(t^{2}\right)\right)+ O\left(t^{3}\right)\\&= 1-\frac{1}{6}t^{2}\sum _{ij}\operatorname{Ric}_{ij}a^{i}a^{j}+ O\left(t^{3}\right)\\&= 1-\frac{1}{6}\operatorname{Ric}_{ij}x^{i}x^{j}+ O\left(t^{3}\right) \end{aligned}$$ 
 > 
+> 2. $$ \begin{aligned} \begin{aligned} B\left(p,r\right)&= \int _{B\left(0,r\right)}\sqrt{\det \left(g_{kl}\right)}\,d x\\&= \omega _{n}r^{n}-\frac{1}{6} \int _{B\left(0,r\right)} \operatorname{Ric}_{ij}x^{i}x^{j}\,d x+  \int _{B\left(0,r\right)}O\left(\left| x \right|^{3} \right)\,d x\\&= \omega _{n}r^{n}-\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}\left(ry^{i}\right)\left(ry^{j}\right)\left(r^{n}\right)\,d y+ \int _{B\left(0,1\right)}r^{3}O\left(1\right)r^{n}\,d y\\&= \omega _{n}r^{n}-r^{n}r^{2}\frac{1}{6}\int _{B\left(0,1\right)}\operatorname{Ric}_{ij}y^{i}y^{j}\,d y+ O\left(r^{3}\right)\omega _{n}r^{n}\\&= \omega _{n}r^{n}\left(1-\frac{1 }{6 }\frac{1 }{\omega _{n} }r^{2}\operatorname{Ric}_{ij}\int _{B\left(0,1\right)}y^{j}y^{j}\,d y+ O\left(r^{3}\right)\right) \end{aligned} \end{aligned}$$ 
+>    
+>    $$ \begin{aligned} \int _{B\left(0,1\right)}\left(y^{i}\right)^{2}dy&= \frac{1 }{n }\int _{B\left(0,1\right)}r^{2}\,d y= \frac{1 }{n } \int _{0}^{1}\int _{\partial B\left(0,t\right)} r^{2}\,d \omega \,d t\\&= \frac{1 }{n }\int _{0}^{1}t^{2}t^{n-1}\int _{\partial B\left(0,1\right)}\,d \omega \,d t \\&= \omega _{n}\int _{0}^{1}t^{n+ 1}\,d tA\\&= \frac{\omega _{n} }{n+ 2 }\end{aligned}$$ 
+>    
+>    $$ \int _{B\left(0,1\right)}y^{i}y^{j}\,d y= \begin{cases} 0,&i\neq j\\ \frac{\omega _{n} }{n+ 2 },&i= j \end{cases}  $$ 
+>    
+>    Thus
+>    
+>    $$ \begin{aligned} B\left(p,r\right)&= \omega _{n}r^{n}\left(1-\frac{1 }{6 }\frac{1 }{\omega _{n} }r^{2}\sum _{i}\operatorname{Ric}_{ii}\frac{\omega _{n} }{ n+ 2}+ O\left(r^{3}\right)\right)\\&= \omega _{n}r^{n}\left(1-\frac{1 }{6 }\frac{\sum _{i}\operatorname{Ric}_{ii} }{n+ 2 }r^{2}+ O\left(r^{3}\right)\right) \end{aligned} $$ 
+>    
+>    Since at $p$, $g_{ij}= \delta _{ij}$, we have 
+>    $$  \sum _{i}\operatorname{Ric}_{ii}\left(p\right)= \operatorname{Ric}_{i}^{i}\left(p\right)= \operatorname{scal}\left(p\right) $$ 
+>    We have 
+>    $$ B\left(p,r\right)= \omega _{n}r^{n}\left(1-\frac{1}{6}\frac{\operatorname{scal}\left(p\right) }{n+ 2 }r^{2}+ O\left(r^{3}\right)\right) $$ 
 
 
 ```dataviewjs
