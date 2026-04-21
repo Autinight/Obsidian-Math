@@ -1,11 +1,11 @@
 ---
 type: exercise
 aliases:
-- Hess at Normal Coordinates
+  - Hess at Normal Coordinates
 technique: []
-book:
-chapter:
-number:
+book: RG Petersen
+chapter: 5
+number: "27"
 category:
 status: done
 priority:
