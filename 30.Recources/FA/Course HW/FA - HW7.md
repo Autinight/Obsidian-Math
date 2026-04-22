@@ -46,12 +46,17 @@
 > $$ \lim_{n\to \infty}x_{n}= x_0 $$ 
 > 并且
 > $$ \left\| x_{n}-x_0 \right\|\le \frac{2 }{\delta  }\left\| y_{n}-y_0 \right\| $$ 
-> 若$y_0=0$,ze取$x_0=0$,cimy命题
+> 若$y_0=0$,则取$x_0=0$, 命题成立. 若$\left\| y_0 \right\|> 0$, 则当$n$充分大时
 > $$ \left\| x_{n} \right\|\le \frac{2 }{\delta  }\left(\left\|y_{n}  \right\|+ \left\|y_0 \right\|\right)+ \left\| x_0 \right\|\le C\left\| y_{n} \right\| $$  
+> 因此存在$C^{\prime}$, 使得
+> $$ \left\| x_{n} \right\|\le C^{\prime} \left\| y_{n} \right\| $$ 
 
 > [!exercise] Exercise: 10
 > 设 $X$ 是 Banach 空间, $A, B$ 是 $X$ 的闭子空间, 且 $X=A+B$. 证明存在常数 $M$, 使得每一个 $x \in X$ 有表示 $x=a+b$, 其中 $a \in A, b \in B$ 并且
 > $$ \| a \| + \| b \| \leqslant M \| x \| .$$
+
+> [!proof] Proof: 
+> 
 
 > [!exercise] Exercise: 11
 > 设 $X, Y$ 是 Banach 空间, $T: X \to Y$ 是线性算子并且对任意 $x_n \in X$, 当 $x_n \to 0(n \to \infty)$ 时, 对于每一个 $f \in Y^*$,
