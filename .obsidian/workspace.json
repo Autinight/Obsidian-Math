@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - The Exponential map for Lie Group.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - The Exponential map for Lie Group"
+              "title": "chnt - RG Petersen Ch05"
             }
           }
         ]
@@ -205,12 +205,12 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "00.Inbox/ex - The Exponential map for Lie Group.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "00.Inbox/ex - The Exponential map for Lie Group.md",
     "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
     "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
