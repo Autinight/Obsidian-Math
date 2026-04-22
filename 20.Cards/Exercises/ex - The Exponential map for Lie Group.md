@@ -7,7 +7,7 @@ book: RG Petersen
 chapter: 5
 number: "35"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
