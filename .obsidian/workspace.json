@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+                "file": "30.Recources/FA/Course HW/FA - HW7.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen - Ex - Ch05"
+              "title": "FA - HW7"
             }
           }
         ]
@@ -205,8 +205,9 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "30.Recources/FA/Course HW/FA - HW7.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/ex - The Exponential map for Lie Group.md",
@@ -238,7 +239,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
-    "30.Recources/DM/Course HW/DM - HW13.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
