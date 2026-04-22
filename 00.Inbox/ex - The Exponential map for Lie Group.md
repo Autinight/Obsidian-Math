@@ -12,6 +12,15 @@ priority:
 tags: []
 ---
 
+$$ \varphi \left(s+ t\right)= \varphi \left(s\right)\varphi \left(t\right) $$ 
+
+$$ \varphi \left(2s\right)= \varphi \left(s\right)^{2} $$ 
+
+For $x\in G$, if there exist Geodesic $\varphi$, such that $\varphi \left(s\right)= x$, $\varphi \left(s\right)= 0$?
+
+We consider the exponential map $\exp: T_{e}G\to G$, 
+is not linear, but
+
 > [!exercise] EXERCISE 5.9.35.
 > Consider a Lie group $G$ with a biinvariant pseudo-Riemannian metric.
 > 1. Show that homomorphisms $\mathbb{R}\to G$ are precisely the integral curves for left-invariant vector fields through $e\in G$.

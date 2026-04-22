@@ -33,7 +33,21 @@
 > 设$X,Y$是$B$空间, $T\in \mathscr{B}(X,Y)$是满射, 求证: 如果在$Y$中$y_n\to y_0$, 则存在$C>0$与$X$中的$x_n\to x_0$, 使得$Tx_n=y_n$, 且$\|x_n\|\le C\|y_n\|$.
 
 > [!proof] Proof: 
-> 设$y_{n}\to y$. 由于$T$是满射, 可取$x_0\in X$使得$Tx_0= y_0$
+> 设$y_{n}\to y$. 由于$T$是满射, 可取$x_0\in X$使得$Tx_0= y_0$. 令
+> $$ z_{n}= y_{n}-y_0$$ 
+> 则
+> $$ \lim_{n\to \infty}z_{n}= 0 $$ 
+> 由开映射定理, $T$是一个开映射. 取$X$中开的单位球$B_{X}\left(0,1\right)$, 则$T\left(B_{X}\left(0,1\right)\right)$是一个开集. 特别地, 由于$0= T\left(0\right)\in T\left(B_{X}\left(0,1\right)\right)$, 存在$\delta > 0$, 使得
+> $$ B_{Y}\left(0,\delta \right)\subseteq T\left(B_{X}\left(0,1\right)\right) $$ 
+> 由于$\frac{\delta z_{n} }{2\left\| z_{n} \right\| }\in B_{Y}\left(0,\delta \right)$, 可知存在$u_{n}\in B_{X}\left(0,1\right)$, 使得$Tu_{n}= \frac{\delta z_{n} }{2\left\| z_{n} \right\| }$
+> 于是令$x_{n}= \frac{2\left\| z_{n} \right\| }{\delta  }u_{n}+ x_0$, 我们有
+> $$ \left\| x_{n} -x_0\right\|= \frac{2 \left\| z_{n} \right\|}{\delta } \left\| u_{n} \right\|\le \frac{2 }{\delta  }\left\| z_{n} \right\|$$ 
+> 令$n\to \infty$, 得到
+> $$ \lim_{n\to \infty}x_{n}= x_0 $$ 
+> 并且
+> $$ \left\| x_{n}-x_0 \right\|\le \frac{2 }{\delta  }\left\| y_{n}-y_0 \right\| $$ 
+> 若$y_0=0$,ze取$x_0=0$,cimy命题
+> $$ \left\| x_{n} \right\|\le \frac{2 }{\delta  }\left(\left\|y_{n}  \right\|+ \left\|y_0 \right\|\right)+ \left\| x_0 \right\|\le C\left\| y_{n} \right\| $$  
 
 > [!exercise] Exercise: 10
 > 设 $X$ 是 Banach 空间, $A, B$ 是 $X$ 的闭子空间, 且 $X=A+B$. 证明存在常数 $M$, 使得每一个 $x \in X$ 有表示 $x=a+b$, 其中 $a \in A, b \in B$ 并且
