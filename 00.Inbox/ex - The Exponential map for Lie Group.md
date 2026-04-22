@@ -12,45 +12,6 @@ priority:
 tags: []
 ---
 
-
-Let $c_{v}\left(t\right)$ be the geodesics starting at the identity, with $c_{v}^{\prime} \left(0\right)= v$.
-
-Then
-$$ \frac{1}{2}\left[ c_{v}^{\prime} \left(t\right),c_{v}^{\prime} \left(t\right) \right]= \nabla _{c_{v}^{\prime} \left(t\right)}c_{v}^{\prime} \left(t\right)= 0 $$
-
-
-Given a non-degenerate bilinear form $\left(\cdot ,\cdot \right)$ on $T_{e}G$, then the pseudo-Riemannian metric related to it  is 
-$$ \left(v,w\right)= \left(\left(dL_{g}\right)\left(v\right), \left(dL_{g}\right)\left(w\right)\right)= \left(\left(dR_{g}\right)\left(v\right), \left(dR_{g}\right)\left(w\right)\right) $$ 
-
-For each $v\in T_{e}G$, let $X_g = \left(dL_{g}\right)\left(v\right)$ . Let $\varphi$ be the integral cruve for $X$ with $\varphi \left(0\right)= e$. since $X$ is left- invariant, we have 
-
-
-$$ \left(X,Y\right)= \left(\operatorname{Ad}_{a}\left(X\right),\operatorname{Ad}_{a}\left(Y\right)\right) $$ 
-
-$$ \left(\operatorname{Ad}_{\exp \left(tZ\right)}X, \operatorname{Ad}_{\exp \left(tZ\right)}Y\right)= \left(X,Y\right) $$ 
-
-$$ \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\operatorname{Ad}_{\exp \left(tZ\right)}= \operatorname{ad}_{Z} $$
- 
-
-We have
-$$ \left(\left[ Z,X \right], \operatorname{Ad}_{\exp \left(0\right)}Y\right)+ \left(\operatorname{Ad}_{\exp \left(0\right)}X,\left[ Y,Z \right]\right)= \frac{\mathrm{d}}{\mathrm{d}t} \left(X,Y\right)= 0$$ 
-Thus
-$$ \left(\left[ Z,X \right],Y\right)=-\left(X,\left[ Z,Y \right]\right)= \left(X,\left[ Y,Z \right]\right) $$ 
-
-$$ \left(X,\left[ Y,Z \right]\right)= \left(\left[ X,Y \right],Z\right) $$ 
-
-From Koszul formular, we have for $X,Y\in \mathfrak{g}$
-$$ \nabla _{X}Y= \frac{1}{2}\left[ X,Y \right]\implies \nabla _{X}X= 0 $$ 
-
-Then $\varphi$ is a geodiesics. From the uniquenes of geodecis, we know that the  geodesic through $p$ with initial velocity $v$ is just $\varphi$, which is the integral curves for the left-invariant vector fields $X$, i.e. a homormorphism $\mathbb{R} \to G$.
-
-Then 
-$$ \exp _{Lie}: T_{e}G\to G,\quad v\mapsto \varphi \left(1\right) $$ 
-
-$$ \exp _{Riemannian}: T_{e}G\to G,\quad v\mapsto \varphi \left(1\right) $$ 
-
-are the same.
-
 > [!exercise] EXERCISE 5.9.35.
 > Consider a Lie group $G$ with a biinvariant pseudo-Riemannian metric.
 > 1. Show that homomorphisms $\mathbb{R}\to G$ are precisely the integral curves for left-invariant vector fields through $e\in G$.
@@ -74,7 +35,43 @@ are the same.
 >     $$ \varphi ^{\prime} \left(s\right)= \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\varphi \left(s+ t\right)= \left(dL_{\varphi \left(s\right)}\right)\left(\varphi ^{\prime} \left(0\right)\right)= X_{\varphi \left(s\right)} $$ 
 >     
 >     $$ \frac{\mathrm{d}}{\mathrm{d}t}|_{t= s}\varphi \left(t\right)= \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\varphi \left(s+ t\right) $$ 
-
+> 2. Let $c_{v}\left(t\right)$ be the geodesics starting at the identity, with $c_{v}^{\prime} \left(0\right)= v$.
+>    
+>    Then
+>    $$ \frac{1}{2}\left[ c_{v}^{\prime} \left(t\right),c_{v}^{\prime} \left(t\right) \right]= \nabla _{c_{v}^{\prime} \left(t\right)}c_{v}^{\prime} \left(t\right)= 0 $$
+>    
+>    
+>    Given a non-degenerate bilinear form $\left(\cdot ,\cdot \right)$ on $T_{e}G$, then the pseudo-Riemannian metric related to it  is 
+>    $$ \left(v,w\right)= \left(\left(dL_{g}\right)\left(v\right), \left(dL_{g}\right)\left(w\right)\right)= \left(\left(dR_{g}\right)\left(v\right), \left(dR_{g}\right)\left(w\right)\right) $$ 
+>    
+>    For each $v\in T_{e}G$, let $X_g = \left(dL_{g}\right)\left(v\right)$ . Let $\varphi$ be the integral cruve for $X$ with $\varphi \left(0\right)= e$. since $X$ is left- invariant, we have 
+>    
+>    
+>    $$ \left(X,Y\right)= \left(\operatorname{Ad}_{a}\left(X\right),\operatorname{Ad}_{a}\left(Y\right)\right) $$ 
+>    
+>    $$ \left(\operatorname{Ad}_{\exp \left(tZ\right)}X, \operatorname{Ad}_{\exp \left(tZ\right)}Y\right)= \left(X,Y\right) $$ 
+>    
+>    $$ \left. \frac{\mathrm{d}}{\mathrm{d}t} \right|_{t= 0}\operatorname{Ad}_{\exp \left(tZ\right)}= \operatorname{ad}_{Z} $$
+>     
+>    
+>    We have
+>    $$ \left(\left[ Z,X \right], \operatorname{Ad}_{\exp \left(0\right)}Y\right)+ \left(\operatorname{Ad}_{\exp \left(0\right)}X,\left[ Y,Z \right]\right)= \frac{\mathrm{d}}{\mathrm{d}t} \left(X,Y\right)= 0$$ 
+>    Thus
+>    $$ \left(\left[ Z,X \right],Y\right)=-\left(X,\left[ Z,Y \right]\right)= \left(X,\left[ Y,Z \right]\right) $$ 
+>    
+>    $$ \left(X,\left[ Y,Z \right]\right)= \left(\left[ X,Y \right],Z\right) $$ 
+>    
+>    From Koszul formular, we have for $X,Y\in \mathfrak{g}$
+>    $$ \nabla _{X}Y= \frac{1}{2}\left[ X,Y \right]\implies \nabla _{X}X= 0 $$ 
+>    
+>    Then $\varphi$ is a geodiesics. From the uniquenes of geodecis, we know that the  geodesic through $p$ with initial velocity $v$ is just $\varphi$, which is the integral curves for the left-invariant vector fields $X$, i.e. a homormorphism $\mathbb{R} \to G$.
+>    
+>    Then 
+>    $$ \exp _{Lie}: T_{e}G\to G,\quad v\mapsto \varphi \left(1\right) $$ 
+>    
+>    $$ \exp _{Riemannian}: T_{e}G\to G,\quad v\mapsto \varphi \left(1\right) $$ 
+>    
+>    are the same.
 
 ```dataviewjs
 const techs = dv.current().technique;
