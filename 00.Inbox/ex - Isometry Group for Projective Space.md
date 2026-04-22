@@ -11,6 +11,9 @@ status: todo
 priority:
 tags: []
 ---
+
+
+
 > [!exercise] EXERCISE 5.9.40.
 > Consider the real or complex projective space $\mathbb{FP}^{n}$.
 > 1. Show that $\operatorname{GL}(n+1,\mathbb{F})$ acts on $\mathbb{FP}^{n}$ by mapping 1-dimensional subspaces in $\mathbb{F}^{n+1}$ to 1-dimensional subspaces.
