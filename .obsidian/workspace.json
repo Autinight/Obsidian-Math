@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-                "mode": "preview",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch04"
+              "title": "chnt - RG Petersen Ch05"
             }
           }
         ]
@@ -205,12 +205,12 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/ex - The Exponential map for Lie Group.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
     "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
     "00.Inbox/Metric Connectin.md",
