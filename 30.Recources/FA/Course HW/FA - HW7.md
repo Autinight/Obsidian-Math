@@ -5,13 +5,6 @@
 > 3. 如果$T$是单的闭算子, 那么$T^{-1}$也是闭算子;
 > 4. 如果$X$完备, $T$是单的闭算子, $R(T)$在$Y$中稠密, 并且$T^{-1}$连续, 那么$T$是满射.
 
-
-任取$y\in Y$, 由于$R\left(T\right)$稠密, 存在$\left\{ x_{n} \right\}\subseteq D\left(T\right)$ 使得$\lim_{n\to \infty}Tx_{n}= y$. 
-记$y_{n}= Tx_{n}$, 则$T^{-1} y_{n}= x_{n}$. $\lim_{n\to \infty}y_{n}= y$. 由于$T^{-1}$是连续算子, 由$\left\{ y_{n} \right\}$是Cauchy列, 可知$\left\{ x_{n} \right\}$也是Cauchy列. 由于$X$是完备的, 存在$x$使得$\lim_{n\to \infty}x_{n}= x$. 则
-$$ \lim_{n\to \infty}\left(y_{n},T^{-1} y_{n}\right)= \left(y,x\right) $$ 
-由3.可知$T^{-1}$也是闭算子, 因此$\left(y,x\right)\in G\left(T^{-1} \right)$即 $\left(x,y\right)\in G\left(T\right)$. 故$Tx= y$.
-
-
 > [!proof] Proof: 
 > 1. $$ G\left(T\right)= \left\{ \left(x,Tx\right): x\in D\left(T\right) \right\} $$ 
 >    任取$G\left(T\right)$上的收敛$\left\{ \left(x_{n}, Tx_{n}\right) \right\}$, $\lim_{n\to \infty}x_{n}= x$, $\lim_{n\to \infty}Tx_{n}= y$.
@@ -30,9 +23,17 @@ $$ \lim_{n\to \infty}\left(y_{n},T^{-1} y_{n}\right)= \left(y,x\right) $$
 >    定义
 >    $$ \tau : X\times Y\to Y\times X,\quad \tau \left(x,y\right)= \tau \left(y,x\right) $$  
 >    则$\tau$是一个等距同构, 使得$\tau \left(G\left(T\right)\right)=G\left(T^{-1} \right)$
+> 4. 任取$y\in Y$, 由于$R\left(T\right)$稠密, 存在$\left\{ x_{n} \right\}\subseteq D\left(T\right)$ 使得$\lim_{n\to \infty}Tx_{n}= y$. 
+>    记$y_{n}= Tx_{n}$, 则$T^{-1} y_{n}= x_{n}$. $\lim_{n\to \infty}y_{n}= y$. 由于$T^{-1}$是连续算子, 由$\left\{ y_{n} \right\}$是Cauchy列, 可知$\left\{ x_{n} \right\}$也是Cauchy列. 由于$X$是完备的, 存在$x$使得$\lim_{n\to \infty}x_{n}= x$. 则
+>    $$ \lim_{n\to \infty}\left(y_{n},T^{-1} y_{n}\right)= \left(y,x\right) $$ 
+>    由3.可知$T^{-1}$也是闭算子, 因此$\left(y,x\right)\in G\left(T^{-1} \right)$即 $\left(x,y\right)\in G\left(T\right)$. 故$Tx= y$. $T$是满射.
+
 
 > [!exercise] Exercise: 2
 > 设$X,Y$是$B$空间, $T\in \mathscr{B}(X,Y)$是满射, 求证: 如果在$Y$中$y_n\to y_0$, 则存在$C>0$与$X$中的$x_n\to x_0$, 使得$Tx_n=y_n$, 且$\|x_n\|\le C\|y_n\|$.
+
+> [!proof] Proof: 
+> 设$y_{n}\to y$. 由于$T$是满射, 可取$x_0\in X$使得$Tx_0= y_0$
 
 > [!exercise] Exercise: 10
 > 设 $X$ 是 Banach 空间, $A, B$ 是 $X$ 的闭子空间, 且 $X=A+B$. 证明存在常数 $M$, 使得每一个 $x \in X$ 有表示 $x=a+b$, 其中 $a \in A, b \in B$ 并且
