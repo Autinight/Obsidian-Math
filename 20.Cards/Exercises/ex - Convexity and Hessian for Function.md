@@ -1,13 +1,13 @@
 ---
 type: exercise
 aliases:
-- Convexity and Hessian for Function
+  - Convexity and Hessian for Function
 technique: []
-book:
-chapter:
-number:
+book: RG Petersen
+chapter: 5
+number: "21"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---
@@ -16,6 +16,7 @@ tags: []
 > 1. Let $c:(a,b)\to M$ be a geodesic. Compute the first and second derivatives of $f\circ c$.
 > 2. Use this to show that at a local maximum (or minimum) for $f$ the gradient is zero and the Hessian nonpositive (or nonnegative).
 > 3. Show that $f$ has everywhere nonnegative Hessian if and only if $f\circ c$ is convex for all geodesics $c$ in $(M,g)$.
+
 
 > [!proof] Proof: 
 > 1. $$ \frac{\mathrm{d}}{\mathrm{d}t}\left(f\circ c\right)= df\left(c^{\prime} \left(t\right)\right)= \left(c^{\prime} \left(t\right)\right)\left(f\right)$$ 
@@ -31,9 +32,8 @@ tags: []
 > $$ \operatorname{Hess}f\left(v,v\right)\ge o\left(1\right) \implies \operatorname{Hess}f\left(v,v\right)\ge 0$$ 
 > 
 > 3. 
-> $$ f\left(\exp _{p}\left(tv\right)\right)= f\left(p\right)+ \frac{t^{2} }{2 }\operatorname{Hess}f\left(v,v\right)+ O\left(t^{3}\right) $$ 
-> If $f\left(\exp _{p}\left(tv\right)\right)$ is convex , 
-> $$ f\left(\exp _{p}\left(tv\right)\right)= f\left(\exp _{p}\left(t_0v\right)\exp _{p}\left(sv\right)\right) $$ 
+> $$ \left(f\circ c\right)^{\prime \prime} \left(t\right)= \operatorname{Hess}f\left(c^{\prime} \left(t\right),c^{\prime} \left(t\right)\right)  $$ 
+> $f\circ c$ is convex for all geodesic, iff $\left(f\circ c\right)^{\prime} \left(t\right)\ge 0$ for all geodesic $c$. Since for each $v$, there exists $c^{\prime} \left(t\right)= v$.
 
 
 ```dataviewjs

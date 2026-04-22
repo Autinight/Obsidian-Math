@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Convexity and Hessian for Function.md",
+                "file": "00.Inbox/ex - The Exponential map for Lie Group.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Convexity and Hessian for Function"
+              "title": "ex - The Exponential map for Lie Group"
             }
           }
         ]
@@ -205,10 +205,11 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "00.Inbox/ex - Construct Normal Coordinates from Metric Components.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "00.Inbox/ex - The Exponential map for Lie Group.md",
+    "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
+    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "00.Inbox/ex - Convexity and Hessian for Function.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
@@ -238,7 +239,6 @@
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/DM/Course HW/DM - Review of HW12.md",
     "30.Recources/DM/Course HW/DM - HW13.md",
-    "20.Cards/Definitions/dfn - Riemannian Submersion.md",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
