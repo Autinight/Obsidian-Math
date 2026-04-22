@@ -12,14 +12,7 @@ priority:
 tags: []
 ---
 
-$$ \varphi \left(s+ t\right)= \varphi \left(s\right)\varphi \left(t\right) $$ 
 
-$$ \varphi \left(2s\right)= \varphi \left(s\right)^{2} $$ 
-
-For $x\in G$, if there exist Geodesic $\varphi$, such that $\varphi \left(s\right)= x$, $\varphi \left(s\right)= 0$?
-
-We consider the exponential map $\exp: T_{e}G\to G$, 
-is not linear, but
 
 > [!exercise] EXERCISE 5.9.35.
 > Consider a Lie group $G$ with a biinvariant pseudo-Riemannian metric.
@@ -81,7 +74,18 @@ is not linear, but
 >    $$ \exp _{Riemannian}: T_{e}G\to G,\quad v\mapsto \varphi \left(1\right) $$ 
 >    
 >    are the same.
-
+> 3. $$ \varphi \left(s+ t\right)= \varphi \left(s\right)\varphi \left(t\right) $$ 
+>    
+>    $$ \varphi \left(2s\right)= \varphi \left(s\right)^{2} $$ 
+>    
+>    Every geodesics through the identity exists for all the time. Then a corrolarry for Hopf-Rinow gives that for each $g\in G$, there exists a segment $\varphi: \mathbb{R} \to G$ as well as a radical geodecis, such that $\varphi \left(0\right)= e$, $x\in \varphi \left(\mathbb{R} \right)$. 
+>    We set $x =  \varphi \left(2s\right)$, then 
+>    $$ x =  \varphi \left(2s\right)= \varphi \left(s\right)\varphi \left(s\right)= \left(\varphi \left(s\right)\right)^{2}$$ 
+>    Then $y:= \varphi \left(s\right)$ is the squere root for $x$.
+> 4. 对于$n\ge 2$, 我们考虑
+> $$ A= E_{12}+ \operatorname{diag} \left( -1,-1,\frac{1}{2},2,\frac{1}{3},3,\cdots  \right)  $$
+> 如果$n$为奇数, 则为上述对角阵的末尾补一个$1$.
+> 则$\det A= 1$, $A\in SL\left(n,\mathbb{R} \right)$.  $A$的特征值为$-1,-1,\frac{1}{2},2,\cdots$. 如果$A$存在平方根, 设为$B$, 若$B$的特征值为$\lambda _1 ,\lambda _2 ,\cdots ,\lambda _{n}$, 则$A= B^{2}$的特征值为$\lambda _1 ^{2},\cdots ,\lambda _{n}^{2}$. 不妨设$\lambda _1 ^{2}= \lambda _2 ^{2}= -1$, $\lambda _3 ^{2}= \frac{1 }{2 }$, $\lambda _4 ^{2}= 2,\cdots$ , 则$\lambda _1= -\lambda _2 = \pm i$, $\lambda _3=\pm \frac{1 }{\sqrt{2} }, \lambda _4 = \pm\sqrt{2}, \cdots$. $B$具有互异的特征值, 因此$B$可对角化, 从而$A= B^{2}$也可对角化. 但是$A$就是自己的Jordan标准型, 矛盾. 因此$A$不存在平方根.
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {

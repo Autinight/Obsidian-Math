@@ -123,9 +123,16 @@ tags: []
     - $$ \lim_{r\to 0}\left(\operatorname{Hess}r-rds_{n-1}^{2}\right)= \lim_{r\to 0}\left(\operatorname{Hess}r-\frac{1 }{r }g_{r}\right)= 0 $$ 
 - **常曲率$k$**的流形局部等距同构与形如$S_{k}^{n}$空间中的开集.
 ## 核心技术
-1. 
-2. 
-3. 
+- **Hopf-Rinow**
+  - **内容**: 测地完备, Heine-Borel性质, 度量完备是等价的.
+  - **度量完备到测地完备**: 断裂的测地线会导致时间的尽头形成一个柯西列, 但是又不让你把测地线补全, 这违背了完备性
+  - **从测地完备到Heini-Borel**: Hopf-Rinow中为了从测地完备推出来Heine-Borel, 通过构造**segment**的方式, 使用**segent一定是径向测地线**的事实.  证明$\exp _{p}:\left(\overline{B}\left(0,R\right)\right)\to \overline{B}\left(p,R\right)$ 总是满射(测地球是紧集)来给出紧致性(有界闭集是测地球的闭集).
+  - 特别地, **完备性意味着segent**总是存在.
+
+- **Segment的构造方法**:
+  - **寻找候选**: 我们是通过, 从$p$到$q$的segent, 总是每时每刻以最接近$q$的姿态前行的这一事实来寻找候选segment的. 也就是说现在一个足够小的范围$\overline{B}\left(0,\varepsilon \right)\subseteq T_{p}M$内, 选取射出的最接近$q$的那条测地线.
+  - **利用完备性延伸测地线的定义域**
+  - 把"每时每刻以最接近$q$的姿态前行"这一条件, 翻译成连续函数的零点集$A$, 利用连通性论证说明$A$能达到$\left| pq \right|$这个位置.
 
 ## 核心工具
 - 度量性质可以写成
