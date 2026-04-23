@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch05"
+              "title": "ex - Isometry Group for Projective Space"
             }
           }
         ]
@@ -205,15 +205,15 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
-    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
-    "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
-    "20.Cards/Exercises/ex - The Exponential map for Lie Group.md",
     "20.Cards/Exercises/ex - Local Expansion for Metric.md",
     "20.Cards/Exercises/ex - A.Gray.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
+    "20.Cards/Exercises/ex - The Exponential map for Lie Group.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
