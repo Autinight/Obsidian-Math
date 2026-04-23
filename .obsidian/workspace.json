@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
+                "file": "30.Recources/FA/Course HW/FA - HW7.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Isometry Group for Projective Space"
+              "title": "FA - HW7"
             }
           }
         ]
@@ -203,10 +203,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b913b1f1f662da95",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
-    "00.Inbox/Question List.md",
+    "30.Recources/FA/Course HW/FA - HW6.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/Question List.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",

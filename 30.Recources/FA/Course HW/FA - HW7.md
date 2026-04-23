@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise: 1
 > 设$X,Y$是$B^*$空间, $T:X\to Y$是线性映射. 求证:
 > 1. 如果$T$连续且$D(T)$是闭的, 那么$T$是闭算子;
@@ -56,7 +58,22 @@
 > $$ \| a \| + \| b \| \leqslant M \| x \| .$$
 
 > [!proof] Proof: 
-> 
+> $A,B$都是Banach空间, 定义$A\times B$上的范数
+> $$ \left\| \left(a,b\right) \right\|= \left\| a \right\|+ \left\| b \right\|,\quad a\in A,b\in B $$ 
+> 则$A\times B$成为一个Banach空间.
+> 定义线性算子
+> $$ \begin{aligned} T: A\times B&\to X\\\left(a,b\right)&\mapsto a+ b \end{aligned} $$ 
+> 则
+> $$ \left\| T\left(a+ b\right) \right\|= \left\| a+ b \right\|\le \left\| a \right\|+ \left\| b \right\|= \left\| \left(a,b\right) \right\| $$ 
+> 因此$\left\| T \right\|\le 1$.
+>
+> 易见$T$是满的线性算子, 故$T$是一个开映射. 存在$\varepsilon > 0$, 使得
+> $$ B_{X}\left(0,\varepsilon \right) \subseteq T\left(B_{A\times B}\left(0, 1\right)\right)$$ 
+> 对于任意的$x\in X$, 我们有$\frac{\varepsilon  }{2\left\| x \right\| }x\in B_{X}\left(0,\varepsilon \right)$, 故存在$a^{\prime} \in A, b^{\prime} \in B$ 满足$\left\| a^{\prime}  \right\|+ \left\| b^{\prime}  \right\|\le 1$, 使得
+> $$a^{\prime} + b^{\prime} =  T\left(\left(a^{\prime} ,b^{\prime} \right)\right)= \frac{\varepsilon  }{2\left\| x \right\| }x $$ 
+> 令$a= \frac{2\left\| x \right\| }{\varepsilon  }a^{\prime} , b= \frac{2\left\| x \right\| }{\varepsilon  }b^{\prime}$, 则
+> $$ a+ b= x,\quad \left\| a \right\|+ \left\| b \right\|\le \frac{2 }{\varepsilon  }\left\| x  \right\| $$ 
+> 取$M= \frac{2 }{\varepsilon  }$即可.
 
 > [!exercise] Exercise: 11
 > 设 $X, Y$ 是 Banach 空间, $T: X \to Y$ 是线性算子并且对任意 $x_n \in X$, 当 $x_n \to 0(n \to \infty)$ 时, 对于每一个 $f \in Y^*$,
