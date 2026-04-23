@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Isometry Group for Projective Space"
+              "title": "chnt - RG Petersen Ch02"
             }
           }
         ]
@@ -205,18 +205,27 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "00.Inbox/pps - Several Representations of Hess.md",
+    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
+    "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
+    "00.Inbox/斜变导数的形式伴随与变分公式.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "Untitled.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "00.Inbox/01.Todo List/ex - Exercises for PDE (Evans) Ch5..md",
+    "00.Inbox/Question List.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "00.Inbox/Geodesic.md",
-    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
-    "00.Inbox/01.Todo List/ex - Exercises for PDE (Evans) Ch5..md",
     "00.Inbox/01.Todo List/Note List.md",
     "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
     "00.Inbox/01.Todo List/Question-List.md",
     "00.Inbox/01.Todo List/note- 导数的系谱图.md",
-    "00.Inbox/Question List.md",
     "20.Cards/Exercises/ex - A.Gray.md",
     "20.Cards/Exercises/ex - Local Expansion for Metric.md",
     "20.Cards/Exercises/ex - The Exponential map for Lie Group.md",
@@ -224,14 +233,6 @@
     "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
     "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
     "00.Inbox/01.Todo List/Geodesic.md",
-    "00.Inbox/Curvature.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "30.Recources/FA/Course HW/FA - HW7.md",
-    "30.Recources/FA/Course HW/FA - HW6.md",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
