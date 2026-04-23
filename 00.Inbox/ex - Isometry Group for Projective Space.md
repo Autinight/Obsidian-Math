@@ -13,6 +13,7 @@ tags: []
 ---
 
 
+Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace. Let $P\left(L\right)= L/\left\{ v\sim kv, \right\}$
 
 > [!exercise] EXERCISE 5.9.40.
 > Consider the real or complex projective space $\mathbb{FP}^{n}$.
