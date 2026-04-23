@@ -99,3 +99,13 @@
 > 使得$M$成为一个Banach空间.
 > 定义线性算子
 > $$ \begin{aligned} T: M&\to X\\ \left\{ \xi _{n} \right\}&\mapsto \sum _{k= 1}^{\infty}\xi _{k}e_{k} \end{aligned} $$ 
+> 则由于$\left\{ e_{k} \right\}$是schauder基, 对于每个$x$都存在唯一的序列$\left\{ \xi _{n} \right\}$使得$x= \sum _{k= 1}^{\infty}\xi _{k}e_{k}$. 故$T$是一个可逆的算子.
+> 注意到
+> $$ \left\| T\left(\left\{ \xi _{n} \right\}\right) \right\|= \left\|  \sum _{k= 1}^{\infty}\xi _{k}e_{k}\right\|= \lim_{n\to \infty}\left\| \sum _{k= 1}^{n}\xi _{k}e_{k} \right\| \le \sup_{n}\left\| \sum _{k= 1}^{n}\xi _{k}e_{k} \right\|\le \left\| \left\{ \xi _{n} \right\} \right\|_{M}$$ 
+> 因此$\left\| T \right\|\le 1$, $T$是一个有界算子. 则由Banach逆算子定理, $T^{-1}$也是有界的线性算子.  注意到
+> $$ T^{-1} \left(\sum _{k= 1}^{\infty}a_{k}e_{k}\right)= \left\{ a_{k} \right\}= \left\{ f_{k}\left(x\right) \right\} $$ 
+> 存在$M$, 使得
+> $$ \left\| \left\{ f_{k}\left(x\right) \right\} \right\|\le M \left\| x \right\| $$ 
+> 于是
+> $$ \left| f_{n}\left(x\right) \right|= \left| \sum _{k= 1}^{n}a_{k}e_{k} -\sum _{k= 1}^{n-1}a_{k}e_{k}\right|\le 2\sup _{n}\left\| \sum _{k= 1}^{n} a _{k}e_{k}\right\|= 2\left\| \left\{ f_{k}\left(x\right) \right\} \right\| \le 2M\left\| x \right\| $$ 
+> 故$f_{n}$是一个有界线性泛函.
