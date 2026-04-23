@@ -3,9 +3,9 @@ type: exercise
 aliases:
   - Isometry Group for Projective Space
 technique: []
-book:
-chapter:
-number:
+book: RG Petersen
+chapter: 5
+number: "40"
 category:
 status: todo
 priority:
