@@ -13,7 +13,8 @@ tags: []
 ---
 
 
-Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace. Let $P\left(L\right)= L/\left\{ v\sim kv, \right\}$
+
+
 
 > [!exercise] EXERCISE 5.9.40.
 > Consider the real or complex projective space $\mathbb{FP}^{n}$.
@@ -28,6 +29,37 @@ Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace
 > 9. As in exercise 1.6.9 consider $\operatorname{Iso}(\mathbb{R}^{n})$ as the matrix group
 > $$G=\left\{\begin{bmatrix}O&v\\0&1\end{bmatrix}\mid O\in\operatorname{O}(n),~v\in\mathbb{R}^{n}\right\}\subset\operatorname{GL}(n+1,\mathbb{R}).$$
 > Show that $PG=G$.
+
+> [!proof] Proof: 
+> 1. Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace. Let $P\left(L\right)= L/\left\{ v\sim kv, k\in \mathbb{F} \right\}$ be the projective space of $L$. 
+>    
+>    We need to show that $\operatorname{GL} \left(n+ 1,\mathbb{F}\right)$ mapsto $P\left(L\right)$ to another.
+>    
+>    How $\operatorname{GL} \left(n+ 1,\mathbb{F}\right)$ acts on $\mathbb{FP}^{n}$? 
+>    
+>    First, $\operatorname{GL} \left(n+ 1,\mathbb{F}\right)$ acts on $\mathbb{F}^{n+ 1}$, by 
+>    $$ \begin{aligned} \varphi :\operatorname{GL} \left(n+ 1,\mathbb{F}\right) \times \mathbb{F}^{n+ 1}&\to \mathbb{F}^{n+ 1}\\\left(A, \mathbf{x}\right)\mapsto A \mathbf{x}\end{aligned}$$ 
+>    
+>    We define
+>    
+>    $$ \begin{aligned} \widetilde{\varphi}: \operatorname{GL} \left(n+ 1,\mathbb{F}\right) \times \mathbb{FP}^{n}&\to \mathbb{FP}^{n} \\\left(A, [\mathbf{x}]\right)= [A \mathbf{x}] \end{aligned}$$ 
+>    
+>    Since $[A\left(k \mathbf{x}\right)]= [kA \mathbf{x}]= [Ax]$, we know $\widetilde{\varphi}$ is well-defined.
+>    
+>    
+>    $$ \varphi \circ \left(\operatorname{Id}_{\operatorname{GL} }, i\right): \operatorname{GL} \left(n+ 1,\mathbb{F}\right)\times L\to \mathbb{F}^{n+ 1} \\\left(A,v\right)\mapsto Av$$ 
+>    
+>    Since for each $A\in \operatorname{GL} \left(n+ 1,\mathbb{F}\right)$, $\operatorname{span}\left\{ Av \right\}$ is a 1-dim $\mathbb{F}$-linear subspace for $\mathbb{F}^{n+ 1}$. Since $\pi \circ \varphi \left(A\right)= \widetilde{\varphi}\left(A\right)\circ \pi: \mathbb{F}^{n}\to \mathbb{FP}^{n}$ , we have $P\left(AL\right)= \widetilde{\varphi}\left(A\right)\left(L\right)$, that is $\widetilde{\varphi}\left(A\right)$ acts by mapping 1-dimensional subsapce $L$ to 1-dimensional subspaces $P\left(AL\right)$.
+> 2. $$ \begin{aligned} \widetilde{\varphi}\left(A\right)\left([\mathbf{x}]\right)= [\mathbf{x}]\iff [\varphi \left(A\right)\left(\mathbf{x}\right)]= [\mathbf{x}]&\iff \exists k\in \mathbb{F},  \varphi \left(A\right)\left(\mathbf{x}\right)= \mathbf{kx}\\&\iff \left(A-k \mathbf{I}\right)\mathbf{x}= 0\\&\iff A= k \mathbf{I}  \end{aligned}$$
+>    
+>    Thus
+>    $$ H= \left\{ \lambda I_{n+ 1}: \lambda \in \mathbb{F} \right\} $$ 
+>    
+>    Since for each $A\in \operatorname{GL} \left(n+ 1,\mathbb{F}\right)$, $A\left(\lambda I\right)A^{-1} = \lambda I\in N$, $H$ is a normal subgroup.
+
+
+
+
 
 ```dataviewjs
 const techs = dv.current().technique;
