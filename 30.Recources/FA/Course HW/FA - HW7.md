@@ -92,3 +92,10 @@
 > 设 Banach 空间 $X$ 具有 Schauder 基 $\{e_k\}$ . 对于每一个 $x \in X, x = \sum_{k=1}^{\infty}\alpha_k e_k$ 令
 > $$ f_n(x) = \alpha_n \quad (n = 1, 2, \cdots) .$$
 > 证明每一个 $f_n$ 是 $X$ 上的有界线性泛函(提示: 利用习题二第 15 题的结果).
+
+> [!proof] Proof: 
+> 设$M\subseteq X$是使得$\sum _{k= 1}^{\infty}\xi _{k}e_{k}$收敛的系数列$\left\{ \xi _{n} \right\}$的全体.  则由习题15,
+> $$ \left\|  \left\{ \xi _{n} \right\}\right\|_{M}= \sup _{n}\left\| \sum _{k= 1}^{n}\xi _{k}e_{k} \right\| $$ 
+> 使得$M$成为一个Banach空间.
+> 定义线性算子
+> $$ \begin{aligned} T: M&\to X\\ \left\{ \xi _{n} \right\}&\mapsto \sum _{k= 1}^{\infty}\xi _{k}e_{k} \end{aligned} $$ 
