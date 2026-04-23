@@ -80,6 +80,14 @@
 > $$ f(Tx_n) \to 0 \quad (n \to \infty) .$$
 > 证明 $T$ 是连续的.
 
+> [!proof] Proof: 
+> 取$G\left(T\right)$上的收敛点列$\left\{ \left(x_{n},Tx_{n}\right) \right\}$, 使得$\lim_{n\to \infty}x_{n}= x$, $\lim_{n\to \infty}Tx_{n}= y$.
+> 令$z_{n}= x_{n}-x$, 则
+> $$ \lim_{n\to \infty}z_{n}= 0,\quad \lim_{n\to \infty}Tz_{n}= y-Tz$$ 
+> 有条件, 可知对于任意的$f\in Y^{*}$, $f\left(Tz_{n}\right)\to 0$, 进而
+> $$ f\left(y-Tx\right)= \lim_{n\to \infty}f\left(Tz_{n}\right)= 0 $$ 
+> 由于$f\in Y^{*}$是任意的, 有Hahn-Banach定理的一个推论, $y-Tx= 0$. 即$y= Tx$. 故$\left\{ \left(x_{n}, Tx_{n}\right) \right\}$在的收敛点落在$G\left(T\right)$, $T$是一个闭算子. 由闭图像定理,$T$连续.
+
 > [!exercise] Exercise: 12
 > 设 Banach 空间 $X$ 具有 Schauder 基 $\{e_k\}$ . 对于每一个 $x \in X, x = \sum_{k=1}^{\infty}\alpha_k e_k$ 令
 > $$ f_n(x) = \alpha_n \quad (n = 1, 2, \cdots) .$$
