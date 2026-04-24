@@ -8,7 +8,8 @@
 		{"id":"5c2af3b0b0dfd07c","type":"text","text":"[[pps - Induced Cohomology Maps|Induced Cohomology Maps]]","x":-540,"y":-69,"width":250,"height":85,"color":"2"},
 		{"id":"50de39730e5a558e","type":"text","text":"[[pps - Cohomology of Disjoint Unions|Cohomology of Disjoint Unions]]","x":-520,"y":118,"width":250,"height":60,"color":"2"},
 		{"id":"0bf56ecb6e5f0cc3","type":"text","text":"[[pps - Cohomology in Degree Zero|Cohomology in Degree Zero]]","x":-520,"y":220,"width":250,"height":60,"color":"2"},
-		{"id":"8d959da60af871e4","x":-540,"y":360,"width":250,"height":95,"color":"2","type":"text","text":"[[thm - Homotopy Invariance of de Rham Cohomology]]"}
+		{"id":"8d959da60af871e4","type":"text","text":"[[thm - Homotopy Invariance of de Rham Cohomology]]","x":-540,"y":360,"width":250,"height":95,"color":"2"},
+		{"id":"7350b5645f54a38a","x":-1195,"y":800,"width":400,"height":260,"type":"file","file":"20.Cards/Definitions/dfn - de Rham Cohomology Group.md","subpath":"#^a37d02"}
 	],
 	"edges":[
 		{"id":"92f03553fdd0392c","fromNode":"2d2157dd41df852d","fromSide":"right","toNode":"5c2af3b0b0dfd07c","toSide":"left"},

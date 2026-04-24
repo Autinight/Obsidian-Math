@@ -9,6 +9,8 @@ tags: []
 > [!definition] Definition: 
 > A **Riemannian immersion**  (or Riemannian embedding) is an immersion (or embedding) $F:M\to N$ such that $g_{M}= F^{*}g_{N}$. Riemannian immersions are also called **isetric immersions**.
 
+^569f85
+
 > [!remark] Remark: 
 > Riemannian immersion 在局部上保持距离, 但几乎总是不保持整体距离的. 因为更大的空间中往往存在更多[捷径].
 

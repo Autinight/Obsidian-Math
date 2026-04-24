@@ -9,6 +9,8 @@ tags: []
 > [!definition] Definition:
 > Let $M$ be a smooth manifold. A **Riemannian metric** on $M$ is a smooth covariant 2-tensor field $g \in \mathcal{T}^2(M)$ whose value $g_p$ at each $p \in M$ is an inner product on $T_pM$.
 
+^0747bf
+
 > [!remark] Remark: 
 > Thus $g$ is a symmetric 2-tensor field that is positive definite in the sense that $g_p(v,v) \ge 0$ for each $p \in M$ and each $v \in T_pM$, with equality if and only if $v = 0$.
 

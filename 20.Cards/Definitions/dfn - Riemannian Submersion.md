@@ -15,6 +15,8 @@ tags: []
 > 
 > In particular, if $\left(M,g\right)$ is a Riemannian manifold, there is a natural choice of complementary subspace, namely $\mathcal{H}_{p}= \left(\operatorname{ker}D F_{p}\right)^{\perp_{g}}$.
 
+^f1698e
+
 ### Definition
 
 > [!definition] Definition: 
@@ -22,6 +24,8 @@ tags: []
 > $$DF: \operatorname{ker}\left(D F\right)^{\perp}=\mathcal{H}_{p}\to T_{F\left(p\right)}N$$
 >  is a linear isometry. In other words, if $v,w\in T_{p}M$ are perpendicular to the kernel of $D F:T_{p}M\to T_{F\left(p\right)}N$, then
 >  $$ g_{M}\left(v,w\right)= g_{N}\left(D F\left(v\right), D F\left(w\right)\right) $$
+
+^bc61e0
 
 > [!note] Note: 
 > $\operatorname{ker}\left(DF\right)$是完全指向纤维内部的方向. $\operatorname{ker}\left(D F\right)^{\perp}$是纤维指向其它纤维的方向. $g_{M}$用$g_{N}$的方式刻画了纤维与纤维之间的跨越.
