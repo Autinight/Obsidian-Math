@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+                "file": "30.Recources/HA/Course HW/HA - HW1.2.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA - HW2.5 - 2"
+              "title": "HA - HW1.2"
             }
           }
         ]
@@ -205,11 +205,12 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
-    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW2.2.md",
-    "30.Recources/HA/Course HW/HA - HW2.1.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW2.1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "30.Recources/HA/Course HW/HA - HW1.1.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
@@ -232,7 +233,6 @@
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
