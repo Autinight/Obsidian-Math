@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/geodesic as a integral curve.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "geodesic as a integral curve"
+              "title": "HA - HW2.5 - 2"
             }
           }
         ]
@@ -205,6 +205,15 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
+    "30.Recources/HA/Course HW/HA - HW2.1.md",
+    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW1.2.md",
+    "30.Recources/HA/Course HW/HA - HW1.1.md",
+    "30.Recources/FA/Course HW/FA - HW1.md",
+    "00.Inbox/geodesic as a integral curve.md",
     "00.Inbox/Geodesic.md",
     "00.Inbox/斜变导数的形式伴随与变分公式.md",
     "00.Inbox/01.Todo List/Question-List.md",
@@ -212,7 +221,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "00.Inbox/geodesic as a integral curve.md",
     "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
     "00.Inbox/01.Todo List/Note List.md",
     "00.Inbox/pps - Diagonalize the Curvature Operator.md",
@@ -225,14 +233,6 @@
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
-    "00.Inbox/01.Todo List/note- 导数的系谱图.md",
-    "20.Cards/Exercises/ex - A.Gray.md",
-    "20.Cards/Exercises/ex - Local Expansion for Metric.md",
-    "20.Cards/Exercises/ex - The Exponential map for Lie Group.md",
-    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
-    "20.Cards/Exercises/ex - Construct Normal Coordinates from Metric Components.md",
-    "20.Cards/Exercises/ex - Hess at Normal Coordinates.md",
-    "00.Inbox/01.Todo List/Geodesic.md",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
