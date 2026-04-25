@@ -11,17 +11,24 @@
             "id": "b913b1f1f662da95",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/RG/Riemannian Metric.canvas",
-                "viewState": {
-                  "x": -122.80550862713505,
-                  "y": 484.0813838265765,
-                  "zoom": -0.6666666666666667
+                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Riemannian Metric"
+              "icon": "lucide-file",
+              "title": "ex - Isometry Group for Projective Space"
             }
           }
         ]
@@ -178,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,6 +205,33 @@
   },
   "active": "b913b1f1f662da95",
   "lastOpenFiles": [
+    "00.Inbox/Question List.md",
+    "00.Inbox/Geodesic.md",
+    "00.Inbox/geodesic as a integral curve.md",
+    "20.Cards/Propositions/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
+    "20.Cards/Propositions/pps - Diagonalize the Curvature Operator.md",
+    "20.Cards/Propositions/pps - Several Representations of Hess.md",
+    "20.Cards/Theorems/thm - Convolution Convergence Theorem with Radially Decreasing Controlled Kernels.md",
+    "20.Cards/Theorems/thm - Sequentially Compact and Totally Bounded.md",
+    "20.Cards/Theorems/thm - Characterization of Compact Sets in Metric Space.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "20.Cards/Theorems/thm - Arzelà.md",
+    "20.Cards/Propositions/pps - Properties of Totally Bounded.md",
+    "20.Cards/Examples/ep - ell^p Space.md",
+    "20.Cards/Definitions/dfn - epsilon-net and Totally Bounded.md",
+    "20.Cards/Theorems/thm - Hölder Regularity from Oscillation Decay.md",
+    "20.Cards/Propositions/pps - Hölder Regularity from Gradient Energy Decay.md",
+    "20.Cards/Propositions/pps - Estimate of Gradient Energy in Terms of the L^2 Energy on a Larger Ball.md",
+    "20.Cards/Propositions/pps - Caccioppoli-Type Exponential Energy Decay.md",
+    "20.Cards/Lemmas/lem - L^2 Energy Decay from Gradient Energy Decay.md",
+    "20.Cards/Lemmas/lem - Harmonic-Type Exponential Energy Decay.md",
+    "20.Cards/Lemmas/lem - Cacciopolli's Inequality.md",
+    "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
+    "00.Inbox/01.Todo List/Question-List.md",
+    "00.Inbox/01.Todo List/note- 导数的系谱图.md",
+    "00.Inbox/01.Todo List/Note List.md",
+    "00.Inbox/01.Todo List/ex - Exercises for PDE (Evans) Ch5..md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
@@ -206,34 +240,7 @@
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "00.Inbox/01.Todo List/Question-List.md",
-    "00.Inbox/01.Todo List/note- 导数的系谱图.md",
-    "00.Inbox/01.Todo List/Note List.md",
-    "00.Inbox/geodesic as a integral curve.md",
-    "00.Inbox/pps - Diagonalize the Curvature Operator.md",
-    "00.Inbox/Geodesic.md",
-    "00.Inbox/ep - Three-sphere in a Two-dimensional Complex Space.md",
-    "00.Inbox/ep - Hopf Fibration.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "30.Recources/HA/Course HW/HA - HW1.2.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
-    "30.Recources/HA/Course HW/HA - HW2.1.md",
-    "30.Recources/HA/Course HW/HA - HW2.2.md",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW1.1.md",
-    "30.Recources/FA/Course HW/FA - HW1.md",
-    "00.Inbox/斜变导数的形式伴随与变分公式.md",
-    "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "00.Inbox/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "00.Inbox/pps - Several Representations of Hess.md",
-    "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "40.Drafts/2026-04",
