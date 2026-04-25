@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b158d16ac9180d3d",
+        "id": "e1db41508458d3e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b913b1f1f662da95",
+            "id": "870a14ec5e4b2a7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,16 +165,6 @@
             }
           },
           {
-            "id": "309ad793d9dbb5be",
-            "type": "leaf",
-            "state": {
-              "type": "calendar-view",
-              "state": {},
-              "icon": "lucide-calendar-check",
-              "title": "日历"
-            }
-          },
-          {
             "id": "7c1fc6334743113c",
             "type": "leaf",
             "state": {
@@ -183,13 +173,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "e51c75a01bf85b85",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 515.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,39 +200,48 @@
       "templater-obsidian:Templater": true,
       "webpage-html-export:导出为HTML": false,
       "templates:插入模板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b913b1f1f662da95",
+  "active": "870a14ec5e4b2a7a",
   "lastOpenFiles": [
-    "00.Inbox/Question List.md",
-    "00.Inbox/Geodesic.md",
-    "00.Inbox/geodesic as a integral curve.md",
-    "20.Cards/Propositions/pps - Continuous Reliance for Flow Characterized by Compact Interval.md",
-    "20.Cards/Propositions/pps - Diagonalize the Curvature Operator.md",
-    "20.Cards/Propositions/pps - Several Representations of Hess.md",
-    "20.Cards/Theorems/thm - Convolution Convergence Theorem with Radially Decreasing Controlled Kernels.md",
-    "20.Cards/Theorems/thm - Sequentially Compact and Totally Bounded.md",
-    "20.Cards/Theorems/thm - Characterization of Compact Sets in Metric Space.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/memory/Recent Conversations.md",
+    "41.Events/2026-04/2026-04-26 推荐信.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-09.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
+    "41.Events/2026-04",
+    "41.Events",
+    "00.Inbox/01.Todo List/2026-04-24 sd.md",
+    "00.Inbox/01.Todo List/未命名.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "20.Cards/Theorems/thm - Arzelà.md",
-    "20.Cards/Propositions/pps - Properties of Totally Bounded.md",
-    "20.Cards/Examples/ep - ell^p Space.md",
-    "20.Cards/Definitions/dfn - epsilon-net and Totally Bounded.md",
-    "20.Cards/Theorems/thm - Hölder Regularity from Oscillation Decay.md",
-    "20.Cards/Propositions/pps - Hölder Regularity from Gradient Energy Decay.md",
-    "20.Cards/Propositions/pps - Estimate of Gradient Energy in Terms of the L^2 Energy on a Larger Ball.md",
-    "20.Cards/Propositions/pps - Caccioppoli-Type Exponential Energy Decay.md",
-    "20.Cards/Lemmas/lem - L^2 Energy Decay from Gradient Energy Decay.md",
-    "20.Cards/Lemmas/lem - Harmonic-Type Exponential Energy Decay.md",
-    "20.Cards/Lemmas/lem - Cacciopolli's Inequality.md",
-    "00.Inbox/01.Todo List/todo - twisted exterior differention.md",
-    "00.Inbox/01.Todo List/Question-List.md",
-    "00.Inbox/01.Todo List/note- 导数的系谱图.md",
-    "00.Inbox/01.Todo List/Note List.md",
-    "00.Inbox/01.Todo List/ex - Exercises for PDE (Evans) Ch5..md",
-    "10.Atlas/RG/Riemannian Metric.canvas",
+    "00.Inbox/02.Even.md",
+    "00.Inbox/Dz.md",
+    "2026-04-25.md",
+    "10.Atlas/LA/Atlas - Root Systems.canvas",
+    "60.Templates/NOTES.md",
+    "copilot/copilot-conversations/Obsidian日程管理@20260425_155721.md",
+    "copilot/copilot-conversations/Obsidian日程待办管理@20260425_155603.md",
+    "copilot/copilot-conversations/Hello_Obsidian_Copilot@20260425_155029.md",
+    "40.Drafts/2026-04/2026-04-26 推荐信.md",
+    "60.Templates/Script_DailyDraft.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "copilot/memory",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
@@ -240,17 +249,10 @@
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "40.Drafts/2026-04",
     "40.Drafts/新建文件夹",
-    "40.Drafts/未命名",
-    "40.Drafts/2026-03/202",
-    "新建 文本文档.txt",
-    "11.Chapter Notes/PDE Evans",
-    "11.Chapter Notes/RG Petersen",
-    "11.Chapter Notes",
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
     "Pasted image 20260204114038.png",

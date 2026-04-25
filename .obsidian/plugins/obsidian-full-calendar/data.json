@@ -1,0 +1,16 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "hsl(from hsl(236, 62%, 55%) calc(h - 3) calc(s * 1.02) calc(l * 1.15))",
+      "directory": "41.Events/2026-04"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

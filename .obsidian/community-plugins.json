@@ -6,6 +6,8 @@
   "templater-obsidian",
   "webpage-html-export",
   "obsidian-zotero-desktop-connector",
-  "dust-calendar",
-  "obsidian-git"
+  "obsidian-git",
+  "copilot",
+  "obsidian-tasks-plugin",
+  "obsidian-full-calendar"
 ]
