@@ -129,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00.Inbox/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -162,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Fundamental Theorem of Hypersurface Theory.md",
+                "file": "00.Inbox/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Fundamental Theorem of Hypersurface Theory 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -191,12 +192,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+                "file": "00.Inbox/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "chnt - RG Petersen Ch04 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -208,9 +209,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "68e25f1f295aca6f",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -218,6 +229,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "claudian:Open Claudian": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -229,7 +241,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "68e25f1f295aca6f",
   "lastOpenFiles": [
     "2026-04-25.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",

@@ -66,5 +66,13 @@
       ],
       "key": "V"
     }
+  ],
+  "claudian:open-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
   ]
 }
