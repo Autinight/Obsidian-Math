@@ -40,9 +40,33 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "8490242969c8123d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/未命名.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,10 +229,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "699c191c086c5a09",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
     "2026-04-25.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/未命名.md",
     "00.Inbox/ep - ell^p Space.md",
     "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
@@ -236,7 +261,6 @@
     "40.Drafts/2026-04/2026-04-26 推荐信.md",
     "60.Templates/Script_DailyDraft.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
     "copilot/memory",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "copilot/copilot-conversations",
