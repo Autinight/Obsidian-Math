@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f488f57ecfcad45d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
-            }
-          },
-          {
             "id": "96acc7b4250c27b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+              "title": "AT Hatcher - Ex - Section 2.1"
             }
           },
           {
@@ -79,8 +55,7 @@
               "title": "2026-04-26 推荐信初稿撰写"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology 的大纲"
+              "title": "AT Hatcher - Ex - Section 2.1 的大纲"
             }
           },
           {
@@ -255,11 +230,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96acc7b4250c27b7",
+  "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
-    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198879644",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198787181",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198740980",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198716484",
+    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+    "30.Recources/AT/Hatcher Ex",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "60.Templates/NOTES.md",
@@ -270,13 +252,8 @@
     "30.Recources/FA/PDFs/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
     "30.Recources/FA/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
     "30.Recources/FA/PDFs",
-    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194608469",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194503780",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194438681",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194386931",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194290814",
     "00.Inbox/ep - ell^p Space.md",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
     "20.Cards/Examples/ep - Binomial Distribution.md",
@@ -291,8 +268,6 @@
     "40.Drafts/2026-02/Daily Draft 2026-02-09.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
-    "00.Inbox/01.Todo List/2026-04-24 sd.md",
-    "00.Inbox/01.Todo List/未命名.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",

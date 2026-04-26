@@ -2,9 +2,9 @@
   "id": "conv-1777198295676-vse3a061g",
   "providerId": "claude",
   "title": "讲讲这里面的Exact Sequences and Excision",
-  "titleGenerationStatus": "pending",
+  "titleGenerationStatus": "failed",
   "createdAt": 1777198295677,
-  "updatedAt": 1777198421172,
+  "updatedAt": 1777198477282,
   "lastResponseAt": 1777198418772,
   "sessionId": "1cac931b-654c-44a0-a534-cabde6cde26c",
   "providerState": {
