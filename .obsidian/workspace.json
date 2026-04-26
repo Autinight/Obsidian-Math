@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
+                "file": "00.Inbox/dfn - Delta-Complex.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+              "title": "dfn - Delta-Complex"
             }
           }
         ]
@@ -206,9 +206,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/dfn - Delta-Complex.md",
     "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
     "00.Inbox/Polygon Representations of Surfaces.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
@@ -243,7 +244,6 @@
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "60.Templates/NOTES.md",
-    "60.Templates/Script_DailyDraft.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
