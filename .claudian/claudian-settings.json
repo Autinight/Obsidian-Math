@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "gpt-5.5",
+  "model": "claude-opus-4-6",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -49,8 +49,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=gpt-5.5\nANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5\nANTHROPIC_SMALL_FAST_MODEL=gpt-5.5",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5|ANTHROPIC_MODEL=gpt-5.5"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.suchuang.vip\nANTHROPIC_API_KEY=sk-sedKVqIoWHsgExWgsHZcxEAMGL26FFTZ62v5MYds85FrqEM8\nANTHROPIC_AUTH_TOKEN=sk-sedKVqIoWHsgExWgsHZcxEAMGL26FFTZ62v5MYds85FrqEM8\nANTHROPIC_MODEL=claude-opus-4-6\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-6\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-6",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.suchuang.vip|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-6|ANTHROPIC_MODEL=claude-opus-4-6"
     },
     "codex": {
       "enabled": false,
@@ -68,7 +68,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "gpt-5.5"
+    "claude": "claude-opus-4-6"
   },
   "savedProviderEffort": {
     "claude": "high"

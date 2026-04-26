@@ -1,24 +1,24 @@
 {
-  "id": "conv-1777196609006-xgrbcvncb",
+  "id": "conv-1777197459054-1ndu5mon3",
   "providerId": "claude",
-  "title": "为什么要引入奇异同调",
+  "title": "阅读这篇笔记, 简要回答",
   "titleGenerationStatus": "failed",
-  "createdAt": 1777196609006,
-  "updatedAt": 1777196790393,
-  "lastResponseAt": 1777196759258,
+  "createdAt": 1777197459054,
+  "updatedAt": 1777197777322,
+  "lastResponseAt": 1777197777322,
   "sessionId": null,
   "providerState": {
-    "providerSessionId": "6ac464b2-d420-4437-8558-aa0b5877b1d2"
+    "providerSessionId": "652767f1-193d-4391-8925-3862af14dbd6"
   },
   "currentNote": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
   "usage": {
     "model": "gpt-5.5",
-    "inputTokens": 8123,
+    "inputTokens": 24762,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 8123,
-    "percentage": 4,
+    "contextTokens": 24762,
+    "percentage": 12,
     "contextWindowIsAuthoritative": true
   }
 }

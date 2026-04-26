@@ -4,6 +4,21 @@
   "title": "阅读这篇笔记, 然后说说这里为什么要引入singualr homology",
   "titleGenerationStatus": "failed",
   "createdAt": 1777196773304,
-  "updatedAt": 1777196953120,
-  "sessionId": null
+  "updatedAt": 1777197391426,
+  "lastResponseAt": 1777197391426,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "3002515d-7bfd-455b-b4a9-ce57ea0d8f25"
+  },
+  "currentNote": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 29713,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 29713,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
 }
