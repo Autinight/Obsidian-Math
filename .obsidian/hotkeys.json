@@ -74,5 +74,22 @@
       ],
       "key": "P"
     }
+  ],
+  "claudian:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close": [],
+  "claudian:new-session": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

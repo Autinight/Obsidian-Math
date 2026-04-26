@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777194082733-sidjsdz0g",
+  "providerId": "claude",
+  "title": "在00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777194082733,
+  "updatedAt": 1777194754528,
+  "lastResponseAt": 1777194746889,
+  "sessionId": "9a3c2c64-2812-4357-8e04-54717115c3bd",
+  "providerState": {
+    "providerSessionId": "9a3c2c64-2812-4357-8e04-54717115c3bd"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 21,
+    "cacheCreationInputTokens": 236,
+    "cacheReadInputTokens": 89013,
+    "contextWindow": 200000,
+    "contextTokens": 89270,
+    "percentage": 45,
+    "contextWindowIsAuthoritative": true
+  }
+}

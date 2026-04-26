@@ -63,7 +63,7 @@
     "claude": "off"
   },
   "lastCustomModel": "claude-opus-4-6",
-  "maxTabs": 3,
+  "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "openInMainTab": false,

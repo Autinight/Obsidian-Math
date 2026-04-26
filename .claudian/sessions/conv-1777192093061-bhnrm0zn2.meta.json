@@ -4,13 +4,12 @@
   "title": "hi",
   "titleGenerationStatus": "failed",
   "createdAt": 1777192093063,
-  "updatedAt": 1777193495171,
+  "updatedAt": 1777194755329,
   "lastResponseAt": 1777193495171,
   "sessionId": "ba1ec9a6-d307-4cf2-8619-ad4486c1ae66",
   "providerState": {
     "providerSessionId": "ba1ec9a6-d307-4cf2-8619-ad4486c1ae66"
   },
-  "currentNote": "00.Inbox/未命名.md",
   "usage": {
     "model": "claude-opus-4-6",
     "inputTokens": 0,

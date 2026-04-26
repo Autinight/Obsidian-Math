@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "e1db41508458d3e3",
+        "id": "b8632d226bbc3138",
         "type": "tabs",
         "children": [
           {
-            "id": "8490242969c8123d",
+            "id": "f488f57ecfcad45d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf"
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ATHatcher - Chapter2 - Homology"
+              "icon": "lucide-file",
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
             }
           }
         ]
@@ -116,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/未命名.md",
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology 的大纲"
             }
           },
           {
@@ -194,16 +206,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "f488f57ecfcad45d",
   "lastOpenFiles": [
-    "00.Inbox/未命名.md",
     "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194608469",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194503780",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194438681",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194386931",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194290814",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194213823",
+    "20.Cards/Examples/ep - Algebra of Quaternions.md",
+    "20.Cards/Examples/ep - Binomial Distribution.md",
+    "00.Inbox/未命名.md",
     "30.Recources/AT/PDFs",
     "2026-04-25.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/ep - ell^p Space.md",
     "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "20.Cards/Examples/ep - ell^p Space.md",
     "11.Chapter Notes/FA(Undergraduate)",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
@@ -215,7 +236,6 @@
     "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
     "41.Events/2026-04",
-    "41.Events",
     "00.Inbox/01.Todo List/2026-04-24 sd.md",
     "00.Inbox/01.Todo List/未命名.md",
     "00.Inbox/02.Even.md",
@@ -224,14 +244,7 @@
     "60.Templates/NOTES.md",
     "copilot/copilot-conversations/Obsidian日程管理@20260425_155721.md",
     "copilot/copilot-conversations/Obsidian日程待办管理@20260425_155603.md",
-    "copilot/copilot-conversations/Hello_Obsidian_Copilot@20260425_155029.md",
-    "40.Drafts/2026-04/2026-04-26 推荐信.md",
-    "60.Templates/Script_DailyDraft.md",
-    "copilot/memory",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts",
-    "copilot",
     "10.Atlas/RG/Riemannian Metric.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
@@ -240,7 +253,6 @@
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "00.Inbox/01.Todo List/Functional",
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
     "Pasted image 20260204114038.png",
