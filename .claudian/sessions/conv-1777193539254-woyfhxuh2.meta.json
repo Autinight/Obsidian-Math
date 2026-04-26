@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777193539254-woyfhxuh2",
+  "providerId": "claude",
+  "title": "你有什么skills",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777193539254,
+  "updatedAt": 1777193941558,
+  "lastResponseAt": 1777193550561,
+  "sessionId": "7fb0a763-3ebb-4c9d-981f-63d5b9458b71",
+  "providerState": {
+    "providerSessionId": "7fb0a763-3ebb-4c9d-981f-63d5b9458b71"
+  },
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 1133,
+    "cacheCreationInputTokens": 1500,
+    "cacheReadInputTokens": 19818,
+    "contextWindow": 200000,
+    "contextTokens": 22451,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

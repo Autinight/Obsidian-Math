@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777193861170-2bzq06c23",
+  "providerId": "claude",
+  "title": "如何让你读取pdf",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777193861171,
+  "updatedAt": 1777193940854,
+  "lastResponseAt": 1777193873185,
+  "sessionId": "36a48d47-5d01-435b-879e-c7cbe962edfe",
+  "providerState": {
+    "providerSessionId": "36a48d47-5d01-435b-879e-c7cbe962edfe"
+  },
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 1134,
+    "cacheCreationInputTokens": 1501,
+    "cacheReadInputTokens": 19819,
+    "contextWindow": 200000,
+    "contextTokens": 22454,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

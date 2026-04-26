@@ -24,7 +24,9 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-5SV5F66": "C:\\Users\\Autin\\claude-cli.js"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,

@@ -8,65 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "870a14ec5e4b2a7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chnt - FA(Undergraduate) Middle Term"
-            }
-          },
-          {
-            "id": "699c191c086c5a09",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "8490242969c8123d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00.Inbox/未命名.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf"
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "lucide-file-text",
+              "title": "ATHatcher - Chapter2 - Homology"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,7 +164,7 @@
             }
           },
           {
-            "id": "68e25f1f295aca6f",
+            "id": "a54e64ac450f02f4",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -241,11 +194,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "68e25f1f295aca6f",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "00.Inbox/未命名.md",
+    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+    "30.Recources/AT/PDFs",
     "2026-04-25.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/未命名.md",
     "00.Inbox/ep - ell^p Space.md",
     "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
@@ -272,7 +227,6 @@
     "copilot/copilot-conversations/Hello_Obsidian_Copilot@20260425_155029.md",
     "40.Drafts/2026-04/2026-04-26 推荐信.md",
     "60.Templates/Script_DailyDraft.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "copilot/memory",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "copilot/copilot-conversations",
@@ -287,8 +241,6 @@
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "00.Inbox/01.Todo List/Functional",
-    "00.Inbox/01.Todo List/Fourier",
-    "40.Drafts/2026-04",
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
     "Pasted image 20260204114038.png",

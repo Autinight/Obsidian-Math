@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777193499224-4pzsw095l",
+  "providerId": "claude",
+  "title": "/skills",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777193499224,
+  "updatedAt": 1777193527573,
+  "lastResponseAt": 1777193511715,
+  "sessionId": "7c23b286-3470-4305-80ba-f0655a524b37",
+  "providerState": {
+    "providerSessionId": "7c23b286-3470-4305-80ba-f0655a524b37"
+  },
+  "currentNote": "00.Inbox/未命名.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 155,
+    "cacheCreationInputTokens": 1493,
+    "cacheReadInputTokens": 19702,
+    "contextWindow": 200000,
+    "contextTokens": 21350,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
