@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "ex - Isometry Group for Projective Space"
             }
-          },
-          {
-            "id": "1cd526ce4c0e6bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "41.Events/2026-04/2026-04-26 推荐信.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-26 推荐信"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,13 +205,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1cd526ce4c0e6bba",
+  "active": "870a14ec5e4b2a7a",
   "lastOpenFiles": [
+    "41.Events/2026-04/2026-04-26 推荐信.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/memory/Recent Conversations.md",
-    "41.Events/2026-04/2026-04-26 推荐信.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-09.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
