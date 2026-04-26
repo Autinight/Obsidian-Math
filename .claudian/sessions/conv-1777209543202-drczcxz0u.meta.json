@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777209543202-drczcxz0u",
+  "providerId": "claude",
+  "title": "现在打开的笔记是我新下载的插件中的默认配置, 00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777209543202,
+  "updatedAt": 1777210416143,
+  "lastResponseAt": 1777210391913,
+  "sessionId": "9bc0adc4-c850-4d09-adb2-f1fc2024f372",
+  "providerState": {
+    "providerSessionId": "9bc0adc4-c850-4d09-adb2-f1fc2024f372"
+  },
+  "currentNote": "00.Inbox/latex suits.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 1,
+    "cacheReadInputTokens": 47609,
+    "contextWindow": 200000,
+    "contextTokens": 47610,
+    "percentage": 24
+  }
+}

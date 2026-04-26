@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777211280648-pg7p5c3dv",
+  "providerId": "claude",
+  "title": "obsidian中可以把ctrl+j设置成光标想左一格的功能吗",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777211280648,
+  "updatedAt": 1777211955360,
+  "lastResponseAt": 1777211943834,
+  "sessionId": "0e6271c9-67cd-4a81-ac08-9c56acd2fe06",
+  "providerState": {
+    "providerSessionId": "0e6271c9-67cd-4a81-ac08-9c56acd2fe06"
+  },
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 25,
+    "cacheCreationInputTokens": 237,
+    "cacheReadInputTokens": 24280,
+    "contextWindow": 200000,
+    "contextTokens": 24542,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}

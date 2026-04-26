@@ -91,5 +91,24 @@
       ],
       "key": "R"
     }
+  ],
+  "editor:insert-link": [],
+  "obsidian-editor-shortcuts:goToPrevChar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-editor-shortcuts:joinLines": [],
+  "obsidian-editor-shortcuts:addCursorsToSelectionEnds": [],
+  "obsidian-editor-shortcuts:goToNextChar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
   ]
 }

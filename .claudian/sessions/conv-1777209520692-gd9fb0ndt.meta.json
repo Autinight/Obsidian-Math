@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777209520692-gd9fb0ndt",
+  "providerId": "claude",
+  "title": "现在打开的笔记是我新下载的插件中的默认配置, 00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777209520692,
+  "updatedAt": 1777209698737,
+  "lastResponseAt": 1777209533066,
+  "sessionId": "98953e55-5346-409e-8610-47dbaa613402",
+  "providerState": {
+    "providerSessionId": "98953e55-5346-409e-8610-47dbaa613402"
+  },
+  "currentNote": "00.Inbox/hsnips.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 1216,
+    "cacheCreationInputTokens": 1776,
+    "cacheReadInputTokens": 19864,
+    "contextWindow": 200000,
+    "contextTokens": 22856,
+    "percentage": 11
+  }
+}

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/hsnips.md",
+                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "hsnips"
+              "title": "ex - Isometry Group for Projective Space"
             }
           }
         ]
@@ -206,10 +206,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96acc7b4250c27b7",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
-    "00.Inbox/latex suits.md",
+    "新建 文本文档.txt",
+    "00.Inbox/new latex suits.md",
+    "00.Inbox/old latex suits.md",
+    "00.Inbox/new latex suits.md.tmp.22864.1777211103574",
+    "00.Inbox/new latex suits.md.tmp.22864.1777211077031",
+    "00.Inbox/new latex suits.md.tmp.22864.1777211054569",
+    "00.Inbox/new latex suits.md.tmp.22864.1777211022502",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210982138",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210945705",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210909444",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210873794",
     "00.Inbox/hsnips.md",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210845224",
+    "00.Inbox/new latex suits.md.tmp.22864.1777210805758",
+    "00.Inbox/my-latex-snippets.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
@@ -227,23 +240,10 @@
     "20.Cards/Exercises/ex - Short Exact Sequence Classification.md",
     "20.Cards/Exercises/ex - Relative Homology of Surfaces.md",
     "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
-    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Suspension Isomorphism.md.tmp.9260.1777200289523",
-    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Short Exact Sequence Classification.md.tmp.9260.1777200264622",
-    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Tetrahedra Cyclic Identification.md.tmp.9260.1777200239294",
-    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Klein Bottle Simplicial Homology.md.tmp.9260.1777200215687",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "11.Chapter Notes/AT Hatcher Ch2.1",
     "11.Chapter Notes/AT Hatcher CH02.01/chnt - AT Hatcher CH02.01.md",
-    "11.Chapter Notes/AT Hatcher CH02.01",
     "11.Chapter Notes/AT Hatcher Ch02 Sec01/chnt - AT Hatcher Ch02 Sec01.md",
-    "11.Chapter Notes/AT Hatcher Ch02 Sec01",
     "11.Chapter Notes/AT Hatcher CH02-1/chnt - AT Hatcher CH02-1.md",
-    "11.Chapter Notes/AT Hatcher CH02-1",
-    "11.Chapter Notes/AT Hatcher",
-    "00.Inbox/01.Todo List/Hatcher 2.1",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "00.Inbox/ex - Use $/Delta^3$ to Give Surface.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
