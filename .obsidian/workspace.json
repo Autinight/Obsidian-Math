@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -30,8 +30,19 @@
               "icon": "lucide-file",
               "title": "chnt - FA(Undergraduate) Middle Term"
             }
+          },
+          {
+            "id": "699c191c086c5a09",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,23 +184,13 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "e51c75a01bf85b85",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 515.5
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,19 +202,19 @@
       "webpage-html-export:导出为HTML": false,
       "templates:插入模板": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "870a14ec5e4b2a7a",
+  "active": "699c191c086c5a09",
   "lastOpenFiles": [
-    "00.Inbox/ep - ell^p Space.md",
+    "2026-04-25.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/ep - ell^p Space.md",
     "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "20.Cards/Examples/ep - ell^p Space.md",
     "11.Chapter Notes/FA(Undergraduate)",
-    "41.Events/2026-04/2026-04-26 推荐信.md",
+    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/memory/Recent Conversations.md",
@@ -227,7 +228,6 @@
     "00.Inbox/01.Todo List/未命名.md",
     "00.Inbox/02.Even.md",
     "00.Inbox/Dz.md",
-    "2026-04-25.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "60.Templates/NOTES.md",
     "copilot/copilot-conversations/Obsidian日程管理@20260425_155721.md",
