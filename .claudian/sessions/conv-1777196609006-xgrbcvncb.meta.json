@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777196609006-xgrbcvncb",
+  "providerId": "claude",
+  "title": "为什么要引入奇异同调",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777196609006,
+  "updatedAt": 1777196790393,
+  "lastResponseAt": 1777196759258,
+  "sessionId": "6ac464b2-d420-4437-8558-aa0b5877b1d2",
+  "providerState": {
+    "providerSessionId": "6ac464b2-d420-4437-8558-aa0b5877b1d2"
+  },
+  "currentNote": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 8123,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 8123,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

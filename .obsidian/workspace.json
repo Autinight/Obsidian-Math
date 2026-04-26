@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
             }
+          },
+          {
+            "id": "829f227dcd080b2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 265.5
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -190,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 566.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +231,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f488f57ecfcad45d",
+  "active": "829f227dcd080b2f",
   "lastOpenFiles": [
-    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "20.Cards/Examples/ep - Simplicial Homology of Torus.md.tmp.29096.1777196217489",
+    "30.Recources/FA/PDFs/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
+    "30.Recources/FA/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
+    "30.Recources/FA/PDFs",
+    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194608469",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194503780",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194438681",
@@ -217,16 +248,12 @@
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194290814",
     "00.Inbox/ep - ell^p Space.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194213823",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
     "20.Cards/Examples/ep - Binomial Distribution.md",
     "00.Inbox/未命名.md",
-    "30.Recources/AT/PDFs",
     "2026-04-25.md",
     "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
     "20.Cards/Examples/ep - ell^p Space.md",
-    "11.Chapter Notes/FA(Undergraduate)",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
@@ -235,7 +262,6 @@
     "40.Drafts/2026-02/Daily Draft 2026-02-09.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
-    "41.Events/2026-04",
     "00.Inbox/01.Todo List/2026-04-24 sd.md",
     "00.Inbox/01.Todo List/未命名.md",
     "00.Inbox/02.Even.md",

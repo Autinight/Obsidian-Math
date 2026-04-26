@@ -8,7 +8,7 @@
   "defaultViewMode": "preview",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "livePreview": false,
   "vimMode": false,
   "pdfExportSettings": {

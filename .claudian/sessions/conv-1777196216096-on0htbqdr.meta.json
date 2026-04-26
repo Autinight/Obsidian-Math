@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777196216096-on0htbqdr",
+  "providerId": "claude",
+  "title": "你有什么skills",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777196216096,
+  "updatedAt": 1777196398227,
+  "lastResponseAt": 1777196336236,
+  "sessionId": "5e764f37-d3d5-419a-92db-914662fa9fea",
+  "providerState": {
+    "providerSessionId": "5e764f37-d3d5-419a-92db-914662fa9fea"
+  },
+  "currentNote": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 4710,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4710,
+    "percentage": 2
+  }
+}
