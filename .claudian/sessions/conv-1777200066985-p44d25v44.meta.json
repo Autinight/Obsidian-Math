@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777200066985-p44d25v44",
+  "providerId": "claude",
+  "title": "按照01",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777200066986,
+  "updatedAt": 1777200404704,
+  "lastResponseAt": 1777200317783,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "5550c457-cba7-43e5-a9c4-52eeacace2c1"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 37,
+    "cacheCreationInputTokens": 479,
+    "cacheReadInputTokens": 41208,
+    "contextWindow": 200000,
+    "contextTokens": 41724,
+    "percentage": 21,
+    "contextWindowIsAuthoritative": true
+  }
+}

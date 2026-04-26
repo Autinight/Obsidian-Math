@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+                "file": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher - Ex - Section 2.1"
-            }
-          },
-          {
-            "id": "2255ff104304d253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-26 推荐信初稿撰写"
+              "title": "ex - Use delta^3 to Give Surface"
             }
           }
         ]
@@ -152,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+                "file": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher - Ex - Section 2.1 的大纲"
+              "title": "ex - Use delta^3 to Give Surface 的大纲"
             }
           },
           {
@@ -230,44 +206,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198879644",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198787181",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198740980",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md.tmp.6484.1777198716484",
-    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
-    "30.Recources/AT/Hatcher Ex",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "20.Cards/Exercises/ex - Identify All Same-Dim Faces of delta^n.md",
+    "20.Cards/Exercises/ex - Tetrahedra Cyclic Identification.md",
+    "20.Cards/Exercises/ex - Klein Bottle Simplicial Homology.md",
+    "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
+    "20.Cards/Exercises/ex - T^2 vs S^1 vee S^1 vee S^2.md",
+    "20.Cards/Exercises/ex - Good Pair Counterexample.md",
+    "20.Cards/Exercises/ex - Suspension Isomorphism.md",
+    "20.Cards/Exercises/ex - Short Exact Sequence Classification.md",
+    "20.Cards/Exercises/ex - Relative Homology of Surfaces.md",
+    "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
+    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Suspension Isomorphism.md.tmp.9260.1777200289523",
+    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Short Exact Sequence Classification.md.tmp.9260.1777200264622",
+    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Tetrahedra Cyclic Identification.md.tmp.9260.1777200239294",
+    "00.Inbox/01.Todo List/Hatcher 2.1/ex - Klein Bottle Simplicial Homology.md.tmp.9260.1777200215687",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "11.Chapter Notes/AT Hatcher Ch2.1",
+    "11.Chapter Notes/AT Hatcher CH02.01/chnt - AT Hatcher CH02.01.md",
+    "11.Chapter Notes/AT Hatcher CH02.01",
+    "11.Chapter Notes/AT Hatcher Ch02 Sec01/chnt - AT Hatcher Ch02 Sec01.md",
+    "11.Chapter Notes/AT Hatcher Ch02 Sec01",
+    "11.Chapter Notes/AT Hatcher CH02-1/chnt - AT Hatcher CH02-1.md",
+    "11.Chapter Notes/AT Hatcher CH02-1",
+    "11.Chapter Notes/AT Hatcher",
+    "00.Inbox/01.Todo List/Hatcher 2.1",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "00.Inbox/ex - Use $/Delta^3$ to Give Surface.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "60.Templates/NOTES.md",
     "60.Templates/Script_DailyDraft.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "20.Cards/Examples/ep - Simplicial Homology of Torus.md.tmp.29096.1777196217489",
-    "30.Recources/FA/PDFs/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
-    "30.Recources/FA/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
-    "30.Recources/FA/PDFs",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md.tmp.11124.1777194608469",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/ep - ell^p Space.md",
-    "20.Cards/Examples/ep - Algebra of Quaternions.md",
-    "20.Cards/Examples/ep - Binomial Distribution.md",
-    "00.Inbox/未命名.md",
-    "2026-04-25.md",
-    "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
-    "20.Cards/Examples/ep - ell^p Space.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/memory/Recent Conversations.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-09.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
