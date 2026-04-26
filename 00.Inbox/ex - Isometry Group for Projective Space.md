@@ -13,7 +13,6 @@ tags: []
 ---
 
 For $E,F\in \operatorname{PGL}\left(n+ 1,\mathbb{F}\right)$, with $F\left(p\right)= E\left(p\right)= q$, $DF|_{p}= DE|_{p}$, we need to show $E= F$.
-
 $DF|_{p}: T_{p}\left(\mathbb{FP}^{n}\right)\to T_{q}\left(\mathbb{FP}^{n}\right)$
 
 $\pi :\mathbb{F}^{n}\to \mathbb{FP}^{n}$
@@ -28,7 +27,7 @@ is a submersion
 > Consider the real or complex projective space $\mathbb{FP}^{n}$.
 > 1. Show that $\operatorname{GL}(n+1,\mathbb{F})$ acts on $\mathbb{FP}^{n}$ by mapping 1-dimensional subspaces in $\mathbb{F}^{n+1}$ to 1-dimensional subspaces.
 > 2. Let $H\subset\operatorname{GL}(n+1,\mathbb{F})$ be the transformations that act trivially. Show that $H=\{\lambda I_{n+1}\mid\lambda\in\mathbb{F}\}$ and is a normal subgroup of $\operatorname{GL}(n+1,\mathbb{F})$.
-> 3. Define $\operatorname{PGL}(n+1,\mathbb{F})=\operatorname{GL}(n+1,\mathbb{F})/H$. Show that given $p\in\mathbb{FP}^{n}$ each element $F\in\operatorname{PGL}(n+1,\mathbb{F})$ is uniquely determined by $F(p)$ and $DF|_{p}$.
+> 3. [ ] Define $\operatorname{PGL}(n+1,\mathbb{F})=\operatorname{GL}(n+1,\mathbb{F})/H$. Show that given $p\in\mathbb{FP}^{n}$ each element $F\in\operatorname{PGL}(n+1,\mathbb{F})$ is uniquely determined by $F(p)$ and $DF|_{p}$.
 > 4. Show that there is no Riemannian metric on $\mathbb{FP}^{n}$ such that this action is by isometries.
 > 5. Show that the action is by affine transformations with respect to the standard (submersion) metric on $\mathbb{FP}^{n}$ (see exercise 5.9.39 for the definition of affine transformations).
 > 6. For a subgroup $G\subset\operatorname{GL}$, define $PG=G/H\cap G$. Show that the isometry group of $\mathbb{RP}^{n}$ is given by $\operatorname{PO}(n+1)$.
@@ -39,7 +38,7 @@ is a submersion
 > Show that $PG=G$.
 
 > [!proof] Proof: 
-> 1. Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace. Let $P\left(L\right)= L/\left\{ v\sim kv, k\in \mathbb{F} \right\}$ be the projective space of $L$. 
+> 10. Let $L\subseteq \mathbb{F}^{n}$ be a 1-dimensional $\mathbb{F}$- linear subspace. Let $P\left(L\right)= L/\left\{ v\sim kv, k\in \mathbb{F} \right\}$ be the projective space of $L$. 
 >    
 >    We need to show that $\operatorname{GL} \left(n+ 1,\mathbb{F}\right)$ mapsto $P\left(L\right)$ to another.
 >    
@@ -58,7 +57,7 @@ is a submersion
 >    $$ \varphi \circ \left(\operatorname{Id}_{\operatorname{GL} }, i\right): \operatorname{GL} \left(n+ 1,\mathbb{F}\right)\times L\to \mathbb{F}^{n+ 1} \\\left(A,v\right)\mapsto Av$$ 
 >    
 >    Since for each $A\in \operatorname{GL} \left(n+ 1,\mathbb{F}\right)$, $\operatorname{span}\left\{ Av \right\}$ is a 1-dim $\mathbb{F}$-linear subspace for $\mathbb{F}^{n+ 1}$. Since $\pi \circ \varphi \left(A\right)= \widetilde{\varphi}\left(A\right)\circ \pi: \mathbb{F}^{n}\to \mathbb{FP}^{n}$ , we have $P\left(AL\right)= \widetilde{\varphi}\left(A\right)\left(L\right)$, that is $\widetilde{\varphi}\left(A\right)$ acts by mapping 1-dimensional subsapce $L$ to 1-dimensional subspaces $P\left(AL\right)$.
-> 2. $$ \begin{aligned} \widetilde{\varphi}\left(A\right)\left([\mathbf{x}]\right)= [\mathbf{x}]\iff [\varphi \left(A\right)\left(\mathbf{x}\right)]= [\mathbf{x}]&\iff \exists k\in \mathbb{F},  \varphi \left(A\right)\left(\mathbf{x}\right)= \mathbf{kx}\\&\iff \left(A-k \mathbf{I}\right)\mathbf{x}= 0\\&\iff A= k \mathbf{I}  \end{aligned}$$
+> 11. $$ \begin{aligned} \widetilde{\varphi}\left(A\right)\left([\mathbf{x}]\right)= [\mathbf{x}]\iff [\varphi \left(A\right)\left(\mathbf{x}\right)]= [\mathbf{x}]&\iff \exists k\in \mathbb{F},  \varphi \left(A\right)\left(\mathbf{x}\right)= \mathbf{kx}\\&\iff \left(A-k \mathbf{I}\right)\mathbf{x}= 0\\&\iff A= k \mathbf{I}  \end{aligned}$$
 >    
 >    Thus
 >    $$ H= \left\{ \lambda I_{n+ 1}: \lambda \in \mathbb{F} \right\} $$ 

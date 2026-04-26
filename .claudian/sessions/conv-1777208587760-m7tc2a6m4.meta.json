@@ -4,8 +4,8 @@
   "title": "现在打开的笔记是我新下载的插件中的默认配置, 00",
   "titleGenerationStatus": "failed",
   "createdAt": 1777208587761,
-  "updatedAt": 1777208777238,
-  "lastResponseAt": 1777208668734,
+  "updatedAt": 1777212580570,
+  "lastResponseAt": 1777212580570,
   "sessionId": "781137f5-6042-427a-8986-9477ebf8a154",
   "providerState": {
     "providerSessionId": "781137f5-6042-427a-8986-9477ebf8a154"
@@ -13,11 +13,12 @@
   "currentNote": "00.Inbox/latex suits.md",
   "usage": {
     "model": "claude-opus-4-6",
-    "inputTokens": 6916,
-    "cacheCreationInputTokens": 153,
-    "cacheReadInputTokens": 23772,
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 27017,
+    "cacheReadInputTokens": 21771,
     "contextWindow": 200000,
-    "contextTokens": 30841,
-    "percentage": 15
+    "contextTokens": 48798,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
   }
 }

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777212048069-yk3gchfht",
+  "providerId": "claude",
+  "title": "帮我把vim功能中的j,k换成左右移动, h,l换成上下移动",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777212048069,
+  "updatedAt": 1777212618826,
+  "lastResponseAt": 1777212618826,
+  "sessionId": "217967da-fd0b-44fe-ac6e-14d0f583ccca",
+  "providerState": {
+    "providerSessionId": "217967da-fd0b-44fe-ac6e-14d0f583ccca"
+  },
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27859,
+    "contextWindow": 200000,
+    "contextTokens": 27859,
+    "percentage": 14
+  }
+}
