@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777202868424-vl0pi38zn",
+  "providerId": "claude",
+  "title": "这道题大概讲了什么",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777202868424,
+  "updatedAt": 1777203799290,
+  "lastResponseAt": 1777203762690,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "21644607-9783-42af-a7ff-92e22f27fd08"
+  },
+  "currentNote": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 3605,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3605,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": false
+  }
+}

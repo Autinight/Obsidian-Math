@@ -1,23 +1,23 @@
 {
-  "id": "conv-1777200880098-ohoe3uzw6",
+  "id": "conv-1777202693259-tozfol609",
   "providerId": "claude",
-  "title": "hi",
+  "title": "/skills",
   "titleGenerationStatus": "failed",
-  "createdAt": 1777200880098,
-  "updatedAt": 1777202687688,
-  "lastResponseAt": 1777202687688,
+  "createdAt": 1777202693270,
+  "updatedAt": 1777202878615,
+  "lastResponseAt": 1777202830563,
   "sessionId": null,
   "providerState": {
-    "providerSessionId": "4894ebbe-a0fa-4bc0-9b86-32f81687573e"
+    "providerSessionId": "e42a3688-3e1c-41ff-a46f-956a16f12e1d"
   },
   "currentNote": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
   "usage": {
     "model": "ZhipuAI/GLM-5.1",
-    "inputTokens": 4471,
+    "inputTokens": 3725,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 4471,
+    "contextTokens": 3725,
     "percentage": 2,
     "contextWindowIsAuthoritative": true
   }

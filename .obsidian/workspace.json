@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Use delta^3 to Give Surface"
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
             }
           }
         ]
@@ -206,16 +206,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96acc7b4250c27b7",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
+    "00.Inbox/Polygon Representations of Surfaces.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "20.Cards/Exercises/ex - Identify All Same-Dim Faces of delta^n.md",
     "20.Cards/Exercises/ex - Tetrahedra Cyclic Identification.md",
     "20.Cards/Exercises/ex - Klein Bottle Simplicial Homology.md",
-    "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
     "20.Cards/Exercises/ex - T^2 vs S^1 vee S^1 vee S^2.md",
     "20.Cards/Exercises/ex - Good Pair Counterexample.md",
     "20.Cards/Exercises/ex - Suspension Isomorphism.md",
@@ -243,7 +244,6 @@
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch04.md",
     "60.Templates/NOTES.md",
     "60.Templates/Script_DailyDraft.md",
-    "00.Inbox/ep - Simplicial Homology of Torus.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
