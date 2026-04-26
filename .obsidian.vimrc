@@ -17,10 +17,6 @@ vnoremap l j
 imap <C-j> <Esc>ja
 imap <C-k> <Esc>ka
  
-" Shift+j/k：左右移动一个单词
-imap <S-j> <Esc>bi
-imap <S-k> <Esc>wi
- 
-" Alt+j/k：打印大小写 J/K
-imap <A-j> J
-imap <A-k> K
+" Alt+j/k：左右移动一个单词
+imap <A-j> <Esc>bi
+imap <A-k> <Esc>ea

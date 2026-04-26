@@ -15,10 +15,12 @@ tags: []
 For $E,F\in \operatorname{PGL}\left(n+ 1,\mathbb{F}\right)$, with $F\left(p\right)= E\left(p\right)= q$, $DF|_{p}= DE|_{p}$, we need to show $E= F$.
 $DF|_{p}: T_{p}\left(\mathbb{FP}^{n}\right)\to T_{q}\left(\mathbb{FP}^{n}\right)$
 
-$\pi :\mathbb{F}^{n}\to \mathbb{FP}^{n}$
+$\pi :\mathbb{F}^{n}\to \mathbb{P}^{n}$
+
 
 $$ d \pi : T_{p}\mathbb{F}^{n}\to T_{p}\mathbb{FP}^{n} $$ 
 is a submersion
+
 
 
 
