@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
-                "mode": "preview",
+                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Isometry Group for Projective Space"
+              "title": "chnt - FA(Undergraduate) Middle Term"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flow",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,8 +207,13 @@
   },
   "active": "870a14ec5e4b2a7a",
   "lastOpenFiles": [
-    "41.Events/2026-04/2026-04-26 推荐信.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "copilot/copilot-conversations/Dataview块查询@20260426_110656.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "20.Cards/Examples/ep - ell^p Space.md",
+    "11.Chapter Notes/FA(Undergraduate)",
+    "41.Events/2026-04/2026-04-26 推荐信.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/memory/Recent Conversations.md",
@@ -235,10 +240,6 @@
     "copilot/memory",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -252,7 +253,6 @@
     "00.Inbox/01.Todo List/Functional",
     "00.Inbox/01.Todo List/Fourier",
     "40.Drafts/2026-04",
-    "40.Drafts/新建文件夹",
     "70.Life/Pasted image 20260120174845.png",
     "70.Life/Pasted image 20260120175002.png",
     "Pasted image 20260204114038.png",
