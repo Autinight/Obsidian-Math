@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+                "file": "30.Recources/DM/Course HW/DM - Review of HW9.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DM - HW8"
+              "title": "DM - Review of HW9"
             }
           }
         ]
@@ -208,11 +208,22 @@
   },
   "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW/DM - Review of HW13.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "30.Recources/DM/Course HW/DM - Review of HW7.md",
+    "30.Recources/DM/Course HW/DM - Review of HW6.md",
+    "30.Recources/DM/Course HW/DM - Review of HW4.md",
+    "30.Recources/DM/Course HW/DM - Review of HW5.md",
+    "30.Recources/DM/Course HW/DM - Review of HW12.md",
+    "30.Recources/DM/Course HW/DM - Review of HW11.md",
+    "30.Recources/DM/Course HW/DM - Review of HW10.md",
+    "30.Recources/DM/Course HW/DM - Review of HW9.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252238520",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252183409",
     "00.Inbox/dfn - Delta-Complex.md",
@@ -233,17 +244,6 @@
     "00.Inbox/new latex suits.md.tmp.22864.1777210945705",
     "00.Inbox/new latex suits.md.tmp.22864.1777210909444",
     "00.Inbox/my-latex-snippets.md",
-    "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
-    "00.Inbox/Polygon Representations of Surfaces.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "20.Cards/Exercises/ex - Identify All Same-Dim Faces of delta^n.md",
-    "20.Cards/Exercises/ex - Tetrahedra Cyclic Identification.md",
-    "20.Cards/Exercises/ex - Klein Bottle Simplicial Homology.md",
-    "20.Cards/Exercises/ex - T^2 vs S^1 vee S^1 vee S^2.md",
-    "20.Cards/Exercises/ex - Good Pair Counterexample.md",
-    "20.Cards/Exercises/ex - Suspension Isomorphism.md",
-    "20.Cards/Exercises/ex - Short Exact Sequence Classification.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
