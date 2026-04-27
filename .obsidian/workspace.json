@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "DM - HW8"
             }
+          },
+          {
+            "id": "c8fd74e4f39f667e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-26 推荐信初稿撰写"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,8 +231,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96acc7b4250c27b7",
+  "active": "c8fd74e4f39f667e",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW9.md",
     "30.Recources/DM/Course HW/DM - Review of HW7.md",
@@ -222,7 +248,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252238520",
