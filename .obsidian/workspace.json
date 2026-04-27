@@ -53,8 +53,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ep - L^p Space.md",
-                "mode": "source",
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -68,11 +68,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ep - L^p Space"
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+            }
+          },
+          {
+            "id": "2429d2d0b071e523",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "chnt - FA(Undergraduate) Middle Term"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -247,10 +271,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f5673c3d0df3c497",
+  "active": "2429d2d0b071e523",
   "lastOpenFiles": [
-    "00.Inbox/ep - L^p Space.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/FA/Course HW/FA - HW7.md",
+    "30.Recources/FA/Course HW/FA - HW2.md",
+    "30.Recources/FA/Course HW/FA - HW1.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/ep - L^p Space.md",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ep - C[a,b].md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
@@ -261,9 +293,7 @@
     "node_modules/@napi-rs/canvas/README.md",
     "node_modules/@napi-rs/canvas-win32-x64-msvc/README.md",
     "Pasted image 20260427151120.png",
-    "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
     "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "node_modules/pdfjs-dist/web/images/secondaryToolbarButton-documentProperties.svg",
@@ -283,17 +313,12 @@
     "node_modules/pdfjs-dist/CODE_OF_CONDUCT.md",
     "30.Recources/AT/Course HW/AT - HW13.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
-    "00.Inbox/dfn - Delta-Complex.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md",
     "00.Inbox/刘炳初erta泛函分析 第一章 度量空间与赋范线性空间.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-    "30.Recources/DM/Course HW/DM - Review of HW9.md",
-    "30.Recources/DM/Course HW/DM - Review of HW7.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",

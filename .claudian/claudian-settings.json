@@ -2,7 +2,7 @@
   "userName": "Autin",
   "permissionMode": "yolo",
   "model": "ZhipuAI/GLM-5.1",
-  "thinkingBudget": "off",
+  "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -89,9 +89,9 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "high"
   },
-  "lastCustomModel": "claude-opus-4-6",
+  "lastCustomModel": "ZhipuAI/GLM-5.1",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
