@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777251004043-jhloco7go",
+  "providerId": "claude",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777251004044,
+  "updatedAt": 1777251048216,
+  "lastResponseAt": 1777251013232,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "2ed7ea5b-2fdf-4a41-8c57-05d55f4f1353"
+  },
+  "currentNote": "00.Inbox/dfn - Delta-Complex.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 20581,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 20581,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}
