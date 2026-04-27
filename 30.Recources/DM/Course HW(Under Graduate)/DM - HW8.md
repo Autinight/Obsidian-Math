@@ -65,7 +65,36 @@
 > 使得对任意的 $X_1, X_2 \in \mathfrak{X}(M)$ 有
 > $$(\sigma(p))(X_1(p), X_2(p)) = (\sigma(X_1, X_2))(p).$$
 
+> [!proof] Proof: 
+> 首先证明逐点决定性: 若 $X_1(p) = 0$, 证明 $(\sigma(X_1, X_2))(p) = 0$.
+> 
+> 在 $p$ 的局部坐标邻域 $U$ 中, 记 $X_1 = \sum_{i=1}^n f^i \frac{\partial}{\partial x^i}$, 由 $X_1(p) = 0$ 知 $f^i(p) = 0$.
+> 选取在 $p$ 的邻域内恒为 $1$, 支集包含于 $U$ 的截断函数 $\rho \in C^\infty(M)$.
+> 记全局向量场 $E_i = \rho \frac{\partial}{\partial x^i}$, 则在 $p$ 的该邻域内有 $X_1 = \sum_{i=1}^n (\rho f^i) E_i$.
+> 
+> 由 $\sigma$ 对第一个变量的 $C^\infty(M)$-线性可知:
+> $$ (\sigma(X_1, X_2))(p) = \left(\sigma\left(\sum_{i=1}^n (\rho f^i) E_i, X_2\right)\right)(p) = \sum_{i=1}^n (\rho f^i)(p) \cdot (\sigma(E_i, X_2))(p) $$ 
+> 由于 $f^i(p) = 0$, 故 $(\sigma(X_1, X_2))(p) = 0$.
+> 
+> 由对称性, 对于第二个变量同理. 故 $(\sigma(X_1, X_2))(p)$ 的值仅依赖于 $X_1(p)$ 与 $X_2(p)$.
+> 
+> 现对于任意 $p \in M$ 及 $v_1, v_2 \in T_pM$, 任取满足 $X_1(p)=v_1, X_2(p)=v_2$ 的全局向量场 $X_1, X_2 \in \mathfrak{X}(M)$, 定义:
+> $$ \sigma(p)(v_1, v_2) := (\sigma(X_1, X_2))(p) $$ 
+> 
+> 若取另一组延拓 $\tilde{X}_1, \tilde{X}_2$, 则 $(X_1 - \tilde{X}_1)(p) = 0$, $(X_2 - \tilde{X}_2)(p) = 0$. 由双线性有:
+> $$ (\sigma(X_1, X_2) - \sigma(\tilde{X}_1, \tilde{X}_2))(p) = (\sigma(X_1 - \tilde{X}_1, X_2))(p) + (\sigma(\tilde{X}_1, X_2 - \tilde{X}_2))(p) = 0 $$ 
+> 故 $\sigma(p)$ 的定义与向量场的选取无关, 从而 $\sigma(p): T_pM \times T_pM \to T_pM$ 是良定的.
+> 
+> 由定义即有 $(\sigma(p))(X_1(p), X_2(p)) = (\sigma(X_1, X_2))(p)$. 且因前提中 $\sigma(X_1,X_2) \in \mathfrak{X}(M)$, 故此映射以 $C^\infty$ 的方式依赖于 $p$.
+
 > [!exercise] Exercise: 4.5
 > 对于 $\alpha \in A^1(M)$, $X \in \mathfrak{X}(M)$, 定义映射 $\mathcal{L}_X \alpha : \mathfrak{X}(M) \to C^\infty(M)$ 为
 > $$(\mathcal{L}_X \alpha)(Y) = X(\alpha(Y)) - \alpha([X,Y]), \quad \forall Y \in \mathfrak{X}(M),$$
 > 证明: $\mathcal{L}_X \alpha \in A^1(M)$.
+
+> [!proof] Proof: 
+> 即说明
+> $$ \mathcal{L}_{X}\left(f\alpha \right)= f \mathcal{L}_{X}\alpha  $$ 
+>
+> $$ \begin{aligned} \begin{aligned} \begin{aligned} \left(\mathcal{L}_{X}\alpha \right)\left(fY\right)&= X\left(\alpha \left(fY\right)\right)-\alpha \left(\left[ X,fY \right]\right)\\&= X\left(f\alpha \left(Y\right)\right)-\alpha \left(f\left[ X,Y \right]+ \left(Xf\right)Y\right)\\&= \left(Xf\right)\alpha \left(Y\right)+ f \left(X\left(\alpha \left(Y\right)\right)\right)-f\alpha \left(\left[ X,Y \right]\right)-\left(Xf\right)\alpha \left(Y\right)\\&= f \mathcal{L}_{X}\alpha  \end{aligned} \end{aligned} \end{aligned} $$ 
+> 故$\mathcal{L}_{X}\alpha \in A^{1}\left(M\right)$.
