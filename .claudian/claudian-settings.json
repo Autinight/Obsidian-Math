@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "ZhipuAI/GLM-5.1",
+  "model": "claude-opus-4-6",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -63,8 +63,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_SMALL_FAST_MODEL=ZhipuAI/GLM-5.1",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1|ANTHROPIC_MODEL=ZhipuAI/GLM-5.1"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.suchuang.vip\nANTHROPIC_API_KEY=sk-sedKVqIoWHsgExWgsHZcxEAMGL26FFTZ62v5MYds85FrqEM8\nANTHROPIC_AUTH_TOKEN=sk-sedKVqIoWHsgExWgsHZcxEAMGL26FFTZ62v5MYds85FrqEM8\nANTHROPIC_MODEL=claude-opus-4-6\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-6\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-6",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.suchuang.vip|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-6|ANTHROPIC_MODEL=claude-opus-4-6"
     },
     "codex": {
       "enabled": false,
@@ -82,7 +82,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "ZhipuAI/GLM-5.1"
+    "claude": "claude-opus-4-6"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -91,7 +91,7 @@
   "savedProviderThinkingBudget": {
     "claude": "off"
   },
-  "lastCustomModel": "claude-opus-4-6",
+  "lastCustomModel": "ZhipuAI/GLM-5.1",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

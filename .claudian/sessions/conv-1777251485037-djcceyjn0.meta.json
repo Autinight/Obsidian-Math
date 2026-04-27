@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777251485037-djcceyjn0",
+  "providerId": "claude",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777251485038,
+  "updatedAt": 1777251891895,
+  "lastResponseAt": 1777251511672,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "1b25a64e-3e1e-4907-92a3-ef1cb1f6f8c7"
+  },
+  "currentNote": "00.Inbox/dfn - Delta-Complex.md",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 3686,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3686,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

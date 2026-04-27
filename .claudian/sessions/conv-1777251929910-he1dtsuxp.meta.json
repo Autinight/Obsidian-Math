@@ -1,0 +1,27 @@
+{
+  "id": "conv-1777251929910-he1dtsuxp",
+  "providerId": "claude",
+  "title": "把这几道exercise写进这个闭集",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777251929910,
+  "updatedAt": 1777252244480,
+  "lastResponseAt": 1777252244480,
+  "sessionId": "9ddbb8f5-dcc9-4e4f-81bc-edd6d60ad925",
+  "providerState": {
+    "providerSessionId": "9ddbb8f5-dcc9-4e4f-81bc-edd6d60ad925",
+    "previousProviderSessionIds": [
+      "4533fd1a-e904-41b2-9fc6-31799feac12d"
+    ]
+  },
+  "currentNote": "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 46,
+    "cacheCreationInputTokens": 346,
+    "cacheReadInputTokens": 45452,
+    "contextWindow": 200000,
+    "contextTokens": 45844,
+    "percentage": 23,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -4,20 +4,24 @@
   "title": "hi\\",
   "titleGenerationStatus": "pending",
   "createdAt": 1777251123691,
-  "updatedAt": 1777251125801,
-  "lastResponseAt": 1777251125801,
+  "updatedAt": 1777251432987,
+  "lastResponseAt": 1777251325019,
   "sessionId": null,
   "providerState": {
-    "providerSessionId": "f44f5c68-313f-4c9b-8243-b27e30d62122"
+    "providerSessionId": "f776cd92-b876-4f3b-be4d-8c662cbeb9a9",
+    "previousProviderSessionIds": [
+      "f44f5c68-313f-4c9b-8243-b27e30d62122"
+    ]
   },
   "currentNote": "00.Inbox/dfn - Delta-Complex.md",
   "usage": {
-    "model": "count.claude-opus-4-6",
+    "model": "claude-opus-4-6",
     "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextTokens": 0,
-    "percentage": 0
+    "percentage": 0,
+    "contextWindowIsAuthoritative": false
   }
 }

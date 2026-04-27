@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/dfn - Delta-Complex.md",
-                "mode": "source",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dfn - Delta-Complex"
+              "title": "DM - HW8"
             }
           }
         ]
@@ -208,9 +208,16 @@
   },
   "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252238520",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252183409",
+    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - ell^p Space.md",
-    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
@@ -225,8 +232,6 @@
     "00.Inbox/new latex suits.md.tmp.22864.1777210982138",
     "00.Inbox/new latex suits.md.tmp.22864.1777210945705",
     "00.Inbox/new latex suits.md.tmp.22864.1777210909444",
-    "00.Inbox/new latex suits.md.tmp.22864.1777210873794",
-    "00.Inbox/new latex suits.md.tmp.22864.1777210845224",
     "00.Inbox/my-latex-snippets.md",
     "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
     "00.Inbox/Polygon Representations of Surfaces.md",
@@ -239,11 +244,6 @@
     "20.Cards/Exercises/ex - Good Pair Counterexample.md",
     "20.Cards/Exercises/ex - Suspension Isomorphism.md",
     "20.Cards/Exercises/ex - Short Exact Sequence Classification.md",
-    "20.Cards/Exercises/ex - Relative Homology of Surfaces.md",
-    "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
-    "11.Chapter Notes/AT Hatcher CH02.01/chnt - AT Hatcher CH02.01.md",
-    "11.Chapter Notes/AT Hatcher Ch02 Sec01/chnt - AT Hatcher Ch02 Sec01.md",
-    "11.Chapter Notes/AT Hatcher CH02-1/chnt - AT Hatcher CH02-1.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
