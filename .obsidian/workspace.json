@@ -48,12 +48,12 @@
             }
           },
           {
-            "id": "4173bc9d75270943",
+            "id": "e5f6e77d891cc252",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/FA/Course HW/FA - HW3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,35 +68,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
-            }
-          },
-          {
-            "id": "2429d2d0b071e523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chnt - FA(Undergraduate) Middle Term"
+              "title": "FA - HW3"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00.Inbox/未命名.md",
+                "file": "30.Recources/FA/Course HW/FA - HW3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "FA - HW3 的反向链接列表"
             }
           },
           {
@@ -193,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Exercises/ex - Use delta^3 to Give Surface.md",
+                "file": "30.Recources/FA/Course HW/FA - HW3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Use delta^3 to Give Surface 的大纲"
+              "title": "FA - HW3 的大纲"
             }
           },
           {
@@ -251,11 +227,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 566.5
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,16 +247,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2429d2d0b071e523",
+  "active": "e5f6e77d891cc252",
   "lastOpenFiles": [
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
+    "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - L^p Space.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ep - C[a,b].md",
@@ -317,8 +294,6 @@
     "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md",
     "00.Inbox/刘炳初erta泛函分析 第一章 度量空间与赋范线性空间.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
-    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
