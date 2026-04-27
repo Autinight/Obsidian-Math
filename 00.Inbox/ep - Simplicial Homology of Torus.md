@@ -1,7 +1,7 @@
 ---
 title: 环面的单纯同调群计算
 tags:
-  - algebraic-topology
+  - algebraic_topology
   - homology
   - hatcher
 aliases:
