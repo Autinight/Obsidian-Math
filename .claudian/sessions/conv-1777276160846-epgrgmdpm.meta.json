@@ -4,6 +4,20 @@
   "title": "把这个图片形式的pdf,即书本的第一章, 转换成obsidian的闭集, 放在00",
   "titleGenerationStatus": "failed",
   "createdAt": 1777276160846,
-  "updatedAt": 1777276346121,
-  "sessionId": null
+  "updatedAt": 1777277606462,
+  "lastResponseAt": 1777277603782,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "5de28ff1-4290-40d4-bb8c-214292c1a914"
+  },
+  "currentNote": "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 33,
+    "cacheCreationInputTokens": 47,
+    "cacheReadInputTokens": 81168,
+    "contextWindow": 200000,
+    "contextTokens": 81248,
+    "percentage": 41
+  }
 }

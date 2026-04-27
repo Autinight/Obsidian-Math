@@ -46,9 +46,56 @@
               "icon": "lucide-file",
               "title": "chnt - FA(Undergraduate) Middle Term"
             }
+          },
+          {
+            "id": "d55bbbfecb6b8498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+            }
+          },
+          {
+            "id": "38e8fc0004a0fc53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ex - Isometry Group for Projective Space"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,19 +270,38 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f611cd6ee4c331af",
+  "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/ep - Simplicial Homology of Torus.md",
+    "00.Inbox/ep - ell^p Space.md",
+    "00.Inbox/dfn - Delta-Complex.md",
     "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/dfn - Delta-Complex.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/attachments/liubingchu_ch1/page_08.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_04.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_02.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_01.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_42.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_41.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_40.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_39.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_38.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_37.png",
+    "00.Inbox/attachments/liubingchu_ch1",
+    "00.Inbox/attachments",
+    "30.Recources/FA/PDFs/刘炳初/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
+    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md",
+    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md.tmp.14644.1777277557742",
+    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md.tmp.14644.1777277267958",
+    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md.tmp.14644.1777277215139",
+    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md.tmp.14644.1777277173233",
+    "00.Inbox/刘炳初erta泛函分析 第一章 度量空间与赋范线性空间.md",
     "30.Recources/FA/PDFs/刘炳初/Ch1_test.txt",
     "30.Recources/FA/PDFs/刘炳初/Ch1.txt",
-    "30.Recources/FA/PDFs/刘炳初/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
-    "30.Recources/FA/PDFs/刘炳初",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
-    "Pasted image 20260427151120.png",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW9.md",
     "30.Recources/DM/Course HW/DM - Review of HW7.md",
@@ -252,15 +318,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252238520",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252183409",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/ep - ell^p Space.md",
-    "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/old latex suits.md",
-    "新建 文本文档.txt",
-    "00.Inbox/new latex suits.md.tmp.22864.1777211103574",
-    "00.Inbox/new latex suits.md.tmp.22864.1777211077031",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -270,15 +327,6 @@
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
-    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "70.Life/Pasted image 20260120174845.png",
-    "70.Life/Pasted image 20260120175002.png",
-    "Pasted image 20260204114038.png",
-    "Pasted image 20260204114138.png",
-    "Pasted image 20260204114244.png",
-    "Pasted image 20260204114208.png",
-    "50.Image/Others/0aff2fd1c6c6dd2fff80d9cc937620f6.jpg",
-    "50.Image/Others/ac6b3feee51db4e782f498821a2b6288.jpg",
-    "50.Image/Others/44344218e46bedec6e5c518c139ac257.jpg"
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas"
   ]
 }
