@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "c8fd74e4f39f667e",
+            "id": "22d56e5760f621f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,6 +53,30 @@
               },
               "icon": "lucide-file",
               "title": "2026-04-26 推荐信初稿撰写"
+            }
+          },
+          {
+            "id": "c8fd74e4f39f667e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
             }
           }
         ],
@@ -231,9 +255,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c8fd74e4f39f667e",
+  "active": "22d56e5760f621f5",
   "lastOpenFiles": [
+    "Pasted image 20260427151120.png",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW9.md",
     "30.Recources/DM/Course HW/DM - Review of HW7.md",
@@ -257,10 +284,7 @@
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/old latex suits.md",
-    "00.Inbox/new latex suits.md",
-    "00.Inbox/hsnips.md",
     "新建 文本文档.txt",
     "00.Inbox/new latex suits.md.tmp.22864.1777211103574",
     "00.Inbox/new latex suits.md.tmp.22864.1777211077031",
