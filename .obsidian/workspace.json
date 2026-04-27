@@ -48,54 +48,19 @@
             }
           },
           {
-            "id": "d55bbbfecb6b8498",
+            "id": "464897a8eb69f5c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
-            }
-          },
-          {
-            "id": "38e8fc0004a0fc53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ex - Isometry Group for Projective Space"
+              "icon": "lucide-file-text",
+              "title": "ATHatcher - Chapter2 - Homology"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,25 +235,29 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96acc7b4250c27b7",
+  "active": "464897a8eb69f5c8",
   "lastOpenFiles": [
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "30.Recources/AT/Course HW/AT - HW13.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/dfn - Delta-Complex.md",
-    "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/attachments/liubingchu_ch1/page_13.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_12.png",
     "00.Inbox/attachments/liubingchu_ch1/page_08.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_04.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_02.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_01.png",
     "00.Inbox/attachments/liubingchu_ch1/page_42.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_41.png",
     "00.Inbox/attachments/liubingchu_ch1/page_40.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_39.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_38.png",
-    "00.Inbox/attachments/liubingchu_ch1/page_37.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_35.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_30.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_33.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_28.png",
+    "00.Inbox/attachments/liubingchu_ch1/page_24.png",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
     "00.Inbox/attachments/liubingchu_ch1",
     "00.Inbox/attachments",
     "30.Recources/FA/PDFs/刘炳初/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
@@ -299,7 +268,6 @@
     "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md.tmp.14644.1777277173233",
     "00.Inbox/刘炳初erta泛函分析 第一章 度量空间与赋范线性空间.md",
     "30.Recources/FA/PDFs/刘炳初/Ch1_test.txt",
-    "30.Recources/FA/PDFs/刘炳初/Ch1.txt",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
@@ -315,9 +283,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "30.Recources/DM/Course HW/DM - Review of HW13.md",
-    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",

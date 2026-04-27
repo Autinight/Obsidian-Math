@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777279367713-p8ovoortv",
+  "providerId": "claude",
+  "title": "读取00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777279367713,
+  "updatedAt": 1777279558613,
+  "lastResponseAt": 1777279494626,
+  "sessionId": "2595bf03-62a8-42dd-90fc-cea29e43f97e",
+  "providerState": {
+    "providerSessionId": "2595bf03-62a8-42dd-90fc-cea29e43f97e"
+  },
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777279170700-k5g9iypbl",
+  "providerId": "claude",
+  "title": "读取00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777279170700,
+  "updatedAt": 1777279361506,
+  "lastResponseAt": 1777279341530,
+  "sessionId": "753b48a0-67d5-4e73-9a95-df019a5f7468",
+  "providerState": {
+    "providerSessionId": "753b48a0-67d5-4e73-9a95-df019a5f7468"
+  },
+  "currentNote": "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
