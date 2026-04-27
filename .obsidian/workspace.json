@@ -10,10 +10,25 @@
           {
             "id": "96acc7b4250c27b7",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "30.Recources/FA/PDFs/刘炳初/Ch1.pdf"
+              },
+              "pinned": true,
+              "icon": "lucide-file-text",
+              "title": "Ch1"
+            }
+          },
+          {
+            "id": "f611cd6ee4c331af",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -27,56 +42,9 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "DM - HW8"
-            }
-          },
-          {
-            "id": "22d56e5760f621f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-26 推荐信初稿撰写"
-            }
-          },
-          {
-            "id": "c8fd74e4f39f667e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
+              "title": "chnt - FA(Undergraduate) Middle Term"
             }
           }
         ],
@@ -255,12 +223,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "22d56e5760f621f5",
+  "active": "f611cd6ee4c331af",
   "lastOpenFiles": [
-    "Pasted image 20260427151120.png",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
+    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/FA/PDFs/刘炳初/Ch1_test.txt",
+    "30.Recources/FA/PDFs/刘炳初/Ch1.txt",
+    "30.Recources/FA/PDFs/刘炳初/泛函分析（第三版） (刘炳初) (Z-Library).pdf",
+    "30.Recources/FA/PDFs/刘炳初",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
+    "Pasted image 20260427151120.png",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW/DM - Review of HW9.md",
     "30.Recources/DM/Course HW/DM - Review of HW7.md",
@@ -279,20 +254,13 @@
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch03.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252238520",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md.tmp.2324.1777252183409",
-    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/old latex suits.md",
     "新建 文本文档.txt",
     "00.Inbox/new latex suits.md.tmp.22864.1777211103574",
     "00.Inbox/new latex suits.md.tmp.22864.1777211077031",
-    "00.Inbox/new latex suits.md.tmp.22864.1777211054569",
-    "00.Inbox/new latex suits.md.tmp.22864.1777211022502",
-    "00.Inbox/new latex suits.md.tmp.22864.1777210982138",
-    "00.Inbox/new latex suits.md.tmp.22864.1777210945705",
-    "00.Inbox/new latex suits.md.tmp.22864.1777210909444",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
@@ -311,7 +279,6 @@
     "Pasted image 20260204114208.png",
     "50.Image/Others/0aff2fd1c6c6dd2fff80d9cc937620f6.jpg",
     "50.Image/Others/ac6b3feee51db4e782f498821a2b6288.jpg",
-    "50.Image/Others/44344218e46bedec6e5c518c139ac257.jpg",
-    "Pasted image 20260120175004.png"
+    "50.Image/Others/44344218e46bedec6e5c518c139ac257.jpg"
   ]
 }

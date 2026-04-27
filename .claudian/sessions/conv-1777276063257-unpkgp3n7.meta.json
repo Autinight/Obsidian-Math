@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777276063257-unpkgp3n7",
+  "providerId": "claude",
+  "title": "把这个pdf,即书本的第一章, 转换成obsidian的闭集, 放在00",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777276063259,
+  "updatedAt": 1777276241089,
+  "lastResponseAt": 1777276153997,
+  "sessionId": "229feb33-32ab-4c8a-9d0a-8d1a29e58f2a",
+  "providerState": {
+    "providerSessionId": "229feb33-32ab-4c8a-9d0a-8d1a29e58f2a"
+  },
+  "currentNote": "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
+  "usage": {
+    "model": "claude-opus-4-6",
+    "inputTokens": 113,
+    "cacheCreationInputTokens": 124,
+    "cacheReadInputTokens": 25632,
+    "contextWindow": 200000,
+    "contextTokens": 25869,
+    "percentage": 13
+  }
+}
