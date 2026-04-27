@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Isometry Group for Projective Space.md",
-                "mode": "source",
+                "file": "00.Inbox/dfn - Delta-Complex.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Isometry Group for Projective Space"
+              "title": "dfn - Delta-Complex"
             }
           }
         ]
@@ -208,10 +208,10 @@
   },
   "active": "96acc7b4250c27b7",
   "lastOpenFiles": [
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/old latex suits.md",
