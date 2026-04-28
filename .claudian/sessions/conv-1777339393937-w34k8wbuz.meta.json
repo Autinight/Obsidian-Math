@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777339393937-w34k8wbuz",
+  "providerId": "claude",
+  "title": "Exercise:6是不是不应该是Riesze表示, 而是类似Hahn-Banach推论的东西",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777339393937,
+  "updatedAt": 1777340314585,
+  "lastResponseAt": 1777340314585,
+  "sessionId": "60ab5441-6cda-4717-af25-12f78140ba66",
+  "providerState": {
+    "providerSessionId": "60ab5441-6cda-4717-af25-12f78140ba66"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 18012,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 18012,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}
