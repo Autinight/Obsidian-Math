@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW3.md",
+                "file": "30.Recources/FA/Course HW/FA - HW6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,7 +68,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW3"
+              "title": "FA - HW6"
             }
           }
         ],
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW3.md",
+                "file": "30.Recources/FA/Course HW/FA - HW6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "FA - HW3 的反向链接列表"
+              "title": "FA - HW6 的反向链接列表"
             }
           },
           {
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW3.md",
+                "file": "30.Recources/FA/Course HW/FA - HW6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW3 的大纲"
+              "title": "FA - HW6 的大纲"
             }
           },
           {
@@ -250,6 +250,10 @@
   "active": "e5f6e77d891cc252",
   "lastOpenFiles": [
     "30.Recources/FA/Course HW/FA - HW7.md",
+    "30.Recources/FA/Course HW/FA - HW6.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
+    "30.Recources/FA/Course HW/FA - HW4.md",
+    "30.Recources/FA/Course HW/FA - HW3.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
@@ -291,9 +295,6 @@
     "30.Recources/AT/Course HW/AT - HW13.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "00.Inbox/刘炳初 泛函分析 第一章 度量空间与赋范线性空间.md",
-    "00.Inbox/刘炳初erta泛函分析 第一章 度量空间与赋范线性空间.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",
