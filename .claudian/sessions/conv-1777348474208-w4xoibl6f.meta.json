@@ -3,6 +3,21 @@
   "providerId": "claude",
   "title": "这Exercise 6 和Exercise 7感觉就是同一个问题的连续版本和离散版本啊",
   "createdAt": 1777348474208,
-  "updatedAt": 1777348474212,
-  "sessionId": null
+  "updatedAt": 1777349546426,
+  "lastResponseAt": 1777349546426,
+  "sessionId": "0efdadc6-8cb9-4518-81cc-7c845ff1d686",
+  "providerState": {
+    "providerSessionId": "0efdadc6-8cb9-4518-81cc-7c845ff1d686"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 1261,
+    "cacheCreationInputTokens": 3818,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 5079,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
 }
