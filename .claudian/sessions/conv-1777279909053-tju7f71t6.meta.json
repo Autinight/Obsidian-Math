@@ -4,21 +4,21 @@
   "title": "/obsidian-cli /obsidian-markdown 读取30",
   "titleGenerationStatus": "failed",
   "createdAt": 1777279909053,
-  "updatedAt": 1777282534714,
+  "updatedAt": 1777334808414,
   "lastResponseAt": 1777282534714,
-  "sessionId": "9420cd7f-62ef-4940-a5e2-c128efa52d51",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "9420cd7f-62ef-4940-a5e2-c128efa52d51"
   },
   "currentNote": "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
   "usage": {
-    "model": "ZhipuAI/GLM-5.1",
+    "model": "gpt-5.5",
     "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextTokens": 0,
     "percentage": 0,
-    "contextWindowIsAuthoritative": true
+    "contextWindowIsAuthoritative": false
   }
 }

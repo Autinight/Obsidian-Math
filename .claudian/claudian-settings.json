@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "ZhipuAI/GLM-5.1",
+  "model": "gpt-5.5",
   "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -63,8 +63,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_SMALL_FAST_MODEL=ZhipuAI/GLM-5.1",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1|ANTHROPIC_MODEL=ZhipuAI/GLM-5.1"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=gpt-5.5\nANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5\nANTHROPIC_SMALL_FAST_MODEL=gpt-5.5",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5|ANTHROPIC_MODEL=gpt-5.5"
     },
     "codex": {
       "enabled": false,
@@ -82,7 +82,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "ZhipuAI/GLM-5.1"
+    "claude": "gpt-5.5"
   },
   "savedProviderEffort": {
     "claude": "high"

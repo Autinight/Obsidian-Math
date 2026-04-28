@@ -1,0 +1,14 @@
+{
+  "id": "conv-1777335794859-pvkal932x",
+  "providerId": "claude",
+  "title": "Luzin定理是说, 对于有限测度空间上的可测函数, 存在一个大测度闭集, 使得它在上面是连续的吗,...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777335794859,
+  "updatedAt": 1777335974136,
+  "lastResponseAt": 1777335902301,
+  "sessionId": "445bf19f-8e0e-42da-910c-451e30b2df1e",
+  "providerState": {
+    "providerSessionId": "445bf19f-8e0e-42da-910c-451e30b2df1e"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md"
+}

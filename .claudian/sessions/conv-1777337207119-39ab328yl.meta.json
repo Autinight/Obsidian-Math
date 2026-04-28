@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777337207119-39ab328yl",
+  "providerId": "claude",
+  "title": "Exercise4使用了Banach逆算子定理吗",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777337207120,
+  "updatedAt": 1777337398460,
+  "lastResponseAt": 1777337291315,
+  "sessionId": "55523a1d-03a1-4da3-b854-c74841528313",
+  "providerState": {
+    "providerSessionId": "55523a1d-03a1-4da3-b854-c74841528313"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 4502,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4502,
+    "percentage": 2
+  }
+}

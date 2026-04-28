@@ -1,9 +1,22 @@
 {
   "id": "conv-1777279771137-b9m2weukn",
   "providerId": "claude",
-  "title": "读取30",
+  "title": "什么是Raileigh Quotient不等式",
   "titleGenerationStatus": "failed",
   "createdAt": 1777279771137,
-  "updatedAt": 1777279945661,
-  "sessionId": null
+  "updatedAt": 1777334807749,
+  "lastResponseAt": 1777334799854,
+  "sessionId": "75f91c64-5ce3-4542-8023-d0ebc8c91c32",
+  "providerState": {
+    "providerSessionId": "75f91c64-5ce3-4542-8023-d0ebc8c91c32"
+  },
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 2753,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2753,
+    "percentage": 1
+  }
 }

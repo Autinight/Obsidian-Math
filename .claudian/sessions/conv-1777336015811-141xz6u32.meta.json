@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777336015811-141xz6u32",
+  "providerId": "claude",
+  "title": "Exercise2的逼近函数列\\varphi, 可以直接通过磨光核卷出来吗",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777336015811,
+  "updatedAt": 1777336347795,
+  "lastResponseAt": 1777336341463,
+  "sessionId": "4b864a1c-e305-42e7-a857-be55ace1a47d",
+  "providerState": {
+    "providerSessionId": "4b864a1c-e305-42e7-a857-be55ace1a47d"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 3152,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3152,
+    "percentage": 2
+  }
+}
