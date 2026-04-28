@@ -4,56 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b8632d226bbc3138",
+        "id": "f363ddaba03af44d",
         "type": "tabs",
         "children": [
           {
-            "id": "f611cd6ee4c331af",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "chnt - FA(Undergraduate) Middle Term"
-            }
-          },
-          {
-            "id": "f5673c3d0df3c497",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "30.Recources/FA/PDFs/刘炳初/Ch2.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "Ch2"
-            }
-          },
-          {
-            "id": "e4d8c57962ab2aba",
+            "id": "de3f9d5db14d8a6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW3.md",
+                "file": "30.Recources/FA/Course HW/FA - HW6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW3"
+              "title": "FA - HW6"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,10 +206,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e4d8c57962ab2aba",
+  "active": "de3f9d5db14d8a6a",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW4.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
+    "30.Recources/FA/Course HW/FA - HW3.md",
+    "30.Recources/FA/Course HW/FA - HW4.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
@@ -259,7 +219,6 @@
     "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-    "30.Recources/FA/Course HW/FA - HW3.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",

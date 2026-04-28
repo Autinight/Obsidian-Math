@@ -132,7 +132,7 @@ status: reviewed
 >  $$ \lim_{n\to \infty}\int _{a}^{b}fg_{n}= \lim_{k\to \infty}\int _{a}^{b}fg_{n_{k}}= \int _{a}^{b}fg $$  
 > 而$g\in L^{p}$, 因此点列$\left\{ \left(g_{n},\int _{a}^{b}fg_{n}\right) \right\}$收敛于$G$上的点$\left(g,\int _{a}^{b}fg\right)$. 因此$G$是闭的. 由闭图像定理, $T$是有界的线性算子.
 >
-> 因此$T\in\left(L^{p}\right)^{*}$, 由Riesze表示定理, $f= \left(T\right)^{*}\in L^{q}$.
+> 
 
 > [!exercise] Exercise: 7
 > 如果序列$a=\{a_k\}$使得$\forall x=\{\xi_k\}\in l^1$，线性泛函$f(x)=\sum_{k=1}^{\infty}a_k\xi_k$都收敛.

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777345342736-vnfsoc22m",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777345342737,
+  "updatedAt": 1777347223527,
+  "lastResponseAt": 1777345353491,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "5db68267-845c-48cf-a312-dc7235b31b71"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW3.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 1162,
+    "cacheCreationInputTokens": 629,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 1791,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

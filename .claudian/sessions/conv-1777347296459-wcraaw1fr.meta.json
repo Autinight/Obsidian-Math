@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777347296459-wcraaw1fr",
+  "providerId": "claude",
+  "title": "Exercise 5可以推广到ell^p空间吗",
+  "createdAt": 1777347296460,
+  "updatedAt": 1777347985739,
+  "lastResponseAt": 1777347985739,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "48882bd4-1409-4e3a-9a4a-37cb7710672f"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 14161,
+    "cacheCreationInputTokens": 627,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 14788,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}

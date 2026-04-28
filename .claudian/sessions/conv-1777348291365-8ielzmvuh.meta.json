@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777348291365-8ielzmvuh",
+  "providerId": "claude",
+  "title": "这Exercise 6和Exercise 7感觉就是同一个问题的连续版本和离散版本啊",
+  "createdAt": 1777348291365,
+  "updatedAt": 1777348337692,
+  "lastResponseAt": 1777348337692,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "49507c7c-b837-4667-b47c-f8de9c65fa86"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW6.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 1249,
+    "cacheCreationInputTokens": 3818,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 5067,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}
