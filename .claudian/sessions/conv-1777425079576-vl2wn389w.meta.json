@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777425079576-vl2wn389w",
+  "providerId": "claude",
+  "title": "这个第二问的构造的想法是什么呢, 完全没有头绪> [",
+  "createdAt": 1777425079576,
+  "updatedAt": 1777425550564,
+  "lastResponseAt": 1777425549331,
+  "sessionId": "b934e664-40f2-4339-a586-8c31ef959657",
+  "providerState": {
+    "providerSessionId": "b934e664-40f2-4339-a586-8c31ef959657"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW5.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 5980,
+    "cacheCreationInputTokens": 636,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 6616,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}

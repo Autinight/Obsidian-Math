@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777426698708-qenghqggl",
+  "providerId": "claude",
+  "title": "Minkowski泛函什么时候连续, 什么时候成为一个范数",
+  "createdAt": 1777426698708,
+  "updatedAt": 1777427355416,
+  "lastResponseAt": 1777427355416,
+  "sessionId": "f2c286db-ac80-481e-a0f4-8a43ce624ce2",
+  "providerState": {
+    "providerSessionId": "f2c286db-ac80-481e-a0f4-8a43ce624ce2"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW5.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 12811,
+    "cacheCreationInputTokens": 899,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 13710,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}
