@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777387633973-cacb50sqn",
+  "providerId": "claude",
+  "title": "Schauder不动点定理是什么",
+  "createdAt": 1777387633973,
+  "updatedAt": 1777387726633,
+  "lastResponseAt": 1777387726633,
+  "sessionId": "8b806f52-9dd1-46fa-aadf-1209fe4dca7c",
+  "providerState": {
+    "providerSessionId": "8b806f52-9dd1-46fa-aadf-1209fe4dca7c"
+  },
+  "currentNote": "30.Recources/FA/Course HW/FA - HW5.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 1163,
+    "cacheCreationInputTokens": 633,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 1796,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
