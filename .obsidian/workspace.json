@@ -11,24 +11,17 @@
             "id": "649625c9a3752703",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
+                "viewState": {
+                  "x": -113.68050432903976,
+                  "y": 403.14532594303114,
+                  "zoom": -2.3715423860609963
                 }
               },
-              "icon": "lucide-file",
-              "title": "chnt - FA(Undergraduate) Middle Term"
+              "icon": "lucide-layout-dashboard",
+              "title": "Hatcher 2.1 - Simplicial and Singular Homology"
             }
           }
         ]
@@ -207,6 +200,11 @@
   },
   "active": "649625c9a3752703",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777531145803",
+    "00.Inbox/ep - Simplicial Homology of Torus.md",
+    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777530830051",
+    "00.Inbox/dfn - Delta-Complex.md",
+    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Daily Draft 2026-04-29.md",
     "00.Inbox/ep - C[a,b].md",
     "00.Inbox/ep - ell^p Space.md",
@@ -227,9 +225,7 @@
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
-    "00.Inbox/dfn - Delta-Complex.md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",
@@ -239,7 +235,6 @@
     "node_modules/@napi-rs/canvas/README.md",
     "node_modules/@napi-rs/canvas-win32-x64-msvc/README.md",
     "Pasted image 20260427151120.png",
-    "00.Inbox/ep - Simplicial Homology of Torus.md",
     "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
     "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "node_modules/pdfjs-dist/web/images/secondaryToolbarButton-documentProperties.svg",
@@ -249,7 +244,6 @@
     "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-Regular.ttf",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-Italic.ttf",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-BoldItalic.ttf",
-    "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-Bold.ttf",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/README.md",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/CODE_OF_CONDUCT.md",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/web/images/toolbarButton-menuArrow.svg",
