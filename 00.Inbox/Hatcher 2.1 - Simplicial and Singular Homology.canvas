@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"b1c0000000000001","type":"group","x":350,"y":-300,"width":740,"height":580,"color":"1","label":"一、Δ-复形 (Δ-Complexes)"},
+		{"id":"a0b1c2d3e4f5a6b7","type":"text","text":"# §2.1 单纯同调与奇异同调\n\nHatcher *Algebraic Topology* Ch.2\n\n[[00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology]]","x":-200,"y":-80,"width":400,"height":160,"color":"5"},
+		{"id":"c1d0000000000001","type":"text","text":"## Δ-复形\n\n用三角形（单纯形）\n逐维粘贴构造空间\n的推广框架","x":380,"y":-50,"width":280,"height":120,"color":"1"},
+		{"id":"d1e0000000000001","type":"text","text":"**n-单纯形** $[v_0,\\cdots,v_n]$\n\n$\\mathbb{R}^m$ 中 $n+1$ 个\n不共超平面的点之凸包","x":760,"y":-240,"width":260,"height":80},
+		{"id":"d1e0000000000002","type":"text","text":"**标准 n-单纯形** $\\Delta^n$\n\n$\\sum t_i=1, t_i\\geq0$ \n坐标轴单位向量作顶点","x":760,"y":-140,"width":260,"height":90},
+		{"id":"d1e0000000000003","type":"text","text":"**面 & 边界**\n\n删去 $v_i$ → $(n-1)$-面\n$\\partial\\Delta^n$ = 所有面之并\n$\\mathring{\\Delta}^n$ = 内部","x":760,"y":-40,"width":260,"height":80},
+		{"id":"d1e0000000000004","type":"text","text":"**Δ-复形结构三条件**\n\n① 开单纯形 injective 且无重叠\n② 面限制 = 已有的低维映射\n③ 商拓扑 = 弱拓扑","x":760,"y":60,"width":260,"height":80},
+		{"id":"d1e0000000000005","type":"text","text":"**重心坐标**\n\n$(t_0,\\cdots,t_n) \\mapsto \\sum t_i v_i$\n$t_i$ 为点在单纯形中的坐标","x":760,"y":160,"width":260,"height":80}
+	],
+	"edges":[
+		{"id":"e0f0000000000001","fromNode":"a0b1c2d3e4f5a6b7","fromSide":"right","toNode":"c1d0000000000001","toSide":"left","color":"1"},
+		{"id":"e0f0000000000002","fromNode":"c1d0000000000001","fromSide":"right","toNode":"d1e0000000000001","toSide":"left","color":"1"},
+		{"id":"e0f0000000000003","fromNode":"c1d0000000000001","fromSide":"right","toNode":"d1e0000000000002","toSide":"left","color":"1"},
+		{"id":"e0f0000000000004","fromNode":"c1d0000000000001","fromSide":"right","toNode":"d1e0000000000003","toSide":"left","color":"1"},
+		{"id":"e0f0000000000005","fromNode":"c1d0000000000001","fromSide":"right","toNode":"d1e0000000000004","toSide":"left","color":"1"},
+		{"id":"e0f0000000000006","fromNode":"c1d0000000000001","fromSide":"right","toNode":"d1e0000000000005","toSide":"left","color":"1"}
+	]
+}

@@ -3,8 +3,8 @@
   "providerId": "claude",
   "title": "尝试把这篇笔记用Canvas展现出来",
   "createdAt": 1777529217896,
-  "updatedAt": 1777529583428,
-  "lastResponseAt": 1777529583428,
+  "updatedAt": 1777530429603,
+  "lastResponseAt": 1777530429603,
   "sessionId": "12240536-1329-452d-8b61-53b04fc0d2a2",
   "providerState": {
     "providerSessionId": "12240536-1329-452d-8b61-53b04fc0d2a2"
@@ -12,12 +12,12 @@
   "currentNote": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
   "usage": {
     "model": "ZhipuAI/GLM-5.1",
-    "inputTokens": 0,
+    "inputTokens": 34649,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0,
+    "contextTokens": 34649,
+    "percentage": 17,
     "contextWindowIsAuthoritative": true
   }
 }
