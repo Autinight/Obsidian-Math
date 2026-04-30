@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f363ddaba03af44d",
+        "id": "eac3fe35d20d4415",
         "type": "tabs",
         "children": [
           {
-            "id": "de3f9d5db14d8a6a",
+            "id": "649625c9a3752703",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "FA - HW4"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +89,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "FA - HW4 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -185,7 +170,8 @@
               "title": "Claudian"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -205,10 +191,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "de3f9d5db14d8a6a",
+  "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
-    "00.Inbox/Daily Draft 2026-04-29.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
+    "00.Inbox/Daily Draft 2026-04-29.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
     "30.Recources/FA/Course HW/FA - HW3.md",
     "30.Recources/FA/Course HW/FA - HW5.md",
