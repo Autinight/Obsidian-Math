@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777528992025-m25eh0jod",
+  "providerId": "claude",
+  "title": "你能做什么",
+  "createdAt": 1777528992025,
+  "updatedAt": 1777529201158,
+  "lastResponseAt": 1777529028337,
+  "sessionId": "d3b8bc2f-13ab-42f1-bc20-b229e6a22ea5",
+  "providerState": {
+    "providerSessionId": "d3b8bc2f-13ab-42f1-bc20-b229e6a22ea5"
+  },
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 3062,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3062,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -11,10 +11,24 @@
             "id": "649625c9a3752703",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Hatcher - Section 2.1 Simplicial and Singular Homology"
             }
           }
         ]
@@ -191,8 +205,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "未命名.md",
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
     "00.Inbox/Daily Draft 2026-04-29.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
@@ -207,7 +223,6 @@
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "30.Recources/FA/Course HW/FA - HW1.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - L^p Space.md",
     "00.Inbox/ep - ell^p Space.md",
@@ -238,7 +253,6 @@
     "node_modules/pdf-parse/node_modules/pdfjs-dist/CODE_OF_CONDUCT.md",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/web/images/toolbarButton-menuArrow.svg",
     "node_modules/pdf-parse/README.md",
-    "node_modules/pdfjs-dist/README.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
     "10.Atlas/RG/Riemannian Metric.canvas",

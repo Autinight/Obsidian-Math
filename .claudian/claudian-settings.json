@@ -1,8 +1,8 @@
 {
   "userName": "Autin",
-  "permissionMode": "yolo",
-  "model": "moonshotai/Kimi-K2.6",
-  "thinkingBudget": "off",
+  "permissionMode": "normal",
+  "model": "ZhipuAI/GLM-5.1",
+  "thinkingBudget": "xhigh",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
@@ -52,7 +52,7 @@
       "id": "snippet-1777527187898",
       "name": "钠 kimi-k-2.6",
       "description": "",
-      "envVars": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_SMALL_FAST_MODEL=moonshotai/Kimi-K2.6",
+      "envVars": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-cAW7Ksx5y84DQb4vUo1FL3p1wVInIBPpE6OOL0uS2F1FPrCX\nANTHROPIC_AUTH_TOKEN=sk-cAW7Ksx5y84DQb4vUo1FL3p1wVInIBPpE6OOL0uS2F1FPrCX\nANTHROPIC_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_SMALL_FAST_MODEL=moonshotai/Kimi-K2.6",
       "scope": "provider:claude"
     }
   ],
@@ -77,8 +77,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_SMALL_FAST_MODEL=moonshotai/Kimi-K2.6",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6|ANTHROPIC_MODEL=moonshotai/Kimi-K2.6"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_SMALL_FAST_MODEL=ZhipuAI/GLM-5.1",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1|ANTHROPIC_MODEL=ZhipuAI/GLM-5.1"
     },
     "codex": {
       "enabled": false,
@@ -96,14 +96,14 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "moonshotai/Kimi-K2.6"
+    "claude": "ZhipuAI/GLM-5.1"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "xhigh"
   },
   "lastCustomModel": "moonshotai/Kimi-K2.6",
   "maxTabs": 5,
