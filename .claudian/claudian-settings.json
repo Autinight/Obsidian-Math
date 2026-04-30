@@ -2,7 +2,7 @@
   "userName": "Autin",
   "permissionMode": "normal",
   "model": "ZhipuAI/GLM-5.1",
-  "thinkingBudget": "xhigh",
+  "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
@@ -103,9 +103,9 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "xhigh"
+    "claude": "high"
   },
-  "lastCustomModel": "moonshotai/Kimi-K2.6",
+  "lastCustomModel": "ZhipuAI/GLM-5.1",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
