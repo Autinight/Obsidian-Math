@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777527365669-2h0n578zj",
+  "providerId": "claude",
+  "title": "test",
+  "createdAt": 1777527365669,
+  "updatedAt": 1777527376026,
+  "lastResponseAt": 1777527376026,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "4938fc02-38a0-4ac4-92c1-8f46f27bc062"
+  },
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 3063,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3063,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

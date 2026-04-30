@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "你能做什么",
   "createdAt": 1777524845641,
-  "updatedAt": 1777525379443,
+  "updatedAt": 1777527001731,
   "lastResponseAt": 1777525379443,
-  "sessionId": "c8d6cf25-3ef4-46e9-a5ad-7253bc1f878d",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "c8d6cf25-3ef4-46e9-a5ad-7253bc1f878d"
   },

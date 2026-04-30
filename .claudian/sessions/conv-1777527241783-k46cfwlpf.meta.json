@@ -1,0 +1,12 @@
+{
+  "id": "conv-1777527241783-k46cfwlpf",
+  "providerId": "claude",
+  "title": "test",
+  "createdAt": 1777527241783,
+  "updatedAt": 1777527261578,
+  "lastResponseAt": 1777527261578,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "bf4f0d93-5128-40f4-b87d-3e977baa4869"
+  }
+}

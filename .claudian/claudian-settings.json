@@ -1,8 +1,8 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "claude-opus-4-7",
-  "thinkingBudget": "high",
+  "model": "moonshotai/Kimi-K2.6",
+  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
@@ -47,6 +47,13 @@
       "description": "",
       "envVars": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-7",
       "scope": "provider:claude"
+    },
+    {
+      "id": "snippet-1777527187898",
+      "name": "钠 kimi-k-2.6",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_SMALL_FAST_MODEL=moonshotai/Kimi-K2.6",
+      "scope": "provider:claude"
     }
   ],
   "customContextLimits": {},
@@ -70,8 +77,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-7",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://llm.whitedream.top|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7|ANTHROPIC_MODEL=claude-opus-4-7"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6\nANTHROPIC_SMALL_FAST_MODEL=moonshotai/Kimi-K2.6",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=moonshotai/Kimi-K2.6|ANTHROPIC_MODEL=moonshotai/Kimi-K2.6"
     },
     "codex": {
       "enabled": false,
@@ -89,16 +96,16 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "claude-opus-4-7"
+    "claude": "moonshotai/Kimi-K2.6"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "high"
+    "claude": "off"
   },
-  "lastCustomModel": "gpt-5.5",
+  "lastCustomModel": "moonshotai/Kimi-K2.6",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
