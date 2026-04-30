@@ -15,9 +15,9 @@
               "state": {
                 "file": "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
                 "viewState": {
-                  "x": -113.68050432903976,
-                  "y": 403.14532594303114,
-                  "zoom": -2.3715423860609963
+                  "x": 135.65101110661874,
+                  "y": 937.5463008619208,
+                  "zoom": -0.5866668069334053
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -200,6 +200,10 @@
   },
   "active": "649625c9a3752703",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "00.Inbox/FA - HW7.md",
+    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777531145803",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777530830051",
@@ -209,9 +213,6 @@
     "00.Inbox/ep - C[a,b].md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - L^p Space.md",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.11688.1777530364197",
     "未命名.md",
     "30.Recources/FA/Course HW/FA - HW4.md",
@@ -221,7 +222,6 @@
     "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
-    "00.Inbox/FA - HW7.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
@@ -243,7 +243,6 @@
     "node_modules/pdf-parse/node_modules/pdfjs-dist/wasm/openjpeg.wasm",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-Regular.ttf",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-Italic.ttf",
-    "node_modules/pdf-parse/node_modules/pdfjs-dist/standard_fonts/LiberationSans-BoldItalic.ttf",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/README.md",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/CODE_OF_CONDUCT.md",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/web/images/toolbarButton-menuArrow.svg",
