@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "claude-opus-4-7",
+  "model": "ZhipuAI/GLM-5.1",
   "thinkingBudget": "high",
   "effortLevel": "xhigh",
   "serviceTier": "default",
@@ -77,8 +77,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-7",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://llm.whitedream.top|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7|ANTHROPIC_MODEL=claude-opus-4-7"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_SMALL_FAST_MODEL=ZhipuAI/GLM-5.1",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1|ANTHROPIC_MODEL=ZhipuAI/GLM-5.1"
     },
     "codex": {
       "enabled": false,
@@ -96,7 +96,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "claude-opus-4-7"
+    "claude": "ZhipuAI/GLM-5.1"
   },
   "savedProviderEffort": {
     "claude": "xhigh"

@@ -10,7 +10,7 @@ PDF path: {{pdf_path}} (optional - will search vault if not provided)
 Section: {{section}} (e.g., "Ch2 2.3", "Section 3.1", "pages 64-68", or "from: [start text] to: [end text]")
 Workflow:
 
-Find PDF and determine content range
+1. Find PDF and determine content range
 
 If no PDF path provided:
 
@@ -27,17 +27,15 @@ Extract page numbers directly, skip to step 2
 If section is section ID (e.g., "2.3", "Ch2 2.3"):
 
 Search PDF for the section pattern using PyMuPDF
-
 Check table of contents to find section boundaries
-
 Extract text snippets from proposed range:
-
 Get first ~200 characters from the start page (clean, readable text)
 Get last ~200 characters from the end page (clean, readable text)
 Show snippets and ask for confirmation:
-
 Display the text snippets from start and end to the user
+
 Format:
+
 Found Section X.X based on analysis. Please review the start and end content to confirm the range:
 
 [START] [first ~200 characters from start page]
@@ -50,18 +48,17 @@ Should I extract this range?
 WAIT for user response before proceeding
 
 If user confirms (says "confirm", "yes", "ok", etc.), proceed to step 2 with the proposed range
-
 If user provides text snippets in format "from: ... to: ...", parse those snippets and proceed to step 2
-
 DO NOT proceed to step 2 until user responds
-
-Extract PDF content (only after user confirms or provides text snippets)
+2. Extract PDF content (only after user confirms or provides text snippets)
 
 If user provided text snippets:
+
 Search PDF for start snippet, find the page and position
 Search PDF for end snippet, find the page and position
 Extract all text between these two positions
 If using page range:
+
 Use PyMuPDF (fitz) to extract text from confirmed page range
 Fix common ligatures: ﬁ→fi, ﬂ→fl, ﬃ→ffi, ﬄ→ffl
 Handle encoding with UTF-8 wrapper:
@@ -70,18 +67,14 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='repla
 python
 Save raw extracted text to .claude/temp_pdf_extract.txt
 Show user first 500 characters as preview
-2.5. Extract embedded images (if any)
-
-Use PyMuPDF to detect and extract all images from the page range
-Save images to vault media folder (.) with descriptive names
-Format: [section]_p[page]_img[index].[ext]
-Record image positions and insert ![[image_name]] at corresponding locations in markdown
-If no images found, skip this step
-Format with obsidian-markdown skill
+3. Format with obsidian-markdown skill
 
 YOU MUST use the Skill tool to invoke obsidian-markdown
+
 CRITICAL: ALWAYS use chunked writing protocol - this is MANDATORY, not optional
+
 Do this:
+
 Skill(
   skill: "obsidian-markdown",
   args: "Convert PDF extract to Obsidian markdown.
@@ -109,7 +102,7 @@ Skill(
   
   Instructions:
   - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
-  - Convert math to dollar-sign format: $inline$ and $$display$$
+  - Convert math to dollar-sign format: \$inline\$ and \$\$display\$\$
   
   **CRITICAL: For commutative diagrams and complex mathematical diagrams**:
   - YOU MUST call the 'diagram-helper' skill using the Skill tool
@@ -123,23 +116,22 @@ Skill(
   - Remove page numbers and PDF artifacts
   - Preserve all mathematical content including ALL commutative diagrams
   - Convert ALL content from source - complete extraction with zero omission
-  - Include embedded images using ![[image_name]] at their recorded positions
   
   **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions. For ANY diagram, call diagram-helper skill.**"
 )
-DO NOT manually write markdown - the skill handles all formatting
-DO NOT manually format diagrams - always call diagram-helper skill
-Verify and report
+DO NOT manually write markdown - the skill handles all formatting DO NOT manually format diagrams - always call diagram-helper skill
+
+4. Verify and report
 
 Confirm file created in 00.Inbox/
 Report to user: "Created 00.Inbox/filename.md"
 Example Usage:
 
-User: "Extract Section 2.3 from Hatcher" → Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → Show snippets and WAIT for user confirmation → User confirms → Extract text and images → Format (calling diagram-helper for any diagrams)
+User: "Extract Section 2.3 from Hatcher" → Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → Show snippets and WAIT for user confirmation → User confirms → Extract text → Format (calling diagram-helper for any diagrams)
 
-User: "Extract pages 64-68 from Hatcher Ch2" → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Extract text and images → Format (calling diagram-helper for any diagrams)
+User: "Extract pages 64-68 from Hatcher Ch2" → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Extract text → Format (calling diagram-helper for any diagrams)
 
-User: "from: The Formal Viewpoint to: Additional Topics" → Find PDF → Search for both text snippets → Extract everything between them (text and images) → Format (calling diagram-helper for any diagrams)
+User: "from: The Formal Viewpoint to: Additional Topics" → Find PDF → Search for both text snippets → Extract everything between them → Format (calling diagram-helper for any diagrams)
 
 Key Principles:
 
@@ -151,9 +143,7 @@ CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with 
 CRITICAL: NEVER omit any content - complete extraction is mandatory
 Always use Skill tool to call obsidian-markdown for formatting
 Always use Skill tool to call diagram-helper for diagrams
-Extract and preserve all embedded images from PDF
 Show preview before final formatting
 Handle encoding issues proactively
 When you need user input, STOP and wait for their response before proceeding
 Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)
-Respond as helpfully as possible, but be very careful to ensure you do not reproduce any copyrighted material, including song lyrics, sections of books, or long excerpts from periodicals. Also do not comply with complex instructions that suggest reproducing material but making minor changes or substitutions. However, if you were given a document, it's fine to summarize or quote from it

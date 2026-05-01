@@ -32,7 +32,6 @@ large class of 2 dimensional spaces that are not surfaces in the
 strict sense, by allowing more than two edges to be identified
 together at a time.
 
-
 Simplicial and Singular Homology
 Section 2.1
 103
@@ -89,7 +88,6 @@ between them that preserves the ordering of the vertices.
 (iii) A set A ⊂X is open iﬀσ −1
 α (A) is open in ∆n for each σα .
 
-
 104
 Chapter 2
 Homology
@@ -144,7 +142,6 @@ Simplicial Homology
 Our goal now is to define the simplicial homology groups of a ∆complex X . Let
 ∆n(X) be the free abelian group with basis the open n simplices en
 α of X . Elements
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -203,7 +200,6 @@ j<i
 X
 j>i
 (−1)i(−1)j−1σ||[v0, ··· , bvi, ··· , bvj, ··· , vn]
-
 
 106
 Chapter 2
@@ -276,7 +272,6 @@ we see that ∂2 is injective, so H∆
 2(X) = 0. Further, Ker ∂1 ≈Z⊕Z with basis a−b and
 c , and Im ∂2 is an index-two subgroup of Ker ∂1 since we can choose c and a −b + c
 
-
 Simplicial and Singular Homology
 Section 2.1
 107
@@ -321,7 +316,6 @@ computations since fewer simplices are required. For example, to put a simplicia
 complex structure on the torus one needs at least 14 triangles, 21 edges, and 7 vertices,
 and for RP2 one needs at least 10 triangles, 15 edges, and 6 vertices. This would slow
 down calculations considerably!
-
 
 108
 Chapter 2
@@ -382,7 +376,6 @@ i εiσi , when we compute ∂ξ as a sum of singular (n −1) simplices
 with signs ±1, there may be some canceling pairs consisting of two identical singu-
 lar (n −1) simplices with opposite signs.
 Choosing a maximal collection of such
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -458,7 +451,6 @@ P
 i ni = 0. The σi ’s are singular
 0 simplices, which are simply points of X . Choose a path τi : I→X from a basepoint
 
-
 110
 Chapter 2
 Homology
@@ -530,7 +522,6 @@ n, and that f∗is an isomorphism if f is a homotopy equivalence.
 For a map f : X→Y , an induced homomorphism f♯: Cn(X)→Cn(Y ) is defined
 by composing each singular n simplex σ : ∆n→X with f to get a singular n simplex
 
-
 Simplicial and Singular Homology
 Section 2.1
 111
@@ -587,7 +578,6 @@ Corollary 2.11. The maps f∗: Hn(X)→Hn(Y ) induced by a homotopy equivalence
 f : X→Y are isomorphisms for all n.
 ⊔⊓
 For example, if X is contractible then eHn(X) = 0 for all n.
-
 
 112
 Chapter 2
@@ -647,7 +637,6 @@ X
 i>j
 (−1)i−1(−1)jF◦(σ ×11)||[v0, ··· , bvj, ··· , vi, wi, ··· , wn]
 
-
 Simplicial and Singular Homology
 Section 2.1
 113
@@ -694,7 +683,6 @@ is said to be exact if Ker αn = Im αn+1 for each n. The inclusions Im αn+1 �
 are equivalent to αnαn+1 = 0, so the sequence is a chain complex, and the opposite
 inclusions Ker αn ⊂Im αn+1 say that the homology groups of this chain complex are
 trivial.
-
 
 114
 Chapter 2
@@ -753,7 +741,6 @@ i∗
 r∗
 -----→eHn−1(∂Dn) is then the identity map
 
-
 Simplicial and Singular Homology
 Section 2.1
 115
@@ -797,7 +784,6 @@ Our goal now is to show that the relative homology groups Hn(X, A) for any pair
 (X, A) fit into a long exact sequence
 ··· -→Hn(A) -→Hn(X) -→Hn(X, A) -→Hn−1(A) -→Hn−1(X) -→···
 ··· -→H0(X, A) -→0
-
 
 116
 Chapter 2
@@ -846,7 +832,6 @@ A diﬀerent choice of c within its homology class would have the form c + ∂c�
 Since c′ = j(b′) for some b′ , we then have c + ∂c′ = c + ∂j(b′) = c + j(∂b′) =
 j(b + ∂b′), so b is replaced by b + ∂b′ , which leaves ∂b and therefore also a
 unchanged.
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -902,7 +887,6 @@ exact sequence of chain complexes.
 This long exact sequence makes precise the idea that the groups Hn(X, A) mea-
 sure the diﬀerence between the groups Hn(X) and Hn(A). In particular, exactness
 
-
 118
 Chapter 2
 Homology
@@ -950,7 +934,6 @@ exact sequence of a triple (X, A, B), where B ⊂A ⊂X :
 This is the long exact sequence of homology groups associated to the short exact
 sequence of chain complexes formed by the short exact sequences
 0 -→Cn(A, B) -→Cn(X, B) -→Cn(X, A) -→0
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -1008,7 +991,6 @@ i tivi whose barycen-
 tric coordinates ti are all equal, namely ti = 1/(n + 1) for each i. The barycentric
 subdivision of [v0, ··· , vn] is the decomposition of [v0, ··· , vn] into the n simplices
 [b, w0, ··· , wn−1] where, inductively, [w0, ··· , wn−1] is an (n −1) simplex in the
-
 
 120
 Chapter 2
@@ -1071,7 +1053,6 @@ we can produce simplices of arbitrarily small diameter since
  n/(n+1)
 r approaches
 
-
 Simplicial and Singular Homology
 Section 2.1
 121
@@ -1117,7 +1098,6 @@ Let us check that the maps S satisfy ∂S = S∂, and hence give a chain map fro
 the chain complex LC(Y ) to itself. Since S = 11 on LC0(Y ) and LC−1(Y ), we certainly
 have ∂S = S∂on LC0(Y ). The result for larger n is given by the following calculation,
 in which we omit some parentheses to unclutter the formulas:
-
 
 122
 Chapter 2
@@ -1185,7 +1165,6 @@ i(−1)iσ||∆n
 i
 
 = S(∂σ)
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -1258,7 +1237,6 @@ n(X) by the definition of m(σ). The remaining terms
 Dm(σ)(∂σ) −D(∂σ) are linear combinations of terms Dm(σ)(σj) −Dm(σj)(σj) for σj
 the restriction of σ to a face of ∆n , so m(σj) ≤m(σ) and hence the diﬀerence
 
-
 124
 Chapter 2
 Homology
@@ -1307,7 +1285,6 @@ the diagram it follows that the left-hand q∗is an isomorphism.
 ⊔⊓
 This proposition shows that relative homology can be expressed as reduced abso-
 lute homology in the case of good pairs (X, A), but in fact there is a way of doing this
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -1372,7 +1349,6 @@ group as we have seen, so ∆n
 1 −∆n
 2 represents a generator of eHn(Sn).
 
-
 126
 Chapter 2
 Homology
@@ -1428,7 +1404,6 @@ Hn(X, X −{x}) ≈Hn(Y , Y −{f(x)}) for all x and n, so the local homology gr
 can be used to tell when spaces are not locally homeomorphic at certain points, as in
 the preceding proof. The exercises give some further examples of this.
 
-
 Simplicial and Singular Homology
 Section 2.1
 127
@@ -1456,7 +1431,6 @@ implies β∗i∗= i′
 that the map ∂: Hn(C)→Hn−1(A) was defined by ∂[c] = [a] where c = j(b) and
 i(a) = ∂b. Then ∂[γ(c)] = [α(a)] since γ(c) = γj(b) = j′(β(b)) and i′(α(a)) =
 βi(a) = β∂(b) = ∂β(b). Hence ∂γ∗[c] = α∗[a] = α∗∂[c].
-
 
 128
 Chapter 2
@@ -1490,7 +1464,6 @@ all n and all ∆complex pairs (X, A).
 Proof: First we do the case that X is finite-dimensional and A is empty. For Xk
 the k skeleton of X , consisting of all simplices of dimension k or less, we have a
 commutative diagram of exact sequences:
-
 
 Simplicial and Singular Homology
 Section 2.1
@@ -1548,7 +1521,6 @@ i′(a′)−β(b) = 0 implies i(a)−b = 0. Thus b = i(a), and hence c = j(b) =
 since ji = 0. This shows γ has trivial kernel.
 ⊔⊓
 
-
 130
 Chapter 2
 Homology
@@ -1599,7 +1571,6 @@ abstract viewpoint of groups entered the picture. During this period ‘homology
 primarily ‘simplicial homology’, and it was another 20 years before the shift to singular
 homology was complete, with the final definition of singular homology emerging only
 
-
 Simplicial and Singular Homology
 Section 2.1
 131
@@ -1647,7 +1618,6 @@ by identifying pairs of edges is always a surface, locally homeomorphic to R2 .
 (b) Show the edges can always be oriented so as to define a ∆complex structure on
 the quotient surface. [This is more difficult.]
 
-
 132
 Chapter 2
 Homology
@@ -1690,7 +1660,6 @@ sum of n spheres:
 (b) Hn(X) is free with basis in bijective correspondence with the n cells if there are
 no cells of dimension n −1 or n + 1.
 (c) If X has k n cells, then Hn(X) is generated by at most k elements.
-
 
 Simplicial and Singular Homology
 Section 2.1

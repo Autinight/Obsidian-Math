@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777645212846-hr0e6nen8",
+  "providerId": "claude",
+  "title": "有愚蠢的大模型会把识别出来txt, 再把pdf变成png一块放在一起, 巨蠢, 你还是把这个skil...",
+  "createdAt": 1777645212846,
+  "updatedAt": 1777645627688,
+  "lastResponseAt": 1777645355667,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "9ab04c0e-6d95-43dd-8b73-64cd4dc6f7cd"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 13903,
+    "cacheCreationInputTokens": 3940,
+    "cacheReadInputTokens": 15477,
+    "contextWindow": 1000000,
+    "contextTokens": 33320,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
