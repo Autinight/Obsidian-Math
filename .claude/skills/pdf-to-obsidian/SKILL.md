@@ -6,48 +6,57 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
 
 **Input**:
 - PDF path: {{pdf_path}} (optional - will search vault if not provided)
-- Section: {{section}} (e.g., "Ch2 2.3", "Section 3.1", "pages 64-68")
+- Section: {{section}} (e.g., "Ch2 2.3", "Section 3.1", "pages 64-68", or "from: [start text] to: [end text]")
 
 **Workflow**:
 
-1. **Find PDF and determine page range**
+1. **Find PDF and determine content range**
    
    If no PDF path provided:
    - Search vault for PDF files with `Glob **/*.pdf`
-   - If multiple found, list them and **USE AskUserQuestion tool** to ask which one to use
+   - If multiple found, use AskUserQuestion tool to ask which one to use
+   
+   If section contains text snippets (e.g., "from: The Formal Viewpoint to: Additional Topics"):
+   - Search PDF for the start and end text snippets
+   - Extract all content between them
+   - Skip to step 2
    
    If section is page range (e.g., "pages 64-68", "p64-68"):
    - Extract page numbers directly, skip to step 2
    
    If section is section ID (e.g., "2.3", "Ch2 2.3"):
    - Search PDF for the section pattern using PyMuPDF
-   - Check table of contents (usually page 1) to find section boundaries
-   - Display findings clearly:
-     ```
-     根据目录，Section 2.3 在：
-     - PDF 页码：66-71
-     - 书本页码：160-165
-     - 包含小节：Axioms for Homology, Categories and Functors
-     ```
-   - **STOP and USE AskUserQuestion tool**: Present your findings and ask them to confirm the page range
-   - Example question format:
+   - Check table of contents to find section boundaries
+   - **Extract text snippets from proposed range**:
+     - Get first ~200 characters from the start page (clean, readable text)
+     - Get last ~200 characters from the end page (clean, readable text)
+   - **USE AskUserQuestion tool to show snippets and get confirmation**:
+     - In the question text, display the text snippets from start and end
+     - Provide options: "确认提取" or "我要自定义范围"
+     - Example format:
      ```
      AskUserQuestion(
        questions: [{
-         question: "根据目录分析，Section 2.3 应该是 PDF 的第 65-71 页（书本页码 160-166）。是否提取这个范围？",
-         header: "页码确认",
+         question: "根据分析找到 Section 2.3，请查看开头和结尾内容确认范围：\n\n【开头】The Formal Viewpoint\nSection 2.3\n161\nobvious relative form...\n\n【结尾】...Change-of-coefficient homomorphisms Hn(X; G1)→Hn(X; G2)...\n\n是否提取这个范围？",
+         header: "内容确认",
          options: [
-           {label: "是，提取 65-71 页", description: "提取找到的完整章节"},
-           {label: "否，我要指定页码", description: "手动输入页码范围"}
+           {label: "确认提取", description: "提取显示的内容范围"},
+           {label: "我要自定义", description: "通过文本片段自定义范围"}
          ],
          multiSelect: false
        }]
      )
      ```
-   - **DO NOT proceed to step 2 until user confirms the page range**
+   - If user chooses "我要自定义", ask them to provide text snippets in next message
+   - **DO NOT proceed to step 2 until user confirms**
 
-2. **Extract PDF content** (only after user confirms page range)
-   - Use PyMuPDF (fitz) to extract text from confirmed page range
+2. **Extract PDF content** (only after user confirms or provides text snippets)
+   - If user provided text snippets:
+     - Search PDF for start snippet, find the page and position
+     - Search PDF for end snippet, find the page and position
+     - Extract all text between these two positions
+   - If using page range:
+     - Use PyMuPDF (fitz) to extract text from confirmed page range
    - Fix common ligatures: ﬁ→fi, ﬂ→fl, ﬃ→ffi, ﬄ→ffl
    - Handle encoding with UTF-8 wrapper:
      ```python
@@ -71,10 +80,18 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        Instructions:
        - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
        - Convert math to dollar-sign format: $inline$ and $$display$$
-       - Wrap in callouts: [!theorem], [!definition], [!example], [!proof]
+       - **CRITICAL: For commutative diagrams, ALWAYS use LaTeX CD environment:**
+         $$\begin{CD}
+         A @>f>> B \\
+         @VgVV @VVhV \\
+         C @>>k> D
+         \end{CD}$$
+       - CD syntax: @>>> (right arrow), @<<< (left arrow), @VVV (down arrow), @AAA (up arrow)
+       - Can add labels: @>label>> or @VlabelVV
+       - Wrap in callouts: [!axiom], [!theorem], [!definition], [!example], [!proof]
        - Add section headers with ##
        - Remove page numbers and PDF artifacts
-       - Preserve all mathematical content"
+       - Preserve all mathematical content including ALL commutative diagrams"
      )
      ```
    - **DO NOT manually write markdown** - the skill handles all formatting
@@ -86,15 +103,44 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
 **Example Usage**:
 
 User: "Extract Section 2.3 from Hatcher"
-→ Find Hatcher PDF → Search for "2.3" → Show matches and analysis → **USE AskUserQuestion tool to confirm page range** → User responds → Extract → Format
+→ Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → **USE AskUserQuestion to show snippets and get confirmation** → User confirms → Extract → Format
 
 User: "Extract pages 64-68 from Hatcher Ch2"
 → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Format
 
+User: "from: The Formal Viewpoint to: Additional Topics"
+→ Find PDF → Search for both text snippets → Extract everything between them → Format
+
+**Commutative Diagram Syntax Reference**:
+
+LaTeX CD environment syntax for commutative diagrams:
+```latex
+$$\begin{CD}
+A @>f>> B @>g>> C \\
+@VhVV @VViV @VVjV \\
+D @>>k> E @>>l> F
+\end{CD}$$
+```
+
+Arrow types:
+- `@>>>` : right arrow (horizontal)
+- `@<<<` : left arrow (horizontal)
+- `@VVV` : down arrow (vertical)
+- `@AAA` : up arrow (vertical)
+- `@=` : equals sign (for isomorphisms)
+
+With labels:
+- `@>label>>` : right arrow with label on top
+- `@<label<<` : left arrow with label on top
+- `@VlabelVV` : down arrow with label on left
+- `@AlabelAA` : up arrow with label on left
+
 **Key Principles**:
-- Never guess page ranges - always confirm with user using AskUserQuestion tool
-- **CRITICAL**: Use AskUserQuestion tool for all user confirmations, NOT text responses
+- Never guess content ranges - always show text snippets for user to verify
+- **CRITICAL**: Use AskUserQuestion tool to show snippets and get user confirmation
+- **CRITICAL**: Always use `\begin{CD}...\end{CD}` for commutative diagrams, NEVER use array or other methods
 - Always use Skill tool to call obsidian-markdown for formatting
 - Show preview before final formatting
 - Handle encoding issues proactively
 - When you need user input, STOP and wait for their response before proceeding
+- Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)

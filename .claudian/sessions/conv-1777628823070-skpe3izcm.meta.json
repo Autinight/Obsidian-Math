@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777628823070-skpe3izcm",
+  "providerId": "claude",
+  "title": "Applying /pdf-to-obsidian to ch2 2",
+  "createdAt": 1777628823070,
+  "updatedAt": 1777629592517,
+  "lastResponseAt": 1777629584873,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "e54d1c2f-9c56-414e-8321-ae1c58096fde"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 36145,
+    "cacheCreationInputTokens": 481,
+    "cacheReadInputTokens": 49989,
+    "contextWindow": 1000000,
+    "contextTokens": 86615,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

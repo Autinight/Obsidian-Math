@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777631251633-0wlzfgqe8",
+  "providerId": "claude",
+  "title": "你的skills",
+  "createdAt": 1777631251633,
+  "updatedAt": 1777631298808,
+  "lastResponseAt": 1777631296346,
+  "sessionId": "4a7d805a-a263-42cc-bc63-e87f6afaf585",
+  "providerState": {
+    "providerSessionId": "4a7d805a-a263-42cc-bc63-e87f6afaf585"
+  },
+  "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 2975,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2975,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}

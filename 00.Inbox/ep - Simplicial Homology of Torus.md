@@ -11,7 +11,7 @@ aliases:
 
 # 环面的单纯同调群计算
 
-这篇笔记解释 [[00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md|Hatcher 2.1]] 中 Example 2.3：环面 $T$ 的单纯同调群计算。
+这篇笔记解释 [[Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology|Hatcher 2.1]] 中 Example 2.3：环面 $T$ 的单纯同调群计算。
 
 目标是算出：
 

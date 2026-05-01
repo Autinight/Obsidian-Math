@@ -1,342 +1,985 @@
+190
+Chapter 3
+Cohomology
+Homology groups Hn(X) are the result of a two-stage process: First one forms a
+chain complex ··· --→Cn
+∂--→Cn−1 --→··· of singular, simplicial, or cellular chains,
+then one takes the homology groups of this chain complex, Ker ∂/ Im ∂. To obtain
+the cohomology groups Hn(X; G) we interpolate an intermediate step, replacing the
+chain groups Cn by the dual groups Hom(Cn, G) and the boundary maps ∂by their
+dual maps δ, before forming the cohomology groups Ker δ/ Im δ. The plan for this
+section is first to sort out the algebra of this dualization process and show that the
+cohomology groups are determined algebraically by the homology groups, though
+in a somewhat subtle way.
+Then after this algebraic excursion we will define the
+cohomology groups of spaces and show that these satisfy basic properties very much
+like those for homology. The payoﬀfor all this formal work will begin to be apparent
+in subsequent sections.
+The Universal Coefficient Theorem
+Let us begin with a simple example. Consider the chain complex
+where Z
+2--→Z is the map x ֏ 2x . If we dualize by taking Hom(−, G) with G = Z,
+we obtain the cochain complex
+In the original chain complex the homology groups are Z’s in dimensions 0 and 3,
+together with a Z2 in dimension 1. The homology groups of the dual cochain com-
+plex, which are called cohomology groups to emphasize the dualization, are again Z’s
+in dimensions 0 and 3, but the Z2 in the 1 dimensional homology of the original
+complex has shifted up a dimension to become a Z2 in 2 dimensional cohomology.
+More generally, consider any chain complex of finitely generated free abelian
+groups. Such a chain complex always splits as the direct sum of elementary com-
+plexes of the forms 0→Z→0 and 0→Z
+m--→Z→0, according to Exercise 43 in §2.2.
+Applying Hom(−, Z) to this direct sum of elementary complexes, we obtain the direct
+sum of the corresponding dual complexes 0←Z←0 and 0←Z
+m
+←--- Z←0. Thus the
+cohomology groups are the same as the homology groups except that torsion is shifted
+up one dimension. We will see later in this section that the same relation between ho-
+mology and cohomology holds whenever the homology groups are finitely generated,
+even when the chain groups are not finitely generated. It would also be quite easy to
 
-============================================================
-PDF Page 65
-============================================================
 
-160
-Chapter 2
-Homology
-Sometimes it is good to step back from the forest of details and look for gen-
-eral patterns. In this rather brief section we will first describe the general pattern
-of homology by axioms, then we will look at some common formal features shared
-by many of the constructions we have made, using the language of categories and
-functors which has become common in much of modern mathematics.
-Axioms for Homology
-For simplicity let us restrict attention to CW complexes and focus on reduced ho-
-mology to avoid mentioning relative homology. A (reduced) homology theory assigns
-to each nonempty CW complex X a sequence of abelian groups ehn(X) and to each map
-f : X→Y between CW complexes a sequence of homomorphisms f∗: ehn(X)→ehn(Y )
-such that (fg)∗= f∗g∗and 11∗= 11, and so that the following three axioms are
-satisfied.
-(1) If f ≃g : X→Y , then f∗= g∗: ehn(X)→ehn(Y ).
-(2) There are boundary homomorphisms ∂: ehn(X/A)→ehn−1(A) defined for each CW
-pair (X, A), fitting into an exact sequence
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+191
+see in this example what happens if Hom(−, Z) is replaced by Hom(−, G), since the
+dual elementary cochain complexes would then be 0←G←0 and 0←G
+m
+←--- G←0.
+Consider now a completely general chain complex C of free abelian groups
+··· --→Cn+1
+∂-----→Cn
+∂-----→Cn−1 --→···
+To dualize this complex we replace each chain group Cn by its dual cochain group
+C∗
+n = Hom(Cn, G), the group of homomorphisms Cn→G, and we replace each bound-
+ary map ∂: Cn→Cn−1 by its dual coboundary map δ = ∂∗: C∗
+n−1→C∗
+n . The reason
+why δ goes in the opposite direction from ∂, increasing rather than decreasing di-
+mension, is purely formal: For a homomorphism α : A→B , the dual homomorphism
+α∗: Hom(B, G)→Hom(A, G) is defined by α∗(ϕ) = ϕα, so α∗sends B
+ϕ--→G to the
+composition A
+α--→B
+ϕ--→G. Dual homomorphisms obviously satisfy (αβ)∗= β∗α∗,
+11∗= 11, and 0∗= 0. In particular, since ∂∂= 0 it follows that δδ = 0, and the
+cohomology group Hn(C; G) can be defined as the ‘homology group’ Ker δ/ Im δ at
+C∗
+n in the cochain complex
+··· ←---- C∗
+n+1
+δ
+←-------- C∗
+n
+δ
+←-------- C∗
+n−1←---- ···
+Our goal is to show that the cohomology groups Hn(C; G) are determined solely
+by G and the homology groups Hn(C) = Ker ∂/ Im ∂. A first guess might be that
+Hn(C; G) is isomorphic to Hom(Hn(C), G), but this is overly optimistic, as shown by
+the example above where H2 was zero while H2 was nonzero. Nevertheless, there is
+a natural map h : Hn(C; G)→Hom(Hn(C), G), defined as follows. Denote the cycles
+and boundaries by Zn = Ker ∂⊂Cn and Bn = Im ∂⊂Cn . A class in Hn(C; G) is
+represented by a homomorphism ϕ : Cn→G such that δϕ = 0, that is, ϕ∂= 0, or in
+other words, ϕ vanishes on Bn . The restriction ϕ0 = ϕ||Zn then induces a quotient
+homomorphism ϕ0 : Zn/Bn→G, an element of Hom(Hn(C), G). If ϕ is in Im δ, say
+ϕ = δψ = ψ∂, then ϕ is zero on Zn , so ϕ0 = 0 and hence also ϕ0 = 0. Thus there is
+a well-defined quotient map h : Hn(C; G)→Hom(Hn(C), G) sending the cohomology
+class of ϕ to ϕ0 . Obviously h is a homomorphism.
+It is not hard to see that h is surjective. The short exact sequence
+0 -→Zn -→Cn
+∂--→Bn−1 -→0
+splits since Bn−1 is free, being a subgroup of the free abelian group Cn−1 .
+Thus
+there is a projection homomorphism p : Cn→Zn that restricts to the identity on Zn .
+Composing with p gives a way of extending homomorphisms ϕ0 : Zn→G to homo-
+morphisms ϕ = ϕ0p : Cn→G. In particular, this extends homomorphisms Zn→G
+that vanish on Bn to homomorphisms Cn→G that still vanish on Bn , or in other
+words, it extends homomorphisms Hn(C)→G to elements of Ker δ. Thus we have
+a homomorphism Hom(Hn(C), G)→Ker δ. Composing this with the quotient map
+Ker δ→Hn(C; G) gives a homomorphism from Hom(Hn(C), G) to Hn(C; G). If we
+
+
+---PAGE_BREAK---
+
+192
+Chapter 3
+Cohomology
+follow this map by h we get the identity map on Hom(Hn(C), G) since the eﬀect of
+composing with h is simply to undo the eﬀect of extending homomorphisms via p.
+This shows that h is surjective.
+In fact it shows that we have a split short exact
+sequence
+0 -→Ker h -→Hn(C; G)
+h--→Hom(Hn(C), G) -→0
+The remaining task is to analyze Ker h. A convenient way to start the process is
+to consider not just the chain complex C , but also its subcomplexes consisting of the
+cycles and the boundaries. Thus we consider the commutative diagram of short exact
+sequences
+(i)
+where the vertical boundary maps on Zn+1 and Bn are the restrictions of the boundary
+map in the complex C , hence are zero. Dualizing (i) gives a commutative diagram
+(ii)
+The rows here are exact since, as we have already remarked, the rows of (i) split, and
+the dual of a split short exact sequence is a split short exact sequence because of the
+natural isomorphism Hom(A ⊕B, G) ≈Hom(A, G) ⊕Hom(B, G).
+We may view (ii), like (i), as part of a short exact sequence of chain complexes.
+Since the coboundary maps in the Z∗
+n and B∗
+n complexes are zero, the associated long
+exact sequence of homology groups has the form
+(iii)
+···←--- B∗
+n←--- Z∗
+n←--- Hn(C; G)←--- B∗
+n−1←--- Z∗
+n−1←--- ···
+The ‘boundary maps’ Z∗
+n→B∗
+n in this long exact sequence are in fact the dual maps
+i∗
+n of the inclusions in : Bn→Zn , as one sees by recalling how these boundary maps
+are defined: In (ii) one takes an element of Z∗
+n , pulls this back to C∗
+n , applies δ to
+get an element of C∗
+n+1 , then pulls this back to B∗
+n . The first of these steps extends a
+homomorphism ϕ0 : Zn→G to ϕ : Cn→G, the second step composes this ϕ with ∂,
+and the third step undoes this composition and restricts ϕ to Bn . The net eﬀect is
+just to restrict ϕ0 from Zn to Bn .
+A long exact sequence can always be broken up into short exact sequences, and
+doing this for the sequence (iii) yields short exact sequences
+(iv)
+0←--- Ker i∗
+n←--- Hn(C; G)←--- Coker i∗
+n−1←--- 0
+The group Ker i∗
+n can be identified naturally with Hom(Hn(C), G) since elements of
+Ker i∗
+n are homomorphisms Zn→G that vanish on the subgroup Bn , and such homo-
+morphisms are the same as homomorphisms Zn/Bn→G. Under this identification of
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+193
+Ker i∗
+n with Hom(Hn(C), G), the map Hn(C; G)→Ker i∗
+n in (iv) becomes the map h
+considered earlier. Thus we can rewrite (iv) as a split short exact sequence
+(v)
+0 -→Coker i∗
+n−1 -→Hn(C; G)
+h--→Hom(Hn(C), G) -→0
+Our objective now is to show that the more mysterious term Coker i∗
+n−1 de-
+pends only on Hn−1(C) and G, in a natural, functorial way. First let us observe that
+Coker i∗
+n−1 would be zero if it were always true that the dual of a short exact sequence
+was exact, since the dual of the short exact sequence
+(vi)
+0 --→Bn−1
+in−1
+--------→Zn−1 --→Hn−1(C) --→0
+is the sequence
+(vii)
+0←--- B∗
+n−1
+i∗
+n−1
+←--------- Z∗
+n−1←--- Hn−1(C)∗←--- 0
+and if this were exact at B∗
+n−1 , then i∗
+n−1 would be surjective, hence Coker i∗
+n−1 would
+be zero. This argument does apply if Hn−1(C) happens to be free, since (vi) splits
+in this case, which implies that (vii) is also split exact. So in this case the map h
+in (v) is an isomorphism. However, in the general case it is easy to find short exact
+sequences whose duals are not exact. For example, if we dualize 0→Z
+n--→Z→Zn→0
+by applying Hom(−, Z) we get 0←Z
+n
+←--- Z←0←0 which fails to be exact at the
+left-hand Z, precisely the place we are interested in for Coker i∗
+n−1 .
+We might mention in passing that the loss of exactness at the left end of a short
+exact sequence after dualization is in fact all that goes wrong, in view of the following:
+Exercise. If A→B→C→0 is exact, then dualizing by applying Hom(−, G) yields an
+exact sequence A∗←B∗←C∗←0.
+However, we will not need this fact in what follows.
+The exact sequence (vi) has the special feature that both Bn−1 and Zn−1 are free,
+so (vi) can be regarded as a free resolution of Hn−1(C), where a free resolution of an
+abelian group H is an exact sequence
+··· --→F2
+f2
+-----→F1
+f1
+-----→F0
+f0
+-----→H --→0
+with each Fn free.
+If we dualize this free resolution by applying Hom(−, G), we
+may lose exactness, but at least we get a chain complex — or perhaps we should
+say ‘cochain complex’, but algebraically there is no diﬀerence. This dual complex has
+the form
+···←--- F∗
+2
+f ∗
+2
+←------ F∗
+1
+f ∗
+1
+←------ F∗
+0
+f ∗
+0
+←------ H∗←--- 0
+Let us use the temporary notation Hn(F; G) for the homology group Ker f ∗
+n+1/ Im f ∗
+n
+of this dual complex. Note that the group Coker i∗
+n−1 that we are interested in is
+H1(F; G) where F is the free resolution in (vi). Part (b) of the following lemma there-
+fore shows that Coker i∗
+n−1 depends only on Hn−1(C) and G.
+
+
+---PAGE_BREAK---
+
+194
+Chapter 3
+Cohomology
+Lemma 3.1. (a) Given free resolutions F and F′ of abelian groups H and H′, then
+every homomorphism α : H→H′ can be extended to a chain map from F to F′ :
+Furthermore, any two such chain maps extending α are chain homotopic.
+(b) For any two free resolutions F and F′ of H , there are canonical isomorphisms
+Hn(F; G) ≈Hn(F′; G) for all n.
+Proof: The αi ’s will be constructed inductively. Since the Fi ’s are free, it suffices to
+define each αi on a basis for Fi . To define α0 , observe that surjectivity of f ′
+0 implies
+that for each basis element x of F0 there exists x′ ∈F′
+0 such that f ′
+0(x′) = αf0(x),
+so we define α0(x) = x′ . We would like to define α1 in the same way, sending a basis
+element x ∈F1 to an element x′ ∈F′
+1 such that f ′
+1(x′) = α0f1(x). Such an x′ will
+exist if α0f1(x) lies in Im f ′
+1 = Ker f ′
+0 , which it does since f ′
+0α0f1 = αf0f1 = 0. The
+same procedure defines all the subsequent αi ’s.
+If we have another chain map extending α given by maps α′
+i : Fi→F′
+i , then the
+diﬀerences βi = αi −α′
+i define a chain map extending the zero map β : H→H′. It
+will suffice to construct maps λi : Fi→F′
+i+1 defining a chain homotopy from βi to 0,
+that is, with βi = f ′
+i+1λi +λi−1fi . The λi ’s are constructed inductively by a procedure
+much like the construction of the αi ’s.
+When i = 0 we let λ−1 : H→F′
+0 be zero,
+and then the desired relation becomes β0 = f ′
+1λ0 . We can achieve this by letting
+λ0 send a basis element x to an element x′ ∈F′
+1 such that f ′
+1(x′) = β0(x). Such
+an x′ exists since Im f ′
+1 = Ker f ′
+0 and f ′
+0β0(x) = βf0(x) = 0.
+For the inductive
+step we wish to define λi to take a basis element x ∈Fi to an element x′ ∈F′
+i+1
+such that f ′
+i+1(x′) = βi(x) −λi−1fi(x). This will be possible if βi(x) −λi−1fi(x)
+lies in Im f ′
+i+1 = Ker f ′
+i , which will hold if f ′
+i (βi −λi−1fi) = 0. Using the relation
+f ′
+i βi = βi−1fi and the relation βi−1 = f ′
+i λi−1 + λi−2fi−1 which holds by induction, we
+have
+f ′
+i (βi −λi−1fi) = f ′
+i βi −f ′
+i λi−1fi
+= βi−1fi −f ′
+i λi−1fi = (βi−1 −f ′
+i λi−1)fi = λi−2fi−1fi = 0
+as desired. This finishes the proof of (a).
+The maps αn constructed in (a) dualize to maps α∗
+n : F′∗
+n →F∗
+n forming a chain
+map between the dual complexes F′∗and F∗. Therefore we have induced homomor-
+phisms on cohomology α∗: Hn(F′; G)→Hn(F; G). These do not depend on the choice
+of αn ’s since any other choices α′
+n are chain homotopic, say via chain homotopies
+λn , and then α∗
+n and α′∗
+n
+are chain homotopic via the dual maps λ∗
+n since the dual
+of the relation αi −α′
+i = f ′
+i+1λi + λi−1fi is α∗
+i −α′∗
+i
+= λ∗
+i f ′∗
+i+1 + f ∗
+i λ∗
+i−1 .
+The induced homomorphisms α∗: Hn(F′; G)→Hn(F; G) satisfy (βα)∗= α∗β∗
+for a composition H
+α--→H′
+β--→H′′ with a free resolution F′′ of H′′ also given, since
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+195
+one can choose the compositions βnαn of extensions αn of α and βn of β as an
+extension of βα. In particular, if we take α to be an isomorphism and β to be its
+inverse, with F′′ = F , then α∗β∗= (βα)∗= 11, the latter equality coming from the
+obvious extension of 11 : H→H by the identity map of F . The same reasoning shows
+β∗α∗= 11, so α∗is an isomorphism. Finally, if we specialize further, taking α to
+be the identity but with two diﬀerent free resolutions F and F′ , we get a canonical
+isomorphism 11∗: Hn(F′; G)→Hn(F; G).
+⊔⊓
+Every abelian group H has a free resolution of the form 0→F1→F0→H→0, with
+Fi = 0 for i > 1, obtainable in the following way. Choose a set of generators for H
+and let F0 be a free abelian group with basis in one-to-one correspondence with these
+generators. Then we have a surjective homomorphism f0 : F0→H sending the basis
+elements to the chosen generators. The kernel of f0 is free, being a subgroup of a free
+abelian group, so we can let F1 be this kernel with f1 : F1→F0 the inclusion, and we can
+then take Fi = 0 for i > 1. For this free resolution we obviously have Hn(F; G) = 0 for
+n > 1, so this must also be true for all free resolutions. Thus the only interesting group
+Hn(F; G) is H1(F; G). As we have seen, this group depends only on H and G, and the
+standard notation for it is Ext(H, G). This notation arises from the fact that Ext(H, G)
+has an interpretation as the set of isomorphism classes of extensions of G by H , that
+is, short exact sequences 0→G→J→H→0, with a natural definition of isomorphism
+between such exact sequences. This is explained in books on homological algebra, for
+example [Brown 1982], [Hilton & Stammbach 1970], or [MacLane 1963]. However, this
+interpretation of Ext(H, G) is rarely needed in algebraic topology.
+Summarizing, we have established the following algebraic result:
+Theorem 3.2. If a chain complex C of free abelian groups has homology groups
+Hn(C), then the cohomology groups Hn(C; G) of the cochain complex Hom(Cn, G)
+are determined by split exact sequences
+0 -→Ext(Hn−1(C), G) -→Hn(C; G)
+h--→Hom(Hn(C), G) -→0
+⊔⊓
+This is known as the universal coefficient theorem for cohomology because
+it is formally analogous to the universal coefficient theorem for homology in §3.A
+which expresses homology with arbitrary coefficients in terms of homology with Z
+coefficients.
+Computing Ext(H, G) for finitely generated H is not difficult using the following
+three properties:
+Ext(H ⊕H′, G) ≈Ext(H, G)⊕Ext(H′, G).
+Ext(H, G) = 0 if H is free.
+Ext(Zn, G) ≈G/nG.
+The first of these can be obtained by using the direct sum of free resolutions of H and
+H′ as a free resolution for H ⊕H′ . If H is free, the free resolution 0→H→H→0
+
+
+---PAGE_BREAK---
+
+196
+Chapter 3
+Cohomology
+yields the second property, while the third comes from dualizing the free resolution
+0 -→Z
+n--→Z -→Zn -→0 to produce an exact sequence
+In particular, these three properties imply that Ext(H, Z) is isomorphic to the torsion
+subgroup of H if H is finitely generated. Since Hom(H, Z) is isomorphic to the free
+part of H if H is finitely generated, we have:
+Corollary 3.3. If the homology groups Hn and Hn−1 of a chain complex C of
+free abelian groups are finitely generated, with torsion subgroups Tn ⊂Hn and
+Tn−1 ⊂Hn−1 , then Hn(C; Z) ≈(Hn/Tn)⊕Tn−1 .
+⊔⊓
+It is useful in many situations to know that the short exact sequences in the
+universal coefficient theorem are natural, meaning that a chain map α between chain
+complexes C and C′ of free abelian groups induces a commutative diagram
+This is apparent if one just thinks about the construction; one obviously obtains a map
+between the short exact sequences (iv) containing Ker i∗
+n and Coker i∗
+n−1 , the identi-
+fication Ker i∗
+n = Hom(Hn(C), G) is certainly natural, and the proof of Lemma 3.1
+shows that Ext(H, G) depends naturally on H .
+However, the splitting in the universal coefficient theorem is not natural since
+it depends on the choice of the projections p : Cn→Zn . An exercise at the end of
+the section gives a topological example showing that the splitting in fact cannot be
+natural.
+The naturality property together with the five-lemma proves:
+Corollary 3.4. If a chain map between chain complexes of free abelian groups in-
+duces an isomorphism on homology groups, then it induces an isomorphism on co-
+homology groups with any coefficient group G.
+⊔⊓
+One could attempt to generalize the algebraic machinery of the universal coeffi-
+cient theorem by replacing abelian groups by modules over a chosen ring R and Hom
+by HomR , the R module homomorphisms. The key fact about abelian groups that
+was needed was that subgroups of free abelian groups are free. Submodules of free
+R modules are free if R is a principal ideal domain, so in this case the generalization
+is automatic. One obtains natural split short exact sequences
+0 -→ExtR(Hn−1(C), G) -→Hn(C; G)
+h--→HomR(Hn(C), G) -→0
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+197
+where C is a chain complex of free R modules with boundary maps R module ho-
+momorphisms, and the coefficient group G is also an R module. If R is a field, for
+example, then R modules are always free and so the ExtR term is always zero since
+we may choose free resolutions of the form 0→F0→H→0.
+It is interesting to note that the proof of Lemma 3.1 on the uniqueness of free res-
+olutions is valid for modules over an arbitrary ring R. Moreover, every R module H
+has a free resolution, which can be constructed in the following way. Choose a set of
+generators for H as an R module, and let F0 be a free R module with basis in one-to-
+one correspondence with these generators. Thus we have a surjective homomorphism
+f0 : F0→H sending the basis elements to the chosen generators. Now repeat the pro-
+cess with Ker f0 in place of H , constructing a homomorphism f1 : F1→F0 sending a
+basis for a free R module F1 onto generators for Ker f0 . And inductively, construct
+fn : Fn→Fn−1 with image equal to Ker fn−1 by the same procedure.
+By Lemma 3.1 the groups Hn(F; G) depend only on H and G, not on the free
+resolution F .
+The standard notation for Hn(F; G) is Extn
+R(H, G).
+For sufficiently
+complicated rings R the groups Extn
+R(H, G) can be nonzero for n > 1. In certain
+more advanced topics in algebraic topology these Extn
+R groups play an essential role.
+A final remark about the definition of Extn
+R(H, G): By the Exercise stated earlier,
+exactness of F1→F0→H→0 implies exactness of F∗
+1 ←F∗
+0 ←H∗←0. This means
+that H0(F; G) as defined above is zero. Rather than having Ext0
+R(H, G) be automati-
+cally zero, it is better to define Hn(F; G) as the nth homology group of the complex
+··· ←F∗
+1 ←F∗
+0 ←0 with the term H∗omitted. This can be viewed as defining the
+groups Hn(F; G) to be unreduced cohomology groups. With this slightly modified
+definition we have Ext0
+R(H, G) = H0(F; G) = H∗= HomR(H, G) by the exactness of
+F∗
+1 ←F∗
+0 ←H∗←0. The real reason why unreduced Ext groups are better than re-
+duced groups is perhaps to be found in certain exact sequences involving Ext and
+Hom derived in §3.F, which would not work with the Hom terms replaced by zeros.
+Cohomology of Spaces
+Now we return to topology. Given a space X and an abelian group G, we define
+the group Cn(X; G) of singular n cochains with coefficients in G to be the dual group
+Hom(Cn(X), G) of the singular chain group Cn(X). Thus an n cochain ϕ ∈Cn(X; G)
+assigns to each singular n simplex σ : ∆n→X a value ϕ(σ) ∈G. Since the singular
+n simplices form a basis for Cn(X), these values can be chosen arbitrarily, hence
+n cochains are exactly equivalent to functions from singular n simplices to G.
+The coboundary map δ : Cn(X; G)→Cn+1(X; G) is the dual ∂∗, so for a cochain
+ϕ ∈Cn(X; G), its coboundary δϕ is the composition Cn+1(X)
+∂--→Cn(X)
+ϕ--→G. This
+means that for a singular (n + 1) simplex σ : ∆n+1→X we have
+δϕ(σ) =
+X
+i
+(−1)iϕ(σ ||[v0, ··· , bvi, ··· , vn+1])
+
+
+---PAGE_BREAK---
+
+198
+Chapter 3
+Cohomology
+It is automatic that δ2 = 0 since δ2 is the dual of ∂2 = 0. Therefore we can define the
+cohomology group Hn(X; G) with coefficients in G to be the quotient Ker δ/ Im δ at
+Cn(X; G) in the cochain complex
+···←--- Cn+1(X; G)
+δ
+←------ Cn(X; G)
+δ
+←------ Cn−1(X; G)←--- ···←--- C0(X; G)←--- 0
+Elements of Ker δ are cocycles, and elements of Im δ are coboundaries. For a cochain
+ϕ to be a cocycle means that δϕ = ϕ∂= 0, or in other words, ϕ vanishes on
+boundaries.
+Since the chain groups Cn(X) are free, the algebraic universal coefficient theorem
+takes on the topological guise of split short exact sequences
+0 -→Ext(Hn−1(X), G) -→Hn(X; G) -→Hom(Hn(X), G) -→0
+which describe how cohomology groups with arbitrary coefficients are determined
+purely algebraically by homology groups with Z coefficients. For example, if the ho-
+mology groups of X are finitely generated then Corollary 3.3 tells how to compute
+the cohomology groups Hn(X; Z) from the homology groups.
+When n = 0 there is no Ext term, and the universal coefficient theorem reduces
+to an isomorphism H0(X; G) ≈Hom(H0(X), G). This can also be seen directly from
+the definitions. Since singular 0 simplices are just points of X , a cochain in C0(X; G)
+is an arbitrary function ϕ : X→G, not necessarily continuous. For this to be a cocycle
+means that for each singular 1 simplex σ : [v0, v1]→X we have δϕ(σ) = ϕ(∂σ) =
+ϕ
+ σ(v1)
+
+−ϕ
+ σ(v0)
+
+= 0. This is equivalent to saying that ϕ is constant on path-
+components of X . Thus H0(X; G) is all the functions from path-components of X to
+G. This is the same as Hom(H0(X), G).
+Likewise in the case of H1(X; G) the universal coefficient theorem gives an iso-
+morphism H1(X; G) ≈Hom(H1(X), G) since Ext(H0(X), G) = 0, the group H0(X)
+being free. If X is path-connected, H1(X) is the abelianization of π1(X) and we can
+identify Hom(H1(X), G) with Hom(π1(X), G) since G is abelian.
+The universal coefficient theorem has a simpler form if we take coefficients in
+a field F for both homology and cohomology.
+In §2.2 we defined the homology
+groups Hn(X; F) as the homology groups of the chain complex of free F modules
+Cn(X; F), where Cn(X; F) has basis the singular n simplices in X . The dual com-
+plex HomF(Cn(X; F), F) of F module homomorphisms is the same as Hom(Cn(X), F)
+since both can be identified with the functions from singular n simplices to F . Hence
+the homology groups of the dual complex HomF(Cn(X; F), F) are the cohomology
+groups Hn(X; F). In the generalization of the universal coefficient theorem to the
+case of modules over a principal ideal domain, the ExtF terms vanish since F is a
+field, so we obtain isomorphisms
+Hn(X; F) ≈HomF(Hn(X; F), F)
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+199
+Thus, with field coefficients, cohomology is the exact dual of homology. Note that
+when F = Zp or Q we have HomF(H, G) = Hom(H, G), the group homomorphisms,
+for arbitrary F modules G and H .
+For the remainder of this section we will go through the main features of singular
+homology and check that they extend without much difficulty to cohomology.
+Reduced Groups. Reduced cohomology groups eHn(X; G) can be defined by dualizing
+the augmented chain complex ···→C0(X)
+ε--→Z→0, then taking Ker / Im. As with
+homology, this gives eHn(X; G) = Hn(X; G) for n > 0, and the universal coefficient
+theorem identifies eH0(X; G) with Hom( eH0(X), G). We can describe the diﬀerence be-
+tween eH0(X; G) and H0(X; G) more explicitly by using the interpretation of H0(X; G)
+as functions X→G that are constant on path-components. Recall that the augmen-
+tation map ε : C0(X)→Z sends each singular 0 simplex σ to 1, so the dual map ε∗
+sends a homomorphism ϕ : Z→G to the composition C0(X)
+ε--→Z
+ϕ--→G, which is
+the function σ ֏ ϕ(1). This is a constant function X→G, and since ϕ(1) can be
+any element of G, the image of ε∗consists of precisely the constant functions. Thus
+eH0(X; G) is all functions X→G that are constant on path-components modulo the
+functions that are constant on all of X .
+Relative Groups and the Long Exact Sequence of a Pair. To define relative groups
+Hn(X, A; G) for a pair (X, A) we first dualize the short exact sequence
+0 -→Cn(A)
+i--→Cn(X)
+j--→Cn(X, A) -→0
+by applying Hom(−, G) to get
+0←--- Cn(A; G)
+i∗
+←--- Cn(X; G)
+j∗
+←--- Cn(X, A; G)←--- 0
+where by definition Cn(X, A; G) = Hom(Cn(X, A), G). This sequence is exact by the
+following direct argument. The map i∗restricts a cochain on X to a cochain on A.
+Thus for a function from singular n simplices in X to G, the image of this function
+under i∗is obtained by restricting the domain of the function to singular n simplices
+in A. Every function from singular n simplices in A to G can be extended to be
+defined on all singular n simplices in X , for example by assigning the value 0 to
+all singular n simplices not in A, so i∗is surjective. The kernel of i∗consists of
+cochains taking the value 0 on singular n simplices in A.
+Such cochains are the
+same as homomorphisms Cn(X, A) = Cn(X)/Cn(A)→G, so the kernel of i∗is exactly
+Cn(X, A; G) = Hom(Cn(X, A), G), giving the desired exactness. Notice that we can
+view Cn(X, A; G) as the functions from singular n simplices in X to G that vanish
+on simplices in A, since the basis for Cn(X) consisting of singular n simplices in X
+is the disjoint union of the simplices with image contained in A and the simplices
+with image not contained in A.
+Relative coboundary maps δ : Cn(X, A; G)→Cn+1(X, A; G) are obtained as restric-
+tions of the absolute δ’s, so relative cohomology groups Hn(X, A; G) are defined. The
+
+
+---PAGE_BREAK---
+
+200
+Chapter 3
+Cohomology
+fact that the relative cochain group is a subgroup of the absolute cochains, namely the
+cochains vanishing on chains in A, means that relative cohomology is conceptually a
+little simpler than relative homology.
+The maps i∗and j∗commute with δ since i and j commute with ∂, so the
+preceding displayed short exact sequence of cochain groups is part of a short exact
+sequence of cochain complexes, giving rise to an associated long exact sequence of
+cohomology groups
+··· -→Hn(X, A; G)
+j∗
+--→Hn(X; G)
+i∗--→Hn(A; G)
+δ--→Hn+1(X, A; G) -→···
+By similar reasoning one obtains a long exact sequence of reduced cohomology groups
+for a pair (X, A) with A nonempty, where eHn(X, A; G) = Hn(X, A; G) for all n, as in
+homology. Taking A to be a point x0 , this exact sequence gives an identification of
+eHn(X; G) with Hn(X, x0; G).
+More generally there is a long exact sequence for a triple (X, A, B) coming from
+the short exact sequences
+0←--- Cn(A, B; G)
+i∗
+←--- Cn(X, B; G)
+j∗
+←--- Cn(X, A; G)←--- 0
+The long exact sequence of reduced cohomology can be regarded as the special case
+that B is a point.
+As one would expect, there is a duality relationship between the connecting ho-
+momorphisms δ : Hn(A; G)→Hn+1(X, A; G) and ∂: Hn+1(X, A)→Hn(A). This takes
+the form of the commutative diagram
+shown at the right. To verify commu-
+tativity, recall how the two connecting
+homomorphisms are defined, via the
+diagrams
+The connecting homomorphisms are represented by the dashed arrows, which are
+well-defined only when the chain and cochain groups are replaced by homology and
+cohomology groups. To show that hδ = ∂∗h, start with an element α ∈Hn(A; G)
+represented by a cocycle ϕ ∈Cn(A; G). To compute δ(α) we first extend ϕ to a
+cochain ϕ ∈Cn(X; G), say by letting it take the value 0 on singular simplices not in
+A. Then we compose ϕ with ∂: Cn+1(X)→Cn(X) to get a cochain ϕ∂∈Cn+1(X; G),
+which actually lies in Cn+1(X, A; G) since the original ϕ was a cocycle in A. This
+cochain ϕ∂∈Cn+1(X, A; G) represents δ(α) in Hn+1(X, A; G). Now we apply the
+map h, which simply restricts the domain of ϕ∂to relative cycles in Cn+1(X, A), that
+is, (n + 1) chains in X whose boundary lies in A. On such chains we have ϕ∂= ϕ∂
+since the extension of ϕ to ϕ is irrelevant. The net result of all this is that hδ(α)
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+201
+is represented by ϕ∂. Let us compare this with ∂∗h(α). Applying h to ϕ restricts
+its domain to cycles in A. Then applying ∂∗composes with the map which sends a
+relative (n + 1) cycle in X to its boundary in A. Thus ∂∗h(α) is represented by ϕ∂
+just as hδ(α) was, and so the square commutes.
+Induced Homomorphisms. Dual to the chain maps f♯: Cn(X)→Cn(Y ) induced by
+f : X→Y are the cochain maps f ♯: Cn(Y ; G)→Cn(X; G).
+The relation f♯∂= ∂f♯
+dualizes to δf ♯= f ♯δ, so f ♯induces homomorphisms f ∗: Hn(Y ; G)→Hn(X; G).
+In the relative case a map f : (X, A)→(Y , B) induces f ∗: Hn(Y , B; G)→Hn(X, A; G)
+by the same reasoning, and in fact f induces a map between short exact sequences of
+cochain complexes, hence a map between long exact sequences of cohomology groups,
+with commuting squares. The properties (fg)♯= g♯f ♯and 11♯= 11 imply (fg)∗=
+g∗f ∗and 11∗= 11, so X ֏ Hn(X; G) and (X, A) ֏ Hn(X, A; G) are contravariant
+functors, the ‘contra’ indicating that induced maps go in the reverse direction.
+The algebraic universal coefficient theorem applies also to relative cohomology
+since the relative chain groups Cn(X, A) are free, and there is a naturality statement:
+A map f : (X, A)→(Y , B) induces a commutative diagram
+This follows from the naturality of the algebraic universal coefficient sequences since
+the vertical maps are induced by the chain maps f♯: Cn(X, A)→Cn(Y , B). When the
+subspaces A and B are empty we obtain the absolute forms of these results.
+Homotopy Invariance. The statement is that if f ≃g : (X, A)→(Y , B), then f ∗=
+g∗: Hn(Y , B)→Hn(X, A). This is proved by direct dualization of the proof for ho-
+mology. From the proof of Theorem 2.10 we have a chain homotopy P satisfying
+g♯−f♯= ∂P + P∂. This relation dualizes to g♯−f ♯= P ∗δ + δP ∗, so P ∗is a chain
+homotopy between the maps f ♯, g♯: Cn(Y ; G)→Cn(X; G).
+This restricts also to a
+chain homotopy between f ♯and g♯on relative cochains, the cochains vanishing on
+singular simplices in the subspaces B and A. Since f ♯and g♯are chain homotopic,
+they induce the same homomorphism f ∗= g∗on cohomology.
+Excision. For cohomology this says that for subspaces Z ⊂A ⊂X with the closure
+of Z contained in the interior of A, the inclusion i : (X −Z, A −Z)֓ (X, A) induces
+isomorphisms i∗: Hn(X, A; G)→Hn(X −Z, A −Z; G) for all n. This follows from
+the corresponding result for homology by the naturality of the universal coefficient
+theorem and the five-lemma. Alternatively, if one wishes to avoid appealing to the
+universal coefficient theorem, the proof of excision for homology dualizes easily to
+cohomology by the following argument. In the proof for homology there were chain
+maps ι : Cn(A+B)→Cn(X) and ρ : Cn(X)→Cn(A+B) such that ρι = 11 and 11−ιρ =
+∂D + D∂for a chain homotopy D. Dualizing by taking Hom(−, G), we have maps
+
+
+---PAGE_BREAK---
+
+202
+Chapter 3
+Cohomology
+ρ∗and ι∗between Cn(A + B; G) and Cn(X; G), and these induce isomorphisms on
+cohomology since ι∗ρ∗= 11 and 11−ρ∗ι∗= D∗δ+δD∗. By the five-lemma, the maps
+Cn(X, A; G)→Cn(A + B, A; G) also induce isomorphisms on cohomology. There is an
+obvious identification of Cn(A+B, A; G) with Cn(B, A∩B; G), so we get isomorphisms
+Hn(X, A; G)) ≈Hn(B, A ∩B; G) induced by the inclusion (B, A ∩B)֓ (X, A).
+Axioms for Cohomology. These are exactly dual to the axioms for homology. Restrict-
+ing attention to CW complexes again, a (reduced) cohomology theory is a sequence of
+contravariant functors ehn from CW complexes to abelian groups, together with nat-
+ural coboundary homomorphisms δ : ehn(A)→ehn+1(X/A) for CW pairs (X, A), satis-
+fying the following axioms:
+(1) If f ≃g : X→Y , then f ∗= g∗: ehn(Y )→ehn(X).
+(2) For each CW pair (X, A) there is a long exact sequence
 ···
-∂-----→ehn(A)
-i∗
------→ehn(X)
+δ-----→ehn(X/A)
 q∗
------→ehn(X/A)
-∂-----→ehn−1(A)
+-----→ehn(X)
 i∗
+-----→ehn(A)
+δ-----→ehn+1(X/A)
+q∗
 -----→···
-where i is the inclusion and q is the quotient map. Furthermore the boundary
-maps are natural: For f : (X, A)→(Y , B) inducing a quotient map f : X/A→Y /B ,
-there are commutative diagrams
+where i is the inclusion and q is the quotient map.
 (3) For a wedge sum X =
 W
-α Xα with inclusions iα : Xα ֓ X , the direct sum map
-L
-α iα∗:
-L
-α ehn(Xα)→ehn(X) is an isomorphism for each n.
-Negative values for the subscripts n are permitted. Ordinary singular homology is
-zero in negative dimensions by definition, but interesting homology theories with
-nontrivial groups in negative dimensions do exist.
-The third axiom may seem less substantial than the first two, and indeed for finite
-wedge sums it can be deduced from the first two axioms, though not in general for
-infinite wedge sums, as an example in the Exercises shows.
-It is also possible, and not much more difficult, to give axioms for unreduced
-homology theories. One supposes one has relative groups hn(X, A) defined, special-
-izing to absolute groups by setting hn(X) = hn(X, ∅). Axiom (1) is replaced by its
-
-============================================================
-PDF Page 66
-============================================================
-
-The Formal Viewpoint
-Section 2.3
-161
-obvious relative form, and axiom (2) is broken into two parts, the first hypothesizing
-a long exact sequence involving these relative groups, with natural boundary maps,
-the second stating some version of excision, for example hn(X, A) ≈hn(X/A, A/A)
-if one is dealing with CW pairs. In axiom (3) the wedge sum is replaced by disjoint
-union.
-These axioms for unreduced homology are essentially the same as those origi-
-nally laid out in the highly influential book [Eilenberg & Steenrod 1952], except that
-axiom (3) was omitted since the focus there was on finite complexes, and there was
-another axiom specifying that the groups hn(point) are zero for n ≠0, as is true
-for singular homology. This axiom was called the ‘dimension axiom’, presumably be-
-cause it specifies that a point has nontrivial homology only in dimension zero. It can
-be regarded as a normalization axiom, since one can trivially define a homology the-
-ory where it fails by setting hn(X, A) = Hn+k(X, A) for a fixed nonzero integer k. At
-the time there were no interesting homology theories known for which the dimension
-axiom did not hold, but soon thereafter topologists began studying a homology theory
-called ‘bordism’ having the property that the bordism groups of a point are nonzero in
-infinitely many dimensions. Axiom (3) seems to have appeared first in [Milnor 1962].
-Reduced and unreduced homology theories are essentially equivalent. From an
-unreduced theory h one gets a reduced theory eh by setting ehn(X) equal to the
-kernel of the canonical map hn(X)→hn(point).
-In the other direction, one sets
-hn(X) = ehn(X+) where X+ is the disjoint union of X with a point.
-We leave it
-as an exercise to show that these two transformations between reduced and unre-
-duced homology are inverses of each other. Just as with ordinary homology, one has
-hn(X) ≈ehn(X)⊕hn(x0) for any point x0 ∈X , since the long exact sequence of the
-pair (X, x0) splits via the retraction of X onto x0 . Note that ehn(x0) = 0 for all n,
-as can be seen by looking at the long exact sequence of reduced homology groups of
-the pair (x0, x0).
-The groups hn(x0) ≈ehn(S0) are called the coefficients of the homology theo-
-ries h and eh, by analogy with the case of singular homology with coefficients. One
-can trivially realize any sequence of abelian groups Gi as the coefficient groups of a
-homology theory by setting hn(X, A) =
-L
-i Hn−i(X, A; Gi).
-In general, homology theories are not uniquely determined by their coefficient
-groups, but this is true for singular homology: If h is a homology theory defined
-for CW pairs, whose coefficient groups hn(x0) are zero for n ≠0, then there are
-natural isomorphisms hn(X, A) ≈Hn(X, A; G) for all CW pairs (X, A) and all n,
-where G = h0(x0). This will be proved in Theorem 4.59.
-We have seen how Mayer–Vietoris sequences can be quite useful for singular ho-
-mology, and in fact every homology theory has Mayer–Vietoris sequences, at least
-for CW complexes. These can be obtained directly from the axioms in the follow-
-
-============================================================
-PDF Page 67
-============================================================
-
-162
-Chapter 2
-Homology
-ing way. For a CW complex X = A ∪B with A and B subcomplexes, the inclusion
-(B, A ∩B) ֓ (X, A) induces a commutative diagram of exact sequences
-The vertical maps between relative groups are isomorphisms since B/(A ∩B) = X/A.
-Then it is a purely algebraic fact, whose proof is Exercise 38 at the end of the previous
-section, that a diagram such as this with every third vertical map an isomorphism
-gives rise to a long exact sequence involving the remaining nonisomorphic terms. In
-the present case this takes the form of a Mayer-Vietoris sequence
-··· -→hn(A ∩B)
-ϕ--→hn(A) ⊕hn(B)
-ψ--→hn(X)
-∂--→hn−1(A ∩B) -→···
-Categories and Functors
-Formally, singular homology can be regarded as a sequence of functions Hn that
-assign to each space X an abelian group Hn(X) and to each map f : X→Y a homo-
-morphism Hn(f) = f∗: Hn(X)→Hn(Y ), and similarly for relative homology groups.
-This sort of situation arises quite often, and not just in algebraic topology, so it is
-useful to introduce some general terminology for it. Roughly speaking, ‘functions’
-like Hn are called ‘functors’, and the domains and ranges of these functors are called
-‘categories’. Thus for Hn the domain category consists of topological spaces and con-
-tinuous maps, or in the relative case, pairs of spaces and continuous maps of pairs,
-and the range category consists of abelian groups and homomorphisms. A key point
-is that one is interested not only in the objects in the category, for example spaces or
-groups, but also in the maps, or ‘morphisms’, between these objects.
-Now for the precise definitions. A category C consists of three things:
-(1) A collection Ob(C) of objects.
-(2) Sets Mor(X, Y ) of morphisms for each pair X, Y ∈Ob(C), including a distin-
-guished ‘identity’ morphism 11 = 11X ∈Mor(X, X) for each X .
-(3) A ‘composition of morphisms’ function ◦: Mor(X, Y )×Mor(Y , Z)→Mor(X, Z) for
-each triple X, Y , Z ∈Ob(C), satisfying f ◦11 = f , 11◦f = f, and (f ◦g)◦h =
-f ◦(g ◦h).
-There are plenty of obvious examples, such as:
-The category of topological spaces, with continuous maps as the morphisms. Or
-we could restrict to special classes of spaces such as CW complexes, keeping
-continuous maps as the morphisms. We could also restrict the morphisms, for
-example to homeomorphisms.
-The category of groups, with homomorphisms as morphisms. Or the subcategory
-of abelian groups, again with homomorphisms as the morphisms. Generalizing
-
-============================================================
-PDF Page 68
-============================================================
-
-The Formal Viewpoint
-Section 2.3
-163
-this is the category of modules over a fixed ring, with morphisms the module
-homomorphisms.
-The category of sets, with arbitrary functions as the morphisms. Or the mor-
-phisms could be restricted to injections, surjections, or bijections.
-There are also many categories where the morphisms are not simply functions, for
-example:
-Any group G can be viewed as a category with only one object and with G as the
-morphisms of this object, so that condition (3) reduces to two of the three axioms
-for a group. If we require only these two axioms, associativity and a left and right
-identity, we have a ‘group without inverses’, usually called a monoid since it is
-the same thing as a category with one object.
-A partially ordered set (X, ≤) can be considered a category where the objects are
-the elements of X and there is a unique morphism from x to y whenever x ≤y .
-The relation x ≤x gives the morphism 11 and transitivity gives the composition
-Mor(x, y)×Mor(y, z)→Mor(x, z). The condition that x ≤y and y ≤x implies
-x = y says that there is at most one morphism between any two objects.
-There is a ‘homotopy category’ whose objects are topological spaces and whose
-morphisms are homotopy classes of maps, rather than actual maps. This uses
-the fact that composition is well-defined on homotopy classes: f0g0 ≃f1g1 if
-f0 ≃f1 and g0 ≃g1 .
-Chain complexes are the objects of a category, with chain maps as morphisms.
-This category has various interesting subcategories, obtained by restricting the
-objects.
-For example, we could take chain complexes whose groups are zero
-in negative dimensions, or zero outside a finite range. Or we could restrict to
-exact sequences, or short exact sequences. In each case we take morphisms to
-be chain maps, which are commutative diagrams.
-Going a step further, there
-is a category whose objects are short exact sequences of chain complexes and
-whose morphisms are commutative diagrams of maps between such short exact
-sequences.
-A functor F from a category C to a category D assigns to each object X in C an
-object F(X) in D and to each morphism f ∈Mor(X, Y ) in C a morphism F(f) ∈
-Mor
- F(X), F(Y )
-
-in D, such that F(11) = 11 and F(f ◦g) = F(f)◦F(g). In the case of
-the singular homology functor Hn , the latter two conditions are the familiar properties
-11∗= 11 and (fg)∗= f∗g∗of induced maps. Strictly speaking, what we have just
-defined is a covariant functor. A contravariant functor would diﬀer from this by
-assigning to f ∈Mor(X, Y ) a ‘backwards’ morphism F(f) ∈Mor
- F(Y ), F(X)
-
-with
-F(11) = 11 and F(f ◦g) = F(g)◦F(f). A classical example of this is the dual vector
-space functor, which assigns to a vector space V over a fixed scalar field K the dual
-vector space F(V) = V ∗of linear maps V→K , and to each linear transformation
-
-============================================================
-PDF Page 69
-============================================================
-
-164
-Chapter 2
-Homology
-f : V→W the dual map F(f) = f ∗: W ∗→V ∗, going in the reverse direction. In the
-next chapter we will study the contravariant version of homology, called cohomology.
-A number of the constructions we have studied in this chapter are functors:
-The singular chain complex functor assigns to a space X the chain complex of
-singular chains in X and to a map f : X→Y the induced chain map.
-This is
-a functor from the category of spaces and continuous maps to the category of
-chain complexes and chain maps.
-The algebraic homology functor assigns to a chain complex its sequence of ho-
-mology groups and to a chain map the induced homomorphisms on homology.
-This is a functor from the category of chain complexes and chain maps to the
-category whose objects are sequences of abelian groups and whose morphisms
-are sequences of homomorphisms.
-The composition of the two preceding functors is the functor assigning to a space
-its singular homology groups.
-The first example above, the singular chain complex functor, can itself be re-
-garded as the composition of two functors. The first functor assigns to a space
-X its singular complex S(X), a ∆complex, and the second functor assigns to
-a ∆complex its simplicial chain complex. This is what the two functors do on
-objects, and what they do on morphisms can be described in the following way. A
-map of spaces f : X→Y induces a map f∗: S(X)→S(Y ) by composing singular
-simplices ∆n→X with f . The map f∗is a map between ∆complexes taking the
-distinguished characteristic maps in the domain ∆complex to the distinguished
-characteristic maps in the target ∆complex. Call such maps D maps and let
-them be the morphisms in the category of ∆complexes. Note that a ∆map in-
-duces a chain map between simplicial chain complexes, taking basis elements to
-basis elements, so we have a simplicial chain complex functor taking the category
-of ∆complexes and ∆maps to the category of chain complexes and chain maps.
-There is a functor assigning to a pair of spaces (X, A) the associated long exact
-sequence of homology groups. Morphisms in the domain category are maps of
-pairs, and in the target category morphisms are maps between exact sequences
-forming commutative diagrams. This functor is the composition of two functors,
-the first assigning to (X, A) a short exact sequence of chain complexes, the sec-
-ond assigning to such a short exact sequence the associated long exact sequence
-of homology groups. Morphisms in the intermediate category are the evident
-commutative diagrams.
-Another sort of process we have encountered is the transformation of one functor
-into another, for example:
-Boundary maps Hn(X, A)→Hn−1(A) in singular homology, or indeed in any ho-
-mology theory.
-
-============================================================
-PDF Page 70
-============================================================
-
-The Formal Viewpoint
-Section 2.3
-165
-Change-of-coefficient homomorphisms Hn(X; G1)→Hn(X; G2) induced by a ho-
-momorphism G1→G2 , as in the proof of Lemma 2.49.
-In general, if one has two functors F, G :C→D then a natural transformation T from
-F to G assigns a morphism TX : F(X)→G(X) to each object
-X ∈C, in such a way that for each morphism f : X→Y in
-C the square at the right commutes. The case that F and G
-are contravariant rather than covariant is similar.
-We have been describing the passage from topology to the abstract world of cat-
-egories and functors, but there is also a nice path in the opposite direction:
-To each category C there is associated a ∆complex BC called the classifying
-space of C, whose n simplices are the strings X0→X1→···→Xn of morphisms
-in C. The faces of this simplex are obtained by deleting an Xi , and then compos-
-ing the two adjacent morphisms if i ≠0, n. Thus when n = 2 the three faces of
-X0→X1→X2 are X0→X1 , X1→X2 , and the composed morphism X0→X2 . In
-case C has a single object and the morphisms of C form a group G, then BC is
-the same as the ∆complex BG constructed in Example 1B.7, a K(G, 1). In gen-
-eral, the space BC need not be a K(G, 1), however. For example, if we start with a
-∆complex X and regard its set of simplices as a partially ordered set C(X) under
-the relation of inclusion of faces, then BC(X) is the barycentric subdivision of X .
-A functor F :C→D induces a map BC→BD. This is the ∆map that sends an
-n simplex X0→X1→···→Xn to the n simplex F(X0)→F(X1)→···→F(Xn).
-A natural transformation from a functor F to a functor G induces a homotopy
-between the induced maps of classifying spaces. We leave this for the reader to
-make explicit, using the subdivision of ∆n×I into (n + 1) simplices described
-earlier in the chapter.
-Exercises
-1. If Tn(X, A) denotes the torsion subgroup of Hn(X, A; Z), show that the functors
-(X, A) ֏ Tn(X, A), with the obvious induced homomorphisms Tn(X, A)→Tn(Y , B)
-and boundary maps Tn(X, A)→Tn−1(A), do not define a homology theory. Do the
-same for the ‘mod torsion’ functor MTn(X, A) = Hn(X, A; Z)/Tn(X, A).
-2. Define a candidate for a reduced homology theory on CW complexes by ehn(X) =
+α Xα with inclusions iα : Xα ֓ X , the product map
 Q
-i eHi(X)
- L
-i eHi(X).
-Thus ehn(X) is independent of n and is zero if X is finite-
-dimensional, but is not identically zero, for example for X =
+αi∗
+α : ehn(X)→
+Q
+α ehn(Xα) is an isomorphism for each n.
+We have already seen that the first axiom holds for singular cohomology. The sec-
+ond axiom follows from excision in the same way as for homology, via isomorphisms
+eHn(X/A; G) ≈Hn(X, A; G). Note that the third axiom involves direct product, rather
+than the direct sum appearing in the homology version. This is because of the nat-
+ural isomorphism Hom(
+L
+αAα, G) ≈
+Q
+αHom(Aα, G), which implies that the cochain
+complex of a disjoint union
+`
+α Xα is the direct product of the cochain complexes
+of the individual Xα ’s, and this direct product splitting passes through to cohomol-
+ogy groups. The same argument applies in the relative case, so we get isomorphisms
+Hn(
+`
+α Xα,
+`
+α Aα; G) ≈
+Q
+αHn(Xα, Aα; G). The third axiom is obtained by taking the
+Aα ’s to be basepoints xα and passing to the quotient
+`
+α Xα/
+`
+α xα =
 W
-i Si . Show that the
-axioms for a homology theory are satisfied except that the wedge axiom fails.
-3. Show that if eh is a reduced homology theory, then ehn(point) = 0 for all n. Deduce
-that there are suspension isomorphisms ehn(X) ≈ehn+1(SX) for all n.
-4. Show that the wedge axiom for homology theories follows from the other axioms
-in the case of finite wedge sums.
+α Xα .
+The relation between reduced and unreduced cohomology theories is the same as
+for homology, as described in §2.3.
+Simplicial Cohomology. If X is a ∆complex and A ⊂X is a subcomplex, then the
+simplicial chain groups ∆n(X, A) dualize to simplicial cochain groups ∆n(X, A; G) =
+Hom(∆n(X, A), G), and the resulting cohomology groups are by definition the sim-
+plicial cohomology groups Hn
+∆(X, A; G). Since the inclusions ∆n(X, A) ⊂Cn(X, A)
+induce isomorphisms H∆
+n(X, A) ≈Hn(X, A), Corollary 3.4 implies that the dual maps
+Cn(X, A; G)→∆n(X, A; G) also induce isomorphisms Hn(X, A; G) ≈Hn
+∆(X, A; G).
+Cellular Cohomology. For a CW complex X this is defined via the cellular cochain
+complex formed by the horizontal sequence in the following diagram, where coeffi-
+cients in a given group G are understood, and the cellular coboundary maps dn are
 
-============================================================
-PDF Page 71
-============================================================
 
-166
-Chapter 2
-Homology
-There is a close connection between H1(X) and π1(X), arising from the fact that
-a map f : I→X can be viewed as either a path or a singular 1 simplex. If f is a loop,
-with f(0) = f(1), this singular 1 simplex is a cycle since ∂f = f(1) −f(0).
-Theorem 2A.1. By regarding loops as singular 1 cycles, we obtain a homomorphism
-h : π1(X, x0)→H1(X). If X is path-connected, then h is surjective and has kernel
-the commutator subgroup of π1(X), so h induces an isomorphism from the abelian-
-ization of π1(X) onto H1(X).
-Proof: Recall the notation f ≃g for the relation of homotopy, fixing endpoints,
-between paths f and g . Regarding f and g as chains, the notation f ∼g will mean
-that f is homologous to g , that is, f −g is the boundary of some 2 chain. Here are
-some facts about this relation.
-(i) If f is a constant path, then f ∼0. Namely, f is a cycle since it is a loop, and
-since H1(point) = 0, f must then be a boundary. Explicitly, f is the boundary of the
-constant singular 2 simplex σ having the same image as f since
-∂σ = σ ||[v1, v2] −σ ||[v0, v2] + σ ||[v0, v1] = f −f + f = f
-(ii) If f ≃g then f ∼g . To see this, consider a homotopy F : I×I→X from f to
-g . This yields a pair of singular 2 simplices σ1 and σ2 in X
-by subdividing the square I×I into two triangles [v0, v1, v3]
-and [v0, v2, v3] as shown in the figure. When one computes
-∂(σ1 −σ2), the two restrictions of F to the diagonal of the
-square cancel, leaving f −g together with two constant sin-
-gular 1 simplices from the left and right edges of the square.
-By (i) these are boundaries, so f −g is also a boundary.
-(iii) f g ∼f +g , where f g denotes the product of the paths
-f and g . For if σ : ∆2→X is the composition of orthogonal
-projection of ∆2 = [v0, v1, v2] onto the edge [v0, v2] followed
-by f g : [v0, v2]→X , then ∂σ = g −f g + f .
-(iv) f ∼−f , where f is the inverse path of f . This follows from the preceding three
-observations, which give f + f ∼f f ∼0.
-Applying (ii) and (iii) to loops, it follows that we have a well-defined homomor-
-phism h : π1(X, x0)→H1(X) sending the homotopy class of a loop f to the homology
-class of the 1 cycle f .
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+203
+the compositions δnjn , making the triangles commute. Note that dndn−1 = 0 since
+jnδn−1 = 0.
+Theorem 3.5. Hn(X; G) ≈Ker dn/ Im dn−1 . Furthermore, the cellular cochain com-
+plex {Hn(Xn, Xn−1; G), dn} is isomorphic to the dual of the cellular chain complex,
+obtained by applying Hom(−, G).
+Proof: The universal coefficient theorem implies that Hk(Xn, Xn−1; G) = 0 for k ≠n.
+The long exact sequence of the pair (Xn, Xn−1) then gives isomorphisms Hk(Xn; G) ≈
+Hk(Xn−1; G) for k ≠n, n −1. Hence by induction on n we obtain Hk(Xn; G) = 0 if
+k > n. Thus the diagonal sequences in the preceding diagram are exact. The universal
+coefficient theorem also gives Hk(X, Xn+1; G) = 0 for k ≤n + 1, so Hn(X; G) ≈
+Hn(Xn+1; G). The diagram then yields isomorphisms
+Hn(X; G) ≈Hn(Xn+1; G) ≈Ker δn ≈Ker dn/ Im δn−1 ≈Ker dn/ Im dn−1
+For the second statement in the theorem we have the diagram
+The cellular coboundary map is the composition across the top, and we want to see
+that this is the same as the composition across the bottom. The first and third vertical
+maps are isomorphisms by the universal coefficient theorem, so it suffices to show
+the diagram commutes. The first square commutes by naturality of h, and commu-
+tativity of the second square was shown in the discussion of the long exact sequence
+of cohomology groups of a pair (X, A).
+⊔⊓
+Mayer–Vietoris Sequences. In the absolute case these take the form
+··· -→Hn(X; G)
+Ψ--→Hn(A; G) ⊕Hn(B; G)
+Φ--→Hn(A ∩B; G) -→Hn+1(X; G) -→···
+where X is the union of the interiors of A and B . This is the long exact sequence
+associated to the short exact sequence of cochain complexes
+0 -→Cn(A + B; G)
+ψ--→Cn(A; G) ⊕Cn(B; G)
+ϕ--→Cn(A ∩B; G) -→0
+
+
+---PAGE_BREAK---
+
+204
+Chapter 3
+Cohomology
+Here Cn(A + B; G) is the dual of the subgroup Cn(A + B) ⊂Cn(X) consisting of
+sums of singular n simplices lying in A or in B . The inclusion Cn(A + B) ⊂Cn(X)
+is a chain homotopy equivalence by Proposition 2.21, so the dual restriction map
+Cn(X; G)→Cn(A + B; G) is also a chain homotopy equivalence, hence induces an
+isomorphism on cohomology as shown in the discussion of excision a couple pages
+back. The map ψ has coordinates the two restrictions to A and B , and ϕ takes the
+diﬀerence of the restrictions to A ∩B , so it is obvious that ϕ is onto with kernel the
+image of ψ.
+There is a relative Mayer–Vietoris sequence
+··· -→Hn(X, Y ; G) -→Hn(A, C; G) ⊕Hn(B, D; G) -→Hn(A ∩B, C ∩D; G) -→···
+for a pair (X, Y ) = (A ∪B, C ∪D) with C ⊂A and D ⊂B such that X is the union of
+the interiors of A and B while Y is the union of the interiors of C and D. To derive
+this, consider first the map of short exact sequences of cochain complexes
+Here Cn(A+B, C +D; G) is defined as the kernel of Cn(A+B; G) -→Cn(C +D; G), the
+restriction map, so the second sequence is exact. The vertical maps are restrictions.
+The second and third of these induce isomorphisms on cohomology, as we have seen,
+so by the five-lemma the first vertical map also induces isomorphisms on cohomology.
+The relative Mayer–Vietoris sequence is then the long exact sequence associated to the
+short exact sequence of cochain complexes
+0 -→Cn(A + B, C + D; G)
+ψ--→Cn(A, C; G) ⊕Cn(B, D; G)
+ϕ--→Cn(A ∩B, C ∩D; G) -→0
+This is exact since it is the dual of the short exact sequence
+0 -→Cn(A ∩B, C ∩D) -→Cn(A, C) ⊕Cn(B, D) -→Cn(A + B, C + D) -→0
+constructed in §2.2, which splits since Cn(A+B, C +D) is free with basis the singular
+n simplices in A or in B that do not lie in C or in D.
+Exercises
+1. Show that Ext(H, G) is a contravariant functor of H for fixed G, and a covariant
+functor of G for fixed H .
+2. Show that the maps G
+n--→G and H
+n--→H multiplying each element by the integer
+n induce multiplication by n in Ext(H, G).
+3. Regarding Z2 as a module over the ring Z4 , construct a resolution of Z2 by free
+modules over Z4 and use this to show that Extn
+Z4(Z2, Z2) is nonzero for all n.
+
+
+---PAGE_BREAK---
+
+Cohomology Groups
+Section 3.1
+205
+4. What happens if one defines homology groups hn(X; G) as the homology groups
+of the chain complex ···→Hom
+ G, Cn(X)
+→Hom
+ G, Cn−1(X)
+→···? More specif-
+ically, what are the groups hn(X; G) when G = Z, Zm , and Q?
+5. Regarding a cochain ϕ ∈C1(X; G) as a function from paths in X to G, show that
+if ϕ is a cocycle, then
+(a) ϕ(f g) = ϕ(f) + ϕ(g),
+(b) ϕ takes the value 0 on constant paths,
+(c) ϕ(f) = ϕ(g) if f ≃g ,
+(d) ϕ is a coboundary iﬀϕ(f) depends only on the endpoints of f , for all f .
+[In particular, (a) and (c) give a map H1(X; G)→Hom(π1(X), G), which the universal
+coefficient theorem says is an isomorphism if X is path-connected.]
+6. (a) Directly from the definitions, compute the simplicial cohomology groups of
+S1×S1 with Z and Z2 coefficients, using the ∆complex structure given in §2.1.
+(b) Do the same for RP2 and the Klein bottle.
+7. Show that the functors hn(X) = Hom(Hn(X), Z) do not define a cohomology theory
+on the category of CW complexes.
+8. Many basic homology arguments work just as well for cohomology even though
+maps go in the opposite direction. Verify this in the following cases:
+(a) Compute Hi(Sn; G) by induction on n in two ways: using the long exact sequence
+of a pair, and using the Mayer–Vietoris sequence.
+(b) Show that if A is a closed subspace of X that is a deformation retract of some
+neighborhood, then the quotient map X→X/A induces isomorphisms Hn(X, A; G) ≈
+eHn(X/A; G) for all n.
+(c) Show that if A is a retract of X then Hn(X; G) ≈Hn(A; G)⊕Hn(X, A; G).
+9. Show that if f : Sn→Sn has degree d then f ∗: Hn(Sn; G)→Hn(Sn; G) is multipli-
+cation by d.
+10. For the lens space Lm(ℓ1, ··· , ℓn) defined in Example 2.43, compute the cohomol-
+ogy groups using the cellular cochain complex and taking coefficients in Z, Q, Zm ,
+and Zp for p prime. Verify that the answers agree with those given by the universal
+coefficient theorem.
+11. Let X be a Moore space M(Zm, n) obtained from Sn by attaching a cell en+1 by
+a map of degree m.
+(a) Show that the quotient map X→X/Sn = Sn+1 induces the trivial map on eHi(−; Z)
+for all i, but not on Hn+1(−; Z). Deduce that the splitting in the universal coefficient
+theorem for cohomology cannot be natural.
+(b) Show that the inclusion Sn֓ X induces the trivial map on eHi(−; Z) for all i, but
+not on Hn(−; Z).
+12. Show Hk(X, Xn; G) = 0 if X is a CW complex and k ≤n, by using the cohomology
+version of the second proof of the corresponding result for homology in Lemma 2.34.
+
+
+---PAGE_BREAK---
+
+206
+Chapter 3
+Cohomology
+13. Let ⟨X, Y ⟩denote the set of basepoint-preserving homotopy classes of basepoint-
+preserving maps X→Y . Using Proposition 1B.9, show that if X is a connected CW
+complex and G is an abelian group, then the map ⟨X, K(G, 1)⟩→H1(X; G) sending a
+map f : X→K(G, 1) to the induced homomorphism f∗: H1(X)→H1
+ K(G, 1)
+
+≈G is
+a bijection, where we identify H1(X; G) with Hom(H1(X), G) via the universal coeffi-
+cient theorem.
+In the introduction to this chapter we sketched a definition of cup product in
+terms of another product called cross product. However, to define the cross product
+from scratch takes some work, so we will proceed in the opposite order, first giving
+an elementary definition of cup product by an explicit formula with simplices, then
+afterwards defining cross product in terms of cup product. The other approach of
+defining cup product via cross product is explained at the end of §3.B.
+To define the cup product we consider cohomology with coefficients in a ring
+R, the most common choices being Z, Zn , and Q. For cochains ϕ ∈Ck(X; R) and
+ψ ∈Cℓ(X; R), the cup product ϕ ⌣ψ ∈Ck+ℓ(X; R) is the cochain whose value on a
+singular simplex σ : ∆k+ℓ→X is given by the formula
+(ϕ ⌣ψ)(σ) = ϕ
+ σ ||[v0, ··· , vk]
+
+ψ
+ σ ||[vk, ··· , vk+ℓ]
+
+where the right-hand side is the product in R. To see that this cup product of cochains
+induces a cup product of cohomology classes we need a formula relating it to the
+coboundary map:
+Lemma 3.6. δ(ϕ⌣ψ) = δϕ⌣ψ+(−1)kϕ⌣δψ for ϕ ∈Ck(X; R) and ψ ∈Cℓ(X; R).
+Proof: For σ : ∆k+ℓ+1→X we have
+(δϕ ⌣ψ)(σ) =
+k+1
+X
+i=0
+(−1)iϕ
+ σ||[v0, ··· , bvi, ··· , vk+1]
+
+ψ
+ σ||[vk+1, ··· , vk+ℓ+1]
+
+(−1)k(ϕ ⌣δψ)(σ) =
+k+ℓ+1
+X
+i=k
+(−1)iϕ
+ σ||[v0, ··· , vk]
+
+ψ
+ σ||[vk, ··· , bvi, ··· , vk+ℓ+1]
+
+When we add these two expressions, the last term of the first sum cancels the first term
+of the second sum, and the remaining terms are exactly δ(ϕ ⌣ψ)(σ) = (ϕ ⌣ψ)(∂σ)
+since ∂σ =
+Pk+ℓ+1
+i=0
+(−1)iσ ||[v0, ··· , bvi, ··· , vk+ℓ+1].
+⊔⊓
+
+
+---PAGE_BREAK---
+

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777630288589-34i61s71q",
+  "providerId": "claude",
+  "title": "Applying /pdf-to-obsidian to Additional Topics of ...",
+  "createdAt": 1777630288589,
+  "updatedAt": 1777631247964,
+  "lastResponseAt": 1777631143400,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "0c3aa243-bd20-4eb1-82ed-a03fe0b26ffa"
+  },
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 36950,
+    "cacheCreationInputTokens": 25,
+    "cacheReadInputTokens": 53907,
+    "contextWindow": 200000,
+    "contextTokens": 90882,
+    "percentage": 45,
+    "contextWindowIsAuthoritative": false
+  }
+}

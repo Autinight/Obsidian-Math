@@ -3,20 +3,21 @@
   "providerId": "claude",
   "title": "Applying /pdf-to-obsidian to CH2 2",
   "createdAt": 1777628550882,
-  "updatedAt": 1777628637727,
-  "lastResponseAt": 1777628637727,
-  "sessionId": "faf8feb1-bac9-42bb-a459-301e703da563",
+  "updatedAt": 1777628809549,
+  "lastResponseAt": 1777628799422,
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "faf8feb1-bac9-42bb-a459-301e703da563"
   },
   "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
   "usage": {
     "model": "claude-opus-4-7",
-    "inputTokens": 15017,
-    "cacheCreationInputTokens": 497,
-    "cacheReadInputTokens": 18478,
-    "contextWindow": 200000,
-    "contextTokens": 33992,
-    "percentage": 17
+    "inputTokens": 23204,
+    "cacheCreationInputTokens": 1410,
+    "cacheReadInputTokens": 29649,
+    "contextWindow": 1000000,
+    "contextTokens": 54263,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
   }
 }

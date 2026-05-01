@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777631312896-wzf2titte",
+  "providerId": "claude",
+  "title": "Applying /pdf-to-obsidian to Ch3 3",
+  "createdAt": 1777631312896,
+  "updatedAt": 1777631587625,
+  "lastResponseAt": 1777631587625,
+  "sessionId": "a5e952e7-1ca4-478c-8e8e-47b473b813bc",
+  "providerState": {
+    "providerSessionId": "a5e952e7-1ca4-478c-8e8e-47b473b813bc"
+  },
+  "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 6379,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 6379,
+    "percentage": 3
+  }
+}
