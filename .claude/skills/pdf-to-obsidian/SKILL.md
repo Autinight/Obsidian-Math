@@ -71,11 +71,71 @@ Embed figures (if extracted):
 <span class="claudian-embedded-image-fallback">![[attachments/figure-2-1.png]]</span>
 *Figure 2.1: Caption text*
 markdown
-Technical Implementation:
+**Technical Implementation**:
 
-[... keep the improved extraction workflow from previous optimization ...]
+**Tool Priority** (use first available):
+1. **PyMuPDF (fitz)** - Best for math textbooks, preserves layout
+2. pdfplumber - Good for tables
+3. pdftotext - Fallback for simple text
 
-Verification:
+**Extraction Script**:
+```python
+import fitz  # PyMuPDF
+import re
+from pathlib import Path
+
+pdf_path = "{{pdf_path}}"
+section = "{{section}}"  # e.g., "Section 2.1" or "2.1"
+
+doc = fitz.open(pdf_path)
+text_blocks = []
+images = []
+
+# Extract text from all pages
+for page_num, page in enumerate(doc, 1):
+    text_blocks.append(f"--- Page {page_num} ---\n{page.get_text()}")
+    
+    # Extract images
+    for img_index, img in enumerate(page.get_images()):
+        xref = img[0]
+        base_image = doc.extract_image(xref)
+        img_bytes = base_image["image"]
+        img_ext = base_image["ext"]
+        img_name = f"fig-p{page_num}-{img_index}.{img_ext}"
+        Path(".").mkdir(exist_ok=True)
+        with open(f"./{img_name}", "wb") as f:
+            f.write(img_bytes)
+        images.append(img_name)
+
+full_text = "\n\n".join(text_blocks)
+
+# Find section boundaries (adjust regex for your PDF structure)
+section_pattern = rf"(?:^|\n)({re.escape(section)}[^\n]*)\n(.*?)(?=\n(?:Section|\Z))"
+match = re.search(section_pattern, full_text, re.DOTALL | re.IGNORECASE)
+
+if match:
+    section_title = match.group(1).strip()
+    section_content = match.group(2).strip()
+else:
+    section_content = full_text  # Fallback: use all text
+
+print(f"SECTION_TITLE: {section_title if match else 'Unknown'}")
+print(f"IMAGES: {','.join(images)}")
+print(f"CONTENT_START\n{section_content}\nCONTENT_END")
+```
+
+**Execution**:
+```bash
+python_path="/c/Users/Autin/AppData/Local/Programs/Python/Python312/python.exe"
+"$python_path" -c "$(cat <<'PYEOF'
+[paste extraction script here]
+PYEOF
+)" > /tmp/pdf_extract.txt
+```
+
+Parse output, convert to Obsidian syntax, save to `00.Inbox/`.
+
+**Verification**:
 
 Frontmatter is valid YAML
 Math delimiters are balanced ($ count is even)
