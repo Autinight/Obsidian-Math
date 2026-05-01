@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
+                "file": "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 Section 2.1 - Computations and Applications"
+              "title": "Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology"
             }
           },
           {
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,24 +230,26 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "63be2fbada775034",
+  "active": "1dc385abd6b15945",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
+    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636704552",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636678916",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636651870",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636570087",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636286889",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636253929",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636192142",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636150682",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch3 3.1 Cohomology Groups.md",
-    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633949724",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633919333",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633847143",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633797977",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633746272",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633661110",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633632187",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633613943",
-    "00.Inbox/Hatcher Ch3 3.1 Cohomology Groups.md.tmp.13092.1777633533965",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
     "00.Inbox/Hatcher 3.1 Cohomology Groups.md",
     "00.Inbox/Hatcher Ch2 Sec2.3.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
@@ -259,7 +261,6 @@
     "00.Inbox/2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Chapter 2.2 - Computations and Applications.md",
     "00.Inbox/Hatcher 2.2 - 计算与应用.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/PDE/Evans - Ch6.md",
     "60.Templates/NOTES.md",
     "00.Inbox/FA - HW7.md",
@@ -267,7 +268,6 @@
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "00.Inbox/dfn - Delta-Complex.md",
-    "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777635416533-jcm7koy9h",
+  "providerId": "claude",
+  "title": "Ch2 Sec2",
+  "createdAt": 1777635416533,
+  "updatedAt": 1777636872036,
+  "lastResponseAt": 1777636845236,
+  "sessionId": "49b3d828-3ab3-41bf-bc09-33cc74330818",
+  "providerState": {
+    "providerSessionId": "49b3d828-3ab3-41bf-bc09-33cc74330818"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 45868,
+    "cacheCreationInputTokens": 1530,
+    "cacheReadInputTokens": 65845,
+    "contextWindow": 1000000,
+    "contextTokens": 113243,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

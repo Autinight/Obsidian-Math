@@ -34,18 +34,18 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
      - Display the text snippets from start and end to the user
      - Format:
      ```
-     根据分析找到 Section X.X，请查看开头和结尾内容确认范围：
+     Found Section X.X based on analysis. Please review the start and end content to confirm the range:
      
-     【开头】[first ~200 characters from start page]
+     [START] [first ~200 characters from start page]
      
-     【结尾】[last ~200 characters from end page]
+     [END] [last ~200 characters from end page]
      
-     是否提取这个范围？
-     - 回复 "确认" 或 "yes" 继续提取
-     - 或提供自定义范围，格式：from: [起始文本] to: [结束文本]
+     Should I extract this range?
+     - Reply "confirm" or "yes" to proceed with extraction
+     - Or provide custom range in format: from: [start text] to: [end text]
      ```
    - **WAIT for user response before proceeding**
-   - If user confirms (says "确认", "yes", "ok", "好", "可以", etc.), proceed to step 2 with the proposed range
+   - If user confirms (says "confirm", "yes", "ok", etc.), proceed to step 2 with the proposed range
    - If user provides text snippets in format "from: ... to: ...", parse those snippets and proceed to step 2
    - **DO NOT proceed to step 2 until user responds**
 
@@ -86,6 +86,15 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        - Remove placeholder in final chunk
        - This is NOT optional - you MUST chunk even if you think the content is short
        
+       **CRITICAL COMPLETENESS REQUIREMENT**:
+       - ABSOLUTELY NO content omission is allowed - you must preserve EVERYTHING
+       - You MUST retain ALL content: ALL theorems, proofs, examples, exercises, technical details, constructions, remarks, propositions, corollaries, lemmas
+       - FORBIDDEN: Adding any notes about 'content omitted/summarized/abbreviated for brevity'
+       - FORBIDDEN: Using phrases like 'for brevity', 'see original text', 'details omitted', 'summarized', etc.
+       - If content is long, use chunked writing protocol (split into multiple chunks), but NEVER omit any content
+       - Extract and convert EVERYTHING from the source file - completeness is absolutely mandatory
+       - Every sentence, every proof step, every exercise must be included
+       
        Instructions:
        - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
        - Convert math to dollar-sign format: $inline$ and $$display$$
@@ -101,8 +110,9 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        - Add section headers with ##
        - Remove page numbers and PDF artifacts
        - Preserve all mathematical content including ALL commutative diagrams
+       - Convert ALL content from source - complete extraction with zero omission
        
-       **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue**"
+       **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions.**"
      )
      ```
    - **DO NOT manually write markdown** - the skill handles all formatting
@@ -151,6 +161,7 @@ Never guess content ranges - always show text snippets for user to verify
 CRITICAL: Show snippets and WAIT for user response before extracting
 CRITICAL: Always use \begin{CD}...\end{CD} for commutative diagrams, NEVER use array or other methods
 CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with placeholders
+CRITICAL: NEVER omit any content - complete extraction is mandatory
 Always use Skill tool to call obsidian-markdown for formatting
 Show preview before final formatting
 Handle encoding issues proactively

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777636911394-gffgfda0q",
+  "providerId": "claude",
+  "title": "obsidian-to-pdf这个skill输出的文件最后出现了这样的字样: **Note:** T...",
+  "createdAt": 1777636911394,
+  "updatedAt": 1777637334967,
+  "lastResponseAt": 1777637073097,
+  "sessionId": "25162898-c654-41bb-b2b0-6f8587cd0adc",
+  "providerState": {
+    "providerSessionId": "25162898-c654-41bb-b2b0-6f8587cd0adc"
+  },
+  "currentNote": "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 17777,
+    "cacheCreationInputTokens": 20377,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 38343,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
