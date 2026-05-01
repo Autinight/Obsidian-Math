@@ -105,7 +105,7 @@
   "savedProviderThinkingBudget": {
     "claude": "high"
   },
-  "lastCustomModel": "ZhipuAI/GLM-5.1",
+  "lastCustomModel": "claude-opus-4-7",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

@@ -11,15 +11,52 @@
             "id": "649625c9a3752703",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf"
+                "file": "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ATHatcher - Chapter2 - Homology"
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2 Sec2.2 - Computations and Applications"
+            }
+          },
+          {
+            "id": "ad016c3f4d9a8612",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2 Sec2.2 - Computations and Applications"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
+                "file": "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW4 的大纲"
+              "title": "Hatcher Ch2 Sec2.2 - Computations and Applications 的大纲"
             }
           },
           {
@@ -193,13 +230,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "ad016c3f4d9a8612",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
+    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+    "00.Inbox/Hatcher Chapter2 Section2.2 - Computations and Applications.md",
     "00.Inbox/2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Chapter 2.2 - Computations and Applications.md",
-    "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher 2.2 - 计算与应用.md",
-    "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
     "section_2_2_complete.txt",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/PDE/Evans - Ch6.md",
@@ -225,9 +264,6 @@
     "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
     "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
-    "30.Recources/HA/Course HW/HA - HW1.2.md",
-    "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",
