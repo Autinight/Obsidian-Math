@@ -1,0 +1,191 @@
+102
+Chapter 2
+Homology
+
+[DIAGRAM_0]
+
+The most important homology theory in algebraic topology, and the one we shall
+
+be studying almost exclusively, is called singular homology. Since the technical appa-
+
+ratus of singular homology is somewhat complicated, we will first introduce a more
+
+primitive version called simplicial homology in order to see how some of the apparatus
+
+works in a simpler setting before beginning the general theory.
+
+The natural domain of definition for simplicial homology is a class of spaces we
+
+call ∆complexes, which are a mild generalization of the more classical notion of
+
+a simplicial complex. Historically, the modern definition of singular homology was
+
+first given in [Eilenberg 1944], and ∆complexes were introduced soon thereafter in
+
+[Eilenberg-Zilber 1950] where they were called semisimplicial complexes. Within a
+
+few years this term came to be applied to what Eilenberg and Zilber called complete
+
+semisimplicial complexes, and later there was yet another shift in terminology as
+
+the latter objects came to be called simplicial sets. In theory this frees up the term
+
+semisimplicial complex to have its original meaning, but to avoid potential confusion
+
+it seems best to introduce a new name, and the term ∆complex has at least the virtue
+
+of brevity.
+
+[DIAGRAM_1]
+
+D–Complexes
+
+The torus, the projective plane, and the Klein bottle can each be obtained from a
+
+square by identifying opposite edges in the way indicated by the arrows in the follow-
+
+ing figures:
+
+[DIAGRAM_39]
+
+[DIAGRAM_7]
+
+[DIAGRAM_19]
+
+[DIAGRAM_31]
+
+[DIAGRAM_38]
+
+[DIAGRAM_22]
+
+[DIAGRAM_10]
+
+[DIAGRAM_34]
+
+[DIAGRAM_16]
+
+[DIAGRAM_4]
+
+[DIAGRAM_28]
+
+[DIAGRAM_2]
+
+[DIAGRAM_14]
+
+[DIAGRAM_26]
+
+[DIAGRAM_24]
+
+[DIAGRAM_36]
+
+[DIAGRAM_12]
+
+[DIAGRAM_5]
+
+[DIAGRAM_29]
+
+[DIAGRAM_17]
+
+[DIAGRAM_8]
+
+[DIAGRAM_20]
+
+[DIAGRAM_32]
+
+[DIAGRAM_37]
+
+[DIAGRAM_13]
+
+[DIAGRAM_25]
+
+[DIAGRAM_27]
+
+[DIAGRAM_15]
+
+[DIAGRAM_3]
+
+[DIAGRAM_21]
+
+[DIAGRAM_9]
+
+[DIAGRAM_35]
+
+[DIAGRAM_33]
+
+[DIAGRAM_11]
+
+[DIAGRAM_23]
+
+[DIAGRAM_18]
+
+[DIAGRAM_30]
+
+[DIAGRAM_6]
+
+Cutting a square along a diagonal produces two triangles, so each of these surfaces
+
+can also be built from two triangles by identifying their edges in pairs. In similar
+
+fashion a polygon with any number of sides can be cut along
+
+[DIAGRAM_63]
+
+[DIAGRAM_44]
+
+[DIAGRAM_50]
+
+diagonals into triangles, so in fact all closed surfaces can be
+
+[DIAGRAM_58]
+
+[DIAGRAM_46]
+
+[DIAGRAM_56]
+
+[DIAGRAM_54]
+
+[DIAGRAM_41]
+
+[DIAGRAM_48]
+
+constructed from triangles by identifying edges. Thus we have
+
+[DIAGRAM_57]
+
+[DIAGRAM_59]
+
+[DIAGRAM_53]
+
+a single building block, the triangle, from which all surfaces can
+
+[DIAGRAM_51]
+
+[DIAGRAM_43]
+
+[DIAGRAM_45]
+
+be constructed. Using only triangles we could also construct a
+
+[DIAGRAM_62]
+
+[DIAGRAM_60]
+
+[DIAGRAM_49]
+
+[DIAGRAM_52]
+
+[DIAGRAM_40]
+
+large class of 2 dimensional spaces that are not surfaces in the
+
+[DIAGRAM_47]
+
+[DIAGRAM_61]
+
+[DIAGRAM_55]
+
+[DIAGRAM_42]
+
+strict sense, by allowing more than two edges to be identified
+
+together at a time.

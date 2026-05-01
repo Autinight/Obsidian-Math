@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777641958881-glpksvccq",
+  "providerId": "claude",
+  "title": "这个Skill读取不了矢量图, 怎么办You are converting a PDF chapte...",
+  "createdAt": 1777641958881,
+  "updatedAt": 1777642009728,
+  "lastResponseAt": 1777641987670,
+  "sessionId": "e11122f1-aa5f-4c69-8f73-3509e97bfcd0",
+  "providerState": {
+    "providerSessionId": "e11122f1-aa5f-4c69-8f73-3509e97bfcd0"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 15407,
+    "cacheCreationInputTokens": 15288,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 30884,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

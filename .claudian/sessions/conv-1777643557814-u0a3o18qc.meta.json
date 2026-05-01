@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777643557814-u0a3o18qc",
+  "providerId": "claude",
+  "title": "Ch2 2",
+  "createdAt": 1777643557814,
+  "updatedAt": 1777643849079,
+  "lastResponseAt": 1777643784543,
+  "sessionId": "ccbe0bac-1997-4dbe-8c9c-1fcb5b365da6",
+  "providerState": {
+    "providerSessionId": "ccbe0bac-1997-4dbe-8c9c-1fcb5b365da6"
+  },
+  "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 18572,
+    "cacheCreationInputTokens": 723,
+    "cacheReadInputTokens": 21610,
+    "contextWindow": 1000000,
+    "contextTokens": 40905,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

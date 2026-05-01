@@ -11,21 +11,9 @@
             "id": "19f52ce460a6e746",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Hatcher - 2002 - Algebraic topology"
-            }
-          },
-          {
-            "id": "63be2fbada775034",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -40,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher - Algebraic Topology - Pages 97-101"
+              "title": "chnt - RG Petersen Ch05"
             }
           },
           {
-            "id": "1dc385abd6b15945",
+            "id": "60e8bff0aba776f5",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -181,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW4.md",
+                "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "FA - HW4 的出链列表"
+              "title": "Hatcher - 2002 - Algebraic topology 的出链列表"
             }
           },
           {
@@ -230,44 +218,45 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "63be2fbada775034",
+  "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
+    "30.Recources/PDE/Evans - Ch6.md",
+    "00.Inbox/ex - Isometry Group for Projective Space.md",
+    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
+    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+    "00.Inbox/Test TikZ from Vector Data.md",
+    "00.Inbox/Page 111 Test - With Vector Diagrams.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Examples/ep - Poisson Distribution.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "00.Inbox/Test TikZ from Vector Data.md.tmp.9580.1777642828151",
+    "00.Inbox/page111_vector_data.json",
+    "00.Inbox/Page 111 Test - With Vector Diagrams.md.tmp.9580.1777642608247",
+    "00.Inbox/FA - HW7.md",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641147622",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641126926",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641103367",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641078871",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641018174",
-    "30.Recources/AT/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637628429",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637564716",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636704552",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
-    "30.Recources/AT/Hatcher Ch3 3.1 Cohomology Groups.md",
     "00.Inbox/Hatcher 3.1 Cohomology Groups.md",
     "00.Inbox/Hatcher Ch2 Sec2.3.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - Formatted.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "30.Recources/AT/Course HW/AT - HW13.md",
     "00.Inbox/Hatcher Chapter2 Section2.2 - Computations and Applications.md",
     "00.Inbox/2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Chapter 2.2 - Computations and Applications.md",
     "00.Inbox/Hatcher 2.2 - 计算与应用.md",
-    "30.Recources/PDE/Evans - Ch6.md",
-    "60.Templates/NOTES.md",
-    "00.Inbox/FA - HW7.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
-    "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/ep - Simplicial Homology of Torus.md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",

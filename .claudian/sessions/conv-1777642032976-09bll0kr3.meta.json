@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777642032976-09bll0kr3",
+  "providerId": "claude",
+  "title": "帮我测一下, /pdf-to-obsidian 这个Skill能不能把矢量图读取出来保存",
+  "createdAt": 1777642032976,
+  "updatedAt": 1777642082894,
+  "lastResponseAt": 1777642034402,
+  "sessionId": "4920dfca-7b89-48b9-a8e7-88370d83d4f5",
+  "providerState": {
+    "providerSessionId": "4920dfca-7b89-48b9-a8e7-88370d83d4f5"
+  },
+  "currentNote": "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

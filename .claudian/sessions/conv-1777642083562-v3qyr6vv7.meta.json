@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777642083562-v3qyr6vv7",
+  "providerId": "claude",
+  "title": "帮我测一下, /pdf-to-obsidian 这个Skill能不能把矢量图读取出来保存",
+  "createdAt": 1777642083562,
+  "updatedAt": 1777643492635,
+  "lastResponseAt": 1777643251325,
+  "sessionId": "696edc84-83bd-4229-8f77-3a2199629ad8",
+  "providerState": {
+    "providerSessionId": "696edc84-83bd-4229-8f77-3a2199629ad8"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 24486,
+    "cacheCreationInputTokens": 548,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 25034,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

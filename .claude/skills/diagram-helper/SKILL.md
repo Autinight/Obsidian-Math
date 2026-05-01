@@ -164,9 +164,3 @@ Use % for comments in LaTeX code
 For complex diagrams, break code into logical sections with comments
 Test simple versions first, then add complexity
 Refer to TikZ/PGF manual for advanced features
-References
-TikZ & PGF Manual
-CircuiTikZ Manual
-Chemfig Manual
-PGFPlots Manual
-TikZ-CD Manual
