@@ -380,4 +380,285 @@ $$0 \to C_n(A, B) \to C_n(X, B) \to C_n(X, A) \to 0$$
 
 For example, taking $B$ to be a point, the long exact sequence of the triple $(X, A, B)$ becomes the long exact sequence of reduced homology for the pair $(X, A)$.
 
-// __CONTINUE_HERE__
+#### Excision
+
+A fundamental property of relative homology groups is given by the following Excision Theorem, describing when the relative groups $H_n(X, A)$ are unaffected by deleting, or excising, a subset $Z \subset A$.
+
+> [!theorem] Theorem 2.20 — Excision
+> Given subspaces $Z \subset A \subset X$ such that the closure of $Z$ is contained in the interior of $A$, then the inclusion $(X - Z, A - Z) \hookrightarrow (X, A)$ induces isomorphisms $H_n(X - Z, A - Z) \to H_n(X, A)$ for all $n$. Equivalently, for subspaces $A, B \subset X$ whose interiors cover $X$, the inclusion $(B, A \cap B) \hookrightarrow (X, A)$ induces isomorphisms $H_n(B, A \cap B) \to H_n(X, A)$ for all $n$.
+
+The translation between the two versions is obtained by setting $B = X - Z$ and $Z = X - B$. Then $A \cap B = A - Z$ and the condition $\text{cl}\,Z \subset \text{int}\,A$ is equivalent to $X = \text{int}\,A \cup \text{int}\,B$ since $X - \text{int}\,B = \text{cl}\,Z$.
+
+The proof of the excision theorem will involve a rather lengthy technical detour involving a construction known as **barycentric subdivision**, which allows homology groups to be computed using small singular simplices. In a metric space 'smallness' can be defined in terms of diameters, but for general spaces it will be defined in terms of covers.
+
+For a space $X$, let $\mathcal{U} = \{U_j\}$ be a collection of subspaces of $X$ whose interiors form an open cover of $X$, and let $C_n^\mathcal{U}(X)$ be the subgroup of $C_n(X)$ consisting of chains $\sum_i n_i \sigma_i$ such that each $\sigma_i$ has image contained in some set in the cover $\mathcal{U}$. The boundary map $\partial : C_n(X) \to C_{n-1}(X)$ takes $C_n^\mathcal{U}(X)$ to $C_{n-1}^\mathcal{U}(X)$, so the groups $C_n^\mathcal{U}(X)$ form a chain complex. We denote the homology groups of this chain complex by $H_n^\mathcal{U}(X)$.
+
+> [!proposition] Proposition 2.21
+> The inclusion $\iota : C_n^\mathcal{U}(X) \hookrightarrow C_n(X)$ is a chain homotopy equivalence, that is, there is a chain map $\rho : C_n(X) \to C_n^\mathcal{U}(X)$ such that $\iota \rho$ and $\rho \iota$ are chain homotopic to the identity. Hence $\iota$ induces isomorphisms $H_n^\mathcal{U}(X) \approx H_n(X)$ for all $n$.
+
+> [!proof] Proof of Proposition 2.21
+> The barycentric subdivision process will be performed at four levels, beginning with the most geometric and becoming increasingly algebraic.
+>
+> **(1) Barycentric Subdivision of Simplices.** The points of a simplex $[v_0, \cdots, v_n]$ are the linear combinations $\sum_i t_i v_i$ with $\sum_i t_i = 1$ and $t_i \ge 0$ for each $i$. The **barycenter** or 'center of gravity' of the simplex $[v_0, \cdots, v_n]$ is the point $b = \sum_i t_i v_i$ whose barycentric coordinates $t_i$ are all equal, namely $t_i = 1/(n+1)$ for each $i$. The barycentric subdivision of $[v_0, \cdots, v_n]$ is the decomposition of $[v_0, \cdots, v_n]$ into the $n$-simplices $[b, w_0, \cdots, w_{n-1}]$ where, inductively, $[w_0, \cdots, w_{n-1}]$ is an $(n-1)$-simplex in the barycentric subdivision of a face $[v_0, \cdots, \hat{v}_i, \cdots, v_n]$. The induction starts with the case $n = 0$ when the barycentric subdivision of $[v_0]$ is defined to be just $[v_0]$ itself.
+>
+> It follows from the inductive definition that the vertices of simplices in the barycentric subdivision of $[v_0, \cdots, v_n]$ are exactly the barycenters of all the $k$-dimensional faces $[v_{i_0}, \cdots, v_{i_k}]$ of $[v_0, \cdots, v_n]$ for $0 \le k \le n$. When $k = 0$ this gives the original vertices $v_i$ since the barycenter of a 0-simplex is itself. The barycenter of $[v_{i_0}, \cdots, v_{i_k}]$ has barycentric coordinates $t_i = 1/(k+1)$ for $i = i_0, \cdots, i_k$ and $t_i = 0$ otherwise.
+>
+> The $n$-simplices of the barycentric subdivision of $\Delta^n$, together with all their faces, do in fact form a $\Delta$-complex structure on $\Delta^n$, indeed a simplicial complex structure, though we shall not need to know this in what follows.
+>
+> A fact we will need is that the diameter of each simplex of the barycentric subdivision of $[v_0, \cdots, v_n]$ is at most $n/(n+1)$ times the diameter of $[v_0, \cdots, v_n]$. Here the diameter of a simplex is by definition the maximum distance between any two of its points, and we are using the metric from the ambient Euclidean space $\mathbb{R}^m$ containing $[v_0, \cdots, v_n]$. The diameter of a simplex equals the maximum distance between any of its vertices because the distance between two points $v$ and $\sum_i t_i v_i$ of $[v_0, \cdots, v_n]$ satisfies the inequality
+>
+> $$\left|v - \sum_i t_i v_i\right| = \left|\sum_i t_i(v - v_i)\right| \le \sum_i t_i |v - v_i| \le \sum_i t_i \max_j |v - v_j| = \max_j |v - v_j|$$
+>
+> To obtain the bound $n/(n+1)$ on the ratio of diameters, we therefore need to verify that the distance between any two vertices $w_j$ and $w_k$ of a simplex $[w_0, \cdots, w_n]$ of the barycentric subdivision of $[v_0, \cdots, v_n]$ is at most $n/(n+1)$ times the diameter of $[v_0, \cdots, v_n]$. If neither $w_j$ nor $w_k$ is the barycenter $b$ of $[v_0, \cdots, v_n]$, then these two points lie in a proper face of $[v_0, \cdots, v_n]$ and we are done by induction on $n$. So we may suppose $w_j$, say, is the barycenter $b$, and then by the previous displayed inequality we may take $w_k$ to be a vertex $v_i$. Let $b_i$ be the barycenter of $[v_0, \cdots, \hat{v}_i, \cdots, v_n]$, with all barycentric coordinates equal to $1/n$ except for $t_i = 0$. Then we have $b = \frac{1}{n+1} v_i + \frac{n}{n+1} b_i$. The sum of the two coefficients is 1, so $b$ lies on the line segment $[v_i, b_i]$ from $v_i$ to $b_i$, and the distance from $b$ to $v_i$ is $n/(n+1)$ times the length of $[v_i, b_i]$. Hence the distance from $b$ to $v_i$ is bounded by $n/(n+1)$ times the diameter of $[v_0, \cdots, v_n]$.
+>
+> The significance of the factor $n/(n+1)$ is that by repeated barycentric subdivision we can produce simplices of arbitrarily small diameter since $(n/(n+1))^r$ approaches 0 as $r$ goes to infinity. It is important that the bound $n/(n+1)$ does not depend on the shape of the simplex since repeated barycentric subdivision produces simplices of many different shapes.
+>
+> **(2) Barycentric Subdivision of Linear Chains.** The main part of the proof will be to construct a subdivision operator $S : C_n(X) \to C_n(X)$ and show this is chain homotopic to the identity map. First we will construct $S$ and the chain homotopy in a more restricted linear setting.
+>
+> For a convex set $Y$ in some Euclidean space, the linear maps $\Delta^n \to Y$ generate a subgroup of $C_n(Y)$ that we denote $LC_n(Y)$, the **linear chains**. The boundary map $\partial : C_n(Y) \to C_{n-1}(Y)$ takes $LC_n(Y)$ to $LC_{n-1}(Y)$, so the linear chains form a subcomplex of the singular chain complex of $Y$. We can uniquely designate a linear map $\lambda : \Delta^n \to Y$ by $[w_0, \cdots, w_n]$ where $w_i$ is the image under $\lambda$ of the $i$th vertex of $\Delta^n$. To avoid having to make exceptions for 0-simplices it will be convenient to augment the complex $LC(Y)$ by setting $LC_{-1}(Y) = \mathbb{Z}$ generated by the empty simplex $[\emptyset]$, with $\partial[w_0] = [\emptyset]$ for all 0-simplices $[w_0]$.
+>
+> Each point $b \in Y$ determines a homomorphism $b : LC_n(Y) \to LC_{n+1}(Y)$ defined on basis elements by $b([w_0, \cdots, w_n]) = [b, w_0, \cdots, w_n]$. Geometrically, the homomorphism $b$ can be regarded as a **cone operator**, sending a linear chain to the cone having the linear chain as the base of the cone and the point $b$ as the tip of the cone. Applying the usual formula for $\partial$, we obtain the relation $\partial b([w_0, \cdots, w_n]) = [w_0, \cdots, w_n] - b(\partial[w_0, \cdots, w_n])$. By linearity it follows that $\partial b(\alpha) = \alpha - b(\partial \alpha)$ for all $\alpha \in LC_n(Y)$. This expresses algebraically the geometric fact that the boundary of a cone consists of its base together with the cone on the boundary of its base. The relation $\partial b(\alpha) = \alpha - b(\partial \alpha)$ can be rewritten as $\partial b + b\partial = \mathbb{1}$, so $b$ is a chain homotopy between the identity map and the zero map on the augmented chain complex $LC(Y)$.
+>
+> Now we define a subdivision homomorphism $S : LC_n(Y) \to LC_n(Y)$ by induction on $n$. Let $\lambda : \Delta^n \to Y$ be a generator of $LC_n(Y)$ and let $b_\lambda$ be the image of the barycenter of $\Delta^n$ under $\lambda$. Then the inductive formula for $S$ is $S(\lambda) = b_\lambda(S\partial \lambda)$ where $b_\lambda : LC_{n-1}(Y) \to LC_n(Y)$ is the cone operator defined in the preceding paragraph. The induction starts with $S([\emptyset]) = [\emptyset]$, so $S$ is the identity on $LC_{-1}(Y)$. It is also the identity on $LC_0(Y)$, since when $n = 0$ the formula for $S$ becomes $S([w_0]) = w_0(S\partial[w_0]) = w_0(S([\emptyset])) = w_0([\emptyset]) = [w_0]$. When $\lambda$ is an embedding, with image a genuine $n$-simplex $[w_0, \cdots, w_n]$, then $S(\lambda)$ is the sum of the $n$-simplices in the barycentric subdivision of $[w_0, \cdots, w_n]$, with certain signs that could be computed explicitly.
+>
+> Let us check that the maps $S$ satisfy $\partial S = S\partial$, and hence give a chain map from the chain complex $LC(Y)$ to itself. Since $S = \mathbb{1}$ on $LC_0(Y)$ and $LC_{-1}(Y)$, we certainly have $\partial S = S\partial$ on $LC_0(Y)$. The result for larger $n$ is given by the following calculation:
+>
+> $$\partial S\lambda = \partial b_\lambda(S\partial\lambda) = S\partial\lambda - b_\lambda \partial(S\partial\lambda) = S\partial\lambda - b_\lambda S(\partial\partial\lambda) = S\partial\lambda$$
+>
+> where we used $\partial b_\lambda = \mathbb{1} - b_\lambda \partial$ in the second step and induction on $n$ in the third step, and $\partial\partial = 0$ in the last step.
+>
+> We next build a chain homotopy $T : LC_n(Y) \to LC_{n+1}(Y)$ between $S$ and the identity. We define $T$ on $LC_n(Y)$ inductively by setting $T = 0$ for $n = -1$ and letting $T\lambda = b_\lambda(\lambda - T\partial\lambda)$ for $n \ge 0$. The chain homotopy formula $\partial T + T\partial = \mathbb{1} - S$ is trivial on $LC_{-1}(Y)$ where $T = 0$ and $S = \mathbb{1}$. Verifying the formula on $LC_n(Y)$ with $n \ge 0$ is done by the calculation:
+>
+> $$\partial T\lambda = \partial b_\lambda(\lambda - T\partial\lambda) = \lambda - T\partial\lambda - b_\lambda \partial(\lambda - T\partial\lambda) = \lambda - T\partial\lambda - b_\lambda[\partial\lambda - \partial T(\partial\lambda)] = \lambda - T\partial\lambda - b_\lambda[S(\partial\lambda) + T\partial(\partial\lambda)] = \lambda - T\partial\lambda - S\lambda$$
+>
+> where we used $\partial b_\lambda = \mathbb{1} - b_\lambda \partial$ in the second step, and induction in the fifth step, and $\partial\partial = 0$ and $S\lambda = b_\lambda(S\partial\lambda)$ in the last step.
+>
+> Now we can discard the group $LC_{-1}(Y)$ and the relation $\partial T + T\partial = \mathbb{1} - S$ still holds since $T$ was zero on $LC_{-1}(Y)$.
+>
+> **(3) Barycentric Subdivision of General Chains.** Define $S : C_n(X) \to C_n(X)$ by setting $S\sigma = \sigma_\sharp S\Delta^n$ for a singular $n$-simplex $\sigma : \Delta^n \to X$. Since $S\Delta^n$ is the sum of the $n$-simplices in the barycentric subdivision of $\Delta^n$, with certain signs, $S\sigma$ is the corresponding signed sum of the restrictions of $\sigma$ to the $n$-simplices of the barycentric subdivision of $\Delta^n$. The operator $S$ is a chain map since
+>
+> $$\partial S\sigma = \partial \sigma_\sharp S\Delta^n = \sigma_\sharp \partial S\Delta^n = \sigma_\sharp S\partial\Delta^n = \sigma_\sharp S\Big(\sum_i (-1)^i \Delta^n_i\Big) = \sum_i (-1)^i \sigma_\sharp S\Delta^n_i = \sum_i (-1)^i S(\sigma|_{\Delta^n_i}) = S\Big(\sum_i (-1)^i \sigma|_{\Delta^n_i}\Big) = S(\partial\sigma)$$
+>
+> In similar fashion we define $T : C_n(X) \to C_{n+1}(X)$ by $T\sigma = \sigma_\sharp T\Delta^n$, and this gives a chain homotopy between $S$ and the identity, since the formula $\partial T + T\partial = \mathbb{1} - S$ holds by the calculation
+>
+> $$\partial T\sigma = \partial \sigma_\sharp T\Delta^n = \sigma_\sharp \partial T\Delta^n = \sigma_\sharp(\Delta^n - S\Delta^n - T\partial\Delta^n) = \sigma - S\sigma - \sigma_\sharp T\partial\Delta^n = \sigma - S\sigma - T(\partial\sigma)$$
+>
+> where the last equality follows just as in the previous displayed calculation, with $S$ replaced by $T$.
+>
+> **(4) Iterated Barycentric Subdivision.** A chain homotopy between $\mathbb{1}$ and the iterate $S^m$ is given by the operator $D_m = \sum_{0 \le i < m} TS^i$ since
+>
+> $$\partial D_m + D_m \partial = \sum_{0 \le i < m}(\partial TS^i + TS^i\partial) = \sum_{0 \le i < m}(\partial TS^i + T\partial S^i) = \sum_{0 \le i < m}(\partial T + T\partial)S^i = \sum_{0 \le i < m}(\mathbb{1} - S)S^i = \sum_{0 \le i < m}(S^i - S^{i+1}) = \mathbb{1} - S^m$$
+>
+> For each singular $n$-simplex $\sigma : \Delta^n \to X$ there exists an $m$ such that $S^m(\sigma)$ lies in $C_n^\mathcal{U}(X)$ since the diameter of the simplices of $S^m(\Delta^n)$ will be less than a Lebesgue number of the cover of $\Delta^n$ by the open sets $\sigma^{-1}(\text{int}\,U_j)$ if $m$ is large enough. (Recall that a Lebesgue number for an open cover of a compact metric space is a number $\varepsilon > 0$ such that every set of diameter less than $\varepsilon$ lies in some set of the cover; such a number exists by an elementary compactness argument.) We cannot expect the same number $m$ to work for all $\sigma$'s, so let us define $m(\sigma)$ to be the smallest $m$ such that $S^m \sigma$ is in $C_n^\mathcal{U}(X)$.
+>
+> We now define $D : C_n(X) \to C_{n+1}(X)$ by setting $D\sigma = D_{m(\sigma)}\sigma$ for each singular $n$-simplex $\sigma : \Delta^n \to X$. For this $D$ we would like to find a chain map $\rho : C_n(X) \to C_n(X)$ with image in $C_n^\mathcal{U}(X)$ satisfying the chain homotopy equation
+>
+> $$\tag{*} \partial D + D\partial = \mathbb{1} - \rho$$
+>
+> A quick way to do this is simply to regard this equation as defining $\rho$, so we let $\rho = \mathbb{1} - \partial D - D\partial$. It follows easily that $\rho$ is a chain map since
+>
+> $$\partial\rho(\sigma) = \partial\sigma - \partial^2 D\sigma - \partial D\partial\sigma = \partial\sigma - \partial D\partial\sigma$$
+>
+> and
+>
+> $$\rho(\partial\sigma) = \partial\sigma - \partial D\partial\sigma - D\partial^2\sigma = \partial\sigma - \partial D\partial\sigma$$
+>
+> To check that $\rho$ takes $C_n(X)$ to $C_n^\mathcal{U}(X)$ we compute $\rho(\sigma)$ more explicitly:
+>
+> $$\rho(\sigma) = \sigma - \partial D\sigma - D(\partial\sigma) = \sigma - \partial D_{m(\sigma)}\sigma - D(\partial\sigma) = S^{m(\sigma)}\sigma + D_{m(\sigma)}(\partial\sigma) - D(\partial\sigma)$$
+>
+> since $\partial D_m + D_m \partial = \mathbb{1} - S^m$. The term $S^{m(\sigma)}\sigma$ lies in $C_n^\mathcal{U}(X)$ by the definition of $m(\sigma)$. The remaining terms $D_{m(\sigma)}(\partial\sigma) - D(\partial\sigma)$ are linear combinations of terms $D_{m(\sigma)}(\sigma_j) - D_{m(\sigma_j)}(\sigma_j)$ for $\sigma_j$ the restriction of $\sigma$ to a face of $\Delta^n$, so $m(\sigma_j) \le m(\sigma)$ and hence the difference $D_{m(\sigma)}(\sigma_j) - D_{m(\sigma_j)}(\sigma_j)$ consists of terms $TS^i(\sigma_j)$ with $i \ge m(\sigma_j)$, and these terms lie in $C_n^\mathcal{U}(X)$ since $T$ takes $C_{n-1}^\mathcal{U}(X)$ to $C_n^\mathcal{U}(X)$.
+>
+> Viewing $\rho$ as a chain map $C_n(X) \to C_n^\mathcal{U}(X)$, the equation $(*)$ says that $\partial D + D\partial = \mathbb{1} - \iota\rho$ for $\iota : C_n^\mathcal{U}(X) \hookrightarrow C_n(X)$ the inclusion. Furthermore, $\rho\iota = \mathbb{1}$ since $D$ is identically zero on $C_n^\mathcal{U}(X)$, as $m(\sigma) = 0$ if $\sigma$ is in $C_n^\mathcal{U}(X)$, hence the summation defining $D\sigma$ is empty. Thus we have shown that $\rho$ is a chain homotopy inverse for $\iota$.
+
+> [!proof] Proof of the Excision Theorem
+> We prove the second version, involving a decomposition $X = A \cup B$. For the cover $\mathcal{U} = \{A, B\}$ we introduce the suggestive notation $C_n(A + B)$ for $C_n^\mathcal{U}(X)$, the sums of chains in $A$ and chains in $B$. At the end of the preceding proof we had formulas $\partial D + D\partial = \mathbb{1} - \iota\rho$ and $\rho\iota = \mathbb{1}$. All the maps appearing in these formulas take chains in $A$ to chains in $A$, so they induce quotient maps when we factor out chains in $A$. These quotient maps automatically satisfy the same two formulas, so the inclusion $C_n(A + B)/C_n(A) \hookrightarrow C_n(X)/C_n(A)$ induces an isomorphism on homology. The map $C_n(B)/C_n(A \cap B) \to C_n(A + B)/C_n(A)$ induced by inclusion is obviously an isomorphism since both quotient groups are free with basis the singular $n$-simplices in $B$ that do not lie in $A$. Hence we obtain the desired isomorphism $H_n(B, A \cap B) \approx H_n(X, A)$ induced by inclusion.
+
+All that remains in the proof of Theorem 2.13 is to replace relative homology groups with absolute homology groups. This is achieved by the following result.
+
+> [!proposition] Proposition 2.22
+> For good pairs $(X, A)$, the quotient map $q : (X, A) \to (X/A, A/A)$ induces isomorphisms $q_* : H_n(X, A) \to H_n(X/A, A/A) \approx \tilde{H}_n(X/A)$ for all $n$.
+
+> [!proof] Proof of Proposition 2.22
+> Let $V$ be a neighborhood of $A$ in $X$ that deformation retracts onto $A$. We have a commutative diagram. The upper left horizontal map is an isomorphism since in the long exact sequence of the triple $(X, V, A)$ the groups $H_n(V, A)$ are zero for all $n$, because a deformation retraction of $V$ onto $A$ gives a homotopy equivalence of pairs $(V, A) \simeq (A, A)$, and $H_n(A, A) = 0$. The deformation retraction of $V$ onto $A$ induces a deformation retraction of $V/A$ onto $A/A$, so the same argument shows that the lower left horizontal map is an isomorphism as well. The other two horizontal maps are isomorphisms directly from excision. The right-hand vertical map $q_*$ is an isomorphism since $q$ restricts to a homeomorphism on the complement of $A$. From the commutativity of the diagram it follows that the left-hand $q_*$ is an isomorphism.
+
+This proposition shows that relative homology can be expressed as reduced absolute homology in the case of good pairs $(X, A)$, but in fact there is a way of doing this for arbitrary pairs. Consider the space $X \cup CA$ where $CA$ is the cone $(A \times I)/(A \times \{0\})$ whose base $A \times \{1\}$ we identify with $A \subset X$. Using terminology introduced in Chapter 0, $X \cup CA$ can also be described as the mapping cone of the inclusion $A \hookrightarrow X$. The assertion is that $H_n(X, A)$ is isomorphic to $\tilde{H}_n(X \cup CA)$ for all $n$ via the sequence of isomorphisms
+
+$$\tilde{H}_n(X \cup CA) \approx H_n(X \cup CA, CA) \approx H_n(X \cup CA - \{p\}, CA - \{p\}) \approx H_n(X, A)$$
+
+where $p \in CA$ is the tip of the cone. The first isomorphism comes from the exact sequence of the pair, using the fact that $CA$ is contractible. The second isomorphism is excision, and the third comes from a deformation retraction of $CA - \{p\}$ onto $A$.
+
+Here is an application of the preceding proposition:
+
+> [!example] Example 2.23
+> Let us find explicit cycles representing generators of the infinite cyclic groups $H_n(D^n, \partial D^n)$ and $\tilde{H}_n(S^n)$. Replacing $(D^n, \partial D^n)$ by the equivalent pair $(\Delta^n, \partial \Delta^n)$, we will show by induction on $n$ that the identity map $\text{id} : \Delta^n \to \Delta^n$, viewed as a singular $n$-simplex, is a cycle generating $H_n(\Delta^n, \partial \Delta^n)$. That it is a cycle is clear since we are considering relative homology. When $n = 0$ it certainly represents a generator.
+>
+> For the induction step, let $\Lambda \subset \Delta^n$ be the union of all but one of the $(n-1)$-dimensional faces of $\Delta^n$. Then we claim there are isomorphisms
+>
+> $$H_n(\Delta^n, \partial \Delta^n) \xrightarrow{\approx} H_{n-1}(\partial \Delta^n, \Lambda) \xleftarrow{\approx} H_{n-1}(\Delta^{n-1}, \partial \Delta^{n-1})$$
+>
+> The first isomorphism is a boundary map in the long exact sequence of the triple $(\Delta^n, \partial \Delta^n, \Lambda)$, whose third terms $H_i(\Delta^n, \Lambda)$ are zero since $\Delta^n$ deformation retracts onto $\Lambda$, hence $(\Delta^n, \Lambda) \simeq (\Lambda, \Lambda)$. The second isomorphism is induced by the inclusion $i : \Delta^{n-1} \to \partial \Delta^n$ as the face not contained in $\Lambda$. When $n = 1$, $i$ induces an isomorphism on relative homology since this is true already at the chain level. When $n > 1$, $\partial \Delta^{n-1}$ is nonempty so we are dealing with good pairs and $i$ induces a homeomorphism of quotients $\Delta^{n-1}/\partial \Delta^{n-1} \approx \partial \Delta^n/\Lambda$. The induction step then follows since the cycle $\text{id}$ is sent under the first isomorphism to the cycle $\partial\,\text{id}$ which equals $\pm \text{id}_{n-1}$ in $C_{n-1}(\partial \Delta^n, \Lambda)$.
+>
+> To find a cycle generating $\tilde{H}_n(S^n)$ let us regard $S^n$ as two $n$-simplices $\Delta^n_1$ and $\Delta^n_2$ with their boundaries identified in the obvious way, preserving the ordering of vertices. The difference $\Delta^n_1 - \Delta^n_2$, viewed as a singular $n$-chain, is then a cycle, and we claim it represents a generator of $\tilde{H}_n(S^n)$. To see this, consider the isomorphisms
+>
+> $$\tilde{H}_n(S^n) \xrightarrow{\approx} H_n(S^n, \Delta^n_2) \xleftarrow{\approx} H_n(\Delta^n_1, \partial \Delta^n_1)$$
+>
+> where the first isomorphism comes from the long exact sequence of the pair $(S^n, \Delta^n_2)$ and the second isomorphism is justified in the nontrivial cases $n > 0$ by passing to quotients as before. Under these isomorphisms the cycle $\Delta^n_1 - \Delta^n_2$ in the first group corresponds to the cycle $\Delta^n_1$ in the third group, which represents a generator of this group as we have seen, so $\Delta^n_1 - \Delta^n_2$ represents a generator of $\tilde{H}_n(S^n)$.
+
+The preceding proposition implies that the excision property holds also for subcomplexes of CW complexes:
+
+> [!corollary] Corollary 2.24
+> If the CW complex $X$ is the union of subcomplexes $A$ and $B$, then the inclusion $(B, A \cap B) \hookrightarrow (X, A)$ induces isomorphisms $H_n(B, A \cap B) \to H_n(X, A)$ for all $n$.
+
+> [!proof] Proof of Corollary 2.24
+> Since CW pairs are good, Proposition 2.22 allows us to pass to the quotient spaces $B/(A \cap B)$ and $X/A$ which are homeomorphic, assuming we are not in the trivial case $A \cap B = \emptyset$.
+
+Here is another application of the preceding proposition:
+
+> [!corollary] Corollary 2.25
+> For a wedge sum $\bigvee_\alpha X_\alpha$, the inclusions $i_\alpha : X_\alpha \hookrightarrow \bigvee_\alpha X_\alpha$ induce an isomorphism $\bigoplus_\alpha i_{\alpha_*} : \bigoplus_\alpha \tilde{H}_n(X_\alpha) \to \tilde{H}_n(\bigvee_\alpha X_\alpha)$, provided that the wedge sum is formed at basepoints $x_\alpha \in X_\alpha$ such that the pairs $(X_\alpha, x_\alpha)$ are good.
+
+> [!proof] Proof of Corollary 2.25
+> Since reduced homology is the same as homology relative to a basepoint, this follows from the proposition by taking $(X, A) = (\coprod_\alpha X_\alpha, \coprod_\alpha \{x_\alpha\})$.
+
+Here is an application of the machinery we have developed, a classical result of Brouwer from around 1910 known as 'invariance of dimension', which says in particular that $\mathbb{R}^m$ is not homeomorphic to $\mathbb{R}^n$ if $m \ne n$.
+
+> [!theorem] Theorem 2.26 — Invariance of Dimension
+> If nonempty open sets $U \subset \mathbb{R}^m$ and $V \subset \mathbb{R}^n$ are homeomorphic, then $m = n$.
+
+> [!proof] Proof of Theorem 2.26
+> For $x \in U$ we have $H_k(U, U - \{x\}) \approx H_k(\mathbb{R}^m, \mathbb{R}^m - \{x\})$ by excision. From the long exact sequence for the pair $(\mathbb{R}^m, \mathbb{R}^m - \{x\})$ we get $H_k(\mathbb{R}^m, \mathbb{R}^m - \{x\}) \approx \tilde{H}_{k-1}(\mathbb{R}^m - \{x\})$. Since $\mathbb{R}^m - \{x\}$ deformation retracts onto a sphere $S^{m-1}$, we conclude that $H_k(U, U - \{x\})$ is $\mathbb{Z}$ for $k = m$ and 0 otherwise. By the same reasoning, $H_k(V, V - \{y\})$ is $\mathbb{Z}$ for $k = n$ and 0 otherwise. Since a homeomorphism $h : U \to V$ induces isomorphisms $H_k(U, U - \{x\}) \to H_k(V, V - \{h(x)\})$ for all $k$, we must have $m = n$.
+
+Generalizing the idea of this proof, the **local homology groups** of a space $X$ at a point $x \in X$ are defined to be the groups $H_n(X, X - \{x\})$. For any open neighborhood $U$ of $x$, excision gives isomorphisms $H_n(X, X - \{x\}) \approx H_n(U, U - \{x\})$ assuming points are closed in $X$, and thus the groups $H_n(X, X - \{x\})$ depend only on the local topology of $X$ near $x$. A homeomorphism $f : X \to Y$ must induce isomorphisms $H_n(X, X - \{x\}) \approx H_n(Y, Y - \{f(x)\})$ for all $x$ and $n$, so the local homology groups can be used to tell when spaces are not locally homeomorphic at certain points, as in the preceding proof. The exercises give some further examples of this.
+
+#### Naturality
+
+The exact sequences we have been constructing have an extra property that will become important later at key points in many arguments, though at first glance this property may seem just an idle technicality, not very interesting. We shall discuss the property now rather than interrupting later arguments to check it when it is needed, but the reader may prefer to postpone a careful reading of this discussion.
+
+The property is called **naturality**. For example, to say that the long exact sequence of a pair is natural means that for a map $f : (X, A) \to (Y, B)$, the diagram
+
+$$\cdots \to H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X, A) \xrightarrow{\partial} H_{n-1}(A) \to \cdots$$
+
+is commutative when the vertical maps are the appropriate $f_*$'s. Commutativity of the squares involving $i_*$ and $j_*$ follows from the obvious commutativity of the corresponding squares of chain groups, with $C_n$ in place of $H_n$. For the other square, when we defined induced homomorphisms we saw that $f_\sharp \partial = \partial f_\sharp$ at the chain level. Then for a class $[\alpha] \in H_n(X, A)$ represented by a relative cycle $\alpha$, we have $f_* \partial[\alpha] = f_*[\partial\alpha] = [f_\sharp \partial\alpha] = [\partial f_\sharp \alpha] = \partial[f_\sharp \alpha] = \partial f_*[\alpha]$.
+
+Alternatively, we could appeal to the general algebraic fact that the long exact sequence of homology groups associated to a short exact sequence of chain complexes is natural: For a commutative diagram of short exact sequences of chain complexes
+
+$$0 \to \mathcal{A} \to \mathcal{B} \to \mathcal{C} \to 0$$
+
+the induced diagram of long exact sequences is commutative. Commutativity of the first two squares is obvious since $\beta i = i' \alpha$ implies $\beta_* i_* = i'_* \alpha_*$ and $\gamma j = j' \beta$ implies $\gamma_* j_* = j'_* \beta_*$. For the third square, recall that the map $\partial : H_n(\mathcal{C}) \to H_{n-1}(\mathcal{A})$ was defined by $\partial[c] = [a]$ where $c = j(b)$ and $i(a) = \partial b$. Then $\partial[\gamma(c)] = [\alpha(a)]$ since $\gamma(c) = \gamma j(b) = j'(\beta(b))$ and $i'(\alpha(a)) = \beta i(a) = \beta \partial(b) = \partial \beta(b)$. Hence $\partial \gamma_*[c] = \alpha_*[a] = \alpha_* \partial[c]$.
+
+This algebraic fact also implies naturality of the long exact sequence of a triple and the long exact sequence of reduced homology of a pair.
+
+Finally, there is the naturality of the long exact sequence in Theorem 2.13, that is, commutativity of the diagram where $i$ and $q$ denote inclusions and quotient maps, and $\bar{f} : X/A \to Y/B$ is induced by $f$. The first two squares commute since $\bar{f}i = i\bar{f}$ and $\bar{f}q = qf$. The third square expands into a composite of three smaller squares, whose commutativity has already been shown.
+
+### The Equivalence of Simplicial and Singular Homology
+
+We can use the preceding results to show that the simplicial and singular homology groups of $\Delta$-complexes are always isomorphic. For the proof it will be convenient to consider the relative case as well, so let $X$ be a $\Delta$-complex with $A \subset X$ a subcomplex. Thus $A$ is the $\Delta$-complex formed by any union of simplices of $X$. Relative groups $H^\Delta_n(X, A)$ can be defined in the same way as for singular homology, via relative chains $\Delta_n(X, A) = \Delta_n(X)/\Delta_n(A)$, and this yields a long exact sequence of simplicial homology groups for the pair $(X, A)$ by the same algebraic argument as for singular homology. There is a canonical homomorphism $H^\Delta_n(X, A) \to H_n(X, A)$ induced by the chain map $\Delta_n(X, A) \to C_n(X, A)$ sending each $n$-simplex of $X$ to its characteristic map $\sigma : \Delta^n \to X$. The possibility $A = \emptyset$ is not excluded, in which case the relative groups reduce to absolute groups.
+
+> [!theorem] Theorem 2.27
+> The homomorphisms $H^\Delta_n(X, A) \to H_n(X, A)$ are isomorphisms for all $n$ and all $\Delta$-complex pairs $(X, A)$.
+
+> [!proof] Proof of Theorem 2.27
+> First we do the case that $X$ is finite-dimensional and $A$ is empty. For $X^k$ the $k$-skeleton of $X$, consisting of all simplices of dimension $k$ or less, we have a commutative diagram of exact sequences. Let us first show that the first and fourth vertical maps are isomorphisms for all $n$.
+>
+> The simplicial chain group $\Delta_n(X^k, X^{k-1})$ is zero for $n \ne k$, and is free abelian with basis the $k$-simplices of $X$ when $n = k$. Hence $H^\Delta_n(X^k, X^{k-1})$ has exactly the same description. The corresponding singular homology groups $H_n(X^k, X^{k-1})$ can be computed by considering the map $\Phi : \coprod_\alpha(\Delta^k_\alpha, \partial \Delta^k_\alpha) \to (X^k, X^{k-1})$ formed by the characteristic maps $\Delta^k \to X$ for all the $k$-simplices of $X$. Since $\Phi$ induces a homeomorphism of quotient spaces $\coprod_\alpha \Delta^k_\alpha / \coprod_\alpha \partial \Delta^k_\alpha \approx X^k/X^{k-1}$, it induces isomorphisms on all singular homology groups. Thus $H_n(X^k, X^{k-1})$ is zero for $n \ne k$, while for $n = k$ this group is free abelian with basis represented by the relative cycles given by the characteristic maps of all the $k$-simplices of $X$, in view of the fact that $H_k(\Delta^k, \partial \Delta^k)$ is generated by the identity map $\Delta^k \to \Delta^k$, as we showed in Example 2.23. Therefore the map $H^\Delta_k(X^k, X^{k-1}) \to H_k(X^k, X^{k-1})$ is an isomorphism.
+>
+> By induction on $k$ we may assume the second and fifth vertical maps in the preceding diagram are isomorphisms as well. The following frequently quoted basic algebraic lemma will then imply that the middle vertical map is an isomorphism, finishing the proof when $X$ is finite-dimensional and $A = \emptyset$.
+
+> [!lemma] The Five-Lemma
+> In a commutative diagram of abelian groups as at the right, if the two rows are exact and $\alpha$, $\beta$, $\delta$, and $\varepsilon$ are isomorphisms, then $\gamma$ is an isomorphism also.
+
+> [!proof] Proof of the Five-Lemma
+> It suffices to show:
+>
+> (a) $\gamma$ is surjective if $\beta$ and $\delta$ are surjective and $\varepsilon$ is injective.
+>
+> (b) $\gamma$ is injective if $\beta$ and $\delta$ are injective and $\alpha$ is surjective.
+>
+> The proofs of these two statements are straightforward diagram chasing. There is really no choice about how the argument can proceed, and it would be a good exercise for the reader to close the book now and reconstruct the proofs without looking.
+>
+> **To prove (a)**, start with an element $c' \in C'$. Then $k'(c') = \delta(d)$ for some $d \in D$ since $\delta$ is surjective. Since $\varepsilon$ is injective and $\varepsilon \ell(d) = \ell' \delta(d) = \ell' k'(c') = 0$, we deduce that $\ell(d) = 0$, hence $d = k(c)$ for some $c \in C$ by exactness of the upper row. The difference $c' - \gamma(c)$ maps to 0 under $k'$ since $k'(c') - k'\gamma(c) = k'(c') - \delta k(c) = k'(c') - \delta(d) = 0$. Therefore $c' - \gamma(c) = j'(b')$ for some $b' \in B'$ by exactness. Since $\beta$ is surjective, $b' = \beta(b)$ for some $b \in B$, and then $\gamma(c + j(b)) = \gamma(c) + \gamma j(b) = \gamma(c) + j'\beta(b) = \gamma(c) + j'(b') = c'$, showing that $\gamma$ is surjective.
+>
+> **To prove (b)**, suppose that $\gamma(c) = 0$. Since $\delta$ is injective, $\delta k(c) = k' \gamma(c) = 0$ implies $k(c) = 0$, so $c = j(b)$ for some $b \in B$. The element $\beta(b)$ satisfies $j'\beta(b) = \gamma j(b) = \gamma(c) = 0$, so $\beta(b) = i'(a')$ for some $a' \in A'$. Since $\alpha$ is surjective, $a' = \alpha(a)$ for some $a \in A$. Since $\beta$ is injective, $\beta(i(a) - b) = \beta i(a) - \beta(b) = i'\alpha(a) - \beta(b) = i'(a') - \beta(b) = 0$ implies $i(a) - b = 0$. Thus $b = i(a)$, and hence $c = j(b) = ji(a) = 0$ since $ji = 0$. This shows $\gamma$ has trivial kernel.
+
+Returning to the proof of the theorem, we next consider the case that $X$ is infinite-dimensional, where we will use the following fact: A compact set in $X$ can meet only finitely many open simplices of $X$, that is, simplices with their proper faces deleted. This is a general fact about CW complexes proved in the Appendix, but here is a direct proof for $\Delta$-complexes. If a compact set $C$ intersected infinitely many open simplices, it would contain an infinite sequence of points $x_i$ each lying in a different open simplex. Then the sets $U_i = X - \bigcup_{j \ne i}\{x_j\}$, which are open since their preimages under the characteristic maps of all the simplices are clearly open, form an open cover of $C$ with no finite subcover.
+
+This can be applied to show the map $H^\Delta_n(X) \to H_n(X)$ is surjective. Represent a given element of $H_n(X)$ by a singular $n$-cycle $z$. This is a linear combination of finitely many singular simplices with compact images, meeting only finitely many open simplices of $X$, hence contained in $X^k$ for some $k$. We have shown that $H^\Delta_n(X^k) \to H_n(X^k)$ is an isomorphism, in particular surjective, so $z$ is homologous in $X^k$ (hence in $X$) to a simplicial cycle. This gives surjectivity. Injectivity is similar: If a simplicial $n$-cycle $z$ is the boundary of a singular chain in $X$, this chain has compact image and hence must lie in some $X^k$, so $z$ represents an element of the kernel of $H^\Delta_n(X^k) \to H_n(X^k)$. But we know this map is injective, so $z$ is a simplicial boundary in $X^k$, and therefore in $X$.
+
+It remains to do the case of arbitrary $X$ with $A \ne \emptyset$, but this follows from the absolute case by applying the five-lemma to the canonical map from the long exact sequence of simplicial homology groups for the pair $(X, A)$ to the corresponding long exact sequence of singular homology groups.
+
+We can deduce from this theorem that $H_n(X)$ is finitely generated whenever $X$ is a $\Delta$-complex with finitely many $n$-simplices, since in this case the simplicial chain group $\Delta_n(X)$ is finitely generated, hence also its subgroup of cycles and therefore also the latter group's quotient $H^\Delta_n(X)$. If we write $H_n(X)$ as the direct sum of cyclic groups, then the number of $\mathbb{Z}$ summands is known traditionally as the **$n$th Betti number** of $X$, and integers specifying the orders of the finite cyclic summands are called **torsion coefficients**.
+
+It is a curious historical fact that homology was not thought of originally as a sequence of groups, but rather as Betti numbers and torsion coefficients. One can after all compute Betti numbers and torsion coefficients from the simplicial boundary maps without actually mentioning homology groups. This computational viewpoint, with homology being numbers rather than groups, prevailed from when Poincaré first started serious work on homology around 1900, up until the 1920s when the more abstract viewpoint of groups entered the picture. During this period 'homology' meant primarily 'simplicial homology', and it was another 20 years before the shift to singular homology was complete, with the final definition of singular homology emerging only in a 1944 paper of Eilenberg, after contributions from quite a few others, particularly Alexander and Lefschetz. Within the next few years the rest of the basic structure of homology theory as we have presented it fell into place, and the first definitive treatment appeared in the classic book [Eilenberg & Steenrod 1952].
+
+### Exercises
+
+1. What familiar space is the quotient $\Delta$-complex of a 2-simplex $[v_0, v_1, v_2]$ obtained by identifying the edges $[v_0, v_1]$ and $[v_1, v_2]$, preserving the ordering of vertices?
+
+2. Show that the $\Delta$-complex obtained from $\Delta^3$ by performing the order-preserving edge identifications $[v_0, v_1] \sim [v_1, v_3]$ and $[v_0, v_2] \sim [v_2, v_3]$ deformation retracts onto a Klein bottle. Also, find other pairs of identifications of edges that produce $\Delta$-complexes deformation retracting onto a torus, a 2-sphere, and $\mathbb{RP}^2$.
+
+3. Construct a $\Delta$-complex structure on $\mathbb{RP}^n$ as a quotient of a $\Delta$-complex structure on $S^n$ having vertices the two vectors of length 1 along each coordinate axis in $\mathbb{R}^{n+1}$.
+
+4. Compute the simplicial homology groups of the triangular parachute obtained from $\Delta^2$ by identifying its three vertices to a single point.
+
+5. Compute the simplicial homology groups of the Klein bottle using the $\Delta$-complex structure described at the beginning of this section.
+
+6. Compute the simplicial homology groups of the $\Delta$-complex obtained from $n+1$ 2-simplices $\Delta^2_0, \cdots, \Delta^2_n$ by identifying all three edges of $\Delta^2_0$ to a single edge, and for $i > 0$ identifying the edges $[v_0, v_1]$ and $[v_1, v_2]$ of $\Delta^2_i$ to a single edge and the edge $[v_0, v_2]$ to the edge $[v_0, v_1]$ of $\Delta^2_{i-1}$.
+
+7. Find a way of identifying pairs of faces of $\Delta^3$ to produce a $\Delta$-complex structure on $S^3$ having a single 3-simplex, and compute the simplicial homology groups of this $\Delta$-complex.
+
+8. Construct a 3-dimensional $\Delta$-complex $X$ from $n$ tetrahedra $T_1, \cdots, T_n$ by the following two steps. First arrange the tetrahedra in a cyclic pattern as in the figure, so that each $T_i$ shares a common vertical face with its two neighbors $T_{i-1}$ and $T_{i+1}$, subscripts being taken mod $n$. Then identify the bottom face of $T_i$ with the top face of $T_{i+1}$ for each $i$. Show the simplicial homology groups of $X$ in dimensions 0, 1, 2, 3 are $\mathbb{Z}$, $\mathbb{Z}_n$, 0, $\mathbb{Z}$, respectively. [The space $X$ is an example of a lens space; see Example 2.43 for the general case.]
+
+9. Compute the homology groups of the $\Delta$-complex $X$ obtained from $\Delta^n$ by identifying all faces of the same dimension. Thus $X$ has a single $k$-simplex for each $k \le n$.
+
+10. (a) Show the quotient space of a finite collection of disjoint 2-simplices obtained by identifying pairs of edges is always a surface, locally homeomorphic to $\mathbb{R}^2$.
+(b) Show the edges can always be oriented so as to define a $\Delta$-complex structure on the quotient surface. [This is more difficult.]
+
+11. Show that if $A$ is a retract of $X$ then the map $H_n(A) \to H_n(X)$ induced by the inclusion $A \subset X$ is injective.
+
+12. Show that chain homotopy of chain maps is an equivalence relation.
+
+13. Verify that $f \simeq g$ implies $f_* = g_*$ for induced homomorphisms of reduced homology groups.
+
+14. Determine whether there exists a short exact sequence $0 \to \mathbb{Z}_4 \to \mathbb{Z}_8 \oplus \mathbb{Z}_2 \to \mathbb{Z}_4 \to 0$. More generally, determine which abelian groups $A$ fit into a short exact sequence $0 \to \mathbb{Z}_{p^m} \to A \to \mathbb{Z}_{p^n} \to 0$ with $p$ prime. What about the case of short exact sequences $0 \to \mathbb{Z} \to A \to \mathbb{Z}_n \to 0$?
+
+15. For an exact sequence $A \to B \to C \to D \to E$ show that $C = 0$ iff the map $A \to B$ is surjective and $D \to E$ is injective. Hence for a pair of spaces $(X, A)$, the inclusion $A \hookrightarrow X$ induces isomorphisms on all homology groups iff $H_n(X, A) = 0$ for all $n$.
+
+16. (a) Show that $H_0(X, A) = 0$ iff $A$ meets each path-component of $X$.
+(b) Show that $H_1(X, A) = 0$ iff $H_1(A) \to H_1(X)$ is surjective and each path-component of $X$ contains at most one path-component of $A$.
+
+17. (a) Compute the homology groups $H_n(X, A)$ when $X$ is $S^2$ or $S^1 \times S^1$ and $A$ is a finite set of points in $X$.
+(b) Compute the groups $H_n(X, A)$ and $H_n(X, B)$ for $X$ a closed orientable surface of genus two with $A$ and $B$ the circles shown. [What are $X/A$ and $X/B$?]
+
+18. Show that for the subspace $\mathbb{Q} \subset \mathbb{R}$, the relative homology group $H_1(\mathbb{R}, \mathbb{Q})$ is free abelian and find a basis.
+
+19. Compute the homology groups of the subspace of $I \times I$ consisting of the four boundary edges plus all points in the interior whose first coordinate is rational.
+
+20. Show that $\tilde{H}_n(X) \approx \tilde{H}_{n+1}(SX)$ for all $n$, where $SX$ is the suspension of $X$. More generally, thinking of $SX$ as the union of two cones $CX$ with their bases identified, compute the reduced homology groups of the union of any finite number of cones $CX$ with their bases identified.
+
+21. Making the preceding problem more concrete, construct explicit chain maps $s : C_n(X) \to C_{n+1}(SX)$ inducing isomorphisms $\tilde{H}_n(X) \to \tilde{H}_{n+1}(SX)$.
+
+22. Prove by induction on dimension the following facts about the homology of a finite-dimensional CW complex $X$, using the observation that $X^n/X^{n-1}$ is a wedge sum of $n$-spheres:
+(a) If $X$ has dimension $n$ then $H_i(X) = 0$ for $i > n$ and $H_n(X)$ is free.
+(b) $H_n(X)$ is free with basis in bijective correspondence with the $n$-cells if there are no cells of dimension $n-1$ or $n+1$.
+(c) If $X$ has $k$ $n$-cells, then $H_n(X)$ is generated by at most $k$ elements.
+
+23. Show that the second barycentric subdivision of a $\Delta$-complex is a simplicial complex. Namely, show that the first barycentric subdivision produces a $\Delta$-complex with the property that each simplex has all its vertices distinct, then show that for a $\Delta$-complex with this property, barycentric subdivision produces a simplicial complex.
+
+24. Show that each $n$-simplex in the barycentric subdivision of $\Delta^n$ is defined by $n$ inequalities $t_{i_0} \le t_{i_1} \le \cdots \le t_{i_n}$ in its barycentric coordinates, where $(i_0, \cdots, i_n)$ is a permutation of $(0, \cdots, n)$.
+
+25. Find an explicit, noninductive formula for the barycentric subdivision operator $S : C_n(X) \to C_n(X)$.
+
+26. Show that $H_1(X, A)$ is not isomorphic to $\tilde{H}_1(X/A)$ if $X = [0, 1]$ and $A$ is the sequence $1, 1/2, 1/3, \cdots$ together with its limit 0. [See Example 1.25.]
+
+27. Let $f : (X, A) \to (Y, B)$ be a map such that both $f : X \to Y$ and the restriction $f : A \to B$ are homotopy equivalences.
+(a) Show that $f_* : H_n(X, A) \to H_n(Y, B)$ is an isomorphism for all $n$.
+(b) For the case of the inclusion $f : (D^n, S^{n-1}) \hookrightarrow (D^n, D^n - \{0\})$, show that $f$ is not a homotopy equivalence of pairs — there is no $g : (D^n, D^n - \{0\}) \to (D^n, S^{n-1})$ such that $fg$ and $gf$ are homotopic to the identity through maps of pairs. [Observe that a homotopy equivalence of pairs $(X, A) \to (Y, B)$ is also a homotopy equivalence for the pairs obtained by replacing $A$ and $B$ by their closures.]
+
+28. Let $X$ be the cone on the 1-skeleton of $\Delta^3$, the union of all line segments joining points in the six edges of $\Delta^3$ to the barycenter of $\Delta^3$. Compute the local homology groups $H_n(X, X - \{x\})$ for all $x \in X$. Define $\partial X$ to be the subspace of points $x$ such that $H_n(X, X - \{x\}) = 0$ for all $n$, and compute the local homology groups $H_n(\partial X, \partial X - \{x\})$. Use these calculations to determine which subsets $A \subset X$ have the property that $f(A) \subset A$ for all homeomorphisms $f : X \to X$.
+
+29. Show that $S^1 \times S^1$ and $S^1 \vee S^1 \vee S^2$ have isomorphic homology groups in all dimensions, but their universal covering spaces do not.
+
+30. In each of the following commutative diagrams assume that all maps but one are isomorphisms. Show that the remaining map must be an isomorphism as well.
+
+31. Using the notation of the five-lemma, give an example where the maps $\alpha$, $\beta$, $\delta$, and $\varepsilon$ are zero but $\gamma$ is nonzero. This can be done with short exact sequences in which all the groups are either $\mathbb{Z}$ or 0.
