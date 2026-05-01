@@ -3,6 +3,21 @@
   "providerId": "claude",
   "title": "写一个skill告诉llm如何使用tikz-jax: 你只需要把prompt发给我obsidian ...",
   "createdAt": 1777638296963,
-  "updatedAt": 1777638297218,
-  "sessionId": null
+  "updatedAt": 1777638459234,
+  "lastResponseAt": 1777638388754,
+  "sessionId": "aae80de9-3fa4-4d5d-a6f8-7b4e05438d77",
+  "providerState": {
+    "providerSessionId": "aae80de9-3fa4-4d5d-a6f8-7b4e05438d77"
+  },
+  "currentNote": "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 13657,
+    "cacheCreationInputTokens": 18805,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 32651,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
 }
