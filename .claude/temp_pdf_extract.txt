@@ -1,3 +1,233 @@
+Cohomology is an algebraic variant of homology, the result of a simple dualiza-
+tion in the definition. Not surprisingly, the cohomology groups Hi(X) satisfy axioms
+much like the axioms for homology, except that induced homomorphisms go in the
+opposite direction as a result of the dualization. The basic distinction between homol-
+ogy and cohomology is thus that cohomology groups are contravariant functors while
+homology groups are covariant. In terms of intrinsic information, however, there is
+not a big diﬀerence between homology groups and cohomology groups. The homol-
+ogy groups of a space determine its cohomology groups, and the converse holds at
+least when the homology groups are finitely generated.
+What is a little surprising is that contravariance leads to extra structure in co-
+homology. This first appears in a natural product, called cup product, which makes
+the cohomology groups of a space into a ring. This is an extremely useful piece of
+additional structure, and much of this chapter is devoted to studying cup products,
+which are considerably more subtle than the additive structure of cohomology.
+How does contravariance lead to a product in cohomology that is not present in
+homology? Actually there is a natural product in homology, but it takes the somewhat
+diﬀerent form of a map Hi(X)×Hj(Y ) -→Hi+j(X×Y ) called the cross product. If both
+X and Y are CW complexes, this cross product in homology is induced from a map
+of cellular chains sending a pair (ei, ej) consisting of a cell of X and a cell of Y to
+the product cell ei×ej in X×Y . The details of the construction are described in §3.B.
+Taking X = Y , we thus have the first half of a hypothetical product
+Hi(X)×Hj(X) -→Hi+j(X×X) -→Hi+j(X)
+The difficulty is in defining the second map. The natural thing would be for this to be
+induced by a map X×X→X . The multiplication map in a topological group, or more
+generally an H–space, is such a map, and the resulting Pontryagin product can be quite
+useful when studying these spaces, as we show in §3.C. But for general X , the only
+
+
+--- PAGE BREAK ---
+
+186
+Chapter 3
+Cohomology
+natural maps X×X→X are the projections onto one of the factors, and since these
+projections collapse the other factor to a point, the resulting product in homology is
+rather trivial.
+With cohomology, however, the situation is better. One still has a cross product
+Hi(X)×Hj(Y ) -→Hi+j(X×Y ) constructed in much the same way as in homology, so
+one can again take X = Y and get the first half of a product
+Hi(X)×Hj(X) -→Hi+j(X×X) -→Hi+j(X)
+But now by contravariance the second map would be induced by a map X→X×X ,
+and there is an obvious candidate for this map, the diagonal map ∆(x) = (x, x). This
+turns out to work very nicely, giving a well-behaved product in cohomology, the cup
+product.
+Another sort of extra structure in cohomology whose existence is traceable to
+contravariance is provided by cohomology operations. These make the cohomology
+groups of a space into a module over a certain rather complicated ring. Cohomology
+operations lie at a depth somewhat greater than the cup product structure, so we
+defer their study to §4.L.
+The extra layer of algebra in cohomology arising from the dualization in its def-
+inition may seem at first to be separating it further from topology, but there are
+many topological situations where cohomology arises quite naturally. One of these is
+Poincar'e duality, the topic of the third section of this chapter. Another is obstruction
+theory, covered in §4.3. Characteristic classes in vector bundle theory (see [Milnor &
+Stasheﬀ1974] or [VBKT]) provide a further instance.
+From the viewpoint of homotopy theory, cohomology is in some ways more basic
+than homology. As we shall see in §4.3, cohomology has a description in terms of
+homotopy classes of maps that is very similar to, and in a certain sense dual to, the
+definition of homotopy groups. There is an analog of this for homology, described in
+§4.F, but the construction is more complicated.
+The Idea of Cohomology
+Let us look at a few low-dimensional examples to get an idea of how one might be
+led naturally to consider cohomology groups, and to see what properties of a space
+they might be measuring. For the sake of simplicity we consider simplicial cohomology
+of ∆complexes, rather than singular cohomology of more general spaces.
+Taking the simplest case first, let X be a 1 dimensional ∆complex, or in other
+words an oriented graph. For a fixed abelian group G, the set of all functions from ver-
+tices of X to G also forms an abelian group, which we denote by ∆0(X; G). Similarly
+the set of all functions assigning an element of G to each edge of X forms an abelian
+group ∆1(X; G). We will be interested in the homomorphism δ : ∆0(X; G)→∆1(X; G)
+sending ϕ ∈∆0(X; G) to the function δϕ ∈∆1(X; G) whose value on an oriented
+
+
+--- PAGE BREAK ---
+
+The Idea of Cohomology
+187
+edge [v0, v1] is the diﬀerence ϕ(v1) −ϕ(v0). For example, X might be the graph
+formed by a system of trails on a mountain, with vertices at the junctions between
+trails. The function ϕ could then assign to each junction its elevation above sea level,
+in which case δϕ would measure the net change in elevation along the trail from one
+junction to the next. Or X might represent a simple electrical circuit with ϕ mea-
+suring voltages at the connection points, the vertices, and δϕ measuring changes in
+voltage across the components of the circuit, represented by edges.
+Regarding the map δ : ∆0(X; G)→∆1(X; G) as a chain complex with 0’s before and
+after these two terms, the homology groups of this chain complex are by definition
+the simplicial cohomology groups of X , namely H0(X; G) = Ker δ ⊂∆0(X; G) and
+H1(X; G) = ∆1(X; G)/ Im δ. For simplicity we are using here the same notation as will
+be used for singular cohomology later in the chapter, in anticipation of the theorem
+that the two theories coincide for ∆complexes, as we show in §3.1.
+The group H0(X; G) is easy to describe explicitly. A function ϕ ∈∆0(X; G) has
+δϕ = 0 iﬀϕ takes the same value at both ends of each edge of X . This is equivalent
+to saying that ϕ is constant on each component of X . So H0(X; G) is the group of all
+functions from the set of components of X to G. This is a direct product of copies
+of G, one for each component of X .
+The cohomology group H1(X; G) = ∆1(X; G)/ Im δ will be trivial iﬀthe equation
+δϕ = ψ has a solution ϕ ∈∆0(X; G) for each ψ ∈∆1(X; G). Solving this equation
+means deciding whether specifying the change in ϕ across each edge of X determines
+an actual function ϕ ∈∆0(X; G). This is rather like the calculus problem of finding a
+function having a specified derivative, with the diﬀerence operator δ playing the role
+of diﬀerentiation. As in calculus, if a solution of δϕ = ψ exists, it will be unique up
+to adding an element of the kernel of δ, that is, a function that is constant on each
+component of X .
+The equation δϕ = ψ is always solvable if X is a tree since if we choose arbitrarily
+a value for ϕ at a basepoint vertex v0 , then if the change in ϕ across each edge of
+X is specified, this uniquely determines the value of ϕ at every other vertex v by
+induction along the unique path from v0 to v in the tree. When X is not a tree, we
+first choose a maximal tree in each component of X . Then, since every vertex lies
+in one of these maximal trees, the values of ψ on the edges of the maximal trees
+determine ϕ uniquely up to a constant on each component of X . But in order for
+the equation δϕ = ψ to hold, the value of ψ on each edge not in any of the maximal
+trees must equal the diﬀerence in the already-determined values of ϕ at the two ends
+of the edge. This condition need not be satisfied since ψ can have arbitrary values on
+these edges. Thus we see that the cohomology group H1(X; G) is a direct product of
+copies of the group G, one copy for each edge of X not in one of the chosen maximal
+trees. This can be compared with the homology group H1(X; G) which consists of a
+direct sum of copies of G, one for each edge of X not in one of the maximal trees.
+
+
+--- PAGE BREAK ---
+
+188
+Chapter 3
+Cohomology
+Note that the relation between H1(X; G) and H1(X; G) is the same as the relation
+between H0(X; G) and H0(X; G), with H0(X; G) being a direct product of copies of
+G and H0(X; G) a direct sum, with one copy for each component of X in either case.
+Now let us move up a dimension, taking X to be a 2 dimensional ∆complex.
+Define ∆0(X; G) and ∆1(X; G) as before, as functions from vertices and edges of X
+to the abelian group G, and define ∆2(X; G) to be the functions from 2 simplices of
+X to G. A homomorphism δ : ∆1(X; G)→∆2(X; G) is defined by δψ([v0, v1, v2]) =
+ψ([v0, v1]) + ψ([v1, v2]) −ψ([v0, v2]), a signed sum of the values of ψ on the three
+edges in the boundary of [v0, v1, v2], just as δϕ([v0, v1]) for ϕ ∈∆0(X; G) was a
+signed sum of the values of ϕ on the boundary of [v0, v1]. The two homomorphisms
+∆0(X; G)
+δ--→∆1(X; G)
+δ--→∆2(X; G) form a chain complex since for ϕ ∈∆0(X; G) we
+have δδϕ =
+ ϕ(v1)−ϕ(v0)
+
++
+ ϕ(v2)−ϕ(v1)
+
+−
+ ϕ(v2)−ϕ(v0)
+
+= 0. Extending this
+chain complex by 0’s on each end, the resulting homology groups are by definition
+the cohomology groups Hi(X; G).
+The formula for the map δ : ∆1(X; G)→∆2(X; G) can be looked at from several
+diﬀerent viewpoints.
+Perhaps the simplest is the observation that δψ = 0 iﬀψ
+satisfies the additivity property ψ([v0, v2]) = ψ([v0, v1]) + ψ([v1, v2]), where we
+think of the edge [v0, v2] as the sum of the edges [v0, v1] and [v1, v2]. Thus δψ
+measures the deviation of ψ from being additive.
+From another point of view, δψ can be regarded as an obstruction to finding
+ϕ ∈∆0(X; G) with ψ = δϕ, for if ψ = δϕ then δψ = 0 since δδϕ = 0 as we
+saw above.
+We can think of δψ as a local obstruction to solving ψ = δϕ since
+it depends only on the values of ψ within individual 2 simplices of X . If this local
+obstruction vanishes, then ψ defines an element of H1(X; G) which is zero iﬀψ = δϕ
+has an actual solution. This class in H1(X; G) is thus the global obstruction to solving
+ψ = δϕ. This situation is similar to the calculus problem of determining whether a
+given vector field is the gradient vector field of some function. The local obstruction
+here is the vanishing of the curl of the vector field, and the global obstruction is the
+vanishing of all line integrals around closed loops in the domain of the vector field.
+The condition δψ = 0 has an interpretation of a more geometric nature when X
+is a surface and the group G is Z or Z2 . Consider first the simpler case G = Z2 . The
+condition δψ = 0 means that the number of times that ψ takes the value 1 on the
+edges of each 2 simplex is even, either 0 or 2. This means we can associate to ψ a
+collection Cψ of disjoint curves in X crossing the
+1 skeleton transversely, such that the number of
+intersections of Cψ with each edge is equal to the
+value of ψ on that edge. If ψ = δϕ for some ϕ,
+then the curves of Cψ divide X into two regions
+X0 and X1 where the subscript indicates the value
+of ϕ on all vertices in the region.
+
+
+--- PAGE BREAK ---
+
+The Idea of Cohomology
+189
+When G = Z we can refine this construction by building Cψ from a number of
+arcs in each 2 simplex, each arc having a transverse orientation, the orientation which
+agrees or disagrees with the orientation
+of each edge according to the sign of the
+value of ψ on the edge, as in the figure
+at the right. The resulting collection Cψ
+of disjoint curves in X can be thought
+of as something like level curves for a
+function ϕ with δϕ = ψ, if such a func-
+tion exists. The value of ϕ changes by
+1 each time a curve of Cψ is crossed.
+For example, if X is a disk then we will
+show that H1(X; Z) = 0, so δψ = 0 im-
+plies ψ = δϕ for some ϕ, hence every
+transverse curve system Cψ forms the level curves of a function ϕ. On the other
+hand, if X is an annulus then this need no longer be true, as
+illustrated in the example shown in the figure at the left, where
+the equation ψ = δϕ obviously has no solution even though
+δψ = 0. By identifying the inner and outer boundary circles
+of this annulus we obtain a similar example on the torus. Even
+with G = Z2 the equation ψ = δϕ has no solution since the
+curve Cψ does not separate X into two regions X0 and X1 .
+The key to relating cohomology groups to homology groups is the observation
+that a function from i simplices of X to G is equivalent to a homomorphism from the
+simplicial chain group ∆i(X) to G. This is because ∆i(X) is free abelian with basis the
+i simplices of X , and a homomorphism with domain a free abelian group is uniquely
+determined by its values on basis elements, which can be assigned arbitrarily. Thus we
+have an identification of ∆i(X; G) with the group Hom(∆i(X), G) of homomorphisms
+∆i(X)→G, which is called the dual group of ∆i(X). There is also a simple relationship
+of duality between the homomorphism δ : ∆i(X; G)→∆i+1(X; G) and the boundary
+homomorphism ∂: ∆i+1(X)→∆i(X). The general formula for δ is
+δϕ([v0, ··· , vi+1]) =
+X
+j
+(−1)jϕ([v0, ··· , bvj, ··· , vi+1])
+and the latter sum is just ϕ(∂[v0, ··· , vi+1]). Thus we have δϕ = ϕ∂. In other words,
+δ sends each ϕ ∈Hom(∆i(X), G) to the composition ∆i+1(X)
+∂--→∆i(X)
+ϕ--→G, which
+in the language of linear algebra means that δ is the dual map of ∂.
+Thus we have the algebraic problem of understanding the relationship between
+the homology groups of a chain complex and the homology groups of the dual complex
+obtained by applying the functor C֏Hom(C, G). This is the first topic of the chapter.
+
+
+--- PAGE BREAK ---
+
 190
 Chapter 3
 Cohomology
@@ -39,7 +269,7 @@ mology and cohomology holds whenever the homology groups are finitely generated,
 even when the chain groups are not finitely generated. It would also be quite easy to
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -103,7 +333,7 @@ a homomorphism Hom(Hn(C), G)→Ker δ. Composing this with the quotient map
 Ker δ→Hn(C; G) gives a homomorphism from Hom(Hn(C), G) to Hn(C; G). If we
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 192
 Chapter 3
@@ -164,7 +394,7 @@ n are homomorphisms Zn→G that vanish on the subgroup Bn , and such homo-
 morphisms are the same as homomorphisms Zn/Bn→G. Under this identification of
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -252,7 +482,7 @@ fore shows that Coker i∗
 n−1 depends only on Hn−1(C) and G.
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 194
 Chapter 3
@@ -348,7 +578,7 @@ for a composition H
 β--→H′′ with a free resolution F′′ of H′′ also given, since
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -396,7 +626,7 @@ The first of these can be obtained by using the direct sum of free resolutions o
 H′ as a free resolution for H ⊕H′ . If H is free, the free resolution 0→H→H→0
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 196
 Chapter 3
@@ -440,7 +670,7 @@ is automatic. One obtains natural split short exact sequences
 h--→HomR(Hn(C), G) -→0
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -504,7 +734,7 @@ i
 (−1)iϕ(σ ||[v0, ··· , bvi, ··· , vn+1])
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 198
 Chapter 3
@@ -559,7 +789,7 @@ field, so we obtain isomorphisms
 Hn(X; F) ≈HomF(Hn(X; F), F)
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -614,7 +844,7 @@ Relative coboundary maps δ : Cn(X, A; G)→Cn+1(X, A; G) are obtained as restri
 tions of the absolute δ’s, so relative cohomology groups Hn(X, A; G) are defined. The
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 200
 Chapter 3
@@ -664,7 +894,7 @@ is, (n + 1) chains in X whose boundary lies in A. On such chains we have ϕ∂= 
 since the extension of ϕ to ϕ is irrelevant. The net result of all this is that hδ(α)
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -709,7 +939,7 @@ maps ι : Cn(A+B)→Cn(X) and ρ : Cn(X)→Cn(A+B) such that ρι = 11 and 11−
 ∂D + D∂for a chain homotopy D. Dualizing by taking Hom(−, G), we have maps
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 202
 Chapter 3
@@ -788,7 +1018,7 @@ complex formed by the horizontal sequence in the following diagram, where coeffi
 cients in a given group G are understood, and the cellular coboundary maps dn are
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -824,7 +1054,7 @@ associated to the short exact sequence of cochain complexes
 ϕ--→Cn(A ∩B; G) -→0
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 204
 Chapter 3
@@ -867,7 +1097,7 @@ modules over Z4 and use this to show that Extn
 Z4(Z2, Z2) is nonzero for all n.
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 Cohomology Groups
 Section 3.1
@@ -917,7 +1147,7 @@ not on Hn(−; Z).
 version of the second proof of the corresponding result for homology in Lemma 2.34.
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 
 206
 Chapter 3
@@ -981,5 +1211,5 @@ i=0
 ⊔⊓
 
 
----PAGE_BREAK---
+--- PAGE BREAK ---
 

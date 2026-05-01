@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777632020499-ic407josp",
+  "providerId": "claude",
+  "title": "对于这个skill, 有些聪明的家伙, 比如你知道分块写入, 然后每次在结尾留一个标记, 但是有些傻...",
+  "createdAt": 1777632020499,
+  "updatedAt": 1777632369939,
+  "lastResponseAt": 1777632312530,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "f091c6c7-0d3b-4ff0-8106-8aedae734799"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 16446,
+    "cacheCreationInputTokens": 23033,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 39668,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

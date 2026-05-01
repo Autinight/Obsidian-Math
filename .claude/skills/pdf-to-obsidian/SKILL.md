@@ -30,25 +30,24 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
    - **Extract text snippets from proposed range**:
      - Get first ~200 characters from the start page (clean, readable text)
      - Get last ~200 characters from the end page (clean, readable text)
-   - **USE AskUserQuestion tool to show snippets and get confirmation**:
-     - In the question text, display the text snippets from start and end
-     - Provide options: "确认提取" or "我要自定义范围"
-     - Example format:
+   - **Show snippets and ask for confirmation**:
+     - Display the text snippets from start and end to the user
+     - Format:
      ```
-     AskUserQuestion(
-       questions: [{
-         question: "根据分析找到 Section 2.3，请查看开头和结尾内容确认范围：\n\n【开头】The Formal Viewpoint\nSection 2.3\n161\nobvious relative form...\n\n【结尾】...Change-of-coefficient homomorphisms Hn(X; G1)→Hn(X; G2)...\n\n是否提取这个范围？",
-         header: "内容确认",
-         options: [
-           {label: "确认提取", description: "提取显示的内容范围"},
-           {label: "我要自定义", description: "通过文本片段自定义范围"}
-         ],
-         multiSelect: false
-       }]
-     )
+     根据分析找到 Section X.X，请查看开头和结尾内容确认范围：
+     
+     【开头】[first ~200 characters from start page]
+     
+     【结尾】[last ~200 characters from end page]
+     
+     是否提取这个范围？
+     - 回复 "确认" 或 "yes" 继续提取
+     - 或提供自定义范围，格式：from: [起始文本] to: [结束文本]
      ```
-   - If user chooses "我要自定义", ask them to provide text snippets in next message
-   - **DO NOT proceed to step 2 until user confirms**
+   - **WAIT for user response before proceeding**
+   - If user confirms (says "确认", "yes", "ok", "好", "可以", etc.), proceed to step 2 with the proposed range
+   - If user provides text snippets in format "from: ... to: ...", parse those snippets and proceed to step 2
+   - **DO NOT proceed to step 2 until user responds**
 
 2. **Extract PDF content** (only after user confirms or provides text snippets)
    - If user provided text snippets:
@@ -68,6 +67,7 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
 
 3. **Format with obsidian-markdown skill**
    - **YOU MUST use the Skill tool to invoke obsidian-markdown**
+   - **CRITICAL: ALWAYS use chunked writing protocol - this is MANDATORY, not optional**
    - Do this:
      ```
      Skill(
@@ -76,6 +76,15 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        
        Source: .claude/temp_pdf_extract.txt
        Output: 00.Inbox/[BookName] [Section].md
+       
+       **MANDATORY CHUNKED WRITING PROTOCOL**:
+       - NEVER write the entire file at once
+       - ALWAYS split content into chunks of ~50 lines maximum
+       - Write first chunk with Write tool, ending with: // __CONTINUE_HERE__
+       - Use Edit tool to replace // __CONTINUE_HERE__ with next chunk + new placeholder
+       - Repeat until all content is written
+       - Remove placeholder in final chunk
+       - This is NOT optional - you MUST chunk even if you think the content is short
        
        Instructions:
        - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
@@ -91,7 +100,9 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        - Wrap in callouts: [!axiom], [!theorem], [!definition], [!example], [!proof]
        - Add section headers with ##
        - Remove page numbers and PDF artifacts
-       - Preserve all mathematical content including ALL commutative diagrams"
+       - Preserve all mathematical content including ALL commutative diagrams
+       
+       **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue**"
      )
      ```
    - **DO NOT manually write markdown** - the skill handles all formatting
@@ -103,7 +114,7 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
 **Example Usage**:
 
 User: "Extract Section 2.3 from Hatcher"
-→ Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → **USE AskUserQuestion to show snippets and get confirmation** → User confirms → Extract → Format
+→ Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → **Show snippets and WAIT for user confirmation** → User confirms → Extract → Format
 
 User: "Extract pages 64-68 from Hatcher Ch2"
 → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Format
@@ -120,27 +131,28 @@ A @>f>> B @>g>> C \\
 @VhVV @VViV @VVjV \\
 D @>>k> E @>>l> F
 \end{CD}$$
-```
-
+markdown
 Arrow types:
-- `@>>>` : right arrow (horizontal)
-- `@<<<` : left arrow (horizontal)
-- `@VVV` : down arrow (vertical)
-- `@AAA` : up arrow (vertical)
-- `@=` : equals sign (for isomorphisms)
 
+@>>> : right arrow (horizontal)
+@<<< : left arrow (horizontal)
+@VVV : down arrow (vertical)
+@AAA : up arrow (vertical)
+@= : equals sign (for isomorphisms)
 With labels:
-- `@>label>>` : right arrow with label on top
-- `@<label<<` : left arrow with label on top
-- `@VlabelVV` : down arrow with label on left
-- `@AlabelAA` : up arrow with label on left
 
-**Key Principles**:
-- Never guess content ranges - always show text snippets for user to verify
-- **CRITICAL**: Use AskUserQuestion tool to show snippets and get user confirmation
-- **CRITICAL**: Always use `\begin{CD}...\end{CD}` for commutative diagrams, NEVER use array or other methods
-- Always use Skill tool to call obsidian-markdown for formatting
-- Show preview before final formatting
-- Handle encoding issues proactively
-- When you need user input, STOP and wait for their response before proceeding
-- Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)
+@>label>> : right arrow with label on top
+@<label<< : left arrow with label on top
+@VlabelVV : down arrow with label on left
+@AlabelAA : up arrow with label on left
+Key Principles:
+
+Never guess content ranges - always show text snippets for user to verify
+CRITICAL: Show snippets and WAIT for user response before extracting
+CRITICAL: Always use \begin{CD}...\end{CD} for commutative diagrams, NEVER use array or other methods
+CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with placeholders
+Always use Skill tool to call obsidian-markdown for formatting
+Show preview before final formatting
+Handle encoding issues proactively
+When you need user input, STOP and wait for their response before proceeding
+Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)

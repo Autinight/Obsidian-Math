@@ -77,7 +77,7 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_SMALL_FAST_MODEL=ZhipuAI/GLM-5.1",
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1\nANTHROPIC_DeFAULT_HAIKU_MODEL=ZhipuAI/GLM-5.1",
       "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=ZhipuAI/GLM-5.1|ANTHROPIC_MODEL=ZhipuAI/GLM-5.1"
     },
     "codex": {
