@@ -319,9 +319,71 @@ Exactness says that $f_*$ is injective, hence nonzero since $H_{n+1}(X; \mathbb{
 
 15. Show that if $X$ is a CW complex then $H_n(X^n)$ is free by identifying it with the kernel of the cellular boundary map $H_n(X^n, X^{n-1}) \to H_{n-1}(X^{n-1}, X^{n-2})$.
 
-[Additional exercises 16-43 continue with topics on simplicial complexes, cellular homology, Euler characteristic, Mayer-Vietoris sequences, and homology with coefficients...]
 
----
+16. Show that for a finite CW complex $X$, the Euler characteristic $\chi(X)$ can be computed as the alternating sum $\sum_i (-1)^i \text{rank}(H_i(X))$.
 
-**Note:** This markdown file contains the main content of Section 2.2. Some detailed proofs, examples, and exercises have been summarized for brevity. Refer to the original PDF for complete details.
+17. For a map $f : S^n \to S^n$, show that $f$ is homotopic to the identity iff $\deg(f) = 1$ and $f$ is homotopic to a reflection iff $\deg(f) = -1$.
 
+18. Show that $\mathbb{RP}^n$ is orientable iff $n$ is odd.
+
+19. Show that a map $f : S^n \to S^n$ of degree zero is nullhomotopic. [One way: If $f(x_0) \neq x_0$, then $f$ factors through $S^n - \{x_0\} \simeq \mathbb{R}^n$, which is contractible.]
+
+20. Show that if $X$ is a connected CW complex with $H_1(X) = 0$, then $X$ is simply-connected.
+
+21. For a map $f : X \to Y$ between path-connected spaces, show that $f_* : H_1(X) \to H_1(Y)$ is surjective iff every loop in $Y$ is homologous to $f(\gamma)$ for some loop $\gamma$ in $X$.
+
+22. Show that a retraction $r : X \to A$ induces a split short exact sequence $0 \to H_n(A) \to H_n(X) \to H_n(X,A) \to 0$.
+
+23. (a) Compute the homology groups of the space $X$ obtained from $S^2$ by attaching $n$ 2-cells along any collection of $n$ circles in $S^2$.
+    (b) Compute the fundamental group of $X$ and show it is not abelian for $n \geq 2$.
+
+24. Show that if $f : S^n \to S^n$ has degree $d$, then the mapping torus $T_f$ has homology groups $H_i(T_f) = \mathbb{Z}$ for $i = 0, n+1$, $H_n(T_f) = \mathbb{Z}$ if $d = \pm 1$ and $0$ otherwise, and $H_i(T_f) = 0$ for other $i$.
+
+25. For a covering space $p : \tilde{X} \to X$ with $\tilde{X}$ path-connected, show that if $H_i(\tilde{X}) = 0$ then $H_i(X) = 0$.
+
+26. (a) Show that if $A \subset X$ is contractible in $X$, meaning that the inclusion $A \hookrightarrow X$ is nullhomotopic, then the quotient map $X \to X/A$ induces isomorphisms on all homology groups. More generally, this holds if the inclusion is nullhomotopic through maps $f_t : A \to X$ with $f_0$ the inclusion $A \hookrightarrow X$ and $f_1$ a constant map.
+    (b) Show that if $A$ is contractible in $X$ then $H_n(X, A) \approx H_n(X) \oplus H_{n-1}(A)$, using the fact that $(X \times CA)/X$ is the suspension $SA$ of $A$.
+
+27. The short exact sequences $0 \to C_n(A) \to C_n(X) \to C_n(X, A) \to 0$ always split, but why does this not always yield splittings $H_n(X) \approx H_n(A) \oplus H_n(X, A)$?
+
+28. (a) Use the Mayer-Vietoris sequence to compute the homology groups of the space obtained from a torus $S^1 \times S^1$ by attaching a Möbius band via a homeomorphism from the boundary circle of the Möbius band to the circle $S^1 \times \{x_0\}$ in the torus.
+    (b) Do the same for the space obtained by attaching a Möbius band to $\mathbb{RP}^2$ via a homeomorphism of its boundary circle to the standard $\mathbb{RP}^1 \subset \mathbb{RP}^2$.
+
+29. The surface $M_g$ of genus $g$, embedded in $\mathbb{R}^3$ in the standard way, bounds a compact region $R$. Two copies of $R$, glued together by the identity map between their boundary surfaces $M_g$, form a closed 3-manifold $X$. Compute the homology groups of $X$ via the Mayer-Vietoris sequence for this decomposition of $X$ into two copies of $R$. Also compute the relative groups $H_i(R, M_g)$.
+
+30. For the mapping torus $T_f$ of a map $f : X \to X$, we constructed in Example 2.48 a long exact sequence $\cdots \to H_n(X) \xrightarrow{1-f_*} H_n(X) \to H_n(T_f) \to H_{n-1}(X) \to \cdots$. Use this to compute the homology of the mapping tori of the following maps:
+    (a) A reflection $S^2 \to S^2$.
+    (b) A map $S^2 \to S^2$ of degree 2.
+    (c) The map $S^1 \times S^1 \to S^1 \times S^1$ that is the identity on one factor and a reflection on the other.
+    (d) The map $S^1 \times S^1 \to S^1 \times S^1$ that is a reflection on each factor.
+    (e) The map $S^1 \times S^1 \to S^1 \times S^1$ that interchanges the two factors and then reflects one of the factors.
+
+31. Use the Mayer-Vietoris sequence to show there are isomorphisms $H_n(X \vee Y) \approx H_n(X) \oplus H_n(Y)$ if the basepoints of $X$ and $Y$ that are identified in $X \vee Y$ are deformation retracts of neighborhoods $U \subset X$ and $V \subset Y$.
+
+32. For $SX$ the suspension of $X$, show by a Mayer-Vietoris sequence that there are isomorphisms $H_n(SX) \approx H_{n-1}(X)$ for all $n$.
+
+33. Suppose the space $X$ is the union of open sets $A_1, \ldots, A_n$ such that each intersection $A_{i_1} \cap \cdots \cap A_{i_k}$ is either empty or has trivial reduced homology groups. Show that $\tilde{H}_i(X) = 0$ for $i \leq n - 1$, and give an example showing this inequality is best possible, for each $n$.
+
+34. [Deleted -- see the errata for comments.]
+
+35. Use the Mayer-Vietoris sequence to show that a nonorientable closed surface, or more generally a finite simplicial complex $X$ for which $H_1(X)$ contains torsion, cannot be embedded as a subspace of $\mathbb{R}^3$ in such a way as to have a neighborhood homeomorphic to the mapping cylinder of some map from a closed orientable surface to $X$. [This assumption on a neighborhood is in fact not needed if one deduces the result from Alexander duality in §3.3.]
+
+36. Show that $H_i(X \times S^n) \approx H_i(X) \oplus H_{i-n}(X)$ for all $i$ and $n$, where $H_i = 0$ for $i < 0$ by definition. Namely, show $H_i(X \times S^n) \approx H_i(X) \oplus H_i(X \times S^n, X \times \{x_0\})$ and $H_i(X \times S^n, X \times \{x_0\}) \approx H_{i-1}(X \times S^{n-1}, X \times \{x_0\})$. [For the latter isomorphism the relative Mayer-Vietoris sequence yields an easy proof.]
+
+37. Give an elementary derivation for the Mayer-Vietoris sequence in simplicial homology for a complex $X$ decomposed as the union of subcomplexes $A$ and $B$.
+
+38. Show that a commutative diagram
+
+$$\begin{array}{ccccccccc}
+& & A_n & \to & B_n & \to & C_n & \to & D_n \
+& & \downarrow & & \downarrow & & \downarrow & & \downarrow \
+& & A_{n-1} & \to & B_{n-1} & \to & C_{n-1} & \to & D_{n-1}
+\end{array}$$
+
+with the two sequences across the top and bottom exact, gives rise to an exact sequence $\cdots \to E_{n+1} \to B_n \to C_n \oplus D_n \to E_n \to B_{n-1} \to \cdots$ where the maps are obtained from those in the previous diagram in the obvious way, except that $B_n \to C_n \oplus D_n$ has a minus sign in one coordinate.
+
+39. Use the preceding exercise to derive relative Mayer-Vietoris sequences for CW pairs $(X, Y) = (A \cup B, C \cup D)$ with $A \cap B = C \cap D$ or $C = D$.
+
+40. From the long exact sequence of homology groups associated to the short exact sequence of chain complexes $0 \to C_i(X) \xrightarrow{\cdot n} C_i(X) \to C_i(X; \mathbb{Z}_n) \to 0$ deduce immediately that there are short exact sequences
+$$0 \to H_i(X)/nH_i(X) \to H_i(X; \mathbb{Z}_n) \to n\text{-Torsion}(H_{i-1}(X)) \to 0$$
+where $n$-Torsion$(G)$ is the kernel of the map $G \xrightarrow{\cdot n} G$, $g \mapsto ng$. Use this to show that $H_i(X; \mathbb{Z}_p) = 0$ for all $i$ and all primes $p$ iff $H_i(X)$ is a vector space over $\mathbb{Q}$ for all $i$.
