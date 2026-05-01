@@ -2,8 +2,6 @@
 name: diagram-helper
 description: Create LaTeX and TikZ diagrams in Obsidian using TikZJax plugin. Use when the user wants to create graphs, figures, circuits, chemical diagrams, commutative diagrams, or any TikZ/LaTeX visualizations in their Obsidian notes.
 ---
-
-
 # TikZJax Skill
 
 Render LaTeX and TikZ diagrams directly in Obsidian notes using the TikZJax plugin. Create mathematical graphs, circuit diagrams, chemical structures, commutative diagrams, and more.

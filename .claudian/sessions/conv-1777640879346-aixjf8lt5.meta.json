@@ -3,6 +3,21 @@
   "providerId": "claude",
   "title": "Applying /pdf-to-obsidian from page 97 of the book...",
   "createdAt": 1777640879347,
-  "updatedAt": 1777640879352,
-  "sessionId": null
+  "updatedAt": 1777641628043,
+  "lastResponseAt": 1777641576957,
+  "sessionId": "d0a03511-b8a8-49fa-bea9-aefda82a8f2d",
+  "providerState": {
+    "providerSessionId": "d0a03511-b8a8-49fa-bea9-aefda82a8f2d"
+  },
+  "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 28439,
+    "cacheCreationInputTokens": 54,
+    "cacheReadInputTokens": 40927,
+    "contextWindow": 1000000,
+    "contextTokens": 69420,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
 }

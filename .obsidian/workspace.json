@@ -23,12 +23,24 @@
             "id": "63be2fbada775034",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
+                "file": "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Hatcher - 2002 - Algebraic topology"
+              "icon": "lucide-file",
+              "title": "Hatcher - Algebraic Topology - Pages 97-101"
             }
           },
           {
@@ -220,21 +232,22 @@
   },
   "active": "63be2fbada775034",
   "lastOpenFiles": [
+    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641147622",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641126926",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641103367",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641078871",
+    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md.tmp.25652.1777641018174",
     "30.Recources/AT/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637628429",
-    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637564716",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636704552",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636678916",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636651870",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636570087",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636286889",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636253929",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
     "30.Recources/AT/Hatcher Ch3 3.1 Cohomology Groups.md",
@@ -255,7 +268,6 @@
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/dfn - Delta-Complex.md",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",

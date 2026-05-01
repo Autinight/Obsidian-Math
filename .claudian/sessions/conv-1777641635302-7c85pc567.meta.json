@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777641635302-7c85pc567",
+  "providerId": "claude",
+  "title": "你能检测到 /diagram-helper 吗",
+  "createdAt": 1777641635302,
+  "updatedAt": 1777641697489,
+  "lastResponseAt": 1777641697489,
+  "sessionId": "d448f89f-3979-40ef-9233-f1a175e3ff3f",
+  "providerState": {
+    "providerSessionId": "d448f89f-3979-40ef-9233-f1a175e3ff3f"
+  },
+  "currentNote": "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 14089,
+    "cacheCreationInputTokens": 161,
+    "cacheReadInputTokens": 16822,
+    "contextWindow": 1000000,
+    "contextTokens": 31072,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
