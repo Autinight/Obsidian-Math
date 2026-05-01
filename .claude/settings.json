@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(obsidian read *)",
+      "Bash(pdftotext \"30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf\" -)",
+      "Bash(pdftotext -f 134 -l 160 \"30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf\" -)",
+      "Bash(awk '/^134 Chapter 2/,/^160 Chapter 2/')",
+      "Read(//tmp/**)",
+      "Bash(pdftotext \"30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf\" /tmp/full_chapter2.txt)",
+      "Bash(awk '/^Computations and Applications$/,/^The Formal Viewpoint$/')",
+      "Bash(pdftotext \"30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf\" - 2>/dev/null | sed -n '/^134 Chapter 2$/,/^160 Chapter 2$/p' > /tmp/section_2_2.txt && wc -l /tmp/section_2_2.txt && head -n 100 /tmp/section_2_2.txt)",
+      "Bash(pdftotext \"30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf\" /tmp/full.txt)",
+      "Bash(grep -n \"^Degree$\\\\|^Cellular Homology$\\\\|^Mayer\" /tmp/full.txt)",
+      "Bash(sed -n '1229,2100p' /tmp/full.txt | head -n 800 > /tmp/section_2_2_part1.txt && wc -l /tmp/section_2_2_part1.txt)",
+      "Bash(grep -n \"^The Formal Viewpoint$\" /tmp/full.txt)",
+      "Bash(sed -n '1229,2134p' /tmp/full.txt > /tmp/section_2_2_complete.txt && wc -l /tmp/section_2_2_complete.txt)",
+      "Bash(sed -n '1229,2134p' /tmp/full.txt > section_2_2_complete.txt && wc -l section_2_2_complete.txt)"
+    ]
+  }
+}
