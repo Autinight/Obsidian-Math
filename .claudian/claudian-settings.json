@@ -1,9 +1,9 @@
 {
   "userName": "Autin",
-  "permissionMode": "normal",
+  "permissionMode": "yolo",
   "model": "claude-opus-4-7",
   "thinkingBudget": "high",
-  "effortLevel": "high",
+  "effortLevel": "xhigh",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
   "titleGenerationModel": "gpt-5.4-mini",
@@ -99,7 +99,7 @@
     "claude": "claude-opus-4-7"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "xhigh"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {

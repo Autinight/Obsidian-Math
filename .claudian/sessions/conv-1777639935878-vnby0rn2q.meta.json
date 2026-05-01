@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777639935878-vnby0rn2q",
+  "providerId": "claude",
+  "title": "你看下这个skill, 它的工作流中读出来pdf的图片层吗You are converting a ...",
+  "createdAt": 1777639935878,
+  "updatedAt": 1777640579628,
+  "lastResponseAt": 1777640291636,
+  "sessionId": "893eedae-123d-479e-bcf5-ed565e1c9864",
+  "providerState": {
+    "providerSessionId": "893eedae-123d-479e-bcf5-ed565e1c9864"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 16370,
+    "cacheCreationInputTokens": 19244,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 35803,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

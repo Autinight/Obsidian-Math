@@ -23,24 +23,12 @@
             "id": "63be2fbada775034",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology"
+              "icon": "lucide-file-text",
+              "title": "Hatcher - 2002 - Algebraic topology"
             }
           },
           {
@@ -232,9 +220,13 @@
   },
   "active": "63be2fbada775034",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637628429",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637564716",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636704552",
@@ -243,14 +235,9 @@
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636570087",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636286889",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636253929",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636192142",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch3 3.1 Cohomology Groups.md",
-    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher 3.1 Cohomology Groups.md",
     "00.Inbox/Hatcher Ch2 Sec2.3.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
