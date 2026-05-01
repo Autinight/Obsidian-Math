@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777623479667-piaifq4q0",
+  "providerId": "claude",
+  "title": "这个skill需要什么依赖",
+  "createdAt": 1777623479667,
+  "updatedAt": 1777623564972,
+  "lastResponseAt": 1777623564972,
+  "sessionId": "68d43952-25d7-4dad-8b15-ee41f733ef91",
+  "providerState": {
+    "providerSessionId": "68d43952-25d7-4dad-8b15-ee41f733ef91"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 2390,
+    "cacheCreationInputTokens": 536,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 2926,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

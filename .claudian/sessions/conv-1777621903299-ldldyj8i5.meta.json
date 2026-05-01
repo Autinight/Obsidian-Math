@@ -3,6 +3,20 @@
   "providerId": "claude",
   "title": "把下面的内容写成一个skill: 优化后的Prompt",
   "createdAt": 1777621903299,
-  "updatedAt": 1777621903317,
-  "sessionId": null
+  "updatedAt": 1777622151398,
+  "lastResponseAt": 1777622048709,
+  "sessionId": "38d5ff06-33ee-45e1-a0ba-e3e9262c80a7",
+  "providerState": {
+    "providerSessionId": "38d5ff06-33ee-45e1-a0ba-e3e9262c80a7"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 2812,
+    "cacheCreationInputTokens": 626,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 3438,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
 }

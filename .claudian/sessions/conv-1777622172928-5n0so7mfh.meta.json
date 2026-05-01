@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777622172928-5n0so7mfh",
+  "providerId": "claude",
+  "title": "/pdf-to-obsidian the second subsection of the pdf",
+  "createdAt": 1777622172929,
+  "updatedAt": 1777622293257,
+  "lastResponseAt": 1777622286704,
+  "sessionId": "6259f2c1-dbb8-4cec-b6ef-12219a12c69c",
+  "providerState": {
+    "providerSessionId": "6259f2c1-dbb8-4cec-b6ef-12219a12c69c"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 2359,
+    "cacheCreationInputTokens": 522,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2881,
+    "percentage": 1
+  }
+}

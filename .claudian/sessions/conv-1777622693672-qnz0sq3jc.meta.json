@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777622693672-qnz0sq3jc",
+  "providerId": "claude",
+  "title": "这是一个skill的prompt, 你觉得它应该被优化吗, 如果应该, 可以怎么被优化, 为什么这么...",
+  "createdAt": 1777622693672,
+  "updatedAt": 1777622842161,
+  "lastResponseAt": 1777622842161,
+  "sessionId": "f6a1bd9d-9dd8-4c0b-83ec-8efaf90f611d",
+  "providerState": {
+    "providerSessionId": "f6a1bd9d-9dd8-4c0b-83ec-8efaf90f611d"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 4477,
+    "cacheCreationInputTokens": 1027,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 5504,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}
