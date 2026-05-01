@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777637430537-yse9yl9la",
+  "providerId": "claude",
+  "title": "把下面这些习题补在笔记后面, 其中图片是30提的附图14",
+  "createdAt": 1777637430537,
+  "updatedAt": 1777638240009,
+  "lastResponseAt": 1777638023761,
+  "sessionId": "c170accf-ca6f-4eb2-8e60-b65f1835c62c",
+  "providerState": {
+    "providerSessionId": "c170accf-ca6f-4eb2-8e60-b65f1835c62c"
+  },
+  "currentNote": "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 28600,
+    "cacheCreationInputTokens": 41097,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 69886,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

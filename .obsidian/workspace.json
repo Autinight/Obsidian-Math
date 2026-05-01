@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,11 +230,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1dc385abd6b15945",
+  "active": "63be2fbada775034",
   "lastOpenFiles": [
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637628429",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.29572.1777637564716",
+    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636820907",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636704552",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636678916",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636651870",
@@ -242,7 +244,6 @@
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636286889",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636253929",
     "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636192142",
-    "00.Inbox/Hatcher AT - Ch2 Sec2.1 Simplicial and Singular Homology.md.tmp.18136.1777636150682",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",

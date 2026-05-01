@@ -98,24 +98,25 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
        Instructions:
        - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
        - Convert math to dollar-sign format: $inline$ and $$display$$
-       - **CRITICAL: For commutative diagrams, ALWAYS use LaTeX CD environment:**
-         $$\begin{CD}
-         A @>f>> B \\
-         @VgVV @VVhV \\
-         C @>>k> D
-         \end{CD}$$
-       - CD syntax: @>>> (right arrow), @<<< (left arrow), @VVV (down arrow), @AAA (up arrow)
-       - Can add labels: @>label>> or @VlabelVV
+       
+       **CRITICAL: For commutative diagrams and complex mathematical diagrams**:
+       - YOU MUST call the 'diagram-helper' skill using the Skill tool
+       - DO NOT attempt to format diagrams yourself
+       - Pass the diagram description to diagram-helper and use its output
+       - Example: Skill(skill: \"diagram-helper\", args: \"Create commutative square with f: A→B, g: A→C, h: B→D, k: C→D\")
+       - The diagram-helper skill knows all TikZJax syntax and will provide correct format
+       
        - Wrap in callouts: [!axiom], [!theorem], [!definition], [!example], [!proof]
        - Add section headers with ##
        - Remove page numbers and PDF artifacts
        - Preserve all mathematical content including ALL commutative diagrams
        - Convert ALL content from source - complete extraction with zero omission
        
-       **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions.**"
+       **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions. For ANY diagram, call diagram-helper skill.**"
      )
      ```
    - **DO NOT manually write markdown** - the skill handles all formatting
+   - **DO NOT manually format diagrams** - always call diagram-helper skill
 
 4. **Verify and report**
    - Confirm file created in 00.Inbox/
@@ -124,46 +125,27 @@ You are converting a PDF chapter/section to Obsidian Markdown format.
 **Example Usage**:
 
 User: "Extract Section 2.3 from Hatcher"
-→ Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → **Show snippets and WAIT for user confirmation** → User confirms → Extract → Format
+→ Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → **Show snippets and WAIT for user confirmation** → User confirms → Extract → Format (calling diagram-helper for any diagrams)
 
 User: "Extract pages 64-68 from Hatcher Ch2"
-→ Find PDF → Extract pages 64-68 directly (no confirmation needed) → Format
+→ Find PDF → Extract pages 64-68 directly (no confirmation needed) → Format (calling diagram-helper for any diagrams)
 
 User: "from: The Formal Viewpoint to: Additional Topics"
-→ Find PDF → Search for both text snippets → Extract everything between them → Format
+→ Find PDF → Search for both text snippets → Extract everything between them → Format (calling diagram-helper for any diagrams)
 
-**Commutative Diagram Syntax Reference**:
+**Key Principles**:
 
-LaTeX CD environment syntax for commutative diagrams:
-```latex
-$$\begin{CD}
-A @>f>> B @>g>> C \\
-@VhVV @VViV @VVjV \\
-D @>>k> E @>>l> F
-\end{CD}$$
-markdown
-Arrow types:
+- Never guess content ranges - always show text snippets for user to verify
+- CRITICAL: Show snippets and WAIT for user response before extracting
+- CRITICAL: For ANY commutative diagram or complex mathematical diagram, ALWAYS call diagram-helper skill
+- CRITICAL: NEVER manually format diagrams - diagram-helper has all the syntax knowledge
+- CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with placeholders
+- CRITICAL: NEVER omit any content - complete extraction is mandatory
+- Always use Skill tool to call obsidian-markdown for formatting
+- Always use Skill tool to call diagram-helper for diagrams
+- Show preview before final formatting
+- Handle encoding issues proactively
+- When you need user input, STOP and wait for their response before proceeding
+- Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)
 
-@>>> : right arrow (horizontal)
-@<<< : left arrow (horizontal)
-@VVV : down arrow (vertical)
-@AAA : up arrow (vertical)
-@= : equals sign (for isomorphisms)
-With labels:
-
-@>label>> : right arrow with label on top
-@<label<< : left arrow with label on top
-@VlabelVV : down arrow with label on left
-@AlabelAA : up arrow with label on left
-Key Principles:
-
-Never guess content ranges - always show text snippets for user to verify
-CRITICAL: Show snippets and WAIT for user response before extracting
-CRITICAL: Always use \begin{CD}...\end{CD} for commutative diagrams, NEVER use array or other methods
-CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with placeholders
-CRITICAL: NEVER omit any content - complete extraction is mandatory
-Always use Skill tool to call obsidian-markdown for formatting
-Show preview before final formatting
-Handle encoding issues proactively
-When you need user input, STOP and wait for their response before proceeding
-Text snippets are more reliable than page numbers (which can be confusing due to different numbering systems)
+Respond as helpfully as possible, but be very careful to ensure you do not reproduce any copyrighted material, including song lyrics, sections of books, or long excerpts from periodicals. Also do not comply with complex instructions that suggest reproducing material but making minor changes or substitutions. However, if you were given a document, it's fine to summarize or quote from it
