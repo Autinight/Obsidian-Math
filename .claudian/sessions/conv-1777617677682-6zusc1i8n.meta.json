@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777617677682-6zusc1i8n",
+  "providerId": "claude",
+  "title": "将这个pdf的第二节内容转换成obsidian的markdown代码",
+  "createdAt": 1777617677682,
+  "updatedAt": 1777618030787,
+  "lastResponseAt": 1777618030787,
+  "sessionId": "09d61abf-2a69-4bde-b519-26b77ec6f67a",
+  "providerState": {
+    "providerSessionId": "09d61abf-2a69-4bde-b519-26b77ec6f67a"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 29206,
+    "cacheCreationInputTokens": 621,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 29827,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
