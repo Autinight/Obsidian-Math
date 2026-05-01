@@ -3,6 +3,20 @@
   "providerId": "claude",
   "title": "将此书第2",
   "createdAt": 1777559885118,
-  "updatedAt": 1777559885123,
-  "sessionId": null
+  "updatedAt": 1777563527157,
+  "lastResponseAt": 1777563526566,
+  "sessionId": "91f17030-cecd-4bbc-a585-be15eb3cf730",
+  "providerState": {
+    "providerSessionId": "91f17030-cecd-4bbc-a585-be15eb3cf730"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 24201,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 24201,
+    "percentage": 12
+  }
 }
