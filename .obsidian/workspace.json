@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eac3fe35d20d4415",
+        "id": "ce7d5047a4a58d7a",
         "type": "tabs",
         "children": [
           {
-            "id": "649625c9a3752703",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2 Sec2.2 - Computations and Applications"
-            }
-          },
-          {
-            "id": "ad016c3f4d9a8612",
+            "id": "19f52ce460a6e746",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -43,8 +19,7 @@
               "title": "ATHatcher - Chapter2 - Homology"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,41 +193,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ad016c3f4d9a8612",
+  "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher Ch2 Sec2.3.md",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.7572.1777627661857",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
-    "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
     "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
-    "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md.tmp.6404.1777625051504",
-    "30.Recources/AT/Course HW/AT - HW13.md",
+    "00.Inbox/Hatcher Ch2 Sec2.2 - Computations and Applications.md",
     "00.Inbox/Hatcher - Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher Ch2 Sec2.3 - Formatted.md",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626774436",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626764516",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626751106",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626720410",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626710787",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626698761",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626685531",
+    "00.Inbox/Hatcher Ch2 Sec2.3.md.tmp.20824.1777626676880",
+    "30.Recources/AT/Course HW/AT - HW13.md",
     "00.Inbox/Hatcher Chapter2 Section2.2 - Computations and Applications.md",
     "00.Inbox/2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Chapter 2.2 - Computations and Applications.md",
     "00.Inbox/Hatcher 2.2 - 计算与应用.md",
-    "section_2_2_complete.txt",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/PDE/Evans - Ch6.md",
     "60.Templates/NOTES.md",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777531145803",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.1972.1777530830051",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Daily Draft 2026-04-29.md",
     "00.Inbox/ep - C[a,b].md",
     "00.Inbox/ep - ell^p Space.md",
     "00.Inbox/ep - L^p Space.md",
-    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas.tmp.11688.1777530364197",
     "未命名.md",
-    "30.Recources/FA/Course HW/FA - HW4.md",
-    "30.Recources/FA/Course HW/FA - HW2.md",
-    "30.Recources/FA/Course HW/FA - HW3.md",
-    "30.Recources/FA/Course HW/FA - HW5.md",
-    "30.Recources/FA/PDFs/刘炳初/Ch2.pdf",
     "node_modules/pdfjs-dist/web/images/altText_done.svg",
     "node_modules/pdfjs-dist/web/images/altText_spinner.svg",
     "node_modules/pdfjs-dist/web/images/altText_warning.svg",
@@ -260,11 +238,8 @@
     "node_modules/pdfjs-dist/web/images/altText_disclaimer.svg",
     "node_modules/pdfjs-dist/web/images/altText_add.svg",
     "Pasted image 20260427151120.png",
-    "30.Recources/FA/PDFs/刘炳初/Ch1.pdf",
     "node_modules/pdfjs-dist/web/images/secondaryToolbarButton-documentProperties.svg",
     "node_modules/pdfjs-dist/legacy/web/images/secondaryToolbarButton-documentProperties.svg",
-    "node_modules/pdf-parse/node_modules/pdfjs-dist/wasm/qcms_bg.wasm",
-    "node_modules/pdf-parse/node_modules/pdfjs-dist/wasm/openjpeg.wasm",
     "node_modules/pdf-parse/node_modules/pdfjs-dist/web/images/toolbarButton-menuArrow.svg",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",

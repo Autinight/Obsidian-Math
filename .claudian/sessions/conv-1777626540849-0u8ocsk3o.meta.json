@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777626540849-0u8ocsk3o",
+  "providerId": "claude",
+  "title": "Applying  \"/pdf-to-obsidian \" to Ch2 2",
+  "createdAt": 1777626540850,
+  "updatedAt": 1777627404259,
+  "lastResponseAt": 1777627356338,
+  "sessionId": "3adc63ce-dbcc-4c84-87c6-62b06e6b9095",
+  "providerState": {
+    "providerSessionId": "3adc63ce-dbcc-4c84-87c6-62b06e6b9095"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 26725,
+    "cacheCreationInputTokens": 36981,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 63895,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

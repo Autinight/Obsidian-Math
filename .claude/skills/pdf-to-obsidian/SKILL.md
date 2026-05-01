@@ -4,142 +4,97 @@ description: Convert PDF chapters to Obsidian Markdown with complete content pre
 ---
 You are converting a PDF chapter/section to Obsidian Markdown format.
 
-**Prerequisites**:
-- For Obsidian Markdown syntax (wikilinks, callouts, math, properties), refer to the `obsidian-markdown` skill
-- This skill focuses on PDF extraction and content structure conversion
-
 **Input**:
-- PDF path: {{pdf_path}}
-- Section: {{section}}
-
-**Core Requirements**:
-1. **Complete extraction** - ALL content from the specified section
-2. **Obsidian-native format** - Use syntax from `obsidian-markdown` skill
-3. **Semantic structure** - Preserve document hierarchy (theorems, proofs, examples)
+- PDF path: {{pdf_path}} (optional - will search vault if not provided)
+- Section: {{section}} (e.g., "Ch2 2.3", "Section 3.1", "pages 64-68")
 
 **Workflow**:
 
-1. **Extract PDF content** (see Technical Implementation below)
-
-2. **Create Obsidian note in 00.Inbox/**:
-   ```yaml
-   ---
-   title: "[BookName] Ch[X] Sec[Y] - [Title]"
-   tags:
-     - textbook
-     - math/topology  # Adjust based on subject
-   source: "{{pdf_path}}"
-   section: "{{section}}"
-   date: {{current_date}}
-   ---
-markdown
-Convert content using Obsidian syntax:
-
-Math: Use $inline$ and $$block$$ (see obsidian-markdown skill)
-Theorems/Lemmas: Use callouts (see CALLOUTS.md in obsidian-markdown)
-> [!theorem] Theorem 2.1 (Fundamental Theorem)
-> Statement of the theorem.
-markdown
-Proofs: Use proof callouts
-> [!proof]
-> Proof content here. □
-markdown
-Examples: Use example callouts
-> [!example] Example 2.3
-> Example content.
-markdown
-Definitions: Use definition callouts
-> [!definition] Homology Group
-> Definition content.
-markdown
-Cross-references: Convert to wikilinks where possible
-See [[Chapter 1 - Fundamental Group#Section 1.2]] for background.
-markdown
-Structure exercises:
-
-## Exercises
-
-1. **Exercise 1**. Problem statement.
+1. **Find PDF and determine page range**
    
-   > [!hint]- Hint (click to expand)
-   > Hint content.
+   If no PDF path provided:
+   - Search vault for PDF files with `Glob **/*.pdf`
+   - If multiple found, list them and **USE AskUserQuestion tool** to ask which one to use
+   
+   If section is page range (e.g., "pages 64-68", "p64-68"):
+   - Extract page numbers directly, skip to step 2
+   
+   If section is section ID (e.g., "2.3", "Ch2 2.3"):
+   - Search PDF for the section pattern using PyMuPDF
+   - Check table of contents (usually page 1) to find section boundaries
+   - Display findings clearly:
+     ```
+     根据目录，Section 2.3 在：
+     - PDF 页码：66-71
+     - 书本页码：160-165
+     - 包含小节：Axioms for Homology, Categories and Functors
+     ```
+   - **STOP and USE AskUserQuestion tool**: Present your findings and ask them to confirm the page range
+   - Example question format:
+     ```
+     AskUserQuestion(
+       questions: [{
+         question: "根据目录分析，Section 2.3 应该是 PDF 的第 65-71 页（书本页码 160-166）。是否提取这个范围？",
+         header: "页码确认",
+         options: [
+           {label: "是，提取 65-71 页", description: "提取找到的完整章节"},
+           {label: "否，我要指定页码", description: "手动输入页码范围"}
+         ],
+         multiSelect: false
+       }]
+     )
+     ```
+   - **DO NOT proceed to step 2 until user confirms the page range**
 
-2. **Exercise 2**. Problem statement.
-markdown
-Embed figures (if extracted):
+2. **Extract PDF content** (only after user confirms page range)
+   - Use PyMuPDF (fitz) to extract text from confirmed page range
+   - Fix common ligatures: ﬁ→fi, ﬂ→fl, ﬃ→ffi, ﬄ→ffl
+   - Handle encoding with UTF-8 wrapper:
+     ```python
+     import sys, io
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+     ```
+   - Save raw extracted text to `.claude/temp_pdf_extract.txt`
+   - Show user first 500 characters as preview
 
-<span class="claudian-embedded-image-fallback">![[attachments/figure-2-1.png]]</span>
-*Figure 2.1: Caption text*
-markdown
-**Technical Implementation**:
+3. **Format with obsidian-markdown skill**
+   - **YOU MUST use the Skill tool to invoke obsidian-markdown**
+   - Do this:
+     ```
+     Skill(
+       skill: "obsidian-markdown",
+       args: "Convert PDF extract to Obsidian markdown.
+       
+       Source: .claude/temp_pdf_extract.txt
+       Output: 00.Inbox/[BookName] [Section].md
+       
+       Instructions:
+       - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
+       - Convert math to dollar-sign format: $inline$ and $$display$$
+       - Wrap in callouts: [!theorem], [!definition], [!example], [!proof]
+       - Add section headers with ##
+       - Remove page numbers and PDF artifacts
+       - Preserve all mathematical content"
+     )
+     ```
+   - **DO NOT manually write markdown** - the skill handles all formatting
 
-**Tool Priority** (use first available):
-1. **PyMuPDF (fitz)** - Best for math textbooks, preserves layout
-2. pdfplumber - Good for tables
-3. pdftotext - Fallback for simple text
+4. **Verify and report**
+   - Confirm file created in 00.Inbox/
+   - Report to user: "Created [[00.Inbox/filename.md]]"
 
-**Extraction Script**:
-```python
-import fitz  # PyMuPDF
-import re
-from pathlib import Path
+**Example Usage**:
 
-pdf_path = "{{pdf_path}}"
-section = "{{section}}"  # e.g., "Section 2.1" or "2.1"
+User: "Extract Section 2.3 from Hatcher"
+→ Find Hatcher PDF → Search for "2.3" → Show matches and analysis → **USE AskUserQuestion tool to confirm page range** → User responds → Extract → Format
 
-doc = fitz.open(pdf_path)
-text_blocks = []
-images = []
+User: "Extract pages 64-68 from Hatcher Ch2"
+→ Find PDF → Extract pages 64-68 directly (no confirmation needed) → Format
 
-# Extract text from all pages
-for page_num, page in enumerate(doc, 1):
-    text_blocks.append(f"--- Page {page_num} ---\n{page.get_text()}")
-    
-    # Extract images
-    for img_index, img in enumerate(page.get_images()):
-        xref = img[0]
-        base_image = doc.extract_image(xref)
-        img_bytes = base_image["image"]
-        img_ext = base_image["ext"]
-        img_name = f"fig-p{page_num}-{img_index}.{img_ext}"
-        Path(".").mkdir(exist_ok=True)
-        with open(f"./{img_name}", "wb") as f:
-            f.write(img_bytes)
-        images.append(img_name)
-
-full_text = "\n\n".join(text_blocks)
-
-# Find section boundaries (adjust regex for your PDF structure)
-section_pattern = rf"(?:^|\n)({re.escape(section)}[^\n]*)\n(.*?)(?=\n(?:Section|\Z))"
-match = re.search(section_pattern, full_text, re.DOTALL | re.IGNORECASE)
-
-if match:
-    section_title = match.group(1).strip()
-    section_content = match.group(2).strip()
-else:
-    section_content = full_text  # Fallback: use all text
-
-print(f"SECTION_TITLE: {section_title if match else 'Unknown'}")
-print(f"IMAGES: {','.join(images)}")
-print(f"CONTENT_START\n{section_content}\nCONTENT_END")
-```
-
-**Execution**:
-```bash
-python_path="/c/Users/Autin/AppData/Local/Programs/Python/Python312/python.exe"
-"$python_path" -c "$(cat <<'PYEOF'
-[paste extraction script here]
-PYEOF
-)" > /tmp/pdf_extract.txt
-```
-
-Parse output, convert to Obsidian syntax, save to `00.Inbox/`.
-
-**Verification**:
-
-Frontmatter is valid YAML
-Math delimiters are balanced ($ count is even)
-Callouts use valid types (theorem, proof, example, definition)
-Wikilinks use correct syntax [[note]] not [note]()
-File saved to 00.Inbox/
-Output: Report the created file as a wikilink: [[00.Inbox/filename.md]]
+**Key Principles**:
+- Never guess page ranges - always confirm with user using AskUserQuestion tool
+- **CRITICAL**: Use AskUserQuestion tool for all user confirmations, NOT text responses
+- Always use Skill tool to call obsidian-markdown for formatting
+- Show preview before final formatting
+- Handle encoding issues proactively
+- When you need user input, STOP and wait for their response before proceeding

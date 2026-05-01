@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777625237558-74vwejva5",
+  "providerId": "claude",
+  "title": "/pdf-to-obsidian Hatcher Ch2 Sec2",
+  "createdAt": 1777625237558,
+  "updatedAt": 1777625328083,
+  "lastResponseAt": 1777625327288,
+  "sessionId": "af96a087-930a-4d21-ab7b-b0c41af80d3f",
+  "providerState": {
+    "providerSessionId": "af96a087-930a-4d21-ab7b-b0c41af80d3f"
+  },
+  "currentNote": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 18499,
+    "cacheCreationInputTokens": 4730,
+    "cacheReadInputTokens": 21580,
+    "contextWindow": 200000,
+    "contextTokens": 44809,
+    "percentage": 22
+  }
+}

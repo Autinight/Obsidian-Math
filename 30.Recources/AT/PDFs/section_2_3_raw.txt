@@ -1,0 +1,1859 @@
+2.3. The Formal Viewpoint
+. . . . . . . . . . . . . . . . . . . . 160
+Axioms for Homology 160. Categories and Functors 162.
+Additional Topics
+2.A. Homology and Fundamental Group 166.
+2.B. Classical Applications 169.
+2.C. Simplicial Approximation 177.
+Chapter 3. Cohomology
+. . . . . . . . . . . . . . . . . . . . . 185
+3.1. Cohomology Groups
+. . . . . . . . . . . . . . . . . . . . . 190
+The Universal Coeﬃcient Theorem 190. Cohomology of Spaces 197.
+3.2. Cup Product
+. . . . . . . . . . . . . . . . . . . . . . . . . . 206
+The Cohomology Ring 212. A K¨unneth Formula 214.
+Spaces with Polynomial Cohomology 220.
+3.3. Poincar´e Duality . . . . . . . . . . . . . . . . . . . . . . . . 230
+Orientations and Homology 233. The Duality Theorem 239.
+Connection with Cup Product 249. Other Forms of Duality 252.
+Additional Topics
+3.A. Universal Coeﬃcients for Homology 261.
+3.B. The General K¨unneth Formula 268.
+3.C. H–Spaces and Hopf Algebras 281.
+3.D. The Cohomology of SO(n) 292.
+3.E.
+Bockstein Homomorphisms 303.
+3.F.
+Limits and Ext 311.
+3.G. Transfer Homomorphisms 321.
+3.H. Local Coeﬃcients 327.
+
+--- PAGE 2 ---
+The fundamental group π1(X) is especially useful when studying spaces of low
+dimension, as one would expect from its deﬁnition which involves only maps from
+low-dimensional spaces into X , namely loops I→X and homotopies of loops, maps
+I×I→X . The deﬁnition in terms of objects that are at most 2 dimensional manifests
+itself for example in the fact that when X is a CW complex, π1(X) depends only on
+the 2 skeleton of X . In view of the low-dimensional nature of the fundamental group,
+we should not expect it to be a very reﬁned tool for dealing with high-dimensional
+spaces. Thus it cannot distinguish between spheres Sn with n ≥2. This limitation
+to low dimensions can be removed by considering the natural higher-dimensional
+analogs of π1(X), the homotopy groups πn(X), which are deﬁned in terms of maps
+of the n dimensional cube In into X and homotopies In×I→X of such maps. Not
+surprisingly, when X is a CW complex, πn(X) depends only on the (n + 1) skeleton
+of X . And as one might hope, homotopy groups do indeed distinguish spheres of all
+dimensions since πi(Sn) is 0 for i < n and Z for i = n.
+However, the higher-dimensional homotopy groups have the serious drawback
+that they are extremely diﬃcult to compute in general. Even for simple spaces like
+spheres, the calculation of πi(Sn) for i > n turns out to be a huge problem. For-
+tunately there is a more computable alternative to homotopy groups: the homology
+groups Hn(X). Like πn(X), the homology group Hn(X) for a CW complex X de-
+pends only on the (n + 1) skeleton. For spheres, the homology groups Hi(Sn) are
+isomorphic to the homotopy groups πi(Sn) in the range 1 ≤i ≤n, but homology
+groups have the advantage that Hi(Sn) = 0 for i > n.
+The computability of homology groups does not come for free, unfortunately.
+The deﬁnition of homology groups is decidedly less transparent than the deﬁnition
+of homotopy groups, and once one gets beyond the deﬁnition there is a certain amount
+of technical machinery to be set up before any real calculations and applications can
+be given. In the exposition below we approach the deﬁnition of Hn(X) by two prelim-
+inary stages, ﬁrst giving a few motivating examples nonrigorously, then constructing
+
+--- PAGE 3 ---
+98
+Chapter 2
+Homology
+a restricted model of homology theory called simplicial homology, before plunging
+into the general theory, known as singular homology. After the deﬁnition of singular
+homology has been assimilated, the real work of establishing its basic properties be-
+gins. This takes close to 20 pages, and there is no getting around the fact that it is a
+substantial eﬀort. This takes up most of the ﬁrst section of the chapter, with small
+digressions only for two applications to classical theorems of Brouwer: the ﬁxed point
+theorem and ‘invariance of dimension’.
+The second section of the chapter gives more applications, including the ho-
+mology deﬁnition of Euler characteristic and Brouwer’s notion of degree for maps
+Sn→Sn . However, the main thrust of this section is toward developing techniques
+for calculating homology groups eﬃciently. The maximally eﬃcient method is known
+as cellular homology, whose power comes perhaps from the fact that it is ‘homology
+squared’ — homology deﬁned in terms of homology. Another quite useful tool is
+Mayer–Vietoris sequences, the analog for homology of van Kampen’s theorem for the
+fundamental group.
+An interesting feature of homology that begins to emerge after one has worked
+with it for a while is that it is the basic properties of homology that are used most
+often, and not the actual deﬁnition itself. This suggests that an axiomatic approach
+to homology might be possible. This is indeed the case, and in the third section of
+the chapter we list axioms which completely characterize homology groups for CW
+complexes. One could take the viewpoint that these rather algebraic axioms are all that
+really matters about homology groups, that the geometry involved in the deﬁnition of
+homology is secondary, needed only to show that the axiomatic theory is not vacuous.
+The extent to which one adopts this viewpoint is a matter of taste, and the route taken
+here of postponing the axioms until the theory is well-established is just one of several
+possible approaches.
+The chapter then concludes with three optional sections of Additional Topics. The
+ﬁrst is rather brief, relating H1(X) to π1(X), while the other two contain a selection
+of classical applications of homology. These include the n dimensional version of the
+Jordan curve theorem and the ‘invariance of domain’ theorem, both due to Brouwer,
+along with the Lefschetz ﬁxed point theorem.
+The Idea of Homology
+The diﬃculty with the higher homotopy groups πn is that they are not directly
+computable from a cell structure as π1 is. For example, the 2-sphere has no cells in
+dimensions greater than 2, yet its n dimensional homotopy group πn(S2) is nonzero
+for inﬁnitely many values of n.
+Homology groups, by contrast, are quite directly
+related to cell structures, and may indeed be regarded as simply an algebraization of
+the ﬁrst layer of geometry in cell structures: how cells of dimension n attach to cells
+of dimension n −1.
+
+--- PAGE 4 ---
+The Idea of Homology
+99
+Let us look at some examples to see what the idea is. Consider the graph X1 shown
+in the ﬁgure, consisting of two vertices joined by four edges.
+When studying the fundamental group of X1 we consider
+loops formed by sequences of edges, starting and ending
+at a ﬁxed basepoint. For example, at the basepoint x , the
+loop ab−1 travels forward along the edge a, then backward
+along b, as indicated by the exponent −1. A more compli-
+cated loop would be ac−1bd−1ca−1 . A salient feature of the
+fundamental group is that it is generally nonabelian, which both enriches and compli-
+cates the theory. Suppose we simplify matters by abelianizing. Thus for example the
+two loops ab−1 and b−1a are to be regarded as equal if we make a commute with
+b−1 . These two loops ab−1 and b−1a are really the same circle, just with a diﬀerent
+choice of starting and ending point: x for ab−1 and y for b−1a. The same thing
+happens for all loops: Rechoosing the basepoint in a loop just permutes its letters
+cyclically, so a byproduct of abelianizing is that we no longer have to pin all our loops
+down to a ﬁxed basepoint. Thus loops become cycles, without a chosen basepoint.
+Having abelianized, let us switch to additive notation, so cycles become linear
+combinations of edges with integer coeﬃcients, such as a −b + c −d. Let us call
+these linear combinations chains of edges.
+Some chains can be decomposed into
+cycles in several diﬀerent ways, for example (a −c) + (b −d) = (a −d) + (b −c),
+and if we adopt an algebraic viewpoint then we do not want to distinguish between
+these diﬀerent decompositions. Thus we broaden the meaning of the term ‘cycle’ to
+be simply any linear combination of edges for which at least one decomposition into
+cycles in the previous more geometric sense exists.
+What is the condition for a chain to be a cycle in this more algebraic sense? A
+geometric cycle, thought of as a path traversed in time, is distinguished by the prop-
+erty that it enters each vertex the same number of times that it leaves the vertex. For
+an arbitrary chain ka + ℓb + mc + nd, the net number of times this chain enters y
+is k + ℓ+ m + n since each of a, b, c , and d enters y once. Similarly, each of the
+four edges leaves x once, so the net number of times the chain ka + ℓb + mc + nd
+enters x is −k −ℓ−m −n. Thus the condition for ka + ℓb + mc + nd to be a cycle
+is simply k + ℓ+ m + n = 0.
+To describe this result in a way that would generalize to all graphs, let C1 be the
+free abelian group with basis the edges a, b, c, d and let C0 be the free abelian group
+with basis the vertices x, y . Elements of C1 are chains of edges, or 1 dimensional
+chains, and elements of C0 are linear combinations of vertices, or 0 dimensional
+chains. Deﬁne a homomorphism ∂: C1→C0 by sending each basis element a, b, c, d
+to y −x , the vertex at the head of the edge minus the vertex at the tail. Thus we have
+∂(ka + ℓb + mc + nd) = (k + ℓ+ m + n)y −(k + ℓ+ m + n)x , and the cycles are
+precisely the kernel of ∂. It is a simple calculation to verify that a−b, b−c , and c −d
+
+--- PAGE 5 ---
+100
+Chapter 2
+Homology
+form a basis for this kernel. Thus every cycle in X1 is a unique linear combination of
+these three most obvious cycles. By means of these three basic cycles we convey the
+geometric information that the graph X1 has three visible ‘holes’, the empty spaces
+between the four edges.
+Let us now enlarge the preceding graph X1 by attaching a 2 cell A along the
+cycle a −b, producing a 2 dimensional cell complex X2 . If
+we think of the 2 cell A as being oriented clockwise, then
+we can regard its boundary as the cycle a −b. This cycle is
+now homotopically trivial since we can contract it to a point
+by sliding over A. In other words, it no longer encloses a
+hole in X2 .
+This suggests that we form a quotient of the
+group of cycles in the preceding example by factoring out
+the subgroup generated by a −b. In this quotient the cycles a −c and b −c , for
+example, become equivalent, consistent with the fact that they are homotopic in X2 .
+Algebraically, we can deﬁne now a pair of homomorphisms C2
+∂2
+-----→C1
+∂1
+-----→C0
+where C2 is the inﬁnite cyclic group generated by A and ∂2(A) = a −b. The map
+∂1 is the boundary homomorphism in the previous example. The quotient group we
+are interested in is Ker ∂1/ Im ∂2 , the kernel of ∂1 modulo the image of ∂2 , or in other
+words, the 1 dimensional cycles modulo those that are boundaries, the multiples of
+a−b. This quotient group is the homology group H1(X2). The previous example can
+be ﬁt into this scheme too by taking C2 to be zero since there are no 2 cells in X1 ,
+so in this case H1(X1) = Ker ∂1/ Im ∂2 = Ker ∂1 , which as we saw was free abelian on
+three generators. In the present example, H1(X2) is free abelian on two generators,
+b −c and c −d, expressing the geometric fact that by ﬁlling in the 2 cell A we have
+reduced the number of ‘holes’ in our space from three to two.
+Suppose we enlarge X2 to a space X3 by attaching a second 2 cell B along the
+same cycle a−b. This gives a 2 dimensional chain group C2
+consisting of linear combinations of A and B , and the bound-
+ary homomorphism ∂2 : C2→C1 sends both A and B to a−b.
+The homology group H1(X3) = Ker ∂1/ Im ∂2 is the same as
+for X2 , but now ∂2 has a nontrivial kernel, the inﬁnite cyclic
+group generated by A−B . We view A−B as a 2 dimensional
+cycle, generating the homology group H2(X3) = Ker ∂2 ≈Z.
+Topologically, the cycle A −B is the sphere formed by the cells A and B together
+with their common boundary circle. This spherical cycle detects the presence of a
+‘hole’ in X3 , the missing interior of the sphere. However, since this hole is enclosed
+by a sphere rather than a circle, it is of a diﬀerent sort from the holes detected by
+H1(X3) ≈Z×Z, which are detected by the cycles b −c and c −d.
+Let us continue one more step and construct a complex X4 from X3 by attaching
+a 3 cell C along the 2 sphere formed by A and B . This creates a chain group C3
+
+--- PAGE 6 ---
+The Idea of Homology
+101
+generated by this 3 cell C , and we deﬁne a boundary homomorphism ∂3 : C3→C2
+sending C to A −B since the cycle A −B should be viewed as the boundary of C
+in the same way that the 1 dimensional cycle a −b is the boundary of A. Now we
+have a sequence of three boundary homomorphisms C3
+∂3
+-----→C2
+∂2
+-----→C1
+∂1
+-----→C0 and
+the quotient H2(X4) = Ker ∂2/ Im ∂3 has become trivial. Also H3(X4) = Ker ∂3 = 0.
+The group H1(X4) is the same as H1(X3), namely Z×Z, so this is the only nontrivial
+homology group of X4 .
+It is clear what the general pattern of the examples is. For a cell complex X one
+has chain groups Cn(X) which are free abelian groups with basis the n cells of X ,
+and there are boundary homomorphisms ∂n : Cn(X)→Cn−1(X), in terms of which
+one deﬁnes the homology group Hn(X) = Ker ∂n/ Im ∂n+1 . The major diﬃculty is
+how to deﬁne ∂n in general. For n = 1 this is easy: The boundary of an oriented
+edge is the vertex at its head minus the vertex at its tail. The next case n = 2 is also
+not hard, at least for cells attached along cycles that are simply loops of edges, for
+then the boundary of the cell is this cycle of edges, with the appropriate signs taking
+orientations into account. But for larger n, matters become more complicated. Even
+if one restricts attention to cell complexes formed from polyhedral cells with nice
+attaching maps, there is still the matter of orientations to sort out.
+The best solution to this problem seems to be to adopt an indirect approach.
+Arbitrary polyhedra can always be subdivided into special polyhedra called simplices
+(the triangle and the tetrahedron are the 2 dimensional and 3 dimensional instances)
+so there is no loss of generality, though initially there is some loss of eﬃciency, in re-
+stricting attention entirely to simplices. For simplices there is no diﬃculty in deﬁning
+boundary maps or in handling orientations. So one obtains a homology theory, called
+simplicial homology, for cell complexes built from simplices. Still, this is a rather
+restricted class of spaces, and the theory itself has a certain rigidity that makes it
+awkward to work with.
+The way around these obstacles is to step back from the geometry of spaces
+decomposed into simplices and to consider instead something which at ﬁrst glance
+seems wildly more complicated, the collection of all possible continuous maps of
+simplices into a given space X . These maps generate tremendously large chain groups
+Cn(X), but the quotients Hn(X) = Ker ∂n/ Im ∂n+1 , called singular homology groups,
+turn out to be much smaller, at least for reasonably nice spaces X . In particular, for
+spaces like those in the four examples above, the singular homology groups coincide
+with the homology groups we computed from the cellular chains. And as we shall
+see later in this chapter, singular homology allows one to deﬁne these nice cellular
+homology groups for all cell complexes, and in particular to solve the problem of
+deﬁning the boundary maps for cellular chains.
+
+--- PAGE 7 ---
+102
+Chapter 2
+Homology
+The most important homology theory in algebraic topology, and the one we shall
+be studying almost exclusively, is called singular homology. Since the technical appa-
+ratus of singular homology is somewhat complicated, we will ﬁrst introduce a more
+primitive version called simplicial homology in order to see how some of the apparatus
+works in a simpler setting before beginning the general theory.
+The natural domain of deﬁnition for simplicial homology is a class of spaces we
+call ∆complexes, which are a mild generalization of the more classical notion of
+a simplicial complex. Historically, the modern deﬁnition of singular homology was
+ﬁrst given in [Eilenberg 1944], and ∆complexes were introduced soon thereafter in
+[Eilenberg-Zilber 1950] where they were called semisimplicial complexes. Within a
+few years this term came to be applied to what Eilenberg and Zilber called complete
+semisimplicial complexes, and later there was yet another shift in terminology as
+the latter objects came to be called simplicial sets. In theory this frees up the term
+semisimplicial complex to have its original meaning, but to avoid potential confusion
+it seems best to introduce a new name, and the term ∆complex has at least the virtue
+of brevity.
+D–Complexes
+The torus, the projective plane, and the Klein bottle can each be obtained from a
+square by identifying opposite edges in the way indicated by the arrows in the follow-
+ing ﬁgures:
+Cutting a square along a diagonal produces two triangles, so each of these surfaces
+can also be built from two triangles by identifying their edges in pairs. In similar
+fashion a polygon with any number of sides can be cut along
+diagonals into triangles, so in fact all closed surfaces can be
+constructed from triangles by identifying edges. Thus we have
+a single building block, the triangle, from which all surfaces can
+be constructed. Using only triangles we could also construct a
+large class of 2 dimensional spaces that are not surfaces in the
+strict sense, by allowing more than two edges to be identiﬁed
+together at a time.
+
+--- PAGE 8 ---
+Simplicial and Singular Homology
+Section 2.1
+103
+The idea of a ∆complex is to generalize constructions like these to any number
+of dimensions. The n dimensional analog of the triangle is the n simplex. This is the
+smallest convex set in a Euclidean space
+Rm containing n + 1 points v0, ··· , vn
+that do not lie in a hyperplane of dimen-
+sion less than n, where by a hyperplane
+we mean the set of solutions of a system
+of linear equations. An equivalent condi-
+tion would be that the diﬀerence vectors
+v1 −v0, ··· , vn −v0 are linearly independent. The points vi are the vertices of the
+simplex, and the simplex itself is denoted [v0, ··· , vn]. For exam-
+ple, there is the standard n simplex
+∆n =
+
+(t0, ··· , tn) ∈Rn+1 ||||
+P
+iti = 1 and ti ≥0 for all i
+	
+whose vertices are the unit vectors along the coordinate axes.
+For purposes of homology it will be important to keep track of the order of the
+vertices of a simplex, so ‘n simplex’ will really mean ‘n simplex with an ordering
+of its vertices’. A by-product of ordering the vertices of a simplex [v0, ··· , vn] is
+that this determines orientations of the edges [vi, vj] according to increasing sub-
+scripts, as shown in the two preceding ﬁgures. Specifying the ordering of the vertices
+also determines a canonical linear homeomorphism from the standard n simplex
+∆n onto any other n simplex [v0, ··· , vn], preserving the order of vertices, namely,
+(t0, ··· , tn)֏
+P
+i tivi . The coeﬃcients ti are the barycentric coordinates of the point
+P
+i tivi in [v0, ··· , vn].
+If we delete one of the n + 1 vertices of an n simplex [v0, ··· , vn], then the
+remaining n vertices span an (n −1) simplex, called a face of [v0, ··· , vn].
+We
+adopt the following convention:
+The vertices of a face, or of any subsimplex spanned by a subset of the vertices,
+will always be ordered according to their order in the larger simplex.
+The union of all the faces of ∆n is the boundary of ∆n , written ∂∆n .
+The open
+simplex
+◦∆n is ∆n −∂∆n , the interior of ∆n .
+A D complex structure on a space X is a collection of maps σα : ∆n→X , with n
+depending on the index α, such that:
+(i) The restriction σα ||
+◦∆n is injective, and each point of X is in the image of exactly
+one such restriction σα ||
+◦∆n .
+(ii) Each restriction of σα to a face of ∆n is one of the maps σβ : ∆n−1→X . Here we
+are identifying the face of ∆n with ∆n−1 by the canonical linear homeomorphism
+between them that preserves the ordering of the vertices.
+(iii) A set A ⊂X is open iﬀσ −1
+α (A) is open in ∆n for each σα .
+
+--- PAGE 9 ---
+104
+Chapter 2
+Homology
+Among other things, this last condition rules out trivialities like regarding all the
+points of X as individual vertices. The earlier decompositions of the torus, projective
+plane, and Klein bottle into two triangles, three edges, and one or two vertices deﬁne
+∆complex structures with a total of six σα ’s for the torus and Klein bottle and seven
+for the projective plane. The orientations on the edges in the pictures are compatible
+with a unique ordering of the vertices of each simplex, and these orderings determine
+the maps σα .
+A consequence of (iii) is that X can be built as a quotient space of a collection
+of disjoint simplices ∆n
+α , one for each σα : ∆n→X , the quotient space obtained by
+identifying each face of a ∆n
+α with the ∆n−1
+β
+corresponding to the restriction σβ of
+σα to the face in question, as in condition (ii). One can think of building the quotient
+space inductively, starting with a discrete set of vertices, then attaching edges to
+these to produce a graph, then attaching 2 simplices to the graph, and so on. From
+this viewpoint we see that the data specifying a ∆complex can be described purely
+combinatorially as collections of n simplices ∆n
+α for each n together with functions
+associating to each face of each n simplex ∆n
+α an (n −1) simplex ∆n−1
+β
+.
+More generally, ∆complexes can be built from collections of disjoint simplices by
+identifying various subsimplices spanned by subsets of the vertices, where the iden-
+tiﬁcations are performed using the canonical linear homeomorphisms that preserve
+the orderings of the vertices. The earlier ∆complex structures on a torus, projective
+plane, or Klein bottle can be obtained in this way, by identifying pairs of edges of
+two 2 simplices. If one starts with a single 2 simplex and identiﬁes all three edges
+to a single edge, preserving the orientations given by the ordering of the vertices,
+this produces a ∆complex known as the ‘dunce hat’. By contrast, if the three edges
+of a 2 simplex are identiﬁed preserving a cyclic orientation of the three edges, as in
+the ﬁrst ﬁgure at the right, this does not produce a
+∆complex structure, although if the 2 simplex is
+subdivided into three smaller 2 simplices about a
+central vertex, then one does obtain a ∆complex
+structure on the quotient space.
+Thinking of a ∆complex X as a quotient space of a collection of disjoint sim-
+plices, it is not hard to see that X must be a Hausdorﬀspace. Condition (iii) then
+implies that each restriction σα ||
+◦∆n is a homeomorphism onto its image, which is
+thus an open simplex in X . It follows from Proposition A.2 in the Appendix that
+these open simplices σα(
+◦∆n) are the cells en
+α of a CW complex structure on X with
+the σα ’s as characteristic maps. We will not need this fact at present, however.
+Simplicial Homology
+Our goal now is to deﬁne the simplicial homology groups of a ∆complex X . Let
+∆n(X) be the free abelian group with basis the open n simplices en
+α of X . Elements
+
+--- PAGE 10 ---
+Simplicial and Singular Homology
+Section 2.1
+105
+of ∆n(X), called n chains, can be written as ﬁnite formal sums
+P
+α nαen
+α with co-
+eﬃcients nα ∈Z. Equivalently, we could write
+P
+α nασα where σα : ∆n→X is the
+characteristic map of en
+α , with image the closure of en
+α as described above. Such a
+sum
+P
+α nασα can be thought of as a ﬁnite collection, or ‘chain’, of n simplices in X
+with integer multiplicities, the coeﬃcients nα .
+As one can see in the next ﬁgure, the boundary of the n simplex [v0, ··· , vn] con-
+sists of the various (n−1) dimensional simplices [v0, ··· , bvi, ··· , vn], where the ‘hat’
+symbol b over vi indicates that this vertex is deleted from the sequence v0, ··· , vn .
+In terms of chains, we might then wish to say that the boundary of [v0, ··· , vn] is the
+(n −1) chain formed by the sum of the faces [v0, ··· , bvi, ··· , vn]. However, it turns
+out to be better to insert certain signs and instead let the boundary of [v0, ··· , vn] be
+P
+i(−1)i[v0, ··· , bvi, ··· , vn]. Heuristically, the signs are inserted to take orientations
+into account, so that all the faces of a simplex are coherently oriented, as indicated in
+the following ﬁgure:
+∂[v0, v1] = [v1] −[v0]
+∂[v0, v1, v2] = [v1, v2] −[v0, v2] + [v0, v1]
+∂[v0, v1, v2, v3] = [v1, v2, v3] −[v0, v2, v3]
++ [v0, v1, v3] −[v0, v1, v2]
+In the last case, the orientations of the two hidden faces are also counterclockwise
+when viewed from outside the 3 simplex.
+With this geometry in mind we deﬁne for a general ∆complex X a boundary
+homomorphism ∂n : ∆n(X)→∆n−1(X) by specifying its values on basis elements:
+∂n(σα) =
+X
+i
+(−1)iσα ||[v0, ··· , bvi, ··· , vn]
+Note that the right side of this equation does indeed lie in ∆n−1(X) since each restric-
+tion σα ||[v0, ··· , bvi, ··· , vn] is the characteristic map of an (n −1) simplex of X .
+Lemma 2.1. The composition ∆n(X)
+∂n
+-----→∆n−1(X)
+∂n−1
+---------→∆n−2(X) is zero.
+Proof: We have ∂n(σ) =
+P
+i(−1)iσ ||[v0, ··· , bvi, ··· , vn], and hence
+∂n−1∂n(σ) =
+X
+j<i
+(−1)i(−1)jσ||[v0, ··· , bvj, ··· , bvi, ··· , vn]
++
+X
+j>i
+(−1)i(−1)j−1σ||[v0, ··· , bvi, ··· , bvj, ··· , vn]
+
+--- PAGE 11 ---
+106
+Chapter 2
+Homology
+The latter two summations cancel since after switching i and j in the second sum, it
+becomes the negative of the ﬁrst.
+⊔⊓
+The algebraic situation we have now is a sequence of homomorphisms of abelian
+groups
+··· -→Cn+1
+∂n+1
+--------→Cn
+∂n
+-----→Cn−1 -→··· -→C1
+∂1
+-----→C0
+∂0
+-----→0
+with ∂n∂n+1 = 0 for each n. Such a sequence is called a chain complex. Note that
+we have extended the sequence by a 0 at the right end, with ∂0 = 0. The equation
+∂n∂n+1 = 0 is equivalent to the inclusion Im ∂n+1 ⊂Ker ∂n , where Im and Ker denote
+image and kernel. So we can deﬁne the nth homology group of the chain complex to
+be the quotient group Hn = Ker ∂n/ Im ∂n+1 . Elements of Ker ∂n are called cycles and
+elements of Im ∂n+1 are called boundaries. Elements of Hn are cosets of Im ∂n+1 ,
+called homology classes. Two cycles representing the same homology class are said
+to be homologous. This means their diﬀerence is a boundary.
+Returning to the case that Cn = ∆n(X), the homology group Ker ∂n/ Im ∂n+1 will
+be denoted H∆
+n(X) and called the nth simplicial homology group of X .
+Example 2.2. X = S1 , with one vertex v and one edge e. Then ∆0(S1)
+and ∆1(S1) are both Z and the boundary map ∂1 is zero since ∂e = v −v .
+The groups ∆n(S1) are 0 for n ≥2 since there are no simplices in these
+dimensions. Hence
+H∆
+n(S1) ≈
+
+Z
+for n = 0, 1
+0
+for n ≥2
+This is an illustration of the general fact that if the boundary maps in a chain complex
+are all zero, then the homology groups of the complex are isomorphic to the chain
+groups themselves.
+Example 2.3. X = T , the torus with the ∆complex structure pictured earlier, having
+one vertex, three edges a, b, and c , and two 2 simplices U and L. As in the previous
+example, ∂1 = 0 so H∆
+0(T) ≈Z. Since ∂2U = a + b −c = ∂2L and {a, b, a + b −c} is
+a basis for ∆1(T), it follows that H∆
+1(T) ≈Z⊕Z with basis the homology classes [a]
+and [b]. Since there are no 3 simplices, H∆
+2(T) is equal to Ker ∂2 , which is inﬁnite
+cyclic generated by U −L since ∂(pU + qL) = (p + q)(a + b −c) = 0 only if p = −q.
+Thus
+H∆
+n(T) ≈
+
+
+
+Z ⊕Z
+for n = 1
+Z
+for n = 0, 2
+0
+for n ≥3
+Example 2.4. X = RP2 , as pictured earlier, with two vertices v and w , three edges
+a, b, and c , and two 2 simplices U and L. Then Im ∂1 is generated by w −v , so
+H∆
+0(X) ≈Z with either vertex as a generator. Since ∂2U = −a+b+c and ∂2L = a−b+c ,
+we see that ∂2 is injective, so H∆
+2(X) = 0. Further, Ker ∂1 ≈Z⊕Z with basis a−b and
+c , and Im ∂2 is an index-two subgroup of Ker ∂1 since we can choose c and a −b + c
+
+--- PAGE 12 ---
+Simplicial and Singular Homology
+Section 2.1
+107
+as a basis for Ker ∂1 and a −b + c and 2c = (a −b + c) + (−a + b + c) as a basis for
+Im ∂2 . Thus H∆
+1(X) ≈Z2 .
+Example 2.5. We can obtain a ∆complex structure on Sn by taking two copies of ∆n
+and identifying their boundaries via the identity map. Labeling these two n simplices
+U and L, then it is obvious that Ker ∂n is inﬁnite cyclic generated by U −L. Thus
+H∆
+n(Sn) ≈Z for this ∆complex structure on Sn . Computing the other homology
+groups would be more diﬃcult.
+Many similar examples could be worked out without much trouble, such as the
+other closed orientable and nonorientable surfaces. However, the calculations do tend
+to increase in complexity before long, particularly for higher-dimensional complexes.
+Some obvious general questions arise: Are the groups H∆
+n(X) independent of
+the choice of ∆complex structure on X ? In other words, if two ∆complexes are
+homeomorphic, do they have isomorphic homology groups? More generally, do they
+have isomorphic homology groups if they are merely homotopy equivalent? To answer
+such questions and to develop a general theory it is best to leave the rather rigid
+simplicial realm and introduce the singular homology groups. These have the added
+advantage that they are deﬁned for all spaces, not just ∆complexes. At the end of
+this section, after some theory has been developed, we will show that simplicial and
+singular homology groups coincide for ∆complexes.
+Traditionally, simplicial homology is deﬁned for simplicial complexes, which are
+the ∆complexes whose simplices are uniquely determined by their vertices. This
+amounts to saying that each n simplex has n + 1 distinct vertices, and that no other
+n simplex has this same set of vertices. Thus a simplicial complex can be described
+combinatorially as a set X0 of vertices together with sets Xn of n simplices, which
+are (n+1) element subsets of X0 . The only requirement is that each (k+1) element
+subset of the vertices of an n simplex in Xn is a k simplex, in Xk . From this combi-
+natorial data a ∆complex X can be constructed, once we choose a partial ordering
+of the vertices X0 that restricts to a linear ordering on the vertices of each simplex
+in Xn . For example, we could just choose a linear ordering of all the vertices. This
+might perhaps involve invoking the Axiom of Choice for large vertex sets.
+An exercise at the end of this section is to show that every ∆complex can be
+subdivided to be a simplicial complex. In particular, every ∆complex is then homeo-
+morphic to a simplicial complex.
+Compared with simplicial complexes, ∆complexes have the advantage of simpler
+computations since fewer simplices are required. For example, to put a simplicial
+complex structure on the torus one needs at least 14 triangles, 21 edges, and 7 vertices,
+and for RP2 one needs at least 10 triangles, 15 edges, and 6 vertices. This would slow
+down calculations considerably!
+
+--- PAGE 13 ---
+108
+Chapter 2
+Homology
+Singular Homology
+A singular n simplex in a space X is by deﬁnition just a map σ : ∆n→X . The
+word ‘singular’ is used here to express the idea that σ need not be a nice embedding
+but can have ‘singularities’ where its image does not look at all like a simplex. All that
+is required is that σ be continuous. Let Cn(X) be the free abelian group with basis
+the set of singular n simplices in X . Elements of Cn(X), called n chains, or more
+precisely singularn chains, are ﬁnite formal sums
+P
+i niσi for ni ∈Z and σi : ∆n→X .
+A boundary map ∂n : Cn(X)→Cn−1(X) is deﬁned by the same formula as before:
+∂n(σ) =
+X
+i
+(−1)iσ ||[v0, ··· , bvi, ··· , vn]
+Implicit in this formula is the canonical identiﬁcation of [v0, ··· , bvi, ··· , vn] with
+∆n−1 , preserving the ordering of vertices, so that σ ||[v0, ··· , bvi, ··· , vn] is regarded
+as a map ∆n−1→X , that is, a singular (n −1) simplex.
+Often we write the boundary map ∂n from Cn(X) to Cn−1(X) simply as ∂when
+this does not lead to serious ambiguities. The proof of Lemma 2.1 applies equally well
+to singular simplices, showing that ∂n∂n+1 = 0 or more concisely ∂2 = 0, so we can
+deﬁne the singular homology group Hn(X) = Ker ∂n/ Im ∂n+1 .
+It is evident from the deﬁnition that homeomorphic spaces have isomorphic sin-
+gular homology groups Hn , in contrast with the situation for H∆
+n . On the other hand,
+since the groups Cn(X) are so large, the number of singular n simplices in X usually
+being uncountable, it is not at all clear that for a ∆complex X with ﬁnitely many sim-
+plices, Hn(X) should be ﬁnitely generated for all n, or that Hn(X) should be zero
+for n larger than the dimension of X — two properties that are trivial for H∆
+n(X).
+Though singular homology looks so much more general than simplicial homology,
+it can actually be regarded as a special case of simplicial homology by means of the
+following construction. For an arbitrary space X , deﬁne the singular complex S(X)
+to be the ∆complex with one n simplex ∆n
+σ for each singular n simplex σ : ∆n→X ,
+with ∆n
+σ attached in the obvious way to the (n −1) simplices of S(X) that are the
+restrictions of σ to the various (n −1) simplices in ∂∆n . It is clear from the deﬁni-
+tions that H∆
+n
+ S(X)
+
+is identical with Hn(X) for all n, and in this sense the singular
+homology group Hn(X) is a special case of a simplicial homology group. One can
+regard S(X) as a ∆complex model for X , although it is usually an extremely large
+object compared to X .
+Cycles in singular homology are deﬁned algebraically, but they can be given a
+somewhat more geometric interpretation in terms of maps from ﬁnite ∆complexes.
+To see this, note ﬁrst that a singular n chain ξ can always be written in the form
+P
+i εiσi with εi = ±1, allowing repetitions of the singular n simplices σi . Given such
+an n chain ξ =
+P
+i εiσi , when we compute ∂ξ as a sum of singular (n −1) simplices
+with signs ±1, there may be some canceling pairs consisting of two identical singu-
+lar (n −1) simplices with opposite signs.
+Choosing a maximal collection of such
+
+--- PAGE 14 ---
+Simplicial and Singular Homology
+Section 2.1
+109
+canceling pairs, construct an n dimensional ∆complex Kξ from a disjoint union of
+n simplices ∆n
+i , one for each σi , by identifying the pairs of (n−1) dimensional faces
+corresponding to the chosen canceling pairs. The σi ’s then induce a map Kξ→X . If
+ξ is a cycle, all the (n−1) dimensional faces of the ∆n
+i ’s are identiﬁed in pairs. Thus
+Kξ is a manifold, locally homeomorphic to Rn , near all points in the complement
+of the (n −2) skeleton Kn−2
+ξ
+of Kξ . All the n simplices of Kξ can be coherently
+oriented by taking the signs of the σi ’s into account, so Kξ −Kn−2
+ξ
+is actually an
+oriented manifold. A closer inspection shows that Kξ is also a manifold near points
+in the interiors of (n −2) simplices, so the nonmanifold points of Kξ in fact lie in
+the (n−3) skeleton. However, near points in the interiors of (n−3) simplices it can
+very well happen that Kξ is not a manifold.
+In particular, elements of H1(X) are represented by collections of oriented loops
+in X , and elements of H2(X) are represented by maps of closed oriented surfaces
+into X . With a bit more work it can be shown that an oriented 1 cycle
+`
+αS1
+α→X is
+zero in H1(X) iﬀit extends to a map of a compact oriented surface with boundary
+`
+αS1
+α into X . The analogous statement for 2 cycles is also true. In the early days of
+homology theory it may have been believed, or at least hoped, that this close connec-
+tion with manifolds continued in all higher dimensions, but this has turned out not to
+be the case. There is a sort of homology theory built from manifolds, called bordism,
+but it is quite a bit more complicated than the homology theory we are studying here.
+After these preliminary remarks let us begin to see what can be proved about
+singular homology.
+Proposition 2.6. Corresponding to the decomposition of a space X into its path-
+components Xα there is an isomorphism of Hn(X) with the direct sum
+L
+α Hn(Xα).
+Proof: Since a singular simplex always has path-connected image, Cn(X) splits as the
+direct sum of its subgroups Cn(Xα). The boundary maps ∂n preserve this direct sum
+decomposition, taking Cn(Xα) to Cn−1(Xα), so Ker ∂n and Im ∂n+1 split similarly as
+direct sums, hence the homology groups also split, Hn(X) ≈
+L
+α Hn(Xα).
+⊔⊓
+Proposition 2.7. If X is nonempty and path-connected, then H0(X) ≈Z. Hence for
+any space X , H0(X) is a direct sum of Z’s, one for each path-component of X .
+Proof: By deﬁnition, H0(X) = C0(X)/ Im ∂1 since ∂0 = 0. Deﬁne a homomorphism
+ε : C0(X)→Z by ε
+ P
+i niσi
+
+=
+P
+i ni . This is obviously surjective if X is nonempty.
+The claim is that Ker ε = Im ∂1 if X is path-connected, and hence ε induces an iso-
+morphism H0(X) ≈Z.
+To verify the claim, observe ﬁrst that Im ∂1 ⊂Ker ε since for a singular 1 simplex
+σ : ∆1→X we have ε∂1(σ) = ε
+ σ ||[v1] −σ ||[v0]
+
+= 1 −1 = 0.
+For the reverse
+inclusion Ker ε ⊂Im ∂1 , suppose ε
+ P
+i niσi
+
+= 0, so
+P
+i ni = 0. The σi ’s are singular
+0 simplices, which are simply points of X . Choose a path τi : I→X from a basepoint
+
+--- PAGE 15 ---
+110
+Chapter 2
+Homology
+x0 to σi(v0) and let σ0 be the singular 0 simplex with image x0 . We can view τi
+as a singular 1 simplex, a map τi : [v0, v1]→X , and then we have ∂τi = σi −σ0 .
+Hence ∂
+ P
+i niτi
+
+=
+P
+i niσi −
+P
+i niσ0 =
+P
+i niσi since
+P
+i ni = 0. Thus
+P
+i niσi is a
+boundary, which shows that Ker ε ⊂Im ∂1 .
+⊔⊓
+Proposition 2.8. If X is a point, then Hn(X) = 0 for n > 0 and H0(X) ≈Z.
+Proof: In this case there is a unique singular n simplex σn for each n, and ∂(σn) =
+P
+i(−1)iσn−1 , a sum of n + 1 terms, which is therefore 0 for n odd and σn−1 for n
+even, n ≠0. Thus we have the chain complex
+··· -→Z
+≈-----→Z
+0-----→Z
+≈
+-----→Z
+0-----→Z -→0
+with boundary maps alternately isomorphisms and trivial maps, except at the last Z.
+The homology groups of this complex are trivial except for H0 ≈Z.
+⊔⊓
+It is often very convenient to have a slightly modiﬁed version of homology for
+which a point has trivial homology groups in all dimensions, including zero. This is
+done by deﬁning the reduced homology groups eHn(X) to be the homology groups
+of the augmented chain complex
+··· -→C2(X)
+∂2
+-----→C1(X)
+∂1
+-----→C0(X)
+ε-----→Z -→0
+where ε
+ P
+i niσi
+
+=
+P
+i ni as in the proof of Proposition 2.7. Here we had better
+require X to be nonempty, to avoid having a nontrivial homology group in dimension
+−1. Since ε∂1 = 0, ε vanishes on Im ∂1 and hence induces a map H0(X)→Z with
+kernel eH0(X), so H0(X) ≈eH0(X)⊕Z. Obviously Hn(X) ≈eHn(X) for n > 0.
+Formally, one can think of the extra Z in the augmented chain complex as gener-
+ated by the unique map [∅]→X where [∅] is the empty simplex, with no vertices.
+The augmentation map ε is then the usual boundary map since ∂[v0] = [ bv0] = [∅].
+Readers who know about the fundamental group π1(X) may wish to make a
+detour here to look at §2.A where it is shown that H1(X) is the abelianization of
+π1(X) whenever X is path-connected. This result will not be needed elsewhere in the
+chapter, however.
+Homotopy Invariance
+The ﬁrst substantial result we will prove about singular homology is that ho-
+motopy equivalent spaces have isomorphic homology groups. This will be done by
+showing that a map f : X→Y induces a homomorphism f∗: Hn(X)→Hn(Y ) for each
+n, and that f∗is an isomorphism if f is a homotopy equivalence.
+For a map f : X→Y , an induced homomorphism f♯: Cn(X)→Cn(Y ) is deﬁned
+by composing each singular n simplex σ : ∆n→X with f to get a singular n simplex
+
+--- PAGE 16 ---
+Simplicial and Singular Homology
+Section 2.1
+111
+f♯(σ) = fσ : ∆n→Y , then extending f♯linearly via f♯
+ P
+i niσi
+
+=
+P
+i nif♯(σi) =
+P
+i nifσi . The maps f♯: Cn(X)→Cn(Y ) satisfy f♯∂= ∂f♯since
+f♯∂(σ) = f♯
+ P
+i(−1)iσ||[v0, ··· , bvi, ··· , vn]
+
+=
+P
+i(−1)ifσ||[v0, ··· , bvi, ··· , vn] = ∂f♯(σ)
+Thus we have a diagram
+such that in each square the composition f♯∂equals the composition ∂f♯. A diagram
+of maps with the property that any two compositions of maps starting at one point in
+the diagram and ending at another are equal is called a commutative diagram. In the
+present case commutativity of the diagram is equivalent to the commutativity relation
+f♯∂= ∂f♯, but commutative diagrams can contain commutative triangles, pentagons,
+etc., as well as commutative squares.
+The fact that the maps f♯: Cn(X)→Cn(Y ) satisfy f♯∂= ∂f♯is also expressed
+by saying that the f♯’s deﬁne a chain map from the singular chain complex of X
+to that of Y . The relation f♯∂= ∂f♯implies that f♯takes cycles to cycles since
+∂α = 0 implies ∂(f♯α) = f♯(∂α) = 0.
+Also, f♯takes boundaries to boundaries
+since f♯(∂β) = ∂(f♯β). Hence f♯induces a homomorphism f∗: Hn(X)→Hn(Y ). An
+algebraic statement of what we have just proved is:
+Proposition 2.9. A chain map between chain complexes induces homomorphisms
+between the homology groups of the two complexes.
+⊔⊓
+Two basic properties of induced homomorphisms which are important in spite
+of being rather trivial are:
+(i) (fg)∗= f∗g∗for a composed mapping X
+g--→Y
+f--→Z .
+This follows from
+associativity of compositions ∆n
+σ--→X
+g--→Y
+f--→Z .
+(ii) 11∗= 11 where 11 denotes the identity map of a space or a group.
+Less trivially, we have:
+Theorem 2.10. If two maps f, g : X→Y are homotopic, then they induce the same
+homomorphism f∗= g∗: Hn(X)→Hn(Y ).
+In view of the formal properties (fg)∗= f∗g∗and 11∗= 11, this immediately
+implies:
+Corollary 2.11. The maps f∗: Hn(X)→Hn(Y ) induced by a homotopy equivalence
+f : X→Y are isomorphisms for all n.
+⊔⊓
+For example, if X is contractible then eHn(X) = 0 for all n.
+
+--- PAGE 17 ---
+112
+Chapter 2
+Homology
+Proof of 2.10: The essential ingredient is a procedure for
+subdividing ∆n×I into simplices. The ﬁgure shows the
+cases n = 1, 2.
+In ∆n×I , let ∆n×{0} = [v0, ··· , vn]
+and ∆n×{1} = [w0, ··· , wn], where vi and wi have the
+same image under the projection ∆n×I→∆n . We can pass
+from [v0, ··· , vn] to [w0, ··· , wn] by interpolating a se-
+quence of n simplices, each obtained from the preceding
+one by moving one vertex vi up to wi , starting with vn
+and working backwards to v0 . Thus the ﬁrst step is to
+move [v0, ··· , vn] up to [v0, ··· , vn−1, wn], then the sec-
+ond step is to move this up to [v0, ··· , vn−2, wn−1, wn],
+and so on. In the typical step [v0, ··· , vi, wi+1, ··· , wn]
+moves up to [v0, ··· , vi−1, wi, ··· , wn].
+The region be-
+tween these two n simplices is exactly the (n+1) simplex
+[v0, ··· , vi, wi, ··· , wn] which has [v0, ··· , vi, wi+1, ··· , wn] as its lower face and
+[v0, ··· , vi−1, wi, ··· , wn] as its upper face. Altogether, ∆n×I is the union of the
+(n+1) simplices [v0, ··· , vi, wi, ··· , wn], each intersecting the next in an n simplex
+face.
+Given a homotopy F : X×I→Y from f to g and a singular simplex σ : ∆n→X ,
+we can form the composition F ◦(σ ×11) : ∆n×I→X×I→Y . Using this, we can deﬁne
+prism operators P : Cn(X)→Cn+1(Y ) by the following formula:
+P(σ) =
+X
+i
+(−1)iF ◦(σ ×11)||[v0, ··· , vi, wi, ··· , wn]
+We will show that these prism operators satisfy the basic relation
+∂P = g♯−f♯−P∂
+Geometrically, the left side of this equation represents the boundary of the prism, and
+the three terms on the right side represent the top ∆n×{1}, the bottom ∆n×{0}, and
+the sides ∂∆n×I of the prism. To prove the relation we calculate
+∂P(σ) =
+X
+j≤i
+(−1)i(−1)jF◦(σ ×11)||[v0, ··· , bvj, ··· , vi, wi, ··· , wn]
++
+X
+j≥i
+(−1)i(−1)j+1F◦(σ ×11)||[v0, ··· , vi, wi, ··· , c
+wj, ··· , wn]
+The terms with i = j in the two sums cancel except for F ◦(σ ×11)||[ bv0, w0, ··· , wn],
+which is g ◦σ = g♯(σ), and −F ◦(σ ×11)||[v0, ··· , vn, c
+wn], which is −f ◦σ = −f♯(σ).
+The terms with i ≠j are exactly −P∂(σ) since
+P∂(σ) =
+X
+i<j
+(−1)i(−1)jF◦(σ ×11)||[v0, ··· , vi, wi, ··· , c
+wj, ··· , wn]
++
+X
+i>j
+(−1)i−1(−1)jF◦(σ ×11)||[v0, ··· , bvj, ··· , vi, wi, ··· , wn]
+
+--- PAGE 18 ---
+Simplicial and Singular Homology
+Section 2.1
+113
+Now we can ﬁnish the proof of the theorem. If α ∈Cn(X) is a cycle, then we
+have g♯(α) −f♯(α) = ∂P(α) + P∂(α) = ∂P(α) since ∂α = 0. Thus g♯(α) −f♯(α) is
+a boundary, so g♯(α) and f♯(α) determine the same homology class, which means
+that g∗equals f∗on the homology class of α.
+⊔⊓
+The relationship ∂P +P∂= g♯−f♯is expressed by saying P is a chain homotopy
+between the chain maps f♯and g♯. We have just shown:
+Proposition 2.12. Chain-homotopic chain maps induce the same homomorphism on
+homology.
+⊔⊓
+There are also induced homomorphisms f∗: eHn(X)→eHn(Y ) for reduced homol-
+ogy groups since f♯ε = εf♯where f♯is the identity map on the added groups Z in the
+augmented chain complexes. The properties of induced homomorphisms we proved
+above hold equally well in the setting of reduced homology, with the same proofs.
+Exact Sequences and Excision
+If there was always a simple relationship between the homology groups of a space
+X , a subspace A, and the quotient space X/A, then this could be a very useful tool
+in understanding the homology groups of spaces such as CW complexes that can be
+built inductively from successively more complicated subspaces. Perhaps the simplest
+possible relationship would be if Hn(X) contained Hn(A) as a subgroup and the
+quotient group Hn(X)/Hn(A) was isomorphic to Hn(X/A).
+While this does hold
+in some cases, if it held in general then homology theory would collapse totally since
+every space X can be embedded as a subspace of a space with trivial homology groups,
+namely the cone CX = (X×I)/(X×{0}), which is contractible.
+It turns out that this overly simple model does not have to be modiﬁed too much
+to get a relationship that is valid in fair generality. The novel feature of the actual
+relationship is that it involves the groups Hn(X), Hn(A), and Hn(X/A) for all values
+of n simultaneously. In practice this is not as bad as it might sound, and in addition
+it has the pleasant side eﬀect of sometimes allowing higher-dimensional homology
+groups to be computed in terms of lower-dimensional groups which may already be
+known, for example by induction.
+In order to formulate the relationship we are looking for, we need an algebraic
+deﬁnition which is central to algebraic topology. A sequence of homomorphisms
+··· ----→An+1
+αn+1
+------------→An
+αn
+--------→An−1 ----→···
+is said to be exact if Ker αn = Im αn+1 for each n. The inclusions Im αn+1 ⊂Ker αn
+are equivalent to αnαn+1 = 0, so the sequence is a chain complex, and the opposite
+inclusions Ker αn ⊂Im αn+1 say that the homology groups of this chain complex are
+trivial.
+
+--- PAGE 19 ---
+114
+Chapter 2
+Homology
+A number of basic algebraic concepts can be expressed in terms of exact se-
+quences, for example:
+(i) 0 -→A
+α--→B is exact iﬀKer α = 0, i.e., α is injective.
+(ii) A
+α--→B -→0 is exact iﬀIm α = B , i.e., α is surjective.
+(iii) 0 -→A
+α--→B -→0 is exact iﬀα is an isomorphism, by (i) and (ii).
+(iv) 0 -→A
+α--→B
+β--→C -→0 is exact iﬀα is injective, β is surjective, and Ker β =
+Im α, so β induces an isomorphism C ≈B/ Im α. This can be written C ≈B/A if
+we think of α as an inclusion of A as a subgroup of B .
+An exact sequence 0→A→B→C→0 as in (iv) is called a short exact sequence.
+Exact sequences provide the right tool to relate the homology groups of a space,
+a subspace, and the associated quotient space:
+Theorem 2.13. If X is a space and A is a nonempty closed subspace that is a defor-
+mation retract of some neighborhood in X , then there is an exact sequence
+··· --→eHn(A)
+i∗
+-----→eHn(X)
+j∗
+-----→eHn(X/A)
+∂--→eHn−1(A)
+i∗
+-----→eHn−1(X) --→···
+··· --→eH0(X/A) --→0
+where i is the inclusion A֓ X and j is the quotient map X→X/A.
+The map ∂will be constructed in the course of the proof. The idea is that an
+element x ∈eHn(X/A) can be represented by a chain α in X with ∂α a cycle in A
+whose homology class is ∂x ∈eHn−1(A).
+Pairs of spaces (X, A) satisfying the hypothesis of the theorem will be called
+good pairs. For example, if X is a CW complex and A is a nonempty subcomplex,
+then (X, A) is a good pair by Proposition A.5 in the Appendix.
+Corollary 2.14.
+eHn(Sn) ≈Z and eHi(Sn) = 0 for i ≠n.
+Proof: For n > 0 take (X, A) = (Dn, Sn−1) so X/A = Sn . The terms eHi(Dn) in the
+long exact sequence for this pair are zero since Dn is contractible. Exactness of the
+sequence then implies that the maps eHi(Sn)
+∂--→eHi−1(Sn−1) are isomorphisms for
+i > 0 and that eH0(Sn) = 0. The result now follows by induction on n, starting with
+the case of S0 where the result holds by Propositions 2.6 and 2.8.
+⊔⊓
+As an application of this calculation we have the following classical theorem of
+Brouwer, the 2 dimensional case of which was proved in §1.1.
+Corollary 2.15. ∂Dn is not a retract of Dn . Hence every map f : Dn→Dn has a
+ﬁxed point.
+Proof: If r : Dn→∂Dn is a retraction, then ri = 11 for i : ∂Dn→Dn the inclusion map.
+The composition eHn−1(∂Dn)
+i∗
+-----→eHn−1(Dn)
+r∗
+-----→eHn−1(∂Dn) is then the identity map
+
+--- PAGE 20 ---
+Simplicial and Singular Homology
+Section 2.1
+115
+on eHn−1(∂Dn) ≈Z. But i∗and r∗are both 0 since eHn−1(Dn) = 0, and we have a
+contradiction. The statement about ﬁxed points follows as in Theorem 1.9.
+⊔⊓
+The derivation of the exact sequence of homology groups for a good pair (X, A)
+will be rather a long story. We will in fact derive a more general exact sequence which
+holds for arbitrary pairs (X, A), but with the homology groups of the quotient space
+X/A replaced by relative homology groups, denoted Hn(X, A). These turn out to be
+quite useful for many other purposes as well.
+Relative Homology Groups
+It sometimes happens that by ignoring a certain amount of data or structure one
+obtains a simpler, more ﬂexible theory which, almost paradoxically, can give results
+not readily obtainable in the original setting. A familiar instance of this is arithmetic
+mod n, where one ignores multiples of n. Relative homology is another example. In
+this case what one ignores is all singular chains in a subspace of the given space.
+Relative homology groups are deﬁned in the following way. Given a space X and
+a subspace A ⊂X , let Cn(X, A) be the quotient group Cn(X)/Cn(A). Thus chains in
+A are trivial in Cn(X, A). Since the boundary map ∂: Cn(X)→Cn−1(X) takes Cn(A)
+to Cn−1(A), it induces a quotient boundary map ∂: Cn(X, A)→Cn−1(X, A). Letting n
+vary, we have a sequence of boundary maps
+··· -→Cn(X, A)
+∂-----→Cn−1(X, A) -→···
+The relation ∂2 = 0 holds for these boundary maps since it holds before passing to
+quotient groups. So we have a chain complex, and the homology groups Ker ∂/ Im ∂
+of this chain complex are by deﬁnition the relative homology groups Hn(X, A). By
+considering the deﬁnition of the relative boundary map we see:
+Elements of Hn(X, A) are represented by relative cycles: n chains α ∈Cn(X)
+such that ∂α ∈Cn−1(A).
+A relative cycle α is trivial in Hn(X, A) iﬀit is a relative boundary: α = ∂β + γ
+for some β ∈Cn+1(X) and γ ∈Cn(A).
+These properties make precise the intuitive idea that Hn(X, A) is ‘homology of X
+modulo A’.
+The quotient Cn(X)/Cn(A) could also be viewed as a subgroup of Cn(X), the
+subgroup with basis the singular n simplices σ : ∆n→X whose image is not con-
+tained in A. However, the boundary map does not take this subgroup of Cn(X) to
+the corresponding subgroup of Cn−1(X), so it is usually better to regard Cn(X, A) as
+a quotient rather than a subgroup of Cn(X).
+Our goal now is to show that the relative homology groups Hn(X, A) for any pair
+(X, A) ﬁt into a long exact sequence
+··· -→Hn(A) -→Hn(X) -→Hn(X, A) -→Hn−1(A) -→Hn−1(X) -→···
+··· -→H0(X, A) -→0
+
+--- PAGE 21 ---
+116
+Chapter 2
+Homology
+This will be entirely a matter of algebra. To start the process, consider the diagram
+where i is inclusion and j is the quotient map. The diagram is commutative by the def-
+inition of the boundary maps. Letting n vary, and drawing these short exact sequences
+vertically rather than horizontally, we
+have a large commutative diagram of
+the form shown at the right, where the
+columns are exact and the rows are
+chain complexes which we denote A,
+B , and C . Such a diagram is called a
+short exact sequence of chain com-
+plexes.
+We will show that when we
+pass to homology groups, this short
+exact sequence of chain complexes stretches out into a long exact sequence of homol-
+ogy groups
+··· -→Hn(A)
+i∗
+-----→Hn(B)
+j∗
+-----→Hn(C)
+∂--→Hn−1(A)
+i∗
+-----→Hn−1(B) -→···
+where Hn(A) denotes the homology group Ker ∂/ Im ∂at An in the chain complex A,
+and Hn(B) and Hn(C) are deﬁned similarly.
+The commutativity of the squares in the short exact sequence of chain complexes
+means that i and j are chain maps.
+These therefore induce maps i∗and j∗on
+homology. To deﬁne the boundary map ∂: Hn(C)→Hn−1(A), let c ∈Cn be a cycle.
+Since j is onto, c = j(b) for some b ∈Bn . The element ∂b ∈Bn−1
+is in Ker j since j(∂b) = ∂j(b) = ∂c = 0. So ∂b = i(a) for some
+a ∈An−1 since Ker j = Im i. Note that ∂a = 0 since i(∂a) =
+∂i(a) = ∂∂b = 0 and i is injective. We deﬁne ∂: Hn(C)→Hn−1(A)
+by sending the homology class of c to the homology class of a,
+∂[c] = [a]. This is well-deﬁned since:
+The element a is uniquely determined by ∂b since i is injective.
+A diﬀerent choice b′ for b would have j(b′) = j(b), so b′ −b is in Ker j = Im i.
+Thus b′ −b = i(a′) for some a′, hence b′ = b + i(a′). The eﬀect of replacing b
+by b+i(a′) is to change a to the homologous element a+∂a′ since i(a+∂a′) =
+i(a) + i(∂a′) = ∂b + ∂i(a′) = ∂(b + i(a′)).
+A diﬀerent choice of c within its homology class would have the form c + ∂c′ .
+Since c′ = j(b′) for some b′ , we then have c + ∂c′ = c + ∂j(b′) = c + j(∂b′) =
+j(b + ∂b′), so b is replaced by b + ∂b′ , which leaves ∂b and therefore also a
+unchanged.
+
+--- PAGE 22 ---
+Simplicial and Singular Homology
+Section 2.1
+117
+The map ∂: Hn(C)→Hn−1(A) is a homomorphism since if ∂[c1] = [a1] and ∂[c2] =
+[a2] via elements b1 and b2 as above, then j(b1 + b2) = j(b1) + j(b2) = c1 + c2 and
+i(a1 + a2) = i(a1) + i(a2) = ∂b1 + ∂b2 = ∂(b1 + b2), so ∂([c1] + [c2]) = [a1] + [a2].
+Theorem 2.16. The sequence of homology groups
+··· -→Hn(A)
+i∗
+-----→Hn(B)
+j∗
+-----→Hn(C)
+∂--→Hn−1(A)
+i∗
+-----→Hn−1(B) -→···
+is exact.
+Proof: There are six things to verify:
+Im i∗⊂Ker j∗. This is immediate since ji = 0 implies j∗i∗= 0.
+Im j∗⊂Ker ∂. We have ∂j∗= 0 since in this case ∂b = 0 in the deﬁnition of ∂.
+Im ∂⊂Ker i∗. Here i∗∂= 0 since i∗∂takes [c] to [∂b] = 0.
+Ker j∗⊂Im i∗. A homology class in Ker j∗is represented by a cycle b ∈Bn with
+j(b) a boundary, so j(b) = ∂c′ for some c′ ∈Cn+1 . Since j is surjective, c′ = j(b′)
+for some b′ ∈Bn+1 . We have j(b −∂b′) = j(b) −j(∂b′) = j(b) −∂j(b′) = 0 since
+∂j(b′) = ∂c′ = j(b). So b −∂b′ = i(a) for some a ∈An . This a is a cycle since
+i(∂a) = ∂i(a) = ∂(b −∂b′) = ∂b = 0 and i is injective. Thus i∗[a] = [b −∂b′] = [b],
+showing that i∗maps onto Ker j∗.
+Ker ∂⊂Im j∗. In the notation used in the deﬁnition of ∂, if c represents a homology
+class in Ker ∂, then a = ∂a′ for some a′ ∈An . The element b −i(a′) is a cycle
+since ∂(b −i(a′)) = ∂b −∂i(a′) = ∂b −i(∂a′) = ∂b −i(a) = 0. And j(b −i(a′)) =
+j(b) −ji(a′) = j(b) = c , so j∗maps [b −i(a′)] to [c].
+Ker i∗⊂Im ∂. Given a cycle a ∈An−1 such that i(a) = ∂b for some b ∈Bn , then
+j(b) is a cycle since ∂j(b) = j(∂b) = ji(a) = 0, and ∂takes [j(b)] to [a].
+⊔⊓
+This theorem represents the beginnings of the subject of homological algebra.
+The method of proof is sometimes called diagram chasing.
+Returning to topology, the preceding algebraic theorem yields a long exact se-
+quence of homology groups:
+··· -→Hn(A)
+i∗
+-----→Hn(X)
+j∗
+-----→Hn(X, A)
+∂--→Hn−1(A)
+i∗
+-----→Hn−1(X) -→···
+··· -→H0(X, A) -→0
+The boundary map ∂: Hn(X, A)→Hn−1(A) has a very simple description: If a class
+[α] ∈Hn(X, A) is represented by a relative cycle α, then ∂[α] is the class of the
+cycle ∂α in Hn−1(A). This is immediate from the algebraic deﬁnition of the boundary
+homomorphism in the long exact sequence of homology groups associated to a short
+exact sequence of chain complexes.
+This long exact sequence makes precise the idea that the groups Hn(X, A) mea-
+sure the diﬀerence between the groups Hn(X) and Hn(A). In particular, exactness
+
+--- PAGE 23 ---
+118
+Chapter 2
+Homology
+implies that if Hn(X, A) = 0 for all n, then the inclusion A֓X induces isomorphisms
+Hn(A) ≈Hn(X) for all n, by the remark (iii) following the deﬁnition of exactness. The
+converse is also true according to an exercise at the end of this section.
+There is a completely analogous long exact sequence of reduced homology groups
+for a pair (X, A) with A ≠∅. This comes from applying the preceding algebraic ma-
+chinery to the short exact sequence of chain complexes formed by the short exact se-
+quences 0→Cn(A)→Cn(X)→Cn(X, A)→0 in nonnegative dimensions, augmented
+by the short exact sequence 0 -→Z
+11--→Z -→0 -→0 in dimension −1. In particular
+this means that eHn(X, A) is the same as Hn(X, A) for all n, when A ≠∅.
+Example 2.17. In the long exact sequence of reduced homology groups for the pair
+(Dn, ∂Dn), the maps Hi(Dn, ∂Dn)
+∂--→eHi−1(Sn−1) are isomorphisms for all i > 0
+since the remaining terms eHi(Dn) are zero for all i. Thus we obtain the calculation
+Hi(Dn, ∂Dn) ≈
+
+Z
+for i = n
+0
+otherwise
+Example 2.18. Applying the long exact sequence of reduced homology groups to a
+pair (X, x0) with x0 ∈X yields isomorphisms Hn(X, x0) ≈eHn(X) for all n since
+eHn(x0) = 0 for all n.
+There are induced homomorphisms for relative homology just as there are in the
+nonrelative, or ‘absolute’, case. A map f : X→Y with f(A) ⊂B , or more concisely
+f : (X, A)→(Y , B), induces homomorphisms f♯: Cn(X, A)→Cn(Y , B) since the chain
+map f♯: Cn(X)→Cn(Y ) takes Cn(A) to Cn(B), so we get a well-deﬁned map on quo-
+tients, f♯: Cn(X, A)→Cn(Y , B). The relation f♯∂= ∂f♯holds for relative chains since
+it holds for absolute chains. By Proposition 2.9 we then have induced homomorphisms
+f∗: Hn(X, A)→Hn(Y , B).
+Proposition 2.19. If two maps f, g : (X, A)→(Y , B) are homotopic through maps of
+pairs (X, A)→(Y , B), then f∗= g∗: Hn(X, A)→Hn(Y , B).
+Proof: The prism operator P from the proof of Theorem 2.10 takes Cn(A) to Cn+1(B),
+hence induces a relative prism operator P : Cn(X, A)→Cn+1(Y , B). Since we are just
+passing to quotient groups, the formula ∂P + P∂= g♯−f♯remains valid. Thus the
+maps f♯and g♯on relative chain groups are chain homotopic, and hence they induce
+the same homomorphism on relative homology groups.
+⊔⊓
+An easy generalization of the long exact sequence of a pair (X, A) is the long
+exact sequence of a triple (X, A, B), where B ⊂A ⊂X :
+··· -→Hn(A, B) -→Hn(X, B) -→Hn(X, A) -→Hn−1(A, B) -→···
+This is the long exact sequence of homology groups associated to the short exact
+sequence of chain complexes formed by the short exact sequences
+0 -→Cn(A, B) -→Cn(X, B) -→Cn(X, A) -→0
+
+--- PAGE 24 ---
+Simplicial and Singular Homology
+Section 2.1
+119
+For example, taking B to be a point, the long exact sequence of the triple (X, A, B)
+becomes the long exact sequence of reduced homology for the pair (X, A).
+Excision
+A fundamental property of relative homology groups is given by the following
+Excision Theorem, describing when the relative groups Hn(X, A) are unaﬀected by
+deleting, or excising, a subset Z ⊂A.
+Theorem 2.20. Given subspaces Z ⊂A ⊂X such that the closure of Z is contained
+in the interior of A, then the inclusion (X −Z, A −Z) ֓ (X, A) induces isomor-
+phisms Hn(X −Z, A −Z)→Hn(X, A) for all n. Equivalently, for subspaces A, B ⊂X
+whose interiors cover X , the inclusion (B, A ∩B) ֓ (X, A) induces isomorphisms
+Hn(B, A ∩B)→Hn(X, A) for all n.
+The translation between the two versions is obtained by
+setting B = X −Z and Z = X −B . Then A∩B = A−Z and the
+condition cl Z ⊂int A is equivalent to X = int A ∪int B since
+X −int B = cl Z .
+The proof of the excision theorem will involve a rather lengthy technical detour
+involving a construction known as barycentric subdivision, which allows homology
+groups to be computed using small singular simplices. In a metric space ‘smallness’
+can be deﬁned in terms of diameters, but for general spaces it will be deﬁned in terms
+of covers.
+For a space X , let U = {Uj} be a collection of subspaces of X whose interiors
+form an open cover of X , and let CU
+n(X) be the subgroup of Cn(X) consisting of
+chains
+P
+i niσi such that each σi has image contained in some set in the cover U. The
+boundary map ∂: Cn(X)→Cn−1(X) takes CU
+n(X) to CU
+n−1(X), so the groups CU
+n(X)
+form a chain complex. We denote the homology groups of this chain complex by
+HU
+n(X).
+Proposition 2.21. The inclusion ι : CU
+n(X) ֓ Cn(X) is a chain homotopy equiva-
+lence, that is, there is a chain map ρ : Cn(X)→CU
+n(X) such that ιρ and ρι are chain
+homotopic to the identity. Hence ι induces isomorphisms HU
+n(X) ≈Hn(X) for all n.
+Proof: The barycentric subdivision process will be performed at four levels, beginning
+with the most geometric and becoming increasingly algebraic.
+(1) Barycentric Subdivision of Simplices. The points of a simplex [v0, ··· , vn] are the
+linear combinations
+P
+i tivi with
+P
+i ti = 1 and ti ≥0 for each i. The barycenter or
+‘center of gravity’ of the simplex [v0, ··· , vn] is the point b =
+P
+i tivi whose barycen-
+tric coordinates ti are all equal, namely ti = 1/(n + 1) for each i. The barycentric
+subdivision of [v0, ··· , vn] is the decomposition of [v0, ··· , vn] into the n simplices
+[b, w0, ··· , wn−1] where, inductively, [w0, ··· , wn−1] is an (n −1) simplex in the
+
+--- PAGE 25 ---
+120
+Chapter 2
+Homology
+barycentric subdivision of a face [v0, ··· , bvi, ··· , vn]. The induction starts with the
+case n = 0 when the barycentric subdivision of [v0] is deﬁned to be just [v0] itself.
+The next two cases n = 1, 2 and
+part of the case n = 3 are shown
+in the ﬁgure. It follows from the
+inductive deﬁnition that the ver-
+tices of simplices in the barycen-
+tric subdivision of [v0, ··· , vn]
+are exactly the barycenters of all
+the k dimensional faces [vi0, ··· , vik] of [v0, ··· , vn] for 0 ≤k ≤n. When k = 0 this
+gives the original vertices vi since the barycenter of a 0 simplex is itself. The barycen-
+ter of [vi0, ··· , vik] has barycentric coordinates ti = 1/(k + 1) for i = i0, ··· , ik and
+ti = 0 otherwise.
+The n simplices of the barycentric subdivision of ∆n , together with all their faces,
+do in fact form a ∆complex structure on ∆n , indeed a simplicial complex structure,
+though we shall not need to know this in what follows.
+A fact we will need is that the diameter of each simplex of the barycentric subdivi-
+sion of [v0, ··· , vn] is at most n/(n+1) times the diameter of [v0, ··· , vn]. Here the
+diameter of a simplex is by deﬁnition the maximum distance between any two of its
+points, and we are using the metric from the ambient Euclidean space Rm containing
+[v0, ··· , vn]. The diameter of a simplex equals the maximum distance between any
+of its vertices because the distance between two points v and
+P
+i tivi of [v0, ··· , vn]
+satisﬁes the inequality
+v −
+P
+itivi
+ =
+P
+iti(v −vi)
+ ≤
+P
+iti|v −vi| ≤
+P
+iti maxj|v −vj| = maxj|v −vj|
+To obtain the bound n/(n + 1) on the ratio of diameters, we therefore need to verify
+that the distance between any two vertices wj and wk of a simplex [w0, ··· , wn] of
+the barycentric subdivision of [v0, ··· , vn] is at most n/(n+1) times the diameter of
+[v0, ··· , vn]. If neither wj nor wk is the barycenter b of [v0, ··· , vn], then these two
+points lie in a proper face of [v0, ··· , vn] and we are done by induction on n. So we
+may suppose wj , say, is the barycenter b, and then by the previous displayed inequal-
+ity we may take wk to be a vertex vi . Let bi be the barycenter of [v0, ··· , bvi, ··· , vn],
+with all barycentric coordinates equal to 1/n except
+for ti = 0. Then we have b =
+1
+n+1 vi +
+n
+n+1 bi . The
+sum of the two coeﬃcients is 1, so b lies on the line
+segment [vi, bi] from vi to bi , and the distance from
+b to vi is n/(n + 1) times the length of [vi, bi]. Hence the distance from b to vi is
+bounded by n/(n + 1) times the diameter of [v0, ··· , vn].
+The signiﬁcance of the factor n/(n+1) is that by repeated barycentric subdivision
+we can produce simplices of arbitrarily small diameter since
+ n/(n+1)
+r approaches
+
+--- PAGE 26 ---
+Simplicial and Singular Homology
+Section 2.1
+121
+0 as r goes to inﬁnity. It is important that the bound n/(n + 1) does not depend on
+the shape of the simplex since repeated barycentric subdivision produces simplices
+of many diﬀerent shapes.
+(2) Barycentric Subdivision of Linear Chains. The main part of the proof will be to
+construct a subdivision operator S : Cn(X)→Cn(X) and show this is chain homotopic
+to the identity map. First we will construct S and the chain homotopy in a more
+restricted linear setting.
+For a convex set Y in some Euclidean space, the linear maps ∆n→Y generate
+a subgroup of Cn(Y ) that we denote LCn(Y ), the linear chains. The boundary map
+∂: Cn(Y )→Cn−1(Y ) takes LCn(Y ) to LCn−1(Y ), so the linear chains form a subcom-
+plex of the singular chain complex of Y . We can uniquely designate a linear map
+λ : ∆n→Y by [w0, ··· , wn] where wi is the image under λ of the ith vertex of ∆n .
+To avoid having to make exceptions for 0 simplices it will be convenient to augment
+the complex LC(Y ) by setting LC−1(Y ) = Z generated by the empty simplex [∅],
+with ∂[w0] = [∅] for all 0 simplices [w0].
+Each point b ∈Y determines a homomorphism b : LCn(Y )→LCn+1(Y ) deﬁned
+on basis elements by b([w0, ··· , wn]) = [b, w0, ··· , wn]. Geometrically, the homo-
+morphism b can be regarded as a cone operator, sending a linear chain to the cone
+having the linear chain as the base of the cone and the point b as the tip of the
+cone. Applying the usual formula for ∂, we obtain the relation ∂b([w0, ··· , wn]) =
+[w0, ··· , wn] −b(∂[w0, ··· , wn]). By linearity it follows that ∂b(α) = α −b(∂α) for
+all α ∈LCn(Y ). This expresses algebraically the geometric fact that the boundary of
+a cone consists of its base together with the cone on the boundary of its base. The
+relation ∂b(α) = α−b(∂α) can be rewritten as ∂b+b∂= 11, so b is a chain homotopy
+between the identity map and the zero map on the augmented chain complex LC(Y ).
+Now we deﬁne a subdivision homomorphism S : LCn(Y )→LCn(Y ) by induction
+on n.
+Let λ : ∆n→Y be a generator of LCn(Y ) and let bλ be the image of the
+barycenter of ∆n under λ.
+Then the inductive formula for S is S(λ) = bλ(S∂λ)
+where bλ : LCn−1(Y )→LCn(Y ) is the cone operator deﬁned in the preceding para-
+graph. The induction starts with S([∅]) = [∅], so S is the identity on LC−1(Y ).
+It is also the identity on LC0(Y ), since when n = 0 the formula for S becomes
+S([w0]) = w0(S∂[w0]) = w0(S([∅])) = w0([∅]) = [w0]. When λ is an embed-
+ding, with image a genuine n simplex [w0, ··· , wn], then S(λ) is the sum of the
+n simplices in the barycentric subdivision of [w0, ··· , wn], with certain signs that
+could be computed explicitly. This is apparent by comparing the inductive deﬁnition
+of S with the inductive deﬁnition of the barycentric subdivision of a simplex.
+Let us check that the maps S satisfy ∂S = S∂, and hence give a chain map from
+the chain complex LC(Y ) to itself. Since S = 11 on LC0(Y ) and LC−1(Y ), we certainly
+have ∂S = S∂on LC0(Y ). The result for larger n is given by the following calculation,
+in which we omit some parentheses to unclutter the formulas:
+
+--- PAGE 27 ---
+122
+Chapter 2
+Homology
+∂Sλ = ∂bλ(S∂λ)
+= S∂λ −bλ∂(S∂λ)
+since ∂bλ = 11 −bλ∂
+= S∂λ −bλS(∂∂λ)
+since ∂S(∂λ) = S∂(∂λ) by induction on n
+= S∂λ
+since ∂∂= 0
+We next build a chain homotopy T : LCn(Y )→LCn+1(Y ) between S and the iden-
+tity, ﬁtting into a diagram
+We deﬁne T on LCn(Y ) inductively by setting T = 0 for n = −1 and letting Tλ =
+bλ(λ −T∂λ) for n ≥0. The geometric motivation for this formula is an inductively
+deﬁned subdivision of ∆n×I obtained by
+joining all simplices in ∆n×{0} ∪∂∆n×I
+to the barycenter of ∆n×{1}, as indicated
+in the ﬁgure in the case n = 2. What T
+actually does is take the image of this sub-
+division under the projection ∆n×I→∆n .
+The chain homotopy formula ∂T + T∂= 11 −S is trivial on LC−1(Y ) where T = 0
+and S = 11. Verifying the formula on LCn(Y ) with n ≥0 is done by the calculation
+∂Tλ = ∂bλ(λ −T∂λ)
+= λ −T∂λ −bλ∂(λ −T∂λ)
+since ∂bλ = 11 −bλ∂
+= λ −T∂λ −bλ
+
+∂λ −∂T(∂λ)
+
+= λ −T∂λ −bλ
+
+S(∂λ) + T∂(∂λ)
+
+by induction on n
+= λ −T∂λ −Sλ
+since ∂∂= 0 and Sλ = bλ(S∂λ)
+Now we can discard the group LC−1(Y ) and the relation ∂T + T∂= 11 −S still
+holds since T was zero on LC−1(Y ).
+(3) Barycentric Subdivision of General Chains. Deﬁne S : Cn(X)→Cn(X) by setting
+Sσ = σ♯S∆n for a singular n simplex σ : ∆n→X .
+Since S∆n is the sum of the
+n simplices in the barycentric subdivision of ∆n , with certain signs, Sσ is the corre-
+sponding signed sum of the restrictions of σ to the n simplices of the barycentric
+subdivision of ∆n . The operator S is a chain map since
+∂Sσ = ∂σ♯S∆n = σ♯∂S∆n = σ♯S∂∆n
+= σ♯S
+ P
+i(−1)i∆n
+i
+
+where ∆n
+i is the ith face of ∆n
+=
+P
+i(−1)iσ♯S∆n
+i
+=
+P
+i(−1)iS(σ||∆n
+i )
+= S
+ P
+i(−1)iσ||∆n
+i
+
+= S(∂σ)
+
+--- PAGE 28 ---
+Simplicial and Singular Homology
+Section 2.1
+123
+In similar fashion we deﬁne T : Cn(X)→Cn+1(X) by Tσ = σ♯T∆n , and this gives a
+chain homotopy between S and the identity, since the formula ∂T +T∂= 11−S holds
+by the calculation
+∂Tσ = ∂σ♯T∆n = σ♯∂T∆n = σ♯(∆n −S∆n −T∂∆n) = σ −Sσ −σ♯T∂∆n
+= σ −Sσ −T(∂σ)
+where the last equality follows just as in the previous displayed calculation, with S
+replaced by T .
+(4) Iterated Barycentric Subdivision. A chain homotopy between 11 and the iterate Sm
+is given by the operator Dm =
+P
+0≤i<m TSi since
+∂Dm + Dm∂=
+X
+0≤i<m
+ ∂TSi + TSi∂
+
+=
+X
+0≤i<m
+ ∂TSi + T∂Si
+=
+X
+0≤i<m
+ ∂T + T∂
+
+Si =
+X
+0≤i<m
+ 11 −S
+
+Si =
+X
+0≤i<m
+ Si −Si+1
+= 11 −Sm
+For each singular n simplex σ : ∆n→X there exists an m such that Sm(σ) lies in
+CU
+n(X) since the diameter of the simplices of Sm(∆n) will be less than a Lebesgue
+number of the cover of ∆n by the open sets σ −1(int Uj) if m is large enough. (Recall
+that a Lebesgue number for an open cover of a compact metric space is a number
+ε > 0 such that every set of diameter less than ε lies in some set of the cover; such a
+number exists by an elementary compactness argument.) We cannot expect the same
+number m to work for all σ ’s, so let us deﬁne m(σ) to be the smallest m such that
+Smσ is in CU
+n(X).
+We now deﬁne D : Cn(X)→Cn+1(X) by setting Dσ = Dm(σ)σ for each singular
+n simplex σ : ∆n→X . For this D we would like to ﬁnd a chain map ρ : Cn(X)→Cn(X)
+with image in CU
+n(X) satisfying the chain homotopy equation
+(∗)
+∂D + D∂= 11 −ρ
+A quick way to do this is simply to regard this equation as deﬁning ρ, so we let
+ρ = 11 −∂D −D∂. It follows easily that ρ is a chain map since
+∂ρ(σ) = ∂σ −∂2Dσ −∂D∂σ = ∂σ −∂D∂σ
+and
+ρ(∂σ) = ∂σ −∂D∂σ −D∂2σ = ∂σ −∂D∂σ
+To check that ρ takes Cn(X) to CU
+n(X) we compute ρ(σ) more explicitly:
+ρ(σ) = σ −∂Dσ −D(∂σ)
+= σ −∂Dm(σ)σ −D(∂σ)
+= Sm(σ)σ + Dm(σ)(∂σ) −D(∂σ)
+since
+∂Dm + Dm∂= 11 −Sm
+The term Sm(σ)σ lies in CU
+n(X) by the deﬁnition of m(σ). The remaining terms
+Dm(σ)(∂σ) −D(∂σ) are linear combinations of terms Dm(σ)(σj) −Dm(σj)(σj) for σj
+the restriction of σ to a face of ∆n , so m(σj) ≤m(σ) and hence the diﬀerence
+
+--- PAGE 29 ---
+124
+Chapter 2
+Homology
+Dm(σ)(σj) −Dm(σj)(σj) consists of terms TSi(σj) with i ≥m(σj), and these terms
+lie in CU
+n(X) since T takes CU
+n−1(X) to CU
+n(X).
+Viewing ρ as a chain map Cn(X)→CU
+n(X), the equation (∗) says that ∂D+D∂=
+11−ιρ for ι : CU
+n(X)֓Cn(X) the inclusion. Furthermore, ρι = 11 since D is identically
+zero on CU
+n(X), as m(σ) = 0 if σ is in CU
+n(X), hence the summation deﬁning Dσ is
+empty. Thus we have shown that ρ is a chain homotopy inverse for ι.
+⊔⊓
+Proof of the Excision Theorem: We prove the second version, involving a decom-
+position X = A ∪B . For the cover U = {A, B} we introduce the suggestive notation
+Cn(A + B) for CU
+n(X), the sums of chains in A and chains in B . At the end of the
+preceding proof we had formulas ∂D + D∂= 11 −ιρ and ρι = 11. All the maps ap-
+pearing in these formulas take chains in A to chains in A, so they induce quotient
+maps when we factor out chains in A. These quotient maps automatically satisfy the
+same two formulas, so the inclusion Cn(A + B)/Cn(A) ֓ Cn(X)/Cn(A) induces an
+isomorphism on homology. The map Cn(B)/Cn(A ∩B)→Cn(A + B)/Cn(A) induced
+by inclusion is obviously an isomorphism since both quotient groups are free with
+basis the singular n simplices in B that do not lie in A. Hence we obtain the desired
+isomorphism Hn(B, A ∩B) ≈Hn(X, A) induced by inclusion.
+⊔⊓
+All that remains in the proof of Theorem 2.13 is to replace relative homology
+groups with absolute homology groups. This is achieved by the following result.
+Proposition 2.22. For good pairs (X, A), the quotient map q : (X, A)→(X/A, A/A)
+induces isomorphisms q∗: Hn(X, A)→Hn(X/A, A/A) ≈eHn(X/A) for all n.
+Proof: Let V be a neighborhood of A in X that deformation retracts onto A. We
+have a commutative diagram
+The upper left horizontal map is an isomorphism since in the long exact sequence of
+the triple (X, V, A) the groups Hn(V, A) are zero for all n, because a deformation
+retraction of V onto A gives a homotopy equivalence of pairs (V, A) ≃(A, A), and
+Hn(A, A) = 0. The deformation retraction of V onto A induces a deformation retrac-
+tion of V/A onto A/A, so the same argument shows that the lower left horizontal
+map is an isomorphism as well. The other two horizontal maps are isomorphisms
+directly from excision. The right-hand vertical map q∗is an isomorphism since q
+restricts to a homeomorphism on the complement of A. From the commutativity of
+the diagram it follows that the left-hand q∗is an isomorphism.
+⊔⊓
+This proposition shows that relative homology can be expressed as reduced abso-
+lute homology in the case of good pairs (X, A), but in fact there is a way of doing this
+
+--- PAGE 30 ---
+Simplicial and Singular Homology
+Section 2.1
+125
+for arbitrary pairs. Consider the space X ∪CA where CA is the cone (A×I)/(A×{0})
+whose base A×{1} we identify with A ⊂X . Using terminology
+introduced in Chapter 0, X∪CA can also be described as the map-
+ping cone of the inclusion A֓ X . The assertion is that Hn(X, A)
+is isomorphic to eHn(X ∪CA) for all n via the sequence of iso-
+morphisms
+eHn(X ∪CA) ≈Hn(X ∪CA, CA) ≈Hn(X ∪CA −{p}, CA −{p}) ≈Hn(X, A)
+where p ∈CA is the tip of the cone. The ﬁrst isomorphism comes from the exact
+sequence of the pair, using the fact that CA is contractible. The second isomorphism
+is excision, and the third comes from a deformation retraction of CA −{p} onto A.
+Here is an application of the preceding proposition:
+Example 2.23.
+Let us ﬁnd explicit cycles representing generators of the inﬁnite
+cyclic groups Hn(Dn, ∂Dn) and eHn(Sn). Replacing (Dn, ∂Dn) by the equivalent pair
+(∆n, ∂∆n), we will show by induction on n that the identity map in : ∆n→∆n , viewed
+as a singular n simplex, is a cycle generating Hn(∆n, ∂∆n). That it is a cycle is clear
+since we are considering relative homology. When n = 0 it certainly represents a
+generator.
+For the induction step, let Λ ⊂∆n be the union of all but one of the
+(n −1) dimensional faces of ∆n . Then we claim there are isomorphisms
+Hn(∆n, ∂∆n)
+≈-----→Hn−1(∂∆n, Λ)
+≈
+←------ Hn−1(∆n−1, ∂∆n−1)
+The ﬁrst isomorphism is a boundary map in the long exact sequence of the triple
+(∆n, ∂∆n, Λ), whose third terms Hi(∆n, Λ) are zero since ∆n deformation retracts
+onto Λ, hence (∆n, Λ) ≃(Λ, Λ). The second isomorphism is induced by the inclusion
+i : ∆n−1→∂∆n as the face not contained in Λ. When n = 1, i induces an isomorphism
+on relative homology since this is true already at the chain level. When n > 1, ∂∆n−1
+is nonempty so we are dealing with good pairs and i induces a homeomorphism of
+quotients ∆n−1/∂∆n−1 ≈∂∆n/Λ. The induction step then follows since the cycle in is
+sent under the ﬁrst isomorphism to the cycle ∂in which equals ±in−1 in Cn−1(∂∆n, Λ).
+To ﬁnd a cycle generating eHn(Sn) let us regard Sn as two n simplices ∆n
+1 and
+∆n
+2 with their boundaries identiﬁed in the obvious way, preserving the ordering of
+vertices. The diﬀerence ∆n
+1 −∆n
+2 , viewed as a singular n chain, is then a cycle, and we
+claim it represents a generator of eHn(Sn). To see this, consider the isomorphisms
+eHn(Sn)
+≈
+-----→Hn(Sn, ∆n
+2 )
+≈
+←------ Hn(∆n
+1 , ∂∆n
+1 )
+where the ﬁrst isomorphism comes from the long exact sequence of the pair (Sn, ∆n
+2 )
+and the second isomorphism is justiﬁed in the nontrivial cases n > 0 by passing to
+quotients as before. Under these isomorphisms the cycle ∆n
+1 −∆n
+2 in the ﬁrst group
+corresponds to the cycle ∆n
+1 in the third group, which represents a generator of this
+group as we have seen, so ∆n
+1 −∆n
+2 represents a generator of eHn(Sn).
+
+--- PAGE 31 ---
+126
+Chapter 2
+Homology
+The preceding proposition implies that the excision property holds also for sub-
+complexes of CW complexes:
+Corollary 2.24. If the CW complex X is the union of subcomplexes A and B , then
+the inclusion (B, A∩B)֓(X, A) induces isomorphisms Hn(B, A∩B)→Hn(X, A) for
+all n.
+Proof: Since CW pairs are good, Proposition 2.22 allows us to pass to the quotient
+spaces B/(A ∩B) and X/A which are homeomorphic, assuming we are not in the
+trivial case A ∩B = ∅.
+⊔⊓
+Here is another application of the preceding proposition:
+Corollary 2.25. For a wedge sum
+W
+α Xα , the inclusions iα : Xα֓
+W
+α Xα induce an iso-
+morphism
+L
+α iα∗:
+L
+α eHn(Xα)→eHn(
+W
+α Xα), provided that the wedge sum is formed
+at basepoints xα ∈Xα such that the pairs (Xα, xα) are good.
+Proof: Since reduced homology is the same as homology relative to a basepoint, this
+follows from the proposition by taking (X, A) = (
+`
+αXα,
+`
+α{xα}).
+⊔⊓
+Here is an application of the machinery we have developed, a classical result of
+Brouwer from around 1910 known as ‘invariance of dimension’, which says in partic-
+ular that Rm is not homeomorphic to Rn if m ≠n.
+Theorem 2.26. If nonempty open sets U ⊂Rm and V ⊂Rn are homeomorphic,
+then m = n.
+Proof: For x ∈U we have Hk(U, U −{x}) ≈Hk(Rm, Rm −{x}) by excision. From
+the long exact sequence for the pair (Rm, Rm −{x}) we get Hk(Rm, Rm −{x}) ≈
+eHk−1(Rm −{x}). Since Rm −{x} deformation retracts onto a sphere Sm−1 , we con-
+clude that Hk(U, U −{x}) is Z for k = m and 0 otherwise. By the same reasoning,
+Hk(V, V −{y}) is Z for k = n and 0 otherwise. Since a homeomorphism h : U→V
+induces isomorphisms Hk(U, U −{x})→Hk(V, V −{h(x)}) for all k, we must have
+m = n.
+⊔⊓
+Generalizing the idea of this proof, the local homology groups of a space X at a
+point x ∈X are deﬁned to be the groups Hn(X, X −{x}). For any open neighborhood
+U of x , excision gives isomorphisms Hn(X, X −{x}) ≈Hn(U, U −{x}) assuming
+points are closed in X , and thus the groups Hn(X, X −{x}) depend only on the
+local topology of X near x . A homeomorphism f : X→Y must induce isomorphisms
+Hn(X, X −{x}) ≈Hn(Y , Y −{f(x)}) for all x and n, so the local homology groups
+can be used to tell when spaces are not locally homeomorphic at certain points, as in
+the preceding proof. The exercises give some further examples of this.
+
+--- PAGE 32 ---
+Simplicial and Singular Homology
+Section 2.1
+127
+Naturality
+The exact sequences we have been constructing have an extra property that will
+become important later at key points in many arguments, though at ﬁrst glance this
+property may seem just an idle technicality, not very interesting. We shall discuss the
+property now rather than interrupting later arguments to check it when it is needed,
+but the reader may prefer to postpone a careful reading of this discussion.
+The property is called naturality. For example, to say that the long exact sequence
+of a pair is natural means that for a map f : (X, A)→(Y , B), the diagram
+is commutative. Commutativity of the squares involving i∗and j∗follows from the
+obvious commutativity of the corresponding squares of chain groups, with Cn in place
+of Hn . For the other square, when we deﬁned induced homomorphisms we saw that
+f♯∂= ∂f♯at the chain level. Then for a class [α] ∈Hn(X, A) represented by a relative
+cycle α, we have f∗∂[α] = f∗[∂α] = [f♯∂α] = [∂f♯α] = ∂[f♯α] = ∂f∗[α].
+Alternatively, we could appeal to the general algebraic fact that the long exact
+sequence of homology groups associated to a short exact sequence of chain complexes
+is natural: For a commutative diagram of short exact sequences of chain complexes
+the induced diagram
+is commutative. Commutativity of the ﬁrst two squares is obvious since βi = i′α
+implies β∗i∗= i′
+∗α∗and γj = j′β implies γ∗j∗= j′
+∗β∗. For the third square, recall
+that the map ∂: Hn(C)→Hn−1(A) was deﬁned by ∂[c] = [a] where c = j(b) and
+i(a) = ∂b. Then ∂[γ(c)] = [α(a)] since γ(c) = γj(b) = j′(β(b)) and i′(α(a)) =
+βi(a) = β∂(b) = ∂β(b). Hence ∂γ∗[c] = α∗[a] = α∗∂[c].
+
+--- PAGE 33 ---
+128
+Chapter 2
+Homology
+This algebraic fact also implies naturality of the long exact sequence of a triple
+and the long exact sequence of reduced homology of a pair.
+Finally, there is the naturality of the long exact sequence in Theorem 2.13, that
+is, commutativity of the diagram
+where i and q denote inclusions and quotient maps, and f : X/A→Y /B is induced
+by f . The ﬁrst two squares commute since fi = if and fq = qf . The third square
+expands into
+We have already shown commutativity of the ﬁrst and third squares, and the second
+square commutes since fq = qf .
+The Equivalence of Simplicial and Singular Homology
+We can use the preceding results to show that the simplicial and singular homol-
+ogy groups of ∆complexes are always isomorphic. For the proof it will be convenient
+to consider the relative case as well, so let X be a ∆complex with A ⊂X a sub-
+complex. Thus A is the ∆complex formed by any union of simplices of X . Relative
+groups H∆
+n(X, A) can be deﬁned in the same way as for singular homology, via relative
+chains ∆n(X, A) = ∆n(X)/∆n(A), and this yields a long exact sequence of simplicial
+homology groups for the pair (X, A) by the same algebraic argument as for singular
+homology. There is a canonical homomorphism H∆
+n(X, A)→Hn(X, A) induced by the
+chain map ∆n(X, A)→Cn(X, A) sending each n simplex of X to its characteristic
+map σ : ∆n→X . The possibility A = ∅is not excluded, in which case the relative
+groups reduce to absolute groups.
+Theorem 2.27. The homomorphisms H∆
+n(X, A)→Hn(X, A) are isomorphisms for
+all n and all ∆complex pairs (X, A).
+Proof: First we do the case that X is ﬁnite-dimensional and A is empty. For Xk
+the k skeleton of X , consisting of all simplices of dimension k or less, we have a
+commutative diagram of exact sequences:
+
+--- PAGE 34 ---
+Simplicial and Singular Homology
+Section 2.1
+129
+Let us ﬁrst show that the ﬁrst and fourth vertical maps are isomorphisms for all n.
+The simplicial chain group ∆n(Xk, Xk−1) is zero for n ≠k, and is free abelian with
+basis the k simplices of X when n = k. Hence H∆
+n(Xk, Xk−1) has exactly the same
+description. The corresponding singular homology groups Hn(Xk, Xk−1) can be com-
+puted by considering the map Φ :
+`
+α(∆k
+α, ∂∆k
+α)→(Xk, Xk−1) formed by the character-
+istic maps ∆k→X for all the k simplices of X . Since Φ induces a homeomorphism
+of quotient spaces
+`
+α∆k
+α/
+`
+α∂∆k
+α ≈Xk/Xk−1 , it induces isomorphisms on all singu-
+lar homology groups. Thus Hn(Xk, Xk−1) is zero for n ≠k, while for n = k this
+group is free abelian with basis represented by the relative cycles given by the char-
+acteristic maps of all the k simplices of X , in view of the fact that Hk(∆k, ∂∆k) is
+generated by the identity map ∆k→∆k , as we showed in Example 2.23. Therefore the
+map H∆
+k(Xk, Xk−1)→Hk(Xk, Xk−1) is an isomorphism.
+By induction on k we may assume the second and ﬁfth vertical maps in the pre-
+ceding diagram are isomorphisms as well. The following frequently quoted basic alge-
+braic lemma will then imply that the middle vertical map is an isomorphism, ﬁnishing
+the proof when X is ﬁnite-dimensional and A = ∅.
+The Five-Lemma. In a commutative diagram
+of abelian groups as at the right, if the two rows
+are exact and α, β, δ, and ε are isomorphisms,
+then γ is an isomorphism also.
+Proof: It suﬃces to show:
+(a) γ is surjective if β and δ are surjective and ε is injective.
+(b) γ is injective if β and δ are injective and α is surjective.
+The proofs of these two statements are straightforward diagram chasing. There is
+really no choice about how the argument can proceed, and it would be a good exercise
+for the reader to close the book now and reconstruct the proofs without looking.
+To prove (a), start with an element c′ ∈C′ . Then k′(c′) = δ(d) for some d ∈D
+since δ is surjective. Since ε is injective and εℓ(d) = ℓ′δ(d) = ℓ′k′(c′) = 0, we
+deduce that ℓ(d) = 0, hence d = k(c) for some c ∈C by exactness of the upper row.
+The diﬀerence c′ −γ(c) maps to 0 under k′ since k′(c′) −k′γ(c) = k′(c′) −δk(c) =
+k′(c′) −δ(d) = 0. Therefore c′ −γ(c) = j′(b′) for some b′ ∈B′ by exactness. Since
+β is surjective, b′ = β(b) for some b ∈B , and then γ(c + j(b)) = γ(c) + γj(b) =
+γ(c) + j′β(b) = γ(c) + j′(b′) = c′ , showing that γ is surjective.
+To prove (b), suppose that γ(c) = 0. Since δ is injective, δk(c) = k′γ(c) = 0
+implies k(c) = 0, so c = j(b) for some b ∈B . The element β(b) satisﬁes j′β(b) =
+γj(b) = γ(c) = 0, so β(b) = i′(a′) for some a′ ∈A′ . Since α is surjective, a′ = α(a)
+for some a ∈A. Since β is injective, β(i(a) −b) = βi(a) −β(b) = i′α(a) −β(b) =
+i′(a′)−β(b) = 0 implies i(a)−b = 0. Thus b = i(a), and hence c = j(b) = ji(a) = 0
+since ji = 0. This shows γ has trivial kernel.
+⊔⊓
+
+--- PAGE 35 ---
+130
+Chapter 2
+Homology
+Returning to the proof of the theorem, we next consider the case that X is inﬁnite-
+dimensional, where we will use the following fact: A compact set in X can meet only
+ﬁnitely many open simplices of X , that is, simplices with their proper faces deleted.
+This is a general fact about CW complexes proved in the Appendix, but here is a
+direct proof for ∆complexes. If a compact set C intersected inﬁnitely many open
+simplices, it would contain an inﬁnite sequence of points xi each lying in a diﬀerent
+open simplex. Then the sets Ui = X −
+S
+j≠i{xj}, which are open since their preimages
+under the characteristic maps of all the simplices are clearly open, form an open cover
+of C with no ﬁnite subcover.
+This can be applied to show the map H∆
+n(X)→Hn(X) is surjective. Represent a
+given element of Hn(X) by a singular n cycle z. This is a linear combination of ﬁnitely
+many singular simplices with compact images, meeting only ﬁnitely many open sim-
+plices of X , hence contained in Xk for some k. We have shown that H∆
+n(Xk)→Hn(Xk)
+is an isomorphism, in particular surjective, so z is homologous in Xk (hence in X ) to
+a simplicial cycle. This gives surjectivity. Injectivity is similar: If a simplicial n cycle
+z is the boundary of a singular chain in X , this chain has compact image and hence
+must lie in some Xk, so z represents an element of the kernel of H∆
+n(Xk)→Hn(Xk).
+But we know this map is injective, so z is a simplicial boundary in Xk , and therefore
+in X .
+It remains to do the case of arbitrary X with A ≠∅, but this follows from the
+absolute case by applying the ﬁve-lemma to the canonical map from the long exact
+sequence of simplicial homology groups for the pair (X, A) to the corresponding long
+exact sequence of singular homology groups.
+⊔⊓
+We can deduce from this theorem that Hn(X) is ﬁnitely generated whenever X
+is a ∆complex with ﬁnitely many n simplices, since in this case the simplicial chain
+group ∆n(X) is ﬁnitely generated, hence also its subgroup of cycles and therefore
+also the latter group’s quotient H∆
+n(X). If we write Hn(X) as the direct sum of cyclic
+groups, then the number of Z summands is known traditionally as the nth Betti
+number of X , and integers specifying the orders of the ﬁnite cyclic summands are
+called torsion coeﬃcients.
+It is a curious historical fact that homology was not thought of originally as a
+sequence of groups, but rather as Betti numbers and torsion coeﬃcients. One can
+after all compute Betti numbers and torsion coeﬃcients from the simplicial boundary
+maps without actually mentioning homology groups. This computational viewpoint,
+with homology being numbers rather than groups, prevailed from when Poincar´e ﬁrst
+started serious work on homology around 1900, up until the 1920s when the more
+abstract viewpoint of groups entered the picture. During this period ‘homology’ meant
+primarily ‘simplicial homology’, and it was another 20 years before the shift to singular
+homology was complete, with the ﬁnal deﬁnition of singular homology emerging only
+
+--- PAGE 36 ---
+Simplicial and Singular Homology
+Section 2.1
+131
+in a 1944 paper of Eilenberg, after contributions from quite a few others, particularly
+Alexander and Lefschetz. Within the next few years the rest of the basic structure
+of homology theory as we have presented it fell into place, and the ﬁrst deﬁnitive
+treatment appeared in the classic book [Eilenberg & Steenrod 1952].

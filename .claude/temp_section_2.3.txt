@@ -1,0 +1,230 @@
+Sometimes it is good to step back from the forest of details and look for gen-
+eral patterns. In this rather brief section we will first describe the general pattern
+of homology by axioms, then we will look at some common formal features shared
+by many of the constructions we have made, using the language of categories and
+functors which has become common in much of modern mathematics.
+Axioms for Homology
+For simplicity let us restrict attention to CW complexes and focus on reduced ho-
+mology to avoid mentioning relative homology. A (reduced) homology theory assigns
+to each nonempty CW complex X a sequence of abelian groups ehn(X) and to each map
+f : X→Y between CW complexes a sequence of homomorphisms f∗: ehn(X)→ehn(Y )
+such that (fg)∗= f∗g∗and 11∗= 11, and so that the following three axioms are
+satisfied.
+(1) If f ≃g : X→Y , then f∗= g∗: ehn(X)→ehn(Y ).
+(2) There are boundary homomorphisms ∂: ehn(X/A)→ehn−1(A) defined for each CW
+pair (X, A), fitting into an exact sequence
+···
+∂-----→ehn(A)
+i∗
+-----→ehn(X)
+q∗
+-----→ehn(X/A)
+∂-----→ehn−1(A)
+i∗
+-----→···
+where i is the inclusion and q is the quotient map. Furthermore the boundary
+maps are natural: For f : (X, A)→(Y , B) inducing a quotient map f : X/A→Y /B ,
+there are commutative diagrams
+(3) For a wedge sum X =
+W
+α Xα with inclusions iα : Xα ֓ X , the direct sum map
+L
+α iα∗:
+L
+α ehn(Xα)→ehn(X) is an isomorphism for each n.
+Negative values for the subscripts n are permitted. Ordinary singular homology is
+zero in negative dimensions by definition, but interesting homology theories with
+nontrivial groups in negative dimensions do exist.
+The third axiom may seem less substantial than the first two, and indeed for finite
+wedge sums it can be deduced from the first two axioms, though not in general for
+infinite wedge sums, as an example in the Exercises shows.
+It is also possible, and not much more difficult, to give axioms for unreduced
+homology theories. One supposes one has relative groups hn(X, A) defined, special-
+izing to absolute groups by setting hn(X) = hn(X, ∅). Axiom (1) is replaced by its
+
+
+The Formal Viewpoint
+Section 2.3
+161
+obvious relative form, and axiom (2) is broken into two parts, the first hypothesizing
+a long exact sequence involving these relative groups, with natural boundary maps,
+the second stating some version of excision, for example hn(X, A) ≈hn(X/A, A/A)
+if one is dealing with CW pairs. In axiom (3) the wedge sum is replaced by disjoint
+union.
+These axioms for unreduced homology are essentially the same as those origi-
+nally laid out in the highly influential book [Eilenberg & Steenrod 1952], except that
+axiom (3) was omitted since the focus there was on finite complexes, and there was
+another axiom specifying that the groups hn(point) are zero for n ≠0, as is true
+for singular homology. This axiom was called the ‘dimension axiom’, presumably be-
+cause it specifies that a point has nontrivial homology only in dimension zero. It can
+be regarded as a normalization axiom, since one can trivially define a homology the-
+ory where it fails by setting hn(X, A) = Hn+k(X, A) for a fixed nonzero integer k. At
+the time there were no interesting homology theories known for which the dimension
+axiom did not hold, but soon thereafter topologists began studying a homology theory
+called ‘bordism’ having the property that the bordism groups of a point are nonzero in
+infinitely many dimensions. Axiom (3) seems to have appeared first in [Milnor 1962].
+Reduced and unreduced homology theories are essentially equivalent. From an
+unreduced theory h one gets a reduced theory eh by setting ehn(X) equal to the
+kernel of the canonical map hn(X)→hn(point).
+In the other direction, one sets
+hn(X) = ehn(X+) where X+ is the disjoint union of X with a point.
+We leave it
+as an exercise to show that these two transformations between reduced and unre-
+duced homology are inverses of each other. Just as with ordinary homology, one has
+hn(X) ≈ehn(X)⊕hn(x0) for any point x0 ∈X , since the long exact sequence of the
+pair (X, x0) splits via the retraction of X onto x0 . Note that ehn(x0) = 0 for all n,
+as can be seen by looking at the long exact sequence of reduced homology groups of
+the pair (x0, x0).
+The groups hn(x0) ≈ehn(S0) are called the coefficients of the homology theo-
+ries h and eh, by analogy with the case of singular homology with coefficients. One
+can trivially realize any sequence of abelian groups Gi as the coefficient groups of a
+homology theory by setting hn(X, A) =
+L
+i Hn−i(X, A; Gi).
+In general, homology theories are not uniquely determined by their coefficient
+groups, but this is true for singular homology: If h is a homology theory defined
+for CW pairs, whose coefficient groups hn(x0) are zero for n ≠0, then there are
+natural isomorphisms hn(X, A) ≈Hn(X, A; G) for all CW pairs (X, A) and all n,
+where G = h0(x0). This will be proved in Theorem 4.59.
+We have seen how Mayer–Vietoris sequences can be quite useful for singular ho-
+mology, and in fact every homology theory has Mayer–Vietoris sequences, at least
+for CW complexes. These can be obtained directly from the axioms in the follow-
+
+
+162
+Chapter 2
+Homology
+ing way. For a CW complex X = A ∪B with A and B subcomplexes, the inclusion
+(B, A ∩B) ֓ (X, A) induces a commutative diagram of exact sequences
+The vertical maps between relative groups are isomorphisms since B/(A ∩B) = X/A.
+Then it is a purely algebraic fact, whose proof is Exercise 38 at the end of the previous
+section, that a diagram such as this with every third vertical map an isomorphism
+gives rise to a long exact sequence involving the remaining nonisomorphic terms. In
+the present case this takes the form of a Mayer-Vietoris sequence
+··· -→hn(A ∩B)
+ϕ--→hn(A) ⊕hn(B)
+ψ--→hn(X)
+∂--→hn−1(A ∩B) -→···
+Categories and Functors
+Formally, singular homology can be regarded as a sequence of functions Hn that
+assign to each space X an abelian group Hn(X) and to each map f : X→Y a homo-
+morphism Hn(f) = f∗: Hn(X)→Hn(Y ), and similarly for relative homology groups.
+This sort of situation arises quite often, and not just in algebraic topology, so it is
+useful to introduce some general terminology for it. Roughly speaking, ‘functions’
+like Hn are called ‘functors’, and the domains and ranges of these functors are called
+‘categories’. Thus for Hn the domain category consists of topological spaces and con-
+tinuous maps, or in the relative case, pairs of spaces and continuous maps of pairs,
+and the range category consists of abelian groups and homomorphisms. A key point
+is that one is interested not only in the objects in the category, for example spaces or
+groups, but also in the maps, or ‘morphisms’, between these objects.
+Now for the precise definitions. A category C consists of three things:
+(1) A collection Ob(C) of objects.
+(2) Sets Mor(X, Y ) of morphisms for each pair X, Y ∈Ob(C), including a distin-
+guished ‘identity’ morphism 11 = 11X ∈Mor(X, X) for each X .
+(3) A ‘composition of morphisms’ function ◦: Mor(X, Y )×Mor(Y , Z)→Mor(X, Z) for
+each triple X, Y , Z ∈Ob(C), satisfying f ◦11 = f , 11◦f = f, and (f ◦g)◦h =
+f ◦(g ◦h).
+There are plenty of obvious examples, such as:
+The category of topological spaces, with continuous maps as the morphisms. Or
+we could restrict to special classes of spaces such as CW complexes, keeping
+continuous maps as the morphisms. We could also restrict the morphisms, for
+example to homeomorphisms.
+The category of groups, with homomorphisms as morphisms. Or the subcategory
+of abelian groups, again with homomorphisms as the morphisms. Generalizing
+
+
+The Formal Viewpoint
+Section 2.3
+163
+this is the category of modules over a fixed ring, with morphisms the module
+homomorphisms.
+The category of sets, with arbitrary functions as the morphisms. Or the mor-
+phisms could be restricted to injections, surjections, or bijections.
+There are also many categories where the morphisms are not simply functions, for
+example:
+Any group G can be viewed as a category with only one object and with G as the
+morphisms of this object, so that condition (3) reduces to two of the three axioms
+for a group. If we require only these two axioms, associativity and a left and right
+identity, we have a ‘group without inverses’, usually called a monoid since it is
+the same thing as a category with one object.
+A partially ordered set (X, ≤) can be considered a category where the objects are
+the elements of X and there is a unique morphism from x to y whenever x ≤y .
+The relation x ≤x gives the morphism 11 and transitivity gives the composition
+Mor(x, y)×Mor(y, z)→Mor(x, z). The condition that x ≤y and y ≤x implies
+x = y says that there is at most one morphism between any two objects.
+There is a ‘homotopy category’ whose objects are topological spaces and whose
+morphisms are homotopy classes of maps, rather than actual maps. This uses
+the fact that composition is well-defined on homotopy classes: f0g0 ≃f1g1 if
+f0 ≃f1 and g0 ≃g1 .
+Chain complexes are the objects of a category, with chain maps as morphisms.
+This category has various interesting subcategories, obtained by restricting the
+objects.
+For example, we could take chain complexes whose groups are zero
+in negative dimensions, or zero outside a finite range. Or we could restrict to
+exact sequences, or short exact sequences. In each case we take morphisms to
+be chain maps, which are commutative diagrams.
+Going a step further, there
+is a category whose objects are short exact sequences of chain complexes and
+whose morphisms are commutative diagrams of maps between such short exact
+sequences.
+A functor F from a category C to a category D assigns to each object X in C an
+object F(X) in D and to each morphism f ∈Mor(X, Y ) in C a morphism F(f) ∈
+Mor
+ F(X), F(Y )
+
+in D, such that F(11) = 11 and F(f ◦g) = F(f)◦F(g). In the case of
+the singular homology functor Hn , the latter two conditions are the familiar properties
+11∗= 11 and (fg)∗= f∗g∗of induced maps. Strictly speaking, what we have just
+defined is a covariant functor. A contravariant functor would diﬀer from this by
+assigning to f ∈Mor(X, Y ) a ‘backwards’ morphism F(f) ∈Mor
+ F(Y ), F(X)
+
+with
+F(11) = 11 and F(f ◦g) = F(g)◦F(f). A classical example of this is the dual vector
+space functor, which assigns to a vector space V over a fixed scalar field K the dual
+vector space F(V) = V ∗of linear maps V→K , and to each linear transformation
+
+
+164
+Chapter 2
+Homology
+f : V→W the dual map F(f) = f ∗: W ∗→V ∗, going in the reverse direction. In the
+next chapter we will study the contravariant version of homology, called cohomology.
+A number of the constructions we have studied in this chapter are functors:
+The singular chain complex functor assigns to a space X the chain complex of
+singular chains in X and to a map f : X→Y the induced chain map.
+This is
+a functor from the category of spaces and continuous maps to the category of
+chain complexes and chain maps.
+The algebraic homology functor assigns to a chain complex its sequence of ho-
+mology groups and to a chain map the induced homomorphisms on homology.
+This is a functor from the category of chain complexes and chain maps to the
+category whose objects are sequences of abelian groups and whose morphisms
+are sequences of homomorphisms.
+The composition of the two preceding functors is the functor assigning to a space
+its singular homology groups.
+The first example above, the singular chain complex functor, can itself be re-
+garded as the composition of two functors. The first functor assigns to a space
+X its singular complex S(X), a ∆complex, and the second functor assigns to
+a ∆complex its simplicial chain complex. This is what the two functors do on
+objects, and what they do on morphisms can be described in the following way. A
+map of spaces f : X→Y induces a map f∗: S(X)→S(Y ) by composing singular
+simplices ∆n→X with f . The map f∗is a map between ∆complexes taking the
+distinguished characteristic maps in the domain ∆complex to the distinguished
+characteristic maps in the target ∆complex. Call such maps D maps and let
+them be the morphisms in the category of ∆complexes. Note that a ∆map in-
+duces a chain map between simplicial chain complexes, taking basis elements to
+basis elements, so we have a simplicial chain complex functor taking the category
+of ∆complexes and ∆maps to the category of chain complexes and chain maps.
+There is a functor assigning to a pair of spaces (X, A) the associated long exact
+sequence of homology groups. Morphisms in the domain category are maps of
+pairs, and in the target category morphisms are maps between exact sequences
+forming commutative diagrams. This functor is the composition of two functors,
+the first assigning to (X, A) a short exact sequence of chain complexes, the sec-
+ond assigning to such a short exact sequence the associated long exact sequence
+of homology groups. Morphisms in the intermediate category are the evident
+commutative diagrams.
+Another sort of process we have encountered is the transformation of one functor
+into another, for example:
+Boundary maps Hn(X, A)→Hn−1(A) in singular homology, or indeed in any ho-
+mology theory.
