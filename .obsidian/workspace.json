@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.1 Simplicial and Singular Homology"
+              "title": "Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology"
             }
           },
           {
@@ -193,12 +193,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Hatcher Ch2 2.1 Simplicial and Singular Homology 的出链列表"
+              "title": "Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology 的出链列表"
             }
           },
           {
@@ -242,15 +242,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "60e8bff0aba776f5",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ch2 Section2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777648485550",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777647919200",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777647716410",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646623786",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646477351",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646381362",
     "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646267609",
@@ -270,8 +273,6 @@
     "30.Recources/PDE/Evans - Ch6.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
     "00.Inbox/Test TikZ from Vector Data.md",
@@ -280,7 +281,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "20.Cards/Examples/ep - Poisson Distribution.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "00.Inbox/Test TikZ from Vector Data.md.tmp.9580.1777642828151",
     "00.Inbox/FA - HW7.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
