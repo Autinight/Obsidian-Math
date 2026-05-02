@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777699319982-v0661ra4d",
+  "providerId": "claude",
+  "title": "帮我写一个claude-code的skill, 使得当我发给你一大堆题目的时候, 能整理成类似于这个...",
+  "createdAt": 1777699319982,
+  "updatedAt": 1777699394340,
+  "lastResponseAt": 1777699394340,
+  "sessionId": "7e2cc397-c0c8-4cb2-9486-1dce836b2823",
+  "providerState": {
+    "providerSessionId": "7e2cc397-c0c8-4cb2-9486-1dce836b2823"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro",
+    "inputTokens": 7541,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7541,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

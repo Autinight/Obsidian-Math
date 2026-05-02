@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d6a32410b7d11a1c",
+        "id": "2be279a1cf250add",
         "type": "tabs",
         "children": [
           {
-            "id": "dabb1404f40e7c7c",
+            "id": "6a8fcaeb547c560b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
-            }
-          },
-          {
-            "id": "bc9783a2c17d424e",
-            "type": "leaf",
-            "state": {
-              "type": "mathcraft-cd-view",
-              "state": {
-                "file": "50.Image/MCD/1.mcd"
-              },
-              "icon": "mathcraft-cd",
-              "title": "1"
+              "title": "AT Hatcher - Ex - Section 2.1"
             }
           }
         ]
@@ -218,10 +206,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "dabb1404f40e7c7c",
+  "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
-    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
+    "60.Templates/Script_DailyDraft.md",
+    "60.Templates/NOTES.md",
+    "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
+    "50.Image/MCD/1.mcd",
+    "70.Life/计划.md",
+    "70.Life/Pasted image 20260120174845.png",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818387",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818340",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690802332",
@@ -229,7 +223,6 @@
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690734642",
-    "50.Image/MCD/1.mcd",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690723032",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690481513",
     "50.Image/MCG/2.mcg",
@@ -252,7 +245,6 @@
     "hatcher_2.1_p124_full.png",
     "hatcher_2.1_p122_full.png",
     "hatcher_2.1_p120_full.png",
-    "hatcher_2.1_p116_full.png",
     "30.Recources/PDE/Evans - Ch6.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
@@ -262,9 +254,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
-    "00.Inbox/Hatcher 3.1 Cohomology Groups.md",
-    "00.Inbox/Hatcher Ch2 Sec2.3.md",
-    "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
