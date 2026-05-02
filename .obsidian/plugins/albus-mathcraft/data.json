@@ -1,0 +1,82 @@
+{
+  "license": {
+    "key": "MC-eyJpZCI6Ik1DNDkiLCJwbGFuIjoibGlmZXRpbWUiLCJpYXQiOiIyMDI2LTA0LTA5In0.Sj1mhWbjRGYGLByFpbpqvqhICwS_FeHq94J4mFXTr_XoFWeFwUXcWKhA2MIb5gMEUFt0aLwQsZ-MefizQJRFCw"
+  },
+  "theoremTypes": [
+    "theorem",
+    "lemma",
+    "corollary",
+    "proposition",
+    "definition",
+    "axiom",
+    "example",
+    "exercise",
+    "remark",
+    "note"
+  ],
+  "theoremNumberingMode": "by-heading",
+  "theoremStyle": "beamer",
+  "theoremColors": {
+    "theorem": "#3b82f6",
+    "lemma": "#8b5cf6",
+    "corollary": "#06b6d4",
+    "proposition": "#10b981",
+    "definition": "#f59e0b",
+    "axiom": "#ef4444",
+    "example": "#ec4899",
+    "exercise": "#6366f1",
+    "remark": "#64748b",
+    "note": "#78716c"
+  },
+  "language": "zh-CN",
+  "pdfPreventBreakInside": true,
+  "equationMarkerMode": "all",
+  "equationNumberingMode": "by-heading",
+  "mathLinks": {
+    "templates": [],
+    "excludedPaths": [],
+    "blockPrefix": "^",
+    "enableFileNameBlockLinks": true,
+    "enableInSourceMode": false,
+    "renderOutline": true,
+    "language": "zh-CN",
+    "theoremExternalMode": "brackets",
+    "theoremRenderModes": {
+      "theorem": "name-only",
+      "lemma": "name-only",
+      "corollary": "name-only",
+      "proposition": "name-only",
+      "definition": "special-name",
+      "axiom": "name-only",
+      "example": "number-only",
+      "exercise": "number-only",
+      "remark": "number-only",
+      "note": "number-only"
+    },
+    "equationExternalMode": "brackets",
+    "equationRenderMode": "number-only"
+  },
+  "headingNumbering": {
+    "skipKeywords": []
+  },
+  "tikz": {
+    "exportPath": "50.Image/Tikz",
+    "mcgFolderPath": "",
+    "mcgExportPath": "",
+    "mcdFolderPath": "",
+    "mcdExportPath": "",
+    "enableCache": true
+  },
+  "mastery": {
+    "enabled": false,
+    "maxLevel": 5,
+    "levelDescriptions": [
+      "初识",
+      "理解",
+      "熟练",
+      "精通",
+      "融会贯通"
+    ]
+  },
+  "settingsTab": "license"
+}

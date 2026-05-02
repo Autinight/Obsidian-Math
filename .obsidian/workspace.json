@@ -202,7 +202,8 @@
       "webpage-html-export:导出为HTML": false,
       "templates:插入模板": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "floating": {
@@ -234,18 +235,20 @@
         ],
         "direction": "vertical",
         "x": 1709,
-        "y": 429,
-        "width": 847,
-        "height": 873,
-        "maximize": true,
+        "y": 428,
+        "width": 852,
+        "height": 878,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
   "active": "3fde7f4994a5bf3a",
   "lastOpenFiles": [
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24076.1777684702080",
+    "50.Image/Tikz",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.16704.1777685357585",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24076.1777684702080",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684305527",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684201722",
@@ -255,8 +258,6 @@
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683995851",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683931885",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683763367",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683695669",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683562383",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",

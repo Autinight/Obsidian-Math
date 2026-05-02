@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777685254693-smiexchdd",
+  "providerId": "claude",
+  "title": "这是一段渲染不出来的代码, 阅读 /diagram-helper 修正它: ```tikz",
+  "createdAt": 1777685254693,
+  "updatedAt": 1777685367599,
+  "lastResponseAt": 1777685367599,
+  "sessionId": "acdf855e-8b21-44b6-8ee3-ededebbfe64b",
+  "providerState": {
+    "providerSessionId": "acdf855e-8b21-44b6-8ee3-ededebbfe64b"
+  },
+  "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 6240,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 6240,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

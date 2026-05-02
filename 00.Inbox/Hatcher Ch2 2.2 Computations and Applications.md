@@ -95,7 +95,6 @@ Another way of obtaining a map $S^n \to S^n$ of degree $k$ is to take a repeated
 
 ```tikz
 \usepackage{tikz-cd}
-we
 \begin{document}
 \begin{tikzcd}
 H_n(S^n) \arrow[r, "f_*"] \arrow[d, "\partial"] & H_n(S^n) \arrow[d, "\partial"] \\
@@ -295,10 +294,11 @@ From the Splitting Lemma and the remarks preceding it we deduce that a retractio
 
 ```tikz
 \usepackage{tikz-cd}
+\usepackage{amssymb}
 \begin{document}
 \begin{tikzcd}
-0 \rar & A \rar["i"] \dar["\mathbb{1}"'] & B \rar["j"] \dar["\cong"] & C \rar \dar["\mathbb{1}"] & 0 \\
-0 \rar & A \rar & A \oplus C \rar & C \rar & 0
+0 \arrow[r] & A \arrow[r, "i"] \arrow[d, "\mathbb{1}"'] & B \arrow[r, "j"] \arrow[d, "\cong"] & C \arrow[r] \arrow[d, "\mathbb{1}"] & 0 \\
+0 \arrow[r] & A \arrow[r] & A \oplus C \arrow[r] & C \arrow[r] & 0
 \end{tikzcd}
 \end{document}
 ```
