@@ -1,18 +1,21 @@
-# Cellular Homology Diagram
+
 
 This diagram shows the relationship between relative homology groups in the cellular homology construction from Hatcher's Algebraic Topology.
 
 ```tikz
 \usepackage{tikz-cd}
-\usepackage{amsmath}
+\usepackage{amsmath, amssymb}
 \begin{document}
-\begin{tikzcd}[column sep=small, row sep=large]
-  & & & 0 \arrow[d] & \\
-  & & 0 \arrow[d] & H_n(X^{n+1}) \arrow[d, "\approx"] & \\
-  & & H_n(X^n) \arrow[dl, "\partial_{n+1}"'] \arrow[dr, "j_n"] & H_n(X) & \\
-  \cdots \arrow[r] & H_{n+1}(X^{n+1}, X^n) \arrow[r, "d_{n+1}"] & H_n(X^n, X^{n-1}) \arrow[r, "d_n"] \arrow[dl, "\partial_n"'] & H_{n-1}(X^{n-1}, X^{n-2}) \arrow[r] & \cdots \\
-  & & H_{n-1}(X^{n-1}) \arrow[u, "j_{n-1}"] & & \\
-  & & 0 \arrow[u] & &
+\begin{tikzcd}[
+  row sep = 40pt,
+  column sep = 30pt
+]
+ &  &  & 0 \arrow[d] &  \\
+ &  & 0 \arrow[d] & H_n(X^{n+1}) \arrow[d] &  \\
+ &  & H_n(X^n) \arrow[dll] \arrow[dr] & H_n(X) &  \\
+\cdots \arrow[r] & H_{n+1}(X^{n+1},X^n) \arrow[r] & H_n(X^n,X^{n-1}) \arrow[r] \arrow[dll] & H_{n-1}(X^{n-1},X^{n-2}) \arrow[r] & \cdots \\
+ &  & H_{n-1}(X^{n-1}) \arrow[u] &  &  \\
+ &  & 0 \arrow[u] &  & 
 \end{tikzcd}
 \end{document}
 ```
