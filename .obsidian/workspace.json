@@ -22,6 +22,30 @@
             }
           },
           {
+            "id": "c970ab3db488d264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Cellular Homology Diagram.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cellular Homology Diagram"
+            }
+          },
+          {
             "id": "763f61d9dcd9fbd8",
             "type": "leaf",
             "pinned": true,
@@ -97,7 +121,8 @@
               "title": "ex - Fixed point of 2n-sphere and RP^n"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,12 +297,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "2828624c868ee0e4",
+  "active": "c970ab3db488d264",
   "lastOpenFiles": [
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/Cellular Homology Diagram.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Fixed point of 2n-sphere and RP^n.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
@@ -309,7 +335,6 @@
     "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690734642",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690723032",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
     "hatcher_2.1_p133_full.png",

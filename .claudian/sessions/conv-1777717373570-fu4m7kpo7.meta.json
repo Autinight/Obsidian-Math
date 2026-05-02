@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777717373570-fu4m7kpo7",
+  "providerId": "claude",
+  "title": "/diagram-helper",
+  "createdAt": 1777717373570,
+  "updatedAt": 1777717423295,
+  "lastResponseAt": 1777717423295,
+  "sessionId": "91c475cb-7aca-4114-8d1a-0d967170befd",
+  "providerState": {
+    "providerSessionId": "91c475cb-7aca-4114-8d1a-0d967170befd"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 13952,
+    "cacheCreationInputTokens": 3424,
+    "cacheReadInputTokens": 16046,
+    "contextWindow": 1000000,
+    "contextTokens": 33422,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

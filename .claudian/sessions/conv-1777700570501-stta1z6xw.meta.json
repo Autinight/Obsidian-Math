@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "/math 谈谈For a map $f : S^n \\to S^n$ with $n > 0$, ...",
   "createdAt": 1777700570501,
-  "updatedAt": 1777702274086,
+  "updatedAt": 1777717344744,
   "lastResponseAt": 1777702274086,
-  "sessionId": "da6775fb-e4a0-4cd3-b99b-1959e9c32100",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "da6775fb-e4a0-4cd3-b99b-1959e9c32100"
   },
