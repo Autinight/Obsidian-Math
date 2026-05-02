@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777700093465-ioztmp33o",
+  "providerId": "claude",
+  "title": "把涉及到关于图片的指示从这里面抹除, 然后用文本的形式发给我You are converting a...",
+  "createdAt": 1777700093465,
+  "updatedAt": 1777700258215,
+  "lastResponseAt": 1777700118594,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "1a49094c-1006-463b-b26d-1d4158706936"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 16123,
+    "cacheCreationInputTokens": 15288,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 31600,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

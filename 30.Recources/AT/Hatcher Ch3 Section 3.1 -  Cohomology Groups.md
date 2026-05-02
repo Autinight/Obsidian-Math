@@ -3,8 +3,8 @@ title: Hatcher Ch3 3.1 Cohomology Groups
 tags:
   - textbook
   - algebraic-topology
-source: "[[30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf]]"
-section: "Chapter 3, Section 3.1"
+source: "[[pdf - AT Hatcher.pdf]]"
+section: Chapter 3, Section 3.1
 date: 2026-05-01
 ---
 

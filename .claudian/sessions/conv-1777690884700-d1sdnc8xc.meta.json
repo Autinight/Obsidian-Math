@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "修改这个skill然后用文本形式发给我, 使得调用时llm不会使用简写的命令, 而是标准的:# Ti...",
   "createdAt": 1777690884701,
-  "updatedAt": 1777690999750,
+  "updatedAt": 1777699524140,
   "lastResponseAt": 1777690999750,
-  "sessionId": "f6a77b19-a910-412b-8381-112d77c7a22c",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "f6a77b19-a910-412b-8381-112d77c7a22c"
   },

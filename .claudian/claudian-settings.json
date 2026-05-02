@@ -3,7 +3,7 @@
   "permissionMode": "yolo",
   "model": "deepseek-ai/DeepSeek-V4-Pro",
   "thinkingBudget": "xhigh",
-  "effortLevel": "xhigh",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
   "titleGenerationModel": "gpt-5.4-mini",
@@ -116,13 +116,13 @@
     "claude": "deepseek-ai/DeepSeek-V4-Pro"
   },
   "savedProviderEffort": {
-    "claude": "xhigh"
+    "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
     "claude": "xhigh"
   },
-  "lastCustomModel": "deepseek-ai/DeepSeek-V4-Pro",
+  "lastCustomModel": "claude-opus-4-7",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

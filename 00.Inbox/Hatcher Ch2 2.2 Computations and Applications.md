@@ -3,7 +3,7 @@ title: Hatcher Ch2 2.2 - Computations and Applications
 tags:
   - textbook
   - algebraic-topology
-source: "[[30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf]]"
+source: "[[pdf - AT Hatcher.pdf]]"
 section: "2.2"
 date: 2026-05-02
 ---
@@ -23,7 +23,7 @@ For a map $f : S^n \to S^n$ with $n > 0$, the induced map $f_* : H_n(S^n) \to H_
 **(c)** If $f \simeq g$ then $\deg f = \deg g$ since $f_* = g_*$. The converse statement, that $f \simeq g$ if $\deg f = \deg g$, is a fundamental theorem of Hopf from around 1925 which we prove in Corollary 4.25.
 
 **(d)** $\deg fg = \deg f \cdot \deg g$, since $(fg)_* = f_* g_*$. As a consequence, $\deg f = \pm 1$ if $f$ is a homotopy equivalence since $fg \simeq \mathbb{1}$ implies $\deg f \cdot \deg g = \deg \mathbb{1} = 1$.
-
+/
 **(e)** $\deg f = -1$ if $f$ is a reflection of $S^n$, fixing the points in a subsphere $S^{n-1}$ and interchanging the two complementary hemispheres. For we can give $S^n$ a $\Delta$-complex structure with these two hemispheres as its two $n$-simplices $\Delta^n_1$ and $\Delta^n_2$, and the $n$-chain $\Delta^n_1 - \Delta^n_2$ represents a generator of $H_n(S^n)$ as we saw in Example 2.23, so the reflection interchanging $\Delta^n_1$ and $\Delta^n_2$ sends this generator to its negative.
 
 **(f)** The antipodal map $-\mathbb{1} : S^n \to S^n$, $x \mapsto -x$, has degree $(-1)^{n+1}$ since it is the composition of $n + 1$ reflections, each changing the sign of one coordinate in $\mathbb{R}^{n+1}$.
@@ -58,14 +58,20 @@ Next we describe a technique for computing degrees which can be applied to most 
 
 ```tikz
 \usepackage{tikz-cd}
-\usepackage{amsmath}
 \begin{document}
-\begin{tikzcd}[column sep=huge]
-H_n(U_i,\, U_i-x_i) \arrow[r, "\cong"{description}] \arrow[d, "f_*"] & H_n(S^n,\, S^n-x_i) \arrow[r, "k_i"] \arrow[d, "f_*"] & H_n(S^n,\, S^n-f^{-1}(y)) \arrow[d, "f_*"] \\
-H_n(V,\, V-y) \arrow[r, "\cong"{description}] & H_n(S^n,\, S^n-y) \arrow[r, "p_i"] & H_n(S^n)
+\begin{tikzcd}[column sep=large, row sep=large]
+  & H_n(U_i, U_i - x_i) \arrow[rr, "f_*"] \arrow[dl, "\cong"'] 
+  & & H_n(V, V - y) \arrow[d, "\cong"] \\
+  H_n(S^n, S^n - x_i) \arrow[dr, "\cong"'] 
+  & H_n(S^n, S^n - f^{-1}(y)) \arrow[l, "p_i"'] \arrow[u, "k_i"] \arrow[rr, "f_*"] 
+  & & H_n(S^n, S^n - y) \arrow[u, "\cong"'] \\
+  & H_n(S^n) \arrow[u, "j"] \arrow[rr, "f_*"'] 
+  & & H_n(S^n) \arrow[u, "\cong"']
 \end{tikzcd}
 \end{document}
 ```
+
+
 
 where all the maps are the obvious ones, and in particular $k_i$ and $p_i$ are induced by inclusions, so the triangles and squares commute. The two isomorphisms in the upper half of the diagram come from excision, while the lower two isomorphisms come from exact sequences of pairs. Via these four isomorphisms, the top two groups in the diagram can be identified with $H_n(S^n) \approx \mathbb{Z}$, and the top homomorphism $f_*$ becomes multiplication by an integer called the **local degree** of $f$ at $x_i$, written $\deg f|_{x_i}$.
 

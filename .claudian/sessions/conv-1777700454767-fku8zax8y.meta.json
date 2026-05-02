@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777700454767-fku8zax8y",
+  "providerId": "claude",
+  "title": "选中内容大概讲了什么",
+  "createdAt": 1777700454767,
+  "updatedAt": 1777700533416,
+  "lastResponseAt": 1777700530434,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "e67f4726-44e3-432f-9df6-ce762f500bd8"
+  },
+  "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro",
+    "inputTokens": 14937,
+    "cacheCreationInputTokens": 15288,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 30414,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": false
+  }
+}

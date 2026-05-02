@@ -3,20 +3,21 @@
   "providerId": "claude",
   "title": "按照我发给你的笔记的形式, 把下面这些题目筛选一下, 我今天就要把节过掉, 所以筛选出大概我一天的工...",
   "createdAt": 1777698976928,
-  "updatedAt": 1777699130028,
-  "lastResponseAt": 1777699130028,
-  "sessionId": "e39320d0-5be8-421e-909f-196f41afae52",
+  "updatedAt": 1777699888540,
+  "lastResponseAt": 1777699457246,
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "e39320d0-5be8-421e-909f-196f41afae52"
   },
   "currentNote": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
   "usage": {
     "model": "deepseek-ai/DeepSeek-V4-Pro",
-    "inputTokens": 12760,
+    "inputTokens": 17637,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
-    "contextWindow": 1000000,
-    "contextTokens": 12760,
-    "percentage": 1
+    "contextWindow": 200000,
+    "contextTokens": 17637,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
   }
 }

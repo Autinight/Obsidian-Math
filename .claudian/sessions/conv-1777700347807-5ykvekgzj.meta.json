@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777700347807-5ykvekgzj",
+  "providerId": "claude",
+  "title": "把这段文本用规范的claude code-skill格式写出来, 然后用文本的形式发给我当我向你询问...",
+  "createdAt": 1777700347807,
+  "updatedAt": 1777700446519,
+  "lastResponseAt": 1777700363397,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "f3c1c210-375a-491d-b077-21ab533d38fc"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 14315,
+    "cacheCreationInputTokens": 15288,
+    "cacheReadInputTokens": 189,
+    "contextWindow": 1000000,
+    "contextTokens": 29792,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

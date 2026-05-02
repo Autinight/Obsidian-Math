@@ -3,7 +3,7 @@ title: The Formal Viewpoint
 tags:
   - textbook/algebraic-topology
   - mathematics/topology
-source: "[[Hatcher - 2002 - Algebraic topology.pdf]]"
+source: "[[pdf - AT Hatcher.pdf]]"
 section: 2.3
 date: 2026-05-02
 ---

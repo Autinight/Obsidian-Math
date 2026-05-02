@@ -3,7 +3,7 @@ title: Hatcher Ch2 2.1 - Simplicial and Singular Homology
 tags:
   - textbook
   - algebraic-topology
-source: "[[30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf]]"
+source: "[[pdf - AT Hatcher.pdf]]"
 section: Chapter 2, Section 2.1
 date: 2026-05-01
 ---
