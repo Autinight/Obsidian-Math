@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "00.Inbox/ex - Brouwer Fix Point.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,11 +68,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "title": "ex - Brouwer Fix Point"
+            }
+          },
+          {
+            "id": "5d3216e0900e9071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/ex - Brouwer Fix Point.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ex - Brouwer Fix Point"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,9 +271,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "338a8d412075e31c",
+  "active": "b9c1e21ed6baafdf",
   "lastOpenFiles": [
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/ex - Brouwer Fix Point.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
@@ -293,7 +318,6 @@
     "hatcher_2.1_p122_full.png",
     "hatcher_2.1_p120_full.png",
     "30.Recources/PDE/Evans - Ch6.md",
-    "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
