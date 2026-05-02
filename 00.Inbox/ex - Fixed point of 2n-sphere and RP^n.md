@@ -1,19 +1,18 @@
 ---
 type: exercise
 aliases:
-- Brouwer Fix Point
+  - Fixed point of 2n-sphere and RP^n
 technique: []
-book:
-chapter:
-number:
+book: AT Hatcher
+chapter: 2.2
+number: "2"
 category:
 status: todo
 priority:
 tags: []
 ---
-
-> [!exercise] EXERCISE 2.2.1.
-> Prove the Brouwer fixed point theorem for maps $f : D^n \to D^n$ by applying degree theory to the map $S^n \to S^n$ that sends both the northern and southern hemispheres of $S^n$ to the southern hemisphere via $f$. [This was Brouwer's original proof.]
+> [!exercise] EXERCISE 2.2.2.
+> Given a map $f : S^{2n} \to S^{2n}$, show that there is some point $x \in S^{2n}$ with either $f(x) = x$ or $f(x) = -x$. Deduce that every map $\mathbb{R}P^{2n} \to \mathbb{R}P^{2n}$ has a fixed point. Construct maps $\mathbb{R}P^{2n-1} \to \mathbb{R}P^{2n-1}$ without fixed points from linear transformations $\mathbb{R}^{2n} \to \mathbb{R}^{2n}$ without eigenvectors.
 
 ```dataviewjs
 const techs = dv.current().technique;

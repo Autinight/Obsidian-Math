@@ -22,6 +22,32 @@
             }
           },
           {
+            "id": "763f61d9dcd9fbd8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "chnt - AT Hatcher Ch2.2"
+            }
+          },
+          {
             "id": "338a8d412075e31c",
             "type": "leaf",
             "pinned": true,
@@ -29,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -48,12 +74,12 @@
             }
           },
           {
-            "id": "5d3216e0900e9071",
+            "id": "1328f78b8e2c1f3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "00.Inbox/ex - Fixed point of 2n-sphere and RP^n.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -68,11 +94,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "title": "ex - Fixed point of 2n-sphere and RP^n"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,21 +272,28 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5d3216e0900e9071",
+  "active": "2828624c868ee0e4",
   "lastOpenFiles": [
-    "00.Inbox/ex - Brouwer Fix Point.md",
-    "50.Image/MCG/Brouwer.mcg",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/ex - Fixed point of 2n-sphere and RP^n.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "20.Cards/Exercises/ex - Brouwer Fix Point.md",
+    "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
+    "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
+    "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
+    "20.Cards/Exercises/ex - Normal Coordinates at p.md",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
+    "00.Inbox/FA - HW7.md",
+    "00.Inbox/dfn - Delta-Complex.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "50.Image/MCG/Brouwer.mcg",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
-    "00.Inbox/FA - HW7.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term",
-    "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md.tmp.18784.1777699434424",
     "60.Templates/Script_DailyDraft.md",
     "60.Templates/NOTES.md",
@@ -269,7 +301,6 @@
     "50.Image/MCD/1.mcd",
     "70.Life/计划.md",
     "70.Life/Pasted image 20260120174845.png",
-    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818387",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818340",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690802332",
@@ -281,11 +312,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
-    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ch2 Section2.1 Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
-    "00.Inbox/Hatcher §2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p133_full.png",
     "hatcher_2.1_p132_full.png",
     "hatcher_2.1_p131_full.png",
@@ -293,7 +319,6 @@
     "hatcher_2.1_p124_full.png",
     "hatcher_2.1_p122_full.png",
     "hatcher_2.1_p120_full.png",
-    "30.Recources/PDE/Evans - Ch6.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
