@@ -14,7 +14,7 @@ Render LaTeX and TikZ diagrams directly in Obsidian notes using the TikZJax plug
 4. **Write TikZ code** using the appropriate environment (`tikzpicture`, `circuitikz`, `tikzcd`, etc.)
 5. **Verify** the diagram renders correctly in Obsidian's reading view
 
-> The `standalone` document class is used automatically (`\documentclass{standalone}`), so you don't need to declare it.
+> The `standalone` document class is used automatically (`\documentclass{standalone}`), so you do not need to declare it.
 
 ## Available Packages
 
@@ -81,9 +81,9 @@ markdown
 \begin{tikzpicture}
 \begin{axis}[colormap/viridis]
 \addplot3[
-	surf,
-	samples=18,
-	domain=-3:3
+    surf,
+    samples=18,
+    domain=-3:3
 ]
 {exp(-x^2-y^2)*x};
 \end{axis}

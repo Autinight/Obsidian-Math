@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "title": "Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint"
+            }
+          },
+          {
+            "id": "bc9783a2c17d424e",
+            "type": "leaf",
+            "state": {
+              "type": "mathcraft-cd-view",
+              "state": {
+                "file": "50.Image/MCD/1.mcd"
+              },
+              "icon": "mathcraft-cd",
+              "title": "1"
             }
           }
         ]
@@ -208,26 +220,27 @@
   },
   "active": "dabb1404f40e7c7c",
   "lastOpenFiles": [
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818387",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690818340",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690802332",
+    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690734642",
+    "50.Image/MCD/1.mcd",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690723032",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md.tmp.6848.1777690481513",
+    "50.Image/MCG/2.mcg",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/FA - HW7.md",
-    "50.Image/MCD/1.mcd",
     "50.Image/MCG/1.mcg",
-    "50.Image/MCD/a.mcd",
-    "50.Image/MCD/my-diagram.mcd",
-    "50.Image/MCD",
-    "50.Image/MCG/SVG",
-    "50.Image/MCG",
-    "50.Image/Tikz",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.16704.1777685357585",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
@@ -252,7 +265,6 @@
     "00.Inbox/Hatcher 3.1 Cohomology Groups.md",
     "00.Inbox/Hatcher Ch2 Sec2.3.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
-    "00.Inbox/Hatcher Ch2 Sec2.3 - Formatted.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",

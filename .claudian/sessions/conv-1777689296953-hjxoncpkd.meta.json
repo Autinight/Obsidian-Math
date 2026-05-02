@@ -3,8 +3,8 @@
   "providerId": "claude",
   "title": "Ch2 Section2",
   "createdAt": 1777689296953,
-  "updatedAt": 1777689551887,
-  "lastResponseAt": 1777689551887,
+  "updatedAt": 1777690441418,
+  "lastResponseAt": 1777689864327,
   "sessionId": "fe029442-acd6-487f-b146-49c2ffeba39a",
   "providerState": {
     "providerSessionId": "fe029442-acd6-487f-b146-49c2ffeba39a"
@@ -12,12 +12,12 @@
   "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
   "usage": {
     "model": "deepseek-ai/DeepSeek-V4-Flash",
-    "inputTokens": 13099,
+    "inputTokens": 32681,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 13099,
-    "percentage": 7,
+    "contextTokens": 32681,
+    "percentage": 16,
     "contextWindowIsAuthoritative": true
   }
 }

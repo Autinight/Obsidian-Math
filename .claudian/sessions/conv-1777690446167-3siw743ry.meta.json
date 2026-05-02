@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777690446167-3siw743ry",
+  "providerId": "claude",
+  "title": "选中图表无法渲染",
+  "createdAt": 1777690446167,
+  "updatedAt": 1777690855678,
+  "lastResponseAt": 1777690824141,
+  "sessionId": "89859392-0f10-492b-a2a8-c625be9f25b0",
+  "providerState": {
+    "providerSessionId": "89859392-0f10-492b-a2a8-c625be9f25b0"
+  },
+  "currentNote": "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "inputTokens": 18990,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 18990,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

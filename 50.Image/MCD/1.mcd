@@ -1,24 +1,34 @@
 {
 	"version": 1,
-	"rows": 4,
+	"rows": 3,
 	"cols": 3,
 	"nodes": {
-		"0-0": "a",
-		"1-0": "b"
+		"0-1": "a",
+		"2-0": "b",
+		"2-2": "c"
 	},
 	"arrows": [
 		{
-			"id": "1777689144778",
-			"start": "1-0",
-			"end": "0-0",
+			"id": "1777690714167",
+			"start": "0-1",
+			"end": "2-0",
 			"label": "",
 			"type": "normal",
 			"dashed": false,
 			"bend": "none"
 		},
 		{
-			"id": "1777689162715",
-			"start": "1-0",
+			"id": "1777690715963",
+			"start": "0-1",
+			"end": "2-0",
+			"label": "",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777690716847",
+			"start": "2-0",
 			"end": "0-1",
 			"label": "",
 			"type": "normal",
@@ -26,33 +36,24 @@
 			"bend": "none"
 		},
 		{
-			"id": "1777689164204",
-			"start": "1-1",
-			"end": "1-2",
+			"id": "1777690717985",
+			"start": "2-2",
+			"end": "2-0",
 			"label": "",
 			"type": "normal",
 			"dashed": false,
 			"bend": "none"
 		},
 		{
-			"id": "1777689165084",
-			"start": "0-2",
-			"end": "1-1",
-			"label": "",
-			"type": "normal",
-			"dashed": false,
-			"bend": "none"
-		},
-		{
-			"id": "1777689166400",
-			"start": "2-1",
-			"end": "1-1",
+			"id": "1777690718949",
+			"start": "0-1",
+			"end": "2-2",
 			"label": "",
 			"type": "normal",
 			"dashed": false,
 			"bend": "none"
 		}
 	],
-	"created": 1777689090282,
-	"modified": 1777689167085
+	"created": 1777690467564,
+	"modified": 1777690720953
 }
