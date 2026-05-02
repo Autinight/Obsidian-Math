@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777687750328-62rwgjxk4",
+  "providerId": "claude",
+  "title": "帮我把obsidian的命令面板的快捷键设置为ctrl+p",
+  "createdAt": 1777687750328,
+  "updatedAt": 1777687809520,
+  "lastResponseAt": 1777687809520,
+  "sessionId": "19eff559-de63-46c1-8117-08164c607de6",
+  "providerState": {
+    "providerSessionId": "19eff559-de63-46c1-8117-08164c607de6"
+  },
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro",
+    "inputTokens": 4374,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4374,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777687659853-tk42uuttk",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777687659854,
+  "updatedAt": 1777687720777,
+  "lastResponseAt": 1777687672647,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "8d61b0a9-2427-435a-99a0-569217dc4bf2"
+  },
+  "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "inputTokens": 3029,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3029,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

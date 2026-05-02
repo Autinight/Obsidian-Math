@@ -9,7 +9,8 @@
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
     "math-callout",
-    "tikzjax"
+    "tikzjax",
+    "obsidian-callout"
   ],
   "nativeMenus": false
 }

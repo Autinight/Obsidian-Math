@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hatcher",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,7 +207,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "b293ee04c50865eb",
   "lastOpenFiles": [
     "50.Image/MCD",
     "50.Image/MCG/SVG",

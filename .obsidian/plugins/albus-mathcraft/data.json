@@ -15,7 +15,7 @@
     "note"
   ],
   "theoremNumberingMode": "by-heading",
-  "theoremStyle": "beamer",
+  "theoremStyle": "latex",
   "theoremColors": {
     "theorem": "#3b82f6",
     "lemma": "#8b5cf6",
@@ -78,5 +78,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "equation"
+  "settingsTab": "theorem"
 }
