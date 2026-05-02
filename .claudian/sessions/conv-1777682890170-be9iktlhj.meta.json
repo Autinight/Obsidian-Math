@@ -1,23 +1,23 @@
 {
-  "id": "conv-1777645658803-lmu2irrmf",
+  "id": "conv-1777682890170-be9iktlhj",
   "providerId": "claude",
   "title": "Ch2 2",
-  "createdAt": 1777645658803,
-  "updatedAt": 1777682858539,
-  "lastResponseAt": 1777648703584,
-  "sessionId": "c64558c0-325e-4e01-96f3-312adc83101e",
+  "createdAt": 1777682890170,
+  "updatedAt": 1777683350703,
+  "lastResponseAt": 1777683350703,
+  "sessionId": "552866ef-3057-421e-984f-5e871041bad1",
   "providerState": {
-    "providerSessionId": "c64558c0-325e-4e01-96f3-312adc83101e"
+    "providerSessionId": "552866ef-3057-421e-984f-5e871041bad1"
   },
   "currentNote": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
   "usage": {
     "model": "ZhipuAI/GLM-5.1",
-    "inputTokens": 87807,
+    "inputTokens": 41204,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 87807,
-    "percentage": 44,
+    "contextTokens": 41204,
+    "percentage": 21,
     "contextWindowIsAuthoritative": true
   }
 }
