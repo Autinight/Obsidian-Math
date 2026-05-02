@@ -1,8 +1,8 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "deepseek-ai/DeepSeek-V4-Pro",
-  "thinkingBudget": "high",
+  "model": "deepseek-ai/DeepSeek-V4-Flash",
+  "thinkingBudget": "xhigh",
   "effortLevel": "xhigh",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
@@ -113,16 +113,16 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-ai/DeepSeek-V4-Pro"
+    "claude": "deepseek-ai/DeepSeek-V4-Flash"
   },
   "savedProviderEffort": {
     "claude": "xhigh"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "high"
+    "claude": "xhigh"
   },
-  "lastCustomModel": "deepseek-ai/DeepSeek-V4-Pro",
+  "lastCustomModel": "deepseek-ai/DeepSeek-V4-Flash",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

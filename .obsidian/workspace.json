@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ce7d5047a4a58d7a",
+        "id": "d6a32410b7d11a1c",
         "type": "tabs",
         "children": [
           {
-            "id": "b293ee04c50865eb",
+            "id": "dabb1404f40e7c7c",
             "type": "leaf",
             "state": {
-              "type": "mathcraft-cd-view",
+              "type": "markdown",
               "state": {
-                "file": "50.Image/MCD/1.mcd"
+                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "mathcraft-cd",
-              "title": "1"
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2 2.2 Computations and Applications"
             }
           }
         ]
@@ -177,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 468.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,21 +206,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b293ee04c50865eb",
+  "active": "dabb1404f40e7c7c",
   "lastOpenFiles": [
-    "50.Image/MCG/1.mcg",
-    "50.Image/MCD/1.mcd",
+    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/FA - HW7.md",
+    "50.Image/MCD/1.mcd",
+    "50.Image/MCG/1.mcg",
     "50.Image/MCD/a.mcd",
     "50.Image/MCD/my-diagram.mcd",
     "50.Image/MCD",
     "50.Image/MCG/SVG",
     "50.Image/MCG",
-    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "50.Image/Tikz",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.16704.1777685357585",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24076.1777684702080",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
@@ -229,11 +242,9 @@
     "hatcher_2.1_p116_full.png",
     "30.Recources/PDE/Evans - Ch6.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
     "00.Inbox/Hatcher - Algebraic Topology - Pages 97-101.md",
     "00.Inbox/Test TikZ from Vector Data.md",
     "00.Inbox/Page 111 Test - With Vector Diagrams.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "20.Cards/Examples/ep - Poisson Distribution.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
