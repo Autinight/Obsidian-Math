@@ -206,58 +206,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "floating": {
-    "id": "82343f43ccc1615c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f9f99a65c2f41ae6",
-        "type": "window",
-        "children": [
-          {
-            "id": "ec607fe602bcb423",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3fde7f4994a5bf3a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Hatcher - 2002 - Algebraic topology"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1709,
-        "y": 428,
-        "width": 852,
-        "height": 878,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3fde7f4994a5bf3a",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "50.Image/MCD",
+    "50.Image/MCG/SVG",
+    "50.Image/MCG",
+    "00.Inbox/FA - HW7.md",
+    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "50.Image/Tikz",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.16704.1777685357585",
-    "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24076.1777684702080",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684305527",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684201722",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684089571",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684040319",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683995851",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683931885",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683763367",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
@@ -284,7 +248,6 @@
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "20.Cards/Examples/ep - Poisson Distribution.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "00.Inbox/FA - HW7.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 - Computations and Applications.md",
     "00.Inbox/Hatcher 3.1 Cohomology Groups.md",

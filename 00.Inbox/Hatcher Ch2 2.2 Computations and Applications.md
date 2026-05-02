@@ -92,18 +92,18 @@ Another way of obtaining a map $S^n \to S^n$ of degree $k$ is to take a repeated
 
 > [!proof] Proof of Proposition 2.33
 > Let $CS^n$ denote the cone $(S^n \times I)/(S^n \times 1)$ with base $S^n = S^n \times 0 \subset CS^n$, so $CS^n/S^n$ is the suspension of $S^n$. The map $f$ induces $Cf : (CS^n, S^n) \to (CS^n, S^n)$ with quotient $Sf$. The naturality of the boundary maps in the long exact sequence of the pair $(CS^n, S^n)$ then gives commutativity of the diagram:
-
-```tikz
+>
+>```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 H_n(S^n) \arrow[r, "f_*"] \arrow[d, "\partial"] & H_n(S^n) \arrow[d, "\partial"] \\
 H_{n+1}(CS^n/S^n) \arrow[r, "Sf_*"] & H_{n+1}(CS^n/S^n)
 \end{tikzcd}
-\end{document}
-```
-
+> \end{document}
+> ```
 > Hence if $f_*$ is multiplication by $d$, so is $Sf_*$.
+
 
 Note that for $f : S^n \to S^n$, the suspension $Sf$ maps only one point to each of the two 'poles' of $S^{n+1}$. This implies that the local degree of $Sf$ at each pole must equal the global degree of $Sf$. Thus the local degree of a map $S^n \to S^n$ can be any integer if $n \geq 2$, just as the degree itself can be any integer when $n \geq 1$.
 

@@ -61,14 +61,14 @@
   },
   "tikz": {
     "exportPath": "50.Image/Tikz",
-    "mcgFolderPath": "",
-    "mcgExportPath": "",
-    "mcdFolderPath": "",
-    "mcdExportPath": "",
+    "mcgFolderPath": "50.Image/MCG",
+    "mcgExportPath": "50.Image/MCG/SVG",
+    "mcdFolderPath": "50.Image/MCD",
+    "mcdExportPath": "50.Image/MCD",
     "enableCache": true
   },
   "mastery": {
-    "enabled": false,
+    "enabled": true,
     "maxLevel": 5,
     "levelDescriptions": [
       "初识",
@@ -78,5 +78,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "license"
+  "settingsTab": "equation"
 }
