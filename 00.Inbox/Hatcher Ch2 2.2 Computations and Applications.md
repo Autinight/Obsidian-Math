@@ -7,12 +7,12 @@ source: "[[30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf]]"
 section: "2.2"
 date: 2026-05-02
 ---
-
-# Section 2.2 — Computations and Applications
+#
+# 2 Section 2.2 — Computations and Applications
 
 Now that the basic properties of homology have been established, we can begin to move a little more freely. Our first topic, exploiting the calculation of $H_n(S^n)$, is Brouwer's notion of degree for maps $S^n \to S^n$. Historically, Brouwer's introduction of this concept in the years 1910–12 preceded the rigorous development of homology, so his definition was rather different, using the technique of simplicial approximation which we explain in §2.C. The later definition in terms of homology is certainly more elegant, though perhaps with some loss of geometric intuition. More in the spirit of Brouwer's definition is a third approach using differential topology, presented very lucidly in [Milnor 1965].
 
-## Degree
+## 2.1 Degree
 
 For a map $f : S^n \to S^n$ with $n > 0$, the induced map $f_* : H_n(S^n) \to H_n(S^n)$ is a homomorphism from an infinite cyclic group to itself and so must be of the form $f_*(\alpha) = d\alpha$ for some integer $d$ depending only on $f$. This integer is called the **degree** of $f$, with the notation $\deg f$. Here are some basic properties of degree:
 
@@ -32,7 +32,7 @@ For a map $f : S^n \to S^n$ with $n > 0$, the induced map $f_* : H_n(S^n) \to H_
 
 Here is an interesting application of degree:
 
-> [!theorem] Theorem 2.28
+> [!theorem] Theorem 2.1
 > $S^n$ has a continuous field of nonzero tangent vectors iff $n$ is odd.
 
 > [!proof] Proof of Theorem 2.28
@@ -44,7 +44,7 @@ For the much more difficult problem of finding the maximum number of tangent vec
 
 Another nice application of degree, giving a partial answer to a question raised in Example 1.43, is the following result:
 
-> [!proposition] Proposition 2.29
+> [!proposition] Proposition 2.1
 > $\mathbb{Z}_2$ is the only nontrivial group that can act freely on $S^n$ if $n$ is even.
 
 Recall that an action of a group $G$ on a space $X$ is a homomorphism from $G$ to the group $\text{Homeo}(X)$ of homeomorphisms $X \to X$, and the action is free if the homeomorphism corresponding to each nontrivial element of $G$ has no fixed points. In the case of $S^n$, the antipodal map $x \mapsto -x$ generates a free action of $\mathbb{Z}_2$.
@@ -52,7 +52,7 @@ Recall that an action of a group $G$ on a space $X$ is a homomorphism from $G$ t
 > [!proof] Proof of Proposition 2.29
 > Since homeomorphisms have degree $\pm 1$, an action of a group $G$ on $S^n$ determines a degree function $d : G \to \{\pm 1\}$. This is a homomorphism since $\deg fg = \deg f \cdot \deg g$. If the action is free, $d$ sends each nontrivial element of $G$ to $(-1)^{n+1}$ by property (g) above. Thus when $n$ is even, $d$ has trivial kernel, so $G \subset \mathbb{Z}_2$.
 
-### Local Degree
+### 2.1.1 Local Degree
 
 Next we describe a technique for computing degrees which can be applied to most maps that arise in practice. Suppose $f : S^n \to S^n$, $n > 0$, has the property that for some point $y \in S^n$, the preimage $f^{-1}(y)$ consists of only finitely many points, say $x_1, \cdots, x_m$. Let $U_1, \cdots, U_m$ be disjoint neighborhoods of these points, mapped by $f$ into a neighborhood $V$ of $y$. Then $f(U_i - x_i) \subset V - y$ for each $i$, and we have a diagram
 
@@ -73,21 +73,21 @@ For example, if $f$ is a homeomorphism, then $y$ can be any point and there is o
 
 Here is the formula that reduces degree calculations to computing local degrees:
 
-> [!proposition] Proposition 2.30
+> [!proposition] Proposition 2.2
 > $\deg f = \sum_i \deg f|_{x_i}$.
 
 > [!proof] Proof of Proposition 2.30
 > By excision, the central term $H_n(S^n, S^n - f^{-1}(y))$ in the preceding diagram is the direct sum of the groups $H_n(U_i, U_i - x_i) \approx \mathbb{Z}$, with $k_i$ the inclusion of the $i$th summand. The map $p_i$ is projection onto the $i$th summand since the upper triangle commutes and $p_i k_j = 0$ for $j \neq i$, as $p_i k_j$ factors through $H_n(U_j, U_j) = 0$. Identifying the outer groups in the diagram with $\mathbb{Z}$ as before, commutativity of the lower triangle says that $p_i j(1) = 1$, hence $j(1) = (1, \cdots, 1) = \sum_i k_i(1)$. Commutativity of the upper square says that the middle $f_*$ takes $k_i(1)$ to $\deg f|_{x_i}$, hence the sum $\sum_i k_i(1) = j(1)$ is taken to $\sum_i \deg f|_{x_i}$. Commutativity of the lower square then gives the formula $\deg f = \sum_i \deg f|_{x_i}$.
 
-> [!example] Example 2.31
+> [!example] Example 2.1
 > We can use this result to construct a map $S^n \to S^n$ of any given degree, for each $n \geq 1$. Let $q : S^n \to \bigvee_k S^n$ be the quotient map obtained by collapsing the complement of $k$ disjoint open balls $B_i$ in $S^n$ to a point, and let $p : \bigvee_k S^n \to S^n$ identify all the summands to a single sphere. Consider the composition $f = pq$. For almost all $y \in S^n$ we have $f^{-1}(y)$ consisting of one point $x_i$ in each $B_i$. The local degree of $f$ at $x_i$ is $\pm 1$ since $f$ is a homeomorphism near $x_i$. By precomposing $p$ with reflections of the summands of $\bigvee_k S^n$ if necessary, we can make each local degree either $+1$ or $-1$, whichever we wish. Thus we can produce a map $S^n \to S^n$ of degree $\pm k$.
 
-> [!example] Example 2.32
+> [!example] Example 2.2
 > In the case of $S^1$, the map $f(z) = z^k$, where we view $S^1$ as the unit circle in $\mathbb{C}$, has degree $k$. This is evident in the case $k = 0$ since $f$ is then constant. The case $k < 0$ reduces to the case $k > 0$ by composing with $z \mapsto z^{-1}$, which is a reflection, of degree $-1$. To compute the degree when $k > 0$, observe first that for any $y \in S^1$, $f^{-1}(y)$ consists of $k$ points $x_1, \cdots, x_k$ near each of which $f$ is a local homeomorphism, stretching a circular arc by a factor of $k$. This local stretching can be eliminated by a deformation of $f$ near $x_i$ that does not change local degree, so the local degree at $x_i$ is the same as for a rotation of $S^1$. A rotation is a homeomorphism so its local degree at any point equals its global degree, which is $+1$ since a rotation is homotopic to the identity. Hence $\deg f|_{x_i} = 1$ and $\deg f = k$.
 
 Another way of obtaining a map $S^n \to S^n$ of degree $k$ is to take a repeated suspension of the map $z \mapsto z^k$ in Example 2.32, since suspension preserves degree:
 
-> [!proposition] Proposition 2.33
+> [!proposition] Proposition 2.3
 > $\deg Sf = \deg f$, where $Sf : S^{n+1} \to S^{n+1}$ is the suspension of the map $f : S^n \to S^n$.
 
 > [!proof] Proof of Proposition 2.33
@@ -107,11 +107,11 @@ H_{n+1}(CS^n/S^n) \arrow[r, "Sf_*"] & H_{n+1}(CS^n/S^n)
 
 Note that for $f : S^n \to S^n$, the suspension $Sf$ maps only one point to each of the two 'poles' of $S^{n+1}$. This implies that the local degree of $Sf$ at each pole must equal the global degree of $Sf$. Thus the local degree of a map $S^n \to S^n$ can be any integer if $n \geq 2$, just as the degree itself can be any integer when $n \geq 1$.
 
-## Cellular Homology
+## 2.2 Cellular Homology
 
 Cellular homology is a very efficient tool for computing the homology groups of CW complexes, based on degree calculations. Before giving the definition of cellular homology, we first establish a few preliminary facts:
 
-> [!lemma] Lemma 2.34
+> [!lemma] Lemma 2.1
 > If $X$ is a CW complex, then:
 > (a) $H_k(X^n, X^{n-1})$ is zero for $k \neq n$ and is free abelian for $k = n$, with a basis in one-to-one correspondence with the $n$-cells of $X$.
 > (b) $H_k(X^n) = 0$ for $k > n$. In particular, if $X$ is finite-dimensional then $H_k(X) = 0$ for $k > \dim X$.
@@ -137,7 +137,7 @@ Cellular homology is a very efficient tool for computing the homology groups of 
 
 Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences for the pairs $(X^{n+1}, X^n)$, $(X^n, X^{n-1})$, and $(X^{n-1}, X^{n-2})$ fit into a diagram where $d_{n+1}$ and $d_n$ are defined as the compositions $j_n \partial_{n+1}$ and $j_{n-1}\partial_n$, which are just 'relativizations' of the boundary maps $\partial_{n+1}$ and $\partial_n$. The composition $d_n d_{n+1}$ includes two successive maps in one of the exact sequences, hence is zero. Thus the horizontal row is a chain complex, called the **cellular chain complex** of $X$ since $H_n(X^n, X^{n-1})$ is free with basis in one-to-one correspondence with the $n$-cells of $X$, so one can think of elements of $H_n(X^n, X^{n-1})$ as linear combinations of $n$-cells of $X$. The homology groups of this cellular chain complex are called the **cellular homology groups** of $X$. Temporarily we denote them $H_n^{CW}(X)$.
 
-> [!theorem] Theorem 2.35
+> [!theorem] Theorem 2.2
 > $H_n^{CW}(X) \approx H_n(X)$.
 
 > [!proof] Proof of Theorem 2.35
@@ -155,17 +155,19 @@ Here are a few immediate applications:
 
 This last observation applies for example to $\mathbb{C}P^n$, which has a CW structure with one cell of each even dimension $2k \leq 2n$ as we saw in Example 0.6. Thus
 
-$$\tilde{H}_i(\mathbb{C}P^n) \approx \begin{cases} \mathbb{Z} & \text{for } i = 0, 2, 4, \cdots, 2n \\ 0 & \text{otherwise} \end{cases}$$
+$$
+\tilde{H}_i(\mathbb{C}P^n) \approx \begin{cases} \mathbb{Z} & \text{for } i = 0, 2, 4, \cdots, 2n \\ 0 & \text{otherwise} \end{cases} \tag{2.1}
+$$
 
 Another simple example is $S^n \times S^n$ with $n > 1$, using the product CW structure consisting of a 0-cell, two $n$-cells, and a $2n$-cell.
 
 It is possible to prove the statements (i)–(iii) for finite-dimensional CW complexes by induction on the dimension, without using cellular homology but only the basic results from the previous section. However, the viewpoint of cellular homology makes (i)–(iii) quite transparent.
 
-### The Cellular Boundary Formula
+### 2.2.1 The Cellular Boundary Formula
 
 Next we describe how the cellular boundary maps $d_n$ can be computed. When $n = 1$ this is easy since the boundary map $d_1 : H_1(X^1, X^0) \to H_0(X^0)$ is the same as the simplicial boundary map $\Delta_1(X) \to \Delta_0(X)$. In case $X$ is connected and has only one 0-cell, then $d_1$ must be 0, otherwise $H_0(X)$ would not be $\mathbb{Z}$. When $n > 1$ we will show that $d_n$ can be computed in terms of degrees:
 
-> [!definition] Cellular Boundary Formula
+> [!definition] Definition 2.1 (Cellular Boundary Formula)
 > $d_n(e^n_\alpha) = \sum_\beta d_{\alpha\beta} e^{n-1}_\beta$ where $d_{\alpha\beta}$ is the degree of the map $S^{n-1}_\alpha \to X^{n-1} \to S^{n-1}_\beta$ that is the composition of the attaching map of $e^n_\alpha$ with the quotient map collapsing $X^{n-1} - e^{n-1}_\beta$ to a point.
 
 Here we are identifying the cells $e^n_\alpha$ and $e^{n-1}_\beta$ with generators of the corresponding summands of the cellular chain groups. The summation in the formula contains only finitely many terms since the attaching map of $e^n_\alpha$ has compact image, so this image meets only finitely many cells $e^{n-1}_\beta$.
@@ -178,26 +180,26 @@ To derive the cellular boundary formula, consider the commutative diagram where:
 
 The map $\Phi_{\alpha*}$ takes a chosen generator $[D^n_\alpha] \in H_n(D^n_\alpha, \partial D^n_\alpha)$ to a generator of the $\mathbb{Z}$ summand of $H_n(X^n, X^{n-1})$ corresponding to $e^n_\alpha$. Letting $e^n_\alpha$ denote this generator, commutativity of the left half of the diagram then gives $d_n(e^n_\alpha) = j_{n-1}\varphi_{\alpha*}\partial[D^n_\alpha]$. In terms of the basis for $H_{n-1}(X^{n-1}, X^{n-2})$ corresponding to the cells $e^{n-1}_\beta$, the map $q_{\beta*}$ is the projection of $\tilde{H}_{n-1}(X^{n-1}/X^{n-2})$ onto its $\mathbb{Z}$ summand corresponding to $e^{n-1}_\beta$. Commutativity of the diagram then yields the formula for $d_n$ given above.
 
-### Cellular Homology Examples
+### 2.2.2 Cellular Homology Examples
 
-> [!example] Example 2.36
+> [!example] Example 2.3
 > Let $M_g$ be the closed orientable surface of genus $g$ with its usual CW structure consisting of one 0-cell, $2g$ 1-cells, and one 2-cell attached by the product of commutators $[a_1, b_1] \cdots [a_g, b_g]$. The associated cellular chain complex is
 > $$0 \to \mathbb{Z} \xrightarrow{d_2} \mathbb{Z}^{2g} \xrightarrow{d_1} \mathbb{Z} \to 0$$
 > As observed above, $d_1$ must be 0 since there is only one 0-cell. Also, $d_2$ is 0 because each $a_i$ or $b_i$ appears with its inverse in $[a_1, b_1] \cdots [a_g, b_g]$, so the maps $\Delta_{\alpha\beta}$ are homotopic to constant maps. Since $d_1$ and $d_2$ are both zero, the homology groups of $M_g$ are the same as the cellular chain groups, namely, $\mathbb{Z}$ in dimensions 0 and 2, and $\mathbb{Z}^{2g}$ in dimension 1.
 
-> [!example] Example 2.37
+> [!example] Example 2.4
 > The closed nonorientable surface $N_g$ of genus $g$ has a cell structure with one 0-cell, $g$ 1-cells, and one 2-cell attached by the word $a_1^2 a_2^2 \cdots a_g^2$. Again $d_1 = 0$, and $d_2 : \mathbb{Z} \to \mathbb{Z}^g$ is specified by the equation $d_2(1) = (2, \cdots, 2)$ since each $a_i$ appears in the attaching word of the 2-cell with total exponent 2, which means that each $\Delta_{\alpha\beta}$ is homotopic to the map $z \mapsto z^2$, of degree 2. Since $d_2(1) = (2, \cdots, 2)$, we have $d_2$ injective and hence $H_2(N_g) = 0$. If we change the basis for $\mathbb{Z}^g$ by replacing the last standard basis element $(0, \cdots, 0, 1)$ by $(1, \cdots, 1)$, we see that $H_1(N_g) \approx \mathbb{Z}^{g-1} \oplus \mathbb{Z}_2$.
 
 These two examples illustrate the general fact that the orientability of a closed connected manifold $M$ of dimension $n$ is detected by $H_n(M)$, which is $\mathbb{Z}$ if $M$ is orientable and 0 otherwise. This is shown in Theorem 3.26.
 
-> [!example] Example 2.38: An Acyclic Space
+> [!example] Example 2.5 (Example 2.38: An Acyclic Space)
 > Let $X$ be obtained from $S^1 \vee S^1$ by attaching two 2-cells by the words $a^5 b^{-3}$ and $b^3(ab)^{-2}$. Then $d_2 : \mathbb{Z}^2 \to \mathbb{Z}^2$ has matrix $\begin{pmatrix} 5 & -2 \\ -3 & 1 \end{pmatrix}$, with the two columns coming from abelianizing $a^5 b^{-3}$ and $b^3(ab)^{-2}$ to $5a - 3b$ and $-2a + b$, in additive notation. The matrix has determinant $-1$, so $d_2$ is an isomorphism and $\tilde{H}_i(X) = 0$ for all $i$. Such a space $X$ is called **acyclic**.
 >
 > We can see that this acyclic space is not contractible by considering $\pi_1(X)$, which has the presentation $\langle a, b \mid a^5 b^{-3}, b^3(ab)^{-2} \rangle$. There is a nontrivial homomorphism from this group to the group $G$ of rotational symmetries of a regular dodecahedron, sending $a$ to the rotation $\rho_a$ through angle $2\pi/5$ about the axis through the center of a pentagonal face, and $b$ to the rotation $\rho_b$ through angle $2\pi/3$ about the axis through a vertex of this face. The composition $\rho_a \rho_b$ is a rotation through angle $\pi$ about the axis through the midpoint of an edge abutting this vertex. Thus the relations $a^5 = b^3 = (ab)^2$ defining $\pi_1(X)$ become $\rho_a^5 = \rho_b^3 = (\rho_a \rho_b)^2 = 1$ in $G$, which means there is a well-defined homomorphism $\rho : \pi_1(X) \to G$ sending $a$ to $\rho_a$ and $b$ to $\rho_b$. It is not hard to see that $G$ is generated by $\rho_a$ and $\rho_b$, so $\rho$ is surjective. With more work one can compute that the kernel of $\rho$ is $\mathbb{Z}_2$, generated by the element $a^5 = b^3 = (ab)^2$, and this $\mathbb{Z}_2$ is in fact the center of $\pi_1(X)$. In particular, $\pi_1(X)$ has order 120 since $G$ has order 60.
 
 After these 2-dimensional examples, let us now move up to three dimensions, where we have the additional task of computing the cellular boundary map $d_3$.
 
-> [!example] Example 2.39
+> [!example] Example 2.6
 > A 3-dimensional torus $T^3 = S^1 \times S^1 \times S^1$ can be constructed from a cube by identifying each pair of opposite square faces. The second figure shows a slightly different pattern of identifications of opposite faces, with the front and back faces now identified via a rotation of the cube around a horizontal left-right axis. The space produced by these identifications is the product $K \times S^1$ of a Klein bottle and a circle. For both $T^3$ and $K \times S^1$ we have a CW structure with one 3-cell, three 2-cells, three 1-cells, and one 0-cell. The cellular chain complexes thus have the form
 > $$0 \to \mathbb{Z} \xrightarrow{d_3} \mathbb{Z}^3 \xrightarrow{d_2} \mathbb{Z}^3 \xrightarrow{0} \mathbb{Z} \to 0$$
 >
@@ -205,7 +207,7 @@ After these 2-dimensional examples, let us now move up to three dimensions, wher
 >
 > For $K \times S^1$, when we compute local degrees for the front and back faces we find that the degrees now have the same rather than opposite signs since the map $\Delta_{\alpha\beta}$ on these two faces differs not by a reflection but by a rotation of the boundary of the cube. The local degrees for the other faces are the same as before. Using the letters $A, B, C$ to denote the 2-cells given by the faces orthogonal to the edges $a, b, c$, respectively, we have the boundary formulas $d_3 e^3 = 2C$, $d_2 A = 2b$, $d_2 B = 0$, and $d_2 C = 0$. It follows that $H_3(K \times S^1) = 0$, $H_2(K \times S^1) = \mathbb{Z} \oplus \mathbb{Z}_2$, and $H_1(K \times S^1) = \mathbb{Z} \oplus \mathbb{Z} \oplus \mathbb{Z}_2$.
 
-> [!example] Example 2.40: Moore Spaces
+> [!example] Example 2.7 (Example 2.40: Moore Spaces)
 > Given an abelian group $G$ and an integer $n \geq 1$, we will construct a CW complex $X$ such that $H_n(X) \approx G$ and $\tilde{H}_i(X) = 0$ for $i \neq n$. Such a space is called a **Moore space**, commonly written $M(G, n)$ to indicate the dependence on $G$ and $n$. It is probably best for the definition of a Moore space to include the condition that $M(G, n)$ be simply-connected if $n > 1$. The spaces we construct will have this property.
 >
 > As an easy special case, when $G = \mathbb{Z}_m$ we can take $X$ to be $S^n$ with a cell $e^{n+1}$ attached by a map $S^n \to S^n$ of degree $m$. More generally, any finitely generated $G$ can be realized by taking wedge sums of examples of this type for finite cyclic summands of $G$, together with copies of $S^n$ for infinite cyclic summands of $G$.
@@ -214,10 +216,10 @@ After these 2-dimensional examples, let us now move up to three dimensions, wher
 >
 > The construction of $f_\beta$ generalizes the construction in Example 2.31 of a map $S^n \to S^n$ of given degree. Namely, we can let $f_\beta$ map the complement of $\sum_\alpha |d_{\beta\alpha}|$ disjoint balls in $S^n$ to the 0-cell of $X^n$ while sending $|d_{\beta\alpha}|$ of the balls onto the summand $S^n_\alpha$ by maps of degree $+1$ if $d_{\beta\alpha} > 0$, or degree $-1$ if $d_{\beta\alpha} < 0$.
 
-> [!example] Example 2.41
+> [!example] Example 2.8
 > By taking a wedge sum of the Moore spaces constructed in the preceding example for varying $n$ we obtain a connected CW complex with any prescribed sequence of homology groups in dimensions 1, 2, 3, $\cdots$.
 
-> [!example] Example 2.42: Real Projective Space $\mathbb{R}P^n$
+> [!example] Example 2.9 (Example 2.42: Real Projective Space $\mathbb{R}P^n$)
 > As we saw in Example 0.4, $\mathbb{R}P^n$ has a CW structure with one cell $e^k$ in each dimension $k \leq n$, and the attaching map for $e^k$ is the 2-sheeted covering projection $\varphi : S^{k-1} \to \mathbb{R}P^{k-1}$. To compute the boundary map $d_k$ we compute the degree of the composition $S^{k-1} \xrightarrow{\varphi} \mathbb{R}P^{k-1} \xrightarrow{q} \mathbb{R}P^{k-1}/\mathbb{R}P^{k-2} = S^{k-1}$, with $q$ the quotient map. The map $q\varphi$ restricts to a homeomorphism from each component of $S^{k-1} - S^{k-2}$ onto $\mathbb{R}P^{k-1} - \mathbb{R}P^{k-2}$, and these two homeomorphisms are obtained from each other by precomposing with the antipodal map of $S^{k-1}$, which has degree $(-1)^k$. Hence $\deg q\varphi = \deg \mathbb{1} + \deg(-\mathbb{1}) = 1 + (-1)^k$, and so $d_k$ is either 0 or multiplication by 2 according to whether $k$ is odd or even. Thus the cellular chain complex for $\mathbb{R}P^n$ is
 >
 > If $n$ is even:
@@ -229,7 +231,7 @@ After these 2-dimensional examples, let us now move up to three dimensions, wher
 > From this it follows that
 > $$H_k(\mathbb{R}P^n) = \begin{cases} \mathbb{Z} & \text{for } k = 0 \text{ and for } k = n \text{ odd} \\ \mathbb{Z}_2 & \text{for } k \text{ odd}, 0 < k < n \\ 0 & \text{otherwise} \end{cases}$$
 
-> [!example] Example 2.43: Lens Spaces
+> [!example] Example 2.10 (Example 2.43: Lens Spaces)
 > This example is somewhat more complicated. Given an integer $m > 1$ and integers $\ell_1, \cdots, \ell_n$ relatively prime to $m$, define the lens space $L = L_m(\ell_1, \cdots, \ell_n)$ to be the orbit space $S^{2n-1}/\mathbb{Z}_m$ of the unit sphere $S^{2n-1} \subset \mathbb{C}^n$ with the action of $\mathbb{Z}_m$ generated by the rotation $\rho(z_1, \cdots, z_n) = (e^{2\pi i \ell_1/m} z_1, \cdots, e^{2\pi i \ell_n/m} z_n)$, rotating the $j$th $\mathbb{C}$ factor of $\mathbb{C}^n$ by the angle $2\pi \ell_j/m$. In particular, when $m = 2$, $\rho$ is the antipodal map, so $L = \mathbb{R}P^{2n-1}$ in this case. In the general case, the projection $S^{2n-1} \to L$ is a covering space since the action of $\mathbb{Z}_m$ on $S^{2n-1}$ is free: Only the identity element fixes any point of $S^{2n-1}$ since each point of $S^{2n-1}$ has some coordinate $z_j$ nonzero and then $e^{2\pi ik\ell_j/m} z_j \neq z_j$ for $0 < k < m$, as a result of the assumption that $\ell_j$ is relatively prime to $m$.
 >
 > We shall construct a CW structure on $L$ with one cell $e^k$ for each $k \leq 2n - 1$ and show that the resulting cellular chain complex is
@@ -249,11 +251,11 @@ After these 2-dimensional examples, let us now move up to three dimensions, wher
 >
 > In the terminology of §1.B, the infinite-dimensional lens space $L_m(\ell_1, \ell_2, \cdots)$ is an Eilenberg–MacLane space $K(\mathbb{Z}_m, 1)$ since its universal cover $S^\infty$ is contractible. By Theorem 1B.8 the homotopy type of $L_m(\ell_1, \ell_2, \cdots)$ depends only on $m$, and not on the $\ell_i$'s. This is not true in the finite-dimensional case, when two lens spaces $L_m(\ell_1, \cdots, \ell_n)$ and $L_m(\ell'_1, \cdots, \ell'_n)$ have the same homotopy type iff $\ell_1 \cdots \ell_n \equiv \pm k^n \ell'_1 \cdots \ell'_n \mod m$ for some integer $k$. For example, the 3-dimensional lens spaces $L_{1/5}$ and $L_{2/5}$ are not homotopy equivalent, though they have the same fundamental group and the same homology groups. On the other hand, $L_{1/7}$ and $L_{2/7}$ are homotopy equivalent but not homeomorphic.
 
-## Euler Characteristic
+## 2.3 Euler Characteristic
 
 For a finite CW complex $X$, the **Euler characteristic** $\chi(X)$ is defined to be the alternating sum $\sum_n (-1)^n c_n$ where $c_n$ is the number of $n$-cells of $X$, generalizing the familiar formula vertices − edges + faces for 2-dimensional complexes. The following result shows that $\chi(X)$ can be defined purely in terms of homology, and hence depends only on the homotopy type of $X$. In particular, $\chi(X)$ is independent of the choice of CW structure on $X$.
 
-> [!theorem] Theorem 2.44
+> [!theorem] Theorem 2.3
 > $\chi(X) = \sum_n (-1)^n \text{rank } H_n(X)$.
 
 Here the **rank** of a finitely generated abelian group is the number of $\mathbb{Z}$ summands when the group is expressed as a direct sum of cyclic groups. We shall need the following fact, whose proof we leave as an exercise: If $0 \to A \to B \to C \to 0$ is a short exact sequence of finitely generated abelian groups, then $\text{rank } B = \text{rank } A + \text{rank } C$.
@@ -268,15 +270,17 @@ Here the **rank** of a finitely generated abelian group is the number of $\mathb
 
 For example, the surfaces $M_g$ and $N_g$ have Euler characteristics $\chi(M_g) = 2 - 2g$ and $\chi(N_g) = 2 - g$. Thus all the orientable surfaces $M_g$ are distinguished from each other by their Euler characteristics, as are the nonorientable surfaces $N_g$, and there are only the relations $\chi(M_g) = \chi(N_{2g})$.
 
-## Split Exact Sequences
+## 2.4 Split Exact Sequences
 
 Suppose one has a retraction $r : X \to A$, so $ri = \mathbb{1}$ where $i : A \to X$ is the inclusion. The induced map $i_* : H_n(A) \to H_n(X)$ is then injective since $r_* i_* = \mathbb{1}$. From this it follows that the boundary maps in the long exact sequence for $(X, A)$ are zero, so the long exact sequence breaks up into short exact sequences
 
-$$0 \to H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X, A) \to 0$$
+$$
+0 \to H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X, A) \to 0 \tag{2.2}
+$$
 
 The relation $r_* i_* = \mathbb{1}$ actually gives more information than this, by the following piece of elementary algebra:
 
-> [!lemma] Splitting Lemma
+> [!lemma] Lemma 2.2 (Splitting Lemma)
 > For a short exact sequence $0 \to A \xrightarrow{i} B \xrightarrow{j} C \to 0$ of abelian groups the following statements are equivalent:
 > (a) There is a homomorphism $p : B \to A$ such that $pi = \mathbb{1} : A \to A$.
 > (b) There is a homomorphism $s : C \to B$ such that $js = \mathbb{1} : C \to C$.
@@ -305,13 +309,13 @@ From the Splitting Lemma and the remarks preceding it we deduce that a retractio
 
 But this sequence does not split since $\mathbb{Z}$ is not isomorphic to $\mathbb{Z} \oplus \mathbb{Z}_m$ if $m > 1$, so the retraction cannot exist. In the simplest case of the degree 2 map $S^1 \to S^1$, $z \mapsto z^2$, this says that the Möbius band does not retract onto its boundary circle.
 
-## Homology of Groups
+## 2.5 Homology of Groups
 
 In §1.B we constructed for each group $G$ a CW complex $K(G, 1)$ having a contractible universal cover, and we showed that the homotopy type of such a space $K(G, 1)$ is uniquely determined by $G$. The homology groups $H_n(K(G, 1))$ therefore depend only on $G$, and are usually denoted simply $H_n(G)$. The calculations for lens spaces in Example 2.43 show that $H_n(\mathbb{Z}_m)$ is $\mathbb{Z}_m$ for odd $n$ and 0 for even $n > 0$. Since $S^1$ is a $K(\mathbb{Z}, 1)$ and the torus is a $K(\mathbb{Z} \times \mathbb{Z}, 1)$, we also know the homology of these two groups. More generally, the homology of finitely generated abelian groups can be computed from these examples using the Künneth formula in §3.B and the fact that a product $K(G, 1) \times K(H, 1)$ is a $K(G \times H, 1)$.
 
 Here is an application of the calculation of $H_n(\mathbb{Z}_m)$:
 
-> [!proposition] Proposition 2.45
+> [!proposition] Proposition 2.4
 > If a finite-dimensional CW complex $X$ is a $K(G, 1)$, then the group $G = \pi_1(X)$ must be torsionfree.
 
 This applies to quite a few manifolds, for example closed surfaces other than $S^2$ and $\mathbb{R}P^2$, and also many 3-dimensional manifolds such as complements of knots in $S^3$.
@@ -321,18 +325,24 @@ This applies to quite a few manifolds, for example closed surfaces other than $S
 
 Reflecting the richness of group theory, the homology of groups has been studied quite extensively. A good starting place for those wishing to learn more is the textbook [Brown 1982]. At a more advanced level the books [Adem & Milgram 1994] and [Benson 1992] treat the subject from a mostly topological viewpoint.
 
-## Mayer–Vietoris Sequences
+## 2.6 Mayer–Vietoris Sequences
 
 In addition to the long exact sequence of homology groups for a pair $(X, A)$, there is another sort of long exact sequence, known as a **Mayer–Vietoris sequence**, which is equally powerful but is sometimes more convenient to use. For a pair of subspaces $A, B \subset X$ such that $X$ is the union of the interiors of $A$ and $B$, this exact sequence has the form
 
-$$\cdots \to H_n(A \cap B) \xrightarrow{\Phi} H_n(A) \oplus H_n(B) \xrightarrow{\Psi} H_n(X) \xrightarrow{\partial} H_{n-1}(A \cap B) \to \cdots$$
-$$\cdots \to H_0(X) \to 0$$
+$$
+\cdots \to H_n(A \cap B) \xrightarrow{\Phi} H_n(A) \oplus H_n(B) \xrightarrow{\Psi} H_n(X) \xrightarrow{\partial} H_{n-1}(A \cap B) \to \cdots \tag{2.3}
+$$
+$$
+\cdots \to H_0(X) \to 0 \tag{2.4}
+$$
 
 In addition to its usefulness for calculations, the Mayer–Vietoris sequence is also applied frequently in induction arguments, where one might know that a certain statement is true for $A$, $B$, and $A \cap B$ by induction and then deduce that it is true for $A \cup B$ by the exact sequence.
 
 The Mayer–Vietoris sequence is easy to derive from the machinery of §2.1. Let $C_n(A + B)$ be the subgroup of $C_n(X)$ consisting of chains that are sums of chains in $A$ and chains in $B$. The usual boundary map $\partial : C_n(X) \to C_{n-1}(X)$ takes $C_n(A + B)$ to $C_{n-1}(A + B)$, so the $C_n(A + B)$'s form a chain complex. According to Proposition 2.21, the inclusions $C_n(A + B) \hookrightarrow C_n(X)$ induce isomorphisms on homology groups. The Mayer–Vietoris sequence is then the long exact sequence of homology groups associated to the short exact sequence of chain complexes formed by the short exact sequences
 
-$$0 \to C_n(A \cap B) \xrightarrow{\varphi} C_n(A) \oplus C_n(B) \xrightarrow{\psi} C_n(A + B) \to 0$$
+$$
+0 \to C_n(A \cap B) \xrightarrow{\varphi} C_n(A) \oplus C_n(B) \xrightarrow{\psi} C_n(A + B) \to 0 \tag{2.5}
+$$
 
 where $\varphi(x) = (x, -x)$ and $\psi(x, y) = x + y$. The exactness of this short exact sequence can be checked as follows. First, $\text{Ker } \varphi = 0$ since a chain in $A \cap B$ that is zero as a chain in $A$ (or in $B$) must be the zero chain. Next, $\text{Im } \varphi \subset \text{Ker } \psi$ since $\psi\varphi = 0$. Also, $\text{Ker } \psi \subset \text{Im } \varphi$ since for a pair $(x, y) \in C_n(A) \oplus C_n(B)$ the condition $x + y = 0$ implies $x = -y$, so $x$ is a chain in both $A$ and $B$, that is, $x \in C_n(A \cap B)$, and $(x, y) = (x, -x) \in \text{Im } \varphi$. Finally, exactness at $C_n(A + B)$ is immediate from the definition of $C_n(A + B)$.
 
@@ -344,15 +354,15 @@ Mayer–Vietoris sequences can be viewed as analogs of the van Kampen theorem si
 
 There are also Mayer–Vietoris sequences for decompositions $X = A \cup B$ such that $A$ and $B$ are deformation retracts of neighborhoods $U$ and $V$ with $U \cap V$ deformation retracting onto $A \cap B$. Under these assumptions the five-lemma implies that the maps $C_n(A + B) \to C_n(U + V)$ induce isomorphisms on homology, and hence so do the maps $C_n(A + B) \to C_n(X)$. For example, if $X$ is a CW complex and $A$ and $B$ are subcomplexes, then we can choose for $U$ and $V$ neighborhoods of the form $N_\varepsilon(A)$ and $N_\varepsilon(B)$ constructed in the Appendix.
 
-> [!example] Example 2.46
+> [!example] Example 2.11
 > Take $X = S^n$ with $A$ and $B$ the northern and southern hemispheres, so that $A \cap B = S^{n-1}$. Then in the reduced Mayer–Vietoris sequence the terms $\tilde{H}_i(A) \oplus \tilde{H}_i(B)$ are zero, so we obtain isomorphisms $\tilde{H}_i(S^n) \approx \tilde{H}_{i-1}(S^{n-1})$. This gives another way of calculating the homology groups of $S^n$ by induction.
 
-> [!example] Example 2.47
+> [!example] Example 2.12
 > We can decompose the Klein bottle $K$ as the union of two Möbius bands $A$ and $B$ glued together by a homeomorphism between their boundary circles. Then $A$, $B$, and $A \cap B$ are homotopy equivalent to circles, so the interesting part of the reduced Mayer–Vietoris sequence for the decomposition $K = A \cup B$ is the segment
 > $$0 \to H_2(K) \to H_1(A \cap B) \xrightarrow{\Phi} H_1(A) \oplus H_1(B) \to H_1(K) \to 0$$
 > The map $\Phi$ is $\mathbb{Z} \to \mathbb{Z} \oplus \mathbb{Z}$, $1 \mapsto (2, -2)$, since the boundary circle of a Möbius band wraps twice around the core circle. Since $\Phi$ is injective we obtain $H_2(K) = 0$. Furthermore, we have $H_1(K) \approx \mathbb{Z} \oplus \mathbb{Z}_2$ since we can choose $(1, 0)$ and $(1, -1)$ as a basis for $\mathbb{Z} \oplus \mathbb{Z}$. All the higher homology groups of $K$ are zero from the earlier part of the Mayer–Vietoris sequence.
 
-> [!example] Example 2.48
+> [!example] Example 2.13
 > Let us describe an exact sequence which is somewhat similar to the Mayer–Vietoris sequence and which in some cases generalizes it. If we are given two maps $f, g : X \to Y$ then we can form a quotient space $Z$ of the disjoint union of $X \times I$ and $Y$ via the identifications $(x, 0) \sim f(x)$ and $(x, 1) \sim g(x)$, thus attaching one end of $X \times I$ to $Y$ by $f$ and the other end by $g$. For example, if $f$ and $g$ are each the identity map $X \to X$ then $Z = X \times S^1$. If only one of $f$ and $g$, say $f$, is the identity map, then $Z$ is homeomorphic to what is called the **mapping torus** of $g$, the quotient space of $X \times I$ under the identifications $(x, 0) \sim (g(x), 1)$. The Klein bottle is an example, with $g$ a reflection $S^1 \to S^1$.
 >
 > The exact sequence we want has the form
@@ -367,13 +377,15 @@ There are also Mayer–Vietoris sequences for decompositions $X = A \cup B$ such
 
 A relative form of the Mayer–Vietoris sequence is sometimes useful. If one has a pair of spaces $(X, Y) = (A \cup B, C \cup D)$ with $C \subset A$ and $D \subset B$, such that $X$ is the union of the interiors of $A$ and $B$, and $Y$ is the union of the interiors of $C$ and $D$, then there is a **relative Mayer–Vietoris sequence**
 
-$$\cdots \to H_n(A \cap B, C \cap D) \xrightarrow{\Phi} H_n(A, C) \oplus H_n(B, D) \xrightarrow{\Psi} H_n(X, Y) \xrightarrow{\partial} \cdots$$
+$$
+\cdots \to H_n(A \cap B, C \cap D) \xrightarrow{\Phi} H_n(A, C) \oplus H_n(B, D) \xrightarrow{\Psi} H_n(X, Y) \xrightarrow{\partial} \cdots \tag{2.6}
+$$
 
 To derive this, consider the commutative diagram where $C_n(A + B, C + D)$ is the quotient of the subgroup $C_n(A + B) \subset C_n(X)$ by its subgroup $C_n(C + D) \subset C_n(Y)$. Thus the three columns of the diagram are exact. We have seen that the first two rows are exact, and we claim that the third row is exact also, with the maps $\varphi$ and $\psi$ induced from the $\varphi$ and $\psi$ in the second row. Since $\psi\varphi = 0$ in the second row, this holds also in the third row, so the third row is at least a chain complex. Viewing the three rows as chain complexes, the diagram then represents a short exact sequence of chain complexes. The associated long exact sequence of homology groups has two out of every three terms zero since the first two rows of the diagram are exact. Hence the remaining homology groups are zero and the third row is exact.
 
 The third column maps to $0 \to C_n(Y) \to C_n(X) \to C_n(X, Y) \to 0$, inducing maps of homology groups that are isomorphisms for the $X$ and $Y$ terms as we have seen above. So by the five-lemma the maps $C_n(A + B, C + D) \to C_n(X, Y)$ also induce isomorphisms on homology. The relative Mayer–Vietoris sequence is then the long exact sequence of homology groups associated to the short exact sequence of chain complexes given by the third row of the diagram.
 
-## Homology with Coefficients
+## 2.7 Homology with Coefficients
 
 There is an easy generalization of the homology theory we have considered so far that behaves in a very similar fashion and sometimes offers technical advantages. The generalization consists of using chains of the form $\sum_i n_i \sigma_i$ where each $\sigma_i$ is a singular $n$-simplex in $X$ as before, but now the coefficients $n_i$ are taken to lie in a fixed abelian group $G$ rather than $\mathbb{Z}$. Such $n$-chains form an abelian group $C_n(X; G)$, and there is the expected relative version $C_n(X, A; G) = C_n(X; G)/C_n(A; G)$. The old formula for the boundary maps $\partial$ can still be used for arbitrary $G$, namely $\partial\left(\sum_i n_i \sigma_i\right) = \sum_{i,j} (-1)^j n_i \sigma_i|_{[v_0, \cdots, \hat{v}_j, \cdots, v_n]}$. Just as before, a calculation shows that $\partial^2 = 0$, so the groups $C_n(X; G)$ and $C_n(X, A; G)$ form chain complexes. The resulting homology groups $H_n(X; G)$ and $H_n(X, A; G)$ are called **homology groups with coefficients in $G$**. Reduced groups $\tilde{H}_n(X; G)$ are defined via the augmented chain complex $\cdots \to C_0(X; G) \xrightarrow{\varepsilon} G \to 0$ with $\varepsilon$ again defined by summing coefficients.
 
@@ -383,7 +395,7 @@ All the theory we developed in §2.1 for $\mathbb{Z}$ coefficients carries over 
 
 Cellular homology also generalizes to homology with coefficients, with the cellular chain group $H_n(X^n, X^{n-1})$ replaced by $H_n(X^n, X^{n-1}; G)$, which is a direct sum of $G$'s, one for each $n$-cell. The proof that the cellular homology groups $H_n^{CW}(X)$ agree with singular homology $H_n(X)$ extends immediately to give $H_n^{CW}(X; G) \approx H_n(X; G)$. The cellular boundary maps are given by the same formula as for $\mathbb{Z}$ coefficients, $d_n\left(\sum_\alpha n_\alpha e^n_\alpha\right) = \sum_{\alpha,\beta} d_{\alpha\beta} n_\alpha e^{n-1}_\beta$. The old proof applies, but the following result is needed to know that the coefficients $d_{\alpha\beta}$ are the same as before:
 
-> [!lemma] Lemma 2.49
+> [!lemma] Lemma 2.3
 > If $f : S^k \to S^k$ has degree $m$, then $f_* : H_k(S^k; G) \to H_k(S^k; G)$ is multiplication by $m$.
 
 > [!proof] Proof of Lemma 2.49
@@ -391,7 +403,7 @@ Cellular homology also generalizes to homology with coefficients, with the cellu
 >
 > Now let $f : S^k \to S^k$ have degree $m$ and let $\varphi : \mathbb{Z} \to G$ take 1 to a given element $g \in G$. Then we have a commutative diagram, where commutativity of the outer two squares comes from the inductive calculation of these homology groups, reducing to the case $k = 0$ when the commutativity is obvious. Since the diagram commutes, the assumption that the map across the top takes 1 to $m$ implies that the map across the bottom takes $g$ to $mg$.
 
-> [!example] Example 2.50
+> [!example] Example 2.14
 > It is instructive to see what happens to the homology of $\mathbb{R}P^n$ when the coefficient group $G$ is chosen to be a field $F$. The cellular chain complex is
 > $$\cdots \to F \xrightarrow{0} F \xrightarrow{2} F \xrightarrow{0} F \xrightarrow{2} F \xrightarrow{0} F \to 0$$
 > Hence if $F$ has characteristic 2, for example if $F = \mathbb{Z}_2$, then $H_k(\mathbb{R}P^n; F) \approx F$ for $0 \leq k \leq n$, a more uniform answer than with $\mathbb{Z}$ coefficients. On the other hand, if $F$ has characteristic different from 2 then the boundary maps $F \xrightarrow{2} F$ are isomorphisms, hence $H_k(\mathbb{R}P^n; F)$ is $F$ for $k = 0$ and for $k = n$ odd, and is zero otherwise.
@@ -402,12 +414,12 @@ In spite of the fact that homology with $\mathbb{Z}$ coefficients determines hom
 
 As another illustration, we will now give an example of a map $f : X \to Y$ with the property that the induced maps $f_*$ are trivial for homology with $\mathbb{Z}$ coefficients but not for homology with $\mathbb{Z}_m$ coefficients for suitably chosen $m$. Thus homology with $\mathbb{Z}_m$ coefficients tells us that $f$ is not homotopic to a constant map, which we would not know using only $\mathbb{Z}$ coefficients.
 
-> [!example] Example 2.51
+> [!example] Example 2.15
 > Let $X$ be a Moore space $M(\mathbb{Z}_m, n)$ obtained from $S^n$ by attaching a cell $e^{n+1}$ by a map of degree $m$. The quotient map $f : X \to X/S^n = S^{n+1}$ induces trivial homomorphisms on reduced homology with $\mathbb{Z}$ coefficients since the nonzero reduced homology groups of $X$ and $S^{n+1}$ occur in different dimensions. But with $\mathbb{Z}_m$ coefficients the story is different, as we can see by considering the long exact sequence of the pair $(X, S^n)$, which contains the segment
 > $$0 = \tilde{H}_{n+1}(S^n; \mathbb{Z}_m) \to \tilde{H}_{n+1}(X; \mathbb{Z}_m) \xrightarrow{f_*} \tilde{H}_{n+1}(X/S^n; \mathbb{Z}_m)$$
 > Exactness says that $f_*$ is injective, hence nonzero since $\tilde{H}_{n+1}(X; \mathbb{Z}_m)$ is $\mathbb{Z}_m$, the cellular boundary map $H_{n+1}(X^{n+1}, X^n; \mathbb{Z}_m) \to H_n(X^n, X^{n-1}; \mathbb{Z}_m)$ being $\mathbb{Z}_m \xrightarrow{m} \mathbb{Z}_m$.
 
-## Exercises
+## 2.8 Exercises
 
 1. Prove the Brouwer fixed point theorem for maps $f : D^n \to D^n$ by applying degree theory to the map $S^n \to S^n$ that sends both the northern and southern hemispheres of $S^n$ to the southern hemisphere via $f$. [This was Brouwer's original proof.]
 
@@ -502,7 +514,9 @@ As another illustration, we will now give an example of a map $f : X \to Y$ with
 39. Use the preceding exercise to derive relative Mayer–Vietoris sequences for CW pairs $(X, Y) = (A \cup B, C \cup D)$ with $A = B$ or $C = D$.
 
 40. From the long exact sequence of homology groups associated to the short exact sequence of chain complexes $0 \to C_i(X) \xrightarrow{n} C_i(X) \to C_i(X; \mathbb{Z}_n) \to 0$ deduce immediately that there are short exact sequences
-$$0 \to H_i(X)/nH_i(X) \to H_i(X; \mathbb{Z}_n) \to n\text{-Torsion}(H_{i-1}(X)) \to 0$$
+$$
+0 \to H_i(X)/nH_i(X) \to H_i(X; \mathbb{Z}_n) \to n\text{-Torsion}(H_{i-1}(X)) \to 0 \tag{2.7}
+$$
 where $n\text{-Torsion}(G)$ is the kernel of the map $G \xrightarrow{n} G$, $g \mapsto ng$. Use this to show that $\tilde{H}_i(X; \mathbb{Z}_p) = 0$ for all $i$ and all primes $p$ iff $\tilde{H}_i(X)$ is a vector space over $\mathbb{Q}$ for all $i$.
 
 41. For $X$ a finite CW complex and $F$ a field, show that the Euler characteristic $\chi(X)$ can also be computed by the formula $\chi(X) = \sum_n (-1)^n \dim H_n(X; F)$, the alternating sum of the dimensions of the vector spaces $H_n(X; F)$.

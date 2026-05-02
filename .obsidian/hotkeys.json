@@ -34,15 +34,6 @@
       "key": "A"
     }
   ],
-  "quickadd:choice:fe2543ae-fa5e-4c69-ad80-1f34d2599a0b": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Q"
-    }
-  ],
   "templater-obsidian:create-60.Templates/NOTES.md": [
     {
       "modifiers": [
@@ -111,6 +102,56 @@
         "Mod"
       ],
       "key": "P"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "markdown:add-metadata-property": [],
+  "editor:open-link-in-new-window": [],
+  "albus-mathcraft:number-headings": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "albus-mathcraft:number-theorem-callouts": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close-window": [],
+  "albus-mathcraft:number-equations": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "albus-mathcraft:create-commutative-diagram": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "albus-mathcraft:create-geogebra-drawing": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
     }
   ]
 }
