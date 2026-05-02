@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19f52ce460a6e746",
+            "id": "b293ee04c50865eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch05"
-            }
-          },
-          {
-            "id": "b293ee04c50865eb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Hatcher - 2002 - Algebraic topology"
+              "title": "Hatcher Ch2 2.2 Computations and Applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,10 +205,59 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b293ee04c50865eb",
+  "floating": {
+    "id": "82343f43ccc1615c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f9f99a65c2f41ae6",
+        "type": "window",
+        "children": [
+          {
+            "id": "ec607fe602bcb423",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3fde7f4994a5bf3a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Hatcher - 2002 - Algebraic topology"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1709,
+        "y": 429,
+        "width": 847,
+        "height": 873,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "3fde7f4994a5bf3a",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24076.1777684702080",
     "30.Recources/AT/PDFs/Hatcher - 2002 - Algebraic topology.pdf",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684305527",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684201722",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684089571",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777684040319",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683995851",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683931885",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683763367",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683695669",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md.tmp.24228.1777683562383",
+    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
@@ -229,16 +265,7 @@
     "30.Recources/AT/Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 -  Simplicial and Singular Homology.md",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777648485550",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777647919200",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777647716410",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646623786",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646477351",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646381362",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646267609",
-    "00.Inbox/Hatcher Ch2 2.1 Simplicial and Singular Homology.md.tmp.14836.1777646150686",
     "00.Inbox/Hatcher §2.1 Simplicial and Singular Homology.md",
-    "00.Inbox/Hatcher §2.1 Simplicial and Singular Homology.md.tmp.29752.1777645083645",
     "hatcher_2.1_p133_full.png",
     "hatcher_2.1_p132_full.png",
     "hatcher_2.1_p131_full.png",
@@ -254,7 +281,6 @@
     "00.Inbox/Test TikZ from Vector Data.md",
     "00.Inbox/Page 111 Test - With Vector Diagrams.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "20.Cards/Examples/ep - Poisson Distribution.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "00.Inbox/FA - HW7.md",
@@ -264,7 +290,6 @@
     "00.Inbox/Hatcher Ch2 Sec2.3.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - The Formal Viewpoint.md",
     "00.Inbox/Hatcher Ch2 Sec2.3 - Formatted.md",
-    "30.Recources/AT/Course HW/AT - HW13.md",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",

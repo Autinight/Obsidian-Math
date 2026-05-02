@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777684559806-xhl3sbwyr",
+  "providerId": "claude",
+  "title": "call /diagram-helper to draw and embedded in the l...",
+  "createdAt": 1777684559806,
+  "updatedAt": 1777685144823,
+  "lastResponseAt": 1777685144823,
+  "sessionId": "12c568ba-508d-460f-a261-fcb05621ab0a",
+  "providerState": {
+    "providerSessionId": "12c568ba-508d-460f-a261-fcb05621ab0a"
+  },
+  "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+  "usage": {
+    "model": "ZhipuAI/GLM-5.1",
+    "inputTokens": 7383,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7383,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
