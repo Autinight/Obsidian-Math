@@ -153,5 +153,11 @@
       ],
       "key": "2"
     }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
   ]
 }

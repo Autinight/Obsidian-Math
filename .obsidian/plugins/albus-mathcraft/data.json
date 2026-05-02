@@ -14,7 +14,7 @@
     "remark",
     "note"
   ],
-  "theoremNumberingMode": "by-heading",
+  "theoremNumberingMode": "separate",
   "theoremStyle": "beamer",
   "theoremColors": {
     "theorem": "#3b82f6",
@@ -31,7 +31,7 @@
   "language": "en",
   "pdfPreventBreakInside": true,
   "equationMarkerMode": "all",
-  "equationNumberingMode": "by-heading",
+  "equationNumberingMode": "sequential",
   "mathLinks": {
     "templates": [],
     "excludedPaths": [],

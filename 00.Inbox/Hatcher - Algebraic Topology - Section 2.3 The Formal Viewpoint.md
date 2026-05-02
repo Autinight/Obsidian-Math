@@ -16,10 +16,10 @@ Sometimes it is good to step back from the forest of details and look for genera
 
 For simplicity let us restrict attention to CW complexes and focus on reduced homology to avoid mentioning relative homology. A **(reduced) homology theory** assigns to each nonempty CW complex $X$ a sequence of abelian groups $\tilde{h}_n(X)$ and to each map $f: X \to Y$ between CW complexes a sequence of homomorphisms $f_*: \tilde{h}_n(X) \to \tilde{h}_n(Y)$ such that $(fg)_* = f_* g_*$ and $\mathbb{1}_* = \mathbb{1}$, and so that the following three axioms are satisfied.
 
-> [!axiom] Axiom 1.1 (Axiom (1) — Homotopy Invariance)
+> [!axiom] Axiom 1 (Axiom (1) — Homotopy Invariance)
 > If $f \simeq g: X \to Y$, then $f_* = g_*: \tilde{h}_n(X) \to \tilde{h}_n(Y)$.
 
-> [!axiom] Axiom 1.2 (Axiom (2) — Exactness)
+> [!axiom] Axiom 2 (Axiom (2) — Exactness)
 > There are boundary homomorphisms $\partial: \tilde{h}_n(X/A) \to \tilde{h}_{n-1}(A)$ defined for each CW pair $(X, A)$, fitting into an exact sequence
 > $$
 > \cdots \xrightarrow{\partial} \tilde{h}_n(A) \xrightarrow{i_*} \tilde{h}_n(X) \xrightarrow{q_*} \tilde{h}_n(X/A) \xrightarrow{\partial} \tilde{h}_{n-1}(A) \xrightarrow{i_*} \cdots
@@ -36,7 +36,7 @@ For simplicity let us restrict attention to CW complexes and focus on reduced ho
 > \end{document}
 > ```
 
-> [!axiom] Axiom 1.3 (Axiom (3) — Wedge Sum)
+> [!axiom] Axiom 3 (Axiom (3) — Wedge Sum)
 > For a wedge sum $X = \bigvee_\alpha X_\alpha$ with inclusions $i_\alpha: X_\alpha \hookrightarrow X$, the direct sum map
 > $$
 > \bigoplus_\alpha i_{\alpha*}: \bigoplus_\alpha \tilde{h}_n(X_\alpha) \to \tilde{h}_n(X)
@@ -85,7 +85,7 @@ Formally, singular homology can be regarded as a sequence of functions $H_n$ tha
 
 Now for the precise definitions. A **category** $\mathcal{C}$ consists of three things:
 
-> [!definition] Definition 1.1 (Category)
+> [!definition] Definition 1 (Category)
 > (1) A collection $\text{Ob}(\mathcal{C})$ of **objects**.
 > (2) Sets $\text{Mor}(X, Y)$ of **morphisms** for each pair $X, Y \in \text{Ob}(\mathcal{C})$, including a distinguished 'identity' morphism $\mathbb{1} = \mathbb{1}_X \in \text{Mor}(X, X)$ for each $X$.
 > (3) A **'composition of morphisms'** function $\circ: \text{Mor}(X, Y) \times \text{Mor}(Y, Z) \to \text{Mor}(X, Z)$ for each triple $X, Y, Z \in \text{Ob}(\mathcal{C})$, satisfying $f \circ \mathbb{1} = f$, $\mathbb{1} \circ f = f$, and $(f \circ g) \circ h = f \circ (g \circ h)$.
@@ -103,7 +103,7 @@ There are also many categories where the morphisms are not simply functions, for
 - There is a **'homotopy category'** whose objects are topological spaces and whose morphisms are homotopy classes of maps, rather than actual maps. This uses the fact that composition is well-defined on homotopy classes: $f_0 g_0 \simeq f_1 g_1$ if $f_0 \simeq f_1$ and $g_0 \simeq g_1$.
 - Chain complexes are the objects of a category, with chain maps as morphisms. This category has various interesting subcategories, obtained by restricting the objects. For example, we could take chain complexes whose groups are zero in negative dimensions, or zero outside a finite range. Or we could restrict to exact sequences, or short exact sequences. In each case we take morphisms to be chain maps, which are commutative diagrams. Going a step further, there is a category whose objects are short exact sequences of chain complexes and whose morphisms are commutative diagrams of maps between such short exact sequences.
 
-> [!definition] Definition 1.2 (Functor)
+> [!definition] Definition 2 (Functor)
 > A **functor** $F$ from a category $\mathcal{C}$ to a category $\mathcal{D}$ assigns to each object $X$ in $\mathcal{C}$ an object $F(X)$ in $\mathcal{D}$ and to each morphism $f \in \text{Mor}(X, Y)$ in $\mathcal{C}$ a morphism $F(f) \in \text{Mor}(F(X), F(Y))$ in $\mathcal{D}$, such that $F(\mathbb{1}) = \mathbb{1}$ and $F(f \circ g) = F(f) \circ F(g)$. In the case of the singular homology functor $H_n$, the latter two conditions are the familiar properties $\mathbb{1}_* = \mathbb{1}$ and $(fg)_* = f_* g_*$ of induced maps.
 
 Strictly speaking, what we have just defined is a **covariant** functor. A **contravariant** functor would differ from this by assigning to $f \in \text{Mor}(X, Y)$ a 'backwards' morphism $F(f) \in \text{Mor}(F(Y), F(X))$ with $F(\mathbb{1}) = \mathbb{1}$ and $F(f \circ g) = F(g) \circ F(f)$. A classical example of this is the dual vector space functor, which assigns to a vector space $V$ over a fixed scalar field $K$ the dual vector space $F(V) = V^*$ of linear maps $V \to K$, and to each linear transformation $f: V \to W$ the dual map $F(f) = f^*: W^* \to V^*$, going in the reverse direction. In the next chapter we will study the contravariant version of homology, called **cohomology**.
@@ -121,7 +121,7 @@ Another sort of process we have encountered is the transformation of one functor
 - Boundary maps $H_n(X, A) \to H_{n-1}(A)$ in singular homology, or indeed in any homology theory.
 - Change-of-coefficient homomorphisms $H_n(X; G_1) \to H_n(X; G_2)$ induced by a homomorphism $G_1 \to G_2$, as in the proof of Lemma 2.49.
 
-> [!definition] Definition 1.3 (Natural Transformation)
+> [!definition] Definition 3 (Natural Transformation)
 > In general, if one has two functors $F, G: \mathcal{C} \to \mathcal{D}$ then a **natural transformation** $T$ from $F$ to $G$ assigns a morphism $T_X: F(X) \to G(X)$ to each object $X \in \mathcal{C}$, in such a way that for each morphism $f: X \to Y$ in $\mathcal{C}$ the square at the right commutes.
 > ```tikz
 > \usepackage{tikz-cd}
@@ -144,18 +144,18 @@ A natural transformation from a functor $F$ to a functor $G$ induces a homotopy 
 
 ## 1.3 Exercises
 
-> [!exercise] Exercise 1.1 (1)
+> [!exercise] Exercise 1 (1)
 > If $T_n(X, A)$ denotes the torsion subgroup of $H_n(X, A; \mathbb{Z})$, show that the functors $(X, A) \rightsquigarrow T_n(X, A)$, with the obvious induced homomorphisms $T_n(X, A) \to T_n(Y, B)$ and boundary maps $T_n(X, A) \to T_{n-1}(A)$, do not define a homology theory. Do the same for the 'mod torsion' functor $MT_n(X, A) = H_n(X, A; \mathbb{Z}) / T_n(X, A)$.
 
-> [!exercise] Exercise 1.2 (2)
+> [!exercise] Exercise 2 (2)
 > Define a candidate for a reduced homology theory on CW complexes by
 > $$
 > \tilde{h}_n(X) = \prod_i \tilde{H}_i(X) \Big/ \bigoplus_i \tilde{H}_i(X).
 > $$
 > Thus $\tilde{h}_n(X)$ is independent of $n$ and is zero if $X$ is finite-dimensional, but is not identically zero, for example for $X = \bigvee_i S^i$. Show that the axioms for a homology theory are satisfied except that the wedge axiom fails.
 
-> [!exercise] Exercise 1.3 (3)
+> [!exercise] Exercise 3 (3)
 > Show that if $\tilde{h}$ is a reduced homology theory, then $\tilde{h}_n(\text{point}) = 0$ for all $n$. Deduce that there are suspension isomorphisms $\tilde{h}_n(X) \approx \tilde{h}_{n+1}(SX)$ for all $n$.
 
-> [!exercise] Exercise 1.4 (4)
+> [!exercise] Exercise 4 (4)
 > Show that the wedge axiom for homology theories follows from the other axioms in the case of finite wedge sums.
