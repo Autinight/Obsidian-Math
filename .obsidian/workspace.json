@@ -80,7 +80,7 @@
               "type": "markdown",
               "state": {
                 "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -275,9 +275,10 @@
   "active": "378bf38d9736c22b",
   "lastOpenFiles": [
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
@@ -306,7 +307,6 @@
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",

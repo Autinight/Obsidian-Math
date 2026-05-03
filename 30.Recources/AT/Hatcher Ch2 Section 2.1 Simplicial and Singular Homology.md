@@ -281,7 +281,7 @@ As an application of this calculation we have the following classical theorem of
 
 The derivation of the exact sequence of homology groups for a good pair $(X, A)$ will be rather a long story. We will in fact derive a more general exact sequence which holds for arbitrary pairs $(X, A)$, but with the homology groups of the quotient space $X/A$ replaced by **relative homology groups**, denoted $H_n(X, A)$. These turn out to be quite useful for many other purposes as well.
 
-#### Relative Homology Groups
+#### Relative Homology e
 
 It sometimes happens that by ignoring a certain amount of data or structure one obtains a simpler, more flexible theory which, almost paradoxically, can give results not readily obtainable in the original setting. A familiar instance of this is arithmetic mod $n$, where one ignores multiples of $n$. Relative homology is another example. In this case what one ignores is all singular chains in a subspace of the given space.
 
