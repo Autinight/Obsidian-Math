@@ -3,11 +3,21 @@
   "providerId": "claude",
   "title": "/diagram-helper",
   "createdAt": 1777823531021,
-  "updatedAt": 1777823566826,
-  "lastResponseAt": 1777823566826,
+  "updatedAt": 1777823903595,
+  "lastResponseAt": 1777823903595,
   "sessionId": "f5afdcfc-cbdc-4f22-8947-7b3bd6300569",
   "providerState": {
     "providerSessionId": "f5afdcfc-cbdc-4f22-8947-7b3bd6300569"
   },
-  "currentNote": "00.Inbox/01.Todo List/Output here.md"
+  "currentNote": "00.Inbox/01.Todo List/Output here.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 11450,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 11450,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
 }
