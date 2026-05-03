@@ -74,30 +74,6 @@
             }
           },
           {
-            "id": "384993a430155eca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/For compile.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "For compile"
-            }
-          },
-          {
             "id": "891b83b1c14ba536",
             "type": "leaf",
             "state": {
@@ -144,9 +120,33 @@
               "icon": "lucide-file",
               "title": "ex - Degree of a Polynomial"
             }
+          },
+          {
+            "id": "d885326442cd3fba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2 2.2 Computations and Applications"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -320,16 +320,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "891b83b1c14ba536",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
     "00.Inbox/For compile.md",
-    "00.Inbox/01.Todo List/Output here.md.tmp.18616.1777820352215",
     "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/ex - Degree of a Polynomial.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/ex - Degree of a Polynomial.md",
+    "00.Inbox/01.Todo List/Output here.md.tmp.20900.1777820456384",
+    "00.Inbox/01.Todo List/Output here.md.tmp.18616.1777820352215",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/ex - Homology induced by Linear Transformation.md",
@@ -353,7 +354,6 @@
     "20.Cards/Exercises/ex - Fixed point of 2n-sphere and RP^n.md",
     "50.Image/MCG/Brouwer.mcg",
     "00.Inbox/Cellular Homology Diagram.md.tmp.23776.1777774446814",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.7152.1777718761673",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
