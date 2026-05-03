@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "00.Inbox/For compile.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,7 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "title": "For compile"
             }
           },
           {
@@ -322,15 +322,17 @@
   },
   "active": "891b83b1c14ba536",
   "lastOpenFiles": [
-    "00.Inbox/ex - Degree of a Polynomial.md",
+    "00.Inbox/For compile.md",
+    "00.Inbox/01.Todo List/Output here.md.tmp.18616.1777820352215",
+    "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/ex - Degree of a Polynomial.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/ex - Homology induced by Linear Transformation.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "00.Inbox/01.Todo List/Output here.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/MCD/Narturality of relative Homology.mcd",
     "50.Image/MCD/2026-5-3-1.mcd",
     "50.Image/MCD/Narturality of relative Homology.svg",
@@ -352,7 +354,6 @@
     "50.Image/MCG/Brouwer.mcg",
     "00.Inbox/Cellular Homology Diagram.md.tmp.23776.1777774446814",
     "00.Inbox/Cellular Homology Diagram.md.tmp.7152.1777718761673",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.6600.1777718266641",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
@@ -360,7 +361,6 @@
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
-    "00.Inbox/ep - Simplicial Homology of Torus.md",
     "70.Life/Pasted image 20260120174845.png",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
