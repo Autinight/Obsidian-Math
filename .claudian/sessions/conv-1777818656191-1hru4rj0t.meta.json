@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777818656191-1hru4rj0t",
+  "providerId": "claude",
+  "title": "/diagram-helper",
+  "createdAt": 1777818656191,
+  "updatedAt": 1777818864767,
+  "lastResponseAt": 1777818845109,
+  "sessionId": "479698f3-37f2-460c-9811-33fcc472a4e2",
+  "providerState": {
+    "providerSessionId": "479698f3-37f2-460c-9811-33fcc472a4e2"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 15914,
+    "cacheCreationInputTokens": 1709,
+    "cacheReadInputTokens": 20437,
+    "contextWindow": 1000000,
+    "contextTokens": 38060,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
