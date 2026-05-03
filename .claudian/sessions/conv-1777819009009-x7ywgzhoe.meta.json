@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777819009009-x7ywgzhoe",
+  "providerId": "claude",
+  "title": "这是一个立体图, 你在这里面画的是错的",
+  "createdAt": 1777819009009,
+  "updatedAt": 1777819065255,
+  "lastResponseAt": 1777819065255,
+  "sessionId": "eed0e63d-e335-4f81-bd4a-dc8837160cd6",
+  "providerState": {
+    "providerSessionId": "eed0e63d-e335-4f81-bd4a-dc8837160cd6"
+  },
+  "currentNote": "00.Inbox/01.Todo List/Output here.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 14234,
+    "cacheCreationInputTokens": 2280,
+    "cacheReadInputTokens": 17608,
+    "contextWindow": 1000000,
+    "contextTokens": 34122,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
