@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
+                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,11 +94,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 Additional Topics"
+              "title": "Hatcher Ch2.1 Simplicial and Singular Homology"
+            }
+          },
+          {
+            "id": "ec22834afa1abb59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2.2 Computations and Applications"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,13 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50.Image/MCD/Retraction and z^k.mcd",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Retraction and z^k 的大纲"
+              "title": "Hatcher Ch2.2 Computations and Applications 的大纲"
             }
           },
           {
@@ -252,7 +276,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -272,19 +296,20 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "08be2af0c8e58268",
+  "active": "ec22834afa1abb59",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ch2 Section 2.3 - The Formal Viewpoint.md",
-    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
+    "30.Recources/AT/Hatcher Ch2.3 - The Formal Viewpoint.md",
+    "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Degree of a Polynomial.md",
     "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md.tmp.18568.1777821461110",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.21256.1777821206315",
     "00.Inbox/For compile.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.20900.1777820456384",
@@ -299,7 +324,6 @@
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
-    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "50.Image/MCD/my-diagram.svg",
