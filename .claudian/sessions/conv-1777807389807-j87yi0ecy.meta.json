@@ -1,0 +1,21 @@
+{
+  "id": "conv-1777807389807-j87yi0ecy",
+  "providerId": "claude",
+  "title": "这个图中间的引号有没有问题,导致渲染不出来```tikz",
+  "createdAt": 1777807389807,
+  "updatedAt": 1777807428523,
+  "lastResponseAt": 1777807428523,
+  "sessionId": "fcb98e7a-56a9-498a-a700-a78279430f74",
+  "providerState": {
+    "providerSessionId": "fcb98e7a-56a9-498a-a700-a78279430f74"
+  },
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 13450,
+    "cacheCreationInputTokens": 3217,
+    "cacheReadInputTokens": 15477,
+    "contextWindow": 200000,
+    "contextTokens": 32144,
+    "percentage": 16
+  }
+}

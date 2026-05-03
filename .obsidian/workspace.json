@@ -101,24 +101,12 @@
             "id": "384993a430155eca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mathcraft-cd-view",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "50.Image/MCD/Retraction and z^k.mcd"
               },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "icon": "mathcraft-cd",
+              "title": "Retraction and z^k"
             }
           }
         ],
@@ -218,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "50.Image/MCD/Retraction and z^k.mcd",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2 2.2 Computations and Applications 的大纲"
+              "title": "Retraction and z^k 的大纲"
             }
           },
           {
@@ -276,11 +264,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 528.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,22 +286,22 @@
   },
   "active": "384993a430155eca",
   "lastOpenFiles": [
+    "50.Image/MCD/Narturality of relative Homology.svg",
+    "50.Image/MCD/Narturality of relative Homology.mcd",
+    "50.Image/Tikz/Cellular Homology Diagram.svg",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/ex - Degree of a Polynomial.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Homology induced by Linear Transformation.md",
     "50.Image/MCD/Retraction and z^k.mcd",
-    "50.Image/MCD/Narturality of relative Homology.svg",
-    "50.Image/MCD/Narturality of relative Homology.mcd",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
-    "50.Image/Tikz/Cellular Homology Diagram.svg",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/FA - HW7.md",
     "50.Image/MCD/my-diagram.svg",
