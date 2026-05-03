@@ -77,16 +77,52 @@
             "id": "c4f747e6cd3a158b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "50.Image/MCD/Narturality of relative Homology.svg"
+                "file": "00.Inbox/ex - Degree of a Polynomial.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Narturality of relative Homology"
+              "icon": "lucide-file",
+              "title": "ex - Degree of a Polynomial"
+            }
+          },
+          {
+            "id": "384993a430155eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2 2.2 Computations and Applications"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,13 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50.Image/MCD/Narturality of relative Homology.svg",
+                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Narturality of relative Homology 的大纲"
+              "title": "Hatcher Ch2 2.2 Computations and Applications 的大纲"
             }
           },
           {
@@ -260,17 +296,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "384993a430155eca",
   "lastOpenFiles": [
-    "50.Image/MCD/Narturality of relative Homology.mcd",
-    "50.Image/MCD/Narturality of relative Homology.svg",
+    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/ex - Degree of a Polynomial.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Homology induced by Linear Transformation.md",
+    "50.Image/MCD/Retraction and z^k.mcd",
+    "50.Image/MCD/Narturality of relative Homology.svg",
+    "50.Image/MCD/Narturality of relative Homology.mcd",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
@@ -283,14 +321,12 @@
     "50.Image/MCD/1.md",
     "svg-cache",
     "00.Inbox/Cellular Homology Diagram.md",
-    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "20.Cards/Exercises/ex - Fixed point of 2n-sphere and RP^n.md",
     "50.Image/MCG/Brouwer.mcg",
     "00.Inbox/Cellular Homology Diagram.md.tmp.23776.1777774446814",
     "00.Inbox/Cellular Homology Diagram.md.tmp.7152.1777718761673",
     "00.Inbox/Cellular Homology Diagram.md.tmp.6600.1777718266641",
     "00.Inbox/Cellular Homology Diagram.md.tmp.21696.1777718152585",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.11900.1777718047175",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",

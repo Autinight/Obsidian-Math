@@ -55,22 +55,30 @@ $$ \partial : H_{k}\left(U,U\setminus \left\{ q \right\}\right)\to H_{k-1}\left(
 我们有相对同调的自然性
 $$ \partial \circ f_{*}= f|_{U\setminus \left\{ q \right\}} \circ \partial $$ 
 
-By 
-$$ U\setminus \left\{ q \right\}\simeq S^{n-1} ,\quad V\setminus \left\{ S \right\}\simeq S^{n-1}$$ 
+To caculate $\left(f|_{U\setminus \left\{ q \right\}}\right)^{*}$, we let $\tilde{r}: U\setminus \left\{ q \right\}\to S^{n-1}$ and $r: V\setminus \left\{ S \right\}\to S^{n-1}$ be the contraction map, then 
+$$ \tilde{r}\circ\left(z-q\right)^{k}= z^{k}\circ r $$ 
 
-$$ \left(z-q\right)^{k}: U\setminus \left\{ q \right\}\to U\setminus \left\{ q \right\} $$ 
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath, amssymb}
+\usepackage[mathscr]{euscript}
+\begin{document}
+\begin{tikzcd}[
+  cells = {font = \large},
+  labels = {font = \normalsize},
+  arrows = {line width = 0.5pt},
+  row sep = 50pt,
+  column sep = 50pt
+]
+H_{k}\left(U\setminus \left\{ q \right\}\right) \arrow[r, "\left(\left(z-q\right)^{k}\right)_{*}"] \arrow[d, "\tilde{r}_{*}"] & H_{k}\left(V\setminus \left\{ S \right\}\right) \arrow[d, "r_{*}"] \\
+H_{k}\left(S^{n-1}\right) \arrow[r, "\left(z^{k}\right)_{*}"] & H_{k}\left(S^{n-1}\right)
+\end{tikzcd}
+\end{document}
+```
+Since $z^{k}$ has degree $k$, then so dose $f_{*}$.
 
-is identified with
-$$ z^{k}: S^{n-1} \to S^{n-1}$$
-who has degree $k$. 
 
 
-
-$$ C_{n}\left(U, U\setminus \left\{ q \right\}\right)= C_{n}\left(U\right)/ C_{n}\left(U\setminus \left\{ q \right\}\right)= \left\{ \sigma :\sigma \text{ is the simplex covering q} \right\} $$ 
-
-I think its hard to 
-
-For a $n$-simplex $\sigma _{n}: \Delta ^{n}\to U$,$f_{.}\left(\sigma \right)= f\circ \sigma _{n}$, 
 
 
 

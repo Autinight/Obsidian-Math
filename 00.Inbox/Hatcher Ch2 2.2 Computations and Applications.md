@@ -157,9 +157,9 @@ Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences 
 ]
  &  &  & 0 &  &  \\
  & 0 \arrow[dr] & H_n(X^{n+1}) \approx H_n(X) \arrow[ur] &  &  &  \\
- & H_n(X^n) \arrow[dr, "\partial_{n+1}"'] \arrow[ur, "j_n"] &  &  &  &  \\
-\cdots \arrow[r] & H_{n+1}(X^{n+1}, X^n) \arrow[rr, "d_{n+1}"] \arrow[ur] &  & H_n(X^n, X^{n-1}) \arrow[rr, "d_n"] \arrow[dr, "\partial_n"'] &  & H_{n-1}(X^{n-1}, X^{n-2}) \arrow[r] & \cdots \\
- &  &  & H_{n-1}(X^{n-1}) \arrow[ur, "j_{n-1}"'] &  &  \\
+ & H_n(X^n) \arrow[dr, "\partial_{n+1}"] \arrow[ur, "j_n"] &  &  &  &  \\
+\cdots \arrow[r] & H_{n+1}(X^{n+1}, X^n) \arrow[rr, "d_{n+1}"] \arrow[ur] &  & H_n(X^n, X^{n-1}) \arrow[rr, "d_n"] \arrow[dr, "\partial_n"] &  & H_{n-1}(X^{n-1}, X^{n-2}) \arrow[r] & \cdots \\
+ &  &  & H_{n-1}(X^{n-1}) \arrow[ur, "j_{n-1}"] &  &  \\
  &  & 0 \arrow[ur] &  &  & 
 \end{tikzcd}
 \end{document}

@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"rows": 2,
+	"cols": 2,
+	"nodes": {
+		"0-0": "H_{k}\\left(U\\setminus \\left\\{ q \\right\\}\\right)",
+		"0-1": "H_{k}\\left(V\\setminus \\left\\{ S \\right\\}\\right)",
+		"1-0": "H_{k}\\left(S^{n-1}\\right)",
+		"1-1": "H_{k}\\left(S^{n-1}\\right)"
+	},
+	"arrows": [
+		{
+			"id": "1777807026705",
+			"start": "0-0",
+			"end": "0-1",
+			"label": "\\left(\\left(z-q\\right)^{k}\\right)_{*}",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777807027626",
+			"start": "0-0",
+			"end": "1-0",
+			"label": "\\tilde{r}_{*}",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777807028332",
+			"start": "1-0",
+			"end": "1-1",
+			"label": "\\left(z^{k}\\right)_{*}",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777807028835",
+			"start": "0-1",
+			"end": "1-1",
+			"label": "r_{*}",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		}
+	],
+	"created": 1777806972249,
+	"modified": 1777807249307
+}
