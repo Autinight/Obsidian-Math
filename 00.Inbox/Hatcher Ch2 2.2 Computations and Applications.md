@@ -141,7 +141,29 @@ Cellular homology is a very efficient tool for computing the homology groups of 
 >
 > Recalling that $X_0$ is a point, let $R \subset T$ be the ray $X_0 \times [0, \infty)$ and let $Z \subset T$ be the union of this ray with all the subcomplexes $X_i \times \{i\}$. Then $Z/R$ is homeomorphic to $\bigvee_i X_i$, a wedge sum of finite-dimensional complexes with $n$-skeleton a point, so $\tilde{H}_k(Z/R) = 0$ for $k \leq n$. The same is therefore true for $Z$, from the long exact sequence of the pair $(Z, R)$, since $R$ is contractible. Similarly, $T/Z$ is a wedge sum of finite-dimensional complexes with $(n+1)$-skeleton a point, since if we first collapse each subcomplex $X_i \times \{i\}$ of $T$ to a point, we obtain the infinite sequence of suspensions $SX_i$ 'skewered' along the ray $R$, and then if we collapse $R$ to a point we obtain $\bigvee_i \Sigma X_i$ where $\Sigma X_i$ is the reduced suspension of $X_i$, so $\Sigma X_i$ has $(n+1)$-skeleton a point. Thus $\tilde{H}_k(T/Z) = 0$ for $k \leq n + 1$. The long exact sequence of the pair $(T, Z)$ then implies that $\tilde{H}_k(T) = 0$ for $k \leq n$, and we have proved $(*)$.
 
-Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences for the pairs $(X^{n+1}, X^n)$, $(X^n, X^{n-1})$, and $(X^{n-1}, X^{n-2})$ fit into a diagram where $d_{n+1}$ and $d_n$ are defined as the compositions $j_n \partial_{n+1}$ and $j_{n-1}\partial_n$, which are just 'relativizations' of the boundary maps $\partial_{n+1}$ and $\partial_n$. The composition $d_n d_{n+1}$ includes two successive maps in one of the exact sequences, hence is zero. Thus the horizontal row is a chain complex, called the **cellular chain complex** of $X$ since $H_n(X^n, X^{n-1})$ is free with basis in one-to-one correspondence with the $n$-cells of $X$, so one can think of elements of $H_n(X^n, X^{n-1})$ as linear combinations of $n$-cells of $X$. The homology groups of this cellular chain complex are called the **cellular homology groups** of $X$. Temporarily we denote them $H_n^{CW}(X)$.
+Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences for the pairs $(X^{n+1}, X^n)$, $(X^n, X^{n-1})$, and $(X^{n-1}, X^{n-2})$ fit into a diagram
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath, amssymb}
+\usepackage[mathscr]{euscript}
+\begin{document}
+\begin{tikzcd}[
+  cells = {font = \normalsize},
+  labels = {font = \small},
+  arrows = {line width = 0.4pt},
+  row sep = 28pt,
+  column sep = 35pt
+]
+ &  &  & 0 &  &  \\
+ & 0 \arrow[dr] & H_n(X^{n+1}) \approx H_n(X) \arrow[ur] &  &  &  \\
+ & H_n(X^n) \arrow[dr, "\partial_{n+1}"'] \arrow[ur, "j_n"] &  &  &  &  \\
+\cdots \arrow[r] & H_{n+1}(X^{n+1}, X^n) \arrow[rr, "d_{n+1}"] \arrow[ur] &  & H_n(X^n, X^{n-1}) \arrow[rr, "d_n"] \arrow[dr, "\partial_n"'] &  & H_{n-1}(X^{n-1}, X^{n-2}) \arrow[r] & \cdots \\
+ &  &  & H_{n-1}(X^{n-1}) \arrow[ur, "j_{n-1}"'] &  &  \\
+ &  & 0 \arrow[ur] &  &  & 
+\end{tikzcd}
+\end{document}
+```
+where $d_{n+1}$ and $d_n$ are defined as the compositions $j_n \partial_{n+1}$ and $j_{n-1}\partial_n$, which are just 'relativizations' of the boundary maps $\partial_{n+1}$ and $\partial_n$. The composition $d_n d_{n+1}$ includes two successive maps in one of the exact sequences, hence is zero. Thus the horizontal row is a chain complex, called the **cellular chain complex** of $X$ since $H_n(X^n, X^{n-1})$ is free with basis in one-to-one correspondence with the $n$-cells of $X$, so one can think of elements of $H_n(X^n, X^{n-1})$ as linear combinations of $n$-cells of $X$. The homology groups of this cellular chain complex are called the **cellular homology groups** of $X$. Temporarily we denote them $H_n^{CW}(X)$.
 
 > [!theorem] Theorem 2.2
 > $H_n^{CW}(X) \approx H_n(X)$.

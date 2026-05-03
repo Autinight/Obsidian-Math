@@ -16,7 +16,10 @@ tags: []
  
 > [!proof] Proof: 
 > 1. If there exists no point $x\in S^{2n}$  with $f\left(x\right)= x$, then $f$ has no fixed point, then is homotopic to the antipidol map  $A$, who has degree $\left(-1\right)^{2n+ 1}= -1$.  Now, if $f\left(x\right)\neq -x,\forall x$, then $-f$ has no fixed point, then $\operatorname{deg}\left(-f\right)= -1\implies \operatorname{deg}f= 1$, which is a contradiction.
-> 2. 
+> 2. $\mathbb{R} P^{2n}= S^{2n}/\left\{ x,-x \right\}$, every map $\varphi :\mathbb{R} P^{2n}\to \mathbb{R} P^{2n}$ , denote $\pi : S^{2n}\to \mathbb{R}P^{2n}$ is the quotient map, then 
+>    $$ \widetilde{\varphi}: \varphi \circ \pi : S^{2n}\to \mathbb{R}P^{2n} $$
+>    is the continuous map,  how to find continuous map such that $\pi \circ f= \widetilde{\varphi}$? 
+>   Since $\mathbb{Z} _{2}$ maps freely and properly on $S^{n}$, we know $S^{n}$ is a covering of $\mathbb{R}P^{2n}$, then there exists a lift for $\widetilde{\varphi}$, say $f$, such that $\pi \circ f= \widetilde{\varphi}$. Since $\widetilde{\varphi}$ has some point $x\in S^{2n}$ with either $f\left(x\right)= x$ or $f\left(x\right)= -x$, then $\widetilde{\varphi}\left(x\right)= \pi \circ f\left(x\right)= [x]$, $\varphi \left([x]\right)= \widetilde{\varphi}\left(x\right)= \left[ x \right]$, $\left[ x \right]$ is a fiex point of $\varphi$.
 
 ```dataviewjs
 const techs = dv.current().technique;
