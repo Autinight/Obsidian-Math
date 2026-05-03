@@ -396,9 +396,8 @@ For a space $X$, let $\mathcal{U} = \{U_j\}$ be a collection of subspaces of $X$
 > [!proposition] Proposition 2.21
 > The inclusion $\iota : C_n^\mathcal{U}(X) \hookrightarrow C_n(X)$ is a chain homotopy equivalence, that is, there is a chain map $\rho : C_n(X) \to C_n^\mathcal{U}(X)$ such that $\iota \rho$ and $\rho \iota$ are chain homotopic to the identity. Hence $\iota$ induces isomorphisms $H_n^\mathcal{U}(X) \approx H_n(X)$ for all $n$.
 
-> [!proof] Proof of Proposition 2.21
+> [!proof]- Proof of Proposition 2.21
 > The barycentric subdivision process will be performed at four levels, beginning with the most geometric and becoming increasingly algebraic.
->
 > **(1) Barycentric Subdivision of Simplices.** The points of a simplex $[v_0, \cdots, v_n]$ are the linear combinations $\sum_i t_i v_i$ with $\sum_i t_i = 1$ and $t_i \ge 0$ for each $i$. The **barycenter** or 'center of gravity' of the simplex $[v_0, \cdots, v_n]$ is the point $b = \sum_i t_i v_i$ whose barycentric coordinates $t_i$ are all equal, namely $t_i = 1/(n+1)$ for each $i$. The barycentric subdivision of $[v_0, \cdots, v_n]$ is the decomposition of $[v_0, \cdots, v_n]$ into the $n$-simplices $[b, w_0, \cdots, w_{n-1}]$ where, inductively, $[w_0, \cdots, w_{n-1}]$ is an $(n-1)$-simplex in the barycentric subdivision of a face $[v_0, \cdots, \hat{v}_i, \cdots, v_n]$. The induction starts with the case $n = 0$ when the barycentric subdivision of $[v_0]$ is defined to be just $[v_0]$ itself.
 >
 > It follows from the inductive definition that the vertices of simplices in the barycentric subdivision of $[v_0, \cdots, v_n]$ are exactly the barycenters of all the $k$-dimensional faces $[v_{i_0}, \cdots, v_{i_k}]$ of $[v_0, \cdots, v_n]$ for $0 \le k \le n$. When $k = 0$ this gives the original vertices $v_i$ since the barycenter of a 0-simplex is itself. The barycenter of $[v_{i_0}, \cdots, v_{i_k}]$ has barycentric coordinates $t_i = 1/(k+1)$ for $i = i_0, \cdots, i_k$ and $t_i = 0$ otherwise.
