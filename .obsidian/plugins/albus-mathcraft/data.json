@@ -15,9 +15,9 @@
     "note"
   ],
   "theoremNumberingMode": "separate",
-  "theoremStyle": "plain",
+  "theoremStyle": "beamer",
   "theoremColors": {
-    "theorem": "#3b82f6",
+    "theorem": "#2c19be",
     "lemma": "#8b5cf6",
     "corollary": "#06b6d4",
     "proposition": "#10b981",
