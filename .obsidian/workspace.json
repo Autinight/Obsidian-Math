@@ -55,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -80,7 +80,7 @@
               "type": "markdown",
               "state": {
                 "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -96,9 +96,33 @@
               "icon": "lucide-file",
               "title": "Hatcher Ch2 Section 2.1 Simplicial and Singular Homology"
             }
+          },
+          {
+            "id": "c4f747e6cd3a158b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/ex - Degree of a Polynomial.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ex - Degree of a Polynomial"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,13 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
+                "file": "00.Inbox/ex - Degree of a Polynomial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2 Section 2.1 Simplicial and Singular Homology 的大纲"
+              "title": "ex - Degree of a Polynomial 的大纲"
             }
           },
           {
@@ -272,9 +296,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "378bf38d9736c22b",
+  "active": "c4f747e6cd3a158b",
   "lastOpenFiles": [
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/ex - Degree of a Polynomial.md",
     "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",

@@ -20,7 +20,10 @@ tags: []
 - 
 
 ## 核心定理
-1. 
+1. **切除**: $A\subseteq B$, 如果$Z\subseteq A$有正的距离, 即$\overline{Z}\subseteq A^{\circ}$, 就可以在相对同调中切除
+   $$ H_{n}\left(B,A\right)= H_{n}\left(B-A,Z-A\right) $$ 
+   或者说, 如果$X= A^{\circ }\cup B^{\circ }$, 则
+   $$ H_{n}\left(X,A\right)= H_{n}\left(B,A\cap B\right) $$ 
 2. 
 3. 
 
