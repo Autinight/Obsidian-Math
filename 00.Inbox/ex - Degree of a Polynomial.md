@@ -42,17 +42,27 @@ We know $f$ is homotopic to $\left(z-q\right)^{k}$  on $S^{n}\setminus \left\{ q
 
 Now we show that $\left(z-q\right)^{k}$ has local degree $k$ at $q$.
 
+$$ H_{n}\left(U,U\setminus \left\{ q \right\}\right)\simeq H_{n}\left(D^{n}, D^{n}\setminus \left\{ 0 \right\}\right)\simeq H_{n}\left(S^{n}\right)\simeq \mathbb{Z}  $$ 
+
+$$ H_{n}\left(V,V\setminus \left\{ S \right\}\right)\simeq H_{n}\left(S^{n}\right) \simeq \mathbb{Z} $$ 
+
+考虑相对同调的长正合列
+$$ H_{k}\left(U\setminus \left\{ q \right\}\right)\to H_{k}\left(U\right)\to H_{k}\left(U,U\setminus \left\{ q \right\}\right)\to H_{k-1}\left(U\setminus \left\{ q \right\}\right) $$ 
+对于
+$$ \widetilde{\partial} : H_{k}\left(V,V\setminus \left\{ S\right\}\right)\to H_{k-1} \left(V\setminus \left\{ S \right\}\right)$$ 
+和
+$$ \partial : H_{k}\left(U,U\setminus \left\{ q \right\}\right)\to H_{k-1}\left(U\setminus \left\{ q \right\}\right) $$ 
+我们有相对同调的自然性
+$$ \partial \circ f_{*}= f|_{U\setminus \left\{ q \right\}} \circ \partial $$ 
 
 
-where $\sigma$ is the path through $p$.  
+$$ C_{n}\left(U, U\setminus \left\{ q \right\}\right)= C_{n}\left(U\right)/ C_{n}\left(U\setminus \left\{ q \right\}\right)= \left\{ \sigma :\sigma \text{ is the simplex covering q} \right\} $$ 
 
----
+I think its hard to 
+
+For a $n$-simplex $\sigma _{n}: \Delta ^{n}\to U$,$f_{.}\left(\sigma \right)= f\circ \sigma _{n}$, 
 
 
-$S^{2}$是$\mathbb{C}$ 的一点进化, 通过球极投影
-$$ p : S^{2}\to \mathbb{C} \cup \left\{ \infty \right\} $$ 
-设$f$是至少一次的多项式.
-$$ \hat{f}: S^{2}\to S^{2},\quad x\mapsto  p^{-1}\left( f\left(p\left(x\right)\right)\right),for x\neq N,\quad f\left(S\right)= S $$ 
 
 ```dataviewjs
 const techs = dv.current().technique;

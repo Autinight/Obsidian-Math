@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"rows": 2,
+	"cols": 2,
+	"nodes": {
+		"0-0": "H_{k}\\left(U,U\\setminus \\left\\{ q \\right\\}\\right)",
+		"0-1": "H_{k}\\left(V,V\\setminus \\left\\{ S \\right\\}\\right)",
+		"1-0": "H_{k-1}\\left(U\\setminus \\left\\{ q \\right\\}\\right)",
+		"1-1": "H_{k-1}\\left(V,V\\setminus \\left\\{ S \\right\\}\\right)"
+	},
+	"arrows": [
+		{
+			"id": "1777804958425",
+			"start": "0-0",
+			"end": "0-1",
+			"label": "f_*",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777804965111",
+			"start": "1-0",
+			"end": "1-1",
+			"label": "\\left(f|_{U\\setminus \\left\\{ q \\right\\}}\\right)_{*}",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777804965936",
+			"start": "0-0",
+			"end": "1-0",
+			"label": "\\partial",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		},
+		{
+			"id": "1777804966640",
+			"start": "0-1",
+			"end": "1-1",
+			"label": "\\partial",
+			"type": "normal",
+			"dashed": false,
+			"bend": "none"
+		}
+	],
+	"created": 1777804722377,
+	"modified": 1777805148730
+}
