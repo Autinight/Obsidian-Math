@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777774368414-jdiz70q4t",
+  "providerId": "claude",
+  "title": "把这个tikz修改一下让他变得紧凑",
+  "createdAt": 1777774368414,
+  "updatedAt": 1777774806629,
+  "lastResponseAt": 1777774806629,
+  "sessionId": "b8eb8591-ae98-4bb8-a779-a30351a62ffd",
+  "providerState": {
+    "providerSessionId": "b8eb8591-ae98-4bb8-a779-a30351a62ffd"
+  },
+  "currentNote": "00.Inbox/Cellular Homology Diagram.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 2948,
+    "cacheCreationInputTokens": 539,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 3487,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -39,7 +39,7 @@
     "enableFileNameBlockLinks": true,
     "enableInSourceMode": false,
     "renderOutline": true,
-    "language": "zh-CN",
+    "language": "en",
     "theoremExternalMode": "brackets",
     "theoremRenderModes": {
       "theorem": "name-only",
@@ -78,5 +78,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "equation"
+  "settingsTab": "tikz"
 }
