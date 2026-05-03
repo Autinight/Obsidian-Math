@@ -376,6 +376,7 @@ $$\cdots \to H_n(A, B) \to H_n(X, B) \to H_n(X, A) \to H_{n-1}(A, B) \to \cdots$
 
 This is the long exact sequence of homology groups associated to the short exact sequence of chain complexes formed by the short exact sequences
 
+
 $$0 \to C_n(A, B) \to C_n(X, B) \to C_n(X, A) \to 0$$
 
 For example, taking $B$ to be a point, the long exact sequence of the triple $(X, A, B)$ becomes the long exact sequence of reduced homology for the pair $(X, A)$.

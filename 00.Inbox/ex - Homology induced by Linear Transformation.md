@@ -18,7 +18,19 @@ $f$ is a linear transformation, with
 
 $f$ 诱导的群同态是什么样的?
 
-$$ H_{n}\left(\mathbb{R} ^{n}, \mathbb{R} ^{n}-\left\{ 0 \right\}\right) $$ 
+从
+$$ 0\to C_{n}\left(\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right) \to C_{n}\left(\mathbb{R} ^{n}\right)\to C_{n}\left(\mathbb{R} ^{n} , \mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)\to 0$$ 
+
+导出
+
+$$ \mathbb{R} ^{n}= \left(\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)\cup D^{n} $$ 
+
+$$ H\left(\mathbb{R} ^{n},\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right) = H\left(D^{n}, D^{n}\setminus \left\{ 0 \right\}\right)$$ 
+
+
+$$ H_{n}\left(\mathbb{R} ^{n},\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)= \frac{Z_{n}\left(\mathbb{R} ^{n}, \mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right) }{ B_{n}\left(\mathbb{R} ^{n},\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)} $$ 
+
+$$ Z_{n}\left(\mathbb{R} ^{n}, \mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right) = \operatorname{ker}\left(C_{n}\left(\mathbb{R} ^{n}\right)/C_{n}\left(\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)\to C_{n-1}\left(\mathbb{R} ^{n}\right)/C_{n-1}\left(\mathbb{R} ^{n}\setminus \left\{ 0 \right\}\right)\right)$$ 
 
 ```dataviewjs
 const techs = dv.current().technique;
