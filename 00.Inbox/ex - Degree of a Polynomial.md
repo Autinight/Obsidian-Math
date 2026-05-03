@@ -16,12 +16,34 @@ tags: []
 
 
 by a local degree at $q$, we mean 
-$$ \hat{f}_{*}:H_{n}\left(S^{n}, S^{n}\setminus \left\{ q \right\}\right)\to H_{n}\left(S^{n},S^{n}\setminus \left\{ q \right\}\right) $$ 
+$$ \hat{f}_{*}:H_{n}\left(S^{n}, S^{n}\setminus \left\{ q \right\}\right)\to H_{n}\left(S^{n},S^{n}\setminus \left\{ S \right\}\right) $$ 
 
-$$ H_{n}\left(S^{n},S^{n}\setminus \left\{ q \right\}\right)=  $$ 
+More exactly
+
+$$ \hat{f}_{*}: H_{n} \left(U, U\setminus \left\{ q \right\}\right)\mapsto  H_{n}\left(V, V\setminus \left\{ S \right\}\right) $$ 
+
+where $U$ is a open neighbourhood of $q$ , $V$ is a open neighbourhood of $S$, with  $q$  the only root on $U$.
+
+Its the degree of the homomorphism induced by the pair map 
+$$ f: \left(U, U\setminus \left\{ q \right\}\right)\to \left(V,V\setminus \left\{ S \right\}\right) $$ 
 
 
-$$ C_{n}\left(S^{n},S^{n}\setminus \left\{ q \right\}\right)= C_{n}\left(S^{n}\right)/ C_{n}\left(S^{n}\setminus \left\{ q \right\}\right)= \sigma  $$
+
+If $\hat{f}$ has $k$-muliplicity 
+
+$$ f\left(z\right)= g\left(z\right)\left(z-q\right)^{k} $$ 
+
+$$ g\left(x\right)\neq q $$
+$g$ induces a map 
+$$ \overline{\mathbb{C}}\setminus \left\{ q \right\}\to \mathbb{C}\setminus \left\{ 0 \right\} $$
+Then from
+$$ f_{t}\left(z\right)= \left(tg\left(z\right)^{-1} + \left(1-t\right)\right)g\left(z\right)\left(z-q\right)^{k} $$   
+We know $f$ is homotopic to $\left(z-q\right)^{k}$  on $S^{n}\setminus \left\{ q \right\}$ and on $S^{n}\setminus \left\{ q \right\}$, thus $f:\left(U,U\setminus \left\{ q \right\}\right)\to \left(V,V\setminus \left\{ S \right\}\right)$ is homotopic to  $\left(z-q\right)^{k}: \left(U,U\setminus \left\{ q \right\}\right)\to \left(V,V\setminus \left\{ S \right\}\right)$
+
+Now we show that $\left(z-q\right)^{k}$ has local degree $k$ at $q$.
+
+
+
 where $\sigma$ is the path through $p$.  
 
 ---
