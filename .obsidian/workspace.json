@@ -74,12 +74,12 @@
             }
           },
           {
-            "id": "6599d488ee223845",
+            "id": "378bf38d9736c22b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+                "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,19 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
-            }
-          },
-          {
-            "id": "5f839f8c43b74182",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "50.Image/Tikz/Cellular Homology Diagram.svg"
-              },
-              "icon": "lucide-image",
-              "title": "Cellular Homology Diagram"
+              "title": "Hatcher Ch2 Section 2.1 Simplicial and Singular Homology"
             }
           }
         ],
@@ -206,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/ATHatcher - Chapter2 - Homology.pdf",
+                "file": "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ATHatcher - Chapter2 - Homology 的大纲"
+              "title": "Hatcher Ch2 Section 2.1 Simplicial and Singular Homology 的大纲"
             }
           },
           {
@@ -284,14 +272,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6599d488ee223845",
+  "active": "378bf38d9736c22b",
   "lastOpenFiles": [
-    "50.Image/Tikz/Cellular Homology Diagram.svg",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2 Additional Topics.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "00.Inbox/ex - Map with Degree Zero.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "20.Cards/Exercises/ex - Map with Degree Zero.md",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+    "50.Image/Tikz/Cellular Homology Diagram.svg",
+    "00.Inbox/ex - Homology induced by Linear Transformation.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/FA - HW7.md",
     "50.Image/MCD/my-diagram.svg",
@@ -324,7 +314,6 @@
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
     "70.Life/计划.md",
     "70.Life/Pasted image 20260120174845.png",
-    "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
     "hatcher_2.1_p133_full.png",

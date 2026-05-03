@@ -151,8 +151,8 @@ Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences 
 \begin{tikzcd}[
   cells = {font = \normalsize},
   labels = {font = \small},
-  arrows = {line width = 0.4pt},
-  row sep = 28pt,
+  arrows = {line width = 0.5pt},
+  row sep = 30pt,
   column sep = 35pt
 ]
  &  &  & 0 &  &  \\
