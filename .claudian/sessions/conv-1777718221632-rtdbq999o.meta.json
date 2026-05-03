@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777718221632-rtdbq999o",
+  "providerId": "claude",
+  "title": "/diagram-helper",
+  "createdAt": 1777718221632,
+  "updatedAt": 1777718276534,
+  "lastResponseAt": 1777718276534,
+  "sessionId": "bb007b3c-6242-4a1e-9001-6f14d7047161",
+  "providerState": {
+    "providerSessionId": "bb007b3c-6242-4a1e-9001-6f14d7047161"
+  },
+  "currentNote": "00.Inbox/Cellular Homology Diagram.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 14215,
+    "cacheCreationInputTokens": 472,
+    "cacheReadInputTokens": 19392,
+    "contextWindow": 1000000,
+    "contextTokens": 34079,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

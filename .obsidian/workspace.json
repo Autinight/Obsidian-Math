@@ -156,9 +156,33 @@
               "icon": "lucide-file",
               "title": "Cellular Homology Diagram"
             }
+          },
+          {
+            "id": "2b74ba81055a03db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Cellular Homology Diagram.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cellular Homology Diagram"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -333,23 +357,26 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7e68862470e02ef1",
+  "active": "c970ab3db488d264",
   "lastOpenFiles": [
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "50.Image/MCD/1.mcd",
     "00.Inbox/Cellular Homology Diagram.md",
+    "00.Inbox/Cellular Homology Diagram.md.tmp.7152.1777718761673",
+    "00.Inbox/FA - HW7.md",
+    "50.Image/MCG/Brouwer.mcg",
+    "50.Image/Tikz/Cellular Homology Diagram.svg",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/Cellular Homology Diagram.md.tmp.6600.1777718266641",
+    "00.Inbox/ex - Fixed point of 2n-sphere and RP^n.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/Cellular Homology Diagram.md.tmp.21696.1777718152585",
     "00.Inbox/Cellular Homology Diagram.md.tmp.11900.1777718047175",
     "00.Inbox/Cellular Homology Diagram.md.tmp.12448.1777717965786",
-    "50.Image/MCG/Brouwer.mcg",
     "50.Image/MCD/1.svg",
     "50.Image/MCD/12.mcd",
     "00.Inbox/Cellular Homology Diagram.md.tmp.24128.1777717783107",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/dfn - Delta-Complex.md",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.23616.1777717629750",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.1988.1777717560694",
-    "00.Inbox/ex - Fixed point of 2n-sphere and RP^n.md",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
@@ -357,13 +384,11 @@
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
     "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
-    "00.Inbox/FA - HW7.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "00.Inbox/ex - Isometry Group for Projective Space.md",
     "00.Inbox/ep - Simplicial Homology of Torus.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
-    "11.Chapter Notes/FA(Undergraduate) Middle Term",
     "60.Templates/Script_DailyDraft.md",
     "60.Templates/NOTES.md",
     "41.Events/2026-04/2026-04-26 推荐信初稿撰写.md",
@@ -379,7 +404,6 @@
     "hatcher_2.1_p131_full.png",
     "hatcher_2.1_p125_full.png",
     "hatcher_2.1_p124_full.png",
-    "hatcher_2.1_p122_full.png",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
