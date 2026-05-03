@@ -55,6 +55,16 @@ $$ \partial : H_{k}\left(U,U\setminus \left\{ q \right\}\right)\to H_{k-1}\left(
 我们有相对同调的自然性
 $$ \partial \circ f_{*}= f|_{U\setminus \left\{ q \right\}} \circ \partial $$ 
 
+By 
+$$ U\setminus \left\{ q \right\}\simeq S^{n-1} ,\quad V\setminus \left\{ S \right\}\simeq S^{n-1}$$ 
+
+$$ \left(z-q\right)^{k}: U\setminus \left\{ q \right\}\to U\setminus \left\{ q \right\} $$ 
+
+is identified with
+$$ z^{k}: S^{n-1} \to S^{n-1}$$
+who has degree $k$. 
+
+
 
 $$ C_{n}\left(U, U\setminus \left\{ q \right\}\right)= C_{n}\left(U\right)/ C_{n}\left(U\setminus \left\{ q \right\}\right)= \left\{ \sigma :\sigma \text{ is the simplex covering q} \right\} $$ 
 
