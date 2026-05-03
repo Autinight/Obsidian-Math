@@ -77,52 +77,16 @@
             "id": "507bf428373b4619",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00.Inbox/ex - Map with Degree Zero.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "50.Image/MCD/my-diagram.svg"
               },
-              "icon": "lucide-file",
-              "title": "ex - Map with Degree Zero"
-            }
-          },
-          {
-            "id": "d325892b06c81446",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2 2.2 Computations and Applications"
+              "icon": "lucide-image",
+              "title": "my-diagram"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -296,15 +260,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d325892b06c81446",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "50.Image/MCD/my-diagram.mcd",
+    "50.Image/MCD/1.md",
+    "50.Image/MCD/my-diagram.svg",
+    "svg-cache",
+    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/ex - Map with Degree Zero.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/Cellular Homology Diagram.md",
     "00.Inbox/FA - HW7.md",
-    "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
     "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "20.Cards/Exercises/ex - Fixed point of 2n-sphere and RP^n.md",
     "00.Inbox/dfn - Delta-Complex.md",
@@ -316,9 +284,7 @@
     "00.Inbox/Cellular Homology Diagram.md.tmp.6600.1777718266641",
     "00.Inbox/Cellular Homology Diagram.md.tmp.21696.1777718152585",
     "00.Inbox/Cellular Homology Diagram.md.tmp.11900.1777718047175",
-    "00.Inbox/Cellular Homology Diagram.md.tmp.12448.1777717965786",
     "50.Image/MCD/1.svg",
-    "50.Image/MCD/12.mcd",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Conformally Equivalent Curvature.md",
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
@@ -335,14 +301,12 @@
     "70.Life/计划.md",
     "70.Life/Pasted image 20260120174845.png",
     "30.Recources/AT/Hatcher Ch3 Section 3.1 -  Cohomology Groups.md",
-    "30.Recources/AT/Hatcher Ch2 Section 2.1 Simplicial and Singular Homology.md",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",
     "hatcher_2.1_p133_full.png",
     "hatcher_2.1_p132_full.png",
     "hatcher_2.1_p131_full.png",
     "hatcher_2.1_p125_full.png",
-    "hatcher_2.1_p124_full.png",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/RG/Examples of Riemannian Manifold.canvas",

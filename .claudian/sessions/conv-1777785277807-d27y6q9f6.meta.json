@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777785277807-d27y6q9f6",
+  "providerId": "claude",
+  "title": "这个图一直渲染不出来, 是不是代码兼容性太低了```tikz",
+  "createdAt": 1777785277808,
+  "updatedAt": 1777785431330,
+  "lastResponseAt": 1777785424840,
+  "sessionId": "0f2b555b-8a5f-41c9-ad97-b06698e2f410",
+  "providerState": {
+    "providerSessionId": "0f2b555b-8a5f-41c9-ad97-b06698e2f410"
+  },
+  "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 25225,
+    "cacheCreationInputTokens": 554,
+    "cacheReadInputTokens": 35550,
+    "contextWindow": 1000000,
+    "contextTokens": 61329,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}
