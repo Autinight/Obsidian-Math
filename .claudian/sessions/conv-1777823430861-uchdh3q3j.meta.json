@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777823430861-uchdh3q3j",
+  "providerId": "claude",
+  "title": "/diagram-helper",
+  "createdAt": 1777823430861,
+  "updatedAt": 1777823525760,
+  "lastResponseAt": 1777823494597,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "baecf186-8f5e-492b-bfb2-6c66ebf29a35"
+  },
+  "currentNote": "00.Inbox/01.Todo List/Output here.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 14233,
+    "cacheCreationInputTokens": 641,
+    "cacheReadInputTokens": 19251,
+    "contextWindow": 200000,
+    "contextTokens": 34125,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": false
+  }
+}

@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "/diagram-helper",
   "createdAt": 1777821344828,
-  "updatedAt": 1777821407062,
+  "updatedAt": 1777823423737,
   "lastResponseAt": 1777821407062,
-  "sessionId": "218978c9-a9c9-44e0-b672-450f8ff1fc92",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "218978c9-a9c9-44e0-b672-450f8ff1fc92"
   },

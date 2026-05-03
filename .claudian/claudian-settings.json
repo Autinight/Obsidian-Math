@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "claude-opus-4-7",
+  "model": "gpt-5.5",
   "thinkingBudget": "xhigh",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -94,8 +94,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_SMALL_FAST_MODEL=claude-opus-4-7",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://llm.whitedream.top|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7|ANTHROPIC_MODEL=claude-opus-4-7"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=gpt-5.5\nANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5\nANTHROPIC_SMALL_FAST_MODEL=gpt-5.5",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5|ANTHROPIC_MODEL=gpt-5.5"
     },
     "codex": {
       "enabled": false,
@@ -113,7 +113,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "claude-opus-4-7"
+    "claude": "gpt-5.5"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -122,7 +122,7 @@
   "savedProviderThinkingBudget": {
     "claude": "xhigh"
   },
-  "lastCustomModel": "deepseek-ai/DeepSeek-V4-Pro",
+  "lastCustomModel": "claude-opus-4-7",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

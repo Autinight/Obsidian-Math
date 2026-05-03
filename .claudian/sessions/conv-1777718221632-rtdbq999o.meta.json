@@ -3,21 +3,21 @@
   "providerId": "claude",
   "title": "/diagram-helper",
   "createdAt": 1777718221632,
-  "updatedAt": 1777718276534,
+  "updatedAt": 1777823532836,
   "lastResponseAt": 1777718276534,
-  "sessionId": "bb007b3c-6242-4a1e-9001-6f14d7047161",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "bb007b3c-6242-4a1e-9001-6f14d7047161"
   },
   "currentNote": "00.Inbox/Cellular Homology Diagram.md",
   "usage": {
-    "model": "claude-opus-4-7",
+    "model": "gpt-5.5",
     "inputTokens": 14215,
     "cacheCreationInputTokens": 472,
     "cacheReadInputTokens": 19392,
-    "contextWindow": 1000000,
+    "contextWindow": 200000,
     "contextTokens": 34079,
-    "percentage": 3,
-    "contextWindowIsAuthoritative": true
+    "percentage": 17,
+    "contextWindowIsAuthoritative": false
   }
 }

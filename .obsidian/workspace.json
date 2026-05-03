@@ -120,9 +120,33 @@
               "icon": "lucide-file",
               "title": "Hatcher Ch2.2 Computations and Applications"
             }
+          },
+          {
+            "id": "604e7dbde0e302a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/01.Todo List/Output here.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Output here"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -218,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+                "file": "00.Inbox/01.Todo List/Output here.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2.2 Computations and Applications 的大纲"
+              "title": "Output here 的大纲"
             }
           },
           {
@@ -276,7 +300,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -296,20 +320,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ec22834afa1abb59",
+  "active": "604e7dbde0e302a4",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/01.Todo List/Output here.md.tmp.20044.1777823479264",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2.3 - The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Degree of a Polynomial.md",
     "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md.tmp.18568.1777821461110",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/01.Todo List/Output here.md.tmp.21256.1777821206315",
     "00.Inbox/For compile.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.20900.1777820456384",
@@ -337,7 +362,6 @@
     "20.Cards/Exercises/ex - Bianchi Identities at Point where Covariant Differentiation Vanish.md",
     "20.Cards/Exercises/ex - Constant Curvature has Parallel Curvature Tensor.md",
     "20.Cards/Exercises/ex - Normal Coordinates at p.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "70.Life/Pasted image 20260120174845.png",
     "hatcher_2.1_p105_full.png",
     "hatcher_2.1_p111_full.png",

@@ -3,21 +3,21 @@
   "providerId": "claude",
   "title": "为啥一直渲染不是说来",
   "createdAt": 1777785443777,
-  "updatedAt": 1777785586895,
+  "updatedAt": 1777823533369,
   "lastResponseAt": 1777785586895,
-  "sessionId": "2a3a6d20-2b21-4bec-ab9e-23ee8f87fa56",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "2a3a6d20-2b21-4bec-ab9e-23ee8f87fa56"
   },
   "currentNote": "00.Inbox/Hatcher Ch2 2.2 Computations and Applications.md",
   "usage": {
-    "model": "claude-opus-4-7",
+    "model": "gpt-5.5",
     "inputTokens": 25613,
     "cacheCreationInputTokens": 526,
     "cacheReadInputTokens": 35749,
-    "contextWindow": 1000000,
+    "contextWindow": 200000,
     "contextTokens": 61888,
-    "percentage": 6,
-    "contextWindowIsAuthoritative": true
+    "percentage": 31,
+    "contextWindowIsAuthoritative": false
   }
 }
