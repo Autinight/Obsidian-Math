@@ -161,5 +161,71 @@
     }
   ],
   "hotkeysplus-obsidian:toggle-bullet-number": [],
-  "hotkeysplus-obsidian:toggle-embed": []
+  "hotkeysplus-obsidian:toggle-embed": [],
+  "cursor-commands:cursor-left": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "cursor-commands:cursor-right": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "cursor-commands:cursor-down": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "cursor-commands:cursor-up": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
+  "cursor-commands:cursor-line-end": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
+    }
+  ],
+  "cursor-commands:cursor-line-start": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "graph:open": [],
+  "cursor-commands:cursor-word-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "cursor-commands:cursor-word-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ]
 }

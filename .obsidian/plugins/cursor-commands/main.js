@@ -33,6 +33,78 @@ function moveRight(editor) {
   }
 }
 
+function isWordCharacter(char) {
+  return /[\p{L}\p{N}_]/u.test(char);
+}
+
+function getDocumentTextBeforeCursor(editor, cursor) {
+  const lines = [];
+  for (let line = 0; line < cursor.line; line += 1) {
+    lines.push(editor.getLine(line));
+  }
+  lines.push(editor.getLine(cursor.line).slice(0, cursor.ch));
+  return lines.join('\n');
+}
+
+function getDocumentTextAfterCursor(editor, cursor) {
+  const lines = [editor.getLine(cursor.line).slice(cursor.ch)];
+  for (let line = cursor.line + 1; line <= editor.lastLine(); line += 1) {
+    lines.push(editor.getLine(line));
+  }
+  return lines.join('\n');
+}
+
+function offsetToCursor(editor, offset) {
+  let remaining = Math.max(0, offset);
+  for (let line = 0; line <= editor.lastLine(); line += 1) {
+    const lineLength = getLineLength(editor, line);
+    if (remaining <= lineLength) {
+      return { line, ch: remaining };
+    }
+    remaining -= lineLength + 1;
+  }
+  const lastLine = editor.lastLine();
+  return { line: lastLine, ch: getLineLength(editor, lastLine) };
+}
+
+function cursorToOffset(editor, cursor) {
+  let offset = cursor.ch;
+  for (let line = 0; line < cursor.line; line += 1) {
+    offset += getLineLength(editor, line) + 1;
+  }
+  return offset;
+}
+
+function moveWordLeft(editor) {
+  const cursor = editor.getCursor();
+  const before = getDocumentTextBeforeCursor(editor, cursor);
+  let index = before.length;
+
+  while (index > 0 && !isWordCharacter(before[index - 1])) {
+    index -= 1;
+  }
+  while (index > 0 && isWordCharacter(before[index - 1])) {
+    index -= 1;
+  }
+
+  editor.setCursor(offsetToCursor(editor, index));
+}
+
+function moveWordRight(editor) {
+  const cursor = editor.getCursor();
+  const after = getDocumentTextAfterCursor(editor, cursor);
+  let index = 0;
+
+  while (index < after.length && !isWordCharacter(after[index])) {
+    index += 1;
+  }
+  while (index < after.length && isWordCharacter(after[index])) {
+    index += 1;
+  }
+
+  editor.setCursor(offsetToCursor(editor, cursorToOffset(editor, cursor) + index));
+}
+
 function moveVertical(editor, delta) {
   const cursor = editor.getCursor();
   const targetLine = clamp(cursor.line + delta, 0, editor.lastLine());
@@ -71,6 +143,18 @@ module.exports = class CursorCommandsPlugin extends Plugin {
       id: 'cursor-right',
       name: 'Cursor right',
       editorCallback: (editor) => moveRight(editor),
+    });
+
+    this.addCommand({
+      id: 'cursor-word-left',
+      name: 'Cursor word left',
+      editorCallback: (editor) => moveWordLeft(editor),
+    });
+
+    this.addCommand({
+      id: 'cursor-word-right',
+      name: 'Cursor word right',
+      editorCallback: (editor) => moveWordRight(editor),
     });
 
     this.addCommand({
