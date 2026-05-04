@@ -225,7 +225,45 @@ Next we describe how the cellular boundary maps $d_n$ can be computed. When $n =
 
 Here we are identifying the cells $e^n_\alpha$ and $e^{n-1}_\beta$ with generators of the corresponding summands of the cellular chain groups. The summation in the formula contains only finitely many terms since the attaching map of $e^n_\alpha$ has compact image, so this image meets only finitely many cells $e^{n-1}_\beta$.
 
-To derive the cellular boundary formula, consider the commutative diagram where:
+To derive the cellular boundary formula, consider the commutative diagram 
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{tikzcd}[
+  column sep=large,
+  row sep=large,
+  cells={nodes={inner sep=2pt}}
+]
+H_n(D^n_{\alpha},\partial D^n_{\alpha})
+  \arrow[r, "{\partial}", "{\simeq}"']
+  \arrow[d, "{\Phi_{\alpha *}}"']
+& \widetilde H_{n-1}(\partial D^n_{\alpha})
+  \arrow[r, "{\Delta_{\alpha\beta *}}"]
+  \arrow[d, "{\varphi_{\alpha *}}"]
+
+& \widetilde H_{n-1}(S^{n-1}_{\beta})
+\\
+H_n(X^n,X^{n-1})
+  \arrow[r, "{\partial_n}", "{\simeq}"']
+  \arrow[dr, "{d_n}"']
+& \widetilde H_{n-1}(X^{n-1})
+  \arrow[r, "{q_*}"]
+  \arrow[d, "{j_{n-1}}"]
+
+& \widetilde H_{n-1}(X^{n-1}/X^{n-2})
+  \arrow[u, "{q_{\beta *}}"']
+  \arrow[d, "{\simeq}"]
+\\
+{}
+& H_{n-1}(X^{n-1},X^{n-2})
+  \arrow[r, "{\simeq}"']
+
+& H_{n-1}(X^{n-1}/X^{n-2},X^{n-2}/X^{n-2})
+\end{tikzcd}
+\end{document}
+```
+where:
 - $\Phi_\alpha$ is the characteristic map of the cell $e^n_\alpha$ and $\varphi_\alpha$ is its attaching map.
 - $q : X^{n-1} \to X^{n-1}/X^{n-2}$ is the quotient map.
 - $q_\beta : X^{n-1}/X^{n-2} \to S^{n-1}_\beta$ collapses the complement of the cell $e^{n-1}_\beta$ to a point, the resulting quotient sphere being identified with $S^{n-1}_\beta = D^{n-1}_\beta/\partial D^{n-1}_\beta$ via the characteristic map $\Phi_\beta$.

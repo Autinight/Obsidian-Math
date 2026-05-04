@@ -3,8 +3,8 @@
   "providerId": "claude",
   "title": "use the skill /diagram-helper  to draw",
   "createdAt": 1777882641319,
-  "updatedAt": 1777882724124,
-  "lastResponseAt": 1777882724124,
+  "updatedAt": 1777883379767,
+  "lastResponseAt": 1777883375701,
   "sessionId": "a4e0931e-81ed-4334-9783-d6c3f141f865",
   "providerState": {
     "providerSessionId": "a4e0931e-81ed-4334-9783-d6c3f141f865"
@@ -12,12 +12,12 @@
   "currentNote": "00.Inbox/01.Todo List/Output here.md",
   "usage": {
     "model": "gpt-5.5",
-    "inputTokens": 7217,
+    "inputTokens": 28673,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 7217,
-    "percentage": 4,
+    "contextTokens": 28673,
+    "percentage": 14,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777884059888-tdpg1ubf9",
+  "providerId": "claude",
+  "title": "根据skill /math 中的风格为闭集添加note",
+  "createdAt": 1777884059888,
+  "updatedAt": 1777884745435,
+  "lastResponseAt": 1777884745435,
+  "sessionId": "283d2a2b-d628-4c52-8009-57b289d5a528",
+  "providerState": {
+    "providerSessionId": "283d2a2b-d628-4c52-8009-57b289d5a528"
+  },
+  "currentNote": "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 7961,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7961,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

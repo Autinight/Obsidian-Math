@@ -61,10 +61,10 @@
   },
   "tikz": {
     "exportPath": "50.Image/Tikz",
-    "mcgFolderPath": "50.Image/MCG",
+    "mcgFolderPath": "50.Image/MCG/RAW",
     "mcgExportPath": "50.Image/MCG/SVG",
-    "mcdFolderPath": "50.Image/MCD",
-    "mcdExportPath": "50.Image/MCD",
+    "mcdFolderPath": "50.Image/MCD/RAW",
+    "mcdExportPath": "50.Image/MCD/SVG",
     "enableCache": true
   },
   "mastery": {
@@ -78,5 +78,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "theorem"
+  "settingsTab": "tikz"
 }

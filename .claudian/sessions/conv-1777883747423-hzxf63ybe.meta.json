@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777883747423-hzxf63ybe",
+  "providerId": "claude",
+  "title": "用skill /cards-generator 写一个RP^n实射影空间的标准CW结构的card, ...",
+  "createdAt": 1777883747423,
+  "updatedAt": 1777883928701,
+  "lastResponseAt": 1777883801749,
+  "sessionId": "776b2f78-2de9-44e2-8584-a3e9e23af661",
+  "providerState": {
+    "providerSessionId": "776b2f78-2de9-44e2-8584-a3e9e23af661"
+  },
+  "currentNote": "00.Inbox/ex  - Homology of RP^n.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 7012,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7012,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
