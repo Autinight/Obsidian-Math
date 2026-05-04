@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Freeness of Cellullar Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,35 +94,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Freeness of Cellullar Homology"
-            }
-          },
-          {
-            "id": "d1f1d5dc55598ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology"
+              "title": "Hatcher Ch2.2 Computations and Applications"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Freeness of Cellullar Homology.md",
+                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Freeness of Cellullar Homology 的大纲"
+              "title": "pdf - AT Hatcher 的大纲"
             }
           },
           {
@@ -296,14 +271,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d47f06315d542cec",
+  "active": "2828624c868ee0e4",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Freeness of Cellullar Homology.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.25764.1777823892968",
     "00.Inbox/01.Todo List/Output here.md.tmp.7388.1777823822101",

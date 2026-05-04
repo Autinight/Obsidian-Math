@@ -119,9 +119,9 @@ Cellular homology is a very efficient tool for computing the homology groups of 
 
 > [!lemma] Lemma 2.1
 > If $X$ is a CW complex, then:
-> (a) $H_k(X^n, X^{n-1})$ is zero for $k \neq n$ and is free abelian for $k = n$, with a basis in one-to-one correspondence with the $n$-cells of $X$.
-> (b) $H_k(X^n) = 0$ for $k > n$. In particular, if $X$ is finite-dimensional then $H_k(X) = 0$ for $k > \dim X$.
-> (c) The map $H_k(X^n) \to H_k(X)$ induced by the inclusion $X^n \hookrightarrow X$ is an isomorphism for $k < n$ and surjective for $k = n$.
+> 1. $H_k(X^n, X^{n-1})$ is zero for $k \neq n$ and is free abelian for $k = n$, with a basis in one-to-one correspondence with the $n$-cells of $X$.
+> 2. $H_k(X^n) = 0$ for $k > n$. In particular, if $X$ is finite-dimensional then $H_k(X) = 0$ for $k > \dim X$.
+> 3. The map $H_k(X^n) \to H_k(X)$ induced by the inclusion $X^n \hookrightarrow X$ is an isomorphism for $k < n$ and surjective for $k = n$.
 
 > [!proof] Proof of Lemma 2.34
 > Statement (a) follows immediately from the observation that $(X^n, X^{n-1})$ is a good pair and $X^n/X^{n-1}$ is a wedge sum of $n$-spheres, one for each $n$-cell of $X$. Here we are using Proposition 2.22 and Corollary 2.25.
