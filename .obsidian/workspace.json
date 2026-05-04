@@ -77,12 +77,24 @@
             "id": "ff13eb62303692a9",
             "type": "leaf",
             "state": {
-              "type": "mathcraft-cd-view",
+              "type": "markdown",
               "state": {
-                "file": "50.Image/MCD/RAW/Narturality of relative Homology.mcd"
+                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "mathcraft-cd",
-              "title": "Narturality of relative Homology"
+              "icon": "lucide-file",
+              "title": "Hatcher Ch2.1 Simplicial and Singular Homology"
             }
           },
           {
@@ -115,7 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Theorems/thm - Nielsen-Schreier.md",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -130,11 +142,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thm - Nielsen-Schreier"
+              "title": "Hatcher Ch2.2 Computations and Applications"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2.2 Computations and Applications 的大纲"
+              "title": "Hatcher Ch2.1 Simplicial and Singular Homology 的大纲"
             }
           },
           {
@@ -288,7 +300,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -308,32 +320,36 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2e8a606a30de7456",
+  "active": "ff13eb62303692a9",
   "lastOpenFiles": [
+    "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
+    "00.Inbox/Long Exact Sequence Naturality Diagram.md",
+    "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "20.Cards/Theorems/thm - Nielsen-Schreier.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/ex  - Homology of RP^n.md",
     "00.Inbox/01.Todo List/Output here.md",
     "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.12240.1777884172766",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.28836.1777883778594",
-    "00.Inbox/ex  - Homology of RP^n.md",
     "00.Inbox/ep - Standard CW Structure on Real Projective Space.md",
     "00.Inbox/ep - Standard CW Structure on Real Projective Space.md.tmp.18472.1777883501539",
-    "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "50.Image/MCD/RAW/Retraction and z^k.mcd",
     "50.Image/MCD/2026-5-3-1.mcd",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/MCG/RAW",
     "50.Image/MCD/RAW",
     "50.Image/MCD/SVG",
-    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/ex - Rank of Chain Group for Delta^n.md",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
-    "00.Inbox/Hatcher - Algebraic Topology - Section 2.3 The Formal Viewpoint.md",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/dfn - Nielsen-Schreier.md",
     "20.Cards/Exercises/ex - Homology induced by Linear Transformation.md",
@@ -343,10 +359,6 @@
     "20.Cards/Propositions/pps - All Vector Fields are Complete on a Compact Manifold.md",
     "20.Cards/Concepts/Cartan Matrix.md",
     "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
-    "20.Cards/Definitions/dfn - Boundary Value Problem.md",
-    "20.Cards/Examples/ep - Examples of Weak Derivative.md",
-    "20.Cards/Examples/ep - Binomial Distribution.md",
-    "20.Cards/Examples/ep - Algebra of Quaternions.md",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
     "50.Image/MCD/my-diagram.svg",
     "70.Life/Pasted image 20260120174845.png",
