@@ -74,60 +74,12 @@
             }
           },
           {
-            "id": "08be2af0c8e58268",
+            "id": "d47f06315d542cec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology"
-            }
-          },
-          {
-            "id": "ec22834afa1abb59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2.2 Computations and Applications"
-            }
-          },
-          {
-            "id": "604e7dbde0e302a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/01.Todo List/Output here.md",
+                "file": "00.Inbox/ex - Freeness of Cellullar Homology.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -142,11 +94,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Output here"
+              "title": "ex - Freeness of Cellullar Homology"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -320,17 +272,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ec22834afa1abb59",
+  "active": "d47f06315d542cec",
   "lastOpenFiles": [
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/ex - Freeness of Cellullar Homology.md",
+    "00.Inbox/01.Todo List/Output here.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.25764.1777823892968",
     "00.Inbox/01.Todo List/Output here.md.tmp.7388.1777823822101",
     "00.Inbox/01.Todo List/Output here.md.tmp.21052.1777823764414",
     "00.Inbox/01.Todo List/Output here.md.tmp.20044.1777823479264",
-    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2.3 - The Formal Viewpoint.md",
