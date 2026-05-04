@@ -1,0 +1,9 @@
+{
+  "id": "cursor-commands",
+  "name": "Cursor Commands",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Expose editor cursor movement commands for hotkey binding.",
+  "author": "Claude",
+  "isDesktopOnly": false
+}
