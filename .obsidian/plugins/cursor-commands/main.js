@@ -1,4 +1,10 @@
-const { Plugin } = require('obsidian');
+const { Plugin, PluginSettingTab, Setting } = require('obsidian');
+
+const DEFAULT_SETTINGS = {
+  includeUnderscore: true,
+  extraWordCharacters: '',
+  lettersOnlyWordMovement: false,
+};
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
@@ -7,6 +13,15 @@ function clamp(value, min, max) {
 function getLineLength(editor, line) {
   if (line < 0 || line > editor.lastLine()) return 0;
   return editor.getLine(line).length;
+}
+
+function isWordCharacter(char, settings) {
+  if (settings.lettersOnlyWordMovement) {
+    return /[A-Za-z]/.test(char);
+  }
+  if (/\p{L}|\p{N}/u.test(char)) return true;
+  if (settings.includeUnderscore && char === '_') return true;
+  return new Set(Array.from(settings.extraWordCharacters || '')).has(char);
 }
 
 function moveLeft(editor) {
@@ -31,10 +46,6 @@ function moveRight(editor) {
   if (cursor.line < editor.lastLine()) {
     editor.setCursor({ line: cursor.line + 1, ch: 0 });
   }
-}
-
-function isWordCharacter(char) {
-  return /[\p{L}\p{N}_]/u.test(char);
 }
 
 function getDocumentTextBeforeCursor(editor, cursor) {
@@ -75,30 +86,30 @@ function cursorToOffset(editor, cursor) {
   return offset;
 }
 
-function moveWordLeft(editor) {
+function moveWordLeft(editor, settings) {
   const cursor = editor.getCursor();
   const before = getDocumentTextBeforeCursor(editor, cursor);
   let index = before.length;
 
-  while (index > 0 && !isWordCharacter(before[index - 1])) {
+  while (index > 0 && !isWordCharacter(before[index - 1], settings)) {
     index -= 1;
   }
-  while (index > 0 && isWordCharacter(before[index - 1])) {
+  while (index > 0 && isWordCharacter(before[index - 1], settings)) {
     index -= 1;
   }
 
   editor.setCursor(offsetToCursor(editor, index));
 }
 
-function moveWordRight(editor) {
+function moveWordRight(editor, settings) {
   const cursor = editor.getCursor();
   const after = getDocumentTextAfterCursor(editor, cursor);
   let index = 0;
 
-  while (index < after.length && !isWordCharacter(after[index])) {
+  while (index < after.length && !isWordCharacter(after[index], settings)) {
     index += 1;
   }
-  while (index < after.length && isWordCharacter(after[index])) {
+  while (index < after.length && isWordCharacter(after[index], settings)) {
     index += 1;
   }
 
@@ -131,8 +142,69 @@ function moveDocumentEnd(editor) {
   editor.setCursor({ line: lastLine, ch: getLineLength(editor, lastLine) });
 }
 
+class CursorCommandsSettingTab extends PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+
+    containerEl.createEl('h2', { text: 'Cursor Commands' });
+
+    new Setting(containerEl)
+      .setName('English letters only for word movement')
+      .setDesc('When enabled, only A-Z and a-z count as word characters. Numbers, Chinese characters, underscore, and extra characters are ignored for word movement.')
+      .addToggle((toggle) =>
+        toggle
+          .setValue(this.plugin.settings.lettersOnlyWordMovement)
+          .onChange(async (value) => {
+            this.plugin.settings.lettersOnlyWordMovement = value;
+            await this.plugin.saveSettings();
+            this.display();
+          }),
+      );
+
+    new Setting(containerEl)
+      .setName('Include underscore in word movement')
+      .setDesc('When enabled, _ counts as part of a word for Cursor word left/right. Ignored when English letters only is enabled.')
+      .addToggle((toggle) =>
+        toggle
+          .setValue(this.plugin.settings.includeUnderscore)
+          .onChange(async (value) => {
+            this.plugin.settings.includeUnderscore = value;
+            await this.plugin.saveSettings();
+            this.display();
+          }),
+      );
+
+    new Setting(containerEl)
+      .setName('Extra word characters')
+      .setDesc('Any additional characters to treat as part of a word, for example - or . Disabled when English letters only is enabled.')
+      .addText((text) => {
+        text
+          .setPlaceholder('-')
+          .setValue(this.plugin.settings.extraWordCharacters)
+          .onChange(async (value) => {
+            this.plugin.settings.extraWordCharacters = value;
+            await this.plugin.saveSettings();
+          });
+
+        if (this.plugin.settings.lettersOnlyWordMovement) {
+          text.setDisabled(true);
+        }
+      });
+  }
+}
+
 module.exports = class CursorCommandsPlugin extends Plugin {
-  onload() {
+  async onload() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+
+    this.addSettingTab(new CursorCommandsSettingTab(this.app, this));
+
     this.addCommand({
       id: 'cursor-left',
       name: 'Cursor left',
@@ -148,13 +220,13 @@ module.exports = class CursorCommandsPlugin extends Plugin {
     this.addCommand({
       id: 'cursor-word-left',
       name: 'Cursor word left',
-      editorCallback: (editor) => moveWordLeft(editor),
+      editorCallback: (editor) => moveWordLeft(editor, this.settings),
     });
 
     this.addCommand({
       id: 'cursor-word-right',
       name: 'Cursor word right',
-      editorCallback: (editor) => moveWordRight(editor),
+      editorCallback: (editor) => moveWordRight(editor, this.settings),
     });
 
     this.addCommand({
@@ -192,5 +264,9 @@ module.exports = class CursorCommandsPlugin extends Plugin {
       name: 'Cursor document end',
       editorCallback: (editor) => moveDocumentEnd(editor),
     });
+  }
+
+  async saveSettings() {
+    await this.saveData(this.settings);
   }
 };
