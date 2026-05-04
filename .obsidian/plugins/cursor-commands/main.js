@@ -15,13 +15,22 @@ function getLineLength(editor, line) {
   return editor.getLine(line).length;
 }
 
-function isWordCharacter(char, settings) {
+function isWhitespaceCharacter(char) {
+  return /\s/u.test(char);
+}
+
+function getTokenType(char, settings) {
+  if (isWhitespaceCharacter(char)) return 'whitespace';
   if (settings.lettersOnlyWordMovement) {
-    return /[A-Za-z]/.test(char);
+    if (/[A-Za-z]/.test(char)) return 'word';
+    if (/[0-9]/.test(char)) return 'number';
+    return 'symbol';
   }
-  if (/\p{L}|\p{N}/u.test(char)) return true;
-  if (settings.includeUnderscore && char === '_') return true;
-  return new Set(Array.from(settings.extraWordCharacters || '')).has(char);
+  if (/\p{L}/u.test(char)) return 'word';
+  if (/\p{N}/u.test(char)) return 'number';
+  if (settings.includeUnderscore && char === '_') return 'word';
+  if (new Set(Array.from(settings.extraWordCharacters || '')).has(char)) return 'word';
+  return 'symbol';
 }
 
 function moveLeft(editor) {
@@ -91,10 +100,17 @@ function moveWordLeft(editor, settings) {
   const before = getDocumentTextBeforeCursor(editor, cursor);
   let index = before.length;
 
-  while (index > 0 && !isWordCharacter(before[index - 1], settings)) {
+  while (index > 0 && getTokenType(before[index - 1], settings) === 'whitespace') {
     index -= 1;
   }
-  while (index > 0 && isWordCharacter(before[index - 1], settings)) {
+
+  if (index === 0) {
+    editor.setCursor(offsetToCursor(editor, 0));
+    return;
+  }
+
+  const tokenType = getTokenType(before[index - 1], settings);
+  while (index > 0 && getTokenType(before[index - 1], settings) === tokenType) {
     index -= 1;
   }
 
@@ -106,10 +122,17 @@ function moveWordRight(editor, settings) {
   const after = getDocumentTextAfterCursor(editor, cursor);
   let index = 0;
 
-  while (index < after.length && !isWordCharacter(after[index], settings)) {
+  while (index < after.length && getTokenType(after[index], settings) === 'whitespace') {
     index += 1;
   }
-  while (index < after.length && isWordCharacter(after[index], settings)) {
+
+  if (index >= after.length) {
+    editor.setCursor(offsetToCursor(editor, cursorToOffset(editor, cursor) + index));
+    return;
+  }
+
+  const tokenType = getTokenType(after[index], settings);
+  while (index < after.length && getTokenType(after[index], settings) === tokenType) {
     index += 1;
   }
 
@@ -156,7 +179,7 @@ class CursorCommandsSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName('English letters only for word movement')
-      .setDesc('When enabled, only A-Z and a-z count as word characters. Numbers, Chinese characters, underscore, and extra characters are ignored for word movement.')
+      .setDesc('When enabled, only A-Z and a-z count as word characters. Numbers, Chinese characters, underscore, and extra characters become separate non-letter tokens for word movement.')
       .addToggle((toggle) =>
         toggle
           .setValue(this.plugin.settings.lettersOnlyWordMovement)

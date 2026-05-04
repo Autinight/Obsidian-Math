@@ -3,8 +3,8 @@
   "providerId": "claude",
   "title": "Implement this plan:",
   "createdAt": 1777877701596,
-  "updatedAt": 1777879401764,
-  "lastResponseAt": 1777879401764,
+  "updatedAt": 1777880332001,
+  "lastResponseAt": 1777879738378,
   "sessionId": "ae277206-1cda-43a2-853d-5bb88a817c36",
   "providerState": {
     "providerSessionId": "ae277206-1cda-43a2-853d-5bb88a817c36"
@@ -12,12 +12,12 @@
   "currentNote": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
   "usage": {
     "model": "gpt-5.5",
-    "inputTokens": 31976,
+    "inputTokens": 38693,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 31976,
-    "percentage": 16,
+    "contextTokens": 38693,
+    "percentage": 19,
     "contextWindowIsAuthoritative": true
   }
 }
