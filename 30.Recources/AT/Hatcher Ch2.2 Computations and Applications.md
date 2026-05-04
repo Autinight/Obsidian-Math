@@ -142,7 +142,51 @@ Cellular homology is a very efficient tool for computing the homology groups of 
 > Recalling that $X_0$ is a point, let $R \subset T$ be the ray $X_0 \times [0, \infty)$ and let $Z \subset T$ be the union of this ray with all the subcomplexes $X_i \times \{i\}$. Then $Z/R$ is homeomorphic to $\bigvee_i X_i$, a wedge sum of finite-dimensional complexes with $n$-skeleton a point, so $\tilde{H}_k(Z/R) = 0$ for $k \leq n$. The same is therefore true for $Z$, from the long exact sequence of the pair $(Z, R)$, since $R$ is contractible. Similarly, $T/Z$ is a wedge sum of finite-dimensional complexes with $(n+1)$-skeleton a point, since if we first collapse each subcomplex $X_i \times \{i\}$ of $T$ to a point, we obtain the infinite sequence of suspensions $SX_i$ 'skewered' along the ray $R$, and then if we collapse $R$ to a point we obtain $\bigvee_i \Sigma X_i$ where $\Sigma X_i$ is the reduced suspension of $X_i$, so $\Sigma X_i$ has $(n+1)$-skeleton a point. Thus $\tilde{H}_k(T/Z) = 0$ for $k \leq n + 1$. The long exact sequence of the pair $(T, Z)$ then implies that $\tilde{H}_k(T) = 0$ for $k \leq n$, and we have proved $(*)$.
 
 Let $X$ be a CW complex. Using Lemma 2.34, portions of the long exact sequences for the pairs $(X^{n+1}, X^n)$, $(X^n, X^{n-1})$, and $(X^{n-1}, X^{n-2})$ fit into a diagram
+```tikz
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{tikzpicture}[
+  scale=1.05,
+  every node/.style={font=\large},
+  arr/.style={->, >=stealth, thick},
+  lab/.style={font=\normalsize}
+]
 
+% Main horizontal row
+\node (A) at (-5.2,0) {$\cdots$};
+\node (B) at (-2.8,0) {$H_{n+1}(X^{n+1},X^n)$};
+\node (C) at (0.6,0) {$H_n(X^n,X^{n-1})$};
+\node (D) at (4.3,0) {$H_{n-1}(X^{n-1},X^{n-2})$};
+\node (E) at (6.9,0) {$\cdots$};
+
+\draw[arr] (A) -- (B);
+\draw[arr] (B) -- node[above, lab] {$d_{n+1}$} (C);
+\draw[arr] (C) -- node[above, lab] {$d_n$} (D);
+\draw[arr] (D) -- (E);
+
+% Upper exact-sequence pieces
+\node (U0) at (-2.8,1.65) {$0$};
+\node (U1) at (-1.35,1.05) {$H_n(X^n)$};
+\node (U2) at (1.9,2.2) {$H_n(X^{n+1})\cong H_n(X)$};
+\node (U3) at (3.25,3.0) {$0$};
+
+\draw[arr] (U0) -- (U1);
+\draw[arr] (B) -- node[left, lab] {$\partial_{n+1}$} (U1);
+\draw[arr] (U1) -- (U2);
+\draw[arr] (U2) -- (U3);
+\draw[arr] (U1) -- node[above right, lab] {$j_n$} (C);
+
+% Lower exact-sequence pieces
+\node (L0) at (1.15,-2.35) {$0$};
+\node (L1) at (2.45,-1.5) {$H_{n-1}(X^{n-1})$};
+
+\draw[arr] (L0) -- (L1);
+\draw[arr] (C) -- node[right, lab] {$\partial_n$} (L1);
+\draw[arr] (L1) -- node[below right, lab] {$j_{n-1}$} (D);
+
+\end{tikzpicture}
+\end{document}
+```
 
 where $d_{n+1}$ and $d_n$ are defined as the compositions $j_n \partial_{n+1}$ and $j_{n-1}\partial_n$, which are just 'relativizations' of the boundary maps $\partial_{n+1}$ and $\partial_n$. The composition $d_n d_{n+1}$ includes two successive maps in one of the exact sequences, hence is zero. Thus the horizontal row is a chain complex, called the **cellular chain complex** of $X$ since $H_n(X^n, X^{n-1})$ is free with basis in one-to-one correspondence with the $n$-cells of $X$, so one can think of elements of $H_n(X^n, X^{n-1})$ as linear combinations of $n$-cells of $X$. The homology groups of this cellular chain complex are called the **cellular homology groups** of $X$. Temporarily we denote them $H_n^{CW}(X)$.
 

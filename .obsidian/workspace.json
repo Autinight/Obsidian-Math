@@ -128,7 +128,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/01.Todo List/Output here.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -320,15 +320,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "604e7dbde0e302a4",
+  "active": "ec22834afa1abb59",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/01.Todo List/Output here.md.tmp.25764.1777823892968",
     "00.Inbox/01.Todo List/Output here.md.tmp.7388.1777823822101",
     "00.Inbox/01.Todo List/Output here.md.tmp.21052.1777823764414",
     "00.Inbox/01.Todo List/Output here.md.tmp.20044.1777823479264",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
@@ -336,7 +337,6 @@
     "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md",
     "00.Inbox/ex - Degree of a Polynomial.md",
-    "00.Inbox/01.Todo List/Output here.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md.tmp.18568.1777821461110",
     "00.Inbox/01.Todo List/Output here.md.tmp.21256.1777821206315",
     "00.Inbox/For compile.md",
@@ -346,7 +346,6 @@
     "00.Inbox/FA - HW7.md",
     "00.Inbox/ex - Homology induced by Linear Transformation.md",
     "50.Image/MCD/Narturality of relative Homology.mcd",
-    "50.Image/MCD/2026-5-3-1.mcd",
     "50.Image/MCD/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
