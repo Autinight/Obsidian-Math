@@ -7,7 +7,7 @@ book: AT Hatcher
 chapter: 2.2
 number: "08"
 category:
-status: todo
+status: done
 priority:
 tags: []
 ---

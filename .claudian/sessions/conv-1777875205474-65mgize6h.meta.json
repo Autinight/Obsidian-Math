@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777875205474-65mgize6h",
+  "providerId": "claude",
+  "title": "Implement this plan:",
+  "createdAt": 1777875205474,
+  "updatedAt": 1777875596543,
+  "lastResponseAt": 1777875586508,
+  "sessionId": "f730e0dd-b33b-4405-8daa-ba398ecdbd11",
+  "providerState": {
+    "providerSessionId": "f730e0dd-b33b-4405-8daa-ba398ecdbd11"
+  },
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 49231,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 49231,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -122,7 +122,7 @@
   "savedProviderThinkingBudget": {
     "claude": "xhigh"
   },
-  "lastCustomModel": "claude-opus-4-7",
+  "lastCustomModel": "gpt-5.5",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

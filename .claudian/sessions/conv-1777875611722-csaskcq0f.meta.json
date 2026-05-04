@@ -1,0 +1,21 @@
+{
+  "id": "conv-1777875611722-csaskcq0f",
+  "providerId": "claude",
+  "title": "/cards-generator thm - Nielsen-Schreier",
+  "createdAt": 1777875611722,
+  "updatedAt": 1777875645617,
+  "lastResponseAt": 1777875644409,
+  "sessionId": "b6f9d8c0-7841-4274-ba24-e6550f279da2",
+  "providerState": {
+    "providerSessionId": "b6f9d8c0-7841-4274-ba24-e6550f279da2"
+  },
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 11296,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 11296,
+    "percentage": 6
+  }
+}

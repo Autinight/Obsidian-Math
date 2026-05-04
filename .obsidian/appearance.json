@@ -9,8 +9,8 @@
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
     "math-callout",
-    "obsidian-callout - 副本",
-    "tikzjax"
+    "tikzjax",
+    "obsidian-callout"
   ],
   "nativeMenus": false
 }
