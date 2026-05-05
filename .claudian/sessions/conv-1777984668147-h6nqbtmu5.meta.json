@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777984668147-h6nqbtmu5",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777984668147,
+  "updatedAt": 1777984888512,
+  "lastResponseAt": 1777984676710,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "56b15d2f-545d-454e-9c92-6f63b5614783"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 400000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": false
+  }
+}

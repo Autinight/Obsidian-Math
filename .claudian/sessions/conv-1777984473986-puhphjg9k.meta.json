@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777984473986-puhphjg9k",
+  "providerId": "claude",
+  "title": "/pdf-to-obsidian Ch3 3",
+  "createdAt": 1777984473986,
+  "updatedAt": 1777984591843,
+  "lastResponseAt": 1777984591318,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "5dbf2d6a-1ddd-419d-b760-3053e83ad5d6"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "inputTokens": 8956,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 8956,
+    "percentage": 1
+  }
+}
