@@ -175,7 +175,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -190,7 +190,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology"
+              "title": "Hatcher Ch2.2 Computations and Applications"
             }
           }
         ],
@@ -257,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +267,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology 的反向链接列表"
+              "title": "Hatcher Ch2.2 Computations and Applications 的反向链接列表"
             }
           },
           {
@@ -291,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology 的大纲"
+              "title": "Hatcher Ch2.2 Computations and Applications 的大纲"
             }
           },
           {
@@ -369,13 +369,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2ff55bc2b6b939fb",
+  "active": "add3a2b3b12bd37a",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/ex - Homology of Suspension.md",
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "00.Inbox/ex - Retraction and Cone.md",
     "20.Cards/Concepts/ex  - Homology of RP^n.md",
