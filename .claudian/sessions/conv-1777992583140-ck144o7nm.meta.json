@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777992583140-ck144o7nm",
+  "providerId": "claude",
+  "title": "/pdf-to-obsidian [Start] from page 185 of the book...",
+  "createdAt": 1777992583140,
+  "updatedAt": 1777993727612,
+  "lastResponseAt": 1777993727612,
+  "sessionId": "d827128b-f7bd-46f3-be0e-202a71e8ad73",
+  "providerState": {
+    "providerSessionId": "d827128b-f7bd-46f3-be0e-202a71e8ad73"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 145,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 88576,
+    "contextWindow": 200000,
+    "contextTokens": 88721,
+    "percentage": 44,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -22,7 +22,8 @@
       "Edit(/.claude/skills/diagram-helper/**)",
       "Edit(/.claude/skills/math/**)",
       "Bash(rm -f .claude/temp_pdf_extract.txt)",
-      "Edit(/.claude/skills/pdf-to-obsidian/**)"
+      "Edit(/.claude/skills/pdf-to-obsidian/**)",
+      "Bash(rm \"D:/My_Latex/Obsidian Vault/.claude/temp_pdf_extract.txt\")"
     ]
   }
 }
