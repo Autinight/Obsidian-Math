@@ -15,7 +15,7 @@ Section 3.3
 years for the concepts of homology and cohomology to be refined sufficiently to put
 Poincar´e duality on a firm footing.
 Let us begin with some definitions. A manifold of dimension n, or more concisely
-an n manifold, is a Hausdorffspace M in which each point has an open neighborhood
+an n manifold, is a Hausdorﬀspace M in which each point has an open neighborhood
 homeomorphic to Rn . The dimension of M is intrinsically characterized by the fact
 that for x ∈M , the local homology group Hi(M, M−{x}; Z) is nonzero only for i = n:
 Hi(M, M −{x}; Z) ≈Hi(Rn, Rn −{0}; Z)
@@ -136,11 +136,11 @@ cell structure lifting to the decomposition of the universal cover R3 into cubes
 vertices at the integer lattice points Z3 , and then the dual cell structure is obtained
 by translating this by the vector (1/2, 1/2, 1/2). Each edge in either cell structure then
 has a dual 2 cell which it pierces orthogonally, and each vertex lies in a dual 3 cell.
-All the manifolds one commonly meets, for example all differentiable manifolds,
+All the manifolds one commonly meets, for example all diﬀerentiable manifolds,
 have dually paired cell structures with the properties needed to carry out the proof
 of Poincar´e duality we have just sketched. However, to construct these cell structures
 requires a certain amount of manifold theory. To avoid this, and to get a theorem that
-applies to all manifolds, we will take a completely different approach, using algebraic
+applies to all manifolds, we will take a completely diﬀerent approach, using algebraic
 topology to replace the geometry of dual cell structures.
 Orientations and Homology
 Let us consider the question of how one might define orientability for manifolds.
@@ -211,7 +211,7 @@ responding to µx under the isomorphisms Hn(f
 M ||µx) ≈Hn(U(µB)||µx) ≈Hn(B ||x),
 and by construction these local orientations satisfy the local consistency condition
 necessary to define a global orientation.
-Proposition 3.25. If M is connected, then M is orientable ifff
+Proposition 3.25. If M is connected, then M is orientable iﬀf
 M has two components.
 In particular, M is orientable if it is simply-connected, or more generally if π1(M)
 has no subgroup of index two.
@@ -269,7 +269,7 @@ isomorphic to the two-sheeted cover f
 M . The covering space MR is the union of these
 Mr ’s, which are disjoint except for the equality Mr = M−r .
 In particular we see that an orientable manifold is R orientable for all R, while
-a nonorientable manifold is R orientable iffR contains a unit of order 2, which is
+a nonorientable manifold is R orientable iﬀR contains a unit of order 2, which is
 equivalent to having 2 = 0 in R. Thus every manifold is Z2 orientable. In practice
 this means that the two most important cases are R = Z and R = Z2 . In what follows
 
@@ -338,7 +338,7 @@ has image αx for all x ∈A∪B since αA and αB have this property. To see th
 is unique, observe that if a class α ∈Hn(M ||A∪B) has image zero in Hn(M ||x) for all
 x ∈A∪B , then its images in Hn(M ||A) and Hn(M ||B) have the same property, hence
 are zero by hypothesis, so α itself must be zero since Φ is injective. Uniqueness of
-αA∪B follows by applying this observation to the difference between two choices for
+αA∪B follows by applying this observation to the diﬀerence between two choices for
 αA∪B .
 (2) A compact set A ⊂M can be written as the union of finitely many compact sets
 A1, ··· , Am each contained in an open Rn ⊂M . We now apply (1) to A1 ∪··· ∪Am−1
@@ -383,7 +383,7 @@ is a cycle. This implies that if σi and σj share a common (n −1) dimensional
 then ki determines kj and vice versa. Analyzing the situation more closely, one can
 show that a choice of signs for the ki ’s making
 P
-i kiσi a cycle is possible iffM is
+i kiσi a cycle is possible iﬀM is
 orientable, and if such a choice is possible, then the cycle
 P
 i kiσi defines a funda-
@@ -550,7 +550,7 @@ a1b1a−1
 1
 ··· agbga−1
 g b−1
-g . A ∆complex structure on M is obtained by coning off
+g . A ∆complex structure on M is obtained by coning oﬀ
 the 4g gon to its center, as indicated in the figure
 for the case g = 2.
 We can compute cap products
@@ -596,7 +596,7 @@ Our proof of Poincar´e duality, like the construction of fundamental classes, w
 be by an inductive argument using Mayer–Vietoris sequences.
 The induction step
 requires a version of Poincar´e duality for open subsets of M , which are noncompact
-and can satisfy Poincar´e duality only when a different kind of cohomology called
+and can satisfy Poincar´e duality only when a diﬀerent kind of cohomology called
 cohomology with compact supports is used.
 Cohomology with Compact Supports
 Before giving the general definition, let us look at the conceptually simpler notion
@@ -744,7 +744,7 @@ equal to Hi
 c(X; G) since each element of this limit group is represented by a cocycle in
 Ci(X, X −K; G) for some compact K , and such a cocycle is zero in lim
 --→Hi(X, X −K; G)
-iffit is the coboundary of a cochain in Ci−1(X, X −L; G) for some compact L ⊃K .
+iﬀit is the coboundary of a cochain in Ci−1(X, X −L; G) for some compact L ⊃K .
 Note that if X is compact, then Hi
 c(X; G) = Hi(X; G) since there is a unique
 maximal compact set K ⊂X , namely X itself. This is also immediate from the original
@@ -770,13 +770,13 @@ compact supports. The maps which do induce maps on H∗
 c
 are the proper maps,
 those for which the inverse image of each compact set is compact. In the proof of
-Poincar´e duality, however, we will need induced maps of a different sort going in the
+Poincar´e duality, however, we will need induced maps of a diﬀerent sort going in the
 opposite direction from what is usual for cohomology, maps Hi
 c(U; G)→Hi
 c(V; G)
 associated to inclusions U ֓ V of open sets in the fixed manifold M .
 The group Hi(X, X−K; G) for K compact depends only on a neighborhood of K in
-X by excision, assuming X is Hausdorffso that K is closed. As convenient shorthand
+X by excision, assuming X is Hausdorﬀso that K is closed. As convenient shorthand
 notation we will write this group as Hi(X ||K; G), in analogy with the similar notation
 used earlier for local homology. One can think of cohomology with compact supports
 as the limit of these ‘local cohomology groups at compact subsets’.
@@ -1021,7 +1021,7 @@ variables is then equivalent to D being an isomorphism. Nonsingularity in the ot
 variable follows by commutativity of cup product.
 ⊔⊓
 Corollary 3.39. If M is a closed connected orientable n manifold, then an element
-α ∈Hk(M; Z) generates an infinite cyclic summand of Hk(M; Z) iffthere exists an
+α ∈Hk(M; Z) generates an infinite cyclic summand of Hk(M; Z) iﬀthere exists an
 element β ∈Hn−k(M; Z) such that α ⌣β is a generator of Hn(M; Z) ≈Z. With
 coefficients in a field this holds for any α ≠0.
 Proof: For α to generate a Z summand of Hk(M; Z) is equivalent to the existence of a
@@ -1041,7 +1041,7 @@ same argument with Z2 coefficients to deduce that H∗(RPn; Z2) ≈Z2[α]/(αn+1
 |α| = 1. The cup product structure in infinite-dimensional projective spaces follows
 from the finite-dimensional case, as we saw in the proof of Theorem 3.19.
 Could there be a closed manifold whose cohomology is additively isomorphic to
-that of CPn but with a different cup product structure? For n = 2 the answer is
+that of CPn but with a diﬀerent cup product structure? For n = 2 the answer is
 no since duality implies that the square of a generator of H2 must be a generator of
 
 Poincar´e Duality
@@ -1100,7 +1100,7 @@ is determined by the ring structure in H∗(L2n+1; Zm), and likewise for L∞, w
 one has the slightly simpler structure H∗(L∞; Z) ≈Z[α]/(mα) with |α| = 2. The
 case of L2n+1 is obtained from this by setting αn+1 = 0 and adjoining the extra
 Z ≈H2n+1(L2n+1; Z).
-A different derivation of the cup product structure in lens spaces is given in
+A diﬀerent derivation of the cup product structure in lens spaces is given in
 Example 3E.2.
 Using the ad hoc notation Hk
 f ree(M) for Hk(M) modulo its torsion subgroup,
@@ -1140,7 +1140,7 @@ a classical result of J. H. C. Whitehead that the homotopy type of a simply-conn
 closed 4 manifold is uniquely determined by its cup product structure.
 Other Forms of Duality
 Generalizing the definition of a manifold, an n manifold with boundary is a
-Hausdorffspace M in which each point has an open neighborhood homeomorphic
+Hausdorﬀspace M in which each point has an open neighborhood homeomorphic
 either to Rn or to the half-space Rn
 + = { (x1, ··· , xn) ∈Rn | xn ≥0 }. If a point
 x ∈M corresponds under such a homeomorphism to a point (x1, ··· , xn) ∈Rn
@@ -1295,7 +1295,7 @@ The special case of Alexander duality when K is a sphere or disk was treated
 by more elementary means in Proposition 2B.1. As remarked there, it is interesting
 that the homology of Sn −K does not depend on the way that K is embedded in Sn .
 There can be local pathologies as in the case of the Alexander horned sphere, or global
-complications as with knotted circles in S3 , but these have no effect on the homology
+complications as with knotted circles in S3 , but these have no eﬀect on the homology
 of the complement. The only requirement is that K is not too bad a space itself.
 An example where the theorem fails without the local contractibility assumption is
 the ‘quasi-circle’, defined in an exercise for §1.3. This compact subspace K ⊂R2
@@ -1354,15 +1354,15 @@ refined definition. This is Steenrod homology theory, which the reader can learn
 in [Milnor 1995].
 Exercises
 1.
-Show that there exist nonorientable 1 dimensional manifolds if the Hausdorff
+Show that there exist nonorientable 1 dimensional manifolds if the Hausdorﬀ
 condition is dropped from the definition of a manifold.
 2. Show that deleting a point from a manifold of dimension greater than 1 does not
-affect orientability of the manifold.
+aﬀect orientability of the manifold.
 3. Show that every covering space of an orientable manifold is an orientable manifold.
 4.
 Given a covering space action of a group G on an orientable manifold M by
 orientation-preserving homeomorphisms, show that M/G is also orientable.
-5. Show that M×N is orientable iffM and N are both orientable.
+5. Show that M×N is orientable iﬀM and N are both orientable.
 6. Given two disjoint connected n manifolds M1 and M2 , a connected n manifold
 M1♯M2 , their connected sum, can be constructed by deleting the interiors of closed
 n balls B1 ⊂M1 and B2 ⊂M2 and identifying the resulting boundary spheres ∂B1 and
@@ -1397,7 +1397,7 @@ the induced map f∗: π1M→π1N is surjective, hence also f∗: H1(M)→H1(N).
 f to the covering space eN→N corresponding to the subgroup Im f∗⊂π1N , then
 consider the two cases that this covering is finite-sheeted or infinite-sheeted.]
 11. If Mg denotes the closed orientable surface of genus g , show that degree 1 maps
-Mg→Mh exist iffg ≥h.
+Mg→Mh exist iﬀg ≥h.
 12. As an algebraic application of the preceding problem, show that in a free group
 F with basis x1, ··· , x2k , the product of commutators [x1, x2] ··· [x2k−1, x2k] is not
 equal to a product of fewer than k commutators [vi, wi] of elements vi, wi ∈F .
