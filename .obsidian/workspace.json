@@ -55,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex  - Homology of RP^n.md",
+                "file": "20.Cards/Concepts/ex  - Homology of RP^n.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+                "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2.1 Simplicial and Singular Homology 的大纲"
+              "title": "AT Hatcher - Ex - Section 2.2 的大纲"
             }
           },
           {
@@ -320,20 +320,20 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ff13eb62303692a9",
+  "active": "338a8d412075e31c",
   "lastOpenFiles": [
-    "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "20.Cards/Concepts/ex  - Homology of RP^n.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md",
     "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "20.Cards/Theorems/thm - Nielsen-Schreier.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/ex  - Homology of RP^n.md",
     "00.Inbox/01.Todo List/Output here.md",
     "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.12240.1777884172766",
