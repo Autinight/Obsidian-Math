@@ -96,8 +96,21 @@
               "icon": "lucide-file",
               "title": "AT Hatcher Ch3.2 Cup Product"
             }
+          },
+          {
+            "id": "52fda7aa4286d0c5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pdf - AT Hatcher"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,13 +285,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "52fda7aa4286d0c5",
   "lastOpenFiles": [
     "00.Inbox/AT Hatcher Ch3.2 Cup Product.md",
+    "00.Inbox/Hatcher Chapter 3.3 Poincare Duality.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/AT Hatcher Ch3.2 Cup Product.md.tmp.33456.1777985918007",
     "00.Inbox/AT Hatcher Ch3.2 Cup Product.md.tmp.33456.1777985756772",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/ex - Homology of Suspension.md",
     "00.Inbox/ex - Retraction and Cone.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",

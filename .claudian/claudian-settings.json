@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "gpt-5.5",
+  "model": "deepseek-v4-flash",
   "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -58,6 +58,17 @@
         "deepseek-ai/DeepSeek-V4-Pro": 1000000,
         "deepseek-ai/DeepSeek-V4-Flash": 1000000
       }
+    },
+    {
+      "id": "snippet-1777988031062",
+      "name": "Deepseek Official",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_API_KEY=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_AUTH_TOKEN=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_MODEL=deepseek-v4-flash\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro",
+      "scope": "provider:claude",
+      "contextLimits": {
+        "deepseek-v4-flash": 400000,
+        "deepseek-v4-pro": 200000
+      }
     }
   ],
   "customContextLimits": {
@@ -87,8 +98,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=gpt-5.5\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_SONNET_MODEL=[限时]gemini-3.1-pro-high",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://llm.whitedream.top|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7|ANTHROPIC_DEFAULT_SONNET_MODEL=[限时]gemini-3.1-pro-high|ANTHROPIC_MODEL=gpt-5.5"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_API_KEY=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_AUTH_TOKEN=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_MODEL=deepseek-v4-flash\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro|ANTHROPIC_MODEL=deepseek-v4-flash"
     },
     "codex": {
       "enabled": false,
@@ -106,7 +117,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "gpt-5.5"
+    "claude": "deepseek-v4-flash"
   },
   "savedProviderEffort": {
     "claude": "high"
