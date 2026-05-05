@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777991454025-poz4v1blv",
+  "providerId": "claude",
+  "title": "我用中文跟你说话会你会聪明一点,or you will be smarter when i talk...",
+  "createdAt": 1777991454025,
+  "updatedAt": 1777991655798,
+  "lastResponseAt": 1777991621891,
+  "sessionId": "c1527593-f06f-4132-bdd2-69e98a477fcd",
+  "providerState": {
+    "providerSessionId": "c1527593-f06f-4132-bdd2-69e98a477fcd"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 294,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20096,
+    "contextWindow": 200000,
+    "contextTokens": 20390,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

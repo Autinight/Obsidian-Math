@@ -104,12 +104,27 @@ Skill(
   - Add YAML frontmatter: title, tags (textbook + subject), source as wikilink, section, date
   - Convert math to dollar-sign format: \$inline\$ and \$\$display\$\$
   
-  **CRITICAL: For commutative diagrams and complex mathematical diagrams**:
+  **FIGURE HANDLING — THREE-TIER APPROACH**:
+  For every figure, diagram, or illustration mentioned in the source text, handle it in one of three ways, INLINE during writing (NOT as a post-processing step):
+  
+  Tier 1 — Commutative/mathematical diagrams with clear structure:
   - YOU MUST call the 'diagram-helper' skill using the Skill tool
-  - DO NOT attempt to format diagrams yourself
-  - Pass the diagram description to diagram-helper and use its output
-  - Example: Skill(skill: \"diagram-helper\", args: \"Create commutative square with f: A→B, g: A→C, h: B→D, k: C→D\")
-  - The diagram-helper skill knows all TikZJax syntax and will provide correct format
+  - Save TikZ output to 50.Image/Tikz/[descriptive-name].md
+  - Embed inline with ![[50.Image/Tikz/...]] at the exact location in text
+  - Example: Skill(skill: \"diagram-helper\", args: \"Commutative square: H^k(X;R)→H_{k-ℓ}(X;R) via ⌢ϕ...\")
+  
+  Tier 2 — Complex visual figures, geometric illustrations, photographs:
+  - Insert a placeholder callout INLINE at the exact location where the figure is referenced
+  - Use this EXACT format (copy verbatim):
+  > [!figure]- 🔴 Figure: [Short English description]
+  > Original p.[page]: [What the figure shows]. Screenshot from PDF needed.
+  - Derive the short description from context (e.g., 'Dual Cell Structures', 'Δ-complex for genus 2 orientable surface')
+  - Include the page number when you can infer it from nearby text
+  - This is NOT optional — every figure mentioned in the source MUST get either a TikZ embed or a placeholder
+  
+  Tier 3 — Ambiguous cases:
+  - If unsure whether something is a commutative diagram or visual figure, default to Tier 1 (try diagram-helper first)
+  - If diagram-helper cannot handle it, fall back to Tier 2 placeholder
   
   - Wrap in callouts: [!axiom], [!theorem], [!definition], [!example], [!proof]
   - Add section headers with ##
@@ -117,26 +132,53 @@ Skill(
   - Preserve all mathematical content including ALL commutative diagrams
   - Convert ALL content from source - complete extraction with zero omission
   
-  **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions. For ANY diagram, call diagram-helper skill.**"
+  **REMINDER: Use chunked writing - write ~50 lines, add placeholder, then Edit to continue. Convert EVERYTHING with no exceptions. For ANY commutative diagram, call diagram-helper. For ANY non-TikZable figure, insert a [!figure] placeholder INLINE.**"
 )
-DO NOT manually write markdown - the skill handles all formatting DO NOT manually format diagrams - always call diagram-helper skill
+DO NOT manually write markdown - the skill handles all formatting
+DO NOT manually format diagrams - always call diagram-helper skill
+DO NOT post-process figures separately - placeholders MUST be inserted inline during the chunked writing
 
-4. Verify and report
+4. Figure Audit (POST-FORMATTING — execute AFTER step 3 completes)
+
+After the markdown file is fully written, run a figure audit to catch any missed figures:
+
+a) Scan the output file for figure-indicating language in the surrounding text that lacks a corresponding embed or placeholder:
+   - Keywords: "figure", "diagram", "shown below", "as indicated", "the following", "at the right", "as in the next", "前面的图"
+   - Also scan the original PDF extract for references to figures
+
+b) For each figure reference found in text that has NO corresponding `![[` embed or `[!figure]` callout within 3 lines:
+   - Insert a Tier 2 placeholder at the appropriate location
+
+c) Also scan for any stale placeholder text patterns left from the raw extraction:
+   - Patterns like `$$(commutative diagram...)$$`, `$$(diagram...)$$`, or generic parentheses describing missing content
+   - Replace each with a proper `[!figure]` placeholder callout
+
+d) Report the final figure count to the user:
+   - "N TikZ diagrams rendered, M figure placeholders inserted"
+
+5. Verify and report
 
 Confirm file created in 00.Inbox/
-Report to user: "Created 00.Inbox/filename.md"
+Report to user:
+  "Created 00.Inbox/filename.md"
+  "Figures: X TikZ diagrams rendered, Y placeholders awaiting screenshot insertion"
 Example Usage:
 
-User: "Extract Section 2.3 from Hatcher" → Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → Show snippets and WAIT for user confirmation → User confirms → Extract text → Format (calling diagram-helper for any diagrams)
+User: "Extract Section 2.3 from Hatcher" → Find Hatcher PDF → Search for "2.3" → Extract text snippets from start and end → Show snippets and WAIT for user confirmation → User confirms → Extract text → Format with obsidian-markdown (Tier 1: diagram-helper for commutative diagrams; Tier 2: [!figure] placeholders for visual figures) → Figure Audit (step 4) → Report
 
-User: "Extract pages 64-68 from Hatcher Ch2" → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Extract text → Format (calling diagram-helper for any diagrams)
+User: "Extract pages 64-68 from Hatcher Ch2" → Find PDF → Extract pages 64-68 directly (no confirmation needed) → Extract text → Format (inline figure handling) → Figure Audit → Report
 
-User: "from: The Formal Viewpoint to: Additional Topics" → Find PDF → Search for both text snippets → Extract everything between them → Format (calling diagram-helper for any diagrams)
+User: "from: The Formal Viewpoint to: Additional Topics" → Find PDF → Search for both text snippets → Extract everything between them → Format (inline figure handling) → Figure Audit → Report
 
 Key Principles:
 
 Never guess content ranges - always show text snippets for user to verify
 CRITICAL: Show snippets and WAIT for user response before extracting
+CRITICAL: Figures are handled INLINE during chunked writing — NOT as a post-processing step
+  - Tier 1: Commutative diagrams → call diagram-helper → embed ![[TikZ file]]
+  - Tier 2: Visual/geometric figures → insert [!figure] placeholder callout at exact location
+  - Tier 3: Ambiguous → try Tier 1, fall back to Tier 2
+CRITICAL: After formatting, run Figure Audit (step 4) to catch any missed figures
 CRITICAL: For ANY commutative diagram or complex mathematical diagram, ALWAYS call diagram-helper skill
 CRITICAL: NEVER manually format diagrams - diagram-helper has all the syntax knowledge
 CRITICAL: ALWAYS use chunked writing protocol - split into ~50 line chunks with placeholders
