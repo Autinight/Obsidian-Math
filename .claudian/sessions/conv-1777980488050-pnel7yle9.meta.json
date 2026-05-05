@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980488050-pnel7yle9",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777980488050,
+  "updatedAt": 1777980550439,
+  "lastResponseAt": 1777980498445,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "6789d328-ba88-4297-b31f-e205634eaa65"
+  },
+  "currentNote": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+  "usage": {
+    "model": "[次]deepseek-v4-pro",
+    "inputTokens": 3243,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3243,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

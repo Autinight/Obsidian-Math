@@ -72,9 +72,33 @@
               "icon": "lucide-file",
               "title": "AT Hatcher - Ex - Section 2.2"
             }
+          },
+          {
+            "id": "3a6468d853f79195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Hatcher AT Ch3 3.2 Cup Product.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hatcher AT Ch3 3.2 Cup Product"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 271.5
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -171,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher - Ex - Section 2.2 的大纲"
+              "title": "pdf - AT Hatcher 的大纲"
             }
           },
           {
@@ -249,8 +273,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "3a6468d853f79195",
   "lastOpenFiles": [
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/Hatcher AT Ch3 3.2 Cup Product.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "20.Cards/Concepts/ex  - Homology of RP^n.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "00.Inbox/ex - Retraction and Cone.md",
@@ -270,9 +299,6 @@
     "20.Cards/Techniques/tec - Probing Singularities via Moving Boundaries.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/ex - Homology of Suspension.md",
     "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
@@ -280,10 +306,8 @@
     "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "20.Cards/Theorems/thm - Nielsen-Schreier.md",
     "00.Inbox/01.Todo List/Output here.md",
-    "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.12240.1777884172766",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.28836.1777883778594",
-    "00.Inbox/ep - Standard CW Structure on Real Projective Space.md",
     "00.Inbox/ep - Standard CW Structure on Real Projective Space.md.tmp.18472.1777883501539",
     "50.Image/MCD/RAW/Retraction and z^k.mcd",
     "50.Image/MCD/2026-5-3-1.mcd",
@@ -292,7 +316,6 @@
     "50.Image/MCD/RAW",
     "50.Image/MCD/SVG",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
-    "00.Inbox/FA - HW7.md",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
     "50.Image/MCD/my-diagram.svg",
     "70.Life/Pasted image 20260120174845.png",

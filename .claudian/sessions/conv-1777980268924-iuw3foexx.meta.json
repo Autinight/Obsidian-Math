@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "hi",
   "createdAt": 1777980268925,
-  "updatedAt": 1777980328188,
+  "updatedAt": 1777980468281,
   "lastResponseAt": 1777980328188,
-  "sessionId": "74fa36fc-ffd8-465a-828e-21f99849f9a0",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "74fa36fc-ffd8-465a-828e-21f99849f9a0",
     "previousProviderSessionIds": [

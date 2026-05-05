@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777981133859-ewve5lf1l",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777981133859,
+  "updatedAt": 1777981157447,
+  "lastResponseAt": 1777981141038,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "f88e3eb9-7994-4d02-a5f8-91645ba97451"
+  },
+  "currentNote": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+  "usage": {
+    "model": "claude-opus-4-7",
+    "inputTokens": 2838,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2838,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": false
+  }
+}

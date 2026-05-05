@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980602650-6qeb28pjk",
+  "providerId": "claude",
+  "title": "你是什么大模型",
+  "createdAt": 1777980602650,
+  "updatedAt": 1777980714435,
+  "lastResponseAt": 1777980610307,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "59739c3f-d0fb-40d2-ba25-889f320538d9"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 2882,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2882,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}

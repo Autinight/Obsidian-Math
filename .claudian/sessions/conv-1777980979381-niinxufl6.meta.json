@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980979381-niinxufl6",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777980979382,
+  "updatedAt": 1777981111324,
+  "lastResponseAt": 1777980984172,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "a6cc7a84-8f68-41f1-86ef-77fb3c45a6b3"
+  },
+  "currentNote": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 2839,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2839,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}

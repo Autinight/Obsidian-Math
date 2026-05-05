@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980556590-0w59qee2g",
+  "providerId": "claude",
+  "title": "你好",
+  "createdAt": 1777980556590,
+  "updatedAt": 1777980596659,
+  "lastResponseAt": 1777980590786,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "5aaea6a6-de4a-49d6-a6ba-e10f3b63901a"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 2987,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 2987,
+    "percentage": 1,
+    "contextWindowIsAuthoritative": true
+  }
+}
