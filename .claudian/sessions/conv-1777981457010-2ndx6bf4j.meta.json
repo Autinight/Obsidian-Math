@@ -3,21 +3,21 @@
   "providerId": "claude",
   "title": "use the skill /pdf-to-obsidian , Ch3 3",
   "createdAt": 1777981457010,
-  "updatedAt": 1777981831960,
-  "lastResponseAt": 1777981831960,
-  "sessionId": "6d279968-f56f-47fe-b9b6-b0e2524c9638",
+  "updatedAt": 1777982493219,
+  "lastResponseAt": 1777982481926,
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "6d279968-f56f-47fe-b9b6-b0e2524c9638"
   },
   "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
   "usage": {
     "model": "gpt-5.5",
-    "inputTokens": 50070,
+    "inputTokens": 64032,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 50070,
-    "percentage": 25,
+    "contextTokens": 64032,
+    "percentage": 32,
     "contextWindowIsAuthoritative": true
   }
 }
