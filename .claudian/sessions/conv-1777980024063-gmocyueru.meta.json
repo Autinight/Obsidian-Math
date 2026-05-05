@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980024063-gmocyueru",
+  "providerId": "claude",
+  "title": "你能做什么",
+  "createdAt": 1777980024063,
+  "updatedAt": 1777980266197,
+  "lastResponseAt": 1777980120204,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "6895826e-f293-4c07-aa01-38d3fe506b3e"
+  },
+  "currentNote": "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 11154,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 11154,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": false
+  }
+}

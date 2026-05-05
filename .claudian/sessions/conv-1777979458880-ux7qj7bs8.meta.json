@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777979458880-ux7qj7bs8",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777979458880,
+  "updatedAt": 1777979575778,
+  "lastResponseAt": 1777979568553,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "c47c05fa-a2a8-4492-91a0-bdc96d7060e1",
+    "previousProviderSessionIds": [
+      "b3e87d71-f5c7-467b-8746-1a2d3c2662ac"
+    ]
+  },
+  "usage": {
+    "model": "[限时]gemini-3.1-pro-high",
+    "inputTokens": 3313,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3313,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

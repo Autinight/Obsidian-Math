@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777979597105-kijo35a7k",
+  "providerId": "claude",
+  "title": "你能做什么",
+  "createdAt": 1777979597105,
+  "updatedAt": 1777979655639,
+  "lastResponseAt": 1777979623651,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "de7fd2f3-97aa-4604-8655-0b5e7d4ef10f"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "[限时]gemini-3.1-pro-high",
+    "inputTokens": 3312,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3312,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

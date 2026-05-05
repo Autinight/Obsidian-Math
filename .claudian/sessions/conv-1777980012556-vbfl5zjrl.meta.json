@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777980012556-vbfl5zjrl",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777980012556,
+  "updatedAt": 1777980022307,
+  "lastResponseAt": 1777980020501,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "7850ddd7-f6a0-434d-8281-4c416836f15d"
+  },
+  "currentNote": "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 3249,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 3249,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

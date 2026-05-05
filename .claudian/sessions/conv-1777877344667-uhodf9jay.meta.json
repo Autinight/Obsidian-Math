@@ -5,20 +5,9 @@
   "createdAt": 1777877344667,
   "updatedAt": 1777877701550,
   "lastResponseAt": 1777877701548,
-  "sessionId": "7b209c4b-f9f0-4435-a90e-05f64e734968",
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "7b209c4b-f9f0-4435-a90e-05f64e734968",
-    "subagentData": {
-      "call_mACvTocMW3dzEGPtLCCCN1Ef": {
-        "id": "call_mACvTocMW3dzEGPtLCCCN1Ef",
-        "description": "Explore vault plugin structure",
-        "prompt": "We are in an Obsidian vault root at D:\\My_Latex\\Obsidian Vault. The user wants a custom Obsidian plugin that registers editor cursor movement commands like cursor left/right/up/down so they appear in Obsidian hotkey settings. Please do read-only exploration only. Check whether this vault already has any custom plugin folders or development setup under .obsidian/plugins or related files. Identify relevant paths and existing patterns if any. Report concise findings and recommended target path for a new minimal plugin.",
-        "status": "completed",
-        "toolCalls": [],
-        "isExpanded": true,
-        "result": "Failed to authenticate. API Error: 403 {\"error\":{\"type\":\"<nil>\",\"message\":\"用户额度不足, 剩余额度: ＄-0.646006 (request id: 202605040651157099525398268d9d6ohlQOebs) (request id: 202605040651154103032968268d9d6X9BKJ3BP) (request id: 202605040651143543632738268d9d6sh4A0Pnw)\"},\"type\":\"error\"}"
-      }
-    }
+    "providerSessionId": "7b209c4b-f9f0-4435-a90e-05f64e734968"
   },
   "usage": {
     "model": "gpt-5.5",

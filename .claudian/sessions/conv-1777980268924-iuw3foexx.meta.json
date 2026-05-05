@@ -1,0 +1,16 @@
+{
+  "id": "conv-1777980268924-iuw3foexx",
+  "providerId": "claude",
+  "title": "hi",
+  "createdAt": 1777980268925,
+  "updatedAt": 1777980328188,
+  "lastResponseAt": 1777980328188,
+  "sessionId": "74fa36fc-ffd8-465a-828e-21f99849f9a0",
+  "providerState": {
+    "providerSessionId": "74fa36fc-ffd8-465a-828e-21f99849f9a0",
+    "previousProviderSessionIds": [
+      "3d9c1af7-ebdf-4763-bdb5-9b82ac9eee9d"
+    ]
+  },
+  "currentNote": "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md"
+}

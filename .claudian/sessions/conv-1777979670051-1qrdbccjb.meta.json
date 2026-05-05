@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777979670051-1qrdbccjb",
+  "providerId": "claude",
+  "title": "/math 这个skill写得不太好, 你有什么建议吗",
+  "createdAt": 1777979670052,
+  "updatedAt": 1777979997576,
+  "lastResponseAt": 1777979990062,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "8d4eb3b7-8362-418f-973c-0b8b470dfa7c"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+  "usage": {
+    "model": "[限时]gemini-3.1-pro-high",
+    "inputTokens": 21497,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 21497,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
