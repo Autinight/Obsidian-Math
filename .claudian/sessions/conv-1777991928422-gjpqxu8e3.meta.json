@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777991928422-gjpqxu8e3",
+  "providerId": "claude",
+  "title": "Applying /pdf-to-obsidian to Ch3 3",
+  "createdAt": 1777991928422,
+  "updatedAt": 1777992114830,
+  "lastResponseAt": 1777992114830,
+  "sessionId": "41a595eb-04da-42e7-87d8-1a66fbe6c336",
+  "providerState": {
+    "providerSessionId": "41a595eb-04da-42e7-87d8-1a66fbe6c336"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 411,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28160,
+    "contextWindow": 200000,
+    "contextTokens": 28571,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}
