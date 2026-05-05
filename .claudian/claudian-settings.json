@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "deepseek-v4-flash",
+  "model": "gpt-5.5",
   "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -52,11 +52,10 @@
       "id": "snippet-1777687307217",
       "name": "钠 deepseek",
       "description": "",
-      "envVars": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-flash\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-ai/DeepSeek-V4-Flash\n\n",
+      "envVars": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-ai/DeepSeek-V4-Flash\n\n",
       "scope": "provider:claude",
       "contextLimits": {
         "deepseek-ai/DeepSeek-V4-Pro": 1000000,
-        "deepseek-v4-flash": 400000,
         "deepseek-ai/DeepSeek-V4-Flash": 1000000
       }
     }
@@ -88,8 +87,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_AUTH_TOKEN=sk-dGI8jqFZJlLcDuCM2zb023BiS7deGwUhhHleEYbQzODn9vdX\nANTHROPIC_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-ai/DeepSeek-V4-Pro\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-flash\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-ai/DeepSeek-V4-Flash",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-ai/DeepSeek-V4-Flash|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-ai/DeepSeek-V4-Pro|ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-flash|ANTHROPIC_MODEL=deepseek-ai/DeepSeek-V4-Pro"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://llm.whitedream.top\nANTHROPIC_API_KEY=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_AUTH_TOKEN=sk-We4r0GxgCG9ofafqU0l9CQUeNoWMMRkOGCmO2EINECwmA6U1\nANTHROPIC_MODEL=gpt-5.5\nANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7\nANTHROPIC_DEFAULT_SONNET_MODEL=[限时]gemini-3.1-pro-high",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://llm.whitedream.top|ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-7|ANTHROPIC_DEFAULT_SONNET_MODEL=[限时]gemini-3.1-pro-high|ANTHROPIC_MODEL=gpt-5.5"
     },
     "codex": {
       "enabled": false,
@@ -107,7 +106,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-v4-flash"
+    "claude": "gpt-5.5"
   },
   "savedProviderEffort": {
     "claude": "high"

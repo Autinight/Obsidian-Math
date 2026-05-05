@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777986816468-wiou5d5re",
+  "providerId": "claude",
+  "title": "Applying the skill /pdf-to-obsidian to the CH3 3",
+  "createdAt": 1777986816468,
+  "updatedAt": 1777986954447,
+  "lastResponseAt": 1777986954447,
+  "sessionId": "a0f22ee1-2b69-47e6-a172-9dcb20340ac3",
+  "providerState": {
+    "providerSessionId": "a0f22ee1-2b69-47e6-a172-9dcb20340ac3"
+  },
+  "currentNote": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 6637,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 6637,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

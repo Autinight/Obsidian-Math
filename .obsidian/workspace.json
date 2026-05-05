@@ -77,16 +77,27 @@
             "id": "24598ddc36403973",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf"
+                "file": "00.Inbox/AT Hatcher Ch3.2 Cup Product.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "pdf - AT Hatcher"
+              "icon": "lucide-file",
+              "title": "AT Hatcher Ch3.2 Cup Product"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,13 +274,17 @@
   },
   "active": "a54e64ac450f02f4",
   "lastOpenFiles": [
+    "00.Inbox/AT Hatcher Ch3.2 Cup Product.md",
+    "00.Inbox/AT Hatcher Ch3.2 Cup Product.md.tmp.33456.1777985918007",
+    "00.Inbox/AT Hatcher Ch3.2 Cup Product.md.tmp.33456.1777985756772",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/ex - Homology of Suspension.md",
     "00.Inbox/ex - Retraction and Cone.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/Long Exact Sequence Naturality Diagram.md",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/Hatcher Ch3.2 Cup Product.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/Hatcher Ch3.2 Cup Product.md.tmp.19704.1777983757867",
     "00.Inbox/Hatcher Ch3.2 Cup Product.md.tmp.19704.1777983701115",
     "00.Inbox/Hatcher AT Ch3 3.2 Cup Product - clean.md",
@@ -293,17 +308,12 @@
     "20.Cards/Techniques/tec - Probing Singularities via Moving Boundaries.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
-    "00.Inbox/ex - Homology of Suspension.md",
     "50.Image/MCD/RAW/Narturality of relative Homology.mcd",
-    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch3.1 -  Cohomology Groups.md",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.12240.1777884172766",
     "00.Inbox/ep - Standard CW Structure of RPn.md.tmp.28836.1777883778594",
     "00.Inbox/ep - Standard CW Structure on Real Projective Space.md.tmp.18472.1777883501539",
     "50.Image/MCD/RAW/Retraction and z^k.mcd",
-    "50.Image/MCD/2026-5-3-1.mcd",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
-    "50.Image/MCG/RAW",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
     "50.Image/MCD/my-diagram.svg",
