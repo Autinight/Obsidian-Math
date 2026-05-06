@@ -103,8 +103,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Chat.md",
-                "mode": "source",
+                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -118,11 +118,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chat"
+              "title": "Hatcher Ch2.2 Computations and Applications"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -297,15 +297,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0ce7aee42c47b613",
+  "active": "91fe67074b0a3f42",
   "lastOpenFiles": [
-    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "00.Inbox/ex - Homology of Map Ring.md",
     "00.Inbox/Chat.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
     "20.Cards/Exercises/ex - Homology of Suspension.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",

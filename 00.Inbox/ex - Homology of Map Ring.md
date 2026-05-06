@@ -19,6 +19,16 @@ tags: []
 > 4. The map $S^1 \times S^1 \to S^1 \times S^1$ that is a reflection on each factor.
 > 5. The map $S^1 \times S^1 \to S^1 \times S^1$ that interchanges the two factors and then reflects one of the factors.
 
+$f:X\to X$, 
+For $X\times I$, we identify $X \times \left\{ 0 \right\}$ with  $X$, $X\times \left\{ 1 \right\}$ with $f\left(X\right)\subseteq X$,
+
+$$ Z= \left(\left(X\times I\right)\sqcup X\right)/\left(\left\{ \left(x,0\right)\sim x,\quad \left(x,1\right)\sim f\left(x\right)\right\}\right) $$ 
+Consider good pari $\left(Z,X\right)$, we have 
+$$ H_{n}\left(Z,X\right)\simeq  H_{n}\left(Z/X\right) $$ 
+But 
+$$ Z/X\simeq  \left(X \times I\right)/ \left(X \times \partial I\right) $$ 
+Since $Z$ is $\left(X \times I^{\circ }\right) \sqcup\left( \left(X \times \partial I\right)/ \sim\right)$, $Z/X$ is just $\left(X \times I^{\circ}\right)\cup \left\{ * \right\}$, and $X\times I$ maps $X \times I^{\circ }$ homemophicly on to $X \times I^{\circ }\subseteq Z$. $X \times \partial I$ is mapped to $\left\{ * \right\}$ under the quotient map. Thus the quotient map $q: X\times I/ X\times \partial I\to Z/X$ is homeomorphism.
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
