@@ -3,8 +3,8 @@
   "providerId": "claude",
   "title": "/math  讲讲选中的例子",
   "createdAt": 1778033886312,
-  "updatedAt": 1778036091025,
-  "lastResponseAt": 1778036091025,
+  "updatedAt": 1778038829535,
+  "lastResponseAt": 1778037117066,
   "sessionId": "1bf40c0c-3c7d-4b3f-8369-f00bc7e4736f",
   "providerState": {
     "providerSessionId": "1bf40c0c-3c7d-4b3f-8369-f00bc7e4736f"
@@ -12,11 +12,11 @@
   "currentNote": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
   "usage": {
     "model": "[限时]gemini-3.1-pro-high",
-    "inputTokens": 27209,
+    "inputTokens": 28573,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 27209,
+    "contextTokens": 28573,
     "percentage": 14
   }
 }

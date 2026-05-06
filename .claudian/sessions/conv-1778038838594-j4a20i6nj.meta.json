@@ -1,0 +1,22 @@
+{
+  "id": "conv-1778038838594-j4a20i6nj",
+  "providerId": "claude",
+  "title": "/diagram-helper",
+  "createdAt": 1778038838594,
+  "updatedAt": 1778038878800,
+  "lastResponseAt": 1778038878800,
+  "sessionId": "b728ed97-eac3-462c-a954-60597efe7998",
+  "providerState": {
+    "providerSessionId": "b728ed97-eac3-462c-a954-60597efe7998"
+  },
+  "usage": {
+    "model": "[限时]gemini-3.1-pro-high",
+    "inputTokens": 6847,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 6847,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
