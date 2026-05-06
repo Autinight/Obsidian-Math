@@ -11,6 +11,24 @@
 > 
 > (2) $i(X): A^r(M) \to A^{r-1}(M)$ 是 $C^{\infty}(M)$-线性映射.
 
+对于$f\in C^{\infty}\left(M\right)$
+
+$$ \begin{aligned} i\left(X\right)\left(f\varphi \right)\left(X_1,\cdots ,X_{r-1}\right)&=f\varphi \left(X,X_1,\cdots ,X_{r-1}\right)\\&= f\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{r-1}\right) \end{aligned} $$ 
+因此
+$$ i\left(X\right)\left(f\varphi \right)= f \left(i\left(X\right)\varphi \right) $$ 
+因此 $i\left(X\right)$是$C^{\infty}\left(M\right)$-线性的.
+
+
+
+> [!proof] Proof: 
+> 1. 为了说明$i\left(X\right)$是$r-1$-线性的, 考虑到
+>    $$ \begin{aligned} \begin{aligned} &\left(i\left(X\right)\varphi \right)\left(X_1,\cdots , f_{i}X_{i}+ g_{i}Y_{i}, \cdots ,X_{r-1}\right)\\&= \varphi \left(X, X_1,\cdots ,f_{i}X_{i}+ g_{i}Y_{i},\cdots , X_{r-1}\right)\\&= f_{i}\varphi \left(X,X_1,\cdots ,X_{i},\cdots ,X_{r-1}\right)\\&+ g_{i}\varphi \left(X, X_1,\cdots , Y_{i},\cdots ,X_{r-1}\right)\\&= f_{i} \left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{i},\cdots ,X_{r-1}\right)\\&+ g_{i}\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,Y_{i},\cdots ,X_{r-1}\right) \end{aligned} \end{aligned} $$ 
+>    故$i\left(X\right)\varphi$对于第$i$个分量是线性的, 由于$i$是任意的, $i\left(X\right)\varphi$是$r-1$-线性的.
+>    
+>    为了说明$i\left(X\right)\varphi$是交错的, 取$i\neq j$, 则
+>    $$ \begin{aligned} \begin{aligned} &\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{i},\cdots ,X_{j},\cdots ,X_{r-1}\right)\\&= \varphi \left(X,X_1,\cdots ,X_{i}, \cdots ,X_{j},\cdots ,X_{r-1}\right)\\&= -\varphi \left(X,X_1,\cdots ,X_{j},\cdots ,X_{i},\cdots ,X_{r-1}\right)\\&= -\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{j},\cdots ,X_{i},\cdots ,X_{r-1}\right) \end{aligned}  \end{aligned} $$ 
+>    因此$i\left(X\right)\varphi$是交错的, 进而$i\left(X\right)\varphi \in A^{r-1}\left(M\right)$.
+
 > [!exercise] Exercise
 > (i.e. 对于 $\alpha \in \mathcal{A}^r(M)$, $X \in \mathfrak{X}(M)$, 定义映射) $\mathcal{L}_X \alpha: \mathfrak{X}(M) \times \cdots \times \mathfrak{X}(M) \to C^\infty(M)$,
 > 
