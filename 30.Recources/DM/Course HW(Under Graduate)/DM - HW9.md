@@ -11,13 +11,6 @@
 > 
 > (2) $i(X): A^r(M) \to A^{r-1}(M)$ 是 $C^{\infty}(M)$-线性映射.
 
-对于$f\in C^{\infty}\left(M\right)$
-
-$$ \begin{aligned} i\left(X\right)\left(f\varphi \right)\left(X_1,\cdots ,X_{r-1}\right)&=f\varphi \left(X,X_1,\cdots ,X_{r-1}\right)\\&= f\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{r-1}\right) \end{aligned} $$ 
-因此
-$$ i\left(X\right)\left(f\varphi \right)= f \left(i\left(X\right)\varphi \right) $$ 
-因此 $i\left(X\right)$是$C^{\infty}\left(M\right)$-线性的.
-
 
 
 > [!proof] Proof: 
@@ -28,6 +21,12 @@ $$ i\left(X\right)\left(f\varphi \right)= f \left(i\left(X\right)\varphi \right)
 >    为了说明$i\left(X\right)\varphi$是交错的, 取$i\neq j$, 则
 >    $$ \begin{aligned} \begin{aligned} &\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{i},\cdots ,X_{j},\cdots ,X_{r-1}\right)\\&= \varphi \left(X,X_1,\cdots ,X_{i}, \cdots ,X_{j},\cdots ,X_{r-1}\right)\\&= -\varphi \left(X,X_1,\cdots ,X_{j},\cdots ,X_{i},\cdots ,X_{r-1}\right)\\&= -\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{j},\cdots ,X_{i},\cdots ,X_{r-1}\right) \end{aligned}  \end{aligned} $$ 
 >    因此$i\left(X\right)\varphi$是交错的, 进而$i\left(X\right)\varphi \in A^{r-1}\left(M\right)$.
+> 2. 对于$f\in C^{\infty}\left(M\right)$
+>    $$ \begin{aligned} i\left(X\right)\left(f\varphi \right)\left(X_1,\cdots ,X_{r-1}\right)&=f\varphi \left(X,X_1,\cdots ,X_{r-1}\right)\\&= f\left(i\left(X\right)\varphi \right)\left(X_1,\cdots ,X_{r-1}\right) \end{aligned} $$ 
+>    因此
+>    $$ i\left(X\right)\left(f\varphi \right)= f \left(i\left(X\right)\varphi \right) $$ 
+>    因此 $i\left(X\right)$是$C^{\infty}\left(M\right)$-线性的.
+
 
 > [!exercise] Exercise
 > (i.e. 对于 $\alpha \in \mathcal{A}^r(M)$, $X \in \mathfrak{X}(M)$, 定义映射) $\mathcal{L}_X \alpha: \mathfrak{X}(M) \times \cdots \times \mathfrak{X}(M) \to C^\infty(M)$,
@@ -61,8 +60,11 @@ $$ i\left(X\right)\left(f\varphi \right)= f \left(i\left(X\right)\varphi \right)
 > 设
 > $M = \mathbb{R}^2 \setminus \{0\}$, 使
 > $$\omega = \frac{xdx + ydy}{x^2 + y^2}.$$
+> 1. 证明:$\omega$是闭微分形式.
+> 2. 证明: $\omega$是恰当微分形式, 并且求函数$f:M\to \mathbb{R}$使得$\omega = df$.
 
-> [!exercise] 4.11
+
+> [!exercise] Exercise: 
 > 证明:
 > (1) 若 $\alpha, \beta$ 是闭微分式, 则 $\alpha \wedge \beta$ 是闭微分式.
 > 
