@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778032756055-8j9ub8buq",
+  "providerId": "claude",
+  "title": "内容太多了, 给我导读一下",
+  "createdAt": 1778032756055,
+  "updatedAt": 1778033872645,
+  "lastResponseAt": 1778033832394,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "96cf5484-a721-48c1-b3bc-b3212a73798b"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 473,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52608,
+    "contextWindow": 200000,
+    "contextTokens": 53081,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": false
+  }
+}

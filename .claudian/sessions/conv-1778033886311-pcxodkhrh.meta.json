@@ -1,0 +1,22 @@
+{
+  "id": "conv-1778033886311-pcxodkhrh",
+  "providerId": "claude",
+  "title": "/math  讲讲选中的例子",
+  "createdAt": 1778033886312,
+  "updatedAt": 1778034262584,
+  "lastResponseAt": 1778034262584,
+  "sessionId": "1bf40c0c-3c7d-4b3f-8369-f00bc7e4736f",
+  "providerState": {
+    "providerSessionId": "1bf40c0c-3c7d-4b3f-8369-f00bc7e4736f"
+  },
+  "currentNote": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+  "usage": {
+    "model": "[限时]gemini-3.1-pro-high",
+    "inputTokens": 11957,
+    "cacheCreationInputTokens": 540,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 12497,
+    "percentage": 6
+  }
+}
