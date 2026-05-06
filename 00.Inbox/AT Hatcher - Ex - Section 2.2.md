@@ -12,9 +12,9 @@
 * [x] **⭐ Ex 19 ($\mathbb{R}P^n/\mathbb{R}P^m$ 的同调)**：**必做！** 用标准 CW 结构，$\mathbb{R}P^m$ 是 $m$-骨架，胞腔链复形直接读出——商空间同调计算的经典模板。 ✅ 2026-05-04
 
 #### 🔴 第三阶段：Mayer–Vietoris 序列与 Euler 示性数
-*   [ ] **⭐ Ex 26 (收缩核与锥)**：**必做！** $A$ 在 $X$ 中可缩 $\iff$ $X$ 是 $X\cup CA$ 的收缩核，推论 $H_n(X,A)\cong\widetilde{H}_n(X)\oplus\widetilde{H}_{n-1}(A)$。锥和悬挂的代数化理解。
+* [x] **⭐ Ex 26 (收缩核与锥)**：**必做！** $A$ 在 $X$ 中可缩 $\iff$ $X$ 是 $X\cup CA$ 的收缩核，推论 $H_n(X,A)\cong\widetilde{H}_n(X)\oplus\widetilde{H}_{n-1}(A)$。锥和悬挂的代数化理解。 ✅ 2026-05-05
 *   [ ] **⭐ Ex 30 (映射环的同调)**：**必做！** 用长正合列 $\cdots H_n(X)\xrightarrow{\mathbb{1}-f_*}H_n(X)\to H_n(T_f)\to\cdots$ 算五类映射环：反射、度数二、因子反射、交换因子——模板化计算训练。
-*   [ ] **⭐ Ex 32 (悬挂同构 via MV)**：**必做！** 用 Mayer–Vietoris 序列证明 $\widetilde{H}_n(SX)\cong\widetilde{H}_{n-1}(X)$。与 §2.1 Ex 20 呼应，体会不同证明路径的优劣。
+* [x] **⭐ Ex 32 (悬挂同构 via MV)**：**必做！** 用 Mayer–Vietoris 序列证明 $\widetilde{H}_n(SX)\cong\widetilde{H}_{n-1}(X)$。与 §2.1 Ex 20 呼应，体会不同证明路径的优劣。 ✅ 2026-05-05
 
 #### ⚫ 第四阶段：系数与代数收尾
 *   [ ] **⭐ Ex 40 ($\mathbb{Z}_n$ 系数的万有系数短正合列)**：**必做！** 从 $0\to C_i(X)\xrightarrow{n}C_i(X)\to C_i(X;\mathbb{Z}_n)\to 0$ 直接推出 $0\to H_i/nH_i\to H_i(X;\mathbb{Z}_n)\to n\text{-Torsion}(H_{i-1})\to 0$。推论 $\widetilde{H}_*(X;\mathbb{Z}_p)=0$ $\iff$ $\widetilde{H}_*(X)$ 是 $\mathbb{Q}$-向量空间。

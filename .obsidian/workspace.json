@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+                "file": "20.Cards/Exercises/ex - Homology of Suspension.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,7 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.1 Cohomology"
+              "title": "ex - Homology of Suspension"
             }
           },
           {
@@ -120,9 +120,33 @@
               "icon": "lucide-file",
               "title": "theorem-343-five-lemma"
             }
+          },
+          {
+            "id": "573ee870fbd52b51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AT Hatcher 3.2 Cup Product"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -297,11 +321,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "573ee870fbd52b51",
   "lastOpenFiles": [
-    "50.Image/Tikz/long-exact-sequence-i-star.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "20.Cards/Exercises/ex - Homology of Suspension.md",
+    "20.Cards/Exercises/ex - Retraction and Cone.md",
+    "50.Image/Tikz/long-exact-sequence-i-star.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
@@ -322,18 +353,11 @@
     "50.Image/Tikz/h-delta-commutative-square.md",
     "50.Image/Tikz/cochain-complex-dual-sequences.md",
     "50.Image/Tikz/chain-complex-exact-sequences.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
     "30.Recources/AT/Hatcher Ch3.2 Cup Product.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
     "50.Image/Tikz/cup-cap-product-relation.md",
     "30.Recources/AT/Hatcher Ch3.3 Poincare Duality.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "00.Inbox/Hatcher Chapter 3.3 Poincare Duality.md",
-    "00.Inbox/ex - Homology of Suspension.md",
-    "00.Inbox/ex - Retraction and Cone.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
