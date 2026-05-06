@@ -79,32 +79,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hatcher Ch2.2 Computations and Applications"
-            }
-          },
-          {
-            "id": "4800e2ca23720288",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -122,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -297,10 +273,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4800e2ca23720288",
+  "active": "0ce7aee42c47b613",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
