@@ -19,15 +19,32 @@ tags: []
 > 4. The map $S^1 \times S^1 \to S^1 \times S^1$ that is a reflection on each factor.
 > 5. The map $S^1 \times S^1 \to S^1 \times S^1$ that interchanges the two factors and then reflects one of the factors.
 
-$f:X\to X$, 
-For $X\times I$, we identify $X \times \left\{ 0 \right\}$ with  $X$, $X\times \left\{ 1 \right\}$ with $f\left(X\right)\subseteq X$,
+We have 
+$$ H_{n}\left(X\right)\xrightarrow{1-f_{*}}H_{n}\left(X\right)\xrightarrow{i_{*}}H_{n}\left(T_{f}\right)\xrightarrow{q_{*}}H_{n-1}\left(X\right)   \xrightarrow{1-f_{*}}H_{n-1}\left(X\right)  $$ 
+Where we 
+$$ T_{f}\xrightarrow{q} T_{f}/X\simeq  \left(X \times I\right)/ \left(X\times \partial I\right)\simeq X  $$ 
 
-$$ Z= \left(\left(X\times I\right)\sqcup X\right)/\left(\left\{ \left(x,0\right)\sim x,\quad \left(x,1\right)\sim f\left(x\right)\right\}\right) $$ 
-Consider good pari $\left(Z,X\right)$, we have 
-$$ H_{n}\left(Z,X\right)\simeq  H_{n}\left(Z/X\right) $$ 
-But 
-$$ Z/X\simeq  \left(X \times I\right)/ \left(X \times \partial I\right) $$ 
-Since $Z$ is $\left(X \times I^{\circ }\right) \sqcup\left( \left(X \times \partial I\right)/ \sim\right)$, $Z/X$ is just $\left(X \times I^{\circ}\right)\cup \left\{ * \right\}$, and $X\times I$ maps $X \times I^{\circ }$ homemophicly on to $X \times I^{\circ }\subseteq Z$. $X \times \partial I$ is mapped to $\left\{ * \right\}$ under the quotient map. Thus the quotient map $q: X\times I/ X\times \partial I\to Z/X$ is homeomorphism.
+$$ H_{n}\left(X \times  I /  \left(X  \times \partial I\right)\right)\xrightarrow{\partial } H_{n-1}\left(X \times I\right)\simeq H_{n}\left(X\times \left\{ 0 \right\}\right)\simeq H_{n}\left( X \times  \left\{ 1 \right\}\right) $$ 
+
+$$ \partial \left(a,b\right)=  a- f_{*}b $$ 
+
+1. 
+$$ H_{n}\left(S^{2}\right)\xrightarrow{2}H_{n}\left(S^{2}\right)\xrightarrow{i_{*}} H_{n}\left(T_{f}\right)\xrightarrow{q_{*}}H_{n-1}\left(S^{2}\right)\xrightarrow{2}H_{n-1}\left(S^{2}\right)     $$
+For $n = 3$, we have 
+
+$$ 0\to 0\to H_{n}\left(T_{f}\right)\xrightarrow{q_{*}}\mathbb{Z} \xrightarrow{2}0   $$ 
+$$ H_{3}\left(T_{f}\right)\simeq \operatorname{Im}q_{*}\simeq \operatorname{ker}2= 0 $$ 
+
+For  $n = 2$, we have 
+$$0\to  \mathbb{Z} \xrightarrow{2} \mathbb{Z} \xrightarrow{i_{*}} H_{2}\left(T_{f}\right)\xrightarrow{q_{*}}0\to 0  $$ 
+$$ H_{2}\left(T_{f}\right)\simeq  \mathbb{Z} / \operatorname{ker}i_{*}= \mathbb{Z} / \operatorname{Im}2= \mathbb{Z} _{2}$$ 
+B
+For $n = 1$ , 
+$$ 0\to H_{1}\left(T_{f}\right)\xrightarrow{q_{*}}H_{0}\left(S^{2}\right)\xrightarrow{2} H_{0}\left(S^{2}\right)  $$ 
+$$ H_{1}\left(T_{f}\right)=  \operatorname{Im} q_{*}=  $$ 
+ 
+
+
 
 ```dataviewjs
 const techs = dv.current().technique;

@@ -98,12 +98,12 @@
             }
           },
           {
-            "id": "91fe67074b0a3f42",
+            "id": "4800e2ca23720288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -118,35 +118,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2.2 Computations and Applications"
-            }
-          },
-          {
-            "id": "89f3e9ee2f256a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50.Image/Tikz/homology-commutative-diagram.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "homology-commutative-diagram"
+              "title": "Hatcher Ch2.3 The Formal Viewpoint"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -321,21 +297,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a54e64ac450f02f4",
+  "active": "4800e2ca23720288",
   "lastOpenFiles": [
+    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "50.Image/Tikz/homology-commutative-diagram.md",
-    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/ex - Homology of Map Ring.md",
     "00.Inbox/Chat.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
     "20.Cards/Exercises/ex - Homology of Suspension.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "20.Cards/Exercises/ex - Retraction and Cone.md",
     "50.Image/Tikz/long-exact-sequence-i-star.md",
