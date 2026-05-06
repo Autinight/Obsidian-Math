@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -118,7 +118,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2.3 The Formal Viewpoint"
+              "title": "DM - HW9"
             }
           }
         ],
@@ -299,6 +299,8 @@
   },
   "active": "4800e2ca23720288",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
@@ -333,7 +335,6 @@
     "50.Image/Tikz/cellular-cochain-complex.md",
     "50.Image/Tikz/h-delta-commutative-square.md",
     "50.Image/Tikz/cochain-complex-dual-sequences.md",
-    "50.Image/Tikz/chain-complex-exact-sequences.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
