@@ -55,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -74,36 +74,12 @@
             }
           },
           {
-            "id": "6bd165ea07b238ca",
+            "id": "e882c2fd3f2b8da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HA"
-            }
-          },
-          {
-            "id": "e41951ba94e75ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50.Image/Tikz/chain-complex-z-boundaries.md",
+                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -118,55 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chain-complex-z-boundaries"
-            }
-          },
-          {
-            "id": "458036815ee4ba28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50.Image/Tikz/chain-complex-mult-by-2.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chain-complex-mult-by-2"
-            }
-          },
-          {
-            "id": "31acf422dfec860b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50.Image/Tikz/cochain-complex-z-isomorphism.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "cochain-complex-z-isomorphism"
+              "title": "ex - Split and Universal Coefficients"
             }
           }
         ],
@@ -267,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA.md",
+                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA 的大纲"
+              "title": "ex - Split and Universal Coefficients 的大纲"
             }
           },
           {
@@ -345,16 +273,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6bd165ea07b238ca",
+  "active": "e882c2fd3f2b8da2",
   "lastOpenFiles": [
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/HA/Course HW/HA.md",
-    "50.Image/Tikz/chain-complex-z-boundaries.md",
-    "50.Image/Tikz/chain-complex-mult-by-2.md",
-    "50.Image/Tikz/cochain-complex-z-isomorphism.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "50.Image/Tikz/cochain-complex-z-isomorphism.md",
+    "50.Image/Tikz/chain-complex-mult-by-2.md",
+    "50.Image/Tikz/chain-complex-z-boundaries.md",
+    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "50.Image/Tikz/cochain-complex-dual-sequences.md",
     "50.Image/Tikz/chain-complex-exact-sequences.md",
     "Pasted image 20260507180346.png",
@@ -378,7 +306,6 @@
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
     "20.Cards/Exercises/ex - Homology of Map Ring.md",
-    "20.Cards/Exercises/ex - Freeness of Cellullar Homology.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",

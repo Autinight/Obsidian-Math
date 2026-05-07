@@ -1,3 +1,4 @@
+代靖涵 25120222201319
 
 > [!exercise] Exercise: 
 > 
@@ -33,3 +34,19 @@
 > $$\sum_{n=1}^{\infty} \frac{\sin nx}{\ln(n+1)}$$
 > 
 > 在 $[-\pi, \pi]$ 收敛，但它不是任何可积函数的 Fourier 级数。
+
+> [!proof] Proof: 
+> 若存在$f\in L^{1}\left[ -\pi ,\pi  \right]$使得它是$f$的Fourier级数, 则由于级数只要正弦项, $f$是奇函数, 并且$f$的正弦系数满足
+> $$ b_{n}= \frac{1 }{\pi  }\int _{-\pi }^{\pi }f\left(x\right)\sin \left(nx\right)\,d x= \frac{1 }{\ln \left(n+ 1\right) },\quad n\ge 1 $$ 
+> 令
+> $$ F\left(x\right)= \int _{0}^{x}f\left(t\right)\,d t $$ 
+> 由于$f\in L^{1}$, 可得$F$在$\left[ -\pi ,\pi  \right]$上绝对连续.
+> 通过逐项积分, 我们得到
+> $$ F\left(x\right)= \sum _{n = 1}^{\infty}\frac{b_{n}\left(1-\cos nx\right) }{ n}= \sum _{n = 1}^{\infty}\frac{b_{n} }{n }-\sum _{n = 1}^{\infty}\frac{b_{n} }{n }\cos nx $$ 
+> 从而
+> $$ \frac{1 }{2\pi  } \int _{-\pi }^{\pi }F\left(x\right)\,d x= \sum _{n = 1}^{\infty}\frac{b_{n} }{ n}$$ 
+> 其中 $b_{n}= \frac{1 }{\ln \left(n+ 1\right) }$
+> $$ \sum _{n = 1}^{\infty}\frac{b_{n} }{n }= \sum _{n = 1}^{\infty}\frac{1 }{ n\ln \left(n+ 1\right)} $$ 
+> 但是
+> $$ \int _{2}^{\infty}\frac{\,d x }{ x\ln x}= \left[ \ln \ln x \right]_{2}^{\infty}= \infty $$
+> 因此由积分判别法, 级数发散多$+ \infty$ , 与$F$在$\left[ -\pi ,\pi  \right]$上绝对连续矛盾. 
