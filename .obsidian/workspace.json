@@ -72,33 +72,9 @@
               "icon": "lucide-file",
               "title": "AT Hatcher - Ex - Section 2.2"
             }
-          },
-          {
-            "id": "0ce7aee42c47b613",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DM - HW9"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,15 +249,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0ce7aee42c47b613",
+  "active": "338a8d412075e31c",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/FA/Course HW/泛函分析习题 - Ex - 赋范空间与对偶.md",
     "30.Recources/FA/Course HW/FA - HW8.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/PDE/Evans - Ch6.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
