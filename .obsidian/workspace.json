@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
+                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -130,7 +130,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Split and Universal Coefficients"
+              "title": "AT Hatcher 3.1 Cohomology"
             }
           }
         ],
@@ -231,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
+                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Split and Universal Coefficients 的大纲"
+              "title": "AT Hatcher 3.1 Cohomology 的大纲"
             }
           },
           {
@@ -311,8 +311,10 @@
   },
   "active": "8cd251170f39f665",
   "lastOpenFiles": [
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "00.Inbox/ex - Split and Universal Coefficients.md",
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "20.Cards/Exercises/ex - Degree of a Polynomial.md",
@@ -326,7 +328,6 @@
     "20.Cards/Exercises/ex - Homology of Map Ring.md",
     "20.Cards/Exercises/ex - Freeness of Cellullar Homology.md",
     "20.Cards/Exercises/ex - Fixed point of 2n-sphere and RP^n.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
@@ -337,7 +338,6 @@
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "50.Image/Tikz/homology-commutative-diagram.md",
     "00.Inbox/Chat.md",
-    "50.Image/Tikz/theorem-343-five-lemma.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
