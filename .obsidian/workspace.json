@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+                "file": "30.Recources/FA/Course HW/FA - HW8.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,7 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.1 Cohomology"
+              "title": "FA - HW8"
             }
           }
         ],
@@ -275,6 +275,9 @@
   },
   "active": "0ce7aee42c47b613",
   "lastOpenFiles": [
+    "30.Recources/FA/Course HW/泛函分析习题 - Ex - 赋范空间与对偶.md",
+    "30.Recources/FA/Course HW/FA - HW8.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/PDE/Evans - Ch6.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
@@ -289,7 +292,6 @@
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
     "20.Cards/Exercises/ex - Homology of Suspension.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "20.Cards/Exercises/ex - Retraction and Cone.md",
@@ -309,7 +311,6 @@
     "50.Image/Tikz/Hatcher-3.19-diagram-ii.md",
     "50.Image/Tikz/Hatcher-3.19-diagram-i.md",
     "50.Image/Tikz/cellular-cochain-vs-chain-dual.md",
-    "50.Image/Tikz/cellular-cochain-complex.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
