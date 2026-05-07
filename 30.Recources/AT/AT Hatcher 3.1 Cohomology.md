@@ -57,18 +57,18 @@ From another point of view, $\delta\psi$ can be regarded as an obstruction to fi
 
 The condition $\delta\psi = 0$ has an interpretation of a more geometric nature when $X$ is a surface and the group $G$ is $\mathbb{Z}$ or $\mathbb{Z}_2$. Consider first the simpler case $G = \mathbb{Z}_2$. The condition $\delta\psi = 0$ means that the number of times that $\psi$ takes the value $1$ on the edges of each 2-simplex is even, either $0$ or $2$. This means we can associate to $\psi$ a collection $C_\psi$ of disjoint curves in $X$ crossing the 1-skeleton transversely, such that the number of intersections of $C_\psi$ with each edge is equal to the value of $\psi$ on that edge. If $\psi = \delta\phi$ for some $\phi$, then the curves of $C_\psi$ divide $X$ into two regions $X_0$ and $X_1$ where the subscript indicates the value of $\phi$ on all vertices in the region.
 
-> [!figure]- 🔴 Figure: $C_\psi$ curves in a 2-simplex for $\mathbb{Z}_2$ coefficients
-> Original p.188: Disjoint curves crossing the 1-skeleton transversely. The curves divide the simplex into regions. Screenshot from PDF needed.
+![[Pasted image 20260507180224.png]]
+
 
 When $G = \mathbb{Z}$ we can refine this construction by building $C_\psi$ from a number of arcs in each 2-simplex, each arc having a transverse orientation, the orientation which agrees or disagrees with the orientation of each edge according to the sign of the value of $\psi$ on the edge. The resulting collection $C_\psi$ of disjoint curves in $X$ can be thought of as something like level curves for a function $\phi$ with $\delta\phi = \psi$, if such a function exists. The value of $\phi$ changes by $1$ each time a curve of $C_\psi$ is crossed.
 
-> [!figure]- 🔴 Figure: Transversely oriented arcs $C_\psi$ in a 2-simplex for $\mathbb{Z}$ coefficients
-> Original p.189: Arcs with transverse orientation agreeing/disagreeing with edge orientations according to the sign of $\psi$. Screenshot from PDF needed.
+![[Pasted image 20260507180315.png]]
+
+![[Pasted image 20260507180346.png]]
 
 For example, if $X$ is a disk then we will show that $H^1(X; \mathbb{Z}) = 0$, so $\delta\psi = 0$ implies $\psi = \delta\phi$ for some $\phi$, hence every transverse curve system $C_\psi$ forms the level curves of a function $\phi$. On the other hand, if $X$ is an annulus then this need no longer be true, as illustrated in the example shown in the figure at the left, where the equation $\psi = \delta\phi$ obviously has no solution even though $\delta\psi = 0$. By identifying the inner and outer boundary circles of this annulus we obtain a similar example on the torus. Even with $G = \mathbb{Z}_2$ the equation $\psi = \delta\phi$ has no solution since the curve $C_\psi$ does not separate $X$ into two regions $X_0$ and $X_1$.
 
-> [!figure]- 🔴 Figure: Annulus with non-separating $C_\psi$ curve
-> Original p.189: A curve system $C_\psi$ on an annulus where $\delta\psi = 0$ but $\psi = \delta\phi$ has no solution. Screenshot from PDF needed.
+
 
 The key to relating cohomology groups to homology groups is the observation that a function from $i$-simplices of $X$ to $G$ is equivalent to a homomorphism from the simplicial chain group $\Delta_i(X)$ to $G$. This is because $\Delta_i(X)$ is free abelian with basis the $i$-simplices of $X$, and a homomorphism with domain a free abelian group is uniquely determined by its values on basis elements, which can be assigned arbitrarily. Thus we have an identification of $\Delta^i(X; G)$ with the group $\operatorname{Hom}(\Delta_i(X), G)$ of homomorphisms $\Delta_i(X) \to G$, which is called the **dual group** of $\Delta_i(X)$. There is also a simple relationship of duality between the homomorphism $\delta : \Delta^i(X; G) \to \Delta^{i+1}(X; G)$ and the boundary homomorphism $\partial : \Delta_{i+1}(X) \to \Delta_i(X)$. The general formula for $\delta$ is
 
