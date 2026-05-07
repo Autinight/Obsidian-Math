@@ -3,18 +3,30 @@
 > [!exercise] EXERCISE 1.
 > 设 $X$ 是赋范空间，$\{x_1, x_2, \cdots, x_n\}$ 是 $X$ 中一个线性无关的点集。$\{a_1, a_2, \cdots a_n\}$ 是任意一组实数，证明存在一个有界线性泛函 $f \in X^*$，使得 $f(x_k) = a_k, \forall k = 1, 2, \cdots, n$.
 
-
-> [!tip] EXERCISE 1 解答提示
-> **核心知识点**：Hahn-Banach 延拓定理
-> 
-> **关键步骤**：
-> 1. 令 $Y = \text{span}\{x_1, \cdots, x_n\}$，在 $Y$ 上定义线性泛函 $f_0(\sum \lambda_i x_i) = \sum \lambda_i a_i$
-> 2. $f_0$ 在 $Y$ 上有界（因为 $\{x_i\}$ 线性无关，$Y$ 有限维）
-> 3. 由 Hahn-Banach 定理，$f_0$ 可延拓为 $X$ 上的有界线性泛函 $f$，且 $\|f\| = \|f_0\|$
+> [!proof] Proof: 
+> 令$Y= \operatorname{span}\left\{ x_1,\cdots ,x_{n} \right\}$, 则$Y$是$X$的一个赋范线性子空间. 定义$Y$上的线性泛函
+> $$ f_0\left(\sum \lambda _{i}x_{i}\right)= \sum \lambda _{i}a_{i} $$ 
+> 由于$Y$是有限维的, $f_0$在$Y$上有界. 有Hahn-Banach定理的, 子空间上的有界线性泛函可以保范数地延拓到全空间上, 因此存在$f\in X^{*}$, 使得
+> $$ \left\| f \right\|= \left\| f_0 \right\| ,\quad f|_{Y}= f_0$$ 
+> 因此
+> $$ f\left(x_{k}\right)= f_0\left(x_{k}\right)= a_{k},\forall k= 1,\cdots,n  $$ 
 
 > [!exercise] EXERCISE 2.
 > 设 $X$ 是线性赋范空间，$X_0 \subset X$ 是一个闭子空间，证明：对 $\forall x \in X$，存在
 > $$d(x, X_0) = \sup\{|f(x)| \mid f \in X^*, \|f\| = 1, f|_{X_0} = 0\}.$$
+
+> [!proof] Proof: 
+> 设$g: X\to X/X_0$是商映射, 由于$X_0$是闭的, $X/X_0$是赋范空间, $g|_{X_0}: X_0\to X/X_0$是赋范空间之间的零算子. 定义
+> $f: X_0\to \mathbb{R}$, $f= 0\circ g|_{X_0}$. 则$f$是$X_0$上的零线性泛函.
+> 
+
+> [!tip]- EXERCISE 2 解答提示
+> **核心知识点**：Hahn-Banach 几何形式、对偶空间刻画距离
+> 
+> **关键步骤**：
+> 1. 先证 $\leqslant$：对任意 $f \in X^*$ 满足 $\|f\| = 1, f|_{X_0} = 0$，有 $|f(x)| = |f(x - x_0)|$ 对任意 $x_0 \in X_0$ 成立，故 $|f(x)| \leqslant d(x, X_0)$
+> 2. 再证 $\geqslant$：在商空间 $X/X_0$ 上，$\|x + X_0\| = d(x, X_0)$。在商空间上构造泛函 $g(x + X_0) = d(x, X_0)$，满足 $\|g\| = 1$
+> 3. 将 $g$ 提升为 $X$ 上的泛函 $f$（商映射的对偶），则 $f|_{X_0} = 0, \|f\| = 1, f(x) = d(x, X_0)$
 
 > [!exercise] EXERCISE 3.
 > 设 $\{x_n\}$ 是 $B^*$ 空间 $X$ 中的点列，如果对 $\forall f \in X^*$，数列 $\{f(x_n)\}$ 都有界，求证：$\{x_n\}$ 在 $X$ 中有界。
@@ -38,14 +50,6 @@
 
 ### 📝 参考答案
 
-
-> [!tip]- EXERCISE 2 解答提示
-> **核心知识点**：Hahn-Banach 几何形式、对偶空间刻画距离
-> 
-> **关键步骤**：
-> 1. 先证 $\leqslant$：对任意 $f \in X^*$ 满足 $\|f\| = 1, f|_{X_0} = 0$，有 $|f(x)| = |f(x - x_0)|$ 对任意 $x_0 \in X_0$ 成立，故 $|f(x)| \leqslant d(x, X_0)$
-> 2. 再证 $\geqslant$：在商空间 $X/X_0$ 上，$\|x + X_0\| = d(x, X_0)$。在商空间上构造泛函 $g(x + X_0) = d(x, X_0)$，满足 $\|g\| = 1$
-> 3. 将 $g$ 提升为 $X$ 上的泛函 $f$（商映射的对偶），则 $f|_{X_0} = 0, \|f\| = 1, f(x) = d(x, X_0)$
 
 > [!tip]- EXERCISE 3 解答提示
 > **核心知识点**：一致有界原理（Banach-Steinhaus 定理）
@@ -94,10 +98,9 @@
 
 > [!note] Hahn-Banach 延拓定理（赋范空间形式）
 > 设 $X$ 是赋范空间，$Y \subset X$ 是子空间，$f_0 \in Y^*$ 是 $Y$ 上的有界线性泛函。
-> 
 > 则存在 $f \in X^*$ 使得：
-> 1. $f|_Y = f_0$
-> 2. $\|f\|_{X^*} = \|f_0\|_{Y^*}$（保范延拓）
+>   1. $f|_Y = f_0$
+>   2. $\|f\|_{X^*} = \|f_0\|_{Y^*}$（保范延拓）
 
 > [!note] Hahn-Banach 分离定理（几何形式）
 > 设 $X$ 是赋范空间，$A, B \subset X$ 是非空凸集。
