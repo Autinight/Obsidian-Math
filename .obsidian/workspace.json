@@ -72,9 +72,45 @@
               "icon": "lucide-file",
               "title": "AT Hatcher - Ex - Section 2.2"
             }
+          },
+          {
+            "id": "eb2ffb7dd5dc12b1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pdf - AT Hatcher"
+            }
+          },
+          {
+            "id": "6bd165ea07b238ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ex - Z_n Universal Coefficients Short Sequence"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+                "file": "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pdf - AT Hatcher 的大纲"
+              "title": "ex - Z_n Universal Coefficients Short Sequence 的大纲"
             }
           },
           {
@@ -229,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -249,44 +285,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "338a8d412075e31c",
+  "active": "6bd165ea07b238ca",
   "lastOpenFiles": [
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "20.Cards/Exercises/ex - Degree of a Polynomial.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "20.Cards/Exercises/ex - Brouwer Fix Point.md",
+    "20.Cards/Exercises/ex - Map with Degree Zero.md",
+    "20.Cards/Exercises/ex - Retraction and Cone.md",
+    "20.Cards/Exercises/ex - Homology of Suspension.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
+    "20.Cards/Exercises/ex - Homology of Map Ring.md",
+    "20.Cards/Exercises/ex - Freeness of Cellullar Homology.md",
+    "20.Cards/Exercises/ex - Fixed point of 2n-sphere and RP^n.md",
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/FA/Course HW/泛函分析习题 - Ex - 赋范空间与对偶.md",
     "30.Recources/FA/Course HW/FA - HW8.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/PDE/Evans - Ch6.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
     "50.Image/Tikz/homology-commutative-diagram.md",
-    "00.Inbox/ex - Homology of Map Ring.md",
     "00.Inbox/Chat.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
-    "20.Cards/Exercises/ex - Homology of Suspension.md",
     "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
-    "20.Cards/Exercises/ex - Retraction and Cone.md",
-    "50.Image/Tikz/long-exact-sequence-i-star.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993433783",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993428431",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993428390",
-    "50.Image/Tikz/Hatcher-3.15-naturality-square.md",
-    "50.Image/Tikz/Hatcher-3.18-diagram-point.md",
-    "50.Image/Tikz/Hatcher-3.18-diagram-collapse.md",
     "50.Image/Tikz/Hatcher-3.18-diagram-collapse.md.tmp.20892.1777993402375",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993365109",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993345389",
-    "50.Image/Tikz/Hatcher-3.19-diagram-ii.md",
-    "50.Image/Tikz/Hatcher-3.19-diagram-i.md",
-    "50.Image/Tikz/cellular-cochain-vs-chain-dual.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
