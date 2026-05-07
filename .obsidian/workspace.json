@@ -96,8 +96,33 @@
               "icon": "lucide-file",
               "title": "ex - Split and Universal Coefficients"
             }
+          },
+          {
+            "id": "216c2970372ed771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/FA/Course HW/FA - HW8.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA - HW8"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+                "file": "30.Recources/FA/Course HW/FA - HW8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pdf - AT Hatcher 的大纲"
+              "title": "FA - HW8 的大纲"
             }
           },
           {
@@ -272,16 +297,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2828624c868ee0e4",
+  "active": "216c2970372ed771",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "00.Inbox/ex - Split and Universal Coefficients.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/Tikz/cochain-complex-z-isomorphism.md",
     "50.Image/Tikz/chain-complex-mult-by-2.md",
     "50.Image/Tikz/chain-complex-z-boundaries.md",
-    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "50.Image/Tikz/cochain-complex-dual-sequences.md",
     "50.Image/Tikz/chain-complex-exact-sequences.md",
