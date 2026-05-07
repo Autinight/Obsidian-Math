@@ -86,11 +86,41 @@ Homology groups $H_n(X)$ are the result of a two-stage process: First one forms 
 
 Let us begin with a simple example. Consider the chain complex
 
-$$0 \to \mathbb{Z} \xrightarrow{0} \mathbb{Z} \xrightarrow{2} \mathbb{Z} \xrightarrow{0} \mathbb{Z} \to 0$$
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{tikzcd}[column sep=small]
+0 \arrow[r]
+& \mathbb{Z} \arrow[r, "\times 0"] \arrow[d, equals]
+& \mathbb{Z} \arrow[r, "\times 2"] \arrow[d, equals]
+& \mathbb{Z} \arrow[r, "\times 0"] \arrow[d, equals]
+& \mathbb{Z} \arrow[r] \arrow[d, equals]
+& 0
+\\
+{}
+& C_3
+& C_2
+& C_1
+& C_0
+& {}
+\end{tikzcd}
+\end{document}
+```
+
 
 where $\mathbb{Z} \xrightarrow{2} \mathbb{Z}$ is the map $x \mapsto 2x$. If we dualize by taking $\operatorname{Hom}(-, G)$ with $G = \mathbb{Z}$, we obtain the cochain complex
 
-$$0 \leftarrow \mathbb{Z} \xleftarrow{0} \mathbb{Z} \xleftarrow{2} \mathbb{Z} \xleftarrow{0} \mathbb{Z} \leftarrow 0$$
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{tikzcd}[column sep=large, row sep=large]
+0 & \mathbb{Z} \arrow[l] & \mathbb{Z} \arrow[l, "0"] & \mathbb{Z} \arrow[l, "2"] & \mathbb{Z} \arrow[l, "0"] & 0 \arrow[l] \\
+& C_3^* \arrow[u, "\cong"] & C_2^* \arrow[u, "\cong"] & C_1^* \arrow[u, "\cong"] & C_0^* \arrow[u, "\cong"] &
+\end{tikzcd}
+\end{document}
+```
 
 In the original chain complex the homology groups are $\mathbb{Z}$'s in dimensions $0$ and $3$, together with a $\mathbb{Z}_2$ in dimension $1$. The homology groups of the dual cochain complex, which are called cohomology groups to emphasize the dualization, are again $\mathbb{Z}$'s in dimensions $0$ and $3$, but the $\mathbb{Z}_2$ in the 1-dimensional homology of the original complex has shifted up a dimension to become a $\mathbb{Z}_2$ in 2-dimensional cohomology.
 
