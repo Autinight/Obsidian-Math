@@ -17,7 +17,7 @@
 * [x] **⭐ Ex 32 (悬挂同构 via MV)**：**必做！** 用 Mayer–Vietoris 序列证明 $\widetilde{H}_n(SX)\cong\widetilde{H}_{n-1}(X)$。与 §2.1 Ex 20 呼应，体会不同证明路径的优劣。 ✅ 2026-05-05
 
 #### ⚫ 第四阶段：系数与代数收尾
-*   [ ] **⭐ Ex 40 ($\mathbb{Z}_n$ 系数的万有系数短正合列)**：**必做！** 从 $0\to C_i(X)\xrightarrow{n}C_i(X)\to C_i(X;\mathbb{Z}_n)\to 0$ 直接推出 $0\to H_i/nH_i\to H_i(X;\mathbb{Z}_n)\to n\text{-Torsion}(H_{i-1})\to 0$。推论 $\widetilde{H}_*(X;\mathbb{Z}_p)=0$ $\iff$ $\widetilde{H}_*(X)$ 是 $\mathbb{Q}$-向量空间。
+* [x] **⭐ Ex 40 ($\mathbb{Z}_n$ 系数的万有系数短正合列)**：**必做！** 从 $0\to C_i(X)\xrightarrow{n}C_i(X)\to C_i(X;\mathbb{Z}_n)\to 0$ 直接推出 $0\to H_i/nH_i\to H_i(X;\mathbb{Z}_n)\to n\text{-Torsion}(H_{i-1})\to 0$。推论 $\widetilde{H}_*(X;\mathbb{Z}_p)=0$ $\iff$ $\widetilde{H}_*(X)$ 是 $\mathbb{Q}$-向量空间。 ✅ 2026-05-07
 *   [ ] **⭐ Ex 43 (链复形的分裂与万有系数定理)**：**必做！** 自由 Abel 群链复形 $\cong\bigoplus(0\to L_{n+1}\to K_n\to 0)$，有限生成时进一步分裂为 $0\to\mathbb{Z}\xrightarrow{m}\mathbb{Z}\to 0$。直接读出 $H_n(X;G)$ 的万有系数公式——代数拓扑中最重要的代数工具之一。
 
 #### 🟡 选做：加深理解的补充题

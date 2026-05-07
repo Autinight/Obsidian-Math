@@ -55,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
+                "file": "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -108,9 +108,33 @@
               "icon": "lucide-file",
               "title": "ex - Z_n Universal Coefficients Short Sequence"
             }
+          },
+          {
+            "id": "8cd251170f39f665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ex - Split and Universal Coefficients"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -207,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
+                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Z_n Universal Coefficients Short Sequence 的大纲"
+              "title": "ex - Split and Universal Coefficients 的大纲"
             }
           },
           {
@@ -285,10 +309,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6bd165ea07b238ca",
+  "active": "8cd251170f39f665",
   "lastOpenFiles": [
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "00.Inbox/ex - Z_n Universal Coefficients Short Sequence.md",
+    "00.Inbox/ex - Split and Universal Coefficients.md",
+    "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "20.Cards/Exercises/ex - Degree of a Polynomial.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
@@ -313,7 +338,6 @@
     "50.Image/Tikz/homology-commutative-diagram.md",
     "00.Inbox/Chat.md",
     "50.Image/Tikz/theorem-343-five-lemma.md",
-    "30.Recources/AT/Hatcher Ch3.1 Cohomology Groups.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
