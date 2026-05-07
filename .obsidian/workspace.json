@@ -97,8 +97,7 @@
               "title": "ex - Split and Universal Coefficients"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Split and Universal Coefficients.md",
+                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Split and Universal Coefficients 的大纲"
+              "title": "pdf - AT Hatcher 的大纲"
             }
           },
           {
@@ -273,11 +272,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e882c2fd3f2b8da2",
+  "active": "2828624c868ee0e4",
   "lastOpenFiles": [
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "00.Inbox/ex - Split and Universal Coefficients.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "50.Image/Tikz/cochain-complex-z-isomorphism.md",
     "50.Image/Tikz/chain-complex-mult-by-2.md",
     "50.Image/Tikz/chain-complex-z-boundaries.md",
@@ -297,7 +297,6 @@
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
-    "00.Inbox/ex - Split and Universal Coefficients.md",
     "20.Cards/Exercises/ex - Degree of a Polynomial.md",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
