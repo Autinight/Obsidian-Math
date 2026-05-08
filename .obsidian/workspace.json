@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher 3.A-3.B.md",
+                "file": "30.Recources/AT/Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher 3.A-3.B"
+              "title": "Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher 3.C-3.D.md",
+                "file": "30.Recources/AT/Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher 3.C-3.D 的大纲"
+              "title": "Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology 的大纲"
             }
           },
           {
@@ -202,10 +202,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "a34acd7deaba3b85",
   "lastOpenFiles": [
-    "30.Recources/AT/Hatcher 3.A-3.B.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher 3.C-3.D.md",
+    "30.Recources/AT/Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology.md",
+    "30.Recources/AT/Hatcher 3.A-3.B.md",
     "30.Recources/AT/Hatcher 3.C-3.D 1.md",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher 3.A 3.B.md",
@@ -217,7 +219,6 @@
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
@@ -231,7 +232,6 @@
     "00.Inbox/FA - HW7.md",
     "20.Cards/Definitions/dfn - Delta-Complex.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
