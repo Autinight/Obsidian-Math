@@ -29,7 +29,7 @@
               "state": {
                 "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -51,9 +51,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
+                "file": "00.Inbox/dfn - Delta-Complex.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "First Variation, Euler-Lagrange equation"
+              "title": "dfn - Delta-Complex"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
+                "file": "00.Inbox/dfn - Delta-Complex.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "First Variation, Euler-Lagrange equation 的大纲"
+              "title": "dfn - Delta-Complex 的大纲"
             }
           },
           {
@@ -203,26 +203,6 @@
               "icon": "links-going-out",
               "title": "Hatcher Ch2 Section 2.2 - Simplicial and Singular Homology 的出链列表"
             }
-          },
-          {
-            "id": "7c1fc6334743113c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "a54e64ac450f02f4",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
           }
         ],
         "currentTab": 2
@@ -234,25 +214,27 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
-      "claudian:Open Claudian": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "open-vscode:VSCode": false,
-      "templater-obsidian:Templater": true,
-      "webpage-html-export:导出为HTML": false,
-      "templates:插入模板": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "templates:插入模板": false
     }
   },
   "active": "2702704fa867f76a",
   "lastOpenFiles": [
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "20.Cards/Theorems/thm - Left-invariant Vector Field is Complete.md",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
+    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
+    "20.Cards/Theorems/thm - Compactly Supported Vector Fields is Complete.md",
+    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
+    "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "00.Inbox/dfn - Delta-Complex.md",
     "00.Inbox/FA - HW7.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
@@ -276,10 +258,6 @@
     "20.Cards/Lemmas/lem - Uniqueness of Universal Covering.md",
     "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
     "20.Cards/Lemmas/lem - Wely Group is the Reflection of a Base.md",
-    "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
-    "20.Cards/Lemmas/lem - Fundamental Theorem of Line Integrals.md",
-    "20.Cards/Lemmas/lem - Escape Lemma.md",
-    "20.Cards/Lemmas/lem - Exponential-like Limit.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
@@ -299,9 +277,6 @@
     "hatcher_2.1_p111_full.png",
     "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
-    "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
-    "10.Atlas/RG/Riemannian Metric.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "10.Atlas/DM/Atlas - Tensor.canvas"
+    "10.Atlas/RG/Examples of Riemannian Manifold.canvas"
   ]
 }

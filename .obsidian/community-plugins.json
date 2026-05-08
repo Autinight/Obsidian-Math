@@ -1,16 +1,16 @@
 [
+  "albus-mathcraft",
+  "obsidian42-brat",
+  "obsidian-latex-suite",
+  "claudian",
+  "cursor-commands",
+  "dataview",
+  "obsidian-full-calendar",
   "open-vscode",
   "quickadd",
-  "dataview",
-  "templater-obsidian",
-  "webpage-html-export",
-  "obsidian-zotero-desktop-connector",
-  "obsidian-git",
   "obsidian-tasks-plugin",
-  "obsidian-full-calendar",
-  "claudian",
-  "obsidian-latex-suite",
-  "cursor-commands",
-  "obsidian42-brat",
-  "albus-mathcraft"
+  "obsidian-git",
+  "obsidian-zotero-desktop-connector",
+  "webpage-html-export",
+  "templater-obsidian"
 ]
