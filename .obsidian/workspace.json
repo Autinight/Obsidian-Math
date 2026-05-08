@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - FA(Undergraduate) Middle Term"
+              "title": "Hatcher Ch2.3 The Formal Viewpoint"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "chnt - FA(Undergraduate) Middle Term 的大纲"
+              "title": "Hatcher Ch2.3 The Formal Viewpoint 的大纲"
             }
           },
           {
@@ -228,6 +228,12 @@
   },
   "active": "2702704fa867f76a",
   "lastOpenFiles": [
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+    "Hatcher Algebraic Topology Section 3.2 Cup Product.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
     "00.Inbox/FA - HW7.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
@@ -247,13 +253,11 @@
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
     "50.Image/Tikz/SVG",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "50.Image/Tikz/RAW",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
@@ -263,9 +267,6 @@
     "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
     "20.Cards/Examples/ep - Hopf Fibration.md",
     "20.Cards/Examples/ep - Normal Distribution.md",
-    "20.Cards/Examples/ep - Binomial Distribution.md",
-    "20.Cards/Examples/ep - Algebra of Quaternions.md",
-    "20.Cards/Lemmas/lem - Uniqueness of Universal Covering.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
