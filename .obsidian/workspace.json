@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+                "file": "30.Recources/AT/Hatcher 3.A-3.B.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.3 Poincare Duality"
+              "title": "Hatcher 3.A-3.B"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher 3.A 3.B.md",
+                "file": "30.Recources/AT/Hatcher 3.A-3.B.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher 3.A 3.B 的大纲"
+              "title": "Hatcher 3.A-3.B 的大纲"
             }
           },
           {
@@ -202,15 +202,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "9faf76f4190c4d4c",
   "lastOpenFiles": [
-    "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher 3.A 3.B.md",
+    "30.Recources/AT/Hatcher 3.A-3.B.md",
+    "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "50.Image/Tikz/chain-complex-ses-tensored.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
@@ -238,7 +239,6 @@
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
-    "20.Cards/Theorems/thm - Left-invariant Vector Field is Complete.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
