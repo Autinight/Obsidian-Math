@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -42,7 +42,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.2 Cup Product"
+              "title": "AT Hatcher 3.3 Poincare Duality"
+            }
+          },
+          {
+            "id": "972836c721758f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "chnt - FA(Undergraduate) Middle Term"
             }
           }
         ],
@@ -143,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "AT Hatcher 3.3 Poincare Duality 的大纲"
             }
           },
           {
@@ -221,39 +245,41 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "c34285779a73dd45",
   "lastOpenFiles": [
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "20.Cards/Examples/ep - Use Even Action to Calculate Fundemental Group.md",
+    "20.Cards/Examples/ep - Three-sphere in a Two-dimensional Complex Space.md",
+    "20.Cards/Examples/ep - the Lens Space.md",
+    "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
+    "20.Cards/Examples/ep - Hopf Fibration.md",
+    "20.Cards/Examples/ep - Normal Distribution.md",
+    "20.Cards/Examples/ep - Binomial Distribution.md",
+    "20.Cards/Examples/ep - Algebra of Quaternions.md",
+    "20.Cards/Lemmas/lem - Uniqueness of Universal Covering.md",
+    "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
+    "20.Cards/Lemmas/lem - Wely Group is the Reflection of a Base.md",
+    "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
+    "20.Cards/Lemmas/lem - Fundamental Theorem of Line Integrals.md",
+    "20.Cards/Lemmas/lem - Escape Lemma.md",
+    "20.Cards/Lemmas/lem - Exponential-like Limit.md",
+    "20.Cards/Lemmas/lem - Cut-off Function.md",
+    "20.Cards/Lemmas/lem -  Local Frame Criterion for Involutivity.md",
+    "20.Cards/Examples/ep - Poisson Distribution.md",
+    "20.Cards/Examples/ep - General Linear Lie Algebra.md",
+    "20.Cards/Examples/ep - Dirichlet's Principle.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
-    "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "20.Cards/Exercises/ex - Split and Universal Coefficients.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "30.Recources/FA/Course HW/FA - HW8.md",
-    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
-    "50.Image/Tikz/cochain-complex-z-isomorphism.md",
-    "50.Image/Tikz/chain-complex-mult-by-2.md",
-    "50.Image/Tikz/chain-complex-z-boundaries.md",
-    "50.Image/Tikz/cochain-complex-dual-sequences.md",
-    "50.Image/Tikz/chain-complex-exact-sequences.md",
     "50.Image/PNG",
     "50.Image/PNG/Pasted image 20260507180224.png",
     "50.Image/MCG/RAW/1.mcg",
-    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
-    "00.Inbox/AT Hatcher 3.E 3.F.md",
-    "00.Inbox/Chat.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "20.Cards/Exercises/ex - Degree of a Polynomial.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
@@ -264,7 +290,6 @@
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
