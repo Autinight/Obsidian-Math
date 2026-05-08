@@ -44,8 +44,33 @@
               "icon": "lucide-file",
               "title": "AT Hatcher 3.1 Cohomology"
             }
+          },
+          {
+            "id": "2702704fa867f76a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "First Variation, Euler-Lagrange equation"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+                "file": "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pdf - AT Hatcher 的大纲"
+              "title": "First Variation, Euler-Lagrange equation 的大纲"
             }
           },
           {
@@ -208,6 +233,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "claudian:Open Claudian": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -220,12 +246,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2828624c868ee0e4",
+  "active": "2702704fa867f76a",
   "lastOpenFiles": [
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
+    "00.Inbox/dfn - Delta-Complex.md",
+    "00.Inbox/FA - HW7.md",
+    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
+    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "50.Image/Tikz/RAW/cellular-cochain-complex.md",
+    "50.Image/Tikz/SVG",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "50.Image/Tikz/RAW",
     "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
@@ -245,11 +280,6 @@
     "20.Cards/Lemmas/lem - Fundamental Theorem of Line Integrals.md",
     "20.Cards/Lemmas/lem - Escape Lemma.md",
     "20.Cards/Lemmas/lem - Exponential-like Limit.md",
-    "20.Cards/Lemmas/lem - Cut-off Function.md",
-    "20.Cards/Lemmas/lem -  Local Frame Criterion for Involutivity.md",
-    "20.Cards/Examples/ep - Poisson Distribution.md",
-    "20.Cards/Examples/ep - General Linear Lie Algebra.md",
-    "20.Cards/Examples/ep - Dirichlet's Principle.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
@@ -260,11 +290,6 @@
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993433783",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993428431",
-    "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993428390",
-    "50.Image/Tikz/Hatcher-3.18-diagram-collapse.md.tmp.20892.1777993402375",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "50.Image/MCD/Narturality of relative Homology 1.svg",

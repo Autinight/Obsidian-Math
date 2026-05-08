@@ -148,17 +148,17 @@ $$0 \to \operatorname{Ker} h \to H^n(C; G) \xrightarrow{h} \operatorname{Hom}(H_
 
 The remaining task is to analyze $\operatorname{Ker} h$. A convenient way to start the process is to consider not just the chain complex $C$, but also its subcomplexes consisting of the cycles and the boundaries. Thus we consider the commutative diagram of short exact sequences
 
-![[50.Image/Tikz/chain-complex-exact-sequences.md]]
+![[chain-complex-exact-sequences]]
 
 where the vertical boundary maps on $Z_{n+1}$ and $B_n$ are the restrictions of the boundary map in the complex $C$, hence are zero. Dualizing (i) gives a commutative diagram
 
-![[50.Image/Tikz/cochain-complex-dual-sequences.md]]
+![[cochain-complex-dual-sequences]]
 
 The rows here are exact since, as we have already remarked, the rows of (i) split, and the dual of a split short exact sequence is a split short exact sequence because of the natural isomorphism $\operatorname{Hom}(A \oplus B, G) \approx \operatorname{Hom}(A, G) \oplus \operatorname{Hom}(B, G)$.
 
 We may view (ii), like (i), as part of a short exact sequence of chain complexes. Since the coboundary maps in the $Z^*_n$ and $B^*_n$ complexes are zero, the associated long exact sequence of homology groups has the form
 
-![[50.Image/Tikz/long-exact-sequence-i-star.md]]
+![[long-exact-sequence-i-star]]
 
 The 'boundary maps' $Z^*_n \to B^*_n$ in this long exact sequence are in fact the dual maps $i^*_n$ of the inclusions $i_n : B_n \to Z_n$, as one sees by recalling how these boundary maps are defined: In (ii) one takes an element of $Z^*_n$, pulls this back to $C^*_n$, applies $\delta$ to get an element of $C^*_{n+1}$, then pulls this back to $B^*_n$. The first of these steps extends a homomorphism $\phi_0 : Z_n \to G$ to $\phi : C_n \to G$, the second step composes this $\phi$ with $\partial$, and the third step undoes this composition and restricts $\phi$ to $B_n$. The net effect is just to restrict $\phi_0$ from $Z_n$ to $B_n$.
 
@@ -340,7 +340,7 @@ The long exact sequence of reduced cohomology can be regarded as the special cas
 
 As one would expect, there is a duality relationship between the connecting homomorphisms $\delta : H^n(A; G) \to H^{n+1}(X, A; G)$ and $\partial : H_{n+1}(X, A) \to H_n(A)$. This takes the form of the commutative diagram
 
-![[50.Image/Tikz/h-delta-commutative-square.md]]
+![[h-delta-commutative-square]]
 
 To verify commutativity, recall how the two connecting homomorphisms are defined, via the diagrams
 
@@ -399,7 +399,7 @@ If $X$ is a $\Delta$-complex and $A \subset X$ is a subcomplex, then the simplic
 
 For a CW complex $X$ this is defined via the cellular cochain complex formed by the horizontal sequence in the following diagram, where coefficients in a given group $G$ are understood, and the cellular coboundary maps $d_n$ are the compositions $\delta_n j_n$, making the triangles commute. Note that $d_n d_{n-1} = 0$ since $j_n \delta_{n-1} = 0$.
 
-![[50.Image/Tikz/cellular-cochain-complex.md]]
+![[cellular-cochain-complex]]
 
 > [!theorem]+ Theorem 3.5
 > $H^n(X; G) \approx \operatorname{Ker} d_n / \operatorname{Im} d_{n-1}$. Furthermore, the cellular cochain complex $\{H^n(X^n, X^{n-1}; G), d_n\}$ is isomorphic to the dual of the cellular chain complex, obtained by applying $\operatorname{Hom}(-, G)$.
@@ -411,7 +411,7 @@ For a CW complex $X$ this is defined via the cellular cochain complex formed by 
 >
 > For the second statement in the theorem we have the diagram
 >
-> ![[50.Image/Tikz/cellular-cochain-vs-chain-dual.md]]
+> ![[cellular-cochain-vs-chain-dual]]
 >
 > The cellular coboundary map is the composition across the top, and we want to see that this is the same as the composition across the bottom. The first and third vertical maps are isomorphisms by the universal coefficient theorem, so it suffices to show the diagram commutes. The first square commutes by naturality of $h$, and commutativity of the second square was shown in the discussion of the long exact sequence of cohomology groups of a pair $(X, A)$. $\square$
 

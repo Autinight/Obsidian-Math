@@ -381,7 +381,7 @@ $$\psi(\sigma \frown \phi) = \psi\left(\phi\left(\sigma \mid [v_0, \cdots, v_k]\
 
 The formula $(*)$ says that the map $\phi \smile\; : C^\ell(X; R) \to C^{k+\ell}(X; R)$ is equal to the map $\operatorname{Hom}_R(C_\ell(X; R), R) \to \operatorname{Hom}_R(C_{k+\ell}(X; R), R)$ dual to $\frown \phi$. Passing to homology and cohomology, we obtain the commutative diagram at the right:
 
-![[50.Image/Tikz/cup-cap-product-relation.md]] When the maps $h$ are isomorphisms, for example when $R$ is a field or when $R = \mathbb{Z}$ and the homology groups of $X$ are free, then the map $\phi \smile$ is the dual of $\frown \phi$. Thus in these cases cup and cap product determine each other, at least if one assumes finite generation so that cohomology determines homology as well as vice versa. However, there are examples where cap and cup products are not equivalent when $R = \mathbb{Z}$ and there is torsion in homology.
+![[cup-cap-product-relation]] When the maps $h$ are isomorphisms, for example when $R$ is a field or when $R = \mathbb{Z}$ and the homology groups of $X$ are free, then the map $\phi \smile$ is the dual of $\frown \phi$. Thus in these cases cup and cap product determine each other, at least if one assumes finite generation so that cohomology determines homology as well as vice versa. However, there are examples where cap and cup products are not equivalent when $R = \mathbb{Z}$ and there is torsion in homology.
 
 By means of the formula $(*)$, Poincaré duality has nontrivial implications for the cup product structure of manifolds. For a closed $R$ orientable $n$ manifold $M$, consider the cup product pairing
 
@@ -465,7 +465,7 @@ The possibility that $A$, $B$, or $A \cap B$ is empty is not excluded. The cases
 >
 > The general case reduces to the case $B = \emptyset$ by applying the five-lemma to the following diagram, where coefficients in $R$ are implicit:
 >
-> ![[50.Image/Tikz/theorem-343-five-lemma.md]]
+> ![[theorem-343-five-lemma]]
 >
 > For commutativity of the middle square one needs to check that the boundary map $H_n(M, \partial M) \to H_{n-1}(\partial M)$ sends a fundamental class for $M$ to a fundamental class for $\partial M$. We leave this as an exercise at the end of the section. $\square$
 

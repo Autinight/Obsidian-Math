@@ -91,50 +91,31 @@ body.mathcraft-active .markdown-reading-view .equation-copy-button {
   display: none !important;
 }
 body.mathcraft-active {
-  /* Copy reference buttons - positioned to the left of edit-block-button (same pattern as TikZ) */
+  /* Callout hover buttons — shared base (copy, mastery, refs) */
 }
 body.mathcraft-active .callout-copy-button,
-body.mathcraft-active .equation-copy-button {
-  padding: var(--size-2-2) var(--size-2-3);
-  position: absolute;
-  top: var(--size-2-2);
-  right: calc(var(--size-2-2) + 30px);
-  display: flex;
-  opacity: 0;
-  color: var(--text-muted);
-  border-radius: var(--radius-s);
-  cursor: var(--cursor);
-  transition: opacity 0.1s;
-}
-body.mathcraft-active {
-  /* Mastery button - positioned to the left of refs button */
-}
-body.mathcraft-active .mastery-button {
-  padding: var(--size-2-2) var(--size-2-3);
-  position: absolute;
-  top: var(--size-2-2);
-  right: calc(var(--size-2-2) + 90px);
-  display: flex;
-  opacity: 0;
-  color: var(--text-muted);
-  border-radius: var(--radius-s);
-  cursor: var(--cursor);
-  transition: opacity 0.1s;
-}
-body.mathcraft-active {
-  /* References button - positioned to the left of copy button */
-}
+body.mathcraft-active .equation-copy-button,
+body.mathcraft-active .mastery-button,
 body.mathcraft-active .callout-refs-button {
   padding: var(--size-2-2) var(--size-2-3);
   position: absolute;
   top: var(--size-2-2);
-  right: calc(var(--size-2-2) + 60px);
   display: flex;
   opacity: 0;
   color: var(--text-muted);
   border-radius: var(--radius-s);
   cursor: var(--cursor);
   transition: opacity 0.1s;
+}
+body.mathcraft-active .callout-copy-button,
+body.mathcraft-active .equation-copy-button {
+  right: calc(var(--size-2-2) + 30px);
+}
+body.mathcraft-active .mastery-button {
+  right: calc(var(--size-2-2) + 90px);
+}
+body.mathcraft-active .callout-refs-button {
+  right: calc(var(--size-2-2) + 60px);
 }
 body.mathcraft-active .callout-copy-button:hover,
 body.mathcraft-active .equation-copy-button:hover,
@@ -2080,6 +2061,18 @@ body.mathcraft-active .callout .callout-content > p:empty {
     flex: 1 1 auto;
   }
 }
+.ggb-export-pgf-badge {
+  margin: 8px 16px 0;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-green);
+  background: color-mix(in srgb, var(--color-green) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-green) 25%, transparent);
+  border-radius: 6px;
+  text-align: center;
+}
+
 /* ── Create modal ───────────────────────── */
 .ggb-modal-buttons {
   display: flex;
@@ -2092,6 +2085,420 @@ body.mathcraft-active .callout .callout-content > p:empty {
   display: block;
   font-size: var(--font-ui-smaller);
   color: var(--text-muted);
+}
+
+/* ── Tools button ──────────────────────── */
+.ggb-tools-btn {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+.ggb-tools-btn:hover {
+  background: var(--interactive-accent-hover);
+}
+
+/* ── Tool Creator Modal ────────────────── */
+.mathcraft-tool-creator .modal-content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 78vh;
+}
+.mathcraft-tool-creator .tool-creator-section {
+  margin-bottom: 14px;
+}
+.mathcraft-tool-creator .tool-creator-section:last-of-type {
+  margin-bottom: 0;
+}
+.mathcraft-tool-creator .tool-creator-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.mathcraft-tool-creator .tool-creator-section-title {
+  font-size: var(--font-ui-medium);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.mathcraft-tool-creator .tool-creator-section-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+.mathcraft-tool-creator .tool-creator-quick-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.mathcraft-tool-creator .tool-creator-quick-actions button {
+  font-size: var(--font-ui-smaller);
+  padding: 3px 10px;
+  height: 26px;
+}
+.mathcraft-tool-creator .tool-creator-count {
+  margin-left: auto;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+.mathcraft-tool-creator .tool-creator-objects {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+}
+.mathcraft-tool-creator .tool-creator-empty {
+  padding: 24px 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin: 0;
+}
+.mathcraft-tool-creator .tool-creator-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.mathcraft-tool-creator .tool-creator-table th, .mathcraft-tool-creator .tool-creator-table td {
+  padding: 6px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+.mathcraft-tool-creator .tool-creator-table th {
+  background: var(--background-secondary);
+  font-weight: 600;
+  font-size: var(--font-ui-smaller);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mathcraft-tool-creator .tool-creator-table .col-check {
+  width: 48px;
+  text-align: center;
+}
+.mathcraft-tool-creator .tool-creator-table tr.is-selected {
+  background: var(--background-modifier-hover);
+}
+.mathcraft-tool-creator .tool-creator-table tbody tr:hover {
+  background: var(--background-modifier-hover);
+}
+.mathcraft-tool-creator .tool-creator-object-name {
+  font-weight: 600;
+  color: var(--text-accent);
+}
+.mathcraft-tool-creator .tool-creator-type-icon {
+  display: inline-flex;
+  margin-right: 4px;
+  color: var(--text-muted);
+  vertical-align: -2px;
+}
+.mathcraft-tool-creator .tool-creator-definition {
+  font-size: var(--font-ui-smaller);
+  background: var(--background-secondary);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.mathcraft-tool-creator .setting-item {
+  padding: 6px 0;
+  border-top: none;
+}
+.mathcraft-tool-creator .tool-creator-preview {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  padding: 8px 10px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+.mathcraft-tool-creator .tool-creator-preview-empty {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 16px 0;
+  margin: 0;
+  font-size: var(--font-ui-smaller);
+}
+.mathcraft-tool-creator .tool-creator-code {
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin: 0;
+  background: transparent;
+}
+.mathcraft-tool-creator .tool-creator-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* ── Tool Executor Modal ───────────────── */
+.mathcraft-tool-executor .tool-executor-section {
+  margin-bottom: 20px;
+}
+.mathcraft-tool-executor .tool-executor-section h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: var(--font-ui-large);
+  color: var(--text-normal);
+}
+.mathcraft-tool-executor .tool-executor-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin-bottom: 16px;
+}
+.mathcraft-tool-executor .tool-executor-code {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  padding: 12px;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-small);
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.mathcraft-tool-executor .tool-executor-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.mathcraft-tool-executor .tool-executor-point-inputs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.mathcraft-tool-executor .tool-executor-point-inputs input {
+  width: 80px;
+  padding: 4px 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+}
+.mathcraft-tool-executor .tool-executor-point-inputs input:focus {
+  border-color: var(--interactive-accent);
+  outline: none;
+}
+
+/* ── GeoGebra Tool Manager Modal ───────────── */
+.mathcraft-tool-manager {
+  width: min(90vw, 960px);
+  max-width: min(90vw, 960px);
+}
+.mathcraft-tool-manager .modal-content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  max-height: 70vh;
+}
+.mathcraft-tool-manager .tool-manager-title-actions {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.mathcraft-tool-manager .tool-manager-title-actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  cursor: pointer;
+}
+.mathcraft-tool-manager .tool-manager-title-actions button:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.mathcraft-tool-manager .tool-manager-title-actions button svg {
+  width: 14px;
+  height: 14px;
+}
+.mathcraft-tool-manager .tool-manager-tab-bar {
+  display: flex;
+  gap: 2px;
+  padding: 8px 0 4px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+.mathcraft-tool-manager .tool-manager-tab {
+  padding: 4px 12px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  border-radius: var(--radius-s) var(--radius-s) 0 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.15s, color 0.15s;
+  user-select: none;
+}
+.mathcraft-tool-manager .tool-manager-tab:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.mathcraft-tool-manager .tool-manager-tab.is-active {
+  color: var(--text-accent);
+  background: var(--background-modifier-active-hover);
+  font-weight: 600;
+}
+.mathcraft-tool-manager .tool-manager-content {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 12px 0 0 0;
+}
+.mathcraft-tool-manager .tool-manager-empty {
+  padding: 32px 20px;
+  text-align: center;
+  color: var(--text-muted);
+}
+.mathcraft-tool-manager .tool-manager-empty p {
+  margin: 0;
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+}
+.mathcraft-tool-manager .tool-manager-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.mathcraft-tool-manager .tool-manager-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-m);
+  border: 1px solid var(--background-modifier-border);
+  overflow: hidden;
+  cursor: default;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  position: relative;
+  contain: layout style;
+}
+.mathcraft-tool-manager .tool-manager-card.tool-manager-card-clickable {
+  cursor: pointer;
+}
+.mathcraft-tool-manager .tool-manager-card:hover {
+  border-color: var(--text-accent);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.mathcraft-tool-manager .tool-manager-card:hover .tool-manager-card-actions {
+  opacity: 1;
+}
+.mathcraft-tool-manager .tool-manager-card-cover {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--background-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.mathcraft-tool-manager .tool-manager-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.mathcraft-tool-manager .tool-manager-card-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-faint);
+}
+.mathcraft-tool-manager .tool-manager-card-placeholder svg {
+  width: 32px;
+  height: 32px;
+}
+.mathcraft-tool-manager .tool-manager-card-info {
+  padding: 6px 8px;
+  flex-shrink: 0;
+}
+.mathcraft-tool-manager .tool-manager-card-title {
+  font-size: var(--font-ui-smaller);
+  font-weight: 500;
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.mathcraft-tool-manager .tool-manager-card-actions {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: flex;
+  gap: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.mathcraft-tool-manager .tool-manager-card-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.mathcraft-tool-manager .tool-manager-card-actions button:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.mathcraft-tool-manager .tool-manager-card-actions button.tool-manager-delete-btn:hover {
+  color: var(--text-error);
+  background: rgba(255, 0, 0, 0.08);
+}
+
+body.theme-dark .mathcraft-tool-manager .tool-manager-card-img,
+.theme-dark .mathcraft-tool-manager .tool-manager-card-img {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* ── Tool Edit Mini-Modal ───────────── */
+.mathcraft-tool-edit .tool-edit-commands {
+  margin-top: 12px;
+}
+.mathcraft-tool-edit .tool-edit-commands .tool-edit-commands-label {
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.mathcraft-tool-edit .tool-edit-commands .tool-edit-commands-code {
+  max-height: 160px;
+  overflow-y: auto;
+  padding: 8px 10px;
+  background: var(--background-primary-alt);
+  border-radius: var(--radius-s);
+  font-size: var(--font-ui-smaller);
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin: 0;
+}
+.mathcraft-tool-edit .tool-edit-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
 }
 
 /* Question callout styles - independent from theorem styles */

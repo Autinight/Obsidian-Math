@@ -291,7 +291,7 @@ It is obvious that $\mu : h^n(X) \to k^n(X)$ is an isomorphism when $X$ is a poi
 > 
 > Finally there is naturality of $\mu$ to consider. Naturality with respect to maps between spaces is immediate from the naturality of cup products. Naturality with respect to coboundary maps in long exact sequences is commutativity of the following square:
 > 
-> ![[50.Image/Tikz/Hatcher-3.15-naturality-square]]
+> ![[Hatcher-3.15-naturality-square]]
 > 
 > To check this, start with an element of the upper left product, represented by cocycles $\phi \in C^k(A; R)$ and $\psi \in C^\ell(Y; R)$. Extend $\phi$ to a cochain $\overline{\phi} \in C^k(X; R)$. Then the pair $(\phi, \psi)$ maps rightward to $(\delta\overline{\phi}, \psi)$ and then downward to $p_1^\sharp(\delta\overline{\phi}) \smile p_2^\sharp(\psi)$. Going the other way around the square, $(\phi, \psi)$ maps downward to $p_1^\sharp(\overline{\phi}) \smile p_2^\sharp(\psi)$ and then rightward to $\delta(p_1^\sharp(\overline{\phi}) \smile p_2^\sharp(\psi))$ since $p_1^\sharp(\overline{\phi}) \smile p_2^\sharp(\psi)$ extends $p_1^\sharp(\phi) \smile p_2^\sharp(\psi)$ over $X \times Y$. Finally, $\delta(p_1^\sharp(\overline{\phi}) \smile p_2^\sharp(\psi)) = p_1^\sharp(\delta\overline{\phi}) \smile p_2^\sharp(\psi)$ since $\delta\psi = 0$.
 
@@ -311,13 +311,13 @@ for CW pairs $(X, A)$ and $(Y, B)$, defined just as in the absolute case by $a \
 > 
 > The following commutative diagram shows that collapsing $B$ to a point reduces the proof to the case that $B$ is a point:
 > 
-> ![[50.Image/Tikz/Hatcher-3.18-diagram-collapse]]
+> ![[Hatcher-3.18-diagram-collapse]]
 > 
 > The lower map is an isomorphism since the quotient spaces $(X \times Y)/(A \times Y \cup X \times B)$ and $\big(X \times (Y/B)\big) / \big(A \times (Y/B) \cup X \times (B/B)\big)$ are the same.
 > 
 > In the case that $B$ is a point $y_0 \in Y$, consider the commutative diagram
 > 
-> ![[50.Image/Tikz/Hatcher-3.18-diagram-point]]
+> ![[Hatcher-3.18-diagram-point]]
 > 
 > Since $y_0$ is a retract of $Y$, the upper row of this diagram is a split short exact sequence. The lower row is the long exact sequence of a triple, and it too is a split short exact sequence since $(X \times y_0, A \times y_0)$ is a retract of $(X \times Y, A \times Y)$. The middle and right cross product maps are isomorphisms by the case $B = \varnothing$ since $H^k(Y; R)$ is a finitely generated free $R$ module if $H^k(Y, y_0; R)$ is. The five-lemma then implies that the left-hand cross product map is an isomorphism as well.
 
@@ -348,7 +348,7 @@ This turns out to be a quite important result, and it can be proved in a number 
 > 
 > Consider the diagram
 > 
-> ![[50.Image/Tikz/Hatcher-3.19-diagram-i]]
+> ![[Hatcher-3.19-diagram-i]]
 > 
 > which commutes by naturality of cup product. We will show that the four vertical maps are isomorphisms and that the lower cup product map takes generator cross generator to generator. Commutativity of the diagram will then imply that the upper cup product map also takes generator cross generator to generator.
 > 
@@ -356,7 +356,7 @@ This turns out to be a quite important result, and it can be proved in a number 
 > 
 > To see that the vertical maps in the left column of (i) are isomorphisms we will use the following commutative diagram:
 > 
-> ![[50.Image/Tikz/Hatcher-3.19-diagram-ii]]
+> ![[Hatcher-3.19-diagram-ii]]
 > 
 > If we can show all these maps are isomorphisms, then the same argument will apply with $i$ and $j$ interchanged, and the vertical maps in the left column of (i) will be isomorphisms.
 > 
