@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/dfn - Delta-Complex.md",
+                "file": "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dfn - Delta-Complex"
+              "title": "chnt - FA(Undergraduate) Middle Term"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/dfn - Delta-Complex.md",
+                "file": "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "dfn - Delta-Complex 的大纲"
+              "title": "chnt - FA(Undergraduate) Middle Term 的大纲"
             }
           },
           {
@@ -217,26 +217,37 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "claudian:Open Claudian": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "open-vscode:VSCode": false,
+      "obsidian-git:Open Git source control": false,
+      "webpage-html-export:导出为HTML": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "2702704fa867f76a",
   "lastOpenFiles": [
+    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/FA - HW7.md",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
+    "10.Atlas/DM/Atlas - Tensor.canvas",
+    "00.Inbox/dfn - Delta-Complex.md",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "20.Cards/Theorems/thm - Left-invariant Vector Field is Complete.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Theorems/thm - Compactly Supported Vector Fields is Complete.md",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "00.Inbox/dfn - Delta-Complex.md",
-    "00.Inbox/FA - HW7.md",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
     "50.Image/Tikz/SVG",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
@@ -246,7 +257,6 @@
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "20.Cards/Examples/ep - Use Even Action to Calculate Fundemental Group.md",
     "20.Cards/Examples/ep - Three-sphere in a Two-dimensional Complex Space.md",
     "20.Cards/Examples/ep - the Lens Space.md",
@@ -256,8 +266,6 @@
     "20.Cards/Examples/ep - Binomial Distribution.md",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
     "20.Cards/Lemmas/lem - Uniqueness of Universal Covering.md",
-    "20.Cards/Lemmas/lem - Uniform Time Lemma.md",
-    "20.Cards/Lemmas/lem - Wely Group is the Reflection of a Base.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
@@ -274,9 +282,6 @@
     "50.Image/MCD/my-diagram.svg",
     "70.Life/Pasted image 20260120174845.png",
     "hatcher_2.1_p105_full.png",
-    "hatcher_2.1_p111_full.png",
-    "00.Inbox/Hatcher 2.1 - Simplicial and Singular Homology.canvas",
-    "10.Atlas/LA/Atlas - Root Systems.canvas",
-    "10.Atlas/RG/Examples of Riemannian Manifold.canvas"
+    "hatcher_2.1_p111_full.png"
   ]
 }

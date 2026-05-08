@@ -17,14 +17,14 @@
   "theoremNumberingMode": "separate",
   "theoremStyle": "beamer",
   "theoremColors": {
-    "theorem": "#3b82f6",
+    "theorem": "#1555bc",
     "lemma": "#8b5cf6",
     "corollary": "#06b6d4",
     "proposition": "#10b981",
     "definition": "#f59e0b",
     "axiom": "#ef4444",
-    "example": "#ec4899",
-    "exercise": "#6366f1",
+    "example": "#8a8a8a",
+    "exercise": "#303030",
     "remark": "#64748b",
     "note": "#78716c"
   },
@@ -81,5 +81,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "theorem"
+  "settingsTab": "license"
 }
