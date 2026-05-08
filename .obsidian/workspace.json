@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "972836c721758f2b",
+            "id": "9faf76f4190c4d4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+                "file": "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -42,35 +42,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.1 Cohomology"
-            }
-          },
-          {
-            "id": "2702704fa867f76a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AT Hatcher - Ex - Section 3.1"
+              "title": "AT Hatcher 3.3 Poincare Duality"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
+                "file": "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher - Ex - Section 3.1 的大纲"
+              "title": "AT Hatcher 3.A-3.B Universal Coefficients and Kunneth 的大纲"
             }
           },
           {
@@ -226,19 +202,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2702704fa867f76a",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "50.Image/Tikz/chain-complex-ses-tensored.md",
+    "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
+    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "50.Image/Tikz/RAW/cellular-cochain-complex.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher Chapter 3 Additional Topics.md",
+    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/AT Hatcher Chapter 3 Additional Topics.md",
+    "Hatcher Algebraic Topology Section 3.2 Cup Product.md",
+    "00.Inbox/Chat.md",
+    "00.Inbox/AT Hatcher 3.E 3.F.md",
+    "50.Image/MCG/RAW/1.mcg",
     "00.Inbox/FA - HW7.md",
     "20.Cards/Definitions/dfn - Delta-Complex.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
-    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
-    "Hatcher Algebraic Topology Section 3.2 Cup Product.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
@@ -249,29 +239,14 @@
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "20.Cards/Theorems/thm - Left-invariant Vector Field is Complete.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
-    "20.Cards/Theorems/thm - Compactly Supported Vector Fields is Complete.md",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
-    "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "50.Image/Tikz/RAW/cellular-cochain-complex.md",
     "50.Image/Tikz/SVG",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "50.Image/Tikz/RAW",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
-    "20.Cards/Examples/ep - Use Even Action to Calculate Fundemental Group.md",
-    "20.Cards/Examples/ep - Three-sphere in a Two-dimensional Complex Space.md",
-    "20.Cards/Examples/ep - the Lens Space.md",
-    "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
-    "20.Cards/Examples/ep - Hopf Fibration.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
     "50.Image/PNG/Pasted image 20260507180224.png",
-    "50.Image/MCG/RAW/1.mcg",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
