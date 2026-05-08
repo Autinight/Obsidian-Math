@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hatcher Ch2.3 The Formal Viewpoint"
+              "title": "AT Hatcher - Ex - Section 3.1"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+                "file": "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hatcher Ch2.3 The Formal Viewpoint 的大纲"
+              "title": "AT Hatcher - Ex - Section 3.1 的大纲"
             }
           },
           {
@@ -228,26 +228,27 @@
   },
   "active": "2702704fa867f76a",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/FA - HW7.md",
+    "20.Cards/Definitions/dfn - Delta-Complex.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
+    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "Hatcher Algebraic Topology Section 3.2 Cup Product.md",
-    "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-    "00.Inbox/FA - HW7.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "00.Inbox/dfn - Delta-Complex.md",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "20.Cards/Theorems/thm - Left-invariant Vector Field is Complete.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "20.Cards/Exercises/ex - An Equivalent Characterization for Constant Curvature at a Point.md",
     "20.Cards/Theorems/thm - Compactly Supported Vector Fields is Complete.md",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
@@ -266,7 +267,6 @@
     "20.Cards/Examples/ep - the Lens Space.md",
     "20.Cards/Examples/ep - Standard CW Structure of RPn.md",
     "20.Cards/Examples/ep - Hopf Fibration.md",
-    "20.Cards/Examples/ep - Normal Distribution.md",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
