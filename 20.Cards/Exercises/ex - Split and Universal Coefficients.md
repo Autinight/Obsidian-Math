@@ -7,7 +7,7 @@ book: AT Hatcher
 chapter: 2.2
 number: "43"
 category:
-status: todo
+status: done 
 priority:
 tags: []
 ---
@@ -21,32 +21,6 @@ tags: []
 
 
 
-
-Since
-$$ C_{n}^{CW} $$
-are finitely generated abelian groups. We decoposes $C_{n}^{CW}$ into sum of the groups
-$$  0\to \mathbb{Z} \to 0 $$  
-Then each $0\to \mathbb{Z} \to 0$ gives the homoology
-$$ 0\to \mathbb{Z} \to 0 $$ 
-which gives a $\mathbb{Z}$- summand of $H_{n}\left(X\right)$
-. and  
-$$ 0\to \mathbb{Z} \xrightarrow{m}  \mathbb{Z} \to 0 $$
-gives the homology
-$$ 0\to \mathbb{Z} _{m}\to \mathbb{Z} _{m}\to 0 $$ 
-which gives a $\mathbb{Z} _{m}$ summand of $H_{n-1}$ and a $\mathbb{Z} _{m}$ summand of $H_{n}$.
-
-
-
-
-Then $C_{n}^{CW}\left(X;G\right)$ composes into
-$$ 0\to G\to 0 $$ 
-
-$$ 0\to G\xrightarrow{m} G\to 0  $$ 
-
-Then the homology are 
-$$ 0\to G\to 0 $$ 
-
-$$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m}G \right)\right)\to G/mG\to 0 $$ 
 
 > [!proof] Proof: 
 > 1. 由
@@ -82,6 +56,40 @@ $$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m}G \right)\right)\to G/mG\t
 > $$ 0\to  \mathbb{Z} = \left< b_{i} \right> \xrightarrow{\times  d _{i}} \mathbb{Z} = \left< a_{i} \right>\to  0 ,\quad  1\le i\le r^{\left(n\right)}$$  
 > $$ 0\to 0\to \mathbb{Z} = \left< a_{j} \right>\to 0,\quad  r^{\left(n\right)}< j $$ 
 > 
+> 3. Since
+>    $$ C_{n}^{CW} $$
+>    are finitely generated abelian groups. We decoposes $C_{n}^{CW}$ into sum of the groups
+>    $$  0\to \mathbb{Z} \to 0 $$  
+>    Then each $0\to \mathbb{Z} \to 0$ gives the homoology
+>    $$ 0\to \mathbb{Z} \to 0 $$ 
+>    which gives a $\mathbb{Z}$- summand of $H_{n}\left(X\right)$
+>    . and  
+>    $$ 0\to \mathbb{Z} \xrightarrow{m}  \mathbb{Z} \to 0 $$
+>    gives the homology
+>    $$ 0\to \mathbb{Z} _{m}^{\left(n+ 1\right)}\to \mathbb{Z} _{m}^{\left(n\right)}\to 0 $$ 
+>    which gives a $\mathbb{Z} _{m}$ summand of $H_{n+ 1}$ and a $\mathbb{Z} _{m}$ summand of $H_{n}$.
+>    
+>    
+>    
+>    
+>    Then $C_{n}^{CW}\left(X;G\right)$ composes into
+>    $$ 0\to G\to 0 $$ 
+>    
+>    $$ 0\to G\xrightarrow{m} G\to 0  $$ 
+>    
+>    Then the homology are 
+>    $$ 0\to G\to 0 $$ 
+>    
+>    $$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m}G \right)\right)\to G/mG\to 0 $$ 
+>    
+>    Thus every chain $0\to \mathbb{Z} \to 0$, a.e. a $\mathbb{Z}$-sammand of $H_{n}\left(X\right)$ gives the homology $H_{n}\left(X;G\right)$ a copy of $G$.
+>    Every $\mathbb{Z} _{m}$ summand of $H_{n}\left(X\right)$ means the chain 
+>    $$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m} G\right)\right)^{\left(n+ 1\right)}\to \left( G/mG\right)^{\left(n\right)}\to 0 $$  
+>    which means a copy of $G/mG$.
+>    Every $\mathbb{Z} _{m}$ summand of $H_{n-1}\left(X\right)$ means the chain
+>    $$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m} G\right)\right)^{\left(n\right)}\to \left(G/mG\right)^{\left(n-1\right)}\to 0 $$ 
+>    which means a copy of $\left(\operatorname{ker}\left(G\xrightarrow{m} G\right)\right).$
+>    
 
 
 ```dataviewjs

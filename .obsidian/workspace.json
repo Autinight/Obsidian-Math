@@ -22,64 +22,12 @@
             }
           },
           {
-            "id": "763f61d9dcd9fbd8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "chnt - AT Hatcher Ch2.2"
-            }
-          },
-          {
-            "id": "338a8d412075e31c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "AT Hatcher - Ex - Section 2.2"
-            }
-          },
-          {
-            "id": "e882c2fd3f2b8da2",
+            "id": "c87247eea4bcc033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
+                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -94,35 +42,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Z_n Universal Coefficients Short Sequence"
-            }
-          },
-          {
-            "id": "216c2970372ed771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chnt - RG Petersen Ch05"
+              "title": "AT Hatcher 3.1 Cohomology"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
+                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Z_n Universal Coefficients Short Sequence 的大纲"
+              "title": "AT Hatcher 3.1 Cohomology 的大纲"
             }
           },
           {
@@ -297,40 +221,40 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e882c2fd3f2b8da2",
+  "active": "c87247eea4bcc033",
   "lastOpenFiles": [
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "00.Inbox/ex - Split and Universal Coefficients.md",
+    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
     "00.Inbox/AT Hatcher - Ex - Section 2.2.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Exercises/ex - Split and Universal Coefficients.md",
+    "50.Image/PNG/Pasted image 20260507180346.png",
+    "50.Image/PNG/Pasted image 20260507180315.png",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "30.Recources/FA/Course HW/FA - HW8.md",
     "30.Recources/HA/Course HW/HA - HW2.7-2.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "50.Image/Tikz/cochain-complex-z-isomorphism.md",
     "50.Image/Tikz/chain-complex-mult-by-2.md",
     "50.Image/Tikz/chain-complex-z-boundaries.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "50.Image/Tikz/cochain-complex-dual-sequences.md",
     "50.Image/Tikz/chain-complex-exact-sequences.md",
-    "Pasted image 20260507180346.png",
-    "Pasted image 20260507180315.png",
     "50.Image/PNG",
     "50.Image/PNG/Pasted image 20260507180224.png",
     "50.Image/MCG/RAW/1.mcg",
     "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
     "00.Inbox/AT Hatcher 3.E 3.F.md",
     "00.Inbox/Chat.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
     "20.Cards/Exercises/ex - Degree of a Polynomial.md",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "20.Cards/Exercises/ex - Map with Degree Zero.md",
     "20.Cards/Exercises/ex - Retraction and Cone.md",
-    "20.Cards/Exercises/ex - Homology of Suspension.md",
-    "20.Cards/Exercises/ex - CW Complex Homology by Induction.md",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
