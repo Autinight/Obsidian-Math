@@ -22,6 +22,32 @@ tags: []
 
 
 
+Since
+$$ C_{n}^{CW} $$
+are finitely generated abelian groups. We decoposes $C_{n}^{CW}$ into sum of the groups
+$$  0\to \mathbb{Z} \to 0 $$  
+Then each $0\to \mathbb{Z} \to 0$ gives the homoology
+$$ 0\to \mathbb{Z} \to 0 $$ 
+which gives a $\mathbb{Z}$- summand of $H_{n}\left(X\right)$
+. and  
+$$ 0\to \mathbb{Z} \xrightarrow{m}  \mathbb{Z} \to 0 $$
+gives the homology
+$$ 0\to \mathbb{Z} _{m}\to \mathbb{Z} _{m}\to 0 $$ 
+which gives a $\mathbb{Z} _{m}$ summand of $H_{n-1}$ and a $\mathbb{Z} _{m}$ summand of $H_{n}$.
+
+
+
+
+Then $C_{n}^{CW}\left(X;G\right)$ composes into
+$$ 0\to G\to 0 $$ 
+
+$$ 0\to G\xrightarrow{m} G\to 0  $$ 
+
+Then the homology are 
+$$ 0\to G\to 0 $$ 
+
+$$ 0\to \left(\operatorname{ker}\left(G\xrightarrow{m}G \right)\right)\to G/mG\to 0 $$ 
+
 > [!proof] Proof: 
 > 1. 由
 >    $$C_{n+ 2} \xrightarrow{\partial _{n+ 2}} C_{n+ 1}\xrightarrow{\partial _{n+ 1}}C_{n}\xrightarrow{\partial _{n}}C_{n-1}\xrightarrow{\partial _{n-1}}C_{n-2}    $$
@@ -35,7 +61,27 @@ tags: []
 >    $$\cdots \to  0\to L_{n+ 1}\xrightarrow{\partial _{n+ 1}}  K_{n}\to 0\to \cdots  $$ 
 >    其中$n+ 1$次部分为$L_{n+ 1}$, $n$次部分为$K_{n}$, 其余为零.
 > 2.
-> $$ L_{n}= \operatorname{Im}\partial _{n} $$  
+>   根据构造, 
+>   $$ \partial _{n+ 1}|_{L_{n+ 1}}:L_{n+ 1}\xrightarrow{s}\operatorname{Im}\partial _{n}  $$  
+> 是同构.
+> 设
+> $$ K_{n}= \mathbb{Z} _{r^{\left(n\right)}},\quad L_{n}= \mathbb{Z} _{s^{\left(n\right)}} $$ 
+> 则
+> $$ r^{\left(n\right)}\ge s^{\left(n+ 1\right)} $$ 
+> 选择特定的基, $\partial |_{L_{n+ 1}}$可以表示为
+> $$ \partial \sim \begin{pmatrix} d_1& &\\& \ddots & \\&& d _{r}\\&O\\\end{pmatrix} $$ 
+> 其中$d _{i}\in \mathbb{Z}$, $d _{i}\neq 0$.
+> 则
+> 设$K_{n}= \left< a_{1} \right>\oplus \left< a_2 \right>\oplus \cdots \oplus \left< a_{r^{\left(n\right)}} \right>$
+> $$ L_{n+ 1}= \left< b_1 \right>\oplus \left< b_2 \right>\oplus \cdots \oplus \left< b_{s^{\left(n+ 1\right)}} \right> $$ 
+> 其中
+> $$ \partial \left(b_{i}\right)= d _{i} a_{i},\quad  1\le i\le r^{\left(n\right)} $$ 
+> 将
+> $$ 0\to L_{n+ 1}\to K_{n} \to 0$$
+> 分解为
+> $$ 0\to  \mathbb{Z} = \left< b_{i} \right> \xrightarrow{\times  d _{i}} \mathbb{Z} = \left< a_{i} \right>\to  0 ,\quad  1\le i\le r^{\left(n\right)}$$  
+> $$ 0\to 0\to \mathbb{Z} = \left< a_{j} \right>\to 0,\quad  r^{\left(n\right)}< j $$ 
+> 
 
 
 ```dataviewjs
