@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-                "mode": "preview",
+                "file": "30.Recources/AT/AT Hatcher Section 3.1 Cohomology Groups.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.1 Cohomology"
+              "title": "AT Hatcher Section 3.1 Cohomology Groups"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "3f3f01befe9fce43",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+                "file": "30.Recources/AT/AT Hatcher Section 3.1 Cohomology Groups.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.1 Cohomology 的大纲"
+              "title": "AT Hatcher Section 3.1 Cohomology Groups 的大纲"
             }
           },
           {
@@ -185,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,6 +206,8 @@
   },
   "active": "9ba0130c14472a46",
   "lastOpenFiles": [
+    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
+    "30.Recources/AT/AT Hatcher Section 3.1 Cohomology Groups.md",
     "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/AT Hatcher - Chapter 3 Additional Topics (3.C-3.E).md",
     "30.Recources/AT/Hatcher AT 3.C-3.D.md",
@@ -212,7 +216,6 @@
     "30.Recources/AT/Hatcher 3.C-3.D.md",
     "30.Recources/AT/Hatcher 3.A-3.B.md",
     "30.Recources/AT/Hatcher 3.C-3.D 1.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher 3.A 3.B.md",
     "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
     "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
@@ -231,7 +234,6 @@
     "00.Inbox/Chat.md",
     "00.Inbox/AT Hatcher 3.E 3.F.md",
     "50.Image/MCG/RAW/1.mcg",
-    "00.Inbox/FA - HW7.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
