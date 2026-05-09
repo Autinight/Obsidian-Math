@@ -23,4 +23,11 @@ For path $f,g$, then $f\cdot g$ is a path.
 
 If $f\cdot g$ can be 拼接, then $g\left(1\right)= f\left(0\right)$, we consider a $2$-singular simplex $\sigma : \Delta \to X$, such that 
 $$ \sigma |_{\left[ v_0,v_1 \right]}= f,\quad \sigma |_{\left[ v_1,v_2 \right]}= g,\quad \sigma |_{[v_0,v_2]}= f\cdot g $$ 
-Then  $\sigma$ is actually continuous.
+Then  $\sigma$ is actually continuous. Then 
+$$ \partial \sigma = \sigma |_{\left[ v_0,v_1 \right]}+ \sigma |_{\left[ v_1,v_2 \right]} -\sigma |_{\left[ v_0,v_2 \right]}= f+ g-fg $$ 
+Thus 
+$$ \delta \varphi \left(\sigma \right)= \varphi \left(\partial \sigma \right)= \varphi \left(f+ g-fg\right)= 0\implies \varphi \left(fg\right)= \varphi \left(f\right)+ \varphi \left(g\right) $$ 
+
+For a constant path $\sigma_1$, note that $\sigma_1 \cdot \sigma_1 = \sigma_1$, we have 
+$$ \varphi \left(\sigma _1 \right)= \varphi \left(\sigma _1 \right)+ \varphi \left(\sigma _1 \right)\implies \varphi \left(\sigma _1 \right)= 0 $$ 
+If $f\simeq g$, there eixsts $H: \Delta _{1} \times I$
