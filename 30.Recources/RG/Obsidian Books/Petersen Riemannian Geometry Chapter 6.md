@@ -1151,6 +1151,7 @@ All of the necessary topological background material used in this chapter can be
 >    Hint: Differentiate $\mathrm{sn}_k(t) \mathrm{sn}_k'(t)$.
 > 3. Conclude that $g(J(b), \nabla J(b)) \leq \frac{\mathrm{sn}_k'(b)}{\mathrm{sn}_k(b)} |J(b)|^2$ and use this to prove the part of theorem 6.4.3 that relates to lower curvature bounds.
 
+
 > [!exercise] Exercise 6.7.26
 > Consider a subgroup $G \subset \mathrm{Iso}(M, g)$ of a Riemannian manifold. The topology of $\mathrm{Iso}(M, g)$ is the compact-open topology discussed in exercise 5.9.41.
 >
