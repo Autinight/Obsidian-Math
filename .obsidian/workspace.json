@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/AT Hatcher Section 3.1 Cohomology Groups.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Obsidian Books/Petersen Riemannian Geometry Chapter 6.md",
+                "file": "00.Inbox/ex - 1-cohomology.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Petersen Riemannian Geometry Chapter 6"
+              "title": "ex - 1-cohomology"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/RG/Obsidian Books/Petersen Riemannian Geometry Chapter 6.md",
+                "file": "00.Inbox/ex - 1-cohomology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Petersen Riemannian Geometry Chapter 6 的大纲"
+              "title": "ex - 1-cohomology 的大纲"
             }
           },
           {
@@ -229,33 +229,35 @@
   },
   "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
+    "00.Inbox/ex - 1-cohomology.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "30.Recources/RG/Obsidian Books",
+    "30.Recources/AT/Obsidian Books/AT Hatcher - Chapter 3 Additional Topics (3.C-3.E).md",
     "30.Recources/RG/Obsidian Books/Petersen Riemannian Geometry Chapter 6.md",
-    "30.Recources/AT/AT Hatcher Section 3.1 Cohomology Groups.md",
-    "30.Recources/AT/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/AT/AT Hatcher 3.2 Cup Product.md",
-    "30.Recources/AT/AT Hatcher - Chapter 3 Additional Topics (3.C-3.E).md",
+    "30.Recources/AT/Obsidian Books",
+    "00.Inbox/AT Hatcher 3.E 3.F.md",
+    "30.Recources/RG/Obsidian Books",
+    "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Hatcher AT 3.C-3.D.md",
     "30.Recources/AT/Hatcher 3.C-3.D H-Spaces and SO(n) Cohomology.md",
-    "30.Recources/AT/Hatcher Ch2.3 The Formal Viewpoint.md",
+    "30.Recources/AT/Obsidian Books/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/Hatcher 3.C-3.D.md",
-    "30.Recources/AT/Hatcher 3.A-3.B.md",
+    "30.Recources/AT/Obsidian Books/Hatcher 3.A-3.B.md",
     "30.Recources/AT/Hatcher 3.C-3.D 1.md",
     "30.Recources/AT/Hatcher 3.A 3.B.md",
     "30.Recources/AT/AT Hatcher 3.A-3.B Universal Coefficients and Kunneth.md",
-    "30.Recources/AT/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "50.Image/Tikz/chain-complex-ses-tensored.md",
-    "30.Recources/AT/Hatcher Ch2.A Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2.1 Simplicial and Singular Homology.md",
+    "30.Recources/AT/Obsidian Books/Hatcher Ch2.A Additional Topics.md",
+    "30.Recources/AT/Obsidian Books/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "50.Image/Tikz/RAW/cellular-cochain-complex.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher Chapter 3 Additional Topics.md",
-    "30.Recources/AT/Hatcher Ch2.2 Computations and Applications.md",
+    "30.Recources/AT/Obsidian Books/Hatcher Ch2.2 Computations and Applications.md",
     "30.Recources/AT/AT Hatcher Chapter 3 Additional Topics.md",
-    "Hatcher Algebraic Topology Section 3.2 Cup Product.md",
     "50.Image/MCG/RAW/1.mcg",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
@@ -276,8 +278,6 @@
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
     "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
     "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
-    "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993433783",
-    "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993428431",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
