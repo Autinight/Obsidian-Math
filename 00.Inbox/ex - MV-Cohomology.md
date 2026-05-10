@@ -21,6 +21,20 @@ Since $\left(i_{A},-i_{B}\right)$ is injective,  $j_{A}+ j_{B}$ is surjective, s
 
 Induces
 $$ H_{n-1}\left(X\right)\to H_{n}\left(A\cap B\right)\xrightarrow{}H_{n}\left(A\right)\oplus H_{n}\left(B\right)\to H_{n}\left(X\right)\to   $$ 
+The cohomology is 
+
+$$ 0\to C^{n}\left(A+ B;G\right)\xrightarrow{\psi } C^{n}\left(A;G\right)\oplus C^{n}\left(B;G\right)\xrightarrow{\varphi } C^{n}\left(A\cap B;G\right)\to 0 $$ 
+
+$$ H^{n-1}\left(A\cap B\right)\to H^{n}\left(A+ B;G\right)\to H^{n}\left(A;G\right)\oplus H^{n}\left(B;G\right)\to H^{n}\left(A\cap B;G\right)\to \cdots  $$ 
+
+令$A$是北半球多一点, $B$是南半球多一点, 则$A\cap B$同伦等价与$S^{n-1}$, we hve 
+$$ 0\to H^{n-1}\left(S^{n-1};G\right)\to H^{n}\left(S^{n};G\right)\to 0$$ 
+得到
+$$ H^{n}\left(S^{n};G\right)\simeq H^{n-1}\left(S^{n-1};G\right)\simeq \cdots \simeq H^{1}\left(S^{1};G\right)\simeq G $$ 
+
+$S^{1}$: $\sigma _1 : \left[ 0,1 \right]\to S^{1}$, $\sigma _1 \left(0\right)= \sigma _1 \left(1\right)$, 
+
+$$ 0\to \operatorname{Ext}\left(\right) $$ 
 
 ```dataviewjs
 const techs = dv.current().technique;
