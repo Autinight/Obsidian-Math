@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
-                "mode": "preview",
+                "file": "00.Inbox/ex - Failure of Cohomology Axiom.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - AT Hatcher Ch3.1"
+              "title": "ex - Failure of Cohomology Axiom"
             }
           },
           {
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Cohomology of Torus.md",
+                "file": "20.Cards/Exercises/ex - Cohomology of Torus.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
-    "00.Inbox/ex - Cohomology of Torus.md",
-    "00.Inbox/Petersen - Riemannian Geometry - Chapter 7 - Ricci Curvature Comparison.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/ex - Failure of Cohomology Axiom.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
+    "20.Cards/Exercises/ex - Cohomology of Torus.md",
+    "00.Inbox/Petersen - Riemannian Geometry - Chapter 7 - Ricci Curvature Comparison.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "20.Cards/Exercises/ex - 1-cohomology.md",
@@ -257,7 +258,6 @@
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "50.Image/Tikz/chain-complex-ses-tensored.md",
     "30.Recources/AT/Obsidian Books/Hatcher Ch2.A Additional Topics.md",
-    "30.Recources/AT/Obsidian Books/Hatcher Ch2.1 Simplicial and Singular Homology.md",
     "50.Image/MCG/RAW/1.mcg",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
