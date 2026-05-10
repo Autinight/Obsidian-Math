@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Exercises/ex - Degree for Cohomology.md",
+                "file": "00.Inbox/7.1.5-Segment-Poincare-Sobolev-Inequalities.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,35 +66,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Degree for Cohomology"
-            }
-          },
-          {
-            "id": "18d31b46afe2cb5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AT Hatcher 3.3 Poincare Duality"
+              "title": "7.1.5-Segment-Poincare-Sobolev-Inequalities"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
+                "file": "00.Inbox/7.1.5-Segment-Poincare-Sobolev-Inequalities.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.3 Poincare Duality 的大纲"
+              "title": "7.1.5-Segment-Poincare-Sobolev-Inequalities 的大纲"
             }
           },
           {
@@ -250,35 +226,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18d31b46afe2cb5a",
+  "active": "bf3860d786f98d50",
   "lastOpenFiles": [
+    "00.Inbox/7.1.1-The-Fundamental-Equations.md",
+    "00.Inbox/7.1.5-Segment-Poincare-Sobolev-Inequalities.md",
+    "00.Inbox/SKILL.md",
+    "7.1.1-The-Fundamental-Equations.md",
+    "00.Inbox/obsidian-markdown-for-math/SKILL.md",
+    "00.Inbox/obsidian-markdown-for-math",
+    "00.Inbox/新建文件夹",
+    "00.Inbox/references/EMBEDS.md",
+    "20.Cards/Exercises/ex - Degree for Cohomology.md",
+    "00.Inbox/references/CALLOUTS.md",
+    "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
+    "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
+    "00.Inbox/AT Hatcher 3.E 3.F.md",
+    "00.Inbox/references/PROPERTIES.md",
+    "00.Inbox/references",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
-    "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
     "00.Inbox/FA - HW7.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
-    "00.Inbox/AT Hatcher 3.E 3.F.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
-    "20.Cards/Exercises/ex - Non Natruality of Universal Cohomology.md",
-    "20.Cards/Exercises/ex - Degree for Cohomology.md",
-    "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "30.Recources/AT/Obsidian Books/Hatcher 3.A-3.B.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
-    "30.Recources/AT/Obsidian Books/Hatcher Ch2.A Additional Topics.md",
-    "00.Inbox/Chat.md",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
@@ -298,9 +277,6 @@
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG",
     "50.Image/PNG/Pasted image 20260507180224.png",
-    "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993540966",
-    "00.Inbox/AT Hatcher Ch3 Cohomology.md.tmp.10608.1777993466005",
-    "00.Inbox/Hatcher 3.2 Cup Product.md.tmp.20892.1777993449990",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
     "50.Image/MCD/Narturality of relative Homology 1.svg",
