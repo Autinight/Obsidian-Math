@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -90,7 +90,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AT Hatcher 3.2 Cup Product"
+              "title": "DM - HW10"
             }
           }
         ],
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "DM - HW10 的大纲"
             }
           },
           {
@@ -252,6 +252,10 @@
   },
   "active": "18d31b46afe2cb5a",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "20.Cards/Exercises/ex - Non Natruality of Universal Cohomology.md",
     "20.Cards/Exercises/ex - Degree for Cohomology.md",
@@ -275,10 +279,6 @@
     "30.Recources/Petersen Ch7 Ricci Curvature Comparison.md",
     "00.Inbox/Petersen - Riemannian Geometry - Chapter 7 - Ricci Curvature Comparison.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "20.Cards/Exercises/ex - 1-cohomology.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher - Chapter 3 Additional Topics (3.C-3.E).md",
-    "30.Recources/RG/Obsidian Books/Petersen Riemannian Geometry Chapter 6.md",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
