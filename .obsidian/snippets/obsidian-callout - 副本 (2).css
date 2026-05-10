@@ -1,0 +1,178 @@
+/* ================================================================= */
+/*  VS Code Math Layout - Clean Textbook Style (Final Optimized)     */
+/*  1. 全局: 强制白纸黑字, 字体跟随编辑器设置                             */
+/*  2. Type A (Thm/Def): 仿 LaTeX 教科书风格 (圆角, 阴影)                */
+/*  3. Type B (Proof): 保持透明背景 + 细线                               */
+/*  4. Type C (Note/Remark): 侧边栏风格 (无标题栏, 斜体, 紧凑布局)         */
+/* ================================================================= */
+
+/* --- 强制覆盖 VS Code 的默认背景 --- */
+
+
+body {
+  color-scheme: light;
+
+  /* --- 基础颜色定义 (RGB) --- */
+  /* Type A: 核心数学环境 */
+  /* [新增] Technique 专用颜色 (Cyan/Dark Turquoise) */
+  --color-technique-rgb: 0, 150, 160;   
+
+  /* Type B: 证明 */
+  --color-gray-rgb: 100, 100, 100;
+
+   /* Solution 专用颜色 (森林绿) */
+  --color-solution-rgb: 34, 139, 34;   /* ForestGreen */
+
+  /* Type C: 辅助/笔记 */
+  --color-proofsketch-rgb: 41, 128, 185; /* Strong Blue */
+
+  /* --- 尺寸与字体 --- */
+  /* --- Callout 变量映射 --- */
+  --callout-solution: var(--color-solution-rgb);
+  --callout-proof: var(--color-gray-rgb);
+  
+  /* [新增] 映射 Technique */
+  --callout-technique: var(--color-technique-rgb);
+
+  --callout-proofsketch: var(--color-proofsketch-rgb);
+}
+
+/* ================================================================= */
+/*  1. 通用基础设置(Type A Default - Textbook Style)                */
+/* ================================================================= */
+
+ .callout {
+  --callout-color: var(--callout-default);
+  padding: 0; 
+  overflow: hidden;
+  margin: 1.5em 0; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  border-radius: 6px; 
+  background-color: #fff; 
+  border: 1px solid rgb(var(--callout-color)); 
+}
+
+.callout-icon { display: none !important; }
+
+.callout-title {
+  background-color: rgb(var(--callout-color)); 
+  color: #ffffff !important; 
+  padding: 6px 15px; 
+  min-height: 0 !important;
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+  font-size: 1em; 
+  display: flex;
+  align-items: center;
+}
+
+
+.callout-content {
+  background-color: rgba(var(--callout-color), 0.04); 
+  color: #222222 !important; 
+  padding: 6px 15px 12px 15px; 
+  overflow-x: auto;
+  font-size: 1em;
+}
+
+/* ================================================================= */
+/*  2. 环境颜色绑定                                                  */
+/* ================================================================= */
+
+.callout[data-callout="solution"] { --callout-color: var(--callout-solution); }
+
+/* [新增] 绑定 Technique 类 */
+.callout[data-callout="technique"] { --callout-color: var(--callout-technique); }
+
+/* Type C 类 */
+.callout[data-callout="proofsketch"] { --callout-color: var(--callout-proofsketch); }
+
+/* ================================================================= */
+/*  3. Type B: 证明与解答风格 (Proof & Solution)                     */
+/* ================================================================= */
+
+.callout[data-callout="proof"],
+.callout[data-callout="solution"] {
+  background-color: transparent;
+  border: none;
+  border-left: 3px solid rgba(var(--callout-color), 0.4);
+  box-shadow: none; 
+  border-radius: 0;
+  margin: 1em 0;
+}
+
+.callout[data-callout="proof"] .callout-title,
+.callout[data-callout="solution"] .callout-title {
+  background-color: transparent; 
+  color: #555555 !important; 
+  padding: 2px 15px;
+  font-style: italic;
+}
+
+.callout[data-callout="proof"] .callout-content,
+.callout[data-callout="solution"] .callout-content {
+  background-color: transparent; 
+  padding: 5px 15px;
+}
+
+.callout[data-callout="proof"] .callout-content::after,
+.callout[data-callout="solution"] .callout-content::after {
+  content: "∎";
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: #666;
+  font-style: normal;
+}
+
+/* ================================================================= */
+/*  4. Type C: 侧边栏风格 (Remark, Note, Proofsketch)                */
+/*  [关键修改] 移除了标题底部的 padding，消除与列表的空隙                  */
+/* ================================================================= */
+
+.callout[data-callout="proofsketch"]{
+  border: none !important;
+  border-left: 5px solid rgb(var(--callout-color)) !important;
+  background-color: rgba(var(--callout-color), 0.08) !important; 
+  border-radius: 0 !important; 
+  box-shadow: none !important; 
+}
+
+.callout[data-callout="proofsketch"] .callout-title {
+  background-color: transparent !important;
+  color: #000000 !important;
+  font-style: italic;
+  font-weight: normal; 
+  /* 底部 padding 设为 0，让内容紧贴标题 */
+  padding: 10px 15px 0px 15px;
+}
+
+.callout[data-callout="proofsketch"] .callout-content {
+  background-color: transparent !important;
+  padding: 0px 15px 10px 15px;
+}
+
+/* ================================================================= */
+/*  5. 兼容性补丁: 强制覆盖 VS Code 原生 Note 样式                     */
+/* ================================================================= */
+
+
+/* ================================================================= */
+/*  6. 列表排版优化 (List Layout Optimization) [增强版]               */
+/*  彻底解决列表顶部的空隙问题                                           */
+/* ================================================================= */
+
+/* 1. 统一列表基础缩进和间距 */
+/* ================================================================= */
+/*  7. 杂项修正                                                      */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  8. 公式显示优化 (Math Formula Enhancement)                       */
+/* ================================================================= */
+
+/* 统一放大公式至 115% (覆盖 KaTeX 和 MathJax) */
+.katex, .mjx-container, .MathJax {
+  font-size: 1.15em !important;
+}
+

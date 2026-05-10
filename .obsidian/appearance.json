@@ -10,7 +10,7 @@
   "enabledCssSnippets": [
     "math-callout",
     "tikzjax",
-    "obsidian-callout"
+    "obsidian-callout-chatgpt"
   ],
   "nativeMenus": false
 }

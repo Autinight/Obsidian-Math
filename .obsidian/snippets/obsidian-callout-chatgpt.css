@@ -1,0 +1,373 @@
+/* ================================================================= */
+/*  VS Code Math Layout - Clean Textbook Style                       */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  0. Global Tokens                                                  */
+/* ================================================================= */
+
+body {
+  color-scheme: light;
+
+  /* Base colors */
+  --color-theorem-rgb: 85, 70, 180;       /* Deep Violet */
+  --color-lemma-rgb: 120, 50, 150;        /* Deep Purple */
+  --color-definition-rgb: 0, 90, 160;     /* Deep Blue */
+  --color-proposition-rgb: 180, 60, 60;   /* Deep Red-Brown */
+  --color-corollary-rgb: 210, 100, 0;     /* Deep Orange */
+  --color-example-rgb: 180, 140, 40;      /* Deep Gold */
+  --color-exercise-rgb: 44, 62, 80;       /* Midnight Blue */
+  --color-technique-rgb: 0, 150, 160;     /* Dark Turquoise */
+
+  --color-proof-rgb: 100, 100, 100;       /* Gray */
+  --color-solution-rgb: 34, 139, 34;      /* Forest Green */
+
+  --color-remark-rgb: 0, 128, 128;        /* Teal */
+  --color-proofsketch-rgb: 41, 128, 185;  /* Strong Blue */
+  --color-note-rgb: 200, 50, 50;          /* Strong Red */
+
+  /* Layout tokens */
+  --text-color: #222222;
+  --title-color: #ffffff;
+  --line-height-tight: 1.2;
+  --font-weight-bold: 700;
+
+  --callout-radius: 6px;
+  --callout-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --callout-margin: 1.5em 0;
+
+  --callout-title-padding: 6px 15px;
+  --callout-content-padding: 6px 15px 12px;
+
+  /* Callout color aliases */
+  --callout-default: var(--color-definition-rgb);
+  --callout-theorem: var(--color-theorem-rgb);
+  --callout-lemma: var(--color-lemma-rgb);
+  --callout-definition: var(--color-definition-rgb);
+  --callout-proposition: var(--color-proposition-rgb);
+  --callout-corollary: var(--color-corollary-rgb);
+  --callout-example: var(--color-example-rgb);
+  --callout-exercise: var(--color-exercise-rgb);
+  --callout-problem: var(--color-exercise-rgb);
+  --callout-technique: var(--color-technique-rgb);
+
+  --callout-proof: var(--color-proof-rgb);
+  --callout-solution: var(--color-solution-rgb);
+
+  --callout-remark: var(--color-remark-rgb);
+  --callout-proofsketch: var(--color-proofsketch-rgb);
+  --callout-note: var(--color-note-rgb);
+}
+
+/* ================================================================= */
+/*  1. Base Callout Style: Type A Textbook Card                       */
+/* ================================================================= */
+
+.callout {
+  --callout-color: var(--callout-default);
+
+  margin: var(--callout-margin);
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #ffffff;
+  border: 1px solid rgb(var(--callout-color));
+  border-radius: var(--callout-radius);
+  box-shadow: var(--callout-shadow);
+}
+
+.callout-icon {
+  display: none !important;
+}
+
+.callout-title {
+  display: flex;
+  align-items: center;
+
+  min-height: 0 !important;
+  padding: var(--callout-title-padding);
+
+  background-color: rgb(var(--callout-color));
+  color: var(--title-color) !important;
+
+  font-size: 1em;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+.callout-content {
+  overflow-x: auto;
+  padding: var(--callout-content-padding);
+
+  background-color: rgba(var(--callout-color), 0.04);
+  color: var(--text-color) !important;
+
+  font-size: 1em;
+  line-height: var(--line-height-tight) !important;
+}
+
+/* ================================================================= */
+/*  2. Callout Color Binding                                          */
+/* ================================================================= */
+
+.callout[data-callout="theorem"] {
+  --callout-color: var(--callout-theorem);
+}
+
+.callout[data-callout="lemma"] {
+  --callout-color: var(--callout-lemma);
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: var(--callout-definition);
+}
+
+.callout[data-callout="proposition"] {
+  --callout-color: var(--callout-proposition);
+}
+
+.callout[data-callout="corollary"] {
+  --callout-color: var(--callout-corollary);
+}
+
+.callout[data-callout="example"] {
+  --callout-color: var(--callout-example);
+}
+
+.callout[data-callout="exercise"] {
+  --callout-color: var(--callout-exercise);
+}
+
+.callout[data-callout="problem"] {
+  --callout-color: var(--callout-problem);
+}
+
+.callout[data-callout="technique"] {
+  --callout-color: var(--callout-technique);
+}
+
+.callout[data-callout="proof"] {
+  --callout-color: var(--callout-proof);
+}
+
+.callout[data-callout="solution"] {
+  --callout-color: var(--callout-solution);
+}
+
+.callout[data-callout="remark"] {
+  --callout-color: var(--callout-remark);
+}
+
+.callout[data-callout="proofsketch"] {
+  --callout-color: var(--callout-proofsketch);
+}
+
+.callout[data-callout="note"] {
+  --callout-color: var(--callout-note);
+}
+
+/* ================================================================= */
+/*  3. Type B: Proof / Solution                                       */
+/* ================================================================= */
+
+.callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) {
+  margin: 1em 0;
+
+  background-color: transparent;
+  border: none;
+  border-left: 3px solid rgba(var(--callout-color), 0.4);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-title {
+  padding: 2px 15px;
+
+  background-color: transparent;
+  color: #555555 !important;
+
+  font-style: italic;
+}
+
+.callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content {
+  padding: 5px 15px;
+  background-color: transparent;
+}
+
+.callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content::after {
+  content: "∎";
+
+  display: block;
+  margin-top: 5px;
+
+  color: #666666;
+  font-style: normal;
+  text-align: right;
+}
+
+/* ================================================================= */
+/*  4. Type C: Remark / Note / Proofsketch                            */
+/* ================================================================= */
+
+.callout:is(
+  [data-callout="remark"],
+  [data-callout="proofsketch"],
+  [data-callout="note"]
+) {
+  background-color: rgba(var(--callout-color), 0.08) !important;
+  border: none !important;
+  border-left: 5px solid rgb(var(--callout-color)) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.callout:is(
+  [data-callout="remark"],
+  [data-callout="proofsketch"],
+  [data-callout="note"]
+) .callout-title {
+  padding: 10px 15px 0;
+
+  background-color: transparent !important;
+  color: #000000 !important;
+
+  font-style: italic;
+  font-weight: normal;
+}
+
+.callout:is(
+  [data-callout="remark"],
+  [data-callout="proofsketch"],
+  [data-callout="note"]
+) .callout-content {
+  padding: 0 15px 10px;
+  background-color: transparent !important;
+}
+
+/* ================================================================= */
+/*  5. VS Code Markdown Alert Compatibility                           */
+/* ================================================================= */
+
+.markdown-alert .codicon,
+.markdown-alert-title > svg,
+.markdown-alert-title .markdown-alert-icon {
+  display: none !important;
+}
+
+.markdown-alert.markdown-alert-note {
+  --callout-color: var(--color-note-rgb);
+
+  margin: var(--callout-margin);
+  padding: 0 !important;
+
+  background-color: rgba(var(--callout-color), 0.08) !important;
+  border: none !important;
+  border-left: 5px solid rgb(var(--callout-color)) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  display: block;
+
+  margin: 0 !important;
+  padding: 10px 15px 0;
+
+  background-color: transparent !important;
+  color: #000000 !important;
+
+  font-style: italic;
+  font-weight: normal;
+}
+
+.markdown-alert.markdown-alert-note > *:not(.markdown-alert-title) {
+  margin-bottom: 0;
+  padding: 0 15px 10px;
+}
+
+/* ================================================================= */
+/*  6. Text and List Layout                                           */
+/* ================================================================= */
+
+p,
+li {
+  line-height: var(--line-height-tight) !important;
+}
+
+p {
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+.callout-content > :first-child {
+  margin-top: 0 !important;
+}
+
+.callout-content > :last-child {
+  margin-bottom: 0 !important;
+}
+
+.callout-content > p:empty {
+  display: none;
+  margin: 0;
+}
+
+.callout-content ul,
+.callout-content ol {
+  margin-top: -0.8em;
+  margin-bottom: -0.8em;
+  padding-left: 0 !important;
+}
+
+.callout-content > ul:first-child,
+.callout-content > ol:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.callout-content li {
+  margin-bottom: 0.2em;
+}
+
+/* ================================================================= */
+/*  7. Math Formula Enhancement                                       */
+/* ================================================================= */
+
+.katex,
+.mjx-container,
+.MathJax {
+  font-size: 1.15em !important;
+}
+
+/* ================================================================= */
+/*  8. Scrollbar                                                      */
+/* ================================================================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
