@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Failure of Cohomology Axiom.md",
+                "file": "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Failure of Cohomology Axiom.md",
+                "file": "00.Inbox/ex - Degree for Cohomology.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Failure of Cohomology Axiom"
+              "title": "ex - Degree for Cohomology"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Failure of Cohomology Axiom.md",
+                "file": "00.Inbox/ex - Degree for Cohomology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Failure of Cohomology Axiom 的大纲"
+              "title": "ex - Degree for Cohomology 的大纲"
             }
           },
           {
@@ -228,16 +228,18 @@
   },
   "active": "bf3860d786f98d50",
   "lastOpenFiles": [
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
+    "00.Inbox/ex - Degree for Cohomology.md",
+    "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "00.Inbox/AT Hatcher 3.E 3.F.md",
     "20.Cards/Exercises/ex - MV-Cohomology.md",
-    "00.Inbox/ex - Failure of Cohomology Axiom.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.1.md",
     "30.Recources/AT/Obsidian Books/Hatcher Ch2.2 Computations and Applications.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Obsidian Books/Hatcher Ch2.3 The Formal Viewpoint.md",
     "30.Recources/AT/Obsidian Books/Hatcher Ch2.1 Simplicial and Singular Homology.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "20.Cards/Exercises/ex - Cohomology of Torus.md",
     "30.Recources/Petersen Ch7 Ricci Curvature Comparison.md",
     "00.Inbox/Petersen - Riemannian Geometry - Chapter 7 - Ricci Curvature Comparison.md",
@@ -248,7 +250,6 @@
     "30.Recources/AT/Obsidian Books/AT Hatcher - Chapter 3 Additional Topics (3.C-3.E).md",
     "30.Recources/RG/Obsidian Books/Petersen Riemannian Geometry Chapter 6.md",
     "30.Recources/AT/Obsidian Books",
-    "00.Inbox/AT Hatcher 3.E 3.F.md",
     "30.Recources/RG/Obsidian Books",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Hatcher AT 3.C-3.D.md",

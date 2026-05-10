@@ -1,0 +1,32 @@
+---
+type: exercise
+aliases:
+  - Degree for Cohomology
+technique: []
+book: AT Hatcher
+chapter: 3.1
+number: "09"
+category:
+status: todo
+priority:
+tags: []
+---
+> [!exercise] EXERCISE 3.1.9.
+> Show that if $f : S^n \to S^n$ has degree $d$ then $f^* : H^n(S^n; G) \to H^n(S^n; G)$ is multiplication by $d$.
+
+```dataviewjs
+const techs = dv.current().technique;
+if (techs) {
+    const techArray = dv.array(techs);
+    if (techArray.length > 0) {
+        dv.header(3, "Related Techniques");
+        dv.list(
+            dv.pages()
+            .where(p => {
+                return p.aliases && dv.array(p.aliases).some(a => techArray.includes(a));
+            })
+            .file.link
+        )
+    }
+}
+```
