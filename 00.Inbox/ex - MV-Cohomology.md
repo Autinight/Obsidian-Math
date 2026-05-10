@@ -5,9 +5,9 @@ aliases:
 technique: []
 book: AT Hatcher
 chapter: 3.1
-number: "8"
+number: "08"
 category:
-status: todo
+status: done 
 priority:
 tags: []
 ---
@@ -38,7 +38,6 @@ $$ 0\to C_{n}\left(A\right)\to C_{n}\left(X\right)\to C_{n}\left(X;A\right) \to 
 split, we have 
 $$ C_{n}\left(X\right)\simeq C_{n}\left(A\right)\oplus C_{n}\left(X,A\right) $$ 
 
-$$ 0\to \operatorname{Ext} $$ 
 
 
 
