@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/Petersen Ch7 Ricci Curvature Comparison.md",
+                "file": "00.Inbox/ex - Failure of Cohomology Axiom.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,31 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Petersen Ch7 Ricci Curvature Comparison"
-            }
-          },
-          {
-            "id": "f9e19b46f2f3da7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20.Cards/Exercises/ex - Cohomology of Torus.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ex - Cohomology of Torus"
+              "title": "ex - Failure of Cohomology Axiom"
             }
           }
         ],
@@ -229,11 +205,11 @@
   },
   "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
-    "00.Inbox/ex - Failure of Cohomology Axiom.md",
-    "30.Recources/Petersen Ch7 Ricci Curvature Comparison.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "20.Cards/Exercises/ex - Cohomology of Torus.md",
+    "30.Recources/Petersen Ch7 Ricci Curvature Comparison.md",
+    "00.Inbox/ex - Failure of Cohomology Axiom.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "00.Inbox/Petersen - Riemannian Geometry - Chapter 7 - Ricci Curvature Comparison.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
