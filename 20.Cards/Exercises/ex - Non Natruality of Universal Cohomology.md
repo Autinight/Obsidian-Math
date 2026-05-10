@@ -1,11 +1,11 @@
 ---
 type: exercise
 aliases:
-- Non Natruality of Universal Cohomology
+  - Non Natruality of Universal Cohomology
 technique: []
-book:
-chapter:
-number:
+book: AT Hatcher
+chapter: 3.1
+number: "11"
 category:
 status: todo
 priority:

@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -90,7 +90,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Non Natruality of Universal Cohomology"
+              "title": "AT Hatcher 3.2 Cup Product"
             }
           }
         ],
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ex - Non Natruality of Universal Cohomology 的大纲"
+              "title": "AT Hatcher 3.2 Cup Product 的大纲"
             }
           },
           {
@@ -253,7 +253,7 @@
   "active": "18d31b46afe2cb5a",
   "lastOpenFiles": [
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
+    "20.Cards/Exercises/ex - Non Natruality of Universal Cohomology.md",
     "20.Cards/Exercises/ex - Degree for Cohomology.md",
     "00.Inbox/FA - HW7.md",
     "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
