@@ -32,9 +32,15 @@ $$ 0\to H^{n-1}\left(S^{n-1};G\right)\to H^{n}\left(S^{n};G\right)\to 0$$
 得到
 $$ H^{n}\left(S^{n};G\right)\simeq H^{n-1}\left(S^{n-1};G\right)\simeq \cdots \simeq H^{1}\left(S^{1};G\right)\simeq G $$ 
 
-$S^{1}$: $\sigma _1 : \left[ 0,1 \right]\to S^{1}$, $\sigma _1 \left(0\right)= \sigma _1 \left(1\right)$, 
 
-$$ 0\to \operatorname{Ext}\left(\right) $$ 
+If $A$ is a retract of $X$, then 
+$$ 0\to C_{n}\left(A\right)\to C_{n}\left(X\right)\to C_{n}\left(X;A\right) \to 0$$ 
+split, we have 
+$$ C_{n}\left(X\right)\simeq C_{n}\left(A\right)\oplus C_{n}\left(X,A\right) $$ 
+
+$$ 0\to \operatorname{Ext} $$ 
+
+
 
 ```dataviewjs
 const techs = dv.current().technique;
