@@ -8,22 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2828624c868ee0e4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "pdf - AT Hatcher"
-            }
-          },
-          {
             "id": "bcc638d1d6f0f76f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -41,12 +28,12 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "AT Hatcher 3.2 Cup Product"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -202,11 +189,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36c50bf10be88d16",
+  "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "00.Inbox/未命名.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
     "30.Recources/AT/Obsidian Books/Hatcher 3.A-3.B.md",
@@ -232,7 +220,6 @@
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
