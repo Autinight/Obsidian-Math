@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ex - Cup Product Structure for genus-g.md",
+                "file": "30.Recources/HA/傅里叶分析及其应用.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -54,10 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ex - Cup Product Structure for genus-g"
+              "title": "傅里叶分析及其应用"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/HA/傅里叶分析及其应用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "傅里叶分析及其应用 的大纲"
             }
           },
           {
@@ -213,11 +214,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "16dde660adb4a6f4",
   "lastOpenFiles": [
-    "50.Image/PNG/Pasted image 20260511212740.png",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
     "Pasted image 20260511212213.png",
@@ -269,7 +270,6 @@
     "50.Image/PNG/Pasted image 20260507180224.png",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
-    "50.Image/MCD/Narturality of relative Homology 1.svg",
-    "50.Image/MCD/my-diagram.svg"
+    "50.Image/MCD/Narturality of relative Homology 1.svg"
   ]
 }
