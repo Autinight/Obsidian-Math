@@ -16,7 +16,7 @@
               "state": {
                 "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -41,7 +41,7 @@
               "state": {
                 "file": "00.Inbox/ex - Cup Product Structure for genus-g.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -56,8 +56,33 @@
               "icon": "lucide-file",
               "title": "ex - Cup Product Structure for genus-g"
             }
+          },
+          {
+            "id": "8d28fe7087bbd741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/HA/傅里叶分析及其应用.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "傅里叶分析及其应用"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/HA/傅里叶分析及其应用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "傅里叶分析及其应用 的大纲"
             }
           },
           {
@@ -213,12 +238,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bcc638d1d6f0f76f",
+  "active": "8d28fe7087bbd741",
   "lastOpenFiles": [
+    "30.Recources/HA/傅里叶分析及其应用.md",
+    "30.Recources/HA/傅里叶分析及其应用.md",
+    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
-    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/HA/Obsidian Books",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
@@ -243,9 +270,7 @@
     "00.Inbox/references/EMBEDS.md",
     "20.Cards/Exercises/ex - Degree for Cohomology.md",
     "00.Inbox/references/CALLOUTS.md",
-    "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
     "00.Inbox/references",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
