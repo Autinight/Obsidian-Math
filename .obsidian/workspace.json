@@ -37,12 +37,24 @@
             "id": "43a7c68180a9880d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf"
+                "file": "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "pdf - AT Hatcher"
+              "icon": "lucide-file",
+              "title": "HA Pan CH3"
             }
           }
         ],
@@ -143,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+                "file": "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pdf - AT Hatcher 的大纲"
+              "title": "HA Pan CH3 的大纲"
             }
           },
           {
@@ -202,11 +214,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "43a7c68180a9880d",
   "lastOpenFiles": [
-    "30.Recources/HA/未命名",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+    "30.Recources/HA/Obsidian Books",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "00.Inbox/未命名.md",
@@ -233,7 +246,6 @@
     "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
@@ -251,7 +263,6 @@
     "50.Image/Tikz/RAW",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
-    "50.Image/PNG",
     "50.Image/PNG/Pasted image 20260507180224.png",
     "50.Image/MCD/SVG/Narturality of relative Homology.svg",
     "50.Image/Tikz/Cellular Homology Diagram.svg",
