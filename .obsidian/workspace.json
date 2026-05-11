@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+                "file": "00.Inbox/ex - Cup Product Structure for genus-g.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA Pan CH3"
+              "title": "ex - Cup Product Structure for genus-g"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA Pan CH3 的大纲"
+              "title": "AT Hatcher 3.2 Cup Product 的大纲"
             }
           },
           {
@@ -214,13 +213,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "43a7c68180a9880d",
+  "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
-    "30.Recources/HA/Obsidian Books",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "30.Recources/HA/Obsidian Books",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "00.Inbox/未命名.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
