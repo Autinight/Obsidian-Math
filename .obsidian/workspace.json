@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/RG/Obsidian Books/RG Petersen Chapter7 Ricci Curvature Comparison.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RG Petersen Chapter7 Ricci Curvature Comparison"
+              "title": "AT Hatcher 3.2 Cup Product"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/RG/Obsidian Books/RG Petersen Chapter7 Ricci Curvature Comparison.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RG Petersen Chapter7 Ricci Curvature Comparison 的大纲"
+              "title": "AT Hatcher 3.2 Cup Product 的大纲"
             }
           },
           {
@@ -228,10 +228,15 @@
   },
   "active": "bf3860d786f98d50",
   "lastOpenFiles": [
-    "30.Recources/RG/Obsidian Books/RG Petersen Chapter6.md",
+    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
+    "00.Inbox/00.Complished/ex - Non Natruality of Universal Cohomology.md",
+    "00.Inbox/AT Hatcher 3.E 3.F.md",
+    "00.Inbox/references/PROPERTIES.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/RG/Obsidian Books/RG Petersen Chapter7 Ricci Curvature Comparison.md",
+    "30.Recources/RG/Obsidian Books/RG Petersen Chapter6.md",
     "00.Inbox/7.1.5-Segment-Poincare-Sobolev-Inequalities.md",
-    "00.Inbox/ex - Non Natruality of Universal Cohomology.md",
     "00.Inbox/FA - HW7.md",
     "00.Inbox/7.1.1-The-Fundamental-Equations.md",
     "00.Inbox/SKILL.md",
@@ -243,21 +248,15 @@
     "20.Cards/Exercises/ex - Degree for Cohomology.md",
     "00.Inbox/references/CALLOUTS.md",
     "20.Cards/Exercises/ex - Failure of Cohomology Axiom.md",
-    "00.Inbox/AT Hatcher 3.E 3.F.md",
-    "00.Inbox/references/PROPERTIES.md",
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
     "50.Image/MCG/RAW/1.mcg",
