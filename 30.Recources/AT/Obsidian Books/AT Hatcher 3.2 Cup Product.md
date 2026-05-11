@@ -38,7 +38,9 @@ A cup product for simplicial cohomology can be defined by the same formula as fo
 
 > [!example] Example 3.7
 > Let $M$ be the closed orientable surface of genus $g \ge 1$ with the $\Delta$-complex structure shown in the figure for the case $g = 2$. The cup product of interest is $H^1(M) \times H^1(M) \to H^2(M)$. Taking $\mathbb Z$ coefficients, a basis for $H_1(M)$ is formed by the edges $a_i$ and $b_i$, as we showed in Example 2.36 when we computed the homology of $M$ using cellular homology. We have $H^1(M) \approx \operatorname{Hom}(H_1(M), \mathbb Z)$ by cellular cohomology or the universal coefficient theorem. A basis for $H_1(M)$ determines a dual basis for $\operatorname{Hom}(H_1(M), \mathbb Z)$, so dual to $a_i$ is the cohomology class $\alpha_i$ assigning the value $1$ to $a_i$ and $0$ to the other basis elements, and similarly we have cohomology classes $\beta_i$ dual to $b_i$.
->
+> 
+> ![[Pasted image 20260511212229.png]]
+> 
 > To represent $\alpha_i$ by a simplicial cocycle $\varphi_i$ we need to choose values for $\varphi_i$ on the edges radiating out from the central vertex in such a way that $\delta\varphi_i = 0$. This is the ‘cocycle condition’ discussed in the introduction to this chapter, where we saw that it has a geometric interpretation in terms of curves transverse to the edges of $M$. With this interpretation in mind, consider the arc labeled $\alpha_i$ in the figure, which represents a loop in $M$ meeting $a_i$ in one point and disjoint from all the other basis elements $a_j$ and $b_j$. We define $\varphi_i$ to have the value $1$ on edges meeting the arc $\alpha_i$ and the value $0$ on all other edges. Thus $\varphi_i$ counts the number of intersections of each edge with the arc $\alpha_i$. In similar fashion we obtain a cocycle $\psi_i$ counting intersections with the arc $\beta_i$, and $\psi_i$ represents the cohomology class $\beta_i$ dual to $b_i$.
 >
 > Now we can compute cup products by applying the definition. Keeping in mind that the ordering of the vertices of each $2$-simplex is compatible with the indicated orientations of its edges, we see for example that $\varphi_1 \smile \psi_1$ takes the value $0$ on all $2$-simplices except the one with outer edge $b_1$ in the lower right part of the figure,
@@ -589,6 +591,7 @@ Let us conclude this section with an example of a cohomology ring that is not to
 
 > [!exercise] Exercise 1
 > Assuming as known the cup product structure on the torus $S^1 \times S^1$, compute the cup product structure in $H^*(M_g)$ for $M_g$ the closed orientable surface of genus $g$ by using the quotient map from $M_g$ to a wedge sum of $g$ tori, shown below.
+> ![[Pasted image 20260511212740.png]]
 
 > [!exercise] Exercise 2
 > Using the cup product
