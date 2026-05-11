@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/傅里叶分析及其应用.md",
+                "file": "30.Recources/HA/Course HW/HA - HW3.1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "傅里叶分析及其应用"
+              "title": "HA - HW3.1"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/傅里叶分析及其应用.md",
+                "file": "30.Recources/HA/Course HW/HA - HW3.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "傅里叶分析及其应用 的大纲"
+              "title": "HA - HW3.1 的大纲"
             }
           },
           {
@@ -241,7 +241,7 @@
   "active": "8d28fe7087bbd741",
   "lastOpenFiles": [
     "30.Recources/HA/傅里叶分析及其应用.md",
-    "30.Recources/HA/傅里叶分析及其应用.md",
+    "30.Recources/HA/Course HW/HA - HW3.1.md",
     "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
@@ -269,7 +269,6 @@
     "00.Inbox/新建文件夹",
     "00.Inbox/references/EMBEDS.md",
     "20.Cards/Exercises/ex - Degree for Cohomology.md",
-    "00.Inbox/references/CALLOUTS.md",
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
