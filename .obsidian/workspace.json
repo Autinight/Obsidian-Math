@@ -56,8 +56,33 @@
               "icon": "lucide-file",
               "title": "傅里叶分析及其应用"
             }
+          },
+          {
+            "id": "74fbfb806b6fabec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily Draft 2026-03-01"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "Daily Draft 2026-03-01 的大纲"
             }
           },
           {
@@ -213,11 +238,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bcc638d1d6f0f76f",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
+    "40.Drafts/2026-02/Daily Draft 2026-02-25.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-28.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-24.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-23.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-22.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-21.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-14.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-15.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-12.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-11.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
+    "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
@@ -234,20 +272,8 @@
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "00.Inbox/00.Complished/ex - Non Natruality of Universal Cohomology.md",
     "00.Inbox/AT Hatcher 3.E 3.F.md",
-    "00.Inbox/references/PROPERTIES.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
-    "30.Recources/RG/Obsidian Books/RG Petersen Chapter7 Ricci Curvature Comparison.md",
-    "30.Recources/RG/Obsidian Books/RG Petersen Chapter6.md",
-    "00.Inbox/7.1.5-Segment-Poincare-Sobolev-Inequalities.md",
-    "00.Inbox/FA - HW7.md",
-    "00.Inbox/7.1.1-The-Fundamental-Equations.md",
-    "00.Inbox/SKILL.md",
-    "7.1.1-The-Fundamental-Equations.md",
-    "00.Inbox/obsidian-markdown-for-math/SKILL.md",
     "00.Inbox/obsidian-markdown-for-math",
     "00.Inbox/新建文件夹",
-    "00.Inbox/references/EMBEDS.md",
-    "20.Cards/Exercises/ex - Degree for Cohomology.md",
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books",
     "30.Recources/RG/Obsidian Books",
