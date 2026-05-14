@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "AT Hatcher 3.2 Cup Product"
             }
-          },
-          {
-            "id": "16dde660adb4a6f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/HA/傅里叶分析及其应用.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "傅里叶分析及其应用"
-            }
-          },
-          {
-            "id": "74fbfb806b6fabec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW9.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FA - HW9"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +76,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW9.md",
+                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW9 的大纲"
+              "title": "AT Hatcher 3.2 Cup Product 的大纲"
             }
           },
           {
@@ -238,10 +190,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "74fbfb806b6fabec",
+  "active": "bcc638d1d6f0f76f",
   "lastOpenFiles": [
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "30.Recources/RG/Course HW/RG - HW1.md",
+    "30.Recources/HA/傅里叶分析及其应用.md",
+    "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
+    "20.Cards/Exercises/ex - Riemannian Covering and Volume.md",
+    "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
+    "7.1.1-The-Fundamental-Equations.md",
     "30.Recources/FA/Course HW/FA - HW9.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
@@ -258,20 +216,14 @@
     "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
-    "30.Recources/HA/傅里叶分析及其应用.md",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
     "Pasted image 20260511212213.png",
     "30.Recources/HA/Course HW/HA - HW3.1.md",
-    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
     "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
     "30.Recources/HA/Obsidian Books",
-    "00.Inbox/未命名.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher Section 3.1 Cohomology Groups.md",
-    "30.Recources/AT/Obsidian Books/Hatcher 3.A-3.B.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "00.Inbox/obsidian-markdown-for-math",
     "00.Inbox/新建文件夹",
     "00.Inbox/references",
