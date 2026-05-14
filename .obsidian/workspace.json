@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "AT Hatcher 3.2 Cup Product"
             }
+          },
+          {
+            "id": "923d4da38f912edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/FA/Course HW/FA - HW9.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA - HW9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +101,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+                "file": "30.Recources/FA/Course HW/FA - HW9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AT Hatcher 3.2 Cup Product 的大纲"
+              "title": "FA - HW9 的大纲"
             }
           },
           {
@@ -190,8 +214,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bcc638d1d6f0f76f",
+  "active": "923d4da38f912edc",
   "lastOpenFiles": [
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
@@ -199,7 +224,6 @@
     "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
     "7.1.1-The-Fundamental-Equations.md",
     "30.Recources/FA/Course HW/FA - HW9.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-01.md",
