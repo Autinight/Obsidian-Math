@@ -59,6 +59,60 @@
 > \frac{1}{p}+\frac{1}{q}=1,\qquad 1\leq p<\infty.
 > $$
 
+> [!proof] Proof: 
+> **先考虑$1< p< \infty$**, 则$1< q< \infty$.
+> 对于任意的$a= \left(a_{n}\right)\in \ell ^{q}$, 定义
+> $$ F_{a}\left(x\right)= \sum _{n = 1}^{\infty}x_{n}a_{n},\quad x= \left(x_{n}\right)\in \ell ^{p} $$ 
+> 由Hölder不等式, 
+> $$ \left| F_{a}\left(x\right) \right|\le \sum _{n = 1}^{\infty}\left| x_{n} \right|\left| a_{n} \right|\le \left\| x \right\|_{p}\left\| a \right\|_{q}    $$ 
+> 故$F_{a}\in \left(\ell ^{p}\right)^{*}$, 并且
+> $$ \left\| F_{a} \right\|\le \left\| a \right\|_{q} $$ 
+> 反过来, 任取$F\in \left(\ell ^{p}\right)^{*}$
+> 令
+> $$ a_{n}= F\left(e_{n}\right) $$ 
+> 对于每个$N$, 取有限序列
+> $$ x_{n}^{\left(N\right)}= \begin{cases} a_{n}\left| a_{n} \right| ^{q-2},&1\le n\le N\\0,&n> N \end{cases}  $$ 
+> 则
+> $$ F\left(x^{\left(N\right)}\right) = \sum _{n = 1}^{N}x_{n}^{\left(N\right)}a_{n}= \sum _{n = 1}^{N}\left| a_{n} \right| ^{q}$$ 
+> 又
+> $$ \left\| x^{\left(N\right)} \right\|_{p}= \left(\sum _{n = 1}^{N}\left| a_{n} \right|^{\left(q-1\right)p} \right)^{\frac{1}{p}}= \left(\sum _{n = 1}^{N}\left| a_{n} \right|^{q} \right)^{\frac{1}{p}} $$ 
+> 于是
+> $$ \left| F\left(x_{n}^{\left(N\right)}\right) \right|=   \sum _{n = 1}^{N}\left| a_{n} \right| ^{q} \le \left\| F \right\|\left\| x^{\left(N\right)} \right\|_{p}= \left\| F \right\|\left(\sum _{n = 1}^{N}\left| a_{n} \right| ^{q}\right)^{\frac{1}{p}}$$ 
+> 我们得到
+> $$ \left(\sum _{n = 1}^{N}\left| a_{n} \right| ^{q}\right) ^{\frac{1}{p}}\le \left\| F \right\|$$ 
+> 对于任意的$N$成立, 因此
+> $$ \left(\sum _{n = 1}^{\infty}\left| a_{n} \right| ^{q}\right) ^{\frac{1}{q}}\le \left\| F \right\|$$ 
+> 即
+> $$ a\in \ell ^{q},\quad \left\| a \right\|_{q}\le \left\| F \right\| $$ 
+> 由于有限序列在$\ell ^{p}$稠密, 且$F$与$F_{a}$在有限序列上一致, 因此
+> $$ F= F_{a} $$ 
+> 结合前面的结论, 得到
+> $$ \left\| F_{a} \right\|= \left\| a \right\|_{q} $$
+> 
+> **当$p= 1$** 时, 此时$q= \infty$
+> 对于$a= \left(a_{n}\right)\in \ell ^{p\infty}$, 定义
+> $$ F_{a}\left(x\right)= \sum _{n = 1}^{\infty}x_{n}a_{n},\quad x\in \ell ^{1} $$ 
+> 则
+> $$ \left| F_{a}\left(x\right) \right|\le \left\| a \right\|_{\infty}\left\| x \right\|_{1}  $$ 
+> 故
+> $$ \left\| F_{a} \right\|\le \left\| a \right\|_{\infty} $$ 
+> 反过来, 设
+> $$ F\in \left(\ell ^{1}\right)^{*} $$ 
+> 令
+> $$ a_{n}= F\left(e_{n}\right) $$ 
+> 由于
+> $$ \left| a_{n} \right| = \left| F\left(e_{n}\right) \right|\le \left\| F \right\|\left\| e_{n} \right\|_{1}= \left\| F \right\|  $$ 
+> 故
+> $$ \sup _{n}\left| a_{n} \right| \le \left\| F \right\| $$ 
+> 即$\left\| a \right\|_{\infty}\le F$
+> 对于有限序列 $x$, 同样
+> $$ F\left(x\right)= \sum _{n = 1}^{\infty}x_{n}a_{n}= F_{a}\left(\right) $$ 
+> 有限序列在$\ell ^{1}$稠密, 故
+> $$ F= F_{a} $$ 
+> 因此
+> $$ \left\| F \right\|= \left\| a \right\|_{\infty} $$ 
+> $a\mapsto F_{a}$是等距同构.
+
 > [!exercise] 3
 > 证明
 > $$
