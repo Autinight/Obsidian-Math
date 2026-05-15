@@ -1,3 +1,4 @@
+代靖涵 25120222201319
 > [!exercise] 1
 > 证明
 > $$
@@ -123,3 +124,40 @@
 > c_0=\left\{x=\{\xi_n\}\in c\mid \lim_{n\to\infty}\xi_n=0\right\}
 > $$
 > 是 $c$ 的子空间。
+
+> [!proof] Proof: 
+> 对于任意的$a= \left(a_{n}\right)\in \ell ^{1}$, 定义
+> $$ f_{a}\left(x\right) =  \sum _{n = 1}^{\infty}a_{n}\xi _{n},\quad x= \left(\xi _{n}\right)\in c_0 $$ 
+> 则
+> $$ \left| f_{a}\left(x\right) \right|\le \left\| a \right\|_{1}\left\| x \right\|_{\infty}  $$ 
+> $f_{a}\in \left(c_0\right)^{*}$, 并且
+> $$ \left\| f_{a} \right\|\le \left\| a \right\|_{1} $$ 
+> 反过来, 任取$f\in \left(c_0\right)^{*}$, 令
+> $$ a_{n}= f\left(e_{n}\right) $$ 
+> 定义有限序列$x^{\left(N\right)}$, 
+> $$ x_{n}^{\left(N\right)}= \begin{cases} \frac{a_{n} }{\left| a_{n} \right|  }, & n\le N\\0,&n> N \end{cases}  $$ 
+> 则
+> $$ \left\| x^{\left(N\right)} \right\|_{\infty}\le 1 $$ 
+> 于是
+> $$ \sum _{n = 1}^{N}\left| a_{n} \right| = \left| f\left(x^{\left(N\right)}\right) \right| \le \left\| f \right\| $$ 
+> 对于任意的$N$成立, 于是
+> $$ \sum _{n = 1}^{\infty}\left| a_{n} \right| \le \left\| f \right\| $$ 
+> 即$a\in \ell ^{1}$, $\left\| a \right\|_{1}\le \left\| f \right\|$
+> 对于有限序列$x$, 我们有
+> $$ f\left(x\right)= f_{a}\left(x\right) $$ 
+> 又有限序列在$c_0$中稠密, 于是
+> $$ f= f_{a} $$ 
+> 因此$\left(c_0\right)^{*}\simeq \ell ^{1}$
+> 
+> **再来看$c$**, 对于$x= \left(\xi _{n}\right)\in c$, 记
+> $$ \xi _{\infty}= \lim_{n\to \infty}\xi _{n} $$ 
+> 则每个$x\in c$唯一分解为
+> $$ x= \left(x-\xi _{\infty} \mathbf{1} \right) + \xi _{\infty} \mathbf{1}$$ 
+> 其中
+> $x-\xi _{\infty} \mathbf{1}\in c_0$
+> 故
+> $$ c= c_0\oplus \mathbb{R} \mathbf{1} $$
+> 而
+> $$ \ell ^{1}\oplus  \mathbb{R} \simeq \ell ^{1} $$  
+> 故
+> $$ c^{*}\simeq \left(c_0\right)^{*}\simeq \ell ^{1} $$ 
