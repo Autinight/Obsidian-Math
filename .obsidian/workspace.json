@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/FA_Liu_obsidian.md",
+                "file": "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -54,11 +54,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Liu_obsidian"
+              "title": "chnt - RG Petersen Ch05"
+            }
+          },
+          {
+            "id": "8964e06bff142fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "chnt - AT Hatcher Ch3.1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/FA_Liu_obsidian.md",
+                "file": "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Liu_obsidian 的大纲"
+              "title": "chnt - AT Hatcher Ch3.1 的大纲"
             }
           },
           {
@@ -214,12 +238,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "923d4da38f912edc",
+  "active": "8964e06bff142fdc",
   "lastOpenFiles": [
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
-    "30.Recources/FA/FA_Liu_obsidian.md",
-    "30.Recources/FA/Course HW/FA - HW9.md",
+    "00.Inbox/ex - Cup Product Structure for genus-g.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
+    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
+    "20.Cards/Exercises/ex - Homology of Suspension.md",
+    "30.Recources/FA/Course HW/FA - HW9.md",
+    "30.Recources/FA/Course HW/FA - HW8.md",
+    "30.Recources/FA/FA_Liu_obsidian.md",
+    "30.Recources/AT/Obsidian Books/AT Hatcher 3.3 Poincare Duality.md",
     "30.Recources/RG/Course HW/RG - HW1.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/RG/Petersen Ex/RG Petersen - Ex - Ch05.md",
@@ -234,14 +266,6 @@
     "40.Drafts/2026-02/Daily Draft 2026-02-23.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-22.md",
     "40.Drafts/2026-02/Daily Draft 2026-02-21.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-14.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-15.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-12.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-11.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-10.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-06.md",
-    "40.Drafts/2026-02/Daily Draft 2026-02-01.md",
-    "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
