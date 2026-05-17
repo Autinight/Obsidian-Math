@@ -1,3 +1,4 @@
+代靖涵 25120222201319
 > [!exercise] 4.15
 > 设 $M=\mathbb{R}^2\setminus\{0\}$，命
 > $$
@@ -100,6 +101,11 @@
 > \int_{S^2(r_0)}\omega=4\pi.
 > $$
 
+> [!proof] Proof: 
+>  $$ \begin{aligned} \omega|_{S^{2}\left(r_0\right)}&= \frac{1 }{r_0^{3} }\left(x\,d y\wedge \,d z+ y\,d z\wedge \,d x+ z\,d x\wedge \,d y\right)|_{S^{2}\left(r_0\right)}\\&= \frac{1 }{r_0^{3} } d\left(\,d x\wedge \,d y\wedge \,d z\right)|_{S^{2}\left(r_0\right)} \end{aligned} $$ 
+>  由Stokes定理
+>  $$ \begin{aligned} \int _{S^{2}\left(r_0\right)}\omega = \frac{1 }{r_0^{3} }\int _{S^{2}\left(r_0\right)}d\left(\,d x\wedge \,d y\wedge \,d z\right)= \frac{1 }{r_0^{3} }\int _{B\left(r_0\right)}\,d x\wedge \,d y\wedge \,d z&= \frac{1 }{r_0^{3} }4\pi \left(r_0^{3}\right) \\&= 4\pi \end{aligned}$$ 
+
 > [!exercise] 4.18
 > 设
 > $$
@@ -115,3 +121,26 @@
 > \end{aligned}
 > $$
 > 验证：$d\alpha=\omega$。
+
+> [!proof] Proof: 
+> 令
+> $$ P= \left(\int _{0}^{1}tA\left(tx,ty,tz\right)\,d t\right) $$ 
+> $Q,R$ 类似. 则
+> $$ \begin{aligned} \alpha &= \left(Qz-Ry\right)\,d z+ \left(Rx-Pz\right)\,d y+ \left(Py-Qx\right)\,d z \end{aligned} $$ 
+> 则
+> $$ \begin{aligned} \,d \alpha &= \,d \left(Qz-Ry\right)\wedge \,d z+ d\left(Rx-Pz\right)\wedge \,d y+ d\left(Py-Qx\right)\wedge \,d z\\&= \left(P_{y}y+ P_{z}z+ 2P-xQ_{y}-xR_{z}\right)\,d y\wedge \,d z\\&+ \left(xQ_{x}+ zQ_{z}+ 2Q-yP_{x}-yR_{z}\right)\,d z\wedge \,d x\\&+ \left(xR_{x}+ yR_{y}+ 2R-zP_{x}-zQ_{y}\right)\,d x\wedge \,d y\end{aligned} $$ 
+> 令$g\left(t\right)= A\left(tx,ty,tz\right)$, 则$g^{\prime} \left(t\right)= xA_{x}+ yA_{y}+ zA_{z}$
+> 于是
+> $$ xP_{x}+ yP_{y}+ zP_{z}= \int _{0}^{1}t^{2}g^{\prime} \left(t\right)\,d t=  A-2P$$ 
+> 同理
+> $$ xQ_{x}+ yQ_{y}+ zQ_{z}= B-2Q,\quad xR_{x}+ yR_{y}+ zR_{z}= C-2R $$ 
+> $$ P_{y}y+ P_{z}z+ 2P= \left(A-2P-xP_{x}\right)+ 2P= A-xP_{x} $$ 
+> 于是
+> $dy\wedge dz$的系数化为
+> $$ A-x\left(P_{x}+ Q_{y}+ R_{z}\right) $$ 
+> 其他类似. 由
+> $$ d\omega = 0 \implies A_{x}+ B_{y}+ C_{z}= 0$$
+> 可得
+> $$ P_{x}+ Q_{y}jwR_{z}= \int _{0}^{1}t^{2}\left(A_{x}+ B_{y}+ C_{z}\right)\left(tx,ty,tz\right)\,d t= 0 $$  
+> 因此
+> $$ d\alpha = A\,d y\wedge \,d z+ B\,d z\wedge \,d x+ C\,d x\wedge \,d y= \omega  $$ 
