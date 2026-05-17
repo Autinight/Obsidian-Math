@@ -55,7 +55,21 @@
 > 3. 证明：在 (2) 的情况下，$\omega$ 仍然不是恰当微分式。
 
 > [!proof] Proof: 
-> $$ \begin{aligned}& \left(-1\right)^{i+ 1}d\left(\frac{x^{i} }{\left\| x \right\|^{m} }\,d x^{1}\wedge \cdots \wedge  \widehat{dx^{i}}\wedge \cdots \wedge \,d x^{n}\right)\\&=  \end{aligned} $$ 
+> 1. $$ \begin{aligned}& \left(-1\right)^{i+ 1}d\left(\frac{x^{i} }{\left\| x \right\|^{m} }\,d x^{1}\wedge \cdots \wedge  \widehat{dx^{i}}\wedge \cdots \wedge \,d x^{n}\right)\\&=\left(-1\right)^{i+ 1} d\left(\frac{x^{i} }{ \left\| x \right\|^{m}}\right)\wedge \,d x^{2}\wedge \cdots \wedge \widehat{dx^{i}}\wedge \cdots \wedge dx^{n}\end{aligned} $$ 
+> 
+>    $$ \begin{aligned} d\left(\left\| x \right\|^{m}\right) &= d\left(\left(\left\| x \right\|^{2}\right)^{\frac{m }{2 }}\right)= \frac{m }{2 }\left(\left\| x \right\|^{2}\right)^{\frac{m}{2}-1}d\left(\left\| x \right\|^{2}\right)\\&=m \left\| x \right\|^{m-2}\sum _{i}x^{i}\,d x^{i} \end{aligned}$$ 
+>    
+>    $$ \begin{aligned} \begin{aligned} d\left(\frac{x^{i} }{\left\| x \right\|^{m} }\right) &= \frac{\left\| x \right\|^{m}\,d x^{i}- x^{i}\,d \left\| x \right\|^{m} }{ \left\| x \right\|^{2m}}\\&= \frac{dx^{i} }{\left\| x \right\|^{m} }- \frac{mx^{i}\left\| x \right\|^{m-2} \sum _{j}x^{j}\,d x^{i}}{\left\| x \right\|^{2m} }\\&= \frac{dx^{i} }{ \left\| x \right\|^{m}}-\frac{mx^{i}\sum _{i}x^{j}\,d x^{j}}{ \left\| x \right\|^{m+ 2}}\\&= \frac{dx^{i} }{\left\| x \right\|^{m} }-\frac{x^{i}A }{ \left\| x \right\|^{m+ 2}} \end{aligned}\end{aligned}$$ 
+>    其中
+>    $$ A= m\sum _{j}x^{j}\,d x^{j} $$ 
+>    注意到
+>    $$ \begin{aligned} A\wedge \left(dx^{1}\wedge \cdots \wedge \widehat{dx^{i}}\wedge \cdots \wedge dx^{n}\right)&= 2x^{i}\,d x^{i}\left(\,d x^{1}\wedge \cdots \wedge \widehat{dx^{i}}\wedge \,d x^{n}\right)\\&= \left(-1\right) ^{i-1}m x^{i}\,d x^{1}\wedge \cdots \wedge \,d x^{n}\end{aligned} $$ 
+>     全部带入, 我们有
+>      $$ \begin{aligned}& \left(-1\right)^{i+ 1} d\left(\frac{x^{i} }{\left\| x \right\|^{m} }\,d x^{1}\wedge \cdots \wedge \widehat{dx^{i}}\wedge \cdots \wedge dx^{n}\right)\\&=\left(-1\right)^{i+ 1}\frac{1 }{ \left\| x \right\|^{m}}dx^{i}\wedge \left(dx^{1}\wedge \cdots \wedge \widehat{dx^{i}}\wedge \cdots \wedge dx^{n}\right)\\&-\frac{m\left(x^{i}\right)^{2} }{\left\| x \right\|^{m+ 2} }\,d x^{1}\wedge \cdots \wedge \,d x^{n}\\&= \left(\frac{1 }{\left\| x \right\|^{m} }-\frac{m\left(x^{i}\right) ^{2}}{\left\| x \right\|^{m+ 2} }\right)\,d x^{1}\wedge \cdots \wedge \,d x^{n}\end{aligned}$$ 
+>    对$i$求和, 得到
+>    $$ d\omega = \left(\frac{n }{\left\| x \right\|^{m} }-\frac{m }{\left\| x \right\|^{m} }\right) \,d x^{1}\wedge \cdots \wedge \,d x^{n}$$ 
+> 2. 若要使得$\omega$成为闭形式, 只需要
+    取 $m= n$即可.
 
 > [!exercise] 4.17
 > 在 $\mathbb{R}^3\setminus\{0\}$ 中定义 $2$ 次外微分式
