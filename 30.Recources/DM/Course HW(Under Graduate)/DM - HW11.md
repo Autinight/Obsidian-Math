@@ -69,7 +69,10 @@
 >    对$i$求和, 得到
 >    $$ d\omega = \left(\frac{n }{\left\| x \right\|^{m} }-\frac{m }{\left\| x \right\|^{m} }\right) \,d x^{1}\wedge \cdots \wedge \,d x^{n}$$ 
 > 2. 若要使得$\omega$成为闭形式, 只需要
-    取 $m= n$即可.
+>    取 $m= n$即可.
+> 3. 令$A= B_{1}\setminus B_{\varepsilon}$是一个环状区域. 
+>    若$\omega$是恰当的, 则存在$\eta$使得$\omega = d \det a$. 由Stokes定理
+>    $$ \int _{A}\omega $$ 
 
 > [!exercise] 4.17
 > 在 $\mathbb{R}^3\setminus\{0\}$ 中定义 $2$ 次外微分式
