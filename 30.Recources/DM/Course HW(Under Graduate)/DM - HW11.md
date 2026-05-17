@@ -70,9 +70,15 @@
 >    $$ d\omega = \left(\frac{n }{\left\| x \right\|^{m} }-\frac{m }{\left\| x \right\|^{m} }\right) \,d x^{1}\wedge \cdots \wedge \,d x^{n}$$ 
 > 2. 若要使得$\omega$成为闭形式, 只需要
 >    取 $m= n$即可.
-> 3. 令$A= B_{1}\setminus B_{\varepsilon}$是一个环状区域. 
->    若$\omega$是恰当的, 则存在$\eta$使得$\omega = d \det a$. 由Stokes定理
->    $$ \int _{A}\omega $$ 
+> 3.  若$\omega$是恰当的, 则存在$\eta$使得$\omega = d \eta$. 由Stokes定理
+>     $$ \int _{S^{n-1}}  \omega = \int _{S^{n-1}} d \eta =  \int _{\partial S^{n-1}} \eta = \int _{\varnothing} \eta = 0$$ 
+>     $S^{n-1}$的单位外法向为
+>     $$ \partial _{r}= \sum _{i}\left(-1\right) ^{n+ 1}x^{i}\frac{\partial }{\partial x^{i}}$$ 
+>     而
+>     $$ \omega = \iota _{\partial _{r}}\left(\,d x^{1}\wedge \cdots \wedge \,d x^{n}\right) = \sum _{i}\left(-1\right)^{n+ 1}x^{i}\,d x^{1}\wedge \cdots \widehat{dx^{i}}\wedge \cdots \,d x^{n}$$ 
+>     因此$\omega$恰好是$S^{n-1}$的标准体积形式. 我们有
+>    $$ \int _{S^{n-1}}\omega = \operatorname{Vol}\left(S^{n-1}\right)\neq 0 $$ 
+>    矛盾.
 
 > [!exercise] 4.17
 > 在 $\mathbb{R}^3\setminus\{0\}$ 中定义 $2$ 次外微分式
