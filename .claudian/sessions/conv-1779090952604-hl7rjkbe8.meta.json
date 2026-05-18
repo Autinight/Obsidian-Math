@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779090952604-hl7rjkbe8",
+  "providerId": "claude",
+  "title": "把被嵌套进去的proof和solution拿出去",
+  "createdAt": 1779090952604,
+  "updatedAt": 1779091916040,
+  "lastResponseAt": 1779091916040,
+  "sessionId": "8b5510ae-79be-40da-81be-d2f3dfcd4868",
+  "providerState": {
+    "providerSessionId": "8b5510ae-79be-40da-81be-d2f3dfcd4868"
+  },
+  "currentNote": "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 1044,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 65280,
+    "contextWindow": 200000,
+    "contextTokens": 66324,
+    "percentage": 33,
+    "contextWindowIsAuthoritative": true
+  }
+}

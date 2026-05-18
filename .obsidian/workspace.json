@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2be279a1cf250add",
+        "id": "5ecb942c4b96794a",
         "type": "tabs",
         "children": [
           {
-            "id": "8964e06bff142fdc",
+            "id": "c7f6feee8d9f3125",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/傅里叶分析及其应用.md",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "傅里叶分析及其应用"
-            }
-          },
-          {
-            "id": "2f0a4b7f813bc7f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/HA/Course HW/HA - HW3.2.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HA - HW3.2"
+              "title": "MA-Pei-Ch3"
             }
           }
         ]
@@ -87,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"10.Atlas/RG/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +74,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/傅里叶分析及其应用.md",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "傅里叶分析及其应用 的大纲"
+              "title": "MA-Pei-Ch3 的大纲"
             }
           },
           {
@@ -200,11 +177,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +198,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8964e06bff142fdc",
+  "active": "f8c717c24a5cf7c6",
   "lastOpenFiles": [
+    "20.Cards/Theorems/thm - the Exact Sequence of Normal Covering.md",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "10.Atlas/AT/Atlas - Basic Topology.canvas",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
+    "00.Inbox/ex - Cup Product Structure for genus-g.md",
+    "00.Inbox/FA - HW7.md",
+    "30.Recources/MA/MA-Pei/sedXo2FuC",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch2.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
     "30.Recources/HA/Course HW/HA - HW3.2.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
@@ -231,11 +219,6 @@
     "Pasted image 20260518140734.png",
     "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch2.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075175753",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075112015",
     "30.Recources/PDE/Evans - Ch6.md",
@@ -251,9 +234,6 @@
     "20.Cards/Exercises/ex - Torsion Free Connection for Lie Group.md",
     "20.Cards/Exercises/ex - Orthonormal Frame with Connection Vanish at a Point.md",
     "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
-    "20.Cards/Exercises/ex - Homology of Suspension.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
@@ -263,7 +243,6 @@
     "00.Inbox/obsidian-markdown-for-math",
     "00.Inbox/新建文件夹",
     "00.Inbox/references",
-    "30.Recources/AT/Obsidian Books",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
@@ -272,8 +251,6 @@
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG/Pasted image 20260507180224.png",

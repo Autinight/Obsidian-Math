@@ -32,102 +32,94 @@
 > $$
 >
 > 在 $[0,1]$ 上处处不可微。
+
+
+> [!solution]- 解
+>  1.  $\displaystyle\lim_{x\to 0}\left|\frac{f(x)-f(0)}{x}-f'(0)\right|=0\;\Rightarrow\;\frac{f(x)-f(0)}{x}-f'(0)=o(1)\;(x\to 0)$ 
+>      $\Rightarrow\; f(x)=f(0)+f'(0)x+o(1)\cdot x$。     
+>      现在 $f(0)=0$，$f'(0)=A$，故     
+>      $$
+>      f\!\left(\frac{k}{n^2}\right)=f(0)+f'(0)\frac{k}{n^2}+o(1)\cdot\frac{k}{n^2}=\frac{k}{n^2}(A+o(1))\quad(n\to\infty).
+>      $$     
+>      因此     
+>      $$
+>      \sum_{k=1}^n f\!\left(\frac{k}{n^2}\right)=\sum_{k=1}^n\frac{k}{n^2}(A+o(1))=\frac{n+1}{2n}(A+o(1))\quad(n\to\infty).
+>      $$     
+>      取极限得     
+>      $$
+>      \lim_{n\to\infty}\sum_{k=1}^n f\!\left(\frac{k}{n^2}\right)=\frac{A}{2}.
+>      $$
+>      > [!remark] 注
+>      > 补充条件，有另解，见例3.3.20。
 >
-> > [!solution]- 解
-> > 1) $\displaystyle\lim_{x\to 0}\left|\frac{f(x)-f(0)}{x}-f'(0)\right|=0\;\Rightarrow\;\frac{f(x)-f(0)}{x}-f'(0)=o(1)\;(x\to 0)$
-> >
-> > $\Rightarrow\; f(x)=f(0)+f'(0)x+o(1)\cdot x$。
-> >
-> > 现在 $f(0)=0$，$f'(0)=A$，故
-> >
-> > $$
-> > f\!\left(\frac{k}{n^2}\right)=f(0)+f'(0)\frac{k}{n^2}+o(1)\cdot\frac{k}{n^2}=\frac{k}{n^2}(A+o(1))\quad(n\to\infty).
-> > $$
-> >
-> > 因此
-> >
-> > $$
-> > \sum_{k=1}^n f\!\left(\frac{k}{n^2}\right)=\sum_{k=1}^n\frac{k}{n^2}(A+o(1))=\frac{n+1}{2n}(A+o(1))\quad(n\to\infty).
-> > $$
-> >
-> > 取极限得
-> >
-> > $$
-> > \lim_{n\to\infty}\sum_{k=1}^n f\!\left(\frac{k}{n^2}\right)=\frac{A}{2}.
-> > $$
->
-> > [!remark] 注
-> > 补充条件，有另解，见例3.3.20。
->
-> 2) 因 $R(x)$ 在有理点不连续 (例2.1.1)，故 $R(x)$ 在有理点上不可微，现只需证明无理点的情况。
->
-> 设 $x_0\in(0,1)$ 为任一无理点，则 $x$ 沿无理点的点列 $\{x_n\}$ 趋向 $x_0$ 时，
->
-> $$
-> \lim_{n\to\infty}\frac{R(x_n)-R(x_0)}{x_n-x_0}=\lim_{n\to\infty}\frac{0}{x_n-x_0}=0.
-> $$
->
-> 现只要证明沿某个有理点的点列 $\{x'_n\}$ 趋向 $x_0$ 时，上述极限不为零即可。
->
-> 因 $x_0$ 为无理数，可用无限不循环小数表示，$x_0=0.\alpha_1\alpha_2\ldots\alpha_n\ldots$。截取前 $n$ 位小数，令 $x'_n=0.\alpha_1\alpha_2\ldots\alpha_n$，则 $\{x'_n\}$ 是趋向 $x_0$ 的有理数列。注意 $\{\alpha_i\}_{i=1}^\infty$ 有无穷多项不为零！记第一个不为零的下标为 $N$，按 $R(x)$ 的定义，当 $n>N$ 时，有 $R(x'_n)=R(0.\alpha_1\alpha_2\ldots\alpha_n)>1/10^n$。故
->
-> $$
-> \left|\frac{R(x'_n)-R(x_0)}{x'_n-x_0}\right|=\frac{R(0.\alpha_1\alpha_2\ldots\alpha_n)}{0.00\ldots0\alpha_{n+1}\alpha_{n+2}\ldots}\geq 1.
-> $$
->
-> 即 $\displaystyle\lim_{n\to\infty}\frac{R(x'_n)-R(x_0)}{x'_n-x_0}\neq 0$。证毕。
+> 2.  因 $R(x)$ 在有理点不连续 (例2.1.1)，故 $R(x)$ 在有理点上不可微，现只需证明无理点的情况。
+>     设 $x_0\in(0,1)$ 为任一无理点，则 $x$ 沿无理点的点列 $\{x_n\}$ 趋向 $x_0$ 时，
+>    
+>     $$
+>     \lim_{n\to\infty}\frac{R(x_n)-R(x_0)}{x_n-x_0}=\lim_{n\to\infty}\frac{0}{x_n-x_0}=0.
+>     $$
+>    
+>     现只要证明沿某个有理点的点列 $\{x'_n\}$ 趋向 $x_0$ 时，上述极限不为零即可。
+>    
+>     因 $x_0$ 为无理数，可用无限不循环小数表示，$x_0=0.\alpha_1\alpha_2\ldots\alpha_n\ldots$。截取前 $n$ 位小数，令 $x'_n=0.\alpha_1\alpha_2\ldots\alpha_n$，则 $\{x'_n\}$ 是趋向 $x_0$ 的有理数列。注意 $\{\alpha_i\}_{i=1}^\infty$ 有无穷多项不为零！记第一个不为零的下标为 $N$，按 $R(x)$ 的定义，当 $n>N$ 时，有 $R(x'_n)=R(0.\alpha_1\alpha_2\ldots\alpha_n)>1/10^n$。故
+>    
+>     $$
+>     \left|\frac{R(x'_n)-R(x_0)}{x'_n-x_0}\right|=\frac{R(0.\alpha_1\alpha_2\ldots\alpha_n)}{0.00\ldots0\alpha_{n+1}\alpha_{n+2}\ldots}\geq 1.
+>     $$
+>    
+>     即 $\displaystyle\lim_{n\to\infty}\frac{R(x'_n)-R(x_0)}{x'_n-x_0}\neq 0$。证毕。
 
 > [!exercise] 练习
 > 假设函数 $h(x)$ 为处处不可导的连续函数 (注 此种函数有经典范例，见例5.2.49)，以此为基础构造连续函数 $f(x)$，使 $f(x)$ 仅仅在两点可导，并说明理由。(浙江大学)
->
-> > [!hint]- 提示
-> > 例如，$f(x)=(x-a)(x-b)h(x)$。(可用导数定义和连续函数的运算性质说明。)
+
+> [!hint]- 提示
+>  例如，$f(x)=(x-a)(x-b)h(x)$。(可用导数定义和连续函数的运算性质说明。)
 
 > [!example] 例3.1.2
 > 证明：$f(x)=|x|^3$ 在 $x=0$ 处的三阶导数 $f'''(0)$ 不存在。
+
+> [!proof]- 证
+> $f(x)=|x|^3=\mathrm{sgn}\,x\cdot x^3$，因此
 >
-> > [!proof]- 证
-> > $f(x)=|x|^3=\mathrm{sgn}\,x\cdot x^3$，因此
-> >
-> > $$
-> > f'(x)=3\,\mathrm{sgn}\,x\cdot x^2=3x|x|\quad(x\neq 0\text{时}),
-> > $$
-> > $$
-> > f'(0)=\lim_{x\to 0}\frac{f(x)-f(0)}{x-0}=\lim_{x\to 0}\frac{\mathrm{sgn}\,x\cdot x^3}{x}=0.
-> > $$
-> >
-> > $$
-> > f''(x)=(3\,\mathrm{sgn}\,x\cdot x^2)'=6\cdot\mathrm{sgn}\,x\cdot x=6|x|\quad(x\neq 0\text{时}),
-> > $$
-> > $$
-> > f''(0)=\lim_{x\to 0}\frac{f'(x)-f'(0)}{x-0}=\lim_{x\to 0}\frac{3x|x|}{x}=0.
-> > $$
-> >
-> > $$
-> > f'''_+(0)=\lim_{x\to 0+}\frac{f''(x)-f''(0)}{x-0}=\lim_{x\to 0+}\frac{6\,\mathrm{sgn}\,x\cdot x}{x}=6,
-> > $$
-> >
-> > 而 $f'''_-(0)=-6$，所以 $f'''(0)$ 不存在。
+> $$
+> f'(x)=3\,\mathrm{sgn}\,x\cdot x^2=3x|x|\quad(x\neq 0\text{时}),
+> $$
+> $$
+> f'(0)=\lim_{x\to 0}\frac{f(x)-f(0)}{x-0}=\lim_{x\to 0}\frac{\mathrm{sgn}\,x\cdot x^3}{x}=0.
+> $$
+>
+> $$
+> f''(x)=(3\,\mathrm{sgn}\,x\cdot x^2)'=6\cdot\mathrm{sgn}\,x\cdot x=6|x|\quad(x\neq 0\text{时}),
+> $$
+> $$
+> f''(0)=\lim_{x\to 0}\frac{f'(x)-f'(0)}{x-0}=\lim_{x\to 0}\frac{3x|x|}{x}=0.
+> $$
+>
+> $$
+> f'''_+(0)=\lim_{x\to 0+}\frac{f''(x)-f''(0)}{x-0}=\lim_{x\to 0+}\frac{6\,\mathrm{sgn}\,x\cdot x}{x}=6,
+> $$
+>
+> 而 $f'''_-(0)=-6$，所以 $f'''(0)$ 不存在。
 
 > [!example] 例3.1.3
 > 设 $p(x)=x$，$q(x)=1-x$，$f(x)$ 为多项式，$f(x)\geq p(x)$，$f(x)\geq q(x)$ ($\forall x\in(-\infty,+\infty)$)，试证：$f(1/2)>1/2$。
+
+> [!proof]- 证
+> 已知 $f(1/2)\geq p(1/2)=1/2$，现证 $f(1/2)>1/2$。事实上，若 $f(1/2)=1/2$，则
 >
-> > [!proof]- 证
-> > 已知 $f(1/2)\geq p(1/2)=1/2$，现证 $f(1/2)>1/2$。事实上，若 $f(1/2)=1/2$，则
-> >
-> > $x>1/2$ 时，$\displaystyle\frac{f(x)-1/2}{x-1/2}\geq\frac{p(x)-1/2}{x-1/2}=\frac{x-1/2}{x-1/2}=1$，所以
-> >
-> > $$
-> > f'_+(1/2)=\lim_{x\to (1/2)+}\frac{f(x)-1/2}{x-1/2}\geq 1.
-> > $$
-> >
-> > $x<1/2$ 时，$\displaystyle\frac{f(x)-1/2}{x-1/2}\leq\frac{q(x)-1/2}{x-1/2}=\frac{1-x-1/2}{x-1/2}=-1$，所以
-> >
-> > $$
-> > f'_-(1/2)=\lim_{x\to (1/2)-}\frac{f(x)-1/2}{x-1/2}\leq -1.
-> > $$
-> >
-> > 故 $f$ 在 $x=1/2$ 处不可微，与 $f(x)$ 为多项式矛盾。
+> $x>1/2$ 时，$\displaystyle\frac{f(x)-1/2}{x-1/2}\geq\frac{p(x)-1/2}{x-1/2}=\frac{x-1/2}{x-1/2}=1$，所以
+>
+> $$
+> f'_+(1/2)=\lim_{x\to (1/2)+}\frac{f(x)-1/2}{x-1/2}\geq 1.
+> $$
+>
+> $x<1/2$ 时，$\displaystyle\frac{f(x)-1/2}{x-1/2}\leq\frac{q(x)-1/2}{x-1/2}=\frac{1-x-1/2}{x-1/2}=-1$，所以
+>
+> $$
+> f'_-(1/2)=\lim_{x\to (1/2)-}\frac{f(x)-1/2}{x-1/2}\leq -1.
+> $$
+>
+> 故 $f$ 在 $x=1/2$ 处不可微，与 $f(x)$ 为多项式矛盾。
 
 > [!example] 例3.1.4
 > 设函数 $f(x)$ 在点 $x_0$ 的邻域 $I$ 内有定义。证明：导数 $f'(x_0)$ 存在的充分必要条件是：存在这样的函数 $g(x)$，它在 $I$ 内有定义，在点 $x_0$ 连续，且使得在 $I$ 内成立等式
@@ -137,20 +129,20 @@
 > $$
 >
 > 又这时还有等式 $f'(x_0)=g(x_0)$。(武汉大学)
+
+> [!proof]- 证
+> **(必要性)** 已知 $\displaystyle f'(x_0)=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=A$ (存在)，表明函数
 >
-> > [!proof]- 证
-> > **(必要性)** 已知 $\displaystyle f'(x_0)=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=A$ (存在)，表明函数
-> >
-> > $$
-> > g(x)=\begin{cases}
-> > \dfrac{f(x)-f(x_0)}{x-x_0}, & \text{当 } x\neq x_0 \text{ 时},\\[8pt]
-> > A, & \text{当 } x=x_0 \text{ 时}
-> > \end{cases}
-> > $$
-> >
-> > 在 $x=x_0$ 处连续，式 (1) 成立，$f'(x_0)=g(x_0)$。
-> >
-> > **(充分性)** $\displaystyle f'(x_0)=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=\lim_{x\to x_0}g(x)=g(x_0)$，故 $f'(x_0)$ 存在。
+> $$
+> g(x)=\begin{cases}
+> \dfrac{f(x)-f(x_0)}{x-x_0}, & \text{当 } x\neq x_0 \text{ 时},\\[8pt]
+> A, & \text{当 } x=x_0 \text{ 时}
+> \end{cases}
+> $$
+>
+> 在 $x=x_0$ 处连续，式 (1) 成立，$f'(x_0)=g(x_0)$。
+>
+> **(充分性)** $\displaystyle f'(x_0)=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=\lim_{x\to x_0}g(x)=g(x_0)$，故 $f'(x_0)$ 存在。
 
 > [!example] 例3.1.5
 > 设函数 $f(x)$ 在闭区间 $[a,b]$ 上连续，$f(a)=f(b)$，且在开区间 $(a,b)$ 内有连续的右导数：
@@ -160,21 +152,21 @@
 > $$
 >
 > 试证：存在一点 $\xi\in(a,b)$，使得 $f'_+(\xi)=0$。(吉林大学)
+
+> [!proof]- 证
+> 若 $f(x)\equiv$ 常数，则 $f'_+(x)\equiv 0$，问题自明。现设 $f(x)\neq$ 常数。为了证明 $\exists\,\xi\in(a,b)$，使 $f'_+(\xi)=0$，只要证明 $\exists\,\alpha,\beta\in(a,b)$，使 $f'_+(\alpha)\leq 0$，$f'_+(\beta)\geq 0$，那么由 $f'_+(x)$ 的连续性，便知存在 $\xi$ 使 $f'_+(\xi)=0$。事实上，要找这样的 $\alpha,\beta$，只要找最大 (小) 值点即可。因 $f(x)$ 在 $[a,b]$ 上连续，故在 $[a,b]$ 上必达最大、最小值。而 $f(a)=f(b)$，所以最大、最小值至少有一个在内部达到。设 $\alpha\in(a,b)$ 是 $f$ 的最大值点 (内部达最小值类似讨论)，于是
 >
-> > [!proof]- 证
-> > 若 $f(x)\equiv$ 常数，则 $f'_+(x)\equiv 0$，问题自明。现设 $f(x)\neq$ 常数。为了证明 $\exists\,\xi\in(a,b)$，使 $f'_+(\xi)=0$，只要证明 $\exists\,\alpha,\beta\in(a,b)$，使 $f'_+(\alpha)\leq 0$，$f'_+(\beta)\geq 0$，那么由 $f'_+(x)$ 的连续性，便知存在 $\xi$ 使 $f'_+(\xi)=0$。事实上，要找这样的 $\alpha,\beta$，只要找最大 (小) 值点即可。因 $f(x)$ 在 $[a,b]$ 上连续，故在 $[a,b]$ 上必达最大、最小值。而 $f(a)=f(b)$，所以最大、最小值至少有一个在内部达到。设 $\alpha\in(a,b)$ 是 $f$ 的最大值点 (内部达最小值类似讨论)，于是
-> >
-> > $$
-> > f'_+(\alpha)=\lim_{x\to\alpha+}\frac{f(x)-f(\alpha)}{x-\alpha}\leq 0.
-> > $$
-> >
-> > 任取一点 $c:a<c<\alpha$，因 $f$ 在 $[c,\alpha]$ 上连续，$f$ 在 $[c,\alpha]$ 上也必有一点 $\beta<\alpha$ 达到最小值。于是
-> >
-> > $$
-> > f'_+(\beta)=\lim_{x\to\beta+}\frac{f(x)-f(\beta)}{x-\beta}\geq 0.
-> > $$
-> >
-> > 如此我们即达到了目的。
+> $$
+> f'_+(\alpha)=\lim_{x\to\alpha+}\frac{f(x)-f(\alpha)}{x-\alpha}\leq 0.
+> $$
+>
+> 任取一点 $c:a<c<\alpha$，因 $f$ 在 $[c,\alpha]$ 上连续，$f$ 在 $[c,\alpha]$ 上也必有一点 $\beta<\alpha$ 达到最小值。于是
+>
+> $$
+> f'_+(\beta)=\lim_{x\to\beta+}\frac{f(x)-f(\beta)}{x-\beta}\geq 0.
+> $$
+>
+> 如此我们即达到了目的。
 
 > [!example] ☆ 例3.1.6
 > 设 $f(x)$ 在 $x=x_0$ 处可微，$\alpha_n<x_0<\beta_n\;(n=1,2,\cdots)$，$\displaystyle\lim_{n\to\infty}\alpha_n=\lim_{n\to\infty}\beta_n=x_0$，证明：
@@ -184,76 +176,76 @@
 > $$
 >
 > (湖北大学)
+
+> [!proof]- 证
+> 首先，容易看到
 >
-> > [!proof]- 证
-> > 首先，容易看到
-> >
-> > $$
-> > \begin{aligned}
-> > \frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}
-> > &=\frac{f(\beta_n)-f(x_0)+f(x_0)-f(\alpha_n)}{\beta_n-\alpha_n} \\[6pt]
-> > &=\frac{\beta_n-x_0}{\beta_n-\alpha_n}\cdot\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}-\frac{\alpha_n-x_0}{\beta_n-\alpha_n}\cdot\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}. \tag{1}
-> > \end{aligned}
-> > $$
-> >
-> > 若记 $\lambda_n=\dfrac{\beta_n-x_0}{\beta_n-\alpha_n}$，则 $\dfrac{x_0-\alpha_n}{\beta_n-\alpha_n}=1-\lambda_n$，且 $0<\lambda_n<1$，$0<1-\lambda_n<1$，式 (1) 可改写成
-> >
-> > $$
-> > \frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}
-> > =\lambda_n\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}+(1-\lambda_n)\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}.
-> > $$
-> >
-> > 但 $f'(x_0)=\lambda_n f'(x_0)+(1-\lambda_n)f'(x_0)$，故易知 $\forall\varepsilon>0$，$\exists N>0$，当 $n>N$ 时，
-> >
-> > $$
-> > \begin{aligned}
-> > &\left|\frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}-f'(x_0)\right| \\[6pt]
-> > \leq\;& \lambda_n\left|\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}-f'(x_0)\right|
-> > +(1-\lambda_n)\left|\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}-f'(x_0)\right| \\[6pt]
-> > <\;& \lambda_n\varepsilon+(1-\lambda_n)\varepsilon=\varepsilon.
-> > \end{aligned}
-> > $$
-> >
-> > 原极限获证。
+> $$
+> \begin{aligned}
+> \frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}
+> &=\frac{f(\beta_n)-f(x_0)+f(x_0)-f(\alpha_n)}{\beta_n-\alpha_n} \\[6pt]
+> &=\frac{\beta_n-x_0}{\beta_n-\alpha_n}\cdot\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}-\frac{\alpha_n-x_0}{\beta_n-\alpha_n}\cdot\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}. \tag{1}
+> \end{aligned}
+> $$
+>
+> 若记 $\lambda_n=\dfrac{\beta_n-x_0}{\beta_n-\alpha_n}$，则 $\dfrac{x_0-\alpha_n}{\beta_n-\alpha_n}=1-\lambda_n$，且 $0<\lambda_n<1$，$0<1-\lambda_n<1$，式 (1) 可改写成
+>
+> $$
+> \frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}
+> =\lambda_n\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}+(1-\lambda_n)\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}.
+> $$
+>
+> 但 $f'(x_0)=\lambda_n f'(x_0)+(1-\lambda_n)f'(x_0)$，故易知 $\forall\varepsilon>0$，$\exists N>0$，当 $n>N$ 时，
+>
+> $$
+> \begin{aligned}
+> &\left|\frac{f(\beta_n)-f(\alpha_n)}{\beta_n-\alpha_n}-f'(x_0)\right| \\[6pt]
+> \leq\;& \lambda_n\left|\frac{f(\beta_n)-f(x_0)}{\beta_n-x_0}-f'(x_0)\right|
+> +(1-\lambda_n)\left|\frac{f(\alpha_n)-f(x_0)}{\alpha_n-x_0}-f'(x_0)\right| \\[6pt]
+> <\;& \lambda_n\varepsilon+(1-\lambda_n)\varepsilon=\varepsilon.
+> \end{aligned}
+> $$
+>
+> 原极限获证。
 
 > [!example] ☆ 例3.1.7
 > 设函数 $f(x)$ 在 $x=0$ 处连续，并且 $\displaystyle\lim_{x\to 0}\frac{f(2x)-f(x)}{x}=A$，求证：$f'(0)$ 存在，并且 $f'(0)=A$。(中国科学院)
+
+> [!proof]- 证
+> (目标在于证 $\displaystyle\lim_{x\to 0}\frac{f(x)-f(0)}{x}=A$。) 因已知 $\displaystyle\lim_{x\to 0}\frac{f(2x)-f(x)}{x}=A$，即 $\forall\varepsilon>0$，
 >
-> > [!proof]- 证
-> > (目标在于证 $\displaystyle\lim_{x\to 0}\frac{f(x)-f(0)}{x}=A$。) 因已知 $\displaystyle\lim_{x\to 0}\frac{f(2x)-f(x)}{x}=A$，即 $\forall\varepsilon>0$，
-> >
-> > $\exists\delta>0$，当 $|x|<\delta$ 时，有
-> >
-> > $$
-> > A-\frac{\varepsilon}{2}<\frac{f(2x)-f(x)}{x}<A+\frac{\varepsilon}{2}.
-> > $$
-> >
-> > 特别，取 $x_n=x/2^k\;(k\in\mathbb{N})$，上式亦成立。故有
-> >
-> > $$
-> > \frac{1}{2^k}\!\left(A-\frac{\varepsilon}{2}\right)<\frac{f(x/2^{k-1})-f(x/2^k)}{x}<\frac{1}{2^k}\!\left(A+\frac{\varepsilon}{2}\right),
-> > $$
-> >
-> > $k=1,2,\cdots,n$。将此 $n$ 式相加，注意
-> >
-> > $$
-> > \sum_{k=1}^n\bigl[f(x/2^{k-1})-f(x/2^k)\bigr]=f(x)-f(x/2^n)=f(x)-f(x_n),\qquad
-> > \sum_{k=1}^n\frac{1}{2^k}=1-\frac{1}{2^n},
-> > $$
-> >
-> > 有
-> >
-> > $$
-> > \left(1-\frac{1}{2^n}\right)\!\left(A-\frac{\varepsilon}{2}\right)<\frac{f(x)-f(x_n)}{x}<\left(1-\frac{1}{2^n}\right)\!\left(A+\frac{\varepsilon}{2}\right).
-> > $$
-> >
-> > 再令 $n\to\infty$，取极限，这时 $x_n=x/2^n\to 0$，而 $f$ 在 $0$ 处连续，$\displaystyle\lim_{n\to\infty}f(x_n)=f(0)$，故
-> >
-> > $$
-> > A-\frac{\varepsilon}{2}\leq\frac{f(x)-f(0)}{x}\leq A+\frac{\varepsilon}{2}.
-> > $$
-> >
-> > 亦即 $\displaystyle\left|\frac{f(x)-f(0)}{x}-A\right|\leq\frac{\varepsilon}{2}<\varepsilon$，$f'(0)$ 存在且 $f'(0)=A$。
+> $\exists\delta>0$，当 $|x|<\delta$ 时，有
+>
+> $$
+> A-\frac{\varepsilon}{2}<\frac{f(2x)-f(x)}{x}<A+\frac{\varepsilon}{2}.
+> $$
+>
+> 特别，取 $x_n=x/2^k\;(k\in\mathbb{N})$，上式亦成立。故有
+>
+> $$
+> \frac{1}{2^k}\!\left(A-\frac{\varepsilon}{2}\right)<\frac{f(x/2^{k-1})-f(x/2^k)}{x}<\frac{1}{2^k}\!\left(A+\frac{\varepsilon}{2}\right),
+> $$
+>
+> $k=1,2,\cdots,n$。将此 $n$ 式相加，注意
+>
+> $$
+> \sum_{k=1}^n\bigl[f(x/2^{k-1})-f(x/2^k)\bigr]=f(x)-f(x/2^n)=f(x)-f(x_n),\qquad
+> \sum_{k=1}^n\frac{1}{2^k}=1-\frac{1}{2^n},
+> $$
+>
+> 有
+>
+> $$
+> \left(1-\frac{1}{2^n}\right)\!\left(A-\frac{\varepsilon}{2}\right)<\frac{f(x)-f(x_n)}{x}<\left(1-\frac{1}{2^n}\right)\!\left(A+\frac{\varepsilon}{2}\right).
+> $$
+>
+> 再令 $n\to\infty$，取极限，这时 $x_n=x/2^n\to 0$，而 $f$ 在 $0$ 处连续，$\displaystyle\lim_{n\to\infty}f(x_n)=f(0)$，故
+>
+> $$
+> A-\frac{\varepsilon}{2}\leq\frac{f(x)-f(0)}{x}\leq A+\frac{\varepsilon}{2}.
+> $$
+>
+> 亦即 $\displaystyle\left|\frac{f(x)-f(0)}{x}-A\right|\leq\frac{\varepsilon}{2}<\varepsilon$，$f'(0)$ 存在且 $f'(0)=A$。
 
 > [!example] 例3.1.8
 > 设 $f(x)$ 在 $[a,b]$ 上可微，试证：$f'(x)$ 在 $[a,b]$ 上连续的充要条件是 $f(x)$ 在 $[a,b]$ 上一致可微，即：$\forall\varepsilon>0$，$\exists\delta>0$，当 $0<|h|<\delta$ 时，有
@@ -263,29 +255,29 @@
 > $$
 >
 > 对一切 $x\in[a,b]$ 成立。(北京师范大学)
+
+> [!proof]- 证
+> **1° (必要性)** 因 $f'(x)$ 在 $[a,b]$ 上连续，故一致连续，即 $\forall\varepsilon>0$，$\exists\delta>0$，当 $x',x''\in[a,b]$，$|x'-x''|<\delta$ 时，便有 $|f'(x')-f'(x'')|<\varepsilon$。由此当 $0<|h|<\delta$ 时，$\forall x\in[a,b]$，有
 >
-> > [!proof]- 证
-> > **1° (必要性)** 因 $f'(x)$ 在 $[a,b]$ 上连续，故一致连续，即 $\forall\varepsilon>0$，$\exists\delta>0$，当 $x',x''\in[a,b]$，$|x'-x''|<\delta$ 时，便有 $|f'(x')-f'(x'')|<\varepsilon$。由此当 $0<|h|<\delta$ 时，$\forall x\in[a,b]$，有
-> >
-> > $$
-> > \left|\frac{f(x+h)-f(x)}{h}-f'(x)\right|=|f'(\xi)-f'(x)|\quad(\xi\text{ 在 }x\text{ 与 }x+h\text{ 之间})
-> > $$
-> >
-> > $<\varepsilon$。
-> >
-> > **2° (充分性)** 已知 $\forall\varepsilon>0$，$\exists\delta>0$，当 $0<|h|<\delta$ 时，$\forall x\in[a,b]$，
-> >
-> > $\displaystyle\left|\frac{f(x+h)-f(x)}{h}-f'(x)\right|<\varepsilon$。因此，$\forall x_0\in[a,b]$，当 $0<|h|<\delta$ 时，只要 $x_0+h\in[a,b]$，便有
-> >
-> > $$
-> > \begin{aligned}
-> > |f'(x_0+h)-f'(x_0)|
-> > &=\left|f'(x_0+h)-\frac{f(x_0+h)-f(x_0)}{h}+\frac{f(x_0+h)-f(x_0)}{h}-f'(x_0)\right| \\[6pt]
-> > &\leq\left|f'(x_0+h)-\frac{f(x_0+h-h)-f(x_0+h)}{-h}\right|+\left|\frac{f(x_0+h)-f(x_0)}{h}-f'(x_0)\right|<2\varepsilon.
-> > \end{aligned}
-> > $$
-> >
-> > 所以 $f'(x)$ 在 $x_0$ 处连续。由 $x_0$ 的任意性，知 $f'(x)$ 在 $[a,b]$ 上连续。
+> $$
+> \left|\frac{f(x+h)-f(x)}{h}-f'(x)\right|=|f'(\xi)-f'(x)|\quad(\xi\text{ 在 }x\text{ 与 }x+h\text{ 之间})
+> $$
+>
+> $<\varepsilon$。
+>
+> **2° (充分性)** 已知 $\forall\varepsilon>0$，$\exists\delta>0$，当 $0<|h|<\delta$ 时，$\forall x\in[a,b]$，
+>
+> $\displaystyle\left|\frac{f(x+h)-f(x)}{h}-f'(x)\right|<\varepsilon$。因此，$\forall x_0\in[a,b]$，当 $0<|h|<\delta$ 时，只要 $x_0+h\in[a,b]$，便有
+>
+> $$
+> \begin{aligned}
+> |f'(x_0+h)-f'(x_0)|
+> &=\left|f'(x_0+h)-\frac{f(x_0+h)-f(x_0)}{h}+\frac{f(x_0+h)-f(x_0)}{h}-f'(x_0)\right| \\[6pt]
+> &\leq\left|f'(x_0+h)-\frac{f(x_0+h-h)-f(x_0+h)}{-h}\right|+\left|\frac{f(x_0+h)-f(x_0)}{h}-f'(x_0)\right|<2\varepsilon.
+> \end{aligned}
+> $$
+>
+> 所以 $f'(x)$ 在 $x_0$ 处连续。由 $x_0$ 的任意性，知 $f'(x)$ 在 $[a,b]$ 上连续。
 
 
 ### ☆ 二、高阶导数与 Leibniz 公式
@@ -604,8 +596,8 @@
 
 导数的计算
 
-> [!exercise] 3.1.1 计算下列函数的指定导数：
->
+> [!exercise] 3.1.1
+> 计算下列函数的指定导数：
 > 1）$f(x)=\sqrt{\dfrac{(1+x)\sqrt{x}}{e^{x-1}}+\arcsin\dfrac{1-x}{\sqrt{1+x^2}}}$，求 $f'(1)$；（中国人民大学）　　⟪$-\dfrac{\sqrt2}{2}$⟫
 >
 > 2）$f(x)=x^{\sin(\sin x^x)}$（$x>0$），求 $\dfrac{dy}{dx}$；（复旦大学）
@@ -707,8 +699,8 @@
 
 导数定义及可微性质
 
-> [!exercise] 3.1.2 讨论 $f(x)=
-> \begin{cases}
+> [!exercise] 3.1.2
+> 讨论 $f(x)=> \begin{cases}
 > \dfrac{1}{x}-\dfrac{1}{e^x-1}，&x\neq0，\\
 > \dfrac{1}{2}，&x=0
 > \end{cases}$
@@ -717,8 +709,8 @@
 > [!hint]- 提示
 > $f'(0)=\lim_{x\to0}\dfrac{\dfrac{1}{x}-\dfrac{1}{e^x-1}-\dfrac{1}{2}}{x}=\lim_{x\to0}\dfrac{[2(e^x-1)-2x-x(e^x-1)]'}{[2x^2(e^x-1)]'}=-\dfrac{1}{12}$（可反复使用 L'Hospital 法则）．
 
-> [!exercise] ☆3.1.3 设
->
+> [!exercise] ☆3.1.3
+> 设
 > $$f(x)=
 > \begin{cases}
 > x^2\sin\dfrac{\pi}{x}，&x<0，\\
@@ -733,8 +725,8 @@
 >
 > $f'_+(0)=\lim_{x\to0^+}(ax+\dfrac{b}{x})$ 欲存在，必须 $b=0$．此时 $f'(0)=0$．
 
-> [!exercise] ☆3.1.4 设 $f(x)$ 在 $x=0$ 处可导，$f(0)\neq0$，$f'(0)\neq0$，
->
+> [!exercise] ☆3.1.4
+> 设 $f(x)$ 在 $x=0$ 处可导，$f(0)\neq0$，$f'(0)\neq0$，
 > $$af(h)+bf(2h)-f(0)=o(h)\quad(\text{当 }h\to0\text{ 时}),$$
 >
 > 求 $a,b$．（数学一）
@@ -746,8 +738,8 @@
 >
 > 令 $h\to0$，取极限得 $a=2$，$b=-1$．
 
-> [!exercise] ☆3.1.5 设函数 $f(x)$ 在闭区间 $[0,1]$ 上四次连续可微，$f(0)=0$，$f'(0)=0$．证明：函数
->
+> [!exercise] ☆3.1.5
+> 设函数 $f(x)$ 在闭区间 $[0,1]$ 上四次连续可微，$f(0)=0$，$f'(0)=0$．证明：函数
 > $$F(x)=
 > \begin{cases}
 > \dfrac{f(x)}{x^2}，&当\;0<x\leqslant1\;时，\\
@@ -773,13 +765,13 @@
 >
 > 且能验证 $\lim_{x\to0^+}F''(x)=F''(0)$．从而 $F(x)$ 在 $[0,1]$ 上二次连续可微．
 >
-> > [!remark] 注
-> > 要保证 $F(x)$ 在原点右连续，条件 $f(0)=0$ 是必要的：
-> >
-> > $$\lim_{x\to0^+}F(x)=\lim_{x\to0^+}\dfrac{f(x)}{x^2}\xlongequal{\text{Taylor 公式}}\lim_{x\to0^+}\dfrac{f(0)+f'(0)x+\dfrac12f''(0)x^2+o(x^3)}{x^2}=F(0).$$
-
-> [!exercise] 3.1.6 设函数 $f(x)$ 在区间 $[a,b]$ 上满足
+> [!remark] 注
+> 要保证 $F(x)$ 在原点右连续，条件 $f(0)=0$ 是必要的：
 >
+> $$\lim_{x\to0^+}F(x)=\lim_{x\to0^+}\dfrac{f(x)}{x^2}\xlongequal{\text{Taylor 公式}}\lim_{x\to0^+}\dfrac{f(0)+f'(0)x+\dfrac12f''(0)x^2+o(x^3)}{x^2}=F(0).$$
+
+> [!exercise] 3.1.6
+> 设函数 $f(x)$ 在区间 $[a,b]$ 上满足
 > $$|f(x)-f(y)|\leqslant M|x-y|^\alpha,\quad \forall x,y\in[a,b],$$
 >
 > 其中 $M>0$，$\alpha>1$ 为常数，证明：$f(x)$ 在 $[a,b]$ 上恒为常数．
@@ -787,18 +779,18 @@
 > [!hint]- 提示
 > $0<\left|\dfrac{f(x)-f(y)}{x-y}\right|\leqslant M|x-y|^{\alpha-1}\to0\;(x\to y)\Rightarrow f'(x)=0\Rightarrow f(x)\equiv$ 常数．
 
-> [!exercise] ☆3.1.7 设 $f(0)=0$，则 $f(x)$ 在点 $x=0$ 可导的充要条件为 $\lim_{h\to0}\dfrac1h f(1-e^h)$ 存在．（数学一）
-
+> [!exercise] ☆3.1.7
+> 设 $f(0)=0$，则 $f(x)$ 在点 $x=0$ 可导的充要条件为 $\lim_{h\to0}\dfrac1h f(1-e^h)$ 存在．（数学一）
 > [!hint]- 提示
 > $$\lim_{h\to0}\dfrac{f(1-e^h)-f(0)}{h}\ \xlongequal[\ h=\ln(1-x)\ ]{\text{令 }1-e^h=x}\ \lim_{x\to0}\dfrac{f(x)-f(0)}{x}\cdot\dfrac{x}{\ln(1-x)}.$$
 >
-> > [!remark] 注
-> > 不妨尝试对该题作一小小的推广．
-> >
-> > 设 $x=g(h)$ 为：具有反函数 $g^{-1}$，且使得 $\lim_{x\to0}\dfrac{x}{g^{-1}(x)}$ 存在的某一函数（例如 $x=1-e^h$），那么对任一函数 $f(x)$，若 $f(0)=0$，则 $f$ 在 $x=0$ 处可导的充要条件是：$\lim_{h\to0}\dfrac1h f(g(h))$ 存在．
-
-> [!exercise] ☆3.1.8 设 $f(x)$ 在 $x_0$ 的某邻域内有定义．
+> [!remark] 注
+> 不妨尝试对该题作一小小的推广．
 >
+> 设 $x=g(h)$ 为：具有反函数 $g^{-1}$，且使得 $\lim_{x\to0}\dfrac{x}{g^{-1}(x)}$ 存在的某一函数（例如 $x=1-e^h$），那么对任一函数 $f(x)$，若 $f(0)=0$，则 $f$ 在 $x=0$ 处可导的充要条件是：$\lim_{h\to0}\dfrac1h f(g(h))$ 存在．
+
+> [!exercise] ☆3.1.8
+> 设 $f(x)$ 在 $x_0$ 的某邻域内有定义．
 > 1）若 $f(x)$ 在 $x_0$ 处可导，试证：$\lim_{h\to0}\dfrac{f(x_0+h)-f(x_0-h)}{2h}=f'(x_0)$；
 >
 > 2）反之，若上式左端之极限存在，是否能推出 $f'(x_0)$ 存在？若结论成立，请证明；不成立请给出反例．（哈尔滨工业大学）
@@ -808,8 +800,8 @@
 >
 > 2）不能！任何以 $x=x_0$ 为对称轴的函数左端极限均存在且极限为 $0$，但例如函数 $y=|x-x_0|$，在 $x_0$ 处就不可导．
 
-> [!exercise] ☆3.1.9 在什么条件下，函数
->
+> [!exercise] ☆3.1.9
+> 在什么条件下，函数
 > $$f(x)=\begin{cases}
 > x^n\sin\dfrac1x，&x\neq0，\quad(n\text{ 为自然数})\\
 > 0，&x=0
@@ -828,15 +820,15 @@
 >
 > 3）当 $x\neq0$ 时，$f'(x)=nx^{n-1}\sin\dfrac1x-x^{n-2}\cos\dfrac1x\xrightarrow[n>2\text{ 时}]{}0=f'(0)\;(x\to0)$．
 
-> [!exercise] 3.1.10 试作一函数 $f(x)$：在 $(-\infty,+\infty)$ 内二阶可微，且 $f''(x)$ 在 $x=0$ 处不连续，其余处处连续．（山东大学）
->
+> [!exercise] 3.1.10
+> 试作一函数 $f(x)$：在 $(-\infty,+\infty)$ 内二阶可微，且 $f''(x)$ 在 $x=0$ 处不连续，其余处处连续．（山东大学）
 > $$\left\{f(x)=\begin{cases}
 > x^4\sin\dfrac1x，&x\neq0,\\
 > 0，&x=0
 > \end{cases}\right.$$
 
-> [!exercise] ☆3.1.11 对于函数 $f(x)=|\sin x|^3,\ x\in(-1,1)$．
->
+> [!exercise] ☆3.1.11
+> 对于函数 $f(x)=|\sin x|^3,\ x\in(-1,1)$．
 > （1）证明：$f''(0)$ 不存在；
 >
 > （2）说明点 $x=0$ 是不是 $f''(x)$ 的可去间断点．（武汉大学）
@@ -850,8 +842,8 @@
 >
 > $f''_+(0)=6,\ f''_-(0)=-6\Rightarrow f''(0)$ 不存在，且 $x=0$ 不是可去间断点．
 
-> [!exercise] 3.1.12 设函数 $f(x)$ 在点 $a$ 处连续，且 $|f(x)|$ 在 $a$ 处也可导，证明：$f(x)$ 在 $a$ 处也可导．（中南大学）
-
+> [!exercise] 3.1.12
+> 设函数 $f(x)$ 在点 $a$ 处连续，且 $|f(x)|$ 在 $a$ 处也可导，证明：$f(x)$ 在 $a$ 处也可导．（中南大学）
 > [!proof]- 证
 > 若 $g(x)=|f(x)|$ 在 $a$ 处可导．
 >
@@ -865,13 +857,13 @@
 >
 > 因 $g$ 可导，故 $A=B=0$．于是 $\lim_{x\to a}\dfrac{|f(x)|}{x-a}=0$，即 $f'(a)=\lim_{x\to a}\dfrac{f(x)}{x-a}=0$，因此 $f(x)$ 在 $a$ 处也可导．
 
-> [!exercise] 3.1.13 函数 $f(x)=(x^2-x-2)|x^3-x|$ 的不可导点的个数是多少？（数学一）　《$2$》
-
+> [!exercise] 3.1.13
+> 函数 $f(x)=(x^2-x-2)|x^3-x|$ 的不可导点的个数是多少？（数学一）　《$2$》
 > [!hint]- 提示
 > $f(x)=(x-2)(x+1)|x+1|\,|x|\,|x-1|$，注意函数 $u|u|$ 在 $u=0$ 处可导，$|u|$ 在 $u=0$ 处不可导，因此 $f(x)$ 的不可导点为 $0,1$．
 
-> [!exercise] 3.1.14 设 $\varphi(x)$ 在 $x=a$ 处连续，分别讨论下面函数在 $x=a$ 处是否可导：
->
+> [!exercise] 3.1.14
+> 设 $\varphi(x)$ 在 $x=a$ 处连续，分别讨论下面函数在 $x=a$ 处是否可导：
 > 1）$f(x)=(x-a)\varphi(x)$；
 >
 > 2）$f(x)=|x-a|\,\varphi(x)$；
@@ -887,15 +879,15 @@
 >
 > 3）$f'(a)=|\varphi(a)|$．
 
-> [!exercise] ☆3.1.15 设 $f(x)$ 可导，$F(x)=f(x)(1+|\sin x|)$，证明：$f(0)=0$ 是 $F(x)$ 在 $x=0$ 处可导的充要条件．（数学一）
-
+> [!exercise] ☆3.1.15
+> 设 $f(x)$ 可导，$F(x)=f(x)(1+|\sin x|)$，证明：$f(0)=0$ 是 $F(x)$ 在 $x=0$ 处可导的充要条件．（数学一）
 > [!hint]- 提示
 > $F'_+(0)=f'_+(0)+\lim_{x\to0^+}\dfrac{f(x)|\sin x|}{x}=f'(0)+f(0)$，
 >
 > $F'_-(0)=f'_-(0)+\lim_{x\to0^-}\dfrac{f(x)|\sin x|}{x}=f'(0)-f(0)$．
 
-> [!exercise] 3.1.16 求 $f(x)=[x]\sin\pi x$ 的单侧导数，并讨论可微性（$[x]$ 表示不超过 $x$ 的最大整数）．
->
+> [!exercise] 3.1.16
+> 求 $f(x)=[x]\sin\pi x$ 的单侧导数，并讨论可微性（$[x]$ 表示不超过 $x$ 的最大整数）．
 > 《非整数上可导，$f'(x)=\pi[x]\cos\pi x$；
 >
 > $f'_+(k)=(-1)^k k\pi,\ f'_-(k)=(-1)^k(k-1)\pi$，故整数点处不可导》
@@ -911,26 +903,26 @@
 >
 > $$=\pi(k-1)\cos k\pi=(-1)^k\pi(k-1).$$
 
-> [!exercise] ☆3.1.17 证明：函数 $f(x)=\begin{cases}
-> x^2\left|\cos\dfrac\pi x\right|，&x\neq0,\\
+> [!exercise] ☆3.1.17
+> 证明：函数 $f(x)=\begin{cases}> x^2\left|\cos\dfrac\pi x\right|，&x\neq0,\\
 > 0，&x=0
 > \end{cases}$ 在 $x=0$ 的任何邻域内都有不可微点，但在 $x=0$ 处可微．
 
 > [!hint]- 提示
 > $x_n=\left(2n+\dfrac12\right)^{-1}$ 处，$f'_+(x_n)\neq f'_-(x_n)$，不可微．
 >
-> > 再提示
-> >
-> > $$f'_+(x_n)=\lim_{h\to0^+}\dfrac{(x_n+h)^2\left|\cos\dfrac\pi{x_n+h}\right|-0}{h}=\lim_{h\to0^+}\dfrac{-(x_n+h)^2\cos\dfrac\pi{x_n+h}}{h}$$
-> >
-> > $$=-\lim_{h\to0^+}\dfrac{(x_n+h)^2\cos\dfrac\pi{x_n+h}-0}{h}=-\left(x^2\cos\dfrac\pi x\right)'\Big|_{x_n}$$
-> >
-> > $$=-(2x_n\cos\dfrac\pi{x_n}+\pi\sin\dfrac\pi{x_n})=-\pi.$$
-> >
-> > 同理 $f'_-(x_n)=\pi$．可见 $f$ 在 $x_n$ 处不可微．因 $x_n\to0$（当 $n\to\infty$ 时），故在 $x=0$ 的任何邻域内都有不可微点．但用定义直接可证 $f$ 在 $x=0$ 处可导，且 $f'(0)=0$．
-
-> [!exercise] *3.1.18 证明：Чебышев 多项式
+> 再提示
 >
+> $$f'_+(x_n)=\lim_{h\to0^+}\dfrac{(x_n+h)^2\left|\cos\dfrac\pi{x_n+h}\right|-0}{h}=\lim_{h\to0^+}\dfrac{-(x_n+h)^2\cos\dfrac\pi{x_n+h}}{h}$$
+>
+> $$=-\lim_{h\to0^+}\dfrac{(x_n+h)^2\cos\dfrac\pi{x_n+h}-0}{h}=-\left(x^2\cos\dfrac\pi x\right)'\Big|_{x_n}$$
+>
+> $$=-(2x_n\cos\dfrac\pi{x_n}+\pi\sin\dfrac\pi{x_n})=-\pi.$$
+>
+> 同理 $f'_-(x_n)=\pi$．可见 $f$ 在 $x_n$ 处不可微．因 $x_n\to0$（当 $n\to\infty$ 时），故在 $x=0$ 的任何邻域内都有不可微点．但用定义直接可证 $f$ 在 $x=0$ 处可导，且 $f'(0)=0$．
+
+> [!exercise] *3.1.18
+> 证明：Чебышев 多项式
 > $$T_m(x)=\dfrac1{2^{m-1}}\cos(m\arccos x),\ m=0,1,2,\cdots$$
 >
 > 满足方程
@@ -940,18 +932,18 @@
 > [!hint]- 提示
 > 可以应用复合函数微分法直接验证．
 
-> [!exercise] ※3.1.19 证明：Чебышев–Laguerre 多项式 $L_m(x)=e^x(x^me^{-x})^{(m)},\ m=0,1,2,\cdots$ 满足方程
->
+> [!exercise] ※3.1.19
+> 证明：Чебышев–Laguerre 多项式 $L_m(x)=e^x(x^me^{-x})^{(m)},\ m=0,1,2,\cdots$ 满足方程
 > $$xL''_m(x)+(1-x)L'_m(x)+mL_m(x)=0.\qquad\text{（1）}$$
 
 > [!hint]- 提示
 > 可利用乘积求导的 Leibniz 公式，写出多项式 $L_m(x)$ 的具体表达式进行验证．
 >
-> > 再提示
-> > $L_m(x)=(-1)^m\sum_{k=0}^m(-1)^k C_m^k(x^m)^{(k)}$，代入方程（1），验证系数为零．如 $x^m$ 项之系数：$m-m=0$（不计公因子 $(-1)^m$），$x^{m-1}$ 项系数：$-m^3+m+m^3-m^2+m^2-m=0,\cdots$．
+> 再提示
+> $L_m(x)=(-1)^m\sum_{k=0}^m(-1)^k C_m^k(x^m)^{(k)}$，代入方程（1），验证系数为零．如 $x^m$ 项之系数：$m-m=0$（不计公因子 $(-1)^m$），$x^{m-1}$ 项系数：$-m^3+m+m^3-m^2+m^2-m=0,\cdots$．
 
-> [!exercise] ※3.1.20 设
->
+> [!exercise] ※3.1.20
+> 设
 > $$f(x)=\begin{vmatrix}
 > u_{11}(x)&u_{12}(x)&\cdots&u_{1k}(x)\\
 > u_{21}(x)&u_{22}(x)&\cdots&u_{2k}(x)\\
@@ -977,8 +969,8 @@
 >
 > 方法Ⅱ 可利用数学归纳法．若 $(k-1)\times(k-1)$ 的情况成立，对 $k\times k$ 阶行列式，可按一行（或一列）展开，推出对 $k\times k$ 成立．
 
-> [!exercise] *3.1.21 设 $x=a\cos t+b\sin t,\ y=a\sin t-b\cos t$，求证：
->
+> [!exercise] *3.1.21
+> 设 $x=a\cos t+b\sin t,\ y=a\sin t-b\cos t$，求证：
 > $$\dfrac{d^mx}{dt^m}\dfrac{d^ny}{dt^n}-\dfrac{d^nx}{dt^n}\dfrac{d^my}{dt^m}=(a^2+b^2)\sin\dfrac{n-m}{2}\pi.$$
 
 > [!hint]- 提示
@@ -988,19 +980,19 @@
 
 > [!note] 留念题
 
-> [!exercise] ※3.1.22 对例 3.1.7 如下的证法给出评论，认为正确请说明理由，认为不正确请给出反例．
+> [!exercise] ※3.1.22
+> 对例 3.1.7 如下的证法给出评论，认为正确请说明理由，认为不正确请给出反例．
+> 证 $\lim_{x\to0}\dfrac{f(2x)-f(x)}x=A\Rightarrow f(2x)-f(x)=Ax+o(x)$
 >
-> > 证 $\lim_{x\to0}\dfrac{f(2x)-f(x)}x=A\Rightarrow f(2x)-f(x)=Ax+o(x)$
-> >
-> > $\Rightarrow f\left(\dfrac x{2^{k-1}}\right)-f\left(\dfrac x{2^k}\right)=A\dfrac x{2^k}+o\left(\dfrac x{2^k}\right)$
-> >
-> > $\Rightarrow \sum_{k=1}^n\left(f\left(\dfrac x{2^{k-1}}\right)-f\left(\dfrac x{2^k}\right)\right)=A\sum_{k=1}^n\dfrac x{2^k}+o\left(\sum_{k=1}^n\dfrac x{2^k}\right)$
-> >
-> > $\Rightarrow f(x)-f\left(\dfrac x{2^n}\right)=Ax(1-2^{-n})+o((1-2^{-n})x)$
-> >
-> > $\Rightarrow f(x)-f(0)=Ax+o(x)\ (n\to\infty)$
-> >
-> > $\Rightarrow f'(0)=\lim_{x\to0}\dfrac{f(x)-f(0)}x=A.$
+> $\Rightarrow f\left(\dfrac x{2^{k-1}}\right)-f\left(\dfrac x{2^k}\right)=A\dfrac x{2^k}+o\left(\dfrac x{2^k}\right)$
+>
+> $\Rightarrow \sum_{k=1}^n\left(f\left(\dfrac x{2^{k-1}}\right)-f\left(\dfrac x{2^k}\right)\right)=A\sum_{k=1}^n\dfrac x{2^k}+o\left(\sum_{k=1}^n\dfrac x{2^k}\right)$
+>
+> $\Rightarrow f(x)-f\left(\dfrac x{2^n}\right)=Ax(1-2^{-n})+o((1-2^{-n})x)$
+>
+> $\Rightarrow f(x)-f(0)=Ax+o(x)\ (n\to\infty)$
+>
+> $\Rightarrow f'(0)=\lim_{x\to0}\dfrac{f(x)-f(0)}x=A.$
 
 
 ## ☆ §3.2 微分中值定理
@@ -1768,19 +1760,19 @@
 > 
 > （四川师范大学）
 > 
-> > [!note] 分析
-> > 令 $f(a)=f(a+0), f(b)=f(b-0)$，则 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，欲证明的式（1）可改写成
-> > 
-> > $$\frac{af(b)-bf(a)}{a-b}=f(\xi)-\xi f'(\xi),$$
-> > 
-> > 亦即
-> > 
-> > $$\frac{\frac{f(b)}{b}-\frac{f(a)}{a}}{\frac{1}{b}-\frac{1}{a}} = \left.\frac{\left(\frac{f(x)}{x}\right)'}{\left(\frac{1}{x}\right)'}\right|_{x=\xi}. \tag{2}$$
-> > 
-> > 因此，对函数 $F(x)=\dfrac{f(x)}{x},\ G(x)=\dfrac{1}{x}$，在 $[a,b]$ 上应用 Cauchy 中值定理即得.
+> [!note] 分析
+> 令 $f(a)=f(a+0), f(b)=f(b-0)$，则 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，欲证明的式（1）可改写成
 > 
-> > [!remark] 注
-> > 把目标式作适当改写，如式（1）改写成（2），是寻找辅助函数的关键步骤.
+> $$\frac{af(b)-bf(a)}{a-b}=f(\xi)-\xi f'(\xi),$$
+> 
+> 亦即
+> 
+> $$\frac{\frac{f(b)}{b}-\frac{f(a)}{a}}{\frac{1}{b}-\frac{1}{a}} = \left.\frac{\left(\frac{f(x)}{x}\right)'}{\left(\frac{1}{x}\right)'}\right|_{x=\xi}. \tag{2}$$
+> 
+> 因此，对函数 $F(x)=\dfrac{f(x)}{x},\ G(x)=\dfrac{1}{x}$，在 $[a,b]$ 上应用 Cauchy 中值定理即得.
+> 
+> [!remark] 注
+> 把目标式作适当改写，如式（1）改写成（2），是寻找辅助函数的关键步骤.
 
 > [!example] 例3.2.27
 > 设 $f(x)$ 在 $(a,b)$ 内二次可微，试用 Cauchy 中值定理证明：$\forall x,x_0\in(a,b)$，$\exists\xi$ 在 $x$ 与 $x_0$ 之间，使得
@@ -1789,25 +1781,25 @@
 > 
 > 成立.（此即展开到一次幂的 Taylor 公式）.
 > 
-> > [!proof]- 证
-> > 只证明 $x>x_0$ 的情况（$x<x_0$ 的情况类似可证，$x=x_0$ 的情况显然）. 式（1）可改写成
-> > 
-> > $$\frac{f(x)-f(x_0)-f'(x_0)(x-x_0)}{\frac{1}{2}(x-x_0)^2} = f''(\xi). \tag{2}$$
-> > 
-> > 为了证明式（2），只要令
-> > 
-> > $$F(x)=f(x)-f(x_0)-f'(x_0)(x-x_0),\quad G(x)=\frac{1}{2}(x-x_0)^2,$$
-> > 
-> > 则 $F'(x)=f'(x)-f'(x_0),\ G'(x)=x-x_0$.
-> > 注意到 $F(x_0)=G(x_0)=0,\ F'(x_0)=G'(x_0)=0$，两次应用 Cauchy 中值定理，得
-> > 
-> > $$\begin{aligned}
-> > \frac{f(x)-f(x_0)-f'(x_0)(x-x_0)}{\frac{1}{2}(x-x_0)^2}
-> > &=\frac{F(x)}{G(x)} = \frac{F(x)-F(x_0)}{G(x)-G(x_0)} = \frac{F'(\eta)}{G'(\eta)}\quad(\eta\in(x_0,x))\\
-> > &= \frac{F'(\eta)-F'(x_0)}{G'(\eta)-G'(x_0)} = \frac{F''(\xi)}{G''(\xi)} = f''(\xi)\quad(\xi\in(x_0,\eta)).
-> > \end{aligned}$$
-> > 
-> > 证毕.
+> [!proof]- 证
+> 只证明 $x>x_0$ 的情况（$x<x_0$ 的情况类似可证，$x=x_0$ 的情况显然）. 式（1）可改写成
+> 
+> $$\frac{f(x)-f(x_0)-f'(x_0)(x-x_0)}{\frac{1}{2}(x-x_0)^2} = f''(\xi). \tag{2}$$
+> 
+> 为了证明式（2），只要令
+> 
+> $$F(x)=f(x)-f(x_0)-f'(x_0)(x-x_0),\quad G(x)=\frac{1}{2}(x-x_0)^2,$$
+> 
+> 则 $F'(x)=f'(x)-f'(x_0),\ G'(x)=x-x_0$.
+> 注意到 $F(x_0)=G(x_0)=0,\ F'(x_0)=G'(x_0)=0$，两次应用 Cauchy 中值定理，得
+> 
+> $$\begin{aligned}
+> \frac{f(x)-f(x_0)-f'(x_0)(x-x_0)}{\frac{1}{2}(x-x_0)^2}
+> &=\frac{F(x)}{G(x)} = \frac{F(x)-F(x_0)}{G(x)-G(x_0)} = \frac{F'(\eta)}{G'(\eta)}\quad(\eta\in(x_0,x))\\
+> &= \frac{F'(\eta)-F'(x_0)}{G'(\eta)-G'(x_0)} = \frac{F''(\xi)}{G''(\xi)} = f''(\xi)\quad(\xi\in(x_0,\eta)).
+> \end{aligned}$$
+> 
+> 证毕.
 
 将 Cauchy 中值公式改写成
 
@@ -1826,20 +1818,20 @@ $$\frac{F'(\xi)}{G'(\xi)}[G(b)-G(a)]=\frac{F'(\eta)}{G_1'(\eta)}[G_1(b)-G_1(a)].
 > 
 > （华中师范大学，吉林大学）
 > 
-> > [!proof]- 证
-> > （用 $(b-a)$ 乘 (1) 式两端．）式 (1) 等价于
-> > 
-> > $$\frac{f'(\xi)}{1}(b-a)=\frac{f'(\eta)}{2\eta}(b^2-a^2).$$
-> > 
-> > 为证此式，只要取 $F(x)=f(x)$，取 $G(x)=x$ 和 $x^2$，在 $[a,b]$ 上分别应用 Cauchy 中值定理，则
-> > 
-> > $$f(b)-f(a)=\frac{f'(\xi)}{1}\cdot(b-a)=\frac{f'(\eta)}{2\eta}(b^2-a^2),\quad \xi,\eta\in(a,b).$$
+> [!proof]- 证
+> （用 $(b-a)$ 乘 (1) 式两端．）式 (1) 等价于
+> 
+> $$\frac{f'(\xi)}{1}(b-a)=\frac{f'(\eta)}{2\eta}(b^2-a^2).$$
+> 
+> 为证此式，只要取 $F(x)=f(x)$，取 $G(x)=x$ 和 $x^2$，在 $[a,b]$ 上分别应用 Cauchy 中值定理，则
+> 
+> $$f(b)-f(a)=\frac{f'(\xi)}{1}\cdot(b-a)=\frac{f'(\eta)}{2\eta}(b^2-a^2),\quad \xi,\eta\in(a,b).$$
 
 > [!exercise] 练习
 > 设 $f(x)$ 在 $[a,b]$（$b>a>0$）上连续，在 $(a,b)$ 内可导，证明：在 $(a,b)$ 内存在两点 $\xi,\eta$，使得 $f'(\xi)=\eta^2\dfrac{f'(\eta)}{ab}$．（华中师范大学）
 > 
-> > [!hint]- 提示
-> > $$f'(\xi) \xlongequal{\text{Lagrange定理}} \frac{f(b)-f(a)}{b-a} \xlongequal[\text{Cauchy中值定理}]{g(x)=\frac{-ab}{x}} \frac{f'(\eta)}{1/\eta^2}\frac{1}{ab}=\eta^2\frac{f'(\eta)}{ab}.$$
+> [!hint]- 提示
+> $$f'(\xi) \xlongequal{\text{Lagrange定理}} \frac{f(b)-f(a)}{b-a} \xlongequal[\text{Cauchy中值定理}]{g(x)=\frac{-ab}{x}} \frac{f'(\eta)}{1/\eta^2}\frac{1}{ab}=\eta^2\frac{f'(\eta)}{ab}.$$
 
 > [!example] ☆例3.2.29
 > 设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$0<a<b$．证明：在 $(a,b)$ 内存在 $x_1,x_2,x_3$，使得
@@ -1848,10 +1840,10 @@ $$\frac{F'(\xi)}{G'(\xi)}[G(b)-G(a)]=\frac{F'(\eta)}{G_1'(\eta)}[G_1(b)-G_1(a)].
 > 
 > （四川大学）
 > 
-> > [!hint]- 提示
-> > 式 (1) 可改写成
-> > 
-> > $$\frac{f'(x_1)}{2x_1}(b^2-a^2)=\frac{f'(x_2)}{4x_2^3}(b^4-a^4)=\frac{f'(x_3)}{1/x_3}(\ln b-\ln a).$$
+> [!hint]- 提示
+> 式 (1) 可改写成
+> 
+> $$\frac{f'(x_1)}{2x_1}(b^2-a^2)=\frac{f'(x_2)}{4x_2^3}(b^4-a^4)=\frac{f'(x_3)}{1/x_3}(\ln b-\ln a).$$
 
 
 #### b．作为函数与导数的关系
@@ -1869,53 +1861,53 @@ $$
 > [!example] ☆例3.2.30
 > 设$f(x)$，$g(x)$在$(a,b)$内可微，且$\forall x\in(a,b)$，$g'(x)\neq 0$，当$x\to a^+$时$g(x)\to \infty$，且$\lim_{x\to a^+}\frac{f'(x)}{g'(x)}=A$（有限数，或$\infty$），证明：$\lim_{x\to a^+}\frac{f(x)}{g(x)}=A$.
 >
-> > [!note] 分析
-> > 已知$\lim_{x\to a^+}\frac{f'(x)}{g'(x)}=A$，因此保持取$a<x<x_1$，应用Cauchy中值定理，然后令$x_1\to a^+$，知函数差分比
-> > 
-> > $$
-> > \frac{f(x)-f(x_1)}{g(x)-g(x_1)}=\frac{f'(\xi)}{g'(\xi)}\to A（当x_1\to a^+时）．
-> > $$
-> > 
-> > 剩下的问题在于根据$g(x)\to \infty$（当$x\to a^+$时），由差分比$\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\to A$，推出$\frac{f(x)}{g(x)}\to A$（当$x\to a^+$时）．
-> > 
-> > 事实上，$f(x)$可以改写成
-> > 
-> > $$f(x)=\frac{f(x)-f(x_1)}{g(x)-g(x_1)}(g(x)-g(x_1))+f(x_1)，$$
-> > 
-> > 因此
-> > 
-> > $$\frac{f(x)}{g(x)}=\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\left(1-\frac{g(x_1)}{g(x)}\right)+\frac{f(x_1)}{g(x)}．$$
->
-> > [!proof]- 证明
-> > **1°** 若$A=$有限数．由(2)可得
-> > 
-> > $$\frac{f(x)}{g(x)}-A=\left(\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right)\left(1-\frac{g(x_1)}{g(x)}\right)+\frac{f(x_1)-Ag(x_1)}{g(x)}．$$
-> > 
-> > 保持$a<x<x_1$，令$x_1\to a^+$，则$\forall\varepsilon>0$，$\exists\delta_1>0$，使得当$a<x<x_1<a+\delta_1$时，有
-> > 
-> > $$\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right|<\frac{\varepsilon}{4}.$$
-> > 
-> > 再将$x_1$固定，令$x$继续趋向$a^+$．根据$g(x)\to \infty$（当$x\to a^+$时），知$\exists\delta>0$（$\delta<x_1-a$），使得$a<x<\delta$时，有
-> > 
-> > $$\left|\frac{g(x_1)}{g(x)}\right|<1，\quad \left|\frac{f(x_1)-Ag(x_1)}{g(x)}\right|<\frac{\varepsilon}{2}.$$
-> > 
-> > 于是由(3)，
-> > 
-> > $$\left|\frac{f(x)}{g(x)}-A\right|\leq\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right|\left(1+\left|\frac{g(x_1)}{g(x)}\right|\right)+\left|\frac{f(x_1)-Ag(x_1)}{g(x)}\right|\leq\frac{\varepsilon}{4}\cdot 2+\frac{\varepsilon}{2}=\varepsilon.$$
-> > 
-> > **2°** 若$A=\infty$，则$x$充分接近$a^+$时$f'(x)\neq 0$．并且对$M=1$，$\exists\delta>0$，当$a<x<x_1<a+\delta$时，有
-> > 
-> > $$\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\right|=\left|\frac{f'(\xi)}{g'(\xi)}\right|>1\ （x<\xi<x_1），$$
-> > 
-> > 从而
-> > 
-> > $$|f(x)-f(x_1)|>|g(x)-g(x_1)|\geq|g(x)|-|g(x_1)|\to +\infty\ （x_1固定且令x\to a^+）.$$
-> > 
-> > 可见
-> > 
-> > $$|f(x)|\to +\infty，f(x)\to \infty（当x\to a^+时）．$$
-> > 
-> > 由此可利用1°中结果，由$\lim_{x\to a^+}\frac{g'(x)}{f'(x)}=0$得出$\lim_{x\to a^+}\frac{g(x)}{f(x)}=0$，从而$\lim_{x\to a^+}\frac{f(x)}{g(x)}=\infty$.
+> [!note] 分析
+> 已知$\lim_{x\to a^+}\frac{f'(x)}{g'(x)}=A$，因此保持取$a<x<x_1$，应用Cauchy中值定理，然后令$x_1\to a^+$，知函数差分比
+> 
+> $$
+> \frac{f(x)-f(x_1)}{g(x)-g(x_1)}=\frac{f'(\xi)}{g'(\xi)}\to A（当x_1\to a^+时）．
+> $$
+> 
+> 剩下的问题在于根据$g(x)\to \infty$（当$x\to a^+$时），由差分比$\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\to A$，推出$\frac{f(x)}{g(x)}\to A$（当$x\to a^+$时）．
+> 
+> 事实上，$f(x)$可以改写成
+> 
+> $$f(x)=\frac{f(x)-f(x_1)}{g(x)-g(x_1)}(g(x)-g(x_1))+f(x_1)，$$
+> 
+> 因此
+> 
+> $$\frac{f(x)}{g(x)}=\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\left(1-\frac{g(x_1)}{g(x)}\right)+\frac{f(x_1)}{g(x)}．$$
+
+> [!proof]- 证明
+> **1°** 若$A=$有限数．由(2)可得
+> 
+> $$\frac{f(x)}{g(x)}-A=\left(\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right)\left(1-\frac{g(x_1)}{g(x)}\right)+\frac{f(x_1)-Ag(x_1)}{g(x)}．$$
+> 
+> 保持$a<x<x_1$，令$x_1\to a^+$，则$\forall\varepsilon>0$，$\exists\delta_1>0$，使得当$a<x<x_1<a+\delta_1$时，有
+> 
+> $$\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right|<\frac{\varepsilon}{4}.$$
+> 
+> 再将$x_1$固定，令$x$继续趋向$a^+$．根据$g(x)\to \infty$（当$x\to a^+$时），知$\exists\delta>0$（$\delta<x_1-a$），使得$a<x<\delta$时，有
+> 
+> $$\left|\frac{g(x_1)}{g(x)}\right|<1，\quad \left|\frac{f(x_1)-Ag(x_1)}{g(x)}\right|<\frac{\varepsilon}{2}.$$
+> 
+> 于是由(3)，
+> 
+> $$\left|\frac{f(x)}{g(x)}-A\right|\leq\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}-A\right|\left(1+\left|\frac{g(x_1)}{g(x)}\right|\right)+\left|\frac{f(x_1)-Ag(x_1)}{g(x)}\right|\leq\frac{\varepsilon}{4}\cdot 2+\frac{\varepsilon}{2}=\varepsilon.$$
+> 
+> **2°** 若$A=\infty$，则$x$充分接近$a^+$时$f'(x)\neq 0$．并且对$M=1$，$\exists\delta>0$，当$a<x<x_1<a+\delta$时，有
+> 
+> $$\left|\frac{f(x)-f(x_1)}{g(x)-g(x_1)}\right|=\left|\frac{f'(\xi)}{g'(\xi)}\right|>1\ （x<\xi<x_1），$$
+> 
+> 从而
+> 
+> $$|f(x)-f(x_1)|>|g(x)-g(x_1)|\geq|g(x)|-|g(x_1)|\to +\infty\ （x_1固定且令x\to a^+）.$$
+> 
+> 可见
+> 
+> $$|f(x)|\to +\infty，f(x)\to \infty（当x\to a^+时）．$$
+> 
+> 由此可利用1°中结果，由$\lim_{x\to a^+}\frac{g'(x)}{f'(x)}=0$得出$\lim_{x\to a^+}\frac{g(x)}{f(x)}=0$，从而$\lim_{x\to a^+}\frac{f(x)}{g(x)}=\infty$.
 
 > [!note] 注
 > 1°这里是$x\to a^+$的情况，$x\to a^-$的情况以及$x\to +\infty$，$x\to -\infty$的情况亦有类似的结论和证法．由$x\to a^+$及$x\to a^-$的结论，可知$x\to a$时结论也成立．
@@ -1931,212 +1923,212 @@ $$
 > 
 > 证明：$\sup_{-\infty<x<+\infty}|xe^{-x^2}f(x)|<+\infty$．（北京大学）
 >
-> > [!note] 注
-> > 任意函数$F(x)$，条件$\sup_{-\infty<x<+\infty}|F(x)|<+\infty$等价于$F(x)$在$(-\infty，+\infty)$上有界．因此问题等价于已知函数$e^{-x^2}f'(x)$有界，证明$xe^{-x^2}f(x)$有界．
->
-> > [!proof]- 证明
-> > 因为$xe^{-x^2}f(x)$在$[-1，1]$上连续，所以在$[-1，1]$上有界，剩下只要证明在$(1，+\infty)$与$(-\infty，-1)$上有界．以$(1，+\infty)$为例进行证明，$(-\infty，-1)$的情况类似．设$x>1$为任意数，则
-> > 
-> > $$
-> > \begin{aligned}
-> > \left|\frac{xf(x)}{e^{x^2}}\right|&=\left|\frac{xf(x)-f(1)}{e^{x^2}}+\frac{f(1)}{e^{x^2}}\right|\leq\left|\frac{xf(x)-1\cdot f(1)}{e^{x^2}-e^1}\right|+\frac{|f(1)|}{e}\\
-> > &=\left|\frac{(xf(x))'}{(e^{x^2})'}\right|_{x=\xi}+\frac{|f(1)|}{e}\ （1<\xi<x），
-> > \end{aligned}
-> > $$
-> > 
-> > 其中右端第一项
-> > 
-> > $$
-> > \begin{aligned}
-> > \left|\frac{(xf(x))'}{(e^{x^2})'}\right|_{x=\xi}&\leq\frac{1}{2}|e^{-\xi^2}f'(\xi)|+\frac{1}{2}\left|e^{-\xi^2}\frac{f(\xi)-f(0)}{\xi-0}\right|+\frac{1}{2}\left|\frac{f(0)}{\xi e^{\xi^2}}\right|\\
-> > &\leq\frac{1}{2}|e^{-\xi^2}f'(\xi)|+\frac{1}{2}|e^{-\eta^2}f'(\eta)|+\frac{1}{2}|f(0)|\ （0<\eta<\xi）.
-> > \end{aligned}
-> > $$
-> > 
-> > 因$e^{-x^2}f'(x)$有界，由(1)，(2)知$xe^{-x^2}f(x)$亦有界.
+> [!note] 注
+> 任意函数$F(x)$，条件$\sup_{-\infty<x<+\infty}|F(x)|<+\infty$等价于$F(x)$在$(-\infty，+\infty)$上有界．因此问题等价于已知函数$e^{-x^2}f'(x)$有界，证明$xe^{-x^2}f(x)$有界．
+
+> [!proof]- 证明
+> 因为$xe^{-x^2}f(x)$在$[-1，1]$上连续，所以在$[-1，1]$上有界，剩下只要证明在$(1，+\infty)$与$(-\infty，-1)$上有界．以$(1，+\infty)$为例进行证明，$(-\infty，-1)$的情况类似．设$x>1$为任意数，则
+> 
+> $$
+> \begin{aligned}
+> \left|\frac{xf(x)}{e^{x^2}}\right|&=\left|\frac{xf(x)-f(1)}{e^{x^2}}+\frac{f(1)}{e^{x^2}}\right|\leq\left|\frac{xf(x)-1\cdot f(1)}{e^{x^2}-e^1}\right|+\frac{|f(1)|}{e}\\
+> &=\left|\frac{(xf(x))'}{(e^{x^2})'}\right|_{x=\xi}+\frac{|f(1)|}{e}\ （1<\xi<x），
+> \end{aligned}
+> $$
+> 
+> 其中右端第一项
+> 
+> $$
+> \begin{aligned}
+> \left|\frac{(xf(x))'}{(e^{x^2})'}\right|_{x=\xi}&\leq\frac{1}{2}|e^{-\xi^2}f'(\xi)|+\frac{1}{2}\left|e^{-\xi^2}\frac{f(\xi)-f(0)}{\xi-0}\right|+\frac{1}{2}\left|\frac{f(0)}{\xi e^{\xi^2}}\right|\\
+> &\leq\frac{1}{2}|e^{-\xi^2}f'(\xi)|+\frac{1}{2}|e^{-\eta^2}f'(\eta)|+\frac{1}{2}|f(0)|\ （0<\eta<\xi）.
+> \end{aligned}
+> $$
+> 
+> 因$e^{-x^2}f'(x)$有界，由(1)，(2)知$xe^{-x^2}f(x)$亦有界.
 
 > [!example] 例3.2.32
 > 设$f(x)$在$\mathbb{R}$上可导，试证：若$\lim_{x\to +\infty}[f(x)+f'(x)]=A$，则$\lim_{x\to +\infty}f(x)=A$，$\lim_{x\to +\infty}f'(x)=0$．（清华大学）
+
+> [!proof]- 证明
+> （$e^x$的妙用）（可参看例1.3.21）如上面的注2°所述，能用L'Hospital法则：
+> 
+> $$\lim_{x\to +\infty}f(x)=\lim_{x\to +\infty}\frac{e^xf(x)}{e^x}\xlongequal{L'Hospital法则}\lim_{x\to +\infty}(f(x)+f'(x))=A.$$
+> 
+> 因此
+> 
+> $$\lim_{x\to +\infty}f'(x)=\lim_{x\to +\infty}(f(x)+f'(x)-f(x))=A-A=0.$$
 >
-> > [!proof]- 证明
-> > （$e^x$的妙用）（可参看例1.3.21）如上面的注2°所述，能用L'Hospital法则：
-> > 
-> > $$\lim_{x\to +\infty}f(x)=\lim_{x\to +\infty}\frac{e^xf(x)}{e^x}\xlongequal{L'Hospital法则}\lim_{x\to +\infty}(f(x)+f'(x))=A.$$
-> > 
-> > 因此
-> > 
-> > $$\lim_{x\to +\infty}f'(x)=\lim_{x\to +\infty}(f(x)+f'(x)-f(x))=A-A=0.$$
->
-> > [!note] 注
-> > 本题说明：如果$f(x)$可导，对$\lim_{x\to +\infty}\frac{e^xf(x)}{e^x}$用L'Hospital法则，可将$\lim_{x\to +\infty}f(x)$转化为$\lim_{x\to +\infty}[f(x)+f'(x)]$的极限，只要后者极限存在，则
-> > 
-> > $$\lim_{x\to +\infty}f(x)=\lim_{x\to +\infty}[f(x)+f'(x)]=A<+\infty，$$
-> > 
-> > 且$\lim_{x\to +\infty}f'(x)$存在$=0$；倘若极限$A$不存在，原极限待定．
+> [!note] 注
+> 本题说明：如果$f(x)$可导，对$\lim_{x\to +\infty}\frac{e^xf(x)}{e^x}$用L'Hospital法则，可将$\lim_{x\to +\infty}f(x)$转化为$\lim_{x\to +\infty}[f(x)+f'(x)]$的极限，只要后者极限存在，则
+> 
+> $$\lim_{x\to +\infty}f(x)=\lim_{x\to +\infty}[f(x)+f'(x)]=A<+\infty，$$
+> 
+> 且$\lim_{x\to +\infty}f'(x)$存在$=0$；倘若极限$A$不存在，原极限待定．
 
 > [!exercise] 练习1
 > 设$f(x)$在$\mathbb{R}$上有$n+1$阶导数，且$\lim_{x\to +\infty}f(x)$和$\lim_{x\to +\infty}f^{(n+1)}(x)$都存在（有限）（$f^{(0)}(x)$表示$f(x)$），试证：$\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^kf^{(k)}(x)=\lim_{x\to +\infty}[f(x)+(-1)^nf^{(n+1)}(x)]$，且$\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^kf^{(k+1)}(x)=0$.
 >
-> > [!tip]- 提示
-> > 记$F(x)=\sum_{k=0}^{n}(-1)^kf^{(k)}(x)$，对$\lim_{x\to +\infty}\frac{e^xF(x)}{e^x}$用L'Hospital法则：
-> > 
-> > $$
-> > \begin{aligned}
-> > \lim_{x\to +\infty}F(x)&=\lim_{x\to +\infty}[F(x)+F'(x)]\ （当右边极限存在时，此等式成立）\\
-> > &=\lim_{x\to +\infty}\left\{\sum_{k=0}^{n}(-1)^kf^{(k)}(x)+\left[\sum_{k=0}^{n}(-1)^kf^{(k)}(x)\right]'\right\}\\
-> > &=\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^k[f^{(k)}(x)+f^{(k+1)}(x)]\\
-> > &=\lim_{x\to +\infty}[f(x)+(-1)^nf^{(n+1)}(x)]（存在），
-> > \end{aligned}
-> > $$
-> > 
-> > 且
-> > 
-> > $$\lim_{x\to +\infty}F'(x)=\lim_{x\to +\infty}\left(\sum_{k=0}^{n}(-1)^kf^{(k)}(x)\right)'=\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^kf^{(k+1)}(x)=0.$$
+> [!tip]- 提示
+> 记$F(x)=\sum_{k=0}^{n}(-1)^kf^{(k)}(x)$，对$\lim_{x\to +\infty}\frac{e^xF(x)}{e^x}$用L'Hospital法则：
+> 
+> $$
+> \begin{aligned}
+> \lim_{x\to +\infty}F(x)&=\lim_{x\to +\infty}[F(x)+F'(x)]\ （当右边极限存在时，此等式成立）\\
+> &=\lim_{x\to +\infty}\left\{\sum_{k=0}^{n}(-1)^kf^{(k)}(x)+\left[\sum_{k=0}^{n}(-1)^kf^{(k)}(x)\right]'\right\}\\
+> &=\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^k[f^{(k)}(x)+f^{(k+1)}(x)]\\
+> &=\lim_{x\to +\infty}[f(x)+(-1)^nf^{(n+1)}(x)]（存在），
+> \end{aligned}
+> $$
+> 
+> 且
+> 
+> $$\lim_{x\to +\infty}F'(x)=\lim_{x\to +\infty}\left(\sum_{k=0}^{n}(-1)^kf^{(k)}(x)\right)'=\lim_{x\to +\infty}\sum_{k=0}^{n}(-1)^kf^{(k+1)}(x)=0.$$
 
 > [!exercise] 练习2
 > 设$q>0$，若极限$\lim_{x\to +\infty}[f(x)+\frac{1}{q}f'(x)]$存在，证明$\lim_{x\to +\infty}f'(x)=0$.
->
-> > [!proof]- 证明
-> > $$\lim f(x)=\lim_{x\to +\infty}\frac{e^{qx}f(x)}{e^{qx}}\xlongequal{L'Hospital法则}\lim_{x\to +\infty}[f(x)+\frac{1}{q}f'(x)]$$存在，故知$\lim f'(x)=0$.
+
+> [!proof]- 证明
+> $$\lim f(x)=\lim_{x\to +\infty}\frac{e^{qx}f(x)}{e^{qx}}\xlongequal{L'Hospital法则}\lim_{x\to +\infty}[f(x)+\frac{1}{q}f'(x)]$$存在，故知$\lim f'(x)=0$.
 
 > [!exercise] **练习3**
 > 设$f(x)$在$\mathbb{R}$上有三阶导数，如果$\lim_{x\to +\infty}f(x)$和$\lim_{x\to +\infty}f'''(x)$都存在（有限）．试证：
 > 
 > $$\lim_{x\to +\infty}f'(x)=\lim_{x\to +\infty}f''(x)=\lim_{x\to +\infty}f'''(x)=0．$$（中国科学技术大学）
+
+> [!proof]- 证明
+> **1°** 
+> $$\lim_{x\to +\infty}[f(x)-f'(x)+f''(x)]\xlongequal{L'Hospital法则}\lim_{x\to +\infty}\{[f(x)-f'(x)+f''(x)]+[f(x)-f'(x)+f''(x)]'\}=\lim_{x\to +\infty}[f(x)+f'''(x)]，$$
+> 
+> 极限存在；再利用例3.2.32，得
+> 
+> $$\lim_{x\to +\infty}[f'(x)-f''(x)+f'''(x)]=0.$$
+> 
+> 故
+> 
+> $$\lim_{x\to +\infty}[f'(x)-f''(x)]=-\lim_{x\to +\infty}f'''(x).$$
+> 
+> **2°** 对$f'(x)-\frac{1}{p}f''(x)$利用1°中的方法，则$\forall p>0$，
+> 
+> $$
+> \begin{aligned}
+> \lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]
+> &=\lim_{x\to +\infty}\frac{e^{x/q}}{e^{x/q}}[f'(x)-\frac{1}{p}f''(x)]\ （L'Hospital法则）\\
+> &=\lim_{x\to +\infty}\left\{[f'(x)-\frac{1}{p}f''(x)]+\frac{1}{q}[f'(x)-\frac{1}{p}f''(x)]'\right\}\\
+> &=\lim_{x\to +\infty}\left[f'(x)+\left(\frac{1}{q}-\frac{1}{p}\right)f''(x)-\frac{1}{pq}f'''(x)\right].
+> \end{aligned}
+> $$
+> 
+> （令$pq=1$，$p-q=-1$，即$p$，$(-q)$是方程$x^2+x-1=0$的根：$p=\frac{\sqrt{5}-1}{2}$，$q=\frac{\sqrt{5}+1}{2}$（例1.1.9有类似的做法）．）即
+> 
+> $$\lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]=\lim_{x\to +\infty}[f'(x)-f''(x)-f'''(x)]\xlongequal{式(3)}-2\lim_{x\to +\infty}f'''(x)\ （存在）.$$
+> 
+> 再利用练习2，得
+> 
+> $$\lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]'=\lim_{x\to +\infty}[f''(x)-\frac{1}{p}f'''(x)]存在=0，$$
+> 
+> 故
+> 
+> $$\lim_{x\to +\infty}f''(x)存在且\lim_{x\to +\infty}\frac{1}{p}f'''(x).$$
+> 
+> 结合式(3)知$\lim f'(x)$也存在．于是，$\lim_{x\to +\infty}[f'(x)+f''(x)]$存在．
+> 
+> 再由
+> 
+> $$\lim_{x\to +\infty}f'(x)=\lim_{x\to +\infty}\frac{e^x}{e^x}f'(x)=\lim_{x\to +\infty}[f'(x)+f''(x)]$$
+> 
+> 存在，利用例3.2.32得$\lim_{x\to +\infty}f''(x)=0$．由式(5)得$\lim f'''(x)=0$．回到式(3)，知$\lim f'(x)=0$．证毕.
 >
-> > [!proof]- 证明
-> > **1°** 
-> > $$\lim_{x\to +\infty}[f(x)-f'(x)+f''(x)]\xlongequal{L'Hospital法则}\lim_{x\to +\infty}\{[f(x)-f'(x)+f''(x)]+[f(x)-f'(x)+f''(x)]'\}=\lim_{x\to +\infty}[f(x)+f'''(x)]，$$
-> > 
-> > 极限存在；再利用例3.2.32，得
-> > 
-> > $$\lim_{x\to +\infty}[f'(x)-f''(x)+f'''(x)]=0.$$
-> > 
-> > 故
-> > 
-> > $$\lim_{x\to +\infty}[f'(x)-f''(x)]=-\lim_{x\to +\infty}f'''(x).$$
-> > 
-> > **2°** 对$f'(x)-\frac{1}{p}f''(x)$利用1°中的方法，则$\forall p>0$，
-> > 
-> > $$
-> > \begin{aligned}
-> > \lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]
-> > &=\lim_{x\to +\infty}\frac{e^{x/q}}{e^{x/q}}[f'(x)-\frac{1}{p}f''(x)]\ （L'Hospital法则）\\
-> > &=\lim_{x\to +\infty}\left\{[f'(x)-\frac{1}{p}f''(x)]+\frac{1}{q}[f'(x)-\frac{1}{p}f''(x)]'\right\}\\
-> > &=\lim_{x\to +\infty}\left[f'(x)+\left(\frac{1}{q}-\frac{1}{p}\right)f''(x)-\frac{1}{pq}f'''(x)\right].
-> > \end{aligned}
-> > $$
-> > 
-> > （令$pq=1$，$p-q=-1$，即$p$，$(-q)$是方程$x^2+x-1=0$的根：$p=\frac{\sqrt{5}-1}{2}$，$q=\frac{\sqrt{5}+1}{2}$（例1.1.9有类似的做法）．）即
-> > 
-> > $$\lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]=\lim_{x\to +\infty}[f'(x)-f''(x)-f'''(x)]\xlongequal{式(3)}-2\lim_{x\to +\infty}f'''(x)\ （存在）.$$
-> > 
-> > 再利用练习2，得
-> > 
-> > $$\lim_{x\to +\infty}[f'(x)-\frac{1}{p}f''(x)]'=\lim_{x\to +\infty}[f''(x)-\frac{1}{p}f'''(x)]存在=0，$$
-> > 
-> > 故
-> > 
-> > $$\lim_{x\to +\infty}f''(x)存在且\lim_{x\to +\infty}\frac{1}{p}f'''(x).$$
-> > 
-> > 结合式(3)知$\lim f'(x)$也存在．于是，$\lim_{x\to +\infty}[f'(x)+f''(x)]$存在．
-> > 
-> > 再由
-> > 
-> > $$\lim_{x\to +\infty}f'(x)=\lim_{x\to +\infty}\frac{e^x}{e^x}f'(x)=\lim_{x\to +\infty}[f'(x)+f''(x)]$$
-> > 
-> > 存在，利用例3.2.32得$\lim_{x\to +\infty}f''(x)=0$．由式(5)得$\lim f'''(x)=0$．回到式(3)，知$\lim f'(x)=0$．证毕.
->
-> > [!note] 注
-> > 练习3采用了学者张祖锦和"龙凤呈祥"在网上发布的思想方法，谢谢两位老师．
+> [!note] 注
+> 练习3采用了学者张祖锦和"龙凤呈祥"在网上发布的思想方法，谢谢两位老师．
 
 > [!example] *例3.2.33
 > $f(x)$在$[a，+\infty）$上连续可微，$\limsup_{t\to +\infty}|f(x)+f'(x)|\leq M<+\infty$．求证：$\limsup_{t\to +\infty}|f(x)|\leq M<+\infty$．（中国科学技术大学）
 >
-> > [!note] 注
-> > 看起来，本题似乎可用上例的方法同样处理，实际上这里是上极限，不是普通极限，不能像上面那样应用L'Hospital法则．但是，L'Hospital法则是从Cauchy中值定理推得的，本题是否可借助于Cauchy中值定理？
->
-> > [!proof]- 证明
-> > $$\overline{\lim}_{x\to +\infty}|f(x)+f'(x)|=\overline{\lim}_{\substack{t\to +\infty\\ x>t}}|f(x)+f'(x)|\leq M<+\infty.$$
-> > 
-> > 因此，对$\varepsilon>0$，$\exists A>0$，当$x>A$时，有
-> > 
-> > $$-\varepsilon-M\leq f(x)+f'(x)\leq M+\varepsilon.$$
-> > 
-> > 对函数$e^xf(x)$和$e^x$在$[A,x]$上应用Cauchy中值定理：存在$\xi_x\in(A,x)$使得
-> > 
-> > $$\frac{e^xf(x)-e^Af(A)}{e^x-e^A}=f(\xi_x)+f'(\xi_x)\in(-M-\varepsilon,M+\varepsilon)（\xi_x\in(A,x)）.\tag{1}$$
-> > 
-> > 另一方面，利用上、下极限的已知公式（例1.7.2），有
-> > 
-> > $$
-> > \begin{aligned}
-> > \overline{\lim}_{x\to +\infty}\frac{e^xf(x)-e^Af(A)}{e^x-e^A}
-> > &=\overline{\lim}_{x\to +\infty}\frac{e^xf(x)}{e^x-e^A}+\overline{\lim}_{x\to +\infty}\left(-\frac{e^Af(A)}{e^x-e^A}\right)\\
-> > &=\overline{\lim}_{x\to +\infty}\frac{e^x}{e^x-e^A}\cdot\overline{\lim}_{x\to +\infty}f(x)\\
-> > &=\overline{\lim}_{x\to +\infty}f(x).\tag{2}
-> > \end{aligned}
-> > $$
-> > 
-> > 以上过程将$f(x)$改为$-f(x)$也有效，即
-> > 
-> > $$\overline{\lim}_{x\to +\infty}(-f(x))=\overline{\lim}_{x\to +\infty}\frac{e^x(-f(x))-e^A(-f(A))}{e^x-e^A}.$$
-> > 
-> > 于是，$\overline{\lim}_{x\to +\infty}|f(x)|\in[-M-\varepsilon,M+\varepsilon]$．令$\varepsilon\to 0$，有
-> > 
-> > $$\overline{\lim}_{\substack{t\to +\infty\\ x>t}}|f(x)|=\overline{\lim}_{x\to +\infty}|f(x)|\leq M<+\infty.$$
+> [!note] 注
+> 看起来，本题似乎可用上例的方法同样处理，实际上这里是上极限，不是普通极限，不能像上面那样应用L'Hospital法则．但是，L'Hospital法则是从Cauchy中值定理推得的，本题是否可借助于Cauchy中值定理？
+
+> [!proof]- 证明
+> $$\overline{\lim}_{x\to +\infty}|f(x)+f'(x)|=\overline{\lim}_{\substack{t\to +\infty\\ x>t}}|f(x)+f'(x)|\leq M<+\infty.$$
+> 
+> 因此，对$\varepsilon>0$，$\exists A>0$，当$x>A$时，有
+> 
+> $$-\varepsilon-M\leq f(x)+f'(x)\leq M+\varepsilon.$$
+> 
+> 对函数$e^xf(x)$和$e^x$在$[A,x]$上应用Cauchy中值定理：存在$\xi_x\in(A,x)$使得
+> 
+> $$\frac{e^xf(x)-e^Af(A)}{e^x-e^A}=f(\xi_x)+f'(\xi_x)\in(-M-\varepsilon,M+\varepsilon)（\xi_x\in(A,x)）.\tag{1}$$
+> 
+> 另一方面，利用上、下极限的已知公式（例1.7.2），有
+> 
+> $$
+> \begin{aligned}
+> \overline{\lim}_{x\to +\infty}\frac{e^xf(x)-e^Af(A)}{e^x-e^A}
+> &=\overline{\lim}_{x\to +\infty}\frac{e^xf(x)}{e^x-e^A}+\overline{\lim}_{x\to +\infty}\left(-\frac{e^Af(A)}{e^x-e^A}\right)\\
+> &=\overline{\lim}_{x\to +\infty}\frac{e^x}{e^x-e^A}\cdot\overline{\lim}_{x\to +\infty}f(x)\\
+> &=\overline{\lim}_{x\to +\infty}f(x).\tag{2}
+> \end{aligned}
+> $$
+> 
+> 以上过程将$f(x)$改为$-f(x)$也有效，即
+> 
+> $$\overline{\lim}_{x\to +\infty}(-f(x))=\overline{\lim}_{x\to +\infty}\frac{e^x(-f(x))-e^A(-f(A))}{e^x-e^A}.$$
+> 
+> 于是，$\overline{\lim}_{x\to +\infty}|f(x)|\in[-M-\varepsilon,M+\varepsilon]$．令$\varepsilon\to 0$，有
+> 
+> $$\overline{\lim}_{\substack{t\to +\infty\\ x>t}}|f(x)|=\overline{\lim}_{x\to +\infty}|f(x)|\leq M<+\infty.$$
 
 > [!example] *例3.2.34
 > **1）** 设$F(x)$在$\mathbb{R}=(-\infty，+\infty)$上可导，若存在$\{x_n\}\to +\infty$，$\{y_n\}\to -\infty$，使得$\lim_{n\to \infty}F(x_n)=\lim_{n\to \infty}F(y_n)=c\in\mathbb{R}$．证明：存在$\xi\in\mathbb{R}$，使得$F'(\xi)=0$；
 > 
 > **2）** 设$f(x)$，$g(x)$在$\mathbb{R}$上可导，且$f'(x)\neq 0$，$g'(x)\neq 0$（$\forall x\in\mathbb{R}$）．若$\{x_n\}\to +\infty$，$\{y_n\}\to -\infty$，$\{x'_n\}\to +\infty$，$\{y'_n\}\to -\infty$，使得
-> > $$\lim_{n\to \infty}f(x_n)=B\in\mathbb{R}，\lim_{n\to \infty}f(y_n)=A\in\mathbb{R}，$$
-> > $$\lim_{n\to \infty}g(x'_n)=b\in\mathbb{R}，\lim_{n\to \infty}g(y'_n)=a\in\mathbb{R}.$$
+> $$\lim_{n\to \infty}f(x_n)=B\in\mathbb{R}，\lim_{n\to \infty}f(y_n)=A\in\mathbb{R}，$$
+> $$\lim_{n\to \infty}g(x'_n)=b\in\mathbb{R}，\lim_{n\to \infty}g(y'_n)=a\in\mathbb{R}.$$
 > 
 > 试证：存在$\xi\in\mathbb{R}$，使得$\frac{f'(\xi)}{g'(\xi)}=\frac{B-A}{b-a}$．（华东师范大学）
 >
-> > [!tip]- 提示
-> > **1）** 可用反证法（注意导函数有介值性）；
-> > 
-> > **2）** 作辅助函数$F(x)=f(x)-kg(x)$，其中$k=\frac{B-A}{b-a}$.
+> [!tip]- 提示
+> **1）** 可用反证法（注意导函数有介值性）；
+> 
+> **2）** 作辅助函数$F(x)=f(x)-kg(x)$，其中$k=\frac{B-A}{b-a}$.
 >
-> > [!tip]- 再提示
-> > **1）** 假设$\forall x\in\mathbb{R}$，$F'(x)\neq 0$．由导函数的介值性，则$F'(x)$要么恒正要么恒负．因此，$F$严格单调（严$\nearrow$或严$\searrow$），故$\lim_{n\to \infty}F(x_n)\neq \lim_{n\to \infty}F(y_n)$，与已知条件矛盾．
-> > 
-> > **2）** 分析：为证存在$\xi\in\mathbb{R}$，使得$\frac{f'(\xi)}{g'(\xi)}=\frac{B-A}{b-a}=k$，那么$f'(x)=kg'(x)$，亦即$f'(x)-kg'(x)=0$．记$F(x)=f(x)-kg(x)$，则问题转化为存在$\xi\in\mathbb{R}$，使得$F'(\xi)=0$．
-> > 
-> > 已知$g'(x)\neq 0$（$\forall x\in\mathbb{R}$），因导数有介值性，故$g'(x)$不能变号，即：$g'(x)$恒正或恒负，因而$g(x)$严格单调．当$x\to +\infty$时，
-> > 
-> > $$b=\lim_{n\to \infty}g(x'_n)=\lim_{x\to +\infty}g(x)=\lim_{n\to \infty}g(x_n).$$
-> > 
-> > 故
-> > 
-> > $$F(x_n)=f(x_n)-kg(x_n)\to B-kb=B-\frac{B-A}{b-a}b=\frac{Ab-Ba}{b-a}\ 记=c.$$
-> > 
-> > 当$y\to -\infty$时，同理有
-> > 
-> > $$F(y_n)=f(y_n)-kg(y_n)\to A-ka=A-\frac{B-A}{b-a}a=\frac{Ab-Ba}{b-a}=c.$$
-> > 
-> > 可见，$F(x)=f(x)-kg(x)$满足第1）小题的条件．因此，存在$\xi\in\mathbb{R}$，使得$F'(\xi)=0$．亦即$\frac{f'(\xi)}{g'(\xi)}=\frac{B-A}{b-a}$．结论2）成立.
->
-> > [!proof]- 另证
-> > 如上所述，因为导数有介值性，已知$g'(x)\neq 0$，则$g'(x)$不变号，$g(x)$严格单调，$\lim_{x\to +\infty}g(x)$以有限数或无穷大作为极限．但已知存在$\{x'_n\}\to +\infty$：$\lim_{n\to \infty}g(x'_n)=b$，因此，
-> > 
-> > $$\lim_{x\to +\infty}g(x)=\lim_{n\to \infty}g(x'_n)=b.$$
-> > 
-> > 同理，因为$f'(x)\neq 0$，故对$f(x)$也有类似的结论．
-> > 
-> > 至此，在$\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$内对$f(\tan x)$和$g(\tan x)$可应用Cauchy中值定理．因为：若
-> > 
-> > $$f(\tan x)\Big|_{x=\frac{\pi}{2}}=\lim_{x\to \frac{\pi}{2}^-}f(\tan x)=B\ 和\ f(\tan x)\Big|_{x=-\frac{\pi}{2}}=\lim_{x\to -\frac{\pi}{2}^+}f(\tan x)=A，$$
-> > 
-> > $$g(\tan x)\Big|_{x=\frac{\pi}{2}}=\lim_{x\to \frac{\pi}{2}^-}g(\tan x)=b\ 和\ g(\tan x)\Big|_{x=-\frac{\pi}{2}}=\lim_{x\to -\frac{\pi}{2}^+}g(\tan x)=a，$$
-> > 
-> > 则$f(\tan x)$和$g(\tan x)$在$\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$上连续，在$\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$内可导，并能应用Cauchy中值定理．
-> > 
-> > 如此，可直接得到：存在$\xi=\tan\eta\in\mathbb{R}$，使得
-> > 
-> > $$\frac{f'(\xi)}{g'(\xi)}=\frac{f'(\tan\eta)}{g'(\tan\eta)}=\frac{f(\tan x)\Big|_{x=\frac{\pi}{2}}}{g(\tan x)\Big|_{x=\frac{\pi}{2}}}\Big/\frac{f(\tan x)\Big|_{x=-\frac{\pi}{2}}}{g(\tan x)\Big|_{x=-\frac{\pi}{2}}}=\frac{B-A}{b-a}.$$
+> [!tip]- 再提示
+> **1）** 假设$\forall x\in\mathbb{R}$，$F'(x)\neq 0$．由导函数的介值性，则$F'(x)$要么恒正要么恒负．因此，$F$严格单调（严$\nearrow$或严$\searrow$），故$\lim_{n\to \infty}F(x_n)\neq \lim_{n\to \infty}F(y_n)$，与已知条件矛盾．
+> 
+> **2）** 分析：为证存在$\xi\in\mathbb{R}$，使得$\frac{f'(\xi)}{g'(\xi)}=\frac{B-A}{b-a}=k$，那么$f'(x)=kg'(x)$，亦即$f'(x)-kg'(x)=0$．记$F(x)=f(x)-kg(x)$，则问题转化为存在$\xi\in\mathbb{R}$，使得$F'(\xi)=0$．
+> 
+> 已知$g'(x)\neq 0$（$\forall x\in\mathbb{R}$），因导数有介值性，故$g'(x)$不能变号，即：$g'(x)$恒正或恒负，因而$g(x)$严格单调．当$x\to +\infty$时，
+> 
+> $$b=\lim_{n\to \infty}g(x'_n)=\lim_{x\to +\infty}g(x)=\lim_{n\to \infty}g(x_n).$$
+> 
+> 故
+> 
+> $$F(x_n)=f(x_n)-kg(x_n)\to B-kb=B-\frac{B-A}{b-a}b=\frac{Ab-Ba}{b-a}\ 记=c.$$
+> 
+> 当$y\to -\infty$时，同理有
+> 
+> $$F(y_n)=f(y_n)-kg(y_n)\to A-ka=A-\frac{B-A}{b-a}a=\frac{Ab-Ba}{b-a}=c.$$
+> 
+> 可见，$F(x)=f(x)-kg(x)$满足第1）小题的条件．因此，存在$\xi\in\mathbb{R}$，使得$F'(\xi)=0$．亦即$\frac{f'(\xi)}{g'(\xi)}=\frac{B-A}{b-a}$．结论2）成立.
+
+> [!proof]- 另证
+> 如上所述，因为导数有介值性，已知$g'(x)\neq 0$，则$g'(x)$不变号，$g(x)$严格单调，$\lim_{x\to +\infty}g(x)$以有限数或无穷大作为极限．但已知存在$\{x'_n\}\to +\infty$：$\lim_{n\to \infty}g(x'_n)=b$，因此，
+> 
+> $$\lim_{x\to +\infty}g(x)=\lim_{n\to \infty}g(x'_n)=b.$$
+> 
+> 同理，因为$f'(x)\neq 0$，故对$f(x)$也有类似的结论．
+> 
+> 至此，在$\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$内对$f(\tan x)$和$g(\tan x)$可应用Cauchy中值定理．因为：若
+> 
+> $$f(\tan x)\Big|_{x=\frac{\pi}{2}}=\lim_{x\to \frac{\pi}{2}^-}f(\tan x)=B\ 和\ f(\tan x)\Big|_{x=-\frac{\pi}{2}}=\lim_{x\to -\frac{\pi}{2}^+}f(\tan x)=A，$$
+> 
+> $$g(\tan x)\Big|_{x=\frac{\pi}{2}}=\lim_{x\to \frac{\pi}{2}^-}g(\tan x)=b\ 和\ g(\tan x)\Big|_{x=-\frac{\pi}{2}}=\lim_{x\to -\frac{\pi}{2}^+}g(\tan x)=a，$$
+> 
+> 则$f(\tan x)$和$g(\tan x)$在$\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$上连续，在$\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$内可导，并能应用Cauchy中值定理．
+> 
+> 如此，可直接得到：存在$\xi=\tan\eta\in\mathbb{R}$，使得
+> 
+> $$\frac{f'(\xi)}{g'(\xi)}=\frac{f'(\tan\eta)}{g'(\tan\eta)}=\frac{f(\tan x)\Big|_{x=\frac{\pi}{2}}}{g(\tan x)\Big|_{x=\frac{\pi}{2}}}\Big/\frac{f(\tan x)\Big|_{x=-\frac{\pi}{2}}}{g(\tan x)\Big|_{x=-\frac{\pi}{2}}}=\frac{B-A}{b-a}.$$
 
 
 ### ※附：导数的推广——广义导数
