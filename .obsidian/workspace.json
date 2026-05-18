@@ -63,8 +63,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/裴礼文数学分析.md",
-                "mode": "preview",
+                "file": "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "裴礼文数学分析"
+              "title": "裴礼文数学分析_第二章 一元函数的连续性"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/裴礼文数学分析.md",
+                "file": "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "裴礼文数学分析 的大纲"
+              "title": "裴礼文数学分析_第二章 一元函数的连续性 的大纲"
             }
           },
           {
@@ -240,8 +240,15 @@
   },
   "active": "8964e06bff142fdc",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "00.Inbox/裴礼文数学分析.md",
+    "00.Inbox/裴礼文数学分析_第一章 一元函数极限.md",
+    "00.Inbox/裴礼文数学分析_第五章 级数.md",
+    "00.Inbox/裴礼文数学分析_第四章 一元函数积分学.md",
+    "00.Inbox/裴礼文数学分析_第三章 一元微分学.md",
+    "00.Inbox/裴礼文数学分析_第七章　多元积分学.md",
+    "00.Inbox/裴礼文数学分析_第六章  多元函数微分学.md",
+    "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
@@ -259,13 +266,6 @@
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "20.Cards/Exercises/ex - Cohomology of Torus.md",
-    "20.Cards/Exercises/ex - 1-cohomology.md",
-    "20.Cards/Exercises/ex - Degree for Cohomology.md",
-    "00.Inbox/ex - Cup Product Structure for genus-g.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
-    "20.Cards/Exercises/ex - Convexity and Hessian for Function.md",
-    "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
-    "30.Recources/FA/Course HW/FA - HW9.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
