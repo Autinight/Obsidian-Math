@@ -1192,7 +1192,7 @@ $$
 $$
 
 
-## 三、用连续模数描述一致连续性
+### 三、用连续模数描述一致连续性
 
 > [!definition] 定义 1
 > 设 $f(x)$ 在区间 $I$ 上有定义，
@@ -1652,7 +1652,7 @@ Riemann函数 $R(x)$（见例3.1.1）在无理点处连续（既上半连续又�
 > 试对下半连续函数叙述定理6的对偶结果，并给出证明。
 
 
- ※§2.4 函数方程
+ ## ※§2.4 函数方程
 
 > [!note] 导读
 > 本节虽然不是重点，但例题中的方法十分精彩，值得学习和借鉴，适合各类读者．习题可作机动。
@@ -1671,12 +1671,12 @@ $$
 
 同样，容易验证函数 $f(x)=a^x\;(a>0)$，$g(x)=\log_a x\;(a>0)$，$h(x)=x^a$，$i(x)=\cos ax$ 与 $j(x)=\operatorname{ch}ax$ 分别满足方程：
 $$
-\begin{aligned}
+\begin{align}
 f(x+y)&=f(x)\cdot f(y) \quad (\forall x,y\in\mathbb{R}),\\
 f(x\cdot y)&=f(x)+f(y) \quad (\forall x,y>0),\\
 f(x\cdot y)&=f(x)\cdot f(y) \quad (\forall x,y>0),\\
 f(x+y)+f(x-y)&=2f(x)f(y) \quad (\forall x,y\in\mathbb{R}). \tag{E}
-\end{aligned}
+\end{align}
 $$
 
 而函数 $f(x)=\sin ax$ 与 $g(x)=\cos ax$ 满足联立方程组
@@ -1986,11 +1986,11 @@ $$
 
 > [!hint]-
 > 利用已知等式，
-> $$\begin{aligned}
+> $$\begin{align}
 > &f(x)=f(x\cdot1)=f(x)f(1)\Rightarrow f(1)=1\\
 > \Rightarrow\;&1=f(1)=f((-1)\cdot(-1))=f(-1)\cdot f(-1)\Rightarrow[f(-1)]^2=1\\
 > \Rightarrow\;&f(-1)=\pm1\Rightarrow f(-x)=f(-1)f(x)=\pm f(x)\quad(\forall x\in\mathbb{R}),
-> \end{aligned}$$
+> \end{align}$$
 > 即 $f(x)$ 为偶函数或奇函数。根据上题，$x>0$，$f(x)=x^a$（$a$ 为常数）。
 >
 > 因此在 $\mathbb{R}$ 上，

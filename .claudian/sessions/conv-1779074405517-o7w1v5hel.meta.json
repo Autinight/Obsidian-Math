@@ -1,0 +1,22 @@
+{
+  "id": "conv-1779074405517-o7w1v5hel",
+  "providerId": "claude",
+  "title": "\"30",
+  "createdAt": 1779074405517,
+  "updatedAt": 1779074586432,
+  "lastResponseAt": 1779074574754,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "a5b427de-2b9e-46d9-b593-eeb6b8745857"
+  },
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": false
+  }
+}

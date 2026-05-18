@@ -1,0 +1,20 @@
+{
+  "id": "conv-1779074590593-4l6n7w2hd",
+  "providerId": "claude",
+  "title": "\"30",
+  "createdAt": 1779074590594,
+  "updatedAt": 1779074656520,
+  "lastResponseAt": 1779074642765,
+  "sessionId": null,
+  "providerState": {},
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 4840,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4840,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": false
+  }
+}

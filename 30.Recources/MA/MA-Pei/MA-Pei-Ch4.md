@@ -2842,7 +2842,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 在(8)、(9)中消去 $c$，即得 $a_0=(n+1)^2\int_0^1 f(x)dx$。证毕。
 
-## 用积分解函数方程
+#### 用积分解函数方程
 
 > [!example] 例4.3.23
 > 设 $f(x)$ 在任意有限区间上可积且满足方程
@@ -2888,7 +2888,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > $f(x)=kx+c$，其中 $k=\frac{f(b)-f(a)}{b-a}$，$c=\frac{af(a)-bf(b)}{b-a}+\frac{2}{b-a}\int_a^b f(t)dt$。
 
-## 函数线性相关的充要条件
+#### 函数线性相关的充要条件
 
 > [!definition] 定义
 > 设 $f_1(x), f_2(x),\cdots,f_n(x)$ 在 $[a,b]$ 上有定义，那么，当且仅当存在不全为零的常数 $c_1,c_2,\cdots,c_n$，使得
@@ -2931,7 +2931,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 由练习4.2.6知 $g(x)\equiv\sum_{i=1}^n c_i f_i(x)\equiv 0$（$\forall x\in[a,b]$）。因此 $f_1(x), f_2(x),\cdots,f_n(x)$ 在 $[a,b]$ 上线性相关。
 
-## 利用特征函数的积分表示区间的长度
+#### 利用特征函数的积分表示区间的长度
 
 > [!example] **例4.3.25
 > 设 $[\alpha_i,\beta_i]$（$i=1,2,\cdots,n$）为 $[0,1]$ 上 $n$ 个区间，且 $[0,1]$ 上每个点至少属于这些区间里的 $q$ 个。证明这些区间里至少有一个，其长度 $\ge q/n$。
@@ -2962,7 +2962,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 与式(3)矛盾。因此，$\exists[\alpha_i, \beta_i]$ 使得 $\beta_i - \alpha_i \ge q/n$。
 
-## 凸函数的积分性质
+#### 凸函数的积分性质
 
 > [!example] 例 4.3.26 （Hadamard 定理）
 > 设 $f(x)$ 是 $[a,b]$ 上连续的凸函数。试证：$\forall x_1, x_2 \in [a,b]$，$x_1 < x_2$，有
@@ -3107,9 +3107,9 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 所以 $\varphi(x_0) < \frac{\int_a^b p(x)\varphi(f(x)) dx}{\int_a^b p(x) dx}$。证毕。
 
-## 各种技巧的灵活应用
+#### 各种技巧的灵活应用
 
-### 单调性的妙用
+##### 单调性的妙用
 
 > [!example] ☆例 4.3.31
 > 设函数 $f(x) \ge 0$，在 $[0,1]$ 上连续减小，$0 < \alpha < \beta < 1$，试证：
@@ -3124,7 +3124,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 待证不等式得证。
 
-### 利用对称性
+##### 利用对称性
 
 > [!example] ☆例 4.3.32
 > 设 $f(x)$ 为 $[a,b]$ 上的连续递增函数，则成立不等式：
@@ -3157,7 +3157,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > （因 $f \nearrow$，两对称点上 $f(c + t) - f(c - t) \ge 0$。）
 
-### 求导变成微分方程
+##### 求导变成微分方程
 
 > [!example] ☆例 4.3.33
 > 设 $f(x)$ 在 $[0,+\infty)$ 上可微，且满足 $\int_0^x f(t) dt = \frac{x}{3} \int_0^1 f(t) dt$，$x > 0$，
@@ -3176,7 +3176,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 可见 $f(x)$ 不变号，故 $c$ 必 $= 0$。即 $f(x) \equiv 0$。
 
-### 巧用极值原理
+##### 巧用极值原理
 
 > [!example] ☆例 4.3.34
 > 设 $f(x)$ 在 $\mathbb{R}$ 上连续，又 $\varphi(x) = f(x)\int_0^x f(t) dt$ 单调递减，证明：
@@ -3201,7 +3201,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > 
 > 因 $f(x)$ 连续，故 $f(x) = \left(\int_0^x f(t) dt\right)' = 0$（$\forall x \in \mathbb{R}$）。
 
-### 被积函数零点问题
+##### 被积函数零点问题
 
 > [!example] ☆例 4.3.35
 > 设 $f(x)$ 在 $[a,b]$ 上连续，且 $\int_a^b f(x) dx = 0$，$\int_a^b xf(x) dx = 0$。证明：
@@ -3219,7 +3219,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > $$
 > 矛盾。
 
-### 对数导数的妙用
+##### 对数导数的妙用
 
 用积分解决微分学的问题。
 
@@ -3245,7 +3245,7 @@ $$\int_a^b f^{(2n)}(x)g(x) dx=\int_a^b f(x)g^{(2n)}(x) dx. \tag{A}$$
 > [!proof]- 证
 > 已知当 $x>0$ 时，$(\ln f(x))'=\dfrac{f'(x)}{f(x)}<1$。又由于 $f(0)=1$，知 $\ln f(x)=\int_0^x(\ln f(x))'dx<x$。因此，$f(x)<e^x$。
 
-## 定积分的实际应用
+#### 定积分的实际应用
 
 > [!example] ☆例4.3.38
 > 设 $f:[0,1]\to[0,1]$ 有连续二阶导数，$f(0)=f(1)=0$，$f''(x)<0$。曲线 $L=\{(x,f(x))\mid x\in[0,1]\}$ 的弧长记为 $\ell$，试证：$\ell<3$。（北京大学）

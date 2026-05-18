@@ -63,8 +63,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
-                "mode": "source",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "裴礼文数学分析_第二章 一元函数的连续性"
+              "title": "MA-Pei-Ch6"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "裴礼文数学分析_第二章 一元函数的连续性 的大纲"
+              "title": "MA-Pei-Ch6 的大纲"
             }
           },
           {
@@ -215,6 +215,16 @@
               "icon": "links-going-out",
               "title": "pdf - AT Hatcher 的出链列表"
             }
+          },
+          {
+            "id": "c40b2ff60d251851",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
         "currentTab": 2
@@ -240,14 +250,19 @@
   },
   "active": "8964e06bff142fdc",
   "lastOpenFiles": [
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch2.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075175753",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075112015",
+    "30.Recources/PDE/Evans - Ch6.md",
     "00.Inbox/裴礼文数学分析.md",
-    "00.Inbox/裴礼文数学分析_第一章 一元函数极限.md",
-    "00.Inbox/裴礼文数学分析_第五章 级数.md",
-    "00.Inbox/裴礼文数学分析_第四章 一元函数积分学.md",
-    "00.Inbox/裴礼文数学分析_第三章 一元微分学.md",
-    "00.Inbox/裴礼文数学分析_第七章　多元积分学.md",
-    "00.Inbox/裴礼文数学分析_第六章  多元函数微分学.md",
-    "00.Inbox/裴礼文数学分析_第二章 一元函数的连续性.md",
+    "30.Recources/MA/MA-Pei",
+    "30.Recources/MA",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -264,8 +279,6 @@
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
     "20.Cards/Exercises/ex - Z_n Universal Coefficients Short Sequence.md",
     "20.Cards/Exercises/ex - Brouwer Fix Point.md",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
-    "20.Cards/Exercises/ex - Cohomology of Torus.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
@@ -276,8 +289,6 @@
     "00.Inbox/新建文件夹",
     "00.Inbox/references",
     "30.Recources/AT/Obsidian Books",
-    "30.Recources/RG/Obsidian Books",
-    "50.Image/MCG/RAW/1.mcg",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
@@ -288,8 +299,6 @@
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "50.Image/Tikz/SVG",
-    "50.Image/Tikz/RAW",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG/Pasted image 20260507180224.png",

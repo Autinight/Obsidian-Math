@@ -235,5 +235,14 @@
       ],
       "key": "E"
     }
+  ],
+  "claudian:open-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

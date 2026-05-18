@@ -3838,243 +3838,243 @@ Stolz公式可以推广到函数极限的情况．
 
 ### 单元练习1.5
 
-#### ☆1.5.1
+> [!exercise] ☆1.5.1
+>
+> 已知 $a_1=\sqrt{6}$，$a_n=\sqrt{6+a_{n-1}}$（$n=2,3,\ldots$），试证 $\lim a_n$ 存在，并求其值。（中国科学技术大学，北京大学，哈尔滨工业大学，北京邮电大学等）
 
-已知 $a_1=\sqrt{6}$，$a_n=\sqrt{6+a_{n-1}}$（$n=2,3,\ldots$），试证 $\lim a_n$ 存在，并求其值。（中国科学技术大学，北京大学，哈尔滨工业大学，北京邮电大学等）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 利用例1.5.1中证法Ⅰ、Ⅱ、Ⅲ以及例1.5.3的方法均可。
 
-#### 1.5.2
+> [!exercise] 1.5.2
+>
+> 设 $x_1=1$，$x_{n+1}=\frac{1+2x_n}{1+x_n}$（$n=1,2,\ldots$），证明 $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。（哈尔滨工业大学，华中科技大学等）
 
-设 $x_1=1$，$x_{n+1}=\frac{1+2x_n}{1+x_n}$（$n=1,2,\ldots$），证明 $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。（哈尔滨工业大学，华中科技大学等）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $0<f'(x)=\frac{1}{(1+x)^2}<\frac{1}{2}$，$1\leq x_n<2$，因而可用多种方法求解。
 
-#### 1.5.3
+> [!exercise] 1.5.3
+>
+> 设 $0<c<1$，$a_1=\frac{c}{2}$，$a_{n+1}=\frac{c}{2}+\frac{a_n^2}{2}$，证明 $\{a_n\}$ 收敛，并求其极限。（武汉大学，华中师范大学）
 
-设 $0<c<1$，$a_1=\frac{c}{2}$，$a_{n+1}=\frac{c}{2}+\frac{a_n^2}{2}$，证明 $\{a_n\}$ 收敛，并求其极限。（武汉大学，华中师范大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 用数学归纳法证明：$0<a_n<1$（$n=1,2,\ldots$）。又 $a_{n+2}-a_{n+1}=\frac{a_{n+1}+a_n}{2}\cdot(a_{n+1}-a_n)$，$a_2>a_1$，推知 $a_n\nearrow$。或利用例1.5.3的方法，这里 $f(x)=\frac{c}{2}+\frac{x^2}{2}$，有 $0<f'(x)<1$（当 $0<x<1$ 时）。
 
-#### ☆1.5.4
+> [!exercise] ☆1.5.4
+>
+> 设 $a>0$，$0<x_1<a$，$x_{n+1}=x_n\left(2-\frac{x_n}{a}\right)$（$n=1,2,\ldots$），证明 $\{x_n\}$ 收敛，并求其极限。（华东师范大学）
 
-设 $a>0$，$0<x_1<a$，$x_{n+1}=x_n\left(2-\frac{x_n}{a}\right)$（$n=1,2,\ldots$），证明 $\{x_n\}$ 收敛，并求其极限。（华东师范大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $\forall n$，有 $0<x_n<a$，$\frac{x_{n+1}}{x_n}>1$。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > 已有 $0<x_1<a$，若 $0<x_n<a$，则
 > $$0<x_{n+1}=x_n\left(2-\frac{x_n}{a}\right)=-\frac{1}{a}(x_n^2-2ax_n+a^2)+a<a$$
 
-#### 1.5.5
+> [!exercise] 1.5.5
+>
+> 设 $x_1=a>1$，$x_{n+1}=\frac{1}{2}\left(x_n+\frac{a}{x_n}\right)$，试证 $\{x_n\}$ 收敛，并求其极限。（华中科技大学，厦门大学，中国人民解放军工程兵学院）
 
-设 $x_1=a>1$，$x_{n+1}=\frac{1}{2}\left(x_n+\frac{a}{x_n}\right)$，试证 $\{x_n\}$ 收敛，并求其极限。（华中科技大学，厦门大学，中国人民解放军工程兵学院）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $x_{n+1}=\frac{1}{2}\left(x_n+\frac{a}{x_n}\right)\geq\sqrt{x_n\cdot\frac{a}{x_n}}=\sqrt{a}$，$x_{n+1}-x_n=\frac{a-x_n^2}{2x_n}\leq 0$；或在 $[\sqrt{a},+\infty)$ 上应用例1.5.3的方法。
 
-#### 1.5.6
+> [!exercise] 1.5.6
+>
+> 设 $y_{n+1}=y_n(2-y_n)$，$0<y_0<1$，求证：$\lim y_n=1$。（武汉大学）
 
-设 $y_{n+1}=y_n(2-y_n)$，$0<y_0<1$，求证：$\lim y_n=1$。（武汉大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $0<y_n<1$，$\frac{y_{n+1}}{y_n}>1$（$\forall n\in\mathbb{N}$）。
 
-#### ※1.5.7
+> [!exercise] ※1.5.7
+>
+> 证明：1）存在唯一的 $c\in(0,1)$，使得 $c=e^{-c}$；2）任给 $x_1\in(0,1)$，定义 $x_{n+1}=e^{-x_n}$，则有 $\lim x_n=c$。（中国人民大学）
 
-证明：1）存在唯一的 $c\in(0,1)$，使得 $c=e^{-c}$；2）任给 $x_1\in(0,1)$，定义 $x_{n+1}=e^{-x_n}$，则有 $\lim x_n=c$。（中国人民大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可用压缩映像原理。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > 1）$f(x)=e^{-x}-x$ 在 $[0,1]$ 之端点异号，且 $f'(x)<0$；
 > 
 > 2）用数学归纳法可证 $x_n\in(e^{-1},e^{-e^{-1}})$（$n=3,4,\ldots$），再用 Lagrange 微分中值公式，有
 > $$|x_{n+1}-x_n|\leq e^{-e^{-1}}|x_n-x_{n-1}|$$
 > 从而由压缩映像原理可得 $\{x_n\}$ 收敛。
 
-#### 1.5.8
+> [!exercise] 1.5.8
+>
+> 设 $x_{n+1}=1+\frac{x_n^2}{1+x_n^2}$，$x_1=2$，证明数列 $\{x_n\}$ 收敛。（北京师范大学）
 
-设 $x_{n+1}=1+\frac{x_n^2}{1+x_n^2}$，$x_1=2$，证明数列 $\{x_n\}$ 收敛。（北京师范大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 当 $n>1$ 时，$1<x_n<2$，$f(x)=1+\frac{x^2}{1+x^2}$，$f'(x)>0$，$x_1>x_2$，$x_n\searrow$。
 
-#### 1.5.9
+> [!exercise] 1.5.9
+>
+> 设 $x_0>0$，
+> $$x_n=3+\frac{2}{\sqrt{x_{n-1}}}\quad(n=1,2,\ldots)$$
+> 证明 $\{x_n\}$ 收敛，并求其极限。（仿武汉大学）
 
-设 $x_0>0$，
-$$x_n=3+\frac{2}{\sqrt{x_{n-1}}}\quad(n=1,2,\ldots)$$
-证明 $\{x_n\}$ 收敛，并求其极限。（仿武汉大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $|x_{n+1}-x_n|\leq\frac{1}{3\sqrt{3}}|x_n-x_{n-1}|$。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > $$|x_{n+1}-x_n|=\left|\frac{2}{\sqrt{x_n}}-\frac{2}{\sqrt{x_{n-1}}}\right|=2\frac{|\sqrt{x_{n-1}}-\sqrt{x_n}|}{\sqrt{x_n}\sqrt{x_{n-1}}}=\frac{2|x_n-x_{n-1}|}{\sqrt{x_n}\sqrt{x_{n-1}}(\sqrt{x_{n-1}}+\sqrt{x_n})}$$
 > 
 > 显然 $x_n>3$（$n=1,2,\ldots$），因此式（2）成立。再利用压缩映像原理，$\lim_{n\to\infty}x_n=y^2$（$y>0$）。在式（1）里取极限得 $y^3-3y-2=0$，亦即 $(y+1)^2(y-2)=0$，（$\lim x_n\geq 3$）故 $\lim_{n\to\infty}x_n=4$。
 
-#### 1.5.10
+> [!exercise] 1.5.10
+>
+> 设 $f(x)=\frac{x+2}{x+1}$，数列 $\{x_n\}$ 由如下递推公式定义：$x_0=1$，$x_{n+1}=f(x_n)$（$n=0,1,2,\ldots$）。求极限 $\lim_{n\to\infty}x_n$。（浙江大学）
 
-设 $f(x)=\frac{x+2}{x+1}$，数列 $\{x_n\}$ 由如下递推公式定义：$x_0=1$，$x_{n+1}=f(x_n)$（$n=0,1,2,\ldots$）。求极限 $\lim_{n\to\infty}x_n$。（浙江大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 参考例1.5.14的解法。
 
-#### ☆1.5.11
+> [!exercise] ☆1.5.11
+>
+> 设 $u_1=3$，$u_2=3+\frac{4}{3}$，$u_3=3+\frac{4}{3+\frac{4}{3}}$，$\ldots$，如果数列 $\{u_n\}$ 收敛，计算其极限，并证明数列 $\{u_n\}$ 收敛于上述极限。（武汉大学）
 
-设 $u_1=3$，$u_2=3+\frac{4}{3}$，$u_3=3+\frac{4}{3+\frac{4}{3}}$，$\ldots$，如果数列 $\{u_n\}$ 收敛，计算其极限，并证明数列 $\{u_n\}$ 收敛于上述极限。（武汉大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $|u_{n+1}-u_n|\leq\frac{4}{9}|u_n-u_{n-1}|$。
 
-#### 1.5.12
+> [!exercise] 1.5.12
+>
+> 设 $x_0=m$，$x_1=m+\varepsilon\sin x_0$，$x_n=m+\varepsilon\sin x_{n-1}$（$n=2,3,\ldots$），其中 $0<\varepsilon<1$，试证：$\lim_{n\to\infty}x_n=\xi$ 存在且为 Kepler 方程 $x-\varepsilon\sin x=m$ 的唯一一根。
 
-设 $x_0=m$，$x_1=m+\varepsilon\sin x_0$，$x_n=m+\varepsilon\sin x_{n-1}$（$n=2,3,\ldots$），其中 $0<\varepsilon<1$，试证：$\lim_{n\to\infty}x_n=\xi$ 存在且为 Kepler 方程 $x-\varepsilon\sin x=m$ 的唯一一根。
-
-> [!tip] 提示
+> [!tip]- 提示
 > 用压缩映像原理。
 
-#### 1.5.13
+> [!exercise] 1.5.13
+>
+> 设 $|x_{n+2}-x_{n+1}|\leq k|x_n-x_{n-1}|$（$0<k<1$），试证：$\{x_n\}$ 收敛。
 
-设 $|x_{n+2}-x_{n+1}|\leq k|x_n-x_{n-1}|$（$0<k<1$），试证：$\{x_n\}$ 收敛。
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可参考本节要点中的证法。
 
-#### ☆1.5.14
+> [!exercise] ☆1.5.14
+>
+> 设 $a_n,b_n$ 是两正数，令
+> $$a_{n+1}=\sqrt{a_n b_n},\quad b_{n+1}=\frac{a_n+b_n}{2}$$
+> 试证：$\{a_n\}$ 和 $\{b_n\}$ 均收敛，且 $\lim_{n\to\infty}a_n=\lim_{n\to\infty}b_n$。（大连理工大学）
 
-设 $a_n,b_n$ 是两正数，令
-$$a_{n+1}=\sqrt{a_n b_n},\quad b_{n+1}=\frac{a_n+b_n}{2}$$
-试证：$\{a_n\}$ 和 $\{b_n\}$ 均收敛，且 $\lim_{n\to\infty}a_n=\lim_{n\to\infty}b_n$。（大连理工大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 由式（1）可知 $b_{n+1}\geq a_{n+1}$（$\forall n$），从而 $b_{n+1}\leq b_n$（$n=1,2,\ldots$）。故 $b_n\searrow$，有下界 $a_1$；$a_{n+1}=\sqrt{a_n b_n}\geq\sqrt{a_n a_n}=a_n$，$a_n\nearrow$，有上界 $b_1$。
 
-#### 1.5.15
+> [!exercise] 1.5.15
+>
+> 设 $a_1$ 和 $b_1$ 是任意两个正数，并且 $a_1\leq b_1$，还设 $a_n=\frac{2a_{n-1}b_{n-1}}{a_{n-1}+b_{n-1}}$，$b_n=\sqrt{a_{n-1}b_{n-1}}$（$n=2,3,\ldots$）。求证：$\{a_n\}$，$\{b_n\}$ 均收敛，且极限相等。（中国科学院，安徽大学）
 
-设 $a_1$ 和 $b_1$ 是任意两个正数，并且 $a_1\leq b_1$，还设 $a_n=\frac{2a_{n-1}b_{n-1}}{a_{n-1}+b_{n-1}}$，$b_n=\sqrt{a_{n-1}b_{n-1}}$（$n=2,3,\ldots$）。求证：$\{a_n\}$，$\{b_n\}$ 均收敛，且极限相等。（中国科学院，安徽大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可用变量替换 $u_n=\frac{1}{a_n}$，$v_n=\frac{1}{b_n}$ 转化为上题。
 
-#### 1.5.16
+> [!exercise] 1.5.16
+>
+> 讨论由 $x_1=a$，$x_n=px_{n-1}+q$（$p>0$）所定义的数列的敛散性：（南京大学）
+> $$\begin{cases}\frac{q}{1-p} & (0<p<1)；\\ a & (p=1,q=0)；\\ \text{不存在} & (p>1\text{ 或 }p=1,q\neq 0)\end{cases}$$
 
-讨论由 $x_1=a$，$x_n=px_{n-1}+q$（$p>0$）所定义的数列的敛散性：（南京大学）
-$$\begin{cases}\frac{q}{1-p} & (0<p<1)；\\ a & (p=1,q=0)；\\ \text{不存在} & (p>1\text{ 或 }p=1,q\neq 0)\end{cases}$$
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可写出通项 $x_n=p^{n-1}a+\frac{q-qp^{n-1}}{1-p}$，再分不同情况讨论。
 
-#### 1.5.17
+> [!exercise] 1.5.17
+>
+> 设 $\mathbb{R}$ 中数列 $\{a_n\}$，$\{b_n\}$ 满足
+> $$a_{n+1}=b_n-qa_n,\quad n=1,2,\ldots$$
+> 其中 $0<q<1$，证明：当 $\{b_n\}$ 有界时，$\{a_n\}$ 有界。（清华大学）
 
-设 $\mathbb{R}$ 中数列 $\{a_n\}$，$\{b_n\}$ 满足
-$$a_{n+1}=b_n-qa_n,\quad n=1,2,\ldots$$
-其中 $0<q<1$，证明：当 $\{b_n\}$ 有界时，$\{a_n\}$ 有界。（清华大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可递推写出通项。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > （1）$|b_n|\leq M$，$a_{n+1}=\sum_{k=0}^{n-1}(-1)^k q^k b_{n-k}+(-1)^n q^n a_1$，$|a_{n+1}|\leq M(1+q+q^2+\cdots+q^{n-1})+q|a_1|\leq\frac{M}{1-q}+q|a_1|$，有界。
 
-#### 1.5.18
+> [!exercise] 1.5.18
+>
+> 设 $x_0=1$，$x_1=e$，$x_{n+1}=\sqrt{x_n x_{n-1}}$（$n\geq 1$），求极限 $\lim_{n\to\infty}x_n$。
 
-设 $x_0=1$，$x_1=e$，$x_{n+1}=\sqrt{x_n x_{n-1}}$（$n\geq 1$），求极限 $\lim_{n\to\infty}x_n$。
-
-> [!tip] 提示
+> [!tip]- 提示
 > 取对数作变量替换。
 
-#### ☆1.5.19
+> [!exercise] ☆1.5.19
+>
+> 设 $a_{n+1}=a_n+a_n^{-1}$（$n>1$），$a_1=1$，证明：1）$\lim_{n\to\infty}a_n=+\infty$；2）$\sum_{n=1}^{\infty}a_n^{-1}=+\infty$。（中国科学院）
 
-设 $a_{n+1}=a_n+a_n^{-1}$（$n>1$），$a_1=1$，证明：1）$\lim_{n\to\infty}a_n=+\infty$；2）$\sum_{n=1}^{\infty}a_n^{-1}=+\infty$。（中国科学院）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 1）$a_n>1$，$\nearrow$，且不可能有上界；
 > 
 > 2）$\sum_{k=1}^{n}a_k^{-1}=\sum_{k=1}^{n}(a_{k+1}-a_k)=a_{n+1}-a_1\to+\infty$（当 $n\to\infty$ 时）。
 
-#### ☆1.5.20
+> [!exercise] ☆1.5.20
+>
+> 设连续函数 $f(x)$ 在 $[1,+\infty)$ 上是正的，单调递减的，且 $d_n=\sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)dx$。证明：数列 $d_1,d_2,\ldots$ 收敛。（清华大学）
 
-设连续函数 $f(x)$ 在 $[1,+\infty)$ 上是正的，单调递减的，且 $d_n=\sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)dx$。证明：数列 $d_1,d_2,\ldots$ 收敛。（清华大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $d_{n+1}-d_n\leq 0$，$d_n\geq 0$（可用积分的性质或用积分中值定理）。
 
-#### 1.5.21
+> [!exercise] 1.5.21
+>
+> 已知 $a_1=\alpha$，$b_1=\beta$（$\alpha>\beta$），
+> $$a_{n+1}=\frac{a_n+b_n}{2},\quad b_{n+1}=\frac{a_{n+1}+b_n}{2}\quad(n=1,2,\ldots)$$
+> 证明 $\lim_{n\to\infty}a_n$ 及 $\lim_{n\to\infty}b_n$ 存在且相等，并求出极限值。（内蒙古大学）
 
-已知 $a_1=\alpha$，$b_1=\beta$（$\alpha>\beta$），
-$$a_{n+1}=\frac{a_n+b_n}{2},\quad b_{n+1}=\frac{a_{n+1}+b_n}{2}\quad(n=1,2,\ldots)$$
-证明 $\lim_{n\to\infty}a_n$ 及 $\lim_{n\to\infty}b_n$ 存在且相等，并求出极限值。（内蒙古大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 消去 $b_n$ 可得 $a_{n+1}-a_n=\frac{1}{4}(a_n-a_{n-1})$。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > $\lim_{n\to\infty}a_n=\lim\left[a_1+\sum_{k=1}^{n-1}\frac{1}{4^{k-1}}(a_2-a_1)\right]=\frac{\alpha+2\beta}{3}$，$\lim_{n\to\infty}b_n=\lim_{n\to\infty}(2a_{n+1}-a_n)=\lim_{n\to\infty}a_n$。
 
-#### ※1.5.22
+> [!exercise] ※1.5.22
+>
+> 证明：数列
+> $$x_0>0,\quad x_{n+1}=\frac{x_n(x_n^2+3a)}{3x_n^2+a}\quad(a\geq 0)$$
+> 的极限存在，并求其极限。（国外赛题）
 
-证明：数列
-$$x_0>0,\quad x_{n+1}=\frac{x_n(x_n^2+3a)}{3x_n^2+a}\quad(a\geq 0)$$
-的极限存在，并求其极限。（国外赛题）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可用例1.5.3的方法（不动点方法）。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > $f(x)=\frac{x(x^2+3a)}{3x^2+a}$，$f'(x)>0$，$f\uparrow$，$x=\sqrt{a}$ 是不动点。
 > 
 > 1° 若 $x_0\leq\sqrt{a}$，则 $x_1=f(x_0)\leq f(\sqrt{a})=\sqrt{a}$，进而可知一切 $x_n\leq\sqrt{a}$。又 $2a\geq 2x_0^2\Rightarrow 3a-a\geq 3x_0^2-x_0^2\Rightarrow 3a+x_0^2\geq 3x_0^2+a\Rightarrow x_0\leq\frac{x_0(3a+x_0^2)}{3x_0^2+a}=x_1$，进而利用 $f\uparrow$ 推出 $x_n\uparrow$。于是 $x_n\uparrow$ 有上界 $\sqrt{a}$，故有极限，记为 $A$。
 > 
 > 2° 若 $0<x_0<\sqrt{a}$，类似处理。
 
-#### ☆1.5.23
+> [!exercise] ☆1.5.23
+>
+> 设 $0<a_1<1$，$a_{n+1}=a_n(1-a_n)$（$\forall n\in\mathbb{N}$）。证明：$\lim_{n\to\infty}na_n=1$。（浙江大学）
 
-设 $0<a_1<1$，$a_{n+1}=a_n(1-a_n)$（$\forall n\in\mathbb{N}$）。证明：$\lim_{n\to\infty}na_n=1$。（浙江大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > 借助数学归纳法。
 > 
 > 已知条件 $\Rightarrow$ $\{a_n\}$ 单减有界（$a_n\searrow$，$0<a_n<1$）$\Rightarrow$ $\lim a_n=a$ 存在 $\Rightarrow$ $a=a(1-a)$ $\Rightarrow$ $a=0$ $\Rightarrow$ $\lim na_n=\lim\frac{n}{1/a_n}$ 是 $\frac{\infty}{\infty}$ 型（用 Stolz 公式）$\Rightarrow$ $\lim na_n=1$。
 
-> [!tip] 再提示
+> [!tip]- 再提示
 > $$\lim_{n\to\infty}na_n=\lim_{n\to\infty}\frac{n}{1/a_n}\stackrel{\text{Stolz公式}}{=}\lim_{n\to\infty}\frac{n-(n-1)}{1/a_n-1/a_{n-1}}=\lim_{n\to\infty}\frac{a_n a_{n-1}}{a_{n-1}-a_n}$$
 > 由 $a_{n-1}-a_n=a_{n-1}^2$，可得 $\lim_{n\to\infty}\frac{a_n}{a_{n-1}}=\lim_{n\to\infty}(1-a_{n-1})=1$。
 
-#### ※1.5.24
+> [!exercise] ※1.5.24
+>
+> 设 $S_1=\ln a$，$a>1$，$S_n=\sum_{k=1}^{n-1}\ln(a-S_k)$（$n=2,3,\ldots$），求 $\lim_{n\to\infty}S_n$。
 
-设 $S_1=\ln a$，$a>1$，$S_n=\sum_{k=1}^{n-1}\ln(a-S_k)$（$n=2,3,\ldots$），求 $\lim_{n\to\infty}S_n$。
-
-> [!tip] 提示
+> [!tip]- 提示
 > 可用例1.5.3方法，$S_{n+1}-S_n=\ln(a-S_n)$，不动点为 $a-1$。
 
-#### ※1.5.25
+> [!exercise] ※1.5.25
+>
+> 设 $x_1>0$，$x_{n+1}=\ln(1+x_n)$，证明：$x_n\to 0$ 且 $x_n\sim\frac{2}{n}$（当 $n\to\infty$ 时）。
 
-设 $x_1>0$，$x_{n+1}=\ln(1+x_n)$，证明：$x_n\to 0$ 且 $x_n\sim\frac{2}{n}$（当 $n\to\infty$ 时）。
-
-> [!tip] 提示
+> [!tip]- 提示
 > 第二问可用 Stolz 公式证明。
 
-#### ※1.5.26
+> [!exercise] ※1.5.26
+>
+> 设 $a_1=1$，$a_k=k(a_{k-1}+1)$，试计算：$\lim_{n\to\infty}\prod_{k=1}^{n}\left(1+\frac{1}{a_k}\right)$。（国外赛题）
 
-设 $a_1=1$，$a_k=k(a_{k-1}+1)$，试计算：$\lim_{n\to\infty}\prod_{k=1}^{n}\left(1+\frac{1}{a_k}\right)$。（国外赛题）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $\prod_{k=1}^{n}\left(1+\frac{1}{a_k}\right)=\frac{1}{n!}+\frac{1}{(n-1)!}+\cdots+\frac{1}{1}\to e$（当 $n\to\infty$ 时）。
 
-#### ※1.5.27
+> [!exercise] ※1.5.27
+>
+> 设正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，数列 $\{y_n\}$（$n=1,2,\ldots$）由下式确定：
+> $$y_1=1,\quad 2y_{n+1}=y_n+\sqrt{y_n^2+a_n}\quad(n=1,2,\ldots)$$
+> 证明：$\{y_n\}$（$n=1,2,\ldots$）是递增的收敛数列。（福建师范大学）
 
-设正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，数列 $\{y_n\}$（$n=1,2,\ldots$）由下式确定：
-$$y_1=1,\quad 2y_{n+1}=y_n+\sqrt{y_n^2+a_n}\quad(n=1,2,\ldots)$$
-证明：$\{y_n\}$（$n=1,2,\ldots$）是递增的收敛数列。（福建师范大学）
-
-> [!tip] 提示
+> [!tip]- 提示
 > $2y_{n+1}-2y_n=\frac{a_n}{\sqrt{y_n^2+a_n}+y_n}>0\Rightarrow y_n\nearrow$。
 > 
 > 已知条件 + 数学归纳法 $\Rightarrow$ $y_n>1$ $\Rightarrow$ $y_{n+1}-y_n<\frac{a_n}{4}$ $\Rightarrow$ $y_n<\frac{1}{4}\sum_{n=1}^{\infty}a_n+y_1$。
@@ -4284,10 +4284,12 @@ $$
 
 > [!example] 例 1.6.5
 > 设 $x_n\ge0,\ y_n\ge0\ (n=1,2,\cdots)$，试证：
-> 1）$$
+> 1）
+> $$
 > \overline{\lim}_{n\to\infty}x_n\cdot\overline{\lim}_{n\to\infty}y_n\le \overline{\lim}_{n\to\infty}(x_ny_n)\le \overline{\lim}_{n\to\infty}x_n\cdot\overline{\lim}_{n\to\infty}y_n;
 > $$
-> 2）$$
+> 2）
+> $$
 > \underline{\lim}_{n\to\infty}x_n\cdot\underline{\lim}_{n\to\infty}y_n\le \underline{\lim}_{n\to\infty}(x_ny_n)\le \underline{\lim}_{n\to\infty}x_n\cdot\underline{\lim}_{n\to\infty}y_n.
 > $$
 
@@ -4454,11 +4456,13 @@ $$
 > [!example] 例 1.6.9
 > 证明：若 $\{x_n\}$ 收敛，则对任意 $\{y_n\}(n=1,2,\cdots)$，有
 > 
-> 1）$$
+> 1）
+> $$
 > \overline{\lim}_{n\to\infty}(x_n+y_n)=\lim_{n\to\infty}x_n+\overline{\lim}_{n\to\infty}y_n;
 > $$
 > 
-> 2）$$
+> 2）
+> $$
 > \overline{\lim}_{n\to\infty}(x_ny_n)=\lim_{n\to\infty}x_n\cdot\overline{\lim}_{n\to\infty}y_n\qquad(x_n\ge0)
 > $$
 > （这里限制在不发生 $0\cdot(\pm\infty)$ 的情况）。
@@ -4652,82 +4656,70 @@ $$
 
 （习题机动）
 
-#### 1.6.1
+> [!exercise] 1.6.1
+>
+> 用不同的方法证明以下不等式：
+>
+> 1) $\underline{\lim} x_n + \underline{\lim} y_n \leq \underline{\lim}(x_n + y_n) \leq \overline{\lim} x_n + \underline{\lim} y_n \leq \overline{\lim}(x_n + y_n) \leq \overline{\lim} x_n + \overline{\lim} y_n$，在不出现 $(\pm\infty) + (\pm\infty)$ 的情况下成立；
+>
+> 2) 设 $x_n > 0$，$y_n > 0$（$n = 1,2,\cdots$），则
+>
+> $$
+> \underline{\lim} x_n \underline{\lim} y_n \leq \underline{\lim}(x_n y_n) \leq \underline{\lim} x_n \cdot \overline{\lim} y_n \leq \overline{\lim}(x_n y_n) \leq \overline{\lim} x_n \cdot \overline{\lim} y_n
+> $$
+>
+> 在不出现 $0 \cdot (+\infty)$ 的情况下成立。
+>
 
-用不同的方法证明以下不等式：
+> [!exercise] 1.6.2
+>
+> 证明：
+>
+> 1) $\underline{\lim} x_n - \overline{\lim} y_n \leq \underline{\lim}(x_n - y_n) \leq \overline{\lim} x_n - \overline{\lim} y_n$；
+>
+> 2) 若 $x_n$，$y_n > 0$，且 $\underline{\lim} y_n > 0$，则
+>
+> $$
+> \frac{\underline{\lim} x_n}{\overline{\lim} y_n} \leq \underline{\lim} \frac{x_n}{y_n} \leq \frac{\overline{\lim} x_n}{\underline{\lim} y_n}
+> $$
+>
 
-1) $\underline{\lim} x_n + \underline{\lim} y_n \leq \underline{\lim}(x_n + y_n) \leq \overline{\lim} x_n + \underline{\lim} y_n \leq \overline{\lim}(x_n + y_n) \leq \overline{\lim} x_n + \overline{\lim} y_n$，在不出现 $(\pm\infty) + (\pm\infty)$ 的情况下成立；
-
-2) 设 $x_n > 0$，$y_n > 0$（$n = 1,2,\cdots$），则
-
-$$
-\underline{\lim} x_n \underline{\lim} y_n \leq \underline{\lim}(x_n y_n) \leq \underline{\lim} x_n \cdot \overline{\lim} y_n \leq \overline{\lim}(x_n y_n) \leq \overline{\lim} x_n \cdot \overline{\lim} y_n
-$$
-
-在不出现 $0 \cdot (+\infty)$ 的情况下成立。
-
-#### 1.6.2
-
-证明：
-
-1) $\underline{\lim} x_n - \overline{\lim} y_n \leq \underline{\lim}(x_n - y_n) \leq \overline{\lim} x_n - \overline{\lim} y_n$；
-
-2) 若 $x_n$，$y_n > 0$，且 $\underline{\lim} y_n > 0$，则
-
-$$
-\frac{\underline{\lim} x_n}{\overline{\lim} y_n} \leq \underline{\lim} \frac{x_n}{y_n} \leq \frac{\overline{\lim} x_n}{\underline{\lim} y_n}
-$$
-
-#### 1.6.3
-
-> [!exercise]
+> [!exercise] 1.6.3
 > 证明：若 $x_n > 0$（$n = 1,2,\cdots$）及 $\underline{\lim} x_n \overline{\lim}(1/x_n) = 1$，则序列 $\{x_n\}$ 收敛。
 
-#### 1.6.4
-
-> [!exercise]
+> [!exercise] 1.6.4
 > 设 $x_n > 0$（$n = 1,2,\cdots$），试证：
 > $$
 > \underline{\lim} \frac{x_{n+1}}{x_n} \leq \underline{\lim} \sqrt[n]{x_n} \leq \overline{\lim} \sqrt[n]{x_n} \leq \overline{\lim} \frac{x_{n+1}}{x_n}
 > $$
 > 并由此推出，当 $\lim \frac{x_{n+1}}{x_n} = l$ 时，$\lim \sqrt[n]{x_n} = l$。
 
-#### 1.6.5
-
-> [!exercise] （北京理工大学）
+> [!exercise] 1.6.5 （北京理工大学）
 > 试证：若 $\lim \sqrt[n]{|a_n|} = A$，则对任意固定的整数 $n_0$，有
 > $$
 > \lim \sqrt[n]{|a_{n_0+n}|} = A
 > $$
 
-#### 1.6.6
-
-> [!exercise]
+> [!exercise] 1.6.6
 > 证明：若 $\overline{\lim} c_n \leq c$，则
 > $$
 > \overline{\lim} \frac{c_n}{1+|c_n|} \leq \frac{c}{1+|c|}
 > $$
 
-#### 1.6.7
-
-> [!exercise] （国外赛题）
+> [!exercise] 1.6.7 （国外赛题）
 > 给定正数序列 $\{a_n\}$，证明
 > $$
 > \underline{\lim} \left(\frac{a_1 + a_{n+1}}{a_n}\right)^n \geq e
 > $$
 
-#### 1.6.8
-
-> [!exercise] （国外赛题）
+> [!exercise] 1.6.8 （国外赛题）
 > 证明：集合
 > $$
 > M = \left\{ \frac{1}{2} \pm \frac{n}{2n+1}, n = 1,2,\cdots \right\}
 > $$
 > 只有聚点 $0,1$。
 
-#### 1.6.9
-
-> [!exercise] （国外赛题）
+> [!exercise] 1.6.9 （国外赛题）
 > 序列 $\{x_n\}$ 定义如下：$x_1 = x$ 是闭区间 $[0,1]$ 中的某一点，如果 $n \geq 2$，那么序列
 > $$
 > x_n = \begin{cases}
@@ -4737,9 +4729,7 @@ $$
 > $$
 > 可能有多少个聚点？
 
-#### 1.6.10
-
-> [!exercise]
+> [!exercise] 1.6.10
 > 证明：若序列 $\{x_n\}$（$n = 1,2,\cdots$）有界且 $\lim(x_{n+1}-x_n) = 0$，则此序列的聚点之集合是区间 $[\underline{\lim} x_n, \overline{\lim} x_n]$。
 
 
@@ -5334,7 +5324,7 @@ $$
 > 
 > 取 $a\in A$，$b\in A'$，则 $\forall x\in[a,b]$：若 $x\in A$，（因 $A$ 无最大值）当 $r_x>0$ 充分小时 $x+r_x$ 也应属于 $A$。于是小开区间 $(x-r_x,x+r_x)\subset A$；同理，因 $A'$ 无最小值，若 $x\in A'$，当 $r_x>0$ 充分小时 $x-r_x$ 也应属于 $A'$，从而应有 $(x-r_x,x+r_x)\subset A'$。可见 $[a,b]$ 上每点可找到如此的小区间，全体 $\{(x-r_x,x+r_x)\}_{x\in[a,b]}$ 便组成 $[a,b]$ 上的一组开覆盖。利用有限覆盖定理，应存在有限子覆盖。注意，既然有限个小开区间覆盖 $[a,b]$，相邻两个小开区间必有公共点，故相邻的小区间要么只含 $A$ 之成员，要么只含 $A'$ 之成员。于是这个有限子覆盖，要么全是 $A$ 之成员，要么全是 $A'$ 之成员。这与最初的选择（$a\in A$，$b\in A'$）矛盾。这就证明了情况 iv）不可能发生。Dedekind 定理获证。
 
-## 数列的极限点和数集的聚点
+### 数列的极限点和数集的聚点
 
 > [!note] 要点1
 > $\xi$ 是数列 $\{x_n\}$ 的一个极限点

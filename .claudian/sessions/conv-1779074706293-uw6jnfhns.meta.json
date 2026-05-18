@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779074706293-uw6jnfhns",
+  "providerId": "claude",
+  "title": "把这里面的每个标题变成一个exercise callout",
+  "createdAt": 1779074706294,
+  "updatedAt": 1779075186575,
+  "lastResponseAt": 1779075186575,
+  "sessionId": "15e6a0d6-c85d-413e-b779-2aab15e6ef8d",
+  "providerState": {
+    "providerSessionId": "15e6a0d6-c85d-413e-b779-2aab15e6ef8d"
+  },
+  "currentNote": "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 51895,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 51895,
+    "percentage": 26,
+    "contextWindowIsAuthoritative": true
+  }
+}
