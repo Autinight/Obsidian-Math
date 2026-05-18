@@ -1900,13 +1900,13 @@ iii) $\forall x,y\in\mathbb R^n$，$f(x+y)\leq f(x)+f(y)$.
 > 于是式（4）表明 $z=f(\varphi(s,t),\psi(s,t))$ 在 $(s,t)\in D$ 处可微，且
 >
 > $$
-> \begin{aligned}
+> \begin{align}
 > dz&=\bigl[f'_x(Q)\varphi'_s(P)+f'_y(Q)\psi'_s(P)\bigr]\Delta s
 > +\bigl[f'_x(Q)\varphi'_t(P)+f'_y(Q)\psi'_t(P)\bigr]\Delta t\\
 > &=f'_x(Q)\bigl[\varphi'_s(P)\Delta s+\varphi'_t(P)\Delta t\bigr]
 > +f'_y(Q)\bigl[\psi'_s(P)\Delta s+\psi'_t(P)\Delta t\bigr]\\
 > &=f'_x(Q)\,dx+f'_y(Q)\,dy.
-> \end{aligned}
+> \end{align}
 > $$
 >
 > 证毕.
@@ -1917,11 +1917,11 @@ iii) $\forall x,y\in\mathbb R^n$，$f(x+y)\leq f(x)+f(y)$.
 > 分析 从例 6.2.8 已看到，$f''_{xy}(x_0,y_0)$ 与 $f''_{yx}(x_0,y_0)$ 是函数
 >
 > $$
-> \begin{aligned}
+> \begin{align}
 > \frac{W}{\Delta x\Delta y}
 > =\frac{1}{\Delta x\Delta y}\bigl[&f(x_0+\Delta x,y_0+\Delta y)-f(x_0,y_0+\Delta y) \\
 > &-f(x_0+\Delta x,y_0)+f(x_0,y_0)\bigr] \tag{1}
-> \end{aligned}
+> \end{align}
 > $$
 >
 > 的两个累次极限. 我们利用 $f'_x,f'_y$ 在 $(x_0,y_0)$ 处的可微性，将证明 $W/(\Delta x\Delta y)$ 改写成
@@ -1955,7 +1955,7 @@ iii) $\forall x,y\in\mathbb R^n$，$f(x+y)\leq f(x)+f(y)$.
 > \frac{W}{\Delta x\Delta y}
 > &=\frac{1}{\Delta x\Delta y}[\varphi(y_0+\Delta y)-\varphi(y_0)] \\
 > &=\frac{1}{\Delta x}\varphi'(y_0+\theta\Delta y) \\
-> &=\frac{1}{\Delta x}\bigl[f'_y(x_0+\Delta x,y_0+\theta\Delta y)-f'_y(x_0,y_0+\theta\Delta y)\bigr]. \tag{6}
+> &=\frac{1}{\Delta x}\bigl[f'_y(x_0+\Delta x,y_0+\theta\Delta y)-f'_y(x_0,y_0+\theta\Delta y)\bigr]. \qquad(6)
 > \end{aligned}
 > $$
 >
@@ -1964,7 +1964,8 @@ iii) $\forall x,y\in\mathbb R^n$，$f(x+y)\leq f(x)+f(y)$.
 > $$
 > \begin{aligned}
 > f'_y(x_0+\Delta x,y_0+\theta\Delta y)
-> =f'_y(x_0,y_0)+f''_{yx}(x_0,y_0)\Delta x+f''_{yy}(x_0,y_0)\theta\Delta y+\varepsilon_1\Delta x+\varepsilon_2\theta\Delta y, \tag{7}
+> &=f'_y(x_0,y_0)+f''_{yx}(x_0,y_0)\Delta x+f''_{yy}(x_0,y_0)\theta\Delta y \\
+> &\quad +\varepsilon_1\Delta x+\varepsilon_2\theta\Delta y. \qquad(7)
 > \end{aligned}
 > $$
 >

@@ -64,7 +64,7 @@
               "type": "markdown",
               "state": {
                 "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -248,7 +248,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8964e06bff142fdc",
+  "active": "c40b2ff60d251851",
   "lastOpenFiles": [
     "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",

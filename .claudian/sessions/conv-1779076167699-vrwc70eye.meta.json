@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779076167699-vrwc70eye",
+  "providerId": "claude",
+  "title": "所选部分公式没法被直接渲染",
+  "createdAt": 1779076167699,
+  "updatedAt": 1779076227802,
+  "lastResponseAt": 1779076227802,
+  "sessionId": "3d1525a7-f24f-4adf-967a-84f2aa7b16d8",
+  "providerState": {
+    "providerSessionId": "3d1525a7-f24f-4adf-967a-84f2aa7b16d8"
+  },
+  "currentNote": "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 7196,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7196,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
