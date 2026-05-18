@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"10.Atlas/RG/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f8c717c24a5cf7c6",
+  "active": "e66907044929d112",
   "lastOpenFiles": [
     "20.Cards/Theorems/thm - the Exact Sequence of Normal Covering.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
