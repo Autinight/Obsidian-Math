@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "30.Recources/FA/FA_Liu_obsidian.md",
-                "mode": "source",
-                "source": false,
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -199,10 +199,18 @@
   },
   "active": "93c9c72d68410ddd",
   "lastOpenFiles": [
+    "00.Inbox/Daily Draft 2026-05-19.md",
+    "30.Recources/FA/FA_Liu_obsidian.md",
+    "00.Inbox/thm - 有界变差函数的诱导符号.md",
+    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+    "20.Cards/Techniques/tec - Boundary Perturbation.md",
+    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
+    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions up to the boudnary in Sobolev Spaces.md",
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "30.Recources/FA/FA_Liu_obsidian.md",
     "11.Chapter Notes/MA/chnt - 反常积分.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "11.Chapter Notes/MA",
@@ -230,12 +238,6 @@
     "00.Inbox/裴礼文数学分析.md",
     "30.Recources/MA/MA-Pei",
     "30.Recources/MA",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch03.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
-    "20.Cards/Exercises/ex - Commutibility between Contraction and Differentiation.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
@@ -248,8 +250,6 @@
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "10.Atlas/DM/Atlas - Tensor.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "50.Image/PNG/Pasted image 20260507180346.png",
     "50.Image/PNG/Pasted image 20260507180315.png",
     "50.Image/PNG/Pasted image 20260507180224.png",

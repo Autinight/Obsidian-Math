@@ -3,6 +3,11 @@
   "providerId": "claude",
   "title": "这个定理是什么意思",
   "createdAt": 1779165273043,
-  "updatedAt": 1779165273047,
-  "sessionId": null
+  "updatedAt": 1779165326944,
+  "lastResponseAt": 1779165292883,
+  "sessionId": "00545a25-ec68-4f9a-9b07-8a17f4fe781d",
+  "providerState": {
+    "providerSessionId": "00545a25-ec68-4f9a-9b07-8a17f4fe781d"
+  },
+  "currentNote": "30.Recources/FA/FA_Liu_obsidian.md"
 }
