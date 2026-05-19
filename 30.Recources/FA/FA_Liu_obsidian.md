@@ -3920,11 +3920,11 @@ $$
 > 
 > 其中 $E_N=\{t\in[a,b]: |y(t)|\leq N\}$. 另一方面,
 > $$
-> \begin{aligned}
+> \begin{align}
 > f(y_N) &\leq \|f\| \|y_N\|=\|f\|\left(\int_{E_N} |y_N(t)|^p dt\right)^{1/p} \\
 > &= \|f\|\left(\int_{E_N} |y(t)|^{(q-1)p}dt\right)^{1/p} \\
 > &= \|f\|\left(\int_{E_N} |y(t)|^q dt\right)^{1/p}. \tag{3.5.7}
-> \end{aligned}
+> \end{align}
 > $$
 > 
 > 比较 (3.5.6), (3.5.7) 两式, 得

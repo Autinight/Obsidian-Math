@@ -26,3 +26,32 @@ $$ \sum \left| \nu \left(t_{k}\right)-\nu\left(t_{k_{k-1}}\right) \right| \ge V_
 然后我们就需要
 然后我们需要构造一个$x$, $F$的作用是通过简单函数体现的, 我们想办法把$x$写成这个样子, 也就是
 $$ x\left(s\right)= \sum _{k}x\left(s\right)\left(\chi_{t_{k}}\left(s\right)-\chi _{t_{k-1}}\left(s\right)\right) $$ 
+好像作用不了, 因为$x\left(s\right)$不是常数, 所以取附近的一个点, 定义
+$$ y\left(s\right)= \sum _{k}x\left(t_{k}\right)\left(\chi _{t_{k}\left(s\right)}-\chi _{t_{k-1}}\left(s\right)\right) $$ 
+那么
+$$ F\left(y\right)= \sum _{k}x\left(t_{k}\right)\left(\nu \left(t_{k}\right)-\nu \left(t_{k-1}\right)\right) $$ 
+我们是把$\left\| F \right\|$用全变差来控制来着.
+$$ \left\| F \right\|\left\| y \right\|\le \left\| F\left(y\right) \right\|\le \sum \left\| x\left(t_{k}\right) \right\|\left| \nu \left(t_{k}\right)-\nu \left(t_{k-1}\right) \right|\le \sum _{k}\left\| x \right\|_{\infty}\left| \nu \left(t_{k}\right)-\nu \left(t_{k-1}\right) \right|   $$ 
+对于每个变差都能定义这样的一个$y$, 所以
+$$ \left\| F \right\|\le \frac{\left\| x \right\|_{\infty} }{\left\| y \right\| }V_{a}^{b}\left(\nu \right) $$ 
+
+然后我们得说$\left\| y \right\|\to \left\| x \right\|_{\infty}$, 通过$\left\| y-x \right\|_{\infty}\to 0$来说明. 对于每个$s$,均只落在一个区间上, 所以$x\left(s\right)-y\left(s\right)$一定是某一个$x\left(s\right)-x\left(t_{k}\right)$, 就是不知道是哪个$s$哪个$k$, 但是这个不重要, 因为$x$是一致连续的. 所以就得到
+$$ \left\| F \right\|\le V_{a}^{b}\left(\nu \right) $$ 
+
+剩下的收尾工作就是说明$f\left(x\right)= \int _{a}^{b}x\left(t\right)d\nu \left(t\right)$了, 那前面的构造
+$$ F\left(\chi _{s}\right)= \nu \left(s\right) $$ 
+实际上就蕴含了
+$$ F\left(x\right)= \int _{a}^{b}x\left(t\right)d\nu \left(t\right) $$ 
+了,为$L^{\infty}$可以通过一些$\chi_{s}$逼近过来. 所以把$x$限制在连续函数上, 就得到了
+$$ f\left(x\right)= F\left(x\right)= \int _{a}^{b}x\left(t\right)d\nu \left(t\right) $$ 
+
+书上是说$y\to x$, 由于$F$连续, 所以$F\left(y\right)\to F\left(x\right)$, $F\left(y\right)$是R-S和,所以按定义就是$F\left(x\right)$就是R-S积分.
+
+
+我们找到了$f$到$\nu$的保范数的通过, 反过来, 对于给定的$\nu$, 我们定义
+$$ f\left(x\right)= \int _{a}^{b}x\left(t\right)d\nu \left(t\right) $$ 
+R-S积分的性质自然就是
+$$ \left| f\left(x\right) \right|\le \left\| x \right\|_{\infty}V_{a}^{b}\left(\nu \right)  $$ 
+即
+$$ \left\| f \right\|\le V_{a}^{b}\left(\nu \right) $$ 
+自然是一个有界线性泛函.

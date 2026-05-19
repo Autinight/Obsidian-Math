@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "1cdf72e345970023",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "2ab96661b458a2ea",
             "type": "leaf",
             "state": {
@@ -65,8 +55,7 @@
               "title": "Daily Draft 2026-05-19"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-05-19.md",
+                "file": "30.Recources/FA/FA_Liu_obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-05-19 的大纲"
+              "title": "FA_Liu_obsidian 的大纲"
             }
           },
           {
@@ -232,10 +221,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2ab96661b458a2ea",
+  "active": "93c9c72d68410ddd",
   "lastOpenFiles": [
-    "00.Inbox/thm - 有界变差函数的诱导符号.md",
     "00.Inbox/Daily Draft 2026-05-19.md",
+    "00.Inbox/thm - 有界变差函数的诱导符号.md",
     "40.Drafts/2026-04/Daily Draft 2026-04-13.md",
     "40.Drafts/2026-04/2026-04-26 推荐信.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
