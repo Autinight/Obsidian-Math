@@ -71,7 +71,7 @@
     "tools": []
   },
   "mastery": {
-    "enabled": false,
+    "enabled": true,
     "maxLevel": 5,
     "levelDescriptions": [
       "初识",
@@ -81,5 +81,5 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "list-link"
+  "settingsTab": "theorem"
 }

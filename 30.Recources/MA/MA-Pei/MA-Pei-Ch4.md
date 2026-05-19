@@ -6143,7 +6143,7 @@ Newton-Leibniz 公式，变量替换法，分部积分法，是计算反常积�
 
 利用分部积分法，常常可获得递推公式，或把困难的积分变成较易的积分。
 
-> [!example] 例 4.5.4
+> [!example] 例 4.5.4 
 > 设 $m,n$ 为自然数，求 $\displaystyle\int_0^1 t^n(\ln t)^m dt.$（北京师范大学）
 
 > [!solution]- 解
@@ -6159,6 +6159,7 @@ Newton-Leibniz 公式，变量替换法，分部积分法，是计算反常积�
 
 > [!example] ☆ 例 4.5.5
 > 计算积分 $\displaystyle\int_0^{\pi/2} \cos(2nx)\ln(\cos x)dx.$
+> %% mastery: 1 %%
 
 > [!solution]- 解
 > （困难在于被积函数中有对数符号"$\ln$"，用分部积分法消去"$\ln$".）
