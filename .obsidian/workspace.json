@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/高等代数第四版_Obsidian_Markdown.md",
+                "file": "00.Inbox/高等代数第四版_Obsidian_Markdown 2.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "高等代数第四版_Obsidian_Markdown"
+              "title": "高等代数第四版_Obsidian_Markdown 2"
             }
           }
         ]
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/高等代数第四版_Obsidian_Markdown.md",
+                "file": "00.Inbox/高等代数第四版_Obsidian_Markdown 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "高等代数第四版_Obsidian_Markdown 的大纲"
+              "title": "高等代数第四版_Obsidian_Markdown 2 的大纲"
             }
           },
           {
@@ -199,8 +199,10 @@
   },
   "active": "5fb50d254dacd76b",
   "lastOpenFiles": [
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+    "00.Inbox/高等代数第四版_Obsidian_Markdown 1.md",
+    "00.Inbox/高等代数第四版_Obsidian_Markdown 2.md",
     "00.Inbox/高等代数第四版_Obsidian_Markdown.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
     "40.Drafts/2026-05",
@@ -232,8 +234,6 @@
     "30.Recources/HA/Course HW/HA - HW3.2.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
-    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
-    "7.1.1-The-Fundamental-Equations.md",
     "Pasted image 20260518140734.png",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075175753",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075112015",
