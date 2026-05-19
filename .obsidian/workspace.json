@@ -30,8 +30,43 @@
               "icon": "lucide-file",
               "title": "FA_Liu_obsidian"
             }
+          },
+          {
+            "id": "1cdf72e345970023",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "2ab96661b458a2ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/Daily Draft 2026-05-19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily Draft 2026-05-19"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/FA_Liu_obsidian.md",
+                "file": "00.Inbox/Daily Draft 2026-05-19.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Liu_obsidian 的大纲"
+              "title": "Daily Draft 2026-05-19 的大纲"
             }
           },
           {
@@ -197,11 +232,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93c9c72d68410ddd",
+  "active": "2ab96661b458a2ea",
   "lastOpenFiles": [
-    "00.Inbox/Daily Draft 2026-05-19.md",
-    "30.Recources/FA/FA_Liu_obsidian.md",
     "00.Inbox/thm - 有界变差函数的诱导符号.md",
+    "00.Inbox/Daily Draft 2026-05-19.md",
+    "40.Drafts/2026-04/Daily Draft 2026-04-13.md",
+    "40.Drafts/2026-04/2026-04-26 推荐信.md",
+    "30.Recources/FA/FA_Liu_obsidian.md",
     "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
@@ -234,8 +271,6 @@
     "30.Recources/MA/MA-Pei/MA-Pei-Ch6.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075175753",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075112015",
-    "30.Recources/PDE/Evans - Ch6.md",
-    "00.Inbox/裴礼文数学分析.md",
     "30.Recources/MA/MA-Pei",
     "30.Recources/MA",
     "50.Image/PNG/Pasted image 20260511212740.png",
