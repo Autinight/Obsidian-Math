@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ecb942c4b96794a",
+        "id": "bef9b7d8b9328317",
         "type": "tabs",
         "children": [
           {
-            "id": "c7f6feee8d9f3125",
+            "id": "93c9c72d68410ddd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MA-Pei-Ch3"
+              "title": "新标签页"
             }
           }
         ]
@@ -128,13 +114,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MA-Pei-Ch3 的大纲"
+              "title": "MA-Pei-Ch4 的大纲"
             }
           },
           {
@@ -176,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -199,15 +185,15 @@
   },
   "active": "e66907044929d112",
   "lastOpenFiles": [
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
     "20.Cards/Theorems/thm - the Exact Sequence of Normal Covering.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
     "00.Inbox/ex - Cup Product Structure for genus-g.md",
     "00.Inbox/FA - HW7.md",
     "30.Recources/MA/MA-Pei/sedXo2FuC",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch2.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
     "30.Recources/HA/Course HW/HA - HW3.2.md",
