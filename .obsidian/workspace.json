@@ -11,10 +11,24 @@
             "id": "93c9c72d68410ddd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "chnt - 反常积分"
             }
           }
         ]
@@ -114,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MA-Pei-Ch4 的大纲"
+              "title": "chnt - 反常积分 的大纲"
             }
           },
           {
@@ -183,10 +197,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "93c9c72d68410ddd",
   "lastOpenFiles": [
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+    "11.Chapter Notes/MA/chnt - 反常积分.md",
+    "11.Chapter Notes/MA",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
     "20.Cards/Theorems/thm - the Exact Sequence of Normal Covering.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
@@ -218,7 +234,6 @@
     "20.Cards/Exercises/ex - Commutibility between Contraction and Differentiation.md",
     "20.Cards/Exercises/ex - Torsion Free Connection for Lie Group.md",
     "20.Cards/Exercises/ex - Orthonormal Frame with Connection Vanish at a Point.md",
-    "20.Cards/Exercises/ex - Local Gradient Field and Self-adjoint Connection.md",
     "50.Image/PNG/Pasted image 20260511212740.png",
     "50.Image/PNG/Pasted image 20260511212229.png",
     "Pasted image 20260511212212.png",
@@ -227,7 +242,6 @@
     "30.Recources/HA/Obsidian Books",
     "00.Inbox/obsidian-markdown-for-math",
     "00.Inbox/新建文件夹",
-    "00.Inbox/references",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
