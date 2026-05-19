@@ -203,14 +203,6 @@
       "key": ";"
     }
   ],
-  "cursor-commands:cursor-line-start": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "G"
-    }
-  ],
   "graph:open": [],
   "cursor-commands:cursor-word-left": [
     {
@@ -243,6 +235,15 @@
         "Shift"
       ],
       "key": "R"
+    }
+  ],
+  "workspace:new-tab": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }

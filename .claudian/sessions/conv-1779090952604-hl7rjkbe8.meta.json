@@ -3,9 +3,9 @@
   "providerId": "claude",
   "title": "把被嵌套进去的proof和solution拿出去",
   "createdAt": 1779090952604,
-  "updatedAt": 1779091916040,
+  "updatedAt": 1779164937322,
   "lastResponseAt": 1779091916040,
-  "sessionId": "8b5510ae-79be-40da-81be-d2f3dfcd4868",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "8b5510ae-79be-40da-81be-d2f3dfcd4868"
   },
