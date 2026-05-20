@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
-                "mode": "source",
-                "source": true,
+                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-Pei-Ch4"
+              "title": "chnt - 反常积分"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MA-Pei-Ch4 的大纲"
+              "title": "chnt - 反常积分 的大纲"
             }
           },
           {
@@ -199,6 +199,8 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "00.Inbox/Daily Draft 2026-05-19.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
     "00.Inbox/Daily Draft 2026-05-20.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",

@@ -6230,7 +6230,8 @@ Newton-Leibniz 公式，变量替换法，分部积分法，是计算反常积�
 
 > [!example] ☆ 例 4.5.7
 > 计算积分 $\displaystyle I = \int_0^{\pi/2} \ln\sin x\,dx$.（武汉大学）
-
+> %% mastery: 1 %%
+ 
 > [!hint]- 提示
 > $x=0$ 是奇点，当 $0<\lambda<1$ 时，$\int_0^{\pi/2} x^{-\lambda}dx$ 收敛。利用 L'Hospital 法则，易知当 $x\to 0^+$ 时，$x^{-\lambda}$ 比 $\ln\sin x$ 高阶，所以 $\int_0^{\pi/2} \ln\sin x\,dx$ 收敛。
 
@@ -6249,6 +6250,7 @@ Newton-Leibniz 公式，变量替换法，分部积分法，是计算反常积�
 
 > [!example] ☆ 例 4.5.8
 > 计算积分 $\displaystyle \int_0^{+\infty} \frac{\ln x}{1+x^2}\,dx$.（北京航空航天大学）
+> %% mastery: 1 %%
 
 > [!solution]- 解 I
 > $$
