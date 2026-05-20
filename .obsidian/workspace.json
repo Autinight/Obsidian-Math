@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
-                "mode": "preview",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA - HW2.1"
+              "title": "MA-Pei-Ch4"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
+                "file": "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA - HW2.1 的大纲"
+              "title": "MA-Pei-Ch4 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -199,6 +199,11 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
+    "00.Inbox/Daily Draft 2026-05-20.md",
+    "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
+    "30.Recources/HA/傅里叶分析及其应用.md",
+    "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1779246825421-99o4159vb",
+  "providerId": "claude",
+  "title": "test",
+  "createdAt": 1779246825421,
+  "updatedAt": 1779246830750,
+  "lastResponseAt": 1779246830750,
+  "sessionId": "c4e69ab7-cb11-4f8c-b9d2-ee28de839cfb",
+  "providerState": {
+    "providerSessionId": "c4e69ab7-cb11-4f8c-b9d2-ee28de839cfb"
+  },
+  "currentNote": "30.Recources/HA/Course HW/HA - HW2.1.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 2840,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 2840,
+    "percentage": 0
+  }
+}

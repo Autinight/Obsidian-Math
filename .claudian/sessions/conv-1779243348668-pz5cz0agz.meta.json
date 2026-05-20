@@ -3,21 +3,21 @@
   "providerId": "claude",
   "title": "有问题渲染不了, 修复一下",
   "createdAt": 1779243348668,
-  "updatedAt": 1779243385715,
+  "updatedAt": 1779246824435,
   "lastResponseAt": 1779243385715,
-  "sessionId": "c0519c35-641c-49f3-a122-2a1b55339c0d",
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "c0519c35-641c-49f3-a122-2a1b55339c0d"
   },
   "currentNote": "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
   "usage": {
-    "model": "deepseek-v4-flash",
+    "model": "gpt-5.5",
     "inputTokens": 231,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 21504,
-    "contextWindow": 200000,
+    "contextWindow": 1000000,
     "contextTokens": 21735,
-    "percentage": 11,
-    "contextWindowIsAuthoritative": true
+    "percentage": 2,
+    "contextWindowIsAuthoritative": false
   }
 }
