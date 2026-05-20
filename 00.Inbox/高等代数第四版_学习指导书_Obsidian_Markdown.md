@@ -1409,12 +1409,12 @@ $$\boldsymbol{A} = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 2 & 3 & 4 & 5 \\ 3 & 5 & 7 &
 
 **例 2.9** 设 $\boldsymbol{A}$ 为 $n$ 阶方阵，$|\boldsymbol{A}| = d$，求 $|k\boldsymbol{A}^*|$.
 
-> [!solution]
+> [!solution]-
 > $|k\boldsymbol{A}^*| = k^n |\boldsymbol{A}^*| = k^n |\boldsymbol{A}|^{n-1} = k^n d^{n-1}$. □
 
 **例 2.10** 设 $\boldsymbol{A}$ 为 $n$ 阶方阵，$(\boldsymbol{A}^*)^*$ 是什么？
 
-> [!solution]
+> [!solution]-
 > 若 $\boldsymbol{A}$ 可逆：$(\boldsymbol{A}^*)^* = (|\boldsymbol{A}|\boldsymbol{A}^{-1})^* = ||\boldsymbol{A}|\boldsymbol{A}^{-1}| \cdot (|\boldsymbol{A}|\boldsymbol{A}^{-1})^{-1} = |\boldsymbol{A}|^{n-1} \cdot \dfrac{1}{|\boldsymbol{A}|}\boldsymbol{A} = |\boldsymbol{A}|^{n-2}\boldsymbol{A}$.
 > 
 > 一般地，对任意 $n \geq 2$：$(\boldsymbol{A}^*)^* = |\boldsymbol{A}|^{n-2}\boldsymbol{A}$. □

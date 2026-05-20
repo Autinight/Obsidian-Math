@@ -11,10 +11,24 @@
             "id": "5fb50d254dacd76b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/高等代数第四版_学习指导书_Obsidian_Markdown.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "高等代数第四版_学习指导书_Obsidian_Markdown"
             }
           }
         ]
@@ -114,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00.Inbox/高等代数第四版_学习指导书_Obsidian_Markdown.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "高等代数第四版_学习指导书_Obsidian_Markdown 的大纲"
             }
           },
           {
@@ -182,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "5fb50d254dacd76b",
   "lastOpenFiles": [
     "00.Inbox/高等代数第四版_学习指导书_Obsidian_Markdown.md",
     "00.Inbox/高等代数第四版_Obsidian_Markdown 2.md",
