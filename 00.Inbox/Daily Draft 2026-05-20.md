@@ -144,4 +144,4 @@ $$ \alpha = f\left(\mathbf{1}\right) -\sum _{n = 1}^{\infty}a_{n}$$
 
 
 $$ x= le+ \sum _{k= 1}^{\infty}\left(\xi _{k}-l\right)e_{k} $$ 
-因为$\left\{ e_{k} \right\}$是$x$的一个Schauder基.
+因为$\left\{e, e_{k} \right\}$是$x$的一个Schauder基
