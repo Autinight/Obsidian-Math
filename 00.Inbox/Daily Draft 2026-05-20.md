@@ -37,3 +37,4 @@ $$ d\tan t= \left(\frac{\sin x }{\cos x }\right)^{\prime} \,d t= \frac{\cos ^{2}
 $$ \int _{0}^{\infty}\frac{\ln x }{1+ x^{2} }\,d x= \int _{0}^{\frac{\pi  }{2 }}\ln \left(\tan t\right)\,d t $$ 
 
 $$ \int _{0}^{\frac{\pi  }{2 }}\ln \left(\tan t\right)\,d t= \int _{0}^{\frac{\pi  }{2 }}\ln \sin t-\ln \cos t\,d t= 0 $$ 
+### 14:33

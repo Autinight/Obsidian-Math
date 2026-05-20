@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
+                "file": "30.Recources/FA/FA_Liu_obsidian.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Elliptic_PDE_Han_Lin"
+              "title": "FA_Liu_obsidian"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
+                "file": "30.Recources/FA/FA_Liu_obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Elliptic_PDE_Han_Lin 的大纲"
+              "title": "FA_Liu_obsidian 的大纲"
             }
           },
           {
@@ -199,11 +199,14 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "00.Inbox/Daily Draft 2026-05-20.md",
+    "30.Recources/FA/FA_Liu_obsidian.md",
+    "Untitled.md",
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
     "11.Chapter Notes/MA/chnt - 反常积分.md",
     "00.Inbox/Daily Draft 2026-05-19.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
-    "00.Inbox/Daily Draft 2026-05-20.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/HA/Course HW/HA - HW2.1.md",
@@ -212,7 +215,6 @@
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
     "30.Recources/LA/LA - Xie and Yao - 第2章_矩阵.md",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
     "30.Recources/PDE/Evans - Ch6.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287",
