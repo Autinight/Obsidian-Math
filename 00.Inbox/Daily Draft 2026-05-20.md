@@ -187,4 +187,35 @@ $$ \left\| f \right\|\le \left| \alpha  \right|+ \sum _{n = 1}^{\infty}\left| a_
 
 $$ \xi _{n}= \begin{cases} \operatorname{sgn}a_{n},& n\le N\\\operatorname{sgn}\alpha ,& n \ge N \end{cases}  $$ 
 
-$$ f\left(x\right)= \left| \alpha  \right|+ \sum _{n = 1}^{r}\left| a_{n} \right|   $$ 
+$$ f\left(x\right)= \left| \alpha  \right|+ \sum _{n = 1}^{r}\left| a_{n} \right|  + \operatorname{sgn}\alpha \sum _{n = r+ 1}^{\infty}a_{n} $$ 
+
+$$ \left| f\left(x\right) \right|\le \left| \alpha  \right|+ \sum _{n = 1}^{\infty}\left| a_{n} \right|+ \operatorname{sgn}\alpha \sum _{n = r+ 1} ^{\infty}a_{n}   $$ 
+Let $r\to \infty$, we get 
+$$ \left\| f \right\|\le \left| f\left(x\right) \right|\le \left| \alpha  \right|+ \sum _{n = 1}^{\infty}\left| a_{n} \right|    $$ 
+
+我们居然发现, 后面的项是不重要的, 随意我们随便指定为$\operatorname{sgn}\alpha$.
+o
+
+
+## 自反性
+
+$X$是赋范空间, 则$X^{*}$是Banach空间.
+
+为什么赋范空间的对偶一定是Banach空间
+研究$X$与$X^{**}$的关系, 
+
+若$x\in X$, $f \in X^{*}$, 固定$x$, 如$f$取遍$X^{*}$, 则$x$给出
+$$ f\mapsto f\left(x\right),\quad X^{*}\to \mathbb{R}  $$ 
+定义为$F_{x}$, $F_{x}\left(f\right)qf\left(x\right)$.
+
+$$ F: X\to X^{**} $$ 
+是典范映射, 对于$x_1,x_2\in X$, $\alpha \in K$
+$$ F_{x_1+ x_2}= F_{x_1}+ F_{x_2} $$ 
+
+$$ \left| F_{x}\left(f\right) \right|= \left| f\left(x\right) \right|\le \left\| f \right\|\left\| x \right\|\implies \left\| F _{x}\right\|\le \left\| x \right\|   $$ 
+
+有Hahn-Banach, 对于$x\in X$, 存在$f_0\in X^{*}$,使得
+考虑$\operatorname{span}\left\{ x \right\}$这个子空间, 则找一个$f_{-1}\in \left(\operatorname{span}\left\{ x \right\}\right)^{*}$, 使得
+$$ f_{-1}\left(x\right)= \left\| x \right\| $$ 
+则
+$$ \left\| f_{-1} \right\|= 1 $$ 
