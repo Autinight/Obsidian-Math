@@ -142,6 +142,49 @@ $$ \alpha = f\left(\mathbf{1}\right) -\sum _{n = 1}^{\infty}a_{n}$$
 这个定义需要一个前提, 就是$\left\{ a_{n} \right\}\in \ell ^{1}$.
 
 
+$$ x= \left\{ \xi _{n} \right\} $$ 
+$$ x= \sum _{n = 1}^{\infty}\xi _{n}e_{n} $$ 
 
-$$ x= le+ \sum _{k= 1}^{\infty}\left(\xi _{k}-l\right)e_{k} $$ 
-因为$\left\{e, e_{k} \right\}$是$x$的一个Schauder基
+
+$\lim_{n\to \infty}x_{n}= l$
+
+$$ x= le + \sum _{n = 1}^{\infty}\left(\xi _{n}-l\right)e_{n} $$ 
+
+$$ \left| x- l e - \sum _{n = 1}^{N}\left(\xi _{n}-l\right)e_{n} \right| = \sup _{n> N} \left| \xi _{n}-l \right|\to 0  $$ 
+
+$$ \left| x- \sum _{n = 1}^{N}\xi _{n}e_{n} \right| = \sup _{n> N}\left| \xi _{n+ 1} \right| = ? $$ 
+
+$$ x = le + \sum _{n = 1}^{\infty}\left(\xi _{n}-l\right)e_{n} $$ 
+
+$$ a _{n}= f\left(e_{n}\right) $$ 
+
+$$ \sum a_{n}= \sum f\left(e_{n}\right) $$ 
+
+$$ f\left(x\right)= l f\left(e\right)+ \sum _{n = 1}^{\infty}\left(\xi _{n}-l\right)f\left(e_{n}\right) $$ 
+
+所以说这里仍然是一个截断.
+
+对象降级,
+
+级数与逼近
+
+
+
+$\xi _{n}= \operatorname{sgn}a_{n}= \operatorname{sgn}f\left(e_{n}\right)$, $n\le r$, 对于$n> r$, $\xi _{n}= 0$, then 
+$$ \left| f\left(x\right) \right|= \sum _{n = 1}^{r}\left| f\left(e_{n}\right) \right|\le \left\| f \right\|\left\| x \right\|= \left\| f \right\|   $$ 
+
+$$ \sum _{n = 1}^{\infty}\left| f\left(e_{n}\right) \right|< \infty  $$ 
+
+Thus $\left\{ a_{n} \right\}\in \ell ^{1}$. Then $\alpha$ is well defined, we have 
+$$ \begin{aligned} f\left(x\right) &= l\left(\alpha + \sum _{n = 1}^{\infty}a_{n}\right)+ \sum  _{n = 1}^{\infty}\left(\xi _{n}-l\right)a_{n}\\&= l\alpha + l\sum _{n = 1}^{\infty}a_{n}+ \sum _{n = 1}^{\infty}\left(\xi _{n}-l\right)a_{n}\\&= l\alpha + \sum _{n = 1}^{\infty}\xi _{n}a_{n} \end{aligned}$$ 
+
+
+
+
+$$ \left| f\left(x\right) \right|\left\| x \right\|\le \left| l \right|\left| \alpha  \right|+ \left\| x \right\|_{\infty}\sum _{n = 1}^{\infty}\left| a_{n} \right|\le \left\| x \right\|_{\infty}\left(\left| \alpha  \right|+ \sum _{n = 1}^{\infty}\left| a_{n} \right|  \right)     $$ 
+
+$$ \left\| f \right\|\le \left| \alpha  \right|+ \sum _{n = 1}^{\infty}\left| a_{n} \right|   $$ 
+
+$$ \xi _{n}= \begin{cases} \operatorname{sgn}a_{n},& n\le N\\\operatorname{sgn}\alpha ,& n \ge N \end{cases}  $$ 
+
+$$ f\left(x\right)= \left| \alpha  \right|+ \sum _{n = 1}^{r}\left| a_{n} \right|   $$ 
