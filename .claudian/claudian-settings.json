@@ -1,7 +1,7 @@
 {
   "userName": "Autin",
   "permissionMode": "yolo",
-  "model": "gpt-5.5",
+  "model": "deepseek-v4-flash",
   "thinkingBudget": "high",
   "effortLevel": "max",
   "serviceTier": "default",
@@ -71,8 +71,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://niubi.sbs\nANTHROPIC_API_KEY=sk-4UnyEqWhz1dZDZx1lttuG9LEYnQW5ddxY6uIpi3T9YCaqbWp\nANTHROPIC_AUTH_TOKEN=sk-4UnyEqWhz1dZDZx1lttuG9LEYnQW5ddxY6uIpi3T9YCaqbWp\nANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://niubi.sbs|ANTHROPIC_DEFAULT_OPUS_MODEL=gpt-5.5"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_API_KEY=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_AUTH_TOKEN=sk-7f276151af4f42e7a3c55c580806f12d\nANTHROPIC_MODEL=deepseek-v4-flash\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro|ANTHROPIC_MODEL=deepseek-v4-flash"
     },
     "codex": {
       "enabled": false,
@@ -90,7 +90,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "gpt-5.5"
+    "claude": "deepseek-v4-flash"
   },
   "savedProviderEffort": {
     "claude": "max"
@@ -99,7 +99,7 @@
   "savedProviderThinkingBudget": {
     "claude": "high"
   },
-  "lastCustomModel": "deepseek-v4-pro",
+  "lastCustomModel": "gpt-5.5",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

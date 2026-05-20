@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA - Xie and Yao - 第7章_相似标准型"
+              "title": "HA - HW2.1"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "LA - Xie and Yao - 第7章_相似标准型 的反向链接列表"
+              "title": "HA - HW2.1 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "LA - Xie and Yao - 第7章_相似标准型 的出链列表"
+              "title": "HA - HW2.1 的出链列表"
             }
           },
           {
@@ -156,17 +156,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA - Xie and Yao - 第7章_相似标准型 的大纲"
+              "title": "HA - HW2.1 的大纲"
+            }
+          },
+          {
+            "id": "70d88fea85b01a62",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -189,15 +199,22 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW1.2.md",
+    "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
+    "30.Recources/LA/LA - Xie and Yao - 第2章_矩阵.md",
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
+    "30.Recources/PDE/Evans - Ch6.md",
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519",
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287",
+    "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
     "30.Recources/LA/LA - Xie and Yao - 第6章_特征值.md",
     "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md",
     "30.Recources/LA/LA - Xie and Yao - 第4章_线性映射.md",
-    "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
-    "30.Recources/LA/LA - Xie and Yao - 第2章_矩阵.md",
     "30.Recources/LA/LA - Xie and Yao - 第1章_行列式.md",
     "30.Recources/LA/LA - Xie and Yao - 第10章_双线性型.md",
     "30.Recources/LA/LA - Xie and Yao - 第9章_内积空间.md",
-    "30.Recources/LA/LA - Xie and Yao - 第8章_二次型.md",
-    "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md"
+    "30.Recources/LA/LA - Xie and Yao - 第8章_二次型.md"
   ]
 }
