@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "7d837599137f2e3d",
+    "id": "ff3f4413d1b59d58",
     "type": "split",
     "children": [
       {
-        "id": "fdc0b9a3538f719c",
+        "id": "72e580e6c982cf63",
         "type": "tabs",
         "children": [
           {
-            "id": "5fb50d254dacd76b",
+            "id": "59b83501e178381d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao.md",
-                "mode": "preview",
+                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA - Xie and Yao"
+              "title": "LA - Xie and Yao - 第7章_相似标准型"
             }
           }
         ]
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "813ab90462b0df10",
+    "id": "f73b90cf2ad61b3d",
     "type": "split",
     "children": [
       {
-        "id": "804f260aa5121d32",
+        "id": "851d807dcca22b4f",
         "type": "tabs",
         "children": [
           {
-            "id": "e66907044929d112",
+            "id": "a1858d490d4e3409",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "f8c717c24a5cf7c6",
+            "id": "0fd238d1811f5860",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,24 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 300
   },
   "right": {
-    "id": "3f3f01befe9fce43",
+    "id": "fdbfa08b70660955",
     "type": "split",
     "children": [
       {
-        "id": "9cd6ae59ac8c3476",
+        "id": "a29004e8bf496cd7",
         "type": "tabs",
         "children": [
           {
-            "id": "0d23f56570fd606c",
+            "id": "822beda697458f75",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-                "collapseAll": false,
+                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,11 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "pdf - AT Hatcher 的反向链接列表"
+              "title": "LA - Xie and Yao - 第7章_相似标准型 的反向链接列表"
             }
           },
           {
-            "id": "5ab4d8370c5e599b",
+            "id": "6696103ca7509a26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "LA - Xie and Yao - 第7章_相似标准型 的出链列表"
+            }
+          },
+          {
+            "id": "f80a860e7a64613d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -123,22 +137,7 @@
             }
           },
           {
-            "id": "2ff55bc2b6b939fb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "30.Recources/LA/LA - Xie and Yao.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "LA - Xie and Yao 的大纲"
-            }
-          },
-          {
-            "id": "97d0eab1f9c3870b",
+            "id": "8968bac6d3b01723",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,43 +151,34 @@
             }
           },
           {
-            "id": "36c50bf10be88d16",
+            "id": "b885c711cfa082b4",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "outline",
               "state": {
-                "file": "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "links-going-out",
-              "title": "pdf - AT Hatcher 的出链列表"
-            }
-          },
-          {
-            "id": "c40b2ff60d251851",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-list",
+              "title": "LA - Xie and Yao - 第7章_相似标准型 的大纲"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
+      "obsidian42-brat:BRAT": false,
       "claudian:Open Claudian": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "open-vscode:VSCode": false,
@@ -197,63 +187,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e66907044929d112",
+  "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "30.Recources/LA",
-    "30.Recources/LA/LA - Xie and Yao.md",
-    "00.Inbox/高等代数第四版_Obsidian_Markdown 2.md",
-    "00.Inbox/高等代数第四版_Obsidian_Markdown.md",
-    "00.Inbox/高等代数第四版_Obsidian_Markdown 3.md",
-    "00.Inbox/高等代数第四版_Obsidian_Markdown 1.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
-    "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
-    "40.Drafts/2026-05",
-    "20.Cards/Theorems/thm - 有界变差函数的诱导符号.md",
-    "30.Recources/FA/FA_Liu_obsidian.md",
-    "40.Drafts/2026-04/Daily Draft 2026-04-13.md",
-    "40.Drafts/2026-04/2026-04-26 推荐信.md",
-    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
-    "20.Cards/Techniques/tec - Boundary Perturbation.md",
-    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
-    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions up to the boudnary in Sobolev Spaces.md",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "11.Chapter Notes/MA/chnt - 反常积分.md",
-    "11.Chapter Notes/MA",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch5.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
-    "20.Cards/Theorems/thm - the Exact Sequence of Normal Covering.md",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "10.Atlas/AT/Atlas - Basic Topology.canvas",
-    "00.Inbox/ex - Cup Product Structure for genus-g.md",
-    "00.Inbox/FA - HW7.md",
-    "30.Recources/MA/MA-Pei/sedXo2FuC",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch2.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md",
-    "Pasted image 20260518140734.png",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075175753",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch1.md.tmp.18232.1779075112015",
-    "30.Recources/MA/MA-Pei",
-    "30.Recources/MA",
-    "50.Image/PNG/Pasted image 20260511212740.png",
-    "50.Image/PNG/Pasted image 20260511212229.png",
-    "Pasted image 20260511212212.png",
-    "Pasted image 20260511212213.png",
-    "30.Recources/AT/PDFs/pdf - AT Hatcher.pdf",
-    "30.Recources/HA/Obsidian Books",
-    "00.Inbox/obsidian-markdown-for-math",
-    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "50.Image/PNG/Pasted image 20260507180346.png",
-    "50.Image/PNG/Pasted image 20260507180315.png",
-    "50.Image/PNG/Pasted image 20260507180224.png",
-    "50.Image/MCD/SVG/Narturality of relative Homology.svg",
-    "50.Image/Tikz/Cellular Homology Diagram.svg"
+    "30.Recources/LA/LA - Xie and Yao - 第6章_特征值.md",
+    "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md",
+    "30.Recources/LA/LA - Xie and Yao - 第4章_线性映射.md",
+    "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
+    "30.Recources/LA/LA - Xie and Yao - 第2章_矩阵.md",
+    "30.Recources/LA/LA - Xie and Yao - 第1章_行列式.md",
+    "30.Recources/LA/LA - Xie and Yao - 第10章_双线性型.md",
+    "30.Recources/LA/LA - Xie and Yao - 第9章_内积空间.md",
+    "30.Recources/LA/LA - Xie and Yao - 第8章_二次型.md",
+    "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md"
   ]
 }
