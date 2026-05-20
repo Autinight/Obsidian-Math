@@ -17,7 +17,8 @@ tags: []
 - 状态： `= this.status`
 
 ## 本章主线
-- 
+- 计算技巧
+  - 注意利用$\ln$的代数性质, 把$\ln \circ f$写成$\ln \circ \left(f_1\cdot f_2\right)= \ln f_1+ \ln f_2$. $f$经常为三角函数. 
 
 ## 核心定理
 1. 

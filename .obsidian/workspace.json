@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
+                "file": "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chnt - 反常积分"
+              "title": "Elliptic_PDE_Han_Lin"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11.Chapter Notes/MA/chnt - 反常积分.md",
+                "file": "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "chnt - 反常积分 的大纲"
+              "title": "Elliptic_PDE_Han_Lin 的大纲"
             }
           },
           {
@@ -199,6 +199,7 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "11.Chapter Notes/MA/chnt - 反常积分.md",
     "00.Inbox/Daily Draft 2026-05-19.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
