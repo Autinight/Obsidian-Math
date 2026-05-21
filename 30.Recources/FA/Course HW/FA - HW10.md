@@ -52,6 +52,15 @@
 > [!exercise] 3
 > 证明：$B$ 空间 $X$ 是自反的，当且仅当 $X^*$ 是自反的.
 
+> [!proof] Proof: 
+> 由于$X$是自反的, 任取$F\in X^{**}$, 则存在$x\in X$, 使得
+> $$ F\left(f\right)= f\left(x\right),\quad \forall f\in X^{*} $$ 
+> 设$f \in X^{*}$典范地对应到$T\in \left(X^{*}\right)^{**}= \left(X^{**}\right)^{*}$
+> 则
+> $$ T\left(F\right)= F\left(f\right),\quad \forall F\in X^{**} $$ 
+> 于是
+> $$ T\left(F\right)= f\left(x\right) $$ 
+
 > [!exercise] 4
 > 设 $X$ 是 $B^*$ 空间，$\{x_n\}\subset X$ 弱收敛到 $x_0$，则存在 $\{x_n\}$ 的凸组合序列强收敛到 $x_0$，即
 > $$
