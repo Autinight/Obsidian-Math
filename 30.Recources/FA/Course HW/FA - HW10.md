@@ -195,3 +195,32 @@
 
 > [!exercise] 11
 > 设 $X$ 是一致凸赋范空间（参看习题二第 18 题），$x_0,x_n\in X$ $(n=1,2,\cdots)$。证明如果 $x_n \xrightarrow{W} x_0$ $(n\to\infty)$ 且 $\|x_n\|\to\|x_0\|$ $(n\to\infty)$，则 $x_n\to x_0$ $(n\to\infty)$。
+
+> [!proof] Proof: 
+> 若$x_0= 0$, 则$\left\| x_{n} \right\|\to \left\| x_0 \right\|= 0$, 故$x_{n}\to 0= x_0$, 结论成立.
+>
+> 若$x_0\neq 0$. 则存在$N$, 使得当$n> N$时, $\left\| x_{n} \right\|> 0$, 下面只考虑$n> N$的情况, 因此不妨设$\left\| x_{n} \right\|> 0$总成立.
+>
+> 令
+> $$ y_{n}= \frac{x_{n} }{ \left\| x_{n} \right\|},\quad y_0= \frac{x_0 }{ \left\| x_0 \right\|} $$ 
+> 则$\left\| y_{n} \right\|= \left\| y_0 \right\|= 1$
+>
+> 任取$f\in X^{*}$, 由于$x_{n}\xrightarrow{w}x_0$, 可知
+> $$ f\left(x_{n}\right)\to f\left(x_0\right) $$ 
+> 故
+> $$ f\left(y_{n}\right)= \frac{f\left(x_{n}\right) }{\left\| x_{n} \right\| }\to \frac{f\left(x_0\right) }{\left\| x_0 \right\| }= f\left(y_0\right) $$ 
+> 因此
+> $$ y_{n}\xrightarrow{w}y_0  $$ 
+> 由于$\left\| x_0 \right\|\neq 0$, 由Hahn-Banach定理, 存在$f\in X^{*}$, 使得$\left\| f \right\|= 1$ , 且$f\left(x_0\right)= \left\| x_0 \right\|$, 即$f\left(y_0\right)= 1$.
+> 则
+> $$ \left\| y_{n}+ y_0 \right\|\ge f\left(y_{n}+ y_0\right)= f\left(y_{n}\right)+ f\left(y_0\right)\to 1+ 1= 2 $$ 
+> 有三角不等式, $\left\| y_{n}+ y_0 \right\|\le \left\| y_{n} \right\|+ \left\| y_0 \right\|= 2$, 因此
+> $$ \left\| y_{n}+ y_0 \right\|\to 2 $$ 
+> 由一致凸性, 任取$\varepsilon > 0$, 存在$\delta > 0$, 使得对于任意$X$中满足$\left\| u \right\|= \left\| v \right\|= 1$的$u,v$, 都有
+> $$ \left\| \frac{u+ v }{2 } \right\|> 1-\delta \implies \left\| u-v \right\|< \varepsilon  $$ 
+> 由于$\left\| y_{n}+ y_0 \right\|\to 2$, $\left\| \frac{y_{n}+ y_0 }{ 2} \right\|\to 1$, 存在$N^{\prime}$, 使得当$n> N^{\prime}$时, 
+> $$ \left\| \frac{y_{n}+ y_0 }{2 } \right\|> 1-\delta  $$ 
+> 于是$\left\| y_{n}-y_0 \right\|< \varepsilon$, 这表明$y_{n}\to y_0$ 
+> 最后
+> $$ \left\| x_{n} -x_0\right\|\le \left\| x_{n} \right\|\cdot \left\| y_{n}-y_0 \right\|+ \left| \left\| x_{n} \right\|-\left\| x_0 \right\| \right|\cdot \left\| y_0 \right\|  $$ 
+> 由于$\left\| x_{m} \right\|$ 有界,$\left\| y_0 \right\|= 1$, 可得$\left\| x_{n}-x_0 \right\|\to 0$, 即$x_{n}\to x_0$.
