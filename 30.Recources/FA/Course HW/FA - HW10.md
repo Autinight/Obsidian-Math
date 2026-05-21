@@ -14,30 +14,39 @@
 > $$ \lim_{n\to \infty}\left\| \mathbf{x}^{\left(n\right)} \right\|^{2}=\lim_{n\to \infty}\sum _{k}\left(x_{k}^{\left(n\right)}\right)^{2}= 0 $$ 
 > 因此$\left\| x^{\left(n\right)} \right\|\to 0$.
 
-> [!exercise] 2
-> 证明空间 $L^1[a,b]$ 与 $l^1$ 不是自反的.
 
-> [!proof] Proof: 
-> **$L^{1}$非自反:**
-记$\varphi :\left(L^{1}\right)^{*}\simeq L^{\infty}$是等距同构. 对于$f\in \left(L^{1}\right)^{*}$,  记$y= \varphi f\in L^{\infty}$. 
-> 我们定义
-> $$ F\left(f\right)= \left(\varphi f\right)\left(a\right)= y\left(a\right),\quad \forall f\in \left(L^{1}\right)^{*} $$ 
-> 则显然$F$是$\left(L^{1}\right)^{*}$上的线性算子, 并且
-> $$ \left| F\left(f\right) \right|= \left| y\left(a\right) \right|\le \left\| y \right\|_{\infty}= \left\| f \right\|   $$ 
-> 这表明$\left\| F \right\|\le 1$, 因此$F\in \left(L^{1}\right)^{**}$.
+> [!exercise] 2
+> 证明空间 $L^1[a,b]$ 与 $\ell^1$ 不是自反的.
+
+> [!proof] Proof:
+> $L^1$ 非自反:
+> 设 $a< b$. 记 $\varphi :\left(L^{1}\right)^{*}\simeq L^{\infty}$ 是等距同构.
+> 在 $C\left[ a,b \right]\subseteq L^{\infty}$ 上定义
+> $$ \Lambda \left(g\right)= g\left(a\right) $$
+> 则 $\left| \Lambda \left(g\right) \right|\le \left\| g \right\|_{\infty}$, 故 $\Lambda \in C\left[ a,b \right]^{*}$.
+> 由 Hahn-Banach, $\Lambda$ 可延拓为 $F\in \left(L^{\infty}\right)^{*}\simeq \left(L^{1}\right)^{**}$.
 > 
-> 如果$L^{1}\left[ a,b \right]$是自反的, 则存在$x\in L^{1}$, 使得
-> $$ F\left(f\right)= f\left(x\right) $$ 
-> 根据$y= \varphi f$, 我们有 
-> $$ f\left(x\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
-> 那么
-> $$F\left(f\right)=  y\left(a\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
-> 但是如果取
-> $$ y\left(t\right)= \begin{cases} 1,&t= a\\0,& t> a \end{cases}  $$ 
-> 那么就会导致
-> $$ 1= y\left(a\right)= \int _{a}^{b}x\left(y\right)y\left(t\right)\,d t= 0 $$ 
+> 若 $L^{1}\left[ a,b \right]$ 自反, 则 $\exists\, x\in L^{1}$, 使得
+> $$ F\left(y\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t,\quad \forall y\in L^{\infty} $$
+> 特别地, $\forall g\in C\left[ a,b \right]$,
+> $$ g\left(a\right)= \int _{a}^{b}x\left(t\right)g\left(t\right)\,d t $$
+> 取 $g_{n}\in C\left[ a,b \right]$, $0\le g_{n}\le 1$, $g_{n}\left(a\right)= 1$, $\operatorname{supp}g_{n}\subseteq \left[ a,a+ \frac{1}{n} \right]$. 则
+> $$ 1= g_{n}\left(a\right)= \int _{a}^{a+ 1/n}x\left(t\right)g_{n}\left(t\right)\,d t\le \int _{a}^{a+ 1/n}\left| x\left(t\right) \right|\,d t\to 0 $$
 > 矛盾.
-> 因此$L^{1}\left[ a,b \right]$不可能是自反的.
+> 
+> $\ell ^{1}$ 非自反:
+> 记 $\varphi :\left(\ell ^{1}\right)^{*}\simeq \ell ^{\infty}$ 是等距同构. 设 $c\subseteq \ell ^{\infty}$ 是收敛序列子空间. 在 $c$ 上定义
+> $$ \Lambda \left(y\right)= \lim _{n\to \infty}y_{n} $$
+> 则 $\left| \Lambda \left(y\right) \right|\le \left\| y \right\|_{\infty}$, 故 $\Lambda \in c^{*}$.
+> 由 Hahn-Banach, $\Lambda$ 可延拓为 $F\in \left(\ell ^{\infty}\right)^{*}\simeq \left(\ell ^{1}\right)^{**}$.
+> 
+> 若 $\ell ^{1}$ 自反, 则 $\exists\, x= \left(x_{k}\right)\in \ell ^{1}$, 使得
+> $$ F\left(y\right)= \sum _{k}x_{k}y_{k},\quad \forall y\in \ell ^{\infty} $$
+> 取 $y= e_{k}\in c$, $\Lambda \left(e_{k}\right)= 0$, 故
+> $$ x_{k}= F\left(e_{k}\right)= 0,\quad \forall k $$
+> 即 $x= 0$. 但取 $y= \mathbf 1= \left(1,1,\cdots \right)\in c$,
+> $$ 1= \Lambda \left(\mathbf 1\right)= F\left(\mathbf 1\right)= \sum _{k}x_{k}= 0 $$
+> 矛盾.
 
 
 > [!exercise] 3
