@@ -219,3 +219,176 @@ $$ \left| F_{x}\left(f\right) \right|= \left| f\left(x\right) \right|\le \left\|
 $$ f_{-1}\left(x\right)= \left\| x \right\| $$ 
 则
 $$ \left\| f_{-1} \right\|= 1 $$ 
+于是存在$f_0\in X^{*}$, 使得
+$$ \left\| f_0 \right\|= 1,\quad f_{0}\left(x\right)= \left\| x \right\| $$ 
+于是
+$$ \left| F_{x}\left(f_0\right) \right|= \left| f_0\left(x\right) \right|= \left\| x \right\|   $$ 
+
+
+$F_{x}$最大的方向, 就是从$x$方向上的元映射通过Hahn-Banach延拓出来的.
+
+这就说明了
+$$ \left\| F_{x} \right\|\ge \left| F_{x}\left(f_0\right) \right|= \left\| x \right\|  $$
+故
+$$ \left\| F_{x} \right\|= \left\| x \right\| $$  
+
+于是
+$$ F: x\mapsto F_{x} $$ 
+是一个等距的线性映射. 等距映射一定是单射吗?
+我们考虑
+$$ \left\| F_{x} \right\|= 0\implies \left\| x \right\|= 0 $$ 
+就可以了, 一定是单射. 
+
+$$ F_{x}\in X^{**}, \quad F_{x}: X^{*}\to \mathbb{R} ,\quad f\mapsto f\left(x\right) $$ 
+
+所以$F$是$X$与$X^{**}$的子空间的一个等距同构.
+
+Hahn_banach是说, $X$的对偶空间足够的大. 每个$x$可以通过上述方式得到一个$f_0$. 如果$f_0$和$f_1$都是这种延拓呢, 
+
+所以$X^{*}$只是给每个$x$提供一个忠实的观察方式, 但是无法比较$X$和$X^{*}$的多少, 但是$X$和$X^{**}$之间的关系就显得更加的自然了, $x$可以自动衡量$X^{*}$的取值, 并且衡量的尺度就是自己的范数.
+
+
+如果$X^{**}$并并不会自己凭空扩张, 那么就是$X$就是自反的.
+
+
+$L^{p}$是自反的, 因为对于$y\in L^{p}$, 自动给出一个算子
+$$ f_{x}: L^{q}\to \mathbb{R} ,x\mapsto  \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
+
+$\left(L^{p}\right)^{*}\simeq L^{q}$, 通过$f_{y}\sim y$.
+另一方面$\left(L^{p}\right)^{*}$
+我们需要证明上面的$X\to X^{**}$是一个满射, 对于每个$F\in \left(L^{p}\right)^{**}$, 则存在$g\in \left(L^{q}\right)^{*}$, 使得
+$$ F\left(f_{y}\right)= g\left(y\right) $$ 
+而$g\in \left(L^{q}\right)^{*}\simeq L^{p}$, 存在 $x\in L^{p}$, 使得
+$$ g\left(z\right)= \int _{a}z\left(t\right)x\left(t\right)\,d t $$ 
+所以
+$$ F\left(f_{y}\right)= \int _{a}y\left(t\right)x\left(t\right)\,d t $$ 
+
+$$ \left(L^{p}\right)^{**}\simeq \left(L^{q}\right)^{*}\simeq L^{p} $$ 
+所以问题就是$\left(L^{p}\right)^{*}\simeq L^{q}$这个操作在两边取对偶下是不是保持的.
+任取$F\in \left(L^{p}\right)^{**}$, 则存在$x\in L^{p}$, 使得
+$$ \left\| F \right\|= \left\| x \right\|,\quad F\left(f\right)= f\left(x\right) $$ 
+
+然后我们利用$\left(L^{p}\right)\simeq \left(L^{q}\right)^{*}$
+任取$y\in L^{q}$, 存在一个$f\in \left(L^{p}\right)^{*}$, 使得
+$$ f\left(x\right)= \int x\left(t\right)y\left(t\right)\,d t ,\quad x\in L^{p}$$ 
+
+令
+$$ \varphi : L^{q}\to \left(L^{p}\right)^{*} $$ 
+
+对于$y\in L^{q}$
+
+$$ \varphi \left(y\right)\in \left(L^{p}\right)^{*} $$ 
+
+定义$F_1\in \left(L^{q}\right)^{*}$, 
+$$ F_1\left(y\right)= F\left(\varphi y\right) $$ 
+则
+$$ F_1\left(y\right)= F\left(\varphi y\right)= \left(\varphi y\right)\left(x\right) $$ 
+
+$$ \left(\varphi y\right)\left(x\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
+所以
+$$ F_1\left(y\right)= \int _{a}x\left(t\right)y\left(t\right)\,d t $$ 
+
+$F_1= x^{*}$
+将$\varphi y$记作$f$, 记住$y\in L^{q}$, $f\in \left(L^{p}\right)^{*}$, 则
+$$ f\left(x\right)= \int _{a}^{b}x\left(y\right)y\left(t\right)\,d t= F_1\left(y\right)= F\left(f\right) $$ 
+所以对于每个$F$, 都存在这样一个$f$, 在捋一遍是如何找到的.
+
+对于$F\in \left(L^{p}\right)^{**}$的, 也就是说$\left(\left(L^{p}\right)^{*}\right)^{*}$, 先把$\left(L^{p}\right)^{*}$当成$L^{q}$, 那么$\left(L^{p}\right)^{**}$就被当成$\left(L^{q}\right)^{*}\simeq L^{p}$
+
+对于$y\in L^{q}$, 我们知道$L^{q}\simeq \left(L^{p}\right)^{*}$, 
+
+$$ f \sim y,\quad f\in \left(L^{p}\right)^{*},\quad y\in L^{q} $$ 
+那么$F$就切实地作用在$f$上了. 定义一个$F_1\in \left(L^{q}\right)^{*}$, 这一步是把$\left(L^{p}\right)^{**}$当成是$\left(L^{q}\right)^{*}$,如何做, 就是定义这个$F_1$, 按照
+$$ F_1\left(y\right)= F\left(f\right) $$ 
+Ok, 现在就定义好了一个$F_1\in \left(L^{q}\right)^{*}$, 
+
+也就是说, 我们把$F$当成是$\left(\left(L^{p}\right)^{*}\right)^{*}$, 通过对偶, 考虑$F$如何作用在$\left(L^{p}\right)^{*}$, 就是如何作用在$L^{q}$上, 中间精力了一个等距同构.
+
+现在, 存在$F_1\in \left(L^{q}\right)^{*}$, 使得
+$$ F_1\left(y\right)= F\left(f\right) $$ 
+
+由于$\left(L^{q}\right)^{*}\simeq L^{p}$, 存在一个$x\in L^{p}$, 使得
+$$ F_1\left(y\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t,\quad \left\| F_1 \right\|= \left\| x \right\| $$ 
+
+而
+$$ \int _{a}^{b}x\left(t\right)y\left(t\right) $$
+也可以看成是作用在$x$上的, 也就是
+$$ f\left(x\right) $$ 
+
+
+于是
+$$ F\left(f\right)= \int _{a}x\left(t\right)y\left(t\right)\,d t= f\left(x\right) $$ 
+
+我们找到了$x\in L^{p}$,
+$$ F\left(f\right)= f\left(x\right) $$ 
+注意到这是$x$和$F$在典范同构中是一对的.
+
+但是$C\left[ a,b \right]$不是自反的, 我们会愚蠢
+$$ C\left[ a,b \right]\simeq \left(V_0\left[ a,b \right]\right)^{*} $$ 
+如果$C\left[ a,b \right]$是自反的, 对于任意的$x\in C\left[ a,b \right]$, 存在$F\in \left(C\left[ a,b \right]\right)^{**}$, 使得
+$$ F_{x}\left(f\right)= f\left(x\right),\quad \forall f\in C\left[ a,b \right]^{*} $$ 
+
+$$ F_{x}\left(f\right) = f\left(x\right)= \int _{a}^{b}x\left(t\right)d\nu \left(t\right)$$ 
+其中$\nu \left(t\right)$是对应的有界函数, 记作$f\left(t\right)$
+则
+$$ F_{x_0}\left(f\right)= \int _{a}^{b} $$ 
+
+所以什么
+$$ x\left(t\right)\mapsto \int _{a}^{b}x\left(t\right)d\nu \left(t\right) $$ 
+
+对于测度$\nu \left(t\right)$, 设对应的有界变差函数是$f$, 考虑$f$在$t_0$处的原子
+
+$$ f\left(t_0+ 0\right)-f\left(t_0-0\right) $$ 
+把$F_{x_0}$就定义为取$f$在$t_0$处的原子
+$$ F_{x_0}\left(f\right)= f\left(t_0+ 0\right)-f\left(t_0-0\right) $$ 
+那么
+$$ \left| F_{x_0}\left(f\right) \right|\le V_{a}^{b}\left(f\right)= \left\| f \right\|\implies \left\| F_{x_0} \right\|\le 1  $$ 
+若$F_{x_0}\left(f\right)\neq 0$, 就是考虑在$t_0$处有原子的一个 $f$, 则存在$x_0\in C\left[ a,b \right]$, 这就是自反性了, 存在$x_0$, 使得
+$$ F_{x_0}\left(f\right)= \int _{a}^{b}x_0\left(t\right)df\left(t\right) $$ 
+$$ f_0\left(t\right)= \int _{0}pwt x_0\left(\tau \right)d\tau $$ 
+则
+$$ F_{x_0}\left(f_0\right)= 0 $$ 
+
+
+如果$C\left[ a,b \right]$是自反的, 对于任的$F$, 存在$x$使得
+$$ F\left(x\right)= f\left(x\right),\quad \forall f\in V_0\left[ a,b \right] $$ 
+
+当我们写$f\left(x\right)$, 意思是$f\in V_0^{*}$作用在$x$上, 当我们写$f\left(t\right)$, 意思是$f$对应的那个有界变差函数$f\left(t\right)$
+
+现在我们考虑一个特殊的$F_{x_0}\in C\left[ a,b \right]^{**}$, 它提取所有有界变差函数在$t_0$处的跳跃, 定义为
+$$ F_{x_0}\left(f\right)= f\left(t_0+ 0\right)-f\left(t_0-0\right) $$ 
+是存在某个某个$f_0$ , 使得
+$$ F_{x_0}\left(f_0\right)\neq 0 $$ 
+的, 我们先承认这件事情, 那么$F_{x_0}$就不是一个零, 于是根据自反性, 存在$x_0$, 使得
+$$ F_{x_0}\left(f\right)= f\left(x_0\right) $$ 
+而
+$$ \left| F_{x_0}\left(f\right) \right|\le V_{a}^{b}\left(f\right)= \left\| f \right\|  $$ 
+这说明$\left\| F_{x_0} \right\|\le 1$, $F_{x_0}$确实是一个有界线性oC泛函
+这是前面的补充.
+
+好的, 现在
+
+$$ f\left(x_0\right)= f\left(t_0+ 0\right)-f\left(t_0-0\right) $$  
+对于所有的$f$成立. 这是通过自反性找到的一个特殊的函数$x_0$.
+
+现在需要找一个特殊的$f_0$来反驳上这个等式. 我们让$f_0$在$t_0$处没有跳跃.
+$$ f_0\left(t\right)= \int _{a}^{t} $$ 
+
+所有$f$在$x_0$这个函数的取值.的取值,都是他们在$t_0$的跳跃. 如果$f$在$t_0$没有跳跃, 那么取在$x_0$上必须是零. 所以我们让$f_0$在$x_0$上不能是零, 并且还不能有跳跃, 那最后就是连续的. 并且跟$x_0$挤在一块
+$$ f_0\left(t\right)= \int _{a}^{t}x_0\left(\tau \right)d\tau  $$ 
+这是那个有界变差函数
+$$ f_0\left(x_0\right)= \int _{a}^{b}x_0\left(t\right)df_0\left(t\right)= \int _{a}^{b}x_0^{2}\left(t\right)\,d t> 0 $$ 
+如果$x_0\neq 0$
+
+$$ F_{x_0}\left(f_0\right)= f_0\left(x_0\right) $$ 
+所以说我是怎么发现需要看跳跃的呢? 跳跃会产生什么, 如果是自反的, 每个线性泛函都能对应一个$x$, 那么考虑$x$是如何自然地作用在上面的, 
+也就是说$F$这个作用的形状是固定的, 他只能张成
+
+$$ F_{x_0}\left(f\right)= f\left(x_0\right) $$ 
+这是它的形状, 而$f\left(x_0\right)$的形状也是固定的, 它只能边长
+$$ f\left(x_0\right)= \int _{a}^{b}x_0\left(t\right)df\left(t\right) $$ 
+这里把$f\left(x_0\right)$和$f\left(t\right)$灵活的看待. 
+
+所以$F_{x_0}\left(f\right)= \int _{a}^{b}x_0\left(t\right)df\left(t\right)$
+$f$得表现得像是一个测度, 而$F_{x_0}$是作用在有界变差函数上的一个线性算子.  
+作用在有界变差函数上的线性算子, 可以让$f$表现得像一个测度. 所以我们的核心矛盾点就是说, 找到一个线性算子, 让他通过$x_0$暴露出它不是一个测度的事实. 让$F_{x_0}$是体现跳跃, 那么表现成为测度这件事情实在是太好了, 每个$f$都像是测度? 跳跃函数是很窄的, 它能让你只在$t_0$附近像是有些东西, 有些东西给你测量, 别的地方全没有, 只要你是连续的, 你就什么都测不出来. 所以说你必须是零, 这太苛刻.    你又得只能在一块表现, 又得像是一个连续的测度, 直接就被杀掉了.
