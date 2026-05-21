@@ -53,13 +53,25 @@
 > 证明：$B$ 空间 $X$ 是自反的，当且仅当 $X^*$ 是自反的.
 
 > [!proof] Proof: 
-> 由于$X$是自反的, 任取$F\in X^{**}$, 则存在$x\in X$, 使得
-> $$ F\left(f\right)= f\left(x\right),\quad \forall f\in X^{*} $$ 
-> 设$f \in X^{*}$典范地对应到$T\in \left(X^{*}\right)^{**}= \left(X^{**}\right)^{*}$
-> 则
-> $$ T\left(F\right)= F\left(f\right),\quad \forall F\in X^{**} $$ 
+> 设$\Phi  _{X}: X\to X^{**}$和$\Phi  _{X^{*}}: X^{*}\to X^{** *}$是典范嵌入, 则
+> $$ \Phi _{X}\left(x\right)\left(f\right)= f\left(x\right),\quad \Phi _{X^{*}}\left(f\right)\left(F\right)= F\left(f\right) $$ 
+> $\implies :$ 若$X$是自反的, 则$\Phi _{X}$是满的. 任取$\varphi \in X^{***}$, 令
+> $$ f= \varphi  \circ \Phi _{X}\in X^{*} $$
+> 则对于任意的$F\in X^{**}$, 存在$x \in X$, 使得$F= \Phi _{X}\left(x\right)$, 
+> $$ \Phi _{X^{*}}\left(f\right)\left(F\right)= F\left(f\right)= \Phi _{X}\left(x\right)\left(f\right)= f\left(x\right)=  \varphi \left(F\right)$$ 
 > 于是
-> $$ T\left(F\right)= f\left(x\right) $$ 
+> $$ \Phi _{X^{*}} \left(f\right)= \varphi $$ 
+> 故$\Phi _{X^{*}}$是满的, $X^{*}$是自反的. 
+> 
+> $\impliedby$: 反过来, 若$X^{*}$是自反的, 若$F\not \in \Phi _{X}\left(X\right)$, 则 $\Phi _{X}\left(X\right)$是$X^{**}$的闭子空间. 由Hahn-Banach, 存在$\varphi \in X^{***}$, 满足
+> $$ \varphi |_{\Phi _{X}\left(X\right)}= 0,\quad \varphi \left(F\right)\neq 0 $$ 
+> 由于$X^{*}$自反, $\Phi _{X^{*}}$是满射的, 存在$f\in X^{*}$, 使得
+> $$ \varphi = \Phi _{X^{*}} \left(f\right)$$
+> 那么对于所有的$x\in X$,
+> $$ f\left(x\right)= \Phi _{X}\left(x\right)\left(f\right)= \Phi _{X^{*}} \left(f\right)\left(\Phi _{X}\left(x\right)\right)= \varphi \left(\Phi _{X}\left(x\right)\right)= 0$$  
+> 故$f= 0$, 从而$\varphi = \Phi _{X^{*}}\left(0\right)= 0$, 与$\varphi \left(F\right)\neq 0$矛盾.
+
+
 
 > [!exercise] 4
 > 设 $X$ 是 $B^*$ 空间，$\{x_n\}\subset X$ 弱收敛到 $x_0$，则存在 $\{x_n\}$ 的凸组合序列强收敛到 $x_0$，即
