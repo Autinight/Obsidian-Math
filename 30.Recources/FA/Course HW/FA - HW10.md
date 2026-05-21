@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] 1
 > 证明有限维赋范空间中，弱收敛与强收敛等价.
 
@@ -125,18 +127,70 @@
 > [!exercise] 6
 > 令 $f_n(t)=\frac{1}{n}\sum_{k=1}^{n}e^{ikt}$，证明在空间 $X=L^2[-\pi,\pi]$ 中，$f_n$ 弱收敛到 $0$.
 
+> [!proof] Proof: 
+> 对于任意的$T\in X^{*}$, 存在$g\in L^{2}\left[ -\pi ,\pi  \right]$, 使得
+> $$ T\left(f\right)= \left< f,g \right> $$ 
+> 而
+> $$ \begin{aligned} \left< f_{n},g \right>&= \left< \frac{1 }{n }\sum _{ k= 1}^{n}e^{ikt},g \right>\\&= \frac{1 }{n }\sum _{ k= 1}^{n}\left< e^{ikt},g \right> \end{aligned} $$ 
+> 记$a_{k}= \left< e^{ikt},g \right>$, 由Bessel不等式
+> $$ \sum _{ k= 1}^{\infty}\left| a_{k} \right|^{2}< \infty  $$ 
+> 因此$a_{k}\to 0$
+> 进而由Cesaro平均极限定理
+> $$ \frac{1 }{n }\sum _{ k= 1}^{n}a_{k}\to 0 $$ 
+> 故
+> $$ \left< f_{n},g \right>= \frac{1 }{n }\sum _{ k= 1}^{n}a_{k}\to 0 $$ 
+> 因此
+> $$ f_{n}\xrightarrow{w}0  $$ 
+
 > [!exercise] 7
 > 求证：在自反的 $B$ 空间中，集合的弱列紧性和有界性是等价的.
 
+> [!proof] Proof: 
+> **弱列紧推有界** 设$E$是弱列紧. 如$E$是无界的, 则存在$\left\{ x_{n} \right\}\subseteq E$, 使得$\left\| x_{n} \right\|\to \infty$. 由弱列紧性, 存在子列$x_{n_{k}}\xrightarrow{w}x_0$, 但是弱收敛点列是有界的, 这与$\left\| x_{n_{k}} \right\|\to \infty$矛盾
+>
+> **有界推弱列紧**:
+> 设$E$有界, 则存在$R> 0$, 使得$A\subseteq B_{X}\left(R\right)$.
+> 由于$B$是自反的, $B_{X}\left(1\right)$是弱列紧的, 进而$B_{X}\left(R\right)$也是弱列紧的. 而弱列紧集的子集也是弱列紧的, 故$E$弱列紧.
+
 > [!exercise] 8
 > 求证：$B^*$ 空间中的闭凸集是弱闭的.
+
+> [!proof] Proof: 
+> 设$X$是$B^{*}$空间, $C\subseteq X$是闭凸集. 只需要证明$X\setminus C$是弱开的. 即我们希望对于每个$x_0\not \in C$, 都找到$x_0$的一个弱邻域使得它与$C$无交.
+>
+> 任取$x_0\not \in C$, 由于$\left\{ x_0 \right\}$是紧凸集, $C$是闭凸集, 且二者无交. 有Hahn-Banach分离定理的严格版本, 存在$f\in X^{*}$和$\alpha \in \mathbb{R}$, 使得
+> $$ \sup _{x\in C} f\left(x\right)< \alpha < f\left(x_0\right) $$  
+> 取
+> $$ U= \left\{ x\in X: f\left(x\right)> \alpha  \right\} $$ 
+> $f$在弱拓扑自动是连续的, 故$U$是弱开的. 这就给出了$x_0$在$X\setminus C$中的弱$U$.
 
 > [!exercise] 9
 > 设 $X$ 是自反的 $B$ 空间，$M$ 是 $X$ 中的有界闭凸集，证明：
 > 任意 $f\in X^*$ 都在 $M$ 上达到最大和最小值.
 
+> [!proof] Proof: 
+> 只证明$f$能取到最大值, 最小值把$f$换成$-f$即可.
+> 记$\alpha = \sup _{x\in M}f\left(x\right)$. 由于$M$是有界的, 故$f\left(M\right)$有上界, $\alpha < \infty$.
+> 取$\left\{ x_{n} \right\}\subseteq M$, 使得$\lim_{n\to \infty}f\left(x_{n}\right)= \alpha$.
+> 由于$X$是自反的, 由Exercise 7, 有界集是弱列紧的. 而$\left\{ x_{n} \right\}$有界, 故存子列$x_{n_{k}}\xrightarrow{w} x_0$.
+>  有Exercise 8, 闭凸集$M$是弱闭的,  故$x_0\in M$.
+> $f\in X^{*}$, $f$是弱连续的, 故
+> $$ f\left(x_0\right)=  \lim_{k}f\left(n_{k}\right)= \alpha  $$ 
+> 在$x_0\in M$处取到最大值$\alpha$.
+
 > [!exercise] 10
 > 设 $X$ 是赋范空间，$x_0,x_n\in X$ $(n=1,2,\cdots)$。证明若 $x_n \xrightarrow{W} x_0$ $(n\to\infty)$，则存在 $\{x_n\}$ 的有穷线性组合序列强收敛于 $x_0$。
+
+> [!proof] Proof: 
+> 令
+> $$ C:= \operatorname{span}\left\{ x_{n}:n\ge 1 \right\} $$ 
+> 是$\left\{ x_{n} \right\}$的有穷线性组合的全体. 则$C$是$X$的线性子空间, 进而是非空的凸集. 命题相当于证明$x_0\in \overline{C}$.
+> 若$x_0\not \in \overline{C}$, 则$\left\{ x_0 \right\}$是紧凸集, 且与非空闭凸集$\overline{C}$无交. 有Hahn-Banach分离定理的强形式, 存在$f\in X^{*}$, 以及$\alpha\in \mathbb{R}$, 使得
+> $$ f\left(y\right)\le \alpha < f\left(x_0\right), \quad \forall y\in \overline{C} $$ 
+> 由于$x_{n}\in C\in \overline{C}$, 上式给出
+> $$ f\left(x_{n}\right)\le \alpha ,\quad \forall n\ge 1 $$ 
+> 另一方面, $x_{n}\xrightarrow{w}x_0$意味着$f\left(x_{n}\right)\to f\left(x_0\right)$. 但是$f\left(x_0\right)> \alpha$, 矛盾. 
+> 因此$x_0\in \overline{C}$. 即存在$y_{k}\in C$, 使得$\left\| y_{k}-x_0 \right\|\to 0$. 其中每个$y_{k}$都是一个有穷线性组合.
 
 
 > [!exercise] 11
