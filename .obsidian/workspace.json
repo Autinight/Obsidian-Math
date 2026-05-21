@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "30.Recources/FA/FA_Liu_obsidian.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -181,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5,
-    "collapsed": true
+    "width": 382.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +199,9 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "00.Inbox/Daily Draft 2026-05-21.md",
+    "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
+    "00.Inbox/Daily Draft 2026-05-21.md",
     "00.Inbox/Daily Draft 2026-05-20.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
     "11.Chapter Notes/MA/chnt - 反常积分.md",
