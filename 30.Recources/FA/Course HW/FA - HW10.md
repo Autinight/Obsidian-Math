@@ -17,6 +17,27 @@
 > [!exercise] 2
 > 证明空间 $L^1[a,b]$ 与 $l^1$ 不是自反的.
 
+> [!proof] Proof: 
+> **$L^{1}$非自反:**
+记$\varphi :\left(L^{1}\right)^{*}\simeq L^{\infty}$是等距同构. 对于$f\in \left(L^{1}\right)^{*}$,  记$y= \varphi f\in L^{\infty}$. 
+> 我们定义
+> $$ F\left(f\right)= \left(\varphi f\right)\left(a\right)= y\left(a\right),\quad \forall f\in \left(L^{1}\right)^{*} $$ 
+> 则显然$F$是$\left(L^{1}\right)^{*}$上的线性算子, 并且
+> $$ \left| F\left(f\right) \right|= \left| y\left(a\right) \right|\le \left\| y \right\|_{\infty}= \left\| f \right\|   $$ 
+> 这表明$\left\| F \right\|\le 1$, 因此$F\in \left(L^{1}\right)^{**}$.
+> 
+> 如果$L^{1}\left[ a,b \right]$是自反的, 则存在$x\in L^{1}$, 使得
+> $$ F\left(f\right)= f\left(x\right) $$ 
+> 根据$y= \varphi f$, 我们有 
+> $$ f\left(x\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
+> 那么
+> $$F\left(f\right)=  y\left(a\right)= \int _{a}^{b}x\left(t\right)y\left(t\right)\,d t $$ 
+> 但是如果取
+> $$ y\left(t\right)= \begin{cases} 1,&t= a\\0,& t> a \end{cases}  $$ 
+> 那么就会导致
+> $$ 1= y\left(a\right)= \int _{a}^{b}x\left(y\right)y\left(t\right)\,d t= 0 $$ 
+> 矛盾.
+> 因此$L^{1}\left[ a,b \right]$不可能是自反的.
 
 
 > [!exercise] 3
