@@ -63,7 +63,7 @@
 > $$ \Phi _{X^{*}} \left(f\right)= \varphi $$ 
 > 故$\Phi _{X^{*}}$是满的, $X^{*}$是自反的. 
 > 
-> $\impliedby$: 反过来, 若$X^{*}$是自反的, 若$F\not \in \Phi _{X}\left(X\right)$, 则 $\Phi _{X}\left(X\right)$是$X^{**}$的闭子空间. 由Hahn-Banach, 存在$\varphi \in X^{***}$, 满足
+> $\impliedby$: 反过来, 若$X^{*}$是自反的, 若$F\not \in \Phi _{X}\left(X\right)$. 由于$\Phi _{X}$是Banach空间上的等距映射, 可知$\Phi _{X}\left(X\right)$是$X^{**}$的闭子空间. 由Hahn-Banach, 存在$\varphi \in X^{***}$, 满足
 > $$ \varphi |_{\Phi _{X}\left(X\right)}= 0,\quad \varphi \left(F\right)\neq 0 $$ 
 > 由于$X^{*}$自反, $\Phi _{X^{*}}$是满射的, 存在$f\in X^{*}$, 使得
 > $$ \varphi = \Phi _{X^{*}} \left(f\right)$$
@@ -83,8 +83,44 @@
 > \left\|x_0-\sum_{i=1}^N \lambda_i x_i\right\|<\varepsilon.
 > $$
 
+> [!proof] Proof: 
+> 令$z_{n}= x_{n}-x_0$, 则
+> 则
+> $$ z_{n}\xrightarrow{w}0  $$ 
+> 对于任意固定的$N$, 考虑尾项的凸包
+> $$ C_{N}= co \left\{ z_{n}: n\ge N \right\} $$ 
+> 命题相当于是证明
+> $$ 0\in \overline{C_{N}} $$
+> 反证: 若不然, 由几何Hahn-Banach定理, $0$与闭凸集$\overline{C_{N}}$分离, 即存在$f\in X^{*}$和$\delta > 0$, 使得对于所有的$z\in C_{N}$
+> $$ f\left(z\right)\ge \delta  $$  
+> 特别地, 
+> $$ f\left(z_{n}\right) \ge \delta ,\quad \forall n\ge N$$ 
+> 但是弱收敛给出
+> $$ \lim_{n\to \infty}f\left(z_{n}\right)\to 0 $$ 
+> 矛盾, 因此$0\in \overline{C_{N}}$.
+> 故对于任意的$\varepsilon > 0$, 存在$\sum _{i= 1}^{k}\lambda _{i}z_{n_{i}}\in C_{N}$
+> 满足
+> $$ \left\| \sum _{i = 1}^{k}\lambda _{i}z_{n_{i}} \right\| < \varepsilon $$ 
+> 即
+> $$ \left\| x_0-\sum _{i= 1}^{k}\lambda _{i}x_{n_{i}} \right\| < \varepsilon $$ 
+
+
+
 > [!exercise] 5
 > 设 $M$ 是赋范空间 $X$ 的闭子空间，$x_0\in X$ 是 $M$ 中某个弱收敛点列的极限，证明 $x_0\in M$。
+
+> [!remark] Remark: 
+> 即闭子空间是弱闭的.
+
+> [!proof] Proof: 
+> 设存在序列$\left(x_{n}\right)\subseteq M$, 使得$x_{n}\xrightarrow{w}x_0$.
+> 反设$x_0\not \in M$. 由于$M$是$X$的闭子空间, 由Hahn-Banach分离定理, 存在$f\in X^{*}$, 使得
+> $$ f|_{M}= 1,\quad f\left(x_0\right)= 1 $$ 
+> 但是由于$x_{n}\in M$, 对于任意的$n$, $f\left(x_{n}\right)= 0$. 另一方面, 
+> $$ \lim_{n\to \infty}f\left(x_{n}\right)= f\left(x_0\right) $$ 
+> 矛盾.
+> 因此$x_0\in M$.
+
 
 > [!exercise] 6
 > 令 $f_n(t)=\frac{1}{n}\sum_{k=1}^{n}e^{ikt}$，证明在空间 $X=L^2[-\pi,\pi]$ 中，$f_n$ 弱收敛到 $0$.

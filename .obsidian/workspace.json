@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/evolution_metric_curvature.md",
+                "file": "30.Recources/FA/Course HW/FA - HW10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "evolution_metric_curvature"
+              "title": "FA - HW10"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/evolution_metric_curvature.md",
+                "file": "30.Recources/FA/Course HW/FA - HW10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "evolution_metric_curvature 的大纲"
+              "title": "FA - HW10 的大纲"
             }
           },
           {
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 382.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +199,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW10.md",
     "00.Inbox/evolution_metric_curvature.md",
+    "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
     "00.Inbox/Daily Draft 2026-05-21.md",
     "00.Inbox/Daily Draft 2026-05-20.md",
