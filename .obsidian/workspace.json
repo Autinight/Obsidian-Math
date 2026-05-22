@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/FA_Liu_obsidian.md",
+                "file": "00.Inbox/evolution_metric_curvature.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Liu_obsidian"
+              "title": "evolution_metric_curvature"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/FA_Liu_obsidian.md",
+                "file": "00.Inbox/evolution_metric_curvature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Liu_obsidian 的大纲"
+              "title": "evolution_metric_curvature 的大纲"
             }
           },
           {
@@ -199,14 +199,15 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW10.md",
+    "00.Inbox/Daily Draft 2026-05-22.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-21.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
+    "30.Recources/FA/Course HW/FA - HW10.md",
     "00.Inbox/evolution_metric_curvature.md",
-    "00.Inbox/Daily Draft 2026-05-21.md",
-    "00.Inbox/Daily Draft 2026-05-20.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-20.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
     "11.Chapter Notes/MA/chnt - 反常积分.md",
-    "00.Inbox/Daily Draft 2026-05-19.md",
+    "00.Inbox/00.Complished/Daily Draft 2026-05-19.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
     "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
@@ -225,7 +226,6 @@
     "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md",
     "30.Recources/LA/LA - Xie and Yao - 第4章_线性映射.md",
     "30.Recources/LA/LA - Xie and Yao - 第1章_行列式.md",
-    "30.Recources/LA/LA - Xie and Yao - 第10章_双线性型.md",
-    "30.Recources/LA/LA - Xie and Yao - 第9章_内积空间.md"
+    "30.Recources/LA/LA - Xie and Yao - 第10章_双线性型.md"
   ]
 }
