@@ -11,24 +11,10 @@
             "id": "59b83501e178381d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/FA-Zhang 1.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "FA-Zhang 1"
+              "title": "新标签页"
             }
           }
         ]
@@ -156,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/FA-Zhang 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA-Zhang 1 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -197,10 +182,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "59b83501e178381d",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
-    "00.Inbox/FA-Zhang.md",
     "00.Inbox/FA-Zhang 1.md",
+    "00.Inbox/FA-Zhang.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
     "00.Inbox/Daily Draft 2026-05-22.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-21.md",
