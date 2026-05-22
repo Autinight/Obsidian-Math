@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-05-22.md",
-                "mode": "preview",
+                "file": "00.Inbox/FA-Zhang 1.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-05-22"
+              "title": "FA-Zhang 1"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-05-22.md",
+                "file": "00.Inbox/FA-Zhang 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-05-22 的大纲"
+              "title": "FA-Zhang 1 的大纲"
             }
           },
           {
@@ -199,6 +199,11 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "00.Inbox/FA-Zhang.md",
+    "00.Inbox/FA-Zhang 1.md",
+    "30.Recources/FA/FA_Liu_obsidian.md",
+    "00.Inbox/Daily Draft 2026-05-22.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-21.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
@@ -207,13 +212,10 @@
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "00.Inbox/Daily Draft 2026-05-22.md",
-    "40.Drafts/2026-05/Daily Draft 2026-05-21.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-20.md",
     "00.Inbox/00.Complished/Daily Draft 2026-05-19.md",
     "00.Inbox/evolution_metric_curvature.md",
-    "30.Recources/FA/FA_Liu_obsidian.md",
     "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
     "11.Chapter Notes/MA/chnt - 反常积分.md",
@@ -232,7 +234,6 @@
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287",
     "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
     "30.Recources/LA/LA - Xie and Yao - 第6章_特征值.md",
-    "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md",
-    "30.Recources/LA/LA - Xie and Yao - 第4章_线性映射.md"
+    "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md"
   ]
 }
