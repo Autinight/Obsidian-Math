@@ -12,5 +12,6 @@
   "obsidian-git",
   "obsidian-zotero-desktop-connector",
   "webpage-html-export",
-  "templater-obsidian"
+  "templater-obsidian",
+  "better-export-pdf"
 ]
