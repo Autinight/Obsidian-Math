@@ -11,10 +11,24 @@
             "id": "59b83501e178381d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/FA/FA_Zhang/FA_Zhang.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "FA_Zhang"
             }
           }
         ]
@@ -142,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "30.Recources/FA/FA_Zhang/FA_Zhang.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "FA_Zhang 的大纲"
             }
           },
           {
@@ -182,8 +197,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "30.Recources/FA/FA_Zhang/FA_Zhang_Ch4.md",
+    "30.Recources/FA/FA_Zhang/FA_Zhang_Ch3.md",
+    "30.Recources/FA/FA_Zhang/FA_Zhang_Ch2.md",
+    "30.Recources/FA/FA_Zhang/FA_Zhang_Ch1.md",
+    "30.Recources/FA/FA_Zhang/FA_Zhang.md",
+    "30.Recources/FA/FA_Zhang",
     "00.Inbox/FA-Zhang 1.md",
     "00.Inbox/FA-Zhang.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
@@ -213,12 +234,7 @@
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
     "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
-    "30.Recources/LA/LA - Xie and Yao - 第2章_矩阵.md",
-    "30.Recources/PDE/Evans - Ch6.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287",
-    "30.Recources/LA/LA - Xie and Yao - 第7章_相似标准型.md",
-    "30.Recources/LA/LA - Xie and Yao - 第6章_特征值.md",
-    "30.Recources/LA/LA - Xie and Yao - 第5章_多项式.md"
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287"
   ]
 }
