@@ -1,8 +1,22 @@
 {
   "id": "conv-1779505264285-1chedpoz4",
   "providerId": "claude",
-  "title": "调整标题层级至正确的层级关系",
+  "title": "修正一下标题层级关系",
   "createdAt": 1779505264285,
-  "updatedAt": 1779505264288,
-  "sessionId": null
+  "updatedAt": 1779506177760,
+  "lastResponseAt": 1779506177760,
+  "sessionId": "37f5f5ff-66b5-461f-8464-1754d7f95ec0",
+  "providerState": {
+    "providerSessionId": "37f5f5ff-66b5-461f-8464-1754d7f95ec0"
+  },
+  "currentNote": "30.Recources/HA/HA_Pan/full.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 30600,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 30600,
+    "percentage": 3
+  }
 }

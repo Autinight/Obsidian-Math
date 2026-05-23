@@ -2763,7 +2763,7 @@ $$
 $$
 
 $$
-\begin{array}{l} = \sum_ {k = - n} ^ {n} \mathrm{d} _ {k} \left[ \frac {1}{2 \pi} \int_ {- \pi} ^ {\pi} f (x) \mathrm{e} ^ {\mathrm{i} k x} \mathrm{d} x \right] \\ = \sum_ {k = - n} ^ {n} c _ {- k} d _ {k}. \tag {$2.56^{\prime$}} \\ \end{array}
+\begin{array}{l} = \sum_ {k = - n} ^ {n} \mathrm{d} _ {k} \left[ \frac {1}{2 \pi} \int_ {- \pi} ^ {\pi} f (x) \mathrm{e} ^ {\mathrm{i} k x} \mathrm{d} x \right] \\ = \sum_ {k = - n} ^ {n} c _ {- k} d _ {k}. \tag{2.56} \\ \end{array}
 $$
 
 下面证明其左端的极限是 $\frac{1}{2\pi}\int_{-\pi}^{\pi}f(x)g(x)\mathrm{d}x.$
@@ -2849,7 +2849,7 @@ $$
 对于以 $T$ 为周期的函数 $f(x)$ , 若 $f \in L^{2}(-T/2, T/2)$ , 则通过变量替换可把 Parseval 等式 (2.55) 转化为
 
 $$
-\frac {1}{T} \int_ {- T / 2} ^ {T / 2} | f (x) | ^ {2} \mathrm{d} x = \sum_ {k = - \infty} ^ {\infty} | c _ {k} | ^ {2}, \tag {$2.55^{\prime$}}
+\frac {1}{T} \int_ {- T / 2} ^ {T / 2} | f (x) | ^ {2} \mathrm{d} x = \sum_ {k = - \infty} ^ {\infty} | c _ {k} | ^ {2}, \tag{2.55}
 $$
 
 其中
@@ -8153,7 +8153,7 @@ $$
 根据性质 2, 进一步可得
 
 $$
-\mathrm{D} ^ {a} u = \mathrm{D} ^ {a} \delta * u. \tag {$5.27^{\prime$}}
+\mathrm{D} ^ {a} u = \mathrm{D} ^ {a} \delta * u. \tag {5.27}
 $$
 
 性质4 卷积的支集. 设 $u, v$ 满足条件5.1, 则
@@ -8448,3 +8448,2797 @@ f _ {\varepsilon} (x) = \left\{ \begin{array}{l l} 0, & | x | \geqslant \varepsi
 $$
 
 验证 $\int_{-\infty}^{\infty}f_{\varepsilon}(x)\mathrm{d}x = 1$ ，并且证明
+$$
+\lim _ {\varepsilon \to 0} f _ {\varepsilon} (0) = + \infty , \quad \lim _ {\varepsilon \to 0} f _ {\varepsilon} (x) = 0 (\text {对} x \neq 0),
+$$
+
+$$
+\lim _ {\varepsilon \to 0} f _ {\varepsilon} = \delta \quad (\text {在}   \mathcal {D} ^ {\prime} (R)   \text {中}).
+$$
+
+8. 证明：
+
+(1) $e^x\delta = \delta ;$   
+(2) $x\delta' = -\delta$ ;
+
+(3) $(\sin ax)\delta' = -a\delta$ .
+
+9. 我们定义广义函数 $x^{-n}(n=1,2,\cdots)$ 如下: 对于 $\varphi \in D$ ,
+
+$$
+\begin{array}{l} \langle x ^ {- 2 m}, \varphi \rangle = \int_ {0} ^ {\infty} x ^ {- 2 m} \left\{\varphi (x) + \varphi (- x) - 2 [ \varphi (0) \right. \\ \left. \left. + \frac {x ^ {2}}{2 !} \varphi^ {\prime \prime} (0) + \dots + \frac {x ^ {2 m - 2}}{(2 m - 2) !} \varphi^ {2 m - 2} (0) \right] \right\} d x, \\ \langle x ^ {- 2 m - 1}, \varphi \rangle = \int_ {0} ^ {\infty} x ^ {- 2 m - 1} \left\{\varphi (x) - \varphi (- x) - 2 \left[ x \varphi^ {\prime} (0) \right. \right. \\ \left. \left. + \frac {x ^ {3}}{3 !} \varphi^ {\prime \prime \prime} (0) + \dots + \frac {x ^ {2 m - 1}}{(2 m - 1) !} \varphi^ {(2 m - 1)} (0) \right] \right\} d x, \\ \end{array}
+$$
+
+证明： $\frac{\mathrm{d}}{\mathrm{d}x} (x^{-1}) = -x^{-2}$ ；一般地，
+
+$$
+\frac {\mathrm{d}}{\mathrm{d} x} (x ^ {- n}) = - n x ^ {- n - 1}.
+$$
+
+10. 证明 Dirac 函数 $\delta$ 的支集只含原点，
+
+$$
+\operatorname{supp} \delta = \{0 \}.
+$$
+
+11. 设 $\Omega$ 是 $R^n$ 中的开集, 证明: $u$ 在 $\Omega$ 上为零当且仅当
+
+$$
+\operatorname{supp} u \subset \Omega^ {c},
+$$
+
+其中 $\Omega^{\iota}$ 是 $\Omega$ 的补集， $u \in \mathcal{D}'(R^n)$ .
+
+12. 设 $u \in \mathcal{D}'(\Omega)$ 具有紧支集 $\pmb{K} \subset \Omega$ ，试证： $u$ 可以唯一地延拓成具有同样支集 $\pmb{K}$ 的广义函数 $\tilde{u} \in \mathcal{D}'(\pmb{R}^n)$ .
+
+13. 求下述广义函数的支集： $\varphi \in \mathcal{D}(\pmb{R})$ ，
+
+(1) $\langle u, \varphi \rangle = \int_{0}^{\infty} x^{2} \varphi(x) \mathrm{d}x$ ;   
+(2) $\langle u, \varphi \rangle = \int_{0}^{1} e^{-1/x} \varphi(x) \mathrm{d}x$ ;
+
+(3) $\langle u, \varphi \rangle = \int_{-1}^{1} e^{-1/(1 - x^2)} \varphi(x) \mathrm{d}x.$
+
+14. 设 $h \in C_0(\mathbb{R}^n)$ , $\int_{\mathbb{R}^n} h \mathrm{d}x = 1, x_0 \in \mathbb{R}^n$ .
+
+(1) 试证明：
+
+$$
+\lim _ {\varepsilon \rightarrow + 0} \frac {1}{\varepsilon^ {n}} h \left(\frac {x - x _ {0}}{\varepsilon}\right) = \delta_ {x _ {0}};
+$$
+
+(2) 令 $h_{\varepsilon}(x) = \varepsilon^{-n} h\left(\frac{x}{\varepsilon}\right), \varepsilon > 0.$ 若 $u \in \mathcal{D}_n'$ , 试证明:
+
+$$
+\lim _ {\varepsilon \to + 0} u * h _ {\varepsilon} = u \quad (\text {在}   \mathcal {D} _ {n} ^ {\prime}   \text {中}).
+$$
+
+15. 设 $\delta$ 是 Dirac 函数, $\delta'$ 是它的微商, $H$ 是 Heaviside 函数, 试计算: $(1 * \delta') * H$ 和 $1 * (\delta' * H)$ , 并验证二者不相等.
+
+16. 若 $u \in \mathcal{D}'$ ，试证明：
+
+$$
+\delta_ {x _ {0}} * u = \tau_ {x _ {0}} u,
+$$
+
+其中
+
+$$
+\langle \tau_ {x _ {0}} u, \varphi \rangle = \langle u (x), \varphi (x + x _ {0}) \rangle , \quad \varphi \in \mathcal {D}.
+$$
+
+17. 设广义函数 $u$ 与函数 $\sigma$ 满足下述条件之一：
+
+(i) $u \in \mathcal{D}'(R^n), \sigma \in C_0^\infty(R^n)$ ;
+
+(ii) $u \in \mathcal{O}^{\prime}(R^{n}), \sigma \in C^{\infty}(R^{n})$ .
+
+令
+
+$$
+h (\xi) = \langle u (x), \sigma (x + \xi) \rangle .
+$$
+
+试证明： $h(\xi)\in C^{\infty}(\mathbb{R}^{n})$
+
+# 第六章 缓增广义函数及其 Fourier 变换
+
+Fourier 变换是分析中一个很有效的工具, 因此在建立广义函数理论时, 有必要引进广义函数的 Fourier 变换概念, 容易想到, 定义广义函数的 Fourier 变换需要借助于基本函数的 Fourier 变换. 但基本函数空间 $\mathcal{D}$ 中的函数的 Fourier 变换一般来说不是紧支集的, 因此就不再属于 $\mathcal{D}$ , 它们组成其他空间. 为了使用方便起见, 这里不讨论空间 $\mathcal{D}$ 中函数的 Fourier 变换组成的空间, 我们介绍一个比 $\mathcal{D}$ 更广的速降函数空间 $\mathcal{S}$ , Fourier 变换是把 $\mathcal{S}$ 映到自身的一对一的连续线性映射. 由此可以建立缓增广义函数 ( $\mathcal{S}$ 上的广义函数) 的 Fourier 变换理论.
+
+# § 6.1 速降函数及其 Fourier 变换
+
+定义6.1 若 $f \in C^{\infty}(\mathbb{R})$ ，并且对于任意非负整数 $k$ 与 $N$ 都有
+
+$$
+\sup _ {r \in R} (1 + | x ^ {2} |) ^ {N} | D ^ {k} f (x) | <   \infty , \tag {6.1}
+$$
+
+就称 $f$ 是速降函数. 速降函数全体组成的线性空间记为 $\mathcal{S}(\pmb{R})$ , 或简记为 $\mathcal{S}$ .
+
+按定义可知, 若 $f \in S$ , 对于每对非负整数 k 与 N, 都有常数 C, 使得
+
+$$
+\left| \mathrm{D} ^ {k} f (x) \right| \leqslant C (1 + | x | ^ {2}) ^ {- N}, \quad x \in R.
+$$
+
+由此可见 $f$ 以及它的各阶微商在无穷远处趋于零的速度比 $\vert x\vert$ 的任意次负幂都快，也就是说，它们在无穷远处急速下降到零，所以称 $f$ 为速降函数.
+
+显然 $C_0^\infty (\pmb {R})$ 中的函数都是速降函数，又可以验证 $\mathrm{e}^{-|x|^2}$ 是速降函数.易见有以下的包含关系
+
+$$
+C _ {0} ^ {\infty} (\boldsymbol {R}) \subset \mathscr {S} (\boldsymbol {R}) \subset C ^ {\infty} (\boldsymbol {R}).
+$$
+
+为了定义 $\mathcal{S}$ 中的收敛性. 先在 $\mathcal{S}$ 中定义一列半范数 (实质上是范数) $p_N(\varphi)^{\textcircled{1}}$ : 设 $\varphi \in \mathcal{S}$ , 令
+
+$$
+p _ {N} (\varphi) = \sup _ {0 \leqslant k \leqslant N} \sup _ {x \in R} (1 + | x | ^ {2}) ^ {N} | D ^ {k} \varphi (x) |, \tag {6.2}
+$$
+
+$N = 0,1,2,\dots .$ 显然 $p_N(\varphi)\leqslant p_{N + 1}(\varphi).$
+
+定义6.2 设 $\varphi_{j} \in \mathcal{S}$ , 如果有
+
+$$
+\lim _ {j \rightarrow \infty} p _ {N} (\varphi_ {j}) = 0, \quad N = 0, 1, 2, \dots
+$$
+
+成立，就称 $\varphi_{j}$ 在 $\mathcal{S}$ 中收敛到0，记为
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = 0 \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+如果 $\varphi \in \mathcal{S},\varphi_j\in \mathcal{S}$ ，并且 $\lim_{j\to \infty}(\varphi_j - \varphi) = 0$ （在 $\mathcal{S}$ 中），就称 $\varphi_{j}$ 在 $\mathcal{S}$ 中收敛到 $\varphi$ ，记为
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = \varphi \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+$\{\varphi_j\}$ 称为 $\mathcal{S}$ 中的基本列是指
+
+$$
+\lim _ { \begin{array}{c} {{j \to \infty}} \\ {{m \to \infty}} \end{array} } (\varphi_ {j} - \varphi_ {m}) = 0 \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+命题 6.1 S 中的基本列必是收敛列, 从而 S (按它的收敛性) 是完备的.
+
+证明 若 $\{\varphi_j\}$ 是 $\mathcal{S}$ 中的基本列, 于是对每个非负整数 $N$ , 有 $p_N(\varphi_j - \varphi_m) \to 0 (j, m \to \infty)$ . 从而可知对每个非负整数 $k$ , 取 $N \geqslant k$ , 就有
+
+$$
+\sup _ {x \in R} | \mathrm{D} ^ {k} \varphi_ {j} (x) - \mathrm{D} ^ {k} \varphi_ {m} (x) | \leqslant p _ {N} (\varphi_ {j} - \varphi_ {m}) \rightarrow 0.
+$$
+
+由此推知 $\{\mathrm{D}^k\varphi_j(x)\}$ 有极限，记其极限为 $g_{k}(x)$ ，
+
+$$
+g _ {k} (x) = \lim _ {j \rightarrow \infty} \mathrm{D} ^ {k} \varphi_ {j} (x),
+$$
+
+并且 $\{\mathrm{D}^k\varphi_j(x)\}$ 在 $x\in R$ 上是一致收敛的.记
+
+$$
+\varphi (x) = g _ {0} (x).
+$$
+
+与命题 5.1 类似, 可用微积分基本定理证明 $\varphi$ 可微, 而且有
+
+$$
+\mathrm{D} \varphi (x) = \mathrm{D} g _ {0} (x) = g _ {1} (x) = \lim _ {j \rightarrow \infty} \mathrm{D} \varphi_ {j} (x),
+$$
+
+$$
+\mathrm{D} ^ {k} \varphi (x) = g _ {k} (x) = \lim _ {j \rightarrow \infty} \mathrm{D} ^ {k} \varphi_ {j} (x).
+$$
+
+也就是说， $\varphi(x)$ 具有任意阶微商.
+
+任意取定非负整数 $N$ ，对任给 $\varepsilon > 0$ ，存在 $n_0 = n_0(N)$ ，当 $j \geqslant n_0, m \geqslant n_0$ 时，有
+
+$$
+\begin{array}{l} (1 + | x | ^ {2}) ^ {N} \left| \mathrm{D} ^ {k} \varphi_ {j} (x) - \mathrm{D} ^ {k} \varphi_ {m} (x) \right| \\ \leqslant p _ {N} (\varphi_ {j} - \varphi_ {m}) <   \varepsilon , \quad x \in R, 0 \leqslant k \leqslant N. \\ \end{array}
+$$
+
+令 $m \to \infty$ ，便得
+
+$$
+(1 + | x | ^ {2}) ^ {N} \left| \mathrm{D} ^ {k} \varphi_ {j} (x) - \mathrm{D} ^ {k} \varphi (x) \right| \leqslant \varepsilon , \quad x \in R, 0 \leqslant k \leqslant N.
+$$
+
+从而，当 $j \geqslant n_0$ 时
+
+$$
+p _ {N} (\varphi_ {j} - \varphi) \leqslant \varepsilon .
+$$
+
+用三角不等式得
+
+$$
+p _ {N} (\varphi) \leqslant p _ {N} (\varphi_ {n _ {0}}) + p _ {N} (\varphi - \varphi_ {n _ {0}}) <   + \infty ,
+$$
+
+即知 $\varphi \in \mathcal{S}$ . 同时, 由 $\varepsilon$ 的任意性便知
+
+$$
+\lim _ {j \rightarrow \infty} p _ {N} (\varphi_ {j} - \varphi) = 0,
+$$
+
+再由 $N$ 的任意性，可得
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = \varphi \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+命题6.2 设 $Q$ 是多项式, $g \in \mathcal{S}$ , 则以下三个映射:
+
+$$
+\varphi \mapsto Q \varphi , \quad \varphi \mapsto g \varphi , \quad \varphi \mapsto \mathrm{D} \varphi
+$$
+
+是 $\mathcal{S}$ 映入 $\mathcal{S}$ 中的连续线性映射.
+
+证明 若 $\varphi \in \mathcal{S}$ , 用 Leibniz 公式(5.10)可推知 $Q\varphi \in \mathcal{S}$ . 设 $\lim_{j \to \infty} \varphi_j = 0$ (在 $\mathcal{S}$ 中), 我们有
+
+$$
+\begin{array}{l} p _ {N} (Q \varphi_ {j}) = \sup _ {0 \leqslant k \leqslant N} \sup _ {\tau \in R} (1 + | x | ^ {2}) ^ {N} | D ^ {k} (Q \varphi_ {j}) (x) | \\ = \sup _ {0 \leqslant k \leqslant N} \sup _ {r \in R} (1 + | x | ^ {2}) ^ {N} \left| \sum_ {0 \leqslant m \leqslant k} c _ {k m} \left(\mathrm{D} ^ {k - m} Q\right) \left(\mathrm{D} ^ {m} \varphi_ {i}\right) \right| \\ \end{array}
+$$
+
+$$
+\leqslant C p _ {N + l} (\varphi_ {j}),
+$$
+
+其中 $l$ 是多项式 $Q$ 的最高次幂数. 由此可推得
+
+$$
+\lim _ {j \to \infty} Q \varphi_ {j} = 0 \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+这表明映射 $\varphi \mapsto Q\varphi$ 是连续的. 其他两个映射类似可证.
+
+若 $\varphi \in \mathcal{S}$ , 它显然属于 $L(R)$ , $\varphi$ 的 Fourier 变换是
+
+$$
+\hat {\varphi} (t) = \int_ {- \infty} ^ {\infty} \varphi (x) \mathrm{e} ^ {- 2 \pi i t x} \mathrm{d} x.
+$$
+
+有时也用算子 $\mathcal{F}$ 来表示 Fourier 变换： $\mathcal{F}\varphi = \hat{\varphi}$ . 关于 Fourier 变换的基本性质见 §3.1. 根据定理 3.5 可知：若 $\varphi \in \mathcal{S}$ ，有
+
+$$
+(\mathbf {D} ^ {k} \varphi) ^ {\wedge} (t) = (2 \pi \mathrm{i} t) ^ {k} \hat {\varphi} (t), \tag {6.3}
+$$
+
+$$
+(\mathrm{D} ^ {k} \hat {\varphi}) (t) = ((- 2 \pi \mathrm{i} x) ^ {k} \varphi (x)) ^ {\wedge} (t), \tag {6.4}
+$$
+
+其中 k 是正整数.
+
+定理 6.3 Fourier 变换 $F\varphi$ 是 S 映入 S 中的连续线性映射, 它是一对一的满映射. F 的逆映射也连续, 并且有下式成立:
+
+$$
+\mathcal {F} ^ {4} \varphi = \varphi , \quad \varphi \in \mathcal {S}.
+$$
+
+证明 设 $\varphi \in \mathcal{S}$ , 取 $N$ 适当大使得
+
+$$
+\int_ {R} \frac {\mathrm{d} x}{(1 + | x | ^ {2}) ^ {N}} <   + \infty ,
+$$
+
+(在一维情形,这里取 N=1 便可),我们有
+
+$$
+\begin{array}{l} \left| \hat {\varphi} (t) \right| \leqslant \int_ {R} | \varphi (x) | \mathrm{d} x \\ \leqslant p _ {N} (\varphi) \left(\int_ {\mathbb {R}} \frac {\mathrm{d} x}{(1 + | x | ^ {2}) ^ {N}}\right) = C _ {N} p _ {N} (\varphi). \tag {6.5} \\ \end{array}
+$$
+
+由(6.1)及(6.4)可知 $\hat{\varphi}$ 无限次可微. 只要再验证对 $\hat{\varphi}$ 有(6.1)式成立, 便可知 $\hat{\varphi}$ 为速降函数. 对非负整数 $k, m$ , 令 $g = (-2\pi \mathrm{i}x)^{k}\varphi$ , 根据命题6.2便知 $g \in \mathcal{S}$ , 而且 $\left(1 - \frac{1}{4\pi^2}\mathrm{D}^2\right)^m g \in \mathcal{S}$ . 由(6.4)及(6.3)式可推得以下等式:
+
+$$
+\mathrm{D} ^ {k} \hat {\varphi} = \hat {g},
+$$
+
+$$
+(1 + | t | ^ {2}) \mathrm{D} ^ {k} \hat {\varphi} (t) = (1 + | t | ^ {2}) \hat {g} (t) = \left(\left(1 - \frac {1}{4 \pi^ {2}} \mathrm{D} ^ {2}\right) g\right) ^ {\wedge} (t),
+$$
+
+$$
+(1 + | t | ^ {2}) ^ {m} \mathrm{D} ^ {k} \hat {\varphi} (t) = \left(\left(1 - \frac {1}{4 \pi^ {2}} \mathrm{D} ^ {2}\right) ^ {m} g\right) ^ {\wedge} (t).
+$$
+
+于是由(6.5)式可推知对于 $\hat{\varphi}$ 有(6.1)式成立：
+
+$$
+\begin{array}{l} \sup _ {t \in R} (1 + | t | ^ {2}) ^ {m} \left| D ^ {k} \hat {\varphi} (t) \right| = \sup _ {t \in R} \left| \left(\left(1 - \frac {1}{4 \pi^ {2}} D ^ {2}\right) ^ {m} g\right) ^ {\wedge} (t) \right| \\ \leqslant C _ {N} p _ {N} \left(\left(1 - \frac {1}{4 \pi^ {2}} \mathrm{D} ^ {2}\right) ^ {m} g\right) \leqslant C _ {N} ^ {\prime} p _ {N + 2 m} ((- 2 \pi 1 x) ^ {k} \varphi) \\ \leqslant C _ {N} ^ {\prime \prime} p _ {N + 2 m + k} (\varphi) <   + \infty . \tag {6.6} \\ \end{array}
+$$
+
+因此 $\hat{\varphi} \in \mathcal{S}$ . 现设 $\lim_{j \to \infty} \varphi_j = 0$ (在 $\mathcal{S}$ 中), 由(6.6)可得
+
+$$
+\begin{array}{l} p _ {m} \left(\hat {\varphi} _ {j}\right) = \sup _ {0 \leqslant k \leqslant m} \sup _ {t \in R} (1 + | t | ^ {2}) ^ {m} \left| D ^ {k} \hat {\varphi} _ {j} (t) \right| \\ \leqslant C _ {N} ^ {\prime \prime} p _ {N + 2 m + m} (\varphi_ {j}), \\ \end{array}
+$$
+
+于是由 $\lim_{j\to\infty}p_{m}(\varphi_{j})=0(m=0,1,2,\cdots)$ 推知 $\lim_{j\to\infty}p_{m}(\hat{\varphi}_{j})=0(m=0,1,2,\cdots)$ ，即有 $\lim_{j\to\infty}\hat{\varphi}_{j}=0$ （在S中）。这就证明了F是S映入S中的连续线性映射。
+
+对于 $\varphi \in \mathcal{S}$ , 由前面的证明知 $\hat{\varphi} \in \mathcal{S}$ , 根据定理3.13便知反演公式
+
+$$
+\varphi (x) = \int_ {- \infty} ^ {\infty} \hat {\varphi} (t) \mathrm{e} ^ {2 \pi i x t} \mathrm{d} t
+$$
+
+对一切 $x \in \mathbb{R}$ 成立. 如果 $f \in \mathcal{S}, \hat{f} = 0$ , 则由反演公式推知 $f = 0$ . 这表明映射 $\mathcal{F}$ 是一对一的. 又由反演公式得知
+
+$$
+(\mathcal {F} ^ {2} \varphi) (x) = \varphi (- x),
+$$
+
+从而有 $(\mathcal{F}^4\varphi)(x) = \varphi (x)$ . 由此可推知 $\mathcal{F}$ 是 $\mathcal{S}$ 映入 $\mathcal{S}$ 的满映射，并且 $\mathcal{F}$ 的逆映射 $\mathcal{F}^{-1} = \mathcal{F}^3$ . 于是由 $\mathcal{F}$ 连续便推知 $\mathcal{F}^{-1}$ 连续.
+
+定理6.4 若 $f, g \in \mathcal{S}$ , 则有
+
+(1) $f*g\in \mathcal{S}$ ;   
+(11) $(fg)^{\wedge} = \hat{f} * \hat{g}$ .
+
+证明 (i) 设 $f, g \in \mathcal{S}$ , 则 $\hat{f}, \hat{g} \in \mathcal{S}$ , 由命题6.2知 $\hat{f} \cdot \hat{g} \in$
+
+$\mathcal{S}$ ，由(3.10)式及定理6.3知
+
+$$
+f * g = \mathcal {F} ^ {- 1} (\hat {f} \cdot \hat {g}) \in \mathscr {S}.
+$$
+
+(ii) 用 $\hat{f}$ 与 $\hat{g}$ 代替(3.10)中的 $f$ 与 $g$ , 得到
+
+$$
+\mathcal {F} (\hat {f} * \hat {g}) = \mathcal {F} ^ {2} f \cdot \mathcal {F} ^ {2} g = (f \cdot g) (- x) = \mathcal {F} ^ {2} (f g).
+$$
+
+对上式两边作用算子 $\mathcal{F}^{-1}$ , 即可得到结论.
+
+# § 6.2 缓增广义函数
+
+定义 6.3 定义在 $\mathcal{S}(\boldsymbol{R})$ 上的连续线性泛函称为 $\mathcal{S}(\boldsymbol{R})$ 上的广义函数, 又称为缓增广义函数 (tempered distribution). 全体缓增广义函数组成的空间记为 $\mathcal{S}'(\boldsymbol{R})$ , 或简记为 $S'$ .
+
+$\mathcal{D}$ 与 $\mathcal{S}$ 只看作函数集合显然有包含关系 $\mathcal{D} \subset \mathcal{S}$ . 可以证明按照空间的收敛性, 它们也有如下关系:
+
+命题6.5 (i) $\mathcal{D}$ 中的收敛列必是 $\mathcal{S}$ 中的收敛列；
+
+(ii) $\mathcal{D}$ 在 $\mathcal{S}$ 中稠密.
+
+证明 (1) 设 $\lim_{j\to \infty}\varphi_j = 0$ （在 $\mathcal{D}$ 中），则必存在紧集 $K$ ，使 $\operatorname {supp}(\varphi_j)\subset K$ ，注意到 $(1 + |x|^2)^N$ 在紧集 $K$ 上是有界的.由此得到
+
+$$
+p _ {N} \left(\varphi_ {j}\right) = \sup _ {0 \leqslant k \leqslant N} \sup _ {x \in K} (1 + | x | ^ {2}) ^ {N} \left| D ^ {k} \varphi_ {j} (x) \right|
+$$
+
+$$
+\leqslant C _ {N} (\boldsymbol {K}) \sup _ {0 \leqslant k \leqslant N} \sup _ {x \in \boldsymbol {K}} | D ^ {k} \varphi_ {j} (x) |.
+$$
+
+由 $\varphi_{j}$ 在 D 中收敛于 0 便知当 $j\to\infty$ 时，上式右端趋向于 $0(N=0,1,2,\cdots)$ . 由此便知
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = 0 \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+(ii) 对任给 $\varphi \in \mathcal{S}$ , 要寻找 $\mathcal{D}$ 中的函数逼近它, 为此, 根据推论1.15选取一个函数 $\psi \in \mathcal{D}$ , 使得
+
+$$
+0 \leqslant \psi (x) \leqslant 1, \quad x \in R,
+$$
+
+$$
+\psi (x) = 1, \quad | x | \leqslant 1.
+$$
+
+对以上给定的 $\varphi \in \mathcal{S}$ ，作函数
+
+$$
+f _ {r} (x) = \varphi (x) \psi (r x), \quad x \in R, r > 0,
+$$
+
+易知 $f_{r} \in \mathcal{D}$ . 下面证明 $\lim_{r \to 0} f_{r} = \varphi$ (在 $\mathcal{S}$ 中). 我们有
+
+$$
+(\varphi - f _ {r}) (x) = \varphi (x) [ 1 - \psi (r x) ].
+$$
+
+由 $\psi$ 的取法可知：当 $|x| < \frac{1}{r}$ 时， $\psi(rx) = 1$ 。从而在 $|x| < \frac{1}{r}$ 中，有
+
+$$
+\mathrm{D} ^ {m} [ 1 - \psi (r x) ] = 0 \quad (m = 0, 1, 2, \dots).
+$$
+
+又对于任意非负整数 $k \leqslant N$ ，有
+
+$$
+(1 + | x | ^ {2}) ^ {N} | \mathrm{D} ^ {k} \varphi (x) | \leqslant (1 + | x | ^ {2}) ^ {- 1} p _ {N + 1} (\varphi).
+$$
+
+于是，设 $r < 1$
+
+$$
+\begin{array}{l} \sup _ {0 \leqslant k \leqslant N} \sup _ {x \in R} (1 + | x | ^ {2}) ^ {N} \left| D ^ {k} (\varphi - f _ {r}) (x) \right| \\ = \sup _ {0 \leqslant k \leqslant N} \sup _ {| x | \geqslant \frac {1}{r}} (1 + | x | ^ {2}) ^ {N} \left| D ^ {k} \{\varphi (x) [ 1 - \psi (r x) ] \} \right| \\ \leqslant \sup _ {0 \leqslant k \leqslant N} \sup _ {| z | \geqslant \frac {1}{r}} (1 + | x | ^ {2}) ^ {N} \sum_ {m \leqslant k} c _ {k m} | (\mathrm{D} ^ {k - m} \varphi) (x) | r ^ {m} | \mathrm{D} ^ {m} [ 1 - \psi (r x) ] | \\ \leqslant \sup _ {0 \leqslant k \leqslant N} \sup _ {| z | \geqslant \frac {1}{r}} (1 + | x | ^ {2}) ^ {- 1} p _ {N + 1} (\varphi) \left[ 1 + \sum_ {m \leqslant k} c _ {k m} | D ^ {m} \psi (r x) | \right] \\ \leqslant C r ^ {2} p _ {N + 1} (\varphi) \sup _ {0 \leqslant m \leqslant N} \sup _ {x \in R} | D ^ {m} \psi (x) |. \\ \end{array}
+$$
+
+当 $r \to 0$ 时，上式右端趋向于0，即有
+
+$$
+\lim _ {r \rightarrow 0} p _ {N} (\varphi - f _ {r}) = 0 \quad (N = 0, 1, 2, \dots).
+$$
+
+因此
+
+$$
+\lim _ {r \to 0} f _ {r} = \varphi (\text {在} \mathcal {S} \text {中}).
+$$
+
+定理6.6 缓增广义函数在 $\mathcal{D}$ 上的限制是 $\mathcal{D}$ 上的广义函数. 两个不同的缓增广义函数在 $\mathcal{D}$ 上的限制是 $\mathcal{D}$ 上两个不同的广义函数. 如果把缓增广义函数与它在 $\mathcal{D}$ 上的限制看作同一个元, 则 $\mathcal{S}'$ 等同于 $\mathcal{D}'$ 的一个子空间, 即有 $\mathcal{S}' \subset \mathcal{D}'$ .
+
+证明 设 $u \in \mathcal{S}'$ ，它在 $\mathcal{D}$ 上的限制是 $\mathcal{D}$ 上的线性泛函，设 $\lim_{j \to \infty} \varphi_j = 0$ （在 $\mathcal{D}$ 中），根据命题6.5可知 $\lim_{j \to \infty} \varphi_j = 0$ （在 $\mathcal{S}$ 中），因此有
+
+$$
+\lim _ {j \rightarrow \infty} u (\varphi_ {j}) = 0.
+$$
+
+这表明 $u$ 在 $\mathcal{D}$ 上连续，即 $u$ 在 $\mathcal{D}$ 上的限制是 $\mathcal{D}$ 上的广义函数。因为 $\mathcal{D}$ 在 $\mathcal{S}$ 上稠密，所以 $\mathcal{S}'$ 中两个不同的广义函数在 $\mathcal{D}$ 上的限制不能是 $\mathcal{D}$ 上相同的广义函数。
+
+以上讨论表明：缓增广义函数实际上是 $\mathcal{D}$ 上这样的广义函数 $u$ ，它能连续地延拓到 $\mathcal{S}$ 上去。但并不是每个 $\mathcal{D}$ 上的广义函数都能连续延拓到 $\mathcal{S}$ 上去的。例如函数 $f(x) = \mathrm{e}^{x^2}$ 局部可积，它按(5.1)式确定 $\mathcal{D}$ 上一个广义函数，这个广义函数不能延拓成为 $\mathcal{S}$ 上的连续线性泛函（请读者自行验证）。
+
+与 $\mathcal{D}'$ 类似，可以在 $\mathcal{S}'$ 中定义收敛性如下：
+
+定义 6.4 设 $u, u_{j} \in S'$ ，若对每个 $\varphi \in S$ ，有
+
+$$
+\lim _ {j \rightarrow \infty} u _ {j} (\varphi) = u (\varphi)
+$$
+
+成立，就称缓增广义函数列 $\{u_{j}\}$ 收敛到 $u$ 。记为
+
+$$
+\lim _ {j \to \infty} u _ {j} = u \quad (\text {在} \mathcal {S} ^ {\prime} \text {中}).
+$$
+
+可以证明 $S'$ 在这样定义的收敛意义下是完备的. 证明省略.
+
+例 1 $\delta$ 函数是缓增广义函数.
+
+对于 $\varphi \in \mathcal{S}, \delta(\varphi) = \varphi(0)$ 显然是 $\mathcal{S}$ 上的线性泛函. 若 $\lim_{j \to \infty} \varphi_j = 0$ (在 $\mathcal{S}$ 中), 因有
+
+$$
+\left| \delta (\varphi_ {j}) \right| = \left| \varphi_ {j} (0) \right| \leqslant p _ {0} (\varphi_ {j}) \rightarrow 0 \quad (j \rightarrow \infty),
+$$
+
+即 $\lim_{j\to \infty}\delta (\varphi_j) = 0$ ，因此 $\delta$ 连续.故 $\delta \in \mathcal{S}^{\prime}$
+
+定理 6.7 设 u 是 S 上的线性泛函, 则 u 在 S 上连续的充分必要条件是存在一个常数 C 与一个非负整数 N, 使得
+
+$$
+\left| u (\varphi) \right| \leqslant C p _ {N} (\varphi), \quad \varphi \in \mathcal {S}. \tag {6.7}
+$$
+
+证明 充分性显然. 现在用反证法证明必要性. 设 $u$ 连续, 但不存在 $C$ 与 $N$ 使 (6.7) 式成立. 那么, 对任意 $m$ , 必有 $\psi_{m} \in \mathcal{S}$ , 使得
+
+$$
+u (\psi_ {m}) > m p _ {m} (\psi_ {m}).
+$$
+
+令 $\varphi_{m} = \psi_{m} / |u(\psi_{m})|$ . 易见 $\varphi_{m} \in \mathcal{S}$ , 并且
+
+$$
+p _ {m} (\varphi_ {m}) = p _ {m} (\psi_ {m}) / | u (\psi_ {m}) | <   \frac {1}{m}.
+$$
+
+任给 $k \leqslant m$ ，由 $p_k(\varphi)$ 的上升性质可知
+
+$$
+p _ {k} (\varphi_ {m}) \leqslant p _ {m} (\varphi_ {m}) <   \frac {1}{m}.
+$$
+
+因此对任意固定的 $k, \lim_{m \to \infty} p_k(\varphi_m) = 0$ ，即得 $\lim_{m \to \infty} \varphi_m = 0$ （在 $\mathcal{S}$ 中）。由 $u$ 连续，便得
+
+$$
+\lim _ {m \rightarrow \infty} u (\varphi_ {m}) = 0.
+$$
+
+但
+
+$$
+\left| u \left(\varphi_ {m}\right) \right| = \left| u \left(\psi_ {m}\right) \right| / \left| u \left(\psi_ {m}\right) \right| = 1,
+$$
+
+两式矛盾. 从而必有 $C$ 与 $N$ 使(6.7)式成立.
+
+例 2 设 $\mu$ 是 R 上的正 Borel 测度, 如果对于某个非负整数 k, 有
+
+$$
+\int_ {R} (1 + | x | ^ {2}) ^ {- k} \mathrm{d} \mu <   \infty ,
+$$
+
+则由下式
+
+$$
+u (\varphi) = \int_ {R} \varphi \mathrm{d} \mu , \quad \varphi \in \mathcal {S}
+$$
+
+确定一个缓增广义函数. 我们只需证明 $u$ 的连续性: 若 $\lim_{j \to \infty} \varphi_j = 0$ (在 $\mathcal{S}$ 中), 则
+
+$$
+\begin{array}{l} \left| u \left(\varphi_ {j}\right) \right| = \left| \int_ {R} (1 + | x | ^ {2}) ^ {k} \varphi_ {j} (x) (1 + | x | ^ {2}) ^ {- k} \mathrm{d} \mu \right| \\ \leqslant \left(\int_ {R} (1 + | x | ^ {2}) ^ {- k} \mathrm{d} \mu\right) p _ {k} (\varphi_ {j}) \rightarrow 0 \quad (j \rightarrow \infty). \\ \end{array}
+$$
+
+故 $u \in \mathcal{S}'$ .
+
+例3 设 $f$ 是 $\pmb{R}$ 上的可测函数. 如果存在某个 $p(1 \leqslant p < \infty)$ , 以及某个非负整数 $N$ , 使得
+
+$$
+\int_ {R} \mid (1 + \mid x \mid^ {2}) ^ {- N} f (x) \mid^ {p} \mathrm{d} x = C <   \infty , \tag {6.8}
+$$
+
+则由下式
+
+$$
+u (\varphi) = \int_ {\mathbb {R}} f (x) \varphi (x) \mathrm{d} x, \quad \varphi \in \mathcal {S} \tag {6.9}
+$$
+
+确定一个缓增广义函数. 我们用定理 6.7 验证 u 的连续性. 设 p > 1, 由 Hölder 不等式及 (6.8) 式得知对一切 $\varphi \in S$ ,
+
+$$
+| u (\varphi) | = \left| \int_ {R} (1 + | x | ^ {2}) ^ {N} \varphi (x) \cdot (1 + | x | ^ {2}) ^ {- N} f (x) d x \right|
+$$
+
+$$
+\leqslant C ^ {1 / p} \left\{\int_ {R} | (1 + | x | ^ {2}) ^ {N} \varphi (x) | ^ {q} d x \right\} ^ {1 / q}
+$$
+
+$$
+\leqslant C ^ {1 / q} \left\{\int_ {R} (1 + | x | ^ {2}) ^ {- q} d x \right\} ^ {1 / q} p _ {N + 1} (\varphi),
+$$
+
+其中 $q$ 是 $p$ 的共轭指标， $\frac{1}{p} +\frac{1}{q} = 1$ ；设 $p = 1$ ，有
+
+$$
+\left| u (\varphi) \right| \leqslant \left(\int_ {R} (1 + | x | ^ {2}) ^ {- N} f (x) | \mathrm{d} x\right) p _ {N} (\varphi) \leqslant C p _ {N} (\varphi).
+$$
+
+由定理 6.7 便知 $u \in S'$ .
+
+特别, 若 $f \in L^{p}(\mathbb{R})(1 \leqslant p \leqslant \infty)$ , 有 $N = 0$ 使 (6.8) 式成立, 所以 $f$ 按 (6.9) 式确定一个缓增广义函数; 任一个多项式显然能取到 $N$ 使 (6.8) 式成立, 所以多项式也可确定一个缓增广义函数; 若可测函数 $f$ 能被某个多项式所控制:
+
+$$
+\left| f (x) \right| \leqslant C (1 + | x | ^ {2}) ^ {m}, \quad x \in R,
+$$
+
+则 $f$ 也确定一个缓增广义函数.
+
+例4 设 $f \in C^{\infty}(\mathbb{R})$ ，并且对于每个非负整数 $k$ ，存在常数 $C_k$ 以及非负整数 $N_k$ ，使得
+
+$$
+\left| \mathrm{D} ^ {k} f (x) \right| \leqslant C _ {k} (1 + | x | ^ {2}) ^ {N _ {k}}, \quad x \in R,
+$$
+
+就称 $f$ 是(在无穷远处)慢增的 $C^\infty$ 函数. 这样的函数全体组成的空间记为 $\mathcal{D}_M(R)$ . 由例3可知, 每个 $f \in \mathcal{D}_M(R)$ 确定一个缓增广义函数.
+
+可以验证：若 $f \in \mathcal{D}_M(\pmb{R})$ ，映射
+
+$$
+\varphi \mapsto f \varphi
+$$
+
+是由 $\mathcal{S}$ 映入 $\mathcal{S}$ 中的连续线性映射. 因此可以定义 $\mathcal{D}_M(\pmb{R})$ 中函数 $f$ 与缓增广义函数 $u \in \mathcal{S}'$ 的乘法如下：
+
+$$
+(f u) (\varphi) = u (f \varphi), \quad \varphi \in \mathcal {S} (\boldsymbol {R}).
+$$
+
+这样定义的 $fu \in \mathcal{S}'$ (请读者自行验证).
+
+例5 设 $f(x) = (\cos e^x)' = -\mathrm{e}^x\sin e^x$ . $f$ 不是慢增函数, 但它可以定义一个 $\mathcal{S}$ 上的广义函数:
+
+$$
+\langle f, \varphi \rangle = - \int_ {R} (\mathrm{cose} ^ {x}) \varphi^ {\prime} (x) \mathrm{d} x, \quad \varphi \in \mathcal {S}. \tag {6.10}
+$$
+
+它显然是 $\mathcal{S}$ 上的线性泛函，因为有
+
+$$
+| \langle f, \varphi \rangle | \leqslant \int_ {R} | \varphi^ {\prime} (x) | \mathrm{d} x \leqslant \left(\int_ {R} \frac {1}{1 + | x | ^ {2}} \mathrm{d} x\right) p _ {1} (\varphi), \quad \varphi \in \mathcal {S}.
+$$
+
+由定理 6.7 可知它是连续的, 亦即由 (6.10) 式定义的 $f \in \mathcal{S}'$ .
+
+例6 我们记Dirac $\delta$ 函数为
+
+$$
+\delta (\varphi) = \langle \delta (x), \varphi (x) \rangle = \varphi (0),
+$$
+
+并且对于 $x_0 \in R$
+
+$$
+\delta_ {x _ {0}} (\varphi) = \langle \delta (x - x _ {0}), \varphi (x) \rangle = \varphi (x _ {0}).
+$$
+
+令
+
+$$
+u (x) = \sum_ {m = 1} ^ {\infty} \delta (x - m),
+$$
+
+不难证明 $u$ 是缓增广义函数，因为有
+
+$$
+\mid \langle u, \varphi \rangle \mid = \left| \sum_ {m = 1} ^ {\infty} \varphi (m) \right| \leqslant \left(\sum_ {m = 1} ^ {\infty} \frac {1}{1 + m ^ {2}}\right) p _ {1} (\varphi), \quad \varphi \in \mathscr {S}.
+$$
+
+函数 $\mathrm{e}^{x^2}\in C^\infty (\mathbb{R})$ ，但 $\mathrm{e}^{\tau^2}u(x)$ 不是缓增广义函数.这是因为：取 $\varphi (x) = \mathrm{e}^{-x^2}\in \mathcal{S}$
+
+$$
+\langle \mathrm{e} ^ {x ^ {2}} u (x), \varphi (x) \rangle = \langle u (x), \mathrm{e} ^ {x ^ {2}} \varphi (x) \rangle = 1 + 1 + \dots + 1 + \dots ,
+$$
+
+这个级数不收敛, 不能给出这个泛函的值. 可见不能一般地定义 $C^\infty$ 函数与缓增广义函数的乘法.
+
+如果看作 $u \in \mathcal{D}'$ ，却可以推知 $\mathrm{e}^{x^2} u(x) \in \mathcal{D}'$ 。因为任给 $\varphi \in \mathcal{D}$ ， $\varphi$ 有紧支集，
+
+$$
+\langle \mathrm{e} ^ {x ^ {2}} u (x), \varphi (x) \rangle = \sum_ {m = 1} ^ {\infty} \mathrm{e} ^ {m ^ {2}} \varphi (m),
+$$
+
+上式右端只含有有限多个非零项，用定理5.2可以证明 $\mathrm{e}^{x^2}u(x)$ 是
+
+连续的.
+
+# § 6.3 缓增广义函数的 Fourier 变换
+
+若 $f \in L(R)$ , 根据定理3.3得知有乘法公式
+
+$$
+\int_ {R} \hat {f} \varphi \mathrm{d} x = \int_ {R} f \hat {\varphi} \mathrm{d} x
+$$
+
+对一切 $\varphi \in \mathcal{S}$ 成立. 类似地, 若 $f \in L^{2}(\pmb{R})$ , 由 Plancherel 定理可知上式也对一切 $\varphi \in \mathcal{S}$ 成立 (见(3.45)式). 由这个等式可以引导出缓增广义函数 Fourier 变换的定义.
+
+定义 6.5 设 $u \in S'$ ，定义 u 的 Fourier 变换 $\hat{u}$ 为
+
+$$
+\hat {u} (\varphi) = u (\hat {\varphi}), \quad \varphi \in \mathcal {S}.
+$$
+
+由定理6.3知 $\varphi \mapsto \hat{\varphi}$ 是 $\mathcal{S}$ 映入 $\mathcal{S}$ 中的连续线性映射. 按假定 $u \in \mathcal{S}'$ , 即 $u$ 在 $\mathcal{S}$ 上连续. 由此推知 $\hat{u}$ 在 $\mathcal{S}$ 上连续, 即 $\hat{u} \in \mathcal{S}'$ .
+
+若 $f \in L(R)$ , 按定义 6.5 以及 (6.9) 式, 由 $f$ 所确定的缓增广义函数 $u_{f}$ 的 Fourier 变换 $\hat{u}_{f}$ 与作为 $L$ 函数的 Fourier 变换 $\hat{f}$ 所确定的缓增广义函数 $u_{\hat{f}}$ 是相同的:
+
+$$
+\hat {u} _ {f} (\varphi) = u _ {f} (\hat {\varphi}) = \int_ {R} f \hat {\varphi} d x = \int_ {R} \hat {f} \varphi d x = u _ {\hat {f}} (\varphi), \quad \forall \varphi \in \mathscr {S},
+$$
+
+即
+
+$$
+\hat {u} _ {f} = u _ {\hat {f}}. \tag {6.11}
+$$
+
+若 $f \in L^{2}(\mathbb{R})$ ，同样有(6.11)式。
+
+由 $\mathcal{S}$ 中函数的Fourier变换的优美性质(见定理6.3)可以推知缓增广义函数也有类似的性质.
+
+定义 6.6 若 $u \in S'$ , u 的反射 $\check{u}$ 定义为
+
+$$
+\check {u} (\varphi) = u (\check {\varphi}), \quad \varphi \in \mathcal {S},
+$$
+
+其中函数 $\varphi$ 的反射(函数) $\check{u}$ 为
+
+$$
+\check {u} (x) = \varphi (- x).
+$$
+
+定理 6.8 Fourier 变换 $\mathcal{F}u=\hat{u}$ 是 $S'$ 映入 $S'$ 的连续线性映射, 它是一对一的满映射, 并且
+
+$$
+\mathscr {F} ^ {2} u = \check {u}, \quad u \in \mathscr {S} ^ {\prime}, \tag {6.12}
+$$
+
+$$
+\mathcal {F} ^ {4} u = u, \quad u \in \mathscr {S} ^ {\prime}. \tag {6.13}
+$$
+
+$\mathcal{F}$ 的逆映射也连续.
+
+证明 设 $\mathcal{S}'$ 中元列 $\{u_j\}$ 收敛到 $u \in \mathcal{S}'$ ，即 $\lim_{j \to \infty} u_j(\varphi) = u(\varphi)$ ， $\forall \varphi \in \mathcal{S}$ ，则
+
+$$
+\lim _ {j \rightarrow \infty} \mathscr {S} u _ {j} (\varphi) = \lim _ {j \rightarrow \infty} u _ {j} (\hat {\varphi}) = u (\hat {\varphi}) = \hat {u} (\varphi), \quad \forall \varphi \in \mathscr {S},
+$$
+
+即 $\lim_{j\to \infty}\dot{u}_j = \hat{u}$ 因此 $\mathcal{S}$ 是 $\mathcal{S}'$ 映入 $\mathcal{S}'$ 的连续线性映射.
+
+下面证明(6.12)式,它实质上是函数的Fourier变换的反演公式的推广.由定理6.3可知对于 $\varphi \in \mathcal{S}$ ,有
+
+$$
+\mathscr {F} ^ {2} \varphi = \check {\varphi}, \quad \mathscr {F} ^ {4} \varphi = \varphi .
+$$
+
+从而对一切 $\varphi \in \mathcal{S}$
+
+$$
+(\mathcal {F} ^ {2} u) (\varphi) = u (\mathcal {F} ^ {2} \varphi) = u (\check {\varphi}) = \check {u} (\varphi).
+$$
+
+这就是(6.12)式. 类似可证(6.13)式. 由(6.13)式易知 $\mathcal{F}^{-1} = \mathcal{F}^{3}$ . 由 $\mathcal{F}$ 连续推知 $\mathcal{F}^{-1}$ 连续.
+
+为了定义广义函数的平移,先看函数 $\varphi$ 的平移是
+
+$$
+(\tau_ {h} \varphi) (x) = \varphi (x - h).
+$$
+
+再看到若 $f$ 可积，有
+
+$$
+\begin{array}{l} \langle \tau_ {h} f, \varphi \rangle = \int_ {R} f (x - h) \varphi (x) d x = \int_ {R} f (x) \varphi (x + h) d x \\ = \langle f, \tau_ {- h} \varphi \rangle . \\ \end{array}
+$$
+
+定义 6.7 若 $u \in S'$ ，对于 $h \in R, u$ 的平移 $\tau_{h}u$ 定义为
+
+$$
+(\tau_ {h} u) (\varphi) = u (\tau_ {- h} \varphi), \quad \varphi \in \mathcal {S}.
+$$
+
+定理6.9 设 $u \in \mathcal{S}'$ ，则有
+
+$$
+\left(\mathrm{D} ^ {k} u\right) ^ {\wedge} = (2 \pi 1 t) ^ {k} \hat {u}, \tag {6.14}
+$$
+
+$$
+\mathrm{D} ^ {k} \hat {u} = ((- 2 \pi \mathrm{i} x) ^ {k} u) ^ {\wedge}, \tag {6.15}
+$$
+
+$$
+\left(\tau_ {h} u\right) ^ {\wedge} = \mathrm{e} ^ {- 2 \pi \mathrm{i} h t} \hat {u}, \tag {6.16}
+$$
+
+$$
+\tau_ {h} \hat {u} = \left(\mathrm{e} ^ {2 \pi \mathrm{i} h x} u\right) ^ {\wedge}, \tag {6.17}
+$$
+
+其中 k 为非负整数, $h \in R$ .
+
+证明 根据对于函数 $\varphi \in \mathcal{S}$ 有类似等式以及用有关定义便可推出.例如证明(6.14)式：根据定义及(6.4)式，对 $\varphi \in \mathcal{S}$ 有
+
+$$
+\begin{array}{l} \left(\mathrm{D} ^ {k} u\right) ^ {\wedge} (\varphi) = \left(\mathrm{D} ^ {k} u\right) (\hat {\varphi}) = (- 1) ^ {k} u \left(\mathrm{D} ^ {k} \hat {\varphi}\right) \\ = (- 1) ^ {k} u \left(\left((- 2 \pi \mathrm{i} t) ^ {k} \varphi\right) ^ {\wedge}\right) \\ = (- 1) ^ {k} \hat {u} ((- 2 \pi 1 t) ^ {k} \varphi) \\ = ((2 \pi \mathrm{i} t) ^ {k} \hat {u}) (\varphi). \\ \end{array}
+$$
+
+又如证明(6.16)式：根据定义及定理3.1(v)，对 $\varphi \in \mathcal{S}$ 有
+
+$$
+\left(\tau_ {h} u\right) ^ {\wedge} (\varphi) = \left(\tau_ {h} u\right) (\hat {\varphi}) = u \left(\tau_ {- h} \hat {\varphi}\right) = u \left(\left(e ^ {- 2 m h t} \varphi\right) ^ {\wedge}\right)
+$$
+
+$$
+= \hat {u} \left(\mathrm{e} ^ {- 2 \pi \mathrm{i} h t} \varphi\right) = \left(\mathrm{e} ^ {- 2 \pi \mathrm{i} h t} \hat {u}\right) (\varphi).
+$$
+
+其余两式请读者自行证明.
+
+又由(6.14)与(6.15)式可以推知,对于多项式 $P(x)$ ,有
+
+$$
+(P (\mathrm{D}) u) ^ {\wedge} = P (2 \pi \mathrm{i} t) \hat {u}, \tag {6.18}
+$$
+
+$$
+P (\mathrm{D}) \hat {u} = (P (- 2 \pi \mathrm{i} x) u) ^ {\wedge}. \tag {6.19}
+$$
+
+# § 6.4 Fourier 变换的例子
+
+上节已经给出缓增广义函数的 Fourier 变换的定义. 至于怎样求出具体的缓增广义函数的 Fourier 变换, 下面将介绍一些例子.
+
+为简便起见,今后把由函数 f 所确定的广义函数仍记作 f.
+
+例 1 $\hat{1}=\delta,\hat{\delta}=1.$
+
+这里 1 表示函数值恒为 1 的函数所确定的广义函数, 即
+
+$$
+1 (\varphi) = \langle 1, \varphi \rangle = \int_ {R} \varphi (x) \mathrm{d} x, \quad \varphi \in \mathcal {S}.
+$$
+
+由定义及对于 $\varphi \in \mathcal{S}$ 的反演公式(当 $x = 0$ 时)可以得到
+
+$$
+\langle \hat {1}, \varphi \rangle = \langle 1, \hat {\varphi} \rangle = \int_ {R} \hat {\varphi} d x = \varphi (0) = \langle \delta , \varphi \rangle , \quad \varphi \in \mathscr {S}.
+$$
+
+同样由Fourier变换定义可得
+
+$$
+\langle \hat {\delta}, \varphi \rangle = \langle \delta , \hat {\varphi} \rangle = \hat {\varphi} (0) = \int_ {R} \varphi (x) d x = \langle 1, \varphi \rangle , \quad \varphi \in \mathscr {S}.
+$$
+
+例 2 设 $P(x)$ 是多项式, 根据 (6.14), (6.15) 以及例 1, 可得
+
+$$
+\begin{array}{l} (x ^ {k}) ^ {\wedge} = \frac {1}{(- 2 \pi \mathrm{i}) ^ {k}} ((- 2 \pi \mathrm{i} x) ^ {k} \cdot 1) ^ {\wedge} \\ = \frac {1}{(- 2 \pi \mathrm{i}) ^ {k}} \mathrm{D} ^ {k} \delta = \left(\frac {1}{2 \pi} \mathrm{D}\right) ^ {k} \delta . \\ \end{array}
+$$
+
+$$
+(\mathrm{D} ^ {k} \delta) ^ {\wedge} = (2 \pi \mathrm{i} t) ^ {k} \hat {\delta} = (2 \pi \mathrm{i} t) ^ {k},
+$$
+
+$$
+(P (x)) ^ {\wedge} = P \left(\frac {\mathrm{i}}{2 \pi} \mathrm{D}\right) \delta ,
+$$
+
+$$
+(P (\mathrm{D}) \delta) ^ {\wedge} = P (2 \pi \mathrm{i} t).
+$$
+
+例3 若 $a \in R$ ，我们有
+
+$$
+\langle \tau_ {a} \delta , \varphi \rangle = \langle \delta (x - a), \varphi (x) \rangle = \varphi (a) = \langle \delta_ {a} (x), \varphi (x) \rangle .
+$$
+
+由(6.16)，(6.17)以及例1可得到
+
+$$
+\begin{array}{l} \left(\delta_ {a}\right) ^ {\wedge} = \left(\tau_ {a} \delta\right) ^ {\wedge} = e ^ {- 2 \pi i a t}, \\ \left(\mathrm{e} ^ {2 \pi a. x}\right) ^ {\wedge} = \tau_ {a} \hat {1} = \tau_ {a} \delta = \delta_ {a}. \\ \end{array}
+$$
+
+例4 若 $a \in \mathbb{R}$ , 我们有
+
+$$
+(\sin a x) ^ {\wedge} = \left[ \frac {1}{2 \mathrm{i}} (\mathrm{e} ^ {\mathrm{i} a x} - \mathrm{e} ^ {- \mathrm{i} a r}) \right] ^ {\wedge} = \frac {1}{2 \mathrm{i}} (\delta_ {\frac {a}{2 \pi}} - \delta_ {- \frac {a}{2 \pi}})
+$$
+
+$$
+= \frac {1}{2} \left[ \delta \left(t + \frac {a}{2 \pi}\right) - \delta \left(t - \frac {a}{2 \pi}\right) \right].
+$$
+
+类似地，可求得
+
+$$
+(\cos a x) ^ {\wedge} = \frac {1}{2} \left(\delta_ {\frac {a}{2 \pi}} + \delta_ {- \frac {a}{2 \pi}}\right) = \frac {1}{2} \left[ \delta \left(t + \frac {a}{2 \pi}\right) + \delta \left(t - \frac {a}{2 \pi}\right) \right].
+$$
+
+例5 $\left(\frac{1}{x}\right)^{\wedge} = -\pi \mathrm{i}\operatorname {sgn}t,$
+
+其中 $\operatorname{sng} t$ 是 $t$ 的符号函数, $\frac{1}{x}$ 是由(5.2)式给定的广义函数.
+
+我们记 $f = \frac{1}{x}$ . 由(5.2)式, 对 $\varphi \in \mathcal{S}$ ,
+
+$$
+\langle f, \varphi \rangle = f (\varphi) = \lim _ {\varepsilon \rightarrow + 0} \left\{\int_ {\varepsilon} ^ {\infty} \frac {\varphi (x)}{x} d x + \int_ {- \infty} ^ {- \varepsilon} \frac {\varphi (x)}{x} d x \right\}.
+$$
+
+令
+
+$$
+f _ {\varepsilon , R} (x) = \left\{ \begin{array}{l l} \frac {1}{x}, & \varepsilon <   | x | <   R, \\ 0, & \text {其他}. \end{array} \right.
+$$
+
+由 $f(\varphi)$ 的定义式(5.2)容易得知
+
+$$
+\lim _ {\substack {\varepsilon \to + 0 \\ R \to \infty}} f _ {\varepsilon , R} = f \quad (\text {在} \mathcal {S} ^ {\prime} \text {中}).
+$$
+
+于是根据定理6.3推知
+
+$$
+\lim _ {\substack {\epsilon \to + 0 \\ R \to \infty}} \hat {f} _ {\epsilon , R} = \hat {f} \quad (\text{在}   \mathcal {S} ^ {\prime}   \text{中}).
+$$
+
+我们先求出 $f_{\varepsilon, R}(x)$ 的Fourier变换及其极限：
+
+$$
+\begin{array}{l} \hat {f} _ {\varepsilon , R} (t) = \int_ {\varepsilon} ^ {R} \frac {\mathrm{e} ^ {- 2 \pi i x t}}{x} \mathrm{d} x + \int_ {- R} ^ {- \varepsilon} \frac {\mathrm{e} ^ {- 2 \pi i x t}}{x} \mathrm{d} x \\ = (- 2 \mathrm{i}) \int_ {\varepsilon} ^ {R} \frac {\sin 2 \pi x t}{x} \mathrm{d} x = (- 2 \mathrm{i}) \int_ {2 \pi \varepsilon} ^ {2 \pi R} \frac {\sin x t}{x} \mathrm{d} x \\ \rightarrow (- 2 \mathrm{i}) \int_ {0} ^ {\infty} \frac {\sin x t}{x} \mathrm{d} x = - \pi \mathrm{sgn} t \\ (\text {当} \varepsilon \rightarrow + 0, R \rightarrow + \infty). \\ \end{array}
+$$
+
+又因为 $\hat{f}_{\varepsilon, R}(t) = (-2\mathrm{i})\int_{2\pi \varepsilon t}^{2\pi Rt}\frac{\sin y}{y}\mathrm{d}y$ 关于 $\varepsilon, R, t$ 一致有界，于是根据控制收敛定理可知
+
+$$
+\begin{array}{l} \langle \hat{f},\varphi \rangle = \lim_{\substack{\epsilon \to +0\\ R\to \infty}}\langle \hat{f}_{\epsilon ,R},\varphi \rangle = \lim_{\substack{\epsilon \to +0\\ R\to \infty}}\int_{R}\hat{f}_{\epsilon ,R}(t)\varphi (t)dt \\ = \int_ {R} (- \pi 1 \operatorname{sgn} t) \varphi (t) \mathrm{d} t, \quad \forall \varphi \in \mathscr {S}. \\ \end{array}
+$$
+
+于是 $\hat{f} = -\pi \mathrm{i}$ sgnt.
+
+例6 $(\arctan x)^{\wedge} = -\frac{\mathrm{i}}{2}\left(\frac{\mathrm{e}^{-2\pi|t|}}{t}\right)$ .
+
+令 $f(x) = \arctan x$ ，它是有界函数，因此 $f\in \mathcal{S}^{\prime}$ .我们有
+
+$$
+f ^ {\prime} (x) = \frac {1}{1 + x ^ {2}}.
+$$
+
+因为已知 $(\mathrm{e}^{-|x|})^{\wedge} = \frac{2}{1 + (2\pi t)^2}$ ，所以由反演公式可推知
+
+$$
+\left(\frac {1}{1 + x ^ {2}}\right) ^ {\Lambda} = \pi \mathrm{e} ^ {- 2 \pi | t |}.
+$$
+
+根据(6.14)， $(f')^{\wedge} = 2\pi \mathrm{i}t\hat{f}$ ，于是得到
+
+$$
+\hat {f} = \frac {1}{2 \pi \mathrm{i} t} (f ^ {\prime}) ^ {\wedge} = \frac {\pi}{2 \pi \mathrm{i} t} \mathrm{e} ^ {- 2 \pi | t |} = - \frac {\mathrm{i}}{2} \frac {\mathrm{e} ^ {- 2 \pi | t |}}{t}.
+$$
+
+注意到 $\frac{\mathrm{e}^{-2\pi|t|}}{t}$ 在 $t = 0$ 附近不是可积的，但可以用 §5.1 例3的类似方法来定义它所对应的主值意义的广义函数 $\left(\frac{\mathrm{e}^{-2\pi|t|}}{t}\right)$ . 又注意到对任意常数 $C$ ，都有 $(f + C)' = \frac{1}{1 + x^2}$ ，所以一般来说，应得到
+
+$$
+(f + C) ^ {\wedge} = - \frac {1}{2} \frac {\mathrm{e} ^ {- 2 \pi | t |}}{t},
+$$
+
+从而 $\dot{f} = -\frac{\mathrm{i}}{2}\left(\frac{\mathrm{e}^{-2\pi|t|}}{t}\right) - C\delta .$
+
+为了确定常数 $C$ ，取 $g(x) = \mathrm{e}^{-\tau^2},\hat{g} (t) = \sqrt{\pi}\mathrm{e}^{-(\pi t)^2},g$ 与 $\hat{g}$ 都属于 $\mathcal{S}$ .因为arc tan $x$ 是奇函数，
+
+$$
+\langle \hat {f}, g \rangle = \langle f, \hat {g} \rangle = \int_ {R} (\arctan x) \sqrt {\pi} e ^ {- \pi^ {2} x ^ {2}} d x = 0.
+$$
+
+但
+
+$$
+\begin{array}{l} \langle \hat {f}, g \rangle = \left\langle \left(- \frac {\mathrm{i}}{2} \left(\frac {\mathrm{e} ^ {- 2 \pi | t |}}{t}\right) - C \delta\right), g \right\rangle \\ = - \frac {1}{2} \lim _ {\varepsilon \rightarrow + 0} \int_ {| t | \geqslant \varepsilon} \frac {\mathrm{e} ^ {- 2 \pi | t |}}{t} \mathrm{e} ^ {- t ^ {2}} \mathrm{d} t - C g (0) = - C. \\ \end{array}
+$$
+
+因此由两式相等推知 $C = 0$ ，即得
+
+$$
+\hat {f} = - \frac {1}{2} \left(\frac {\mathrm{e} ^ {- 2 \pi | t |}}{t}\right).
+$$
+
+例7 $\left(\frac{1}{|x|}\right)^{\wedge} = -2(\gamma +\ln 2\pi |t|)$ ，其中 $\gamma$ 是如下的Euler常
+
+数
+
+$$
+\gamma = \int_ {0} ^ {1} \frac {1 - \cos y}{y} d y - \int_ {1} ^ {\infty} \frac {\cos y}{y} d y,
+$$
+
+[Unreadable]
+
+广义函数 $\frac{1}{|x|}$ 定义为
+
+$$
+\left\langle \frac {1}{| x |}, \varphi \right\rangle = \int_ {- 1} ^ {1} \frac {\varphi (x) - \varphi (0)}{| x |} d x + \int_ {| x | > 1} \frac {\varphi (x)}{| x |} d x, \quad \varphi \in \mathscr {S}.
+$$
+
+按定义,对一切 $\varphi\in S$ ,
+
+$$
+\begin{array}{l} \left\langle \left(\frac {1}{| x |}\right) ^ {\wedge}, \varphi \right\rangle = \left\langle \frac {1}{| x |}, \hat {\varphi} \right\rangle \\ = \int_ {- 1} ^ {1} \frac {\hat {\varphi} (x) - \hat {\varphi} (0)}{| x |} d x + \int_ {| x | > 1} \frac {\hat {\varphi} (x)}{| x |} d x \\ = \int_ {- 1} ^ {1} \frac {1}{| x |} \left\{\int_ {R} \varphi (t) \left(\mathrm{e} ^ {- 2 \pi x t} - 1\right) \mathrm{d} t \right\} \mathrm{d} x \\ + \int_ {| x | > 1} \frac {1}{| x |} \left\{\int_ {R} \varphi (t) \mathrm{e} ^ {- 2 \pi i x t} \mathrm{d} t \right\} \mathrm{d} x \\ = 2 \int_ {0} ^ {1} \int_ {R} \varphi (t) \frac {\cos 2 \pi x t - 1}{x} d t d x + 2 \int_ {1} ^ {\infty} \int_ {R} \varphi (t) \frac {\cos 2 \pi x t}{x} d t d x \\ = 2 \int_ {R} \varphi (t) \left\{\int_ {0} ^ {1} \frac {\cos 2 \pi x t - 1}{x} d x + \int_ {1} ^ {\infty} \frac {\cos 2 \pi x t}{x} d x \right\} d t \\ = 2 \int_ {R} \varphi (t) \left\{\int_ {0} ^ {2 \pi | t |} \frac {\cos y - 1}{y} d y + \int_ {2 \pi | t |} ^ {\infty} \frac {\cos y}{y} d y \right\} d t \\ = 2 \int_ {R} \varphi (t) \left\{\int_ {0} ^ {1} \frac {\cos y - 1}{y} d y + \int_ {1} ^ {2 \pi | t |} \frac {\cos y - 1}{y} d y \right. \\ \left. + \int_ {1} ^ {\infty} \frac {\cos y}{y} d y - \int_ {1} ^ {2 \pi | t |} \frac {\cos y}{y} d y \right\rbrace d t \\ = 2 \int_ {R} \varphi (t) \left\{- \left[ \int_ {0} ^ {1} \frac {1 - \cos y}{y} d y - \int_ {1} ^ {\infty} \frac {\cos y}{y} d y \right] - \int_ {1} ^ {2 \pi | t |} \frac {d y}{y} \right\} d t \\ = \int_ {R} \varphi (t) \{(- 2) [ \gamma + \ln 2 \pi | t | ] \} d t, \\ \end{array}
+$$
+
+即得 $\left(\frac{1}{|x|}\right)^{\wedge} = -2[\gamma +\ln 2\pi |t|].$
+
+由上式两边取 Fourier 变换, 可得
+
+$$
+(\ln 2 \pi | t |) ^ {\wedge} = - \frac {1}{2} \left(\frac {1}{| x |}\right) ^ {\vee} - \gamma \delta = - \frac {1}{2} \left(\frac {1}{| x |}\right) - \gamma \delta .
+$$
+
+# § 6.5 缓增广义函数的卷积
+
+根据前面的讨论得知,三个基本函数空间有以下关系: $D\subset S\subset E$ ,而与它们相应的广义函数空间的关系却是
+
+$$
+\mathcal {D} ^ {\prime} \supset \mathcal {S} ^ {\prime} \supset \mathcal {E} ^ {\prime}.
+$$
+
+于是缓增广义函数的卷积定义可以沿用定义5.9，并且也可以类似地讨论卷积的存在性.
+
+关于缓增广义函数与紧支集广义函数的卷积,我们有以下结论.
+
+定理6.10 若 $u \in \mathcal{S}'(R^n), v \in \mathcal{E}'(R^n)$ ，则 $u * v \in \mathcal{S}'(R^n)$ .
+
+证明 任给 $\varphi \in \mathcal{S}$ , 由命题6.5可知存在元列 $\{\varphi_j\}, \varphi_j \in \mathcal{D}$ , 使得
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = \varphi \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+根据 §5.7 的讨论可知下式
+
+$$
+\langle u * v, \varphi_ {j} \rangle = \langle u (x), \langle v (y), \varphi_ {j} (x + y) \rangle \rangle
+$$
+
+是有意义的.
+
+下面只需证明：若 $\varphi_{j} \in \mathcal{S}$ ，
+
+$$
+\lim _ {j \to \infty} \varphi_ {j} = \varphi \quad (\text {在} \mathcal {S} \text {中}),
+$$
+
+则有
+
+$$
+\lim _ {j \to \infty} \langle v (y), \varphi_ {j} (x + y) \rangle = \langle v (y), \varphi (x + y) \rangle \quad (\text {在}   \mathscr {S}   \text {中}). \tag {6.20}
+$$
+
+令 $\psi_{j} = \varphi_{j} - \varphi$ ，便化为由
+
+$$
+\lim _ {j \to \infty} \psi_ {j} = 0 \quad (\text {在} \mathcal {S} \text {中})
+$$
+
+去推证
+
+$$
+\lim _ {j \to \infty} \langle v (y), \psi_ {j} (x + y) \rangle = 0 \quad (\text {在} \mathcal {S} \text {中}).
+$$
+
+记
+
+$$
+g _ {j} (x) = \langle v (y), \psi_ {j} (x + y) \rangle ,
+$$
+
+用 §5.6 中类似的方法可以证明函数 $g_{j} \in C^{\infty}(R^{n})$ ，并且对于多重指标 $\beta$ ，有
+
+$$
+\mathrm{D} ^ {\beta} g _ {j} (x) = \langle v (y), \mathrm{D} _ {x} ^ {\beta} \psi_ {j} (x + y) \rangle .
+$$
+
+因 $v \in \mathcal{E}^l$ ，由定理5.4得知，存在 $C$ 与 $N$ ，使得对一切 $f \in \mathcal{E}$ ，有下式成立：
+
+$$
+\mid (v, f) \mid \leqslant C q _ {N} (f) = C \sup _ {| a | \leqslant N} \sup _ {y \in K _ {N}} \left| D ^ {a} f (y) \right|.
+$$
+
+于是，对任意多重指标 $\beta$ ，
+
+$$
+\begin{array}{l} \left| \mathrm{D} ^ {\beta} g _ {j} (x) \right| = \left| \langle v (y), \mathrm{D} _ {x} ^ {\beta} \psi_ {j} (x + y) \rangle \right| \\ \leqslant C \sup _ {| \alpha | \leqslant N} \sup _ {y \in K _ {N}} | D _ {y} ^ {\alpha} D _ {x} ^ {\beta} \psi_ {j} (x + y) |. \\ \end{array}
+$$
+
+由此推知
+
+$$
+\begin{array}{l} p _ {r} (g _ {j}) = \sup _ {| \beta | \leqslant 1} \sup _ {x \in R ^ {n}} (1 + | x | ^ {2}) ^ {r} | D ^ {\beta} g _ {j} (x) | \\ \leqslant C \sup _ {| \alpha | \leqslant N, | \beta | \leqslant r} \sup _ {x \in R ^ {n}, y \in K _ {N}} (1 + | x | ^ {2}) ^ {r} | D _ {y} ^ {\alpha} D _ {x} ^ {\beta} \psi_ {j} (x + y) | \\ \leqslant C \sup _ {| \alpha | \leqslant N, | \beta | \leqslant r} \sup _ {\xi \in R ^ {n}, y \in K _ {N}} (1 + | \xi - y | ^ {2}) ^ {r} | D _ {\xi} ^ {\alpha + \beta} \psi_ {j} (\xi) | \\ \leqslant C _ {N, r} p _ {N + r} \left(\psi_ {j}\right)\rightarrow 0, \quad j \rightarrow \infty , r = 0, 1, 2, \dots , \\ \end{array}
+$$
+
+其中最后一个不等式的成立用到了以下不等式
+
+$$
+\begin{array}{l} 1 + | \xi - y | ^ {2} \leqslant 1 + 2 (| \xi | ^ {2} + | y | ^ {2}) \\ \leqslant 2 (1 + | y | ^ {2}) (1 + | \xi | ^ {2}), \tag {6.21} \\ \end{array}
+$$
+
+常数 $C_{N,r}$ 与 $N$ 及 $\pmb{r}$ 有关.即得
+
+$$
+\lim _ {j \to \infty} g _ {j} = 0 \quad (\text {在} \mathcal {S} \text {中}),
+$$
+
+从而(6.20)成立.
+
+由以上类似的论证可推知
+
+$$
+\langle v (y), \varphi (x + y) \rangle = g (x) \in \mathscr {S}.
+$$
+
+根据(6.20)式以及 $u \in \mathcal{S}'$ ，便得到
+
+$$
+\lim _ {j \rightarrow \infty} \langle u (x), \langle v (y), \varphi_ {j} (x + y) \rangle \rangle = \langle u (x), \langle v (y), \varphi (x + y) \rangle \rangle .
+$$
+
+按照定义 5.9 与定义 5.8 以及前面的讨论可知 $u * v$ 有意义，并且对一切 $\varphi \in S$ ，
+
+$$
+\langle u * v, \varphi \rangle = \langle u (x), \langle v (y), \varphi (x + y) \rangle \rangle .
+$$
+
+显然 $u * v$ 是 $\mathcal{S}$ 上的线性泛函，由(6.20)式以及 $u \in \mathcal{S}'$ ，便得知 $u * v$ 的连续性.于是， $u * v \in \mathcal{S}'$ .
+
+关于缓增广义函数与速降函数的卷积,有以下定理.
+
+定理6.11 设 $u \in \mathcal{S}'(R^n), f \in \mathcal{S}(R^n)$ , 则 $u * f \in C^\infty(R^n)$ , 对每个多重指标 $\alpha$ , 有等式
+
+$$
+\mathrm{D} ^ {a} (u * f) = (\mathrm{D} ^ {a} u) * f = u * (\mathrm{D} ^ {a} f) \tag {6.22}
+$$
+
+成立，并且存在常数 $C$ 与正整数 $N$ ，使得
+
+$$
+\mid (u * f) (x) \mid \leqslant C (1 + | x | ^ {2}) ^ {N}, \quad x \in \mathbb {R} ^ {n}, \tag {6.23}
+$$
+
+亦即 $u * f$ 是慢增的 $C^\infty$ 函数.
+
+证明 设 $u \in \mathcal{S}'$ . $f \in \mathcal{S}$ , 对于 $\varphi \in \mathcal{S}$ , 令
+
+$$
+\begin{array}{l} g (x) = \langle f (y), \varphi (x + y) \rangle = \int_ {\mathbb {R} ^ {n}} f (y) \varphi (x + y) d y \\ = \int_ {\mathbb {R} ^ {n}} f (\xi - x) \varphi (\xi) \mathrm{d} \xi = (\check {f} * \varphi) (x), \\ \end{array}
+$$
+
+根据定理6.4知 $g \in \mathcal{S}$ , 并且有
+
+$$
+\hat {g} (t) = (\check {f}) ^ {\wedge} (t) \cdot \hat {\varphi} (t) = \hat {f} (- t) \cdot \hat {\varphi} (t).
+$$
+
+由命题6.2与定理6.3推知， $\varphi \mapsto \hat{g}$ 是连续线性映射.再根据定理6.3便得知 $\varphi \mapsto g$ 是 $\mathcal{S}$ 映入 $\mathcal{S}$ 中的连续线性映射.
+
+对于 $\varphi \in \mathcal{S}$
+
+$$
+\langle u * f, \varphi \rangle = \langle u (x), \langle f (y), \varphi (x + y) \rangle \rangle , \tag {6.24}
+$$
+
+由前面的讨论可知此式右端有意义,而且因为 $u \in S'$ , 推知由此式定义的 $u * f \in S'$ .
+
+我们用与定理5.11类似的方法可以证明
+
+$$
+(u * f) (\xi) = h (\xi) = \langle u (x), f (\xi - x) \rangle . \tag {6.25}
+$$
+
+再由(6.24)式不难推得
+
+$$
+\left\langle \frac {\partial}{\partial x _ {j}} (u * f), \varphi \right\rangle = - \left\langle u * f, \frac {\partial}{\partial x _ {j}} \varphi \right\rangle
+$$
+
+$$
+= - \left\langle u (x), \left\langle f (y), \frac {\partial}{\partial x _ {j}} \varphi (x + y) \right\rangle \right\rangle = - \left\langle u (x), \frac {\partial}{\partial x _ {j}} g (x) \right\rangle
+$$
+
+$$
+= \left\langle \frac {\partial}{\partial x _ {j}} u (x), g (x) \right\rangle = \left\langle \left(\frac {\partial}{\partial x _ {j}} u\right) * f, \varphi \right\rangle , \quad \varphi \in \mathscr {S}.
+$$
+
+这就得到(6.22)的第一个等式.(6.22)的第二个等式类似可证.从而知 $u*f\in C^{\infty}$ .
+
+因 $u \in \mathcal{S}'$ ，根据定理6.7知存在常数 $C$ 与 $N$ ，使得
+
+$$
+\mid \langle u, \varphi \rangle \mid \leqslant C p _ {N} (\varphi), \quad \varphi \in \mathscr {S}.
+$$
+
+所以，由上式及(6.21)式，得到
+
+$$
+\begin{array}{l} \left| (u * f) (\xi) \right| = \left| \langle u (x), f (\xi - x) \rangle \right| \\ \leqslant C \sup _ {| \alpha | \leqslant N} \sup _ {x \in R ^ {n}} (1 + | x | ^ {2}) ^ {N} \left| D ^ {\alpha} f (\xi - x) \right| \\ = C \sup _ {| \alpha | \leqslant N} \sup _ {y \in R ^ {n}} (1 + | \xi - y | ^ {2}) ^ {N} | D ^ {\alpha} f (y) | \\ \leqslant C \cdot 2 ^ {N} (1 + | \xi | ^ {2}) ^ {N} p _ {N} (f), \quad \xi \in R ^ {n}. \\ \end{array}
+$$
+
+由此得到(6.23)式,即知 $u * f$ 是慢增的 $C^{\infty}$ 函数.
+
+定理6.12 设 $u \in \mathcal{S}'$ , $f \in \mathcal{S}$ , 则
+
+$$
+(u * f) ^ {\wedge} = \hat {f} \hat {u}, \tag {6.26}
+$$
+
+$$
+\hat {u} * \hat {f} = (f u) ^ {\wedge}. \tag {6.27}
+$$
+
+证明 根据定义可得
+
+$$
+\langle (u * f) ^ {\wedge}, \varphi \rangle = \langle u * f, \hat {\varphi} \rangle = \langle u (x), \langle f (y), \hat {\varphi} (x + y) \rangle \rangle , \quad \varphi \in \mathscr {S}.
+$$
+
+而
+
+$$
+\begin{array}{l} \langle f (y), \hat {\varphi} (x + y) \rangle = \int_ {\mathbb {R} ^ {n}} f (y) \hat {\varphi} (x + y) d y \\ = \int_ {R ^ {n}} f (\xi - x) \hat {\varphi} (\xi) d \xi = (\check {f} * \hat {\varphi}) (x) \\ = (\hat {f} \cdot \varphi) ^ {\wedge} (x), \tag {6.28} \\ \end{array}
+$$
+
+(6.28)中最后的等式是根据定理 6.4 以及等式 $\check{f} = (\hat{f})^{\wedge}$ . 于是我们有
+
+$$
+\langle (u * f) ^ {\wedge}, \varphi \rangle = \langle u, (\hat {f} \cdot \varphi) ^ {\wedge} \rangle = \langle \hat {u}, \hat {f} \cdot \varphi \rangle
+$$
+
+$$
+= \langle \hat {f} \hat {u}, \varphi \rangle , \quad \varphi \in \mathscr {S}.
+$$
+
+即得(6.26)式.(6.27)式可由(6.26)式导出.
+
+例1 设 $u \in \mathcal{S}'$ ，则有
+
+$$
+\delta_ {a} * u = \tau_ {a} u.
+$$
+
+证明 对于 $\varphi \in \mathcal{S}$ , 根据定理 6.10 得
+
+$$
+\begin{array}{l} \langle \delta_ {a} * u, \varphi \rangle = \langle u (y), \langle \delta_ {a} (x), \varphi (x + y) \rangle \rangle \\ = \langle u (y), \varphi (a + y) \rangle \\ = \langle u, \tau_ {- a} \varphi \rangle = \langle \tau_ {a} u, \varphi \rangle . \\ \end{array}
+$$
+
+例2 设 $\varphi \in \mathcal{S}, H$ 是 Heaviside 函数, 则
+
+$$
+(H * \varphi) (x) = \int_ {- \infty} ^ {x} \varphi (y) d y.
+$$
+
+证明 对于 $\varphi \in \mathcal{S}$ . 由(6.25)式得
+
+$$
+\begin{array}{l} (H * \varphi) (x) = \langle H (y), \varphi (x - y) \rangle \\ = \int_ {- \infty} ^ {\infty} H (y) \varphi (x - y) d y \\ = \int_ {0} ^ {\infty} \varphi (x - y) \mathrm{d} y = \int_ {- \infty} ^ {x} \varphi (z) \mathrm{d} z. \\ \end{array}
+$$
+
+# § 6.6 在微分方程中的应用
+
+考虑 m 阶微分算子 L，
+
+$$
+L u = \sum_ {| a | \leqslant m} a _ {a} (x) \mathrm{D} ^ {a} u, \tag {6.29}
+$$
+
+其中所有系数 $a_{\alpha} \in C^{\infty}(\mathbb{R}^{n})$ 。设 $f \in \mathcal{D}'(\mathbb{R}^{n})$ ，若广义函数 $u \in \mathcal{D}'(\mathbb{R}^{n})$ 满足方程
+
+$$
+L u = f, \tag {6.30}
+$$
+
+即对一切 $\varphi \in \mathcal{D}(\pmb{R}^n)$ ，有
+
+$$
+\langle L u, \varphi \rangle = \langle f, \varphi \rangle , \tag {6.31}
+$$
+
+则称 $u$ 是方程(6.30)的解. 方程的解可能属于以下情形之一：
+
+(1) 解 u 是足够光滑的函数, 即它本身连同出现在方程中的所有阶导数都连续, 从而(6.30)式中的运算可以按经典意义下进行, 使之成为等式, 这时解 u 是经典解.
+
+(2) 解 u 是非足够光滑的函数, 所以 (6.30) 式中的运算不能按经典意义进行, 但 u 满足 (6.31). 因为由广义函数的运算可得
+
+$$
+\begin{array}{l} \langle L u, \varphi \rangle = \sum_ {| \alpha | \leqslant m} \langle a _ {\alpha} (x) \mathrm{D} ^ {\alpha} u, \varphi \rangle \\ = \sum_ {| a | \leqslant m} (- 1) ^ {| a |} \langle u, \mathrm{D} ^ {a} (a _ {a} (x) \varphi (x)) \rangle \\ = \langle u, L ^ {*} \varphi \rangle , \quad \varphi \in \mathcal {D}, \\ \end{array}
+$$
+
+其中 $L^{*}\varphi = \sum_{|\alpha |\leqslant m}(-1)^{|\alpha |}\mathrm{D}^{\alpha}(a_{\alpha}(x)\varphi (x)).$
+
+所以(6.31)成立当且仅当
+
+$$
+\langle u, L ^ {*} \varphi \rangle = \langle f, \varphi \rangle , \quad \varphi \in \mathcal {D} \tag {6.32}
+$$
+
+成立. 这时解 $u$ 是弱解.
+
+(3) 解 u 是奇异的广义函数, 满足 (6.31), 这时 u 是一个分布 (广义函数) 解.
+
+以上各种情形的解统称为广义解.
+
+在处理数学物理的重要方程时,我们通常先寻找广义解,再根据方程的适当性质,可以找到经典解.有些方程有广义解但没有经典解,也有些方程的每个广义解都是经典解.
+
+例1 考虑最简单的微分方程
+
+$$
+\frac {\mathrm{d} u}{\mathrm{d} x} = 0, \tag {6.33}
+$$
+
+可以证明它只有广义解 u=c.
+
+证明 方程(6.33)的解 u 满足
+
+$$
+\langle u ^ {\prime}, \varphi \rangle = - \langle u, \varphi^ {\prime} \rangle = 0, \quad \varphi \in \mathcal {D}. \tag {6.33}
+$$
+
+记 $\Phi_{0}$ 为可以表示成其他基本函数的导数的基本函数的集合, 即
+
+$$
+\Phi_ {0} = \{\psi :   \psi \in \mathcal {D}; \exists   \varphi \in \mathcal {D}, \text {使}   \psi = \varphi \}.
+$$
+
+(6.33')表明：若 $\psi \in \Phi_0$ ，则
+
+$$
+\langle u, \psi \rangle = 0.
+$$
+
+下面证明： $\mathcal{D}$ 中函数 $\psi$ 能表示成另一个基本函数 $\varphi$ 的导数的充分必要条件是
+
+$$
+\int_ {- \infty} ^ {\infty} \psi (x) \mathrm{d} x = 0. \tag {6.34}
+$$
+
+首先，若 $\psi (x) = \varphi^{\prime}(x),\varphi \in \mathcal{D}$ ，则
+
+$$
+\int_ {- \infty} ^ {\infty} \psi (x) \mathrm{d} x = \varphi (x) \Big | _ {- \infty} ^ {\infty} = 0.
+$$
+
+反之，若对 $\psi \in \mathcal{D}$ 有(6.34)成立，我们令
+
+$$
+\varphi (x) = \int_ {- \infty} ^ {x} \psi (t) \mathrm{d} t.
+$$
+
+显然 $\varphi'(x) = \psi(x)$ , 且 $\varphi \in C^\infty$ . 设 $\psi$ 的支集包含在区间 $[-A, A]$ 中, 则 $\varphi(x)$ 在 $[-A, A]$ 之外等于常数, 再由条件 (6.34) 可推知 $\varphi(x)$ 在 $[-A, A]$ 之外为零, 即 $\varphi$ 有紧支集. 故 $\psi \in \Phi_0$ .
+
+现在取定一个基本函数 $\varphi_{1} \in \mathcal{D}$ , 它满足
+
+$$
+\int_ {- \infty} ^ {\infty} \varphi_ {1} (x) \mathrm{d} x = 1. \tag {6.35}
+$$
+
+任给 $\varphi \in \mathcal{D}$ , 取一个对应的 $\psi$ 为
+
+$$
+\psi (x) = \varphi (x) - \varphi_ {1} (x) \int_ {- \infty} ^ {\infty} \varphi (t) \mathrm{d} t, \tag {6.36}
+$$
+
+由条件(6.35)易知
+
+$$
+\int_ {- \infty} ^ {\infty} \psi (x) \mathrm{d} x = \int_ {- \infty} ^ {\infty} \varphi (x) \mathrm{d} x - \left(\int_ {- \infty} ^ {\infty} \varphi (t) \mathrm{d} t\right) \left(\int_ {- \infty} ^ {\infty} \varphi_ {1} (x) \mathrm{d} x\right) = 0,
+$$
+
+从而知 $\psi \in \Phi_0$ 于是
+
+$$
+\langle u, \psi \rangle = 0.
+$$
+
+由此式及(6.36)式,可得
+
+$$
+\langle u, \varphi \rangle = \langle u, \psi \rangle + \langle u, \varphi_ {1} \rangle \left(\int_ {- \infty} ^ {\infty} \varphi d t\right) = \langle u, \varphi_ {1} \rangle \left(\int_ {- \infty} ^ {\infty} \varphi d t\right).
+$$
+
+记 $c = \langle u, \varphi_1 \rangle$ ，它是一个常数。由上式便得
+
+$$
+\langle u, \varphi \rangle = c \int_ {- \infty} ^ {\infty} \varphi \mathrm{d} t = \int_ {- \infty} ^ {\infty} c \varphi \mathrm{d} t = \langle c, \varphi \rangle ,
+$$
+
+对任给 $\varphi \in \mathcal{D}$ 成立. 由此推知 $u = c$ .
+
+这个解是经典解.
+
+例2 求常微分方程
+
+$$
+x \frac {\mathrm{d} u}{\mathrm{d} x} = 1 \tag {6.37}
+$$
+
+的解.
+
+解 由 §5.3 的例 5 知
+
+$$
+\frac {\mathrm{d}}{\mathrm{d} x} (\ln | x |) = \frac {1}{x},
+$$
+
+即知 $\ln |x|$ 满足(6.37). 又可知齐次方程
+
+$$
+x \frac {\mathrm{d} u}{\mathrm{d} x} = 0 \tag {6.38}
+$$
+
+的解 $u$ 在 $(0, \infty)$ 上必为常数（与例1类似），在 $(- \infty, 0)$ 上也必为常数。从而知(6.38)有两个线性无关解： $u_{1} = 1, u_{2} = H(x)$ ，其中 $H(x)$ 是 Heaviside 函数。亦即(6.38)有通解
+
+$$
+u = c _ {1} + c _ {2} H (x).
+$$
+
+可以验证如下：
+
+$$
+\langle x u ^ {\prime}, \varphi \rangle = \langle c _ {2} x \delta , \varphi \rangle = c _ {2} \langle \delta , x \varphi \rangle = 0, \quad \varphi \in \mathcal {D}.
+$$
+
+综上所述推知
+
+$$
+u = c _ {1} + c _ {2} H (x) + \ln | x |
+$$
+
+是方程(6.37)的通解. 这个解 u 不是在全实轴 R 上可微的函数, 所以它不是经典解, 而是弱解.
+
+下面介绍基本解的概念,它在常系数微分方程的理论中有着重要的意义.
+
+定义6.8 一个广义函数 $E \in \mathcal{D}'(R^n)$ 如果满足方程
+
+$$
+L E = \delta , \tag {6.39}
+$$
+
+就称为算子 $L$ 的基本解，其中 $L$ 由(6.29)给定.
+
+若 $E$ 与 $E_{1}$ 都是 $L$ 的基本解，则 $u = E - E_{1}$ 必满足齐次方程 $Lu = 0$ . 也就是说，其他任意基本解与基本解 $E$ 只相差齐次方程的一个解 $u$ .
+
+现在设 $P(x)$ 是一个 $m$ 阶的 $n$ 元多项式，考虑算子
+
+$$
+L = P (\mathrm{D}) = \sum_ {| \alpha | \leqslant m} a _ {\alpha} \mathrm{D} ^ {\alpha}, \tag {6.40}
+$$
+
+它是一个 $m$ 阶常系数微分算子.
+
+定理 6.13 设 E 是由(6.40)给定的常系数微分算子 L 的一个基本解 $^{①}$ . 若广义函数 $f \in D'$ 使得卷积 $u = E * f$ 存在 $^{②}$ ，则 u 是方程
+
+$$
+L u = f
+$$
+
+的一个解.
+
+证明 由(5.26)及(5.27)式,我们有
+
+$$
+L u = P (\mathrm{D}) u = (P (\mathrm{D}) E) * f = \delta * f = f.
+$$
+
+我们进一步介绍 Fourier 变换在常系数微分方程中的应用.
+
+如果多项式 $P(x)$ 使得存在正数 $\varepsilon$ ，有以下不等式成立
+
+$$
+\left| P (2 \pi \mathrm{i} y) \right| \geqslant \varepsilon > 0, \quad y \in R ^ {n}, \tag {6.41}
+$$
+
+就可以得到下面的结论.
+
+命题6.14 若 $f \in \mathcal{S}'(R^n)$ , 并设 $n$ 元多项式 $P(x)$ 满足条件 (6.41), 则方程
+
+$$
+P (\mathrm{D}) u = f \tag {6.42}
+$$
+
+恰有一解在空间 $\mathcal{S}'(R^n)$ 中，这个解由下式给出：
+
+$$
+u = \mathcal {F} ^ {- 1} \left(\frac {1}{P (2 \pi_ {1} y)} \hat {f}\right). \tag {6.43}
+$$
+
+证明 设方程(6.42)有一个解 u 在 $S'$ 中, 即 u 使(6.42)成为等式. 两边取 Fourier 变换得到
+
+$$
+(P (\mathrm{D}) u) ^ {\wedge} = \hat {f}, \tag {6.44}
+$$
+
+根据(6.18)式,上式可改写为
+
+$$
+P (2 \pi \mathrm{i} y) \hat {u} = \hat {f}. \tag {6.45}
+$$
+
+因有条件(6.41)式成立,由此便得
+
+$$
+\hat {u} = \frac {1}{P (2 \pi \mathrm{i} y)} \hat {f}.
+$$
+
+对此式两边取Fourier逆变换 $\mathcal{F}^{-1}$ ，就得到
+
+$$
+u = \mathcal {F} ^ {- 1} \left(\frac {1}{P (2 \pi \mathrm{i} y)} \hat {f}\right).
+$$
+
+即方程(6.42)的属于 $\mathcal{S}^{\prime}$ 的解是由(6.43)给出的.
+
+反之, 我们可验证(6.43)式给出的 $u$ 是方程(6.42)的解. 首先按假定 $f \in \mathcal{S}'$ , 因条件(6.41)成立便推知 $\frac{1}{P(2\pi y)} \hat{f}$ 属于 $\mathcal{S}'$ , 从而由(6.43)式给出的 $u$ 也属于 $\mathcal{S}'$ . 我们在(6.43)式两边取 Fourier 变换, 推得(6.45)式. 从而得到(6.44)式, 对此式两边取 Fourier 逆变换便得到(6.42)式成立.
+
+如果空间 $\mathcal{S}'$ 换成 $\mathcal{S}$ 或 $L^2$ , 也有类似的结论.
+
+命题6.15 若 $f \in \mathcal{S}$ (或 $f \in L^2$ ), 多项式 $P(x)$ 满足条件(6.41), 则方程(6.42)恰有一解在空间 $\mathcal{S}$ 中 (在 $L^2$ 中), 该解由(6.43)式给出.
+
+证明省略.
+
+例3 求解偏微分方程
+
+$$
+\Delta u - u = f, \tag {6.46}
+$$
+
+其中 $f \in \mathcal{S}'(\mathbb{R}^n), \Delta = \sum_{k=1}^{n} \frac{\partial^2}{\partial x_k^2}$ .
+
+解 方程(6.46)是(6.42)的特殊情形,它对应的微分算子为
+
+$$
+P (\mathrm{D}) = \sum_ {k = 1} ^ {n} \mathrm{D} _ {k} ^ {2} - 1,
+$$
+
+$$
+P (2 \pi \mathrm{i} y) = - 4 \pi^ {2} | y | ^ {2} - 1.
+$$
+
+可见 $P(x)$ 满足条件(6.41). 若 $f \in \mathcal{S}'$ , 由命题6.14可得到方程(6.46)在 $\mathcal{S}'$ 中的唯一解
+
+$$
+u = \mathcal {F} ^ {- 1} \left(\frac {1}{- (4 \pi | y | ^ {2} + 1)} \hat {f}\right).
+$$
+
+注 解 $u$ 属于 $\mathcal{S}$ 相当于是一类边界条件(它限制了 $u$ 上升的速度,例如指数函数就被排除在外),因此方程还可以有不在 $\mathcal{S}^{\prime}$ 中的其他解.
+
+对于条件(6.41)不成立的情形,可以考虑先在 $S'$ 中寻找 $P(D)$ 的基本解.我们对方程
+
+$$
+P (\mathrm{D}) E = \delta
+$$
+
+取Fourier变换可得出
+
+$$
+P (2 \pi \mathrm{i} y) \hat {E} = 1.
+$$
+
+若 $\frac{1}{P(2\pi\mathrm{i}y)}$ 是一个缓增广义函数, 则对它取 Fourier 逆变换就可以找到一个基本解.
+
+命题6.16 若方程
+
+$$
+P (2 \pi \mathrm{i} y) v = 1
+$$
+
+有一个解 $v \in \mathcal{S}'$ ，则 $E = \mathcal{F}^{-1}v$ 是算子 $P(D)$ 的基本解.
+
+证明 由 $\hat{E} = v$ 不难得到
+
+$$
+(P (\mathrm{D}) E) ^ {\wedge} = P (2 \pi \mathrm{i} y) \hat {E} = P (2 \pi \mathrm{i} y) v = 1 = \hat {\delta}.
+$$
+
+对上式两边取 Fourier 逆变换,便得到
+
+$$
+P (\mathrm{D}) E = \delta ,
+$$
+
+即 E 是基本解.
+
+例4 在 $\pmb{R}^3$ 中求Laplace算子
+
+$$
+\Delta = \frac {\partial^ {2}}{\partial x _ {1} ^ {2}} + \frac {\partial^ {2}}{\partial x _ {2} ^ {2}} + \frac {\partial^ {2}}{\partial x _ {3} ^ {2}}
+$$
+
+的基本解.
+
+解 对方程
+
+$$
+\Delta E = \delta
+$$
+
+两边取 Fourier 变换, 得到
+
+$$
+- 4 \pi^ {2} | y | ^ {2} \hat {E} = 1.
+$$
+
+令函数 $g$ 为
+
+$$
+g (y) = - \frac {1}{4 \pi^ {2} | y | ^ {2}}, \quad y \neq 0.
+$$
+
+函数 g 在 $R^{3}$ 中局部可积，在无穷远处有界，因此属于 $\mathcal{S}'(R^{3})$ . 根据命题 6.16 可知 $E = F^{-1}g$ 是算子 $\Delta$ 的基本解.
+
+下面求出 $E = \mathcal{F}^{-1}g$ 的具体表示式. 对任给 $\varphi \in \mathcal{S}(R^3)$ , 我们有
+
+$$
+\begin{array}{l} \langle E, \varphi \rangle = \langle \mathcal {F} ^ {- 1} g, \varphi \rangle = \langle g, \mathcal {F} ^ {- 1} \varphi \rangle \\ = - \frac {1}{4 \pi^ {2}} \int_ {\mathbb {R} ^ {3}} \frac {1}{| x | ^ {2}} (\mathcal {F} ^ {- 1} \varphi) (x) d x \\ = - \frac {1}{4 \pi^ {2}} \lim _ {R \rightarrow \infty} \int_ {| x | \leqslant R} \frac {1}{| x | ^ {2}} \left(\int_ {R ^ {3}} \varphi (t) \mathrm{e} ^ {2 \pi i x \cdot t} \mathrm{d} t\right) \mathrm{d} x \\ = - \frac {1}{4 \pi^ {2}} \lim _ {R \rightarrow \infty} \int_ {\mathbb {R} ^ {3}} \varphi (t) \left(\int_ {| x | \leqslant R} \frac {1}{| x | ^ {2}} e ^ {2 \pi i x \cdot t} d x\right) d t \\ = \lim _ {R \rightarrow \infty} \int_ {\mathbb {R} ^ {3}} \varphi (t) f _ {R} (t) \mathrm{d} t, \tag {6.47} \\ \end{array}
+$$
+
+其中记
+
+$$
+f _ {R} (t) = - \frac {1}{4 \pi^ {2}} \int_ {| x | \leqslant R} \frac {1}{| x | ^ {2}} \mathrm{e} ^ {2 \pi i x \cdot t} \mathrm{d} x.
+$$
+
+用球极坐标计算上述积分,可得
+
+$$
+\begin{array}{l} f _ {R} (t) = - \frac {1}{2 \pi} \int_ {0} ^ {R} \int_ {0} ^ {\pi} \mathrm{e} ^ {2 \pi i r | t | \cos \theta} \sin \theta \mathrm{d} \theta \mathrm{d} r \\ = - \frac {1}{2 \pi} \int_ {0} ^ {R} \frac {\sin 2 \pi r | t |}{\pi r | t |} d r \\ = - \frac {1}{2 \pi^ {2} | t |} \int_ {0} ^ {2 \pi | t | R} \frac {\sin y}{y} d y \\ \rightarrow - \frac {1}{4 \pi | t |} (R \rightarrow \infty , 0 \neq t \in R ^ {3}), \\ \end{array}
+$$
+
+又由上式可推知存在常数 $M$ 使得
+
+$$
+\left| f _ {R} (t) \right| \leqslant \frac {M}{| t |}.
+$$
+
+因为对于 $\varphi \in \mathcal{S}(\mathbb{R}^3)$ ， $\left|\frac{\varphi(t)}{t}\right|$ 在 $R^3$ 上可积，所以由控制收敛定理推得
+
+$$
+\lim _ {R \rightarrow \infty} \int_ {\mathbb {R} ^ {3}} f _ {R} (t) \varphi (t) \mathrm{d} t = - \frac {1}{4 \pi} \int_ {\mathbb {R} ^ {3}} \frac {\varphi (t)}{| t |} \mathrm{d} t.
+$$
+
+根据(6.47)式便得到
+
+$$
+\langle E, \varphi \rangle = - \frac {1}{4 \pi} \int_ {\mathbb {R} ^ {3}} \frac {\varphi (t)}{| t |} \mathrm{d} t, \quad \varphi \in \mathcal {S} (\mathbb {R} ^ {3}).
+$$
+
+于是我们得到基本解
+
+$$
+E = - \frac {1}{4 \pi | t |}, \quad t \in R ^ {3}.
+$$
+
+下面介绍求常系数常微分方程的基本解的一种方法.
+
+设微分算子
+
+$$
+L = \sum_ {j = 0} ^ {m} a _ {j} \mathrm{D} ^ {j}, \quad \mathrm{D} = \frac {\mathrm{d}}{\mathrm{d} x}, \quad a _ {m} = 1.
+$$
+
+又设有 $C^\infty$ 函数 $v(x)$ 满足齐次方程的初值问题：
+
+$$
+\left\{ \begin{array}{l} L v = 0, \\ v (0) = v ^ {\prime} (0) = \dots = v ^ {(m - 2)} (0) = 0, v ^ {(m - 1)} (0) = 1. \end{array} \right.
+$$
+
+令函数
+
+$$
+E (x) = v (x) \cdot H (x), \quad x \in R,
+$$
+
+其中 $H(x)$ 是Heaviside函数.因为有
+
+$$
+H ^ {\prime} = \delta ,
+$$
+
+以及对 $\varphi \in \mathcal{D}$
+
+$$
+\langle v ^ {(j)} \delta , \varphi \rangle = 0, \quad j = 0, 1, \dots , m - 2,
+$$
+
+$$
+\langle v ^ {(m - 1)} \delta , \varphi \rangle = \varphi (0) = \langle \delta , \varphi \rangle ,
+$$
+
+所以由Leibniz公式，我们得
+
+$$
+\mathrm{D} ^ {j} E = (\mathrm{D} ^ {j} v) \cdot H, \quad j = 0, 1, \dots , m - 1,
+$$
+
+$$
+\mathrm{D} ^ {m} E = (\mathrm{D} ^ {m} v) \cdot H + \delta .
+$$
+
+于是 $LE = (Lv)\cdot H + a_m\delta = \delta ,$
+
+即 $E = v \cdot H$ 是 $L$ 的基本解.
+
+例5 求算子 $L = \frac{\mathrm{d}}{\mathrm{d}x} + a$ 的基本解 $(a > 0)$ .
+
+解 求出初值问题
+
+$$
+\left\{ \begin{array}{l} \frac {\mathrm{d} v}{\mathrm{d} x} + a v = 0, \\ v (0) = 1 \end{array} \right.
+$$
+
+的解为 $v(x) = \mathrm{e}^{-ax}$ . 根据前面讨论知
+
+$$
+E = H (x) \mathrm{e} ^ {- a x}
+$$
+
+是 $L$ 的基本解.
+
+# § 6.7 在信号分析中的应用
+
+本节介绍 Fourier 分析在信号分析中的一些应用.
+
+在实际课题中,一个信号也许是一个电磁波,或是一个声波和光波.而在数学中,信号(连续信号或模拟信号)多数可用实数t的实函数(或复函数) $f(t)$ 来表示.
+
+如果 $f(t)$ 是一个周期函数, 它代表着一个周期性的信号. 把周期性信号展开成 Fourier 级数, 然后对它的各次谐波的频率、振幅、相位以及它们的关系进行分析, 就叫做频谱分析.
+
+设有周期为 T 的信号 $f(t)$ ，它的 Fourier 级数为
+
+$$
+f (t) \sim \sum_ {n = - \infty} ^ {\infty} c _ {n} \mathrm{e} ^ {i n \omega_ {0} t},
+$$
+
+其中 $\omega_{0}=2\pi/T$ ,
+
+$$
+c _ {n} = \frac {1}{T} \int_ {- T / 2} ^ {T / 2} f (t) \mathrm{e} ^ {- \mathrm{i} n \omega_ {0} t} \mathrm{d} t.
+$$
+
+$|c_{n}|$ 称为信号 $f(t)$ 的离散(振幅)频谱, 幅角 $\operatorname{Arg} c_{n}$ 为离散相位谱.
+
+设非周期信号 $f(t)$ 在 R 上可积, 其 Fourier 变换为
+
+$$
+F (\omega) = \hat {f} (\omega) = \int_ {- \infty} ^ {\infty} f (t) \mathrm{e} ^ {- 2 \pi i \omega t} \mathrm{d} t.
+$$
+
+表示成 $F(\omega) = |F(\omega)|\mathrm{e}^{\mathrm{i}\varphi (\omega)}$ . $|F(\omega)|$ 称为信号 $f(t)$ 的连续(振幅)频谱，幅角 $\operatorname {Arg}F(\omega) = \varphi (\omega)$ 为相位频谱.
+
+信号 $f(t)$ 的功率与振幅的平方 $\left|f(t)\right|^2$ 成正比，从而信号的
+
+总能量与积分 $\int_{-\infty}^{\infty}|f(t)|^2\mathrm{d}t$ 成正比. 若假定信号的总能量为有限, 也就是 $f \in L^{2}(R)$ , 则其Fourier变换的含义见 §3.4. 更一般地, 若 $f$ 可看作广义函数, 则其Fourier变换的定义见 §6.3.
+
+例1 设矩形脉冲 $f(t)$ 为
+
+$$
+f (t) = \left\{ \begin{array}{l l} 1, & | t | <   a, \\ 0, & | t | > a \end{array} \right.
+$$
+
+(见图 6.1), 则
+
+$$
+F (\omega) = \frac {\sin 2 \pi a \omega}{\pi \omega}
+$$
+
+(见图 6.2).
+
+![](images/e8eae50834f4d00ab2763087c0fa5620ab61f159c738764af8d5cf4e56ede114.jpg)
+
+<details>
+<summary>text_image</summary>
+
+y
+1
+f(t)
+-a O a t
+</details>
+
+图6.1
+
+![](images/d9f55e2cc4430e2a0c5118e136311a0b200c3b9c8b39ff8e1af51d82bdbf6eca.jpg)
+
+<details>
+<summary>line</summary>
+
+| ω       | F(ω) |
+| ------- | ---- |
+| 0       | 2a   |
+| 1/2a    | 0    |
+| 1/a     | 0    |
+| 3/2a    | 0    |
+</details>
+
+图6.2
+
+例2 设
+
+$$
+f (t) = \sum_ {m = - \infty} ^ {\infty} \delta (t - m T), \tag {6.48}
+$$
+
+其中 $T > 0$ （见图6.3），则
+
+$$
+F (\omega) = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \delta \left(\omega - \frac {m}{T}\right) \tag {6.49}
+$$
+
+(见图 6.4).
+
+此结果验证如下:首先注意到,在 Poisson 求和公式(3.65), (3.66)中,把周期为 1 换成周期为 T,可以改写成
+
+$$
+\sum_ {m = - \infty} ^ {\infty} f (x + m T) = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \hat {f} \left(\frac {m}{T}\right) \mathrm{e} ^ {\frac {2 \pi m x}{T}}, \tag{3.65}
+$$
+
+$$
+\sum_ {m = - \infty} ^ {\infty} f (m T) = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \hat {f} \left(\frac {m}{T}\right). \tag{3.66}
+$$
+
+其次，对于由(6.48)式给出的广义函数 $f(t)$ ，设 $\varphi \in \mathcal{S}$ ，显然 $\varphi$ 与 $\hat{\varphi}$ 满足 Poisson 求和公式成立的条件，按定义可得
+
+$$
+\begin{array}{l} \langle \hat {f}, \varphi \rangle = \langle f, \hat {\varphi} \rangle = \left\langle \sum_ {m = - \infty} ^ {\infty} \delta (t - m T), \hat {\varphi} (t) \right\rangle = \sum_ {m = - \infty} ^ {\infty} \hat {\varphi} (m T) \\ = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \varphi \left(\frac {m}{T}\right) = \left\langle \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \delta \left(\omega - \frac {m}{T}\right), \varphi (\omega) \right\rangle , \\ \end{array}
+$$
+
+其中第四个等号成立用到(3.66').由 $\varphi$ 的任意性便知
+
+$$
+\hat {f} (\omega) = F (\omega) = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \delta \left(\omega - \frac {m}{T}\right),
+$$
+
+即(6.49)式成立.
+
+![](images/64202b81f22f09c1c79b3b96b11176381f69d99e07fbe3df24632543c7eb7cc9.jpg)
+
+<details>
+<summary>text_image</summary>
+
+y
+f(t)
+O T t
+</details>
+
+图6.3
+
+![](images/bbea5ec8ff20222944669a14a1e17ac1c1a7e6d2799213450d563cd7a98dbfbb.jpg)
+
+<details>
+<summary>text_image</summary>
+
+y
+F(ω)
+O 1/T̅ ω
+</details>
+
+图6.4
+
+给定某个物理系统(电路或光学系统等), 令一个输入信号 $f(t)$ 通过它, 就得到一个输出信号 $g(t)$ . 在无线电技术中, 研究信号通过电路的变化(也叫做电路对信号的响应), 是一个很重要的问题. 求解信号的这种变化常需要列出微分方程, 从而要用到 §6.6 中讲述的 Fourier 分析方法.
+
+例 3 设输入端的电压信号为 $f(t)$ ,
+
+$$
+f (t) = \left\{ \begin{array}{l l} V, & t > 0, \\ 0, & t <   0, \end{array} \right.
+$$
+
+通过 RC 电路(如图 6.5 所示), 其输出端的电压信号为 $g(t)$ . 求 $g(t)$ .
+
+解 根据回路电压定律,可以列出 RC 串联电路中电容 C 上电压 $u_{t}$ 满足的微分方程(省略),从而得知输出端电压 $g(t)$ (与电
+
+![](images/049daf1dc6ff08b18b4821e28550738167a67367a908b14ebf2e089593b2432c.jpg)
+
+<details>
+<summary>text_image</summary>
+
+R
+f(t)
+C
+g(t)
+</details>
+
+图 6.5
+
+容上的电压相同)满足微分方程
+
+$$
+R C \frac {\mathrm{d} g (t)}{\mathrm{d} t} + g (t) = f (t),
+$$
+
+把它改写成
+
+$$
+\frac {\mathrm{d} g (t)}{\mathrm{d} t} + \frac {1}{R C} g (t) = \frac {1}{R C} f (t). \tag {6.50}
+$$
+
+利用 §6.6 例 5 可知算子 $L = \frac{\mathrm{d}}{\mathrm{d}t} + \frac{1}{RC}$ 的基本解为
+
+$$
+E = H (t) \mathrm{e} ^ {- \frac {t}{R C}}.
+$$
+
+于是,根据定理 6.13 求得方程(6.50)的解为
+
+$$
+\begin{array}{l} g (t) = \left(E * \frac {1}{R C} f\right) (t) = \frac {1}{R C} \int_ {- \infty} ^ {\infty} H (x) \mathrm{e} ^ {- \frac {x}{R C}} f (t - x) \mathrm{d} x \\ = \frac {V}{R C} \int_ {0} ^ {t} \mathrm{e} ^ {- \frac {x}{R C}} \mathrm{d} x = V (1 - \mathrm{e} ^ {- \frac {x}{R C}}), \quad t \geqslant 0. \\ \end{array}
+$$
+
+这就是输出电压信号.
+
+下面介绍信号分析的一个基本定理,它结合了 Fourier 级数与 Fourier 变换的技巧.
+
+设 $f(t)$ 是连续信号, 若通过测量只取到它在某个时间序列 $\{t_{j}\}$ $(t_{1}<t_{2}<\cdots)$ 处的值, 由此想要知道 f 在其他点的值, 一般是办不到的. 但是, 如果信号 $f(t)$ 的频率范围是有限的, 其频率不超过 M, 亦即, $\hat{f}(\omega)$ 在有限区间 $[-M, M]$ 之外为零, 那么, 就能够由 f 的离散值集 $\{f(t_{j})\}$ (通常是每隔一段时间 $\Delta t$ 取出一个瞬时值) 来确定 $f(t)$ 的值, 也就是由离散信号 $\{f(t_{j})\}$ 可以恢复连续信号 $f(t)$ .
+
+定理 6.17(时间抽样定理) 设 $f \in L^{2}(R)$ ，并且当 $|\omega| \geqslant M$ 时 $\hat{f}(\omega) = 0$ ，则 f 的值可由它在时间间隔为 $\frac{1}{2M}$ 的可列个值 $f\left(\frac{n}{2M}\right) (n = 0, \pm 1, \pm 2, \cdots)$ 所确定，有以下等式成立：
+
+$$
+f (t) = \sum_ {n = - \infty} ^ {\infty} f \left(\frac {n}{2 M}\right) \frac {\sin \pi (2 M t - n)}{\pi (2 M t - n)}. \tag {6.51}
+$$
+
+若记 $T = \frac{1}{2M}$ ，上式可改写为
+
+$$
+f (t) = T \sum_ {n = - \infty} ^ {\infty} f (n T) \frac {\sin 2 \pi M (t - n T)}{\pi (t - n T)}. \tag{6.51}
+$$
+
+证明 对于 $f \in L^2(R)$ , 有以下反演公式成立,
+
+$$
+f (t) = 1, 1. \mathrm{m}. \int_ {- r} ^ {r} \hat {f} (\omega) \mathrm{e} ^ {2 \pi i t \omega} \mathrm{d} \omega = \int_ {- M} ^ {M} \hat {f} (\omega) \mathrm{e} ^ {2 \pi i t \omega} \mathrm{d} \omega . \tag {6.52}
+$$
+
+把 $\hat{f}(\omega)$ 与 $e^{2\pi mt\omega}$ 看作 $L^{2}[-M,M]$ 中的函数，它们的 Fourier 系数分别记为 $c_{n}$ 与 $d_{n}$ . 按定义及 (6.52) 得到
+
+$$
+c _ {- n} = \frac {1}{2 M} \int_ {- M} ^ {M} \hat {f} (\omega) \mathrm{e} ^ {\frac {| n \pi \omega |}{M}} \mathrm{d} \omega = \frac {1}{2 M} f \left(\frac {n}{2 M}\right),
+$$
+
+$$
+d _ {n} = \frac {1}{2 M} \int_ {- M} ^ {M} \mathrm{e} ^ {2 \pi i t \omega} \mathrm{e} ^ {- \frac {i n \pi \omega}{M}} \mathrm{d} \omega = \frac {\sin (2 M t - n) \pi}{(2 M t - n) \pi},
+$$
+
+于是，把 Parseval 等式(2.56)换成周期为 $2M$ 的变形，由它得到
+
+$$
+f (t) = \int_ {- M} ^ {M} \hat {f} (\omega) \mathrm{e} ^ {2 \pi i t \omega} \mathrm{d} \omega = 2 M \sum_ {n = - \infty} ^ {\infty} c _ {- n} d _ {n}
+$$
+
+$$
+= \sum_ {n = - \infty} ^ {\infty} f \left(\frac {n}{2 M}\right) \frac {\sin (2 M t - n) \pi}{(2 M t - n) \pi}. \quad I
+$$
+
+时间抽样定理有一个对偶形式, 就是频率抽样定理: 设 $f \in L^{2}(R)$ , 当 $|t| > A$ 时, $f(t) = 0$ , 则
+
+$$
+\hat {f} (\omega) = \sum_ {n = - \infty} ^ {\infty} \hat {f} \left(\frac {n}{2 A}\right) \frac {\sin (2 A \omega - n) \pi}{(2 A \omega - n) \pi}.
+$$
+
+其证明类似.
+
+(6.51)式中级数收敛的速度不够快,因为当 $x \to \infty$ 时, $\frac{\sin x}{x}$ 衰减速度较慢. 欲知提高收敛速度的方法,请看习题中第 14 题.
+
+# 习题
+
+1. 设 $f(x)$ 是实轴上的慢增 $C^\infty$ 函数，试证明：
+
+$$
+\lim _ {\varepsilon \rightarrow + 0} \langle f (x) \mathrm{e} ^ {- \varepsilon | x |}, \varphi (x) \rangle = \langle f, \varphi \rangle , \quad \varphi \in \mathcal {S},
+$$
+
+也就是
+
+$$
+\lim _ {\varepsilon \to + 0} f (x) \mathrm{e} ^ {- \varepsilon | x |} = f (x) \quad (\text {在}   \mathcal {S} ^ {\prime}   \text {中}).
+$$
+
+2. 求下列 Fourier 变换：
+
+(1) $(\operatorname{sgn} x)^{\wedge}$ ;   
+(2) $(H(x))^{\wedge}, H(x)$ 是 Heaviside 函数.
+
+(提示：可用 sgnx 与常数函数的线性组合来表示 $H(x)$ )
+
+3. 利用等式
+
+$$
+x ^ {- m} = \frac {(- 1) ^ {m - 1}}{(m - 1) !} \frac {\mathrm{d} ^ {m - 1}}{\mathrm{d} x ^ {m - 1}} (x ^ {- 1}), \quad m \geqslant 1,
+$$
+
+求 Fourier 变换 $(x^{-m})^{\wedge}$ .
+
+4. 利用平移变换求下列 Fourier 变换：
+
+(1) $\left(\frac{1}{x - a}\right)^{\wedge}$ ;
+
+(2) $\left(\frac{1}{(x - a)^m}\right)^\wedge$ .
+
+5. 设 $m \geqslant 1$ ，求：
+
+(1) $[x^{m}H(x)]^{\wedge}$ ;
+
+(2) $[x^{m}\mathrm{sgn}x]^{\wedge}$ .
+
+6. 求下列函数的 Fourier 变换：
+
+(1) $(x^{2} - 4)^{-1}$ ;
+
+(2) $[x^2 (1 + x^2)]^{-1}$ .
+
+(提示：利用部分分式)
+
+7. 求 $x^{m}\delta^{(n)}(x)$ 的Fourier变换, 其中 $m$ 与 $n$ 是正整数.
+
+8. 设 $u \in \mathcal{S}'$ ，如果对一切奇(偶)函数 $\varphi \in \mathcal{S}$ 有
+
+$$
+\langle u (x), \varphi (x) \rangle = 0,
+$$
+
+就称 $u$ 是偶(奇)的. 试证明：
+
+(1) $\frac{1}{x}$ 是奇的；  
+(2) $\delta(x)$ 是偶的；当 $k$ 是偶数（奇数）时， $\delta^{(k)}(x)$ 是偶（奇）的；
+
+(3) 若 $u(x)$ 是偶(奇)的，则 $u'(x)$ 是奇(偶)的；  
+(4) 若 $u(x)$ 是偶(奇)的，则 $\hat{u}(x)$ 是偶(奇)的.
+
+9. 证明： $\psi\in\mathcal{S}(\boldsymbol{R}^{1}),\psi^{(j)}(0)=0(j=1,2,\cdots,k-1)$ 的充分必要条件是存在一个函数 $\varphi\in\mathcal{S}(\boldsymbol{R})$ 使得 $\psi(x)=x^{k}\varphi(x),x\in\boldsymbol{R}$ .
+
+10. 证明：
+
+(1) 方程 $xv = 1$ 在 $\mathcal{S}'(\pmb{R})$ 中的通解是
+
+$$
+v = \frac {1}{x} + c \delta ,
+$$
+
+其中 $1 / x$ 是由(5.2)式给定的主值意义下的广义函数， $c$ 是任意常数；
+
+(2) 方程 $xv = \ln |x|$ 在 $\mathcal{S}'(R)$ 中的通解是
+
+$$
+v = \frac {\ln | x |}{x} + c \delta ,
+$$
+
+其中 $c$ 是任意常数， $\frac{\ln|x|}{x}$ 是下述广义函数
+
+$$
+\begin{array}{l} \left\langle \frac {\ln | x |}{x}, \varphi \right\rangle = \lim _ {\varepsilon \rightarrow + 0} \left(\int_ {- \infty} ^ {- \varepsilon} \frac {\ln | x |}{x} \varphi (x) d x \right. \\ \left. + \int_ {\varepsilon} ^ {+ \infty} \frac {\ln | x |}{x} \varphi (x) \mathrm{d} x\right), \quad \varphi \in \mathcal {S} (\boldsymbol {R}). \\ \end{array}
+$$
+
+11. 证明：方程 $xv = \delta$ 在 $\mathcal{D}'(R)$ 中的通解是
+
+$$
+v = c \delta - \delta^ {\prime},
+$$
+
+其中 $c$ 是任意常数.
+
+12. 求下列算子的基本解：
+
+(1) $\frac{\mathrm{d}}{\mathrm{d}x}$ ; (2) $\frac{\mathrm{d}^2}{\mathrm{d}x^2} + a^2, a > 0.$
+
+13. 叙述并证明时间抽样定理在下述情形的变型: 设 $\hat{f}(\omega)=0$ , 对一切 $\omega\in[a,b]$ , 试给出由 f 的离散值 $\left\{f\left(\frac{n}{b-a}\right)\right\}$ 确定 $f(t)$ 的公式. (提示: 作 $g(t)$ , 使得 $\hat{g}(\omega)=\hat{f}(\omega+h)$ , 且 $\hat{g}$ 在 $|\omega|>\frac{b-a}{2}$ 处为零.)
+
+14. 设 $f \in L^{2}(\mathbb{R})$ ，当 $|\omega| \geqslant M$ 时， $\hat{f}(\omega) = 0$ ，又设 $\lambda > 1$ . 作函数 $g_{\lambda}$ ，使得
+
+$$
+\hat {g} _ {\lambda} (x) = \Omega (x, M, (\lambda - 1) M) = \left\{ \begin{array}{l l} 1, & | x | \leqslant M, \\ 0, & | x | \geqslant \lambda M, \\ \text {线性函数}, M \leqslant | x | \leqslant \lambda M \end{array} \right.
+$$
+
+(参看 §3.6 例 2). 观察得知 $\hat{f} = \hat{g}_{\lambda} \cdot \hat{f}$ . 试证明:
+
+$$
+\begin{array}{l} f (t) = \int_ {- \lambda M} ^ {\lambda M} \hat {f} (\omega) \hat {g} _ {\lambda} (\omega) \mathrm{e} ^ {2 \pi i t \omega} \mathrm{d} \omega \\ = \frac {1}{2 \lambda M} \sum_ {n = - \infty} ^ {\infty} f \left(\frac {n}{2 \lambda M}\right) g _ {\lambda} \left(t - \frac {n}{2 \lambda M}\right), \\ \end{array}
+$$
+
+其中
+
+$$
+g _ {\lambda} (t) = \frac {\sin^ {2} \pi \lambda M t - \sin^ {2} \pi M t}{(\lambda - 1) M \pi^ {2} t ^ {2}}.
+$$
+
+(本题给出 $f(t)$ 的一个抽样公式, 使得级数中的函数 $g_{\lambda}(t)$ 在无穷远处以 $t^{-2}$ 的速度趋于零.)
+
+15. 设 $f(x)$ 是 $\pmb{R}$ 上以 $2\pi$ 为周期的局部可积函数，它的Fourier系数为
+
+$$
+c _ {k} = \frac {1}{2 \pi} \int_ {- \pi} ^ {\pi} f (x) \mathrm{e} ^ {- 1 k x} \mathrm{d} x.
+$$
+
+试证明：在(周期)广义函数的意义下，
+
+$$
+f (x) = \lim _ {n \rightarrow \infty} \sum_ {k = - n} ^ {n} c _ {k} \mathrm{e} ^ {\mathrm{i} k x},
+$$
+
+亦即 $\langle f, \varphi \rangle = \lim_{n \to \infty} \left\langle \sum_{k=-n}^{n} c_k e^{ikx}, \varphi(x) \right\rangle, \quad \varphi \in \mathcal{D}_{2\pi}(R)$ ,
+
+其中 $\mathcal{D}_{2\pi}(\pmb {R})$ 表示 $C^\infty (\pmb {R})$ 中以 $2\pi$ 为周期的函数全体，并且
+
+$$
+\langle f, \varphi \rangle = \int_ {- \pi} ^ {\pi} f (x) \varphi (x) \mathrm{d} x.
+$$
+
+16. 试证明：在 $\mathcal{S}'(R)$ 中有
+
+$$
+\sum_ {m = - \infty} ^ {\infty} \delta (t - m T) = \frac {1}{T} \sum_ {m = - \infty} ^ {\infty} \mathrm{e} ^ {- \frac {2 \pi i m t}{T}}.
+$$
+
+# 附录 I 多重 Fourier 级数
+
+前面对于一元函数给出的 Fourier 级数的概念不难推广到多元函数.
+
+在 $\pmb{R}^n$ 中记 $T^n$ 为以下立方体
+
+$$
+\boldsymbol {T} ^ {n} = \{x = (x _ {1}, \dots , x _ {n}): - \pi <   x _ {j} \leqslant \pi , j = 1, 2, \dots , n \}.
+$$
+
+用 $L^{p}(T^{n})$ 表示在 $T^{n}$ 上属于 $L^{p}$ 的周期函数(它们按每个自变量 $x_{j}$ 都以 $2\pi$ 为周期). 而 $C(T^{n})$ 则表示连续的周期函数. 用 $Z^{n}$ 表示 $R^{n}$ 中的格子点全体(每个坐标都是整数的点称为格子点). 对于 $m \in Z^{n}, m \cdot x = m_{1}x_{1} + \cdots + m_{n}x_{n}$ .
+
+函数系 $\{\mathrm{e}^{im\cdot r}\}_{m\in \mathbb{Z}^n}$ 具有如下性质：(i）周期性；(ii）正交性，即
+
+$$
+\int_ {T ^ {n}} \mathrm{e} ^ {\mathrm{i} m \cdot x} \overline {{\mathrm{e} ^ {\mathrm{i} k \cdot x}}} \mathrm{d} x = 0, \quad m \neq k (m _ {j} \neq k _ {j}, j = 1, 2, \dots , n);
+$$
+
+(111) 完全性, 即若 $f \in L(T^n)$ , 且对一切 $m \in \mathbf{Z}^n$ ,
+
+$$
+\int_ {T ^ {n}} f (x) \mathrm{e} ^ {- 1 m \cdot x} \mathrm{d} x = 0,
+$$
+
+则 $f(x) = 0$ ，a.e..
+
+此完全性可由一维情形的完全性推知. 以 $n = 2$ 为例. 按假定对一切 $(m_{1}, m_{2}) \in \mathbf{Z}^{2}$ 有
+
+$$
+\int_ {- \pi} ^ {\pi} \int_ {- \pi} ^ {\pi} f (x _ {1}, x _ {2}) \mathrm{e} ^ {- 1 m _ {1} x _ {1}} \cdot \mathrm{e} ^ {- 1 m _ {2} x _ {2}} \mathrm{d} x _ {1} \mathrm{d} x _ {2} = 0. \tag {1}
+$$
+
+记 $f_{m_1}(x_2) = \int_{-\pi}^{\pi} f(x_1, x_2) \mathrm{e}^{-im_1 x_1} \mathrm{d}x_1$ ，(1)式化为
+
+$$
+\int_ {- \pi} ^ {\pi} f _ {m _ {1}} (x _ {2}) \mathrm{e} ^ {- 1 m _ {2} x _ {2}} \mathrm{d} x _ {2} = 0, \quad m _ {2} \in \mathbf {Z} ^ {1}.
+$$
+
+由 $\{\mathrm{e}^{im_2x_2}\}_{m_2\in \mathbb{Z}^1}$ 的完全性推知 $f_{m_1}(x_2) = 0$ ,a.e.,即有点集 $E_{2,m_1}\subset T$ $= (-\pi ,\pi ]$ ，且 $m(E_{2,m_1}) = 0$ ，使得
+
+$$
+f _ {m _ {1}} (x _ {2}) = 0, \quad x _ {2} \in T ^ {1} \backslash E _ {2, m _ {1}}.
+$$
+
+令 $E_{2} = \bigcup_{m_{1}\in \mathbf{Z}^{1}}E_{2,m_{1}}$ ，可推知 $m(E_2) = 0.$ 再由 $\{\mathrm{e}^{\mathrm{i}m_1x_1}\}_{m_1\in \mathbf{Z}^1}$ 的完全性推知，对于 $x_{2}\in T^{1}\backslash E_{2}$
+
+$$
+f (x _ {1}, x _ {2}) = 0, \quad x _ {1} \in T ^ {1} \backslash E _ {1}, m (E _ {1}) = 0, E _ {1} \subset T ^ {1}.
+$$
+
+不难得知 $(T^{1} \backslash E_{1}) \times (T^{1} \backslash E_{2})$ 对于 $T^{2}$ 的补集是零测集. 因此在 $T^{2}$ 中, $f(x_{1}, x_{2}) = 0$ , a.e..
+
+设 $f \in L(T^n)$ , 它的 Fourier 系数定义为
+
+$$
+c _ {m} = c _ {m} (f) = \frac {1}{(2 \pi) ^ {n}} \int_ {T ^ {n}} f (x) \mathrm{e} ^ {- \mathrm{i} m \cdot x} \mathrm{d} x, \quad m \in \mathbb {Z} ^ {n}. \tag {2}
+$$
+
+$f$ 的Fourier级数为
+
+$$
+f (x) \sim \sum_ {m \in Z ^ {n}} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}. \tag {3}
+$$
+
+多重Fourier级数理论中有一些是一维结果的直接推广. 我们将着重介绍在多维情形中与一维情形不同的一些问题及结果，或者其证明有新的思想的结果.
+
+# § 1 三种部分和的定义与局部性定理
+
+在一维情形,关于 Fourier 系数的一个基本结果是 Riemann-Lebesgue 引理. 在 n 维情形有类似的结果.
+
+定理1 若 $f \in L(T^n)$ , 则 $\lim_{|m| \to \infty} c_m = 0$ .
+
+证明 可以与一维情形类似,用阶梯函数逼近可积函数的方法来证明.但这里介绍另一种方法.
+
+设 $f \in C^{\infty}(\mathbf{T}^{n})$ ，不妨设 $m \neq 0$ 。若 $m_{j} \neq 0$ ，则由分部积分可得
+
+$$
+\int_ {- \pi} ^ {\pi} f (x) \mathrm{e} ^ {- \mathrm{i} m \cdot x} \mathrm{d} x _ {j} = \frac {1}{(\mathrm{i} m _ {j}) ^ {N}} \int_ {- \pi} ^ {\pi} \mathrm{e} ^ {- \mathrm{i} m \cdot x} \frac {\partial^ {N}}{\partial x _ {j} ^ {N}} f (x) \mathrm{d} x _ {j}, \tag {4}
+$$
+
+这里 N 是任意正整数.
+
+由 $m \neq 0$ 知，必定 $|m| \geqslant 1$ . 对每个这样的 $m$ ，若取 $j$ 使
+
+$$
+\left| m _ {j} \right| = \max \left\{\left| m _ {1} \right|, \dots , \left| m _ {n} \right| \right\},
+$$
+
+则有
+
+$$
+\begin{array}{l} \left| m \right| = (m _ {1} ^ {2} + \dots + m _ {n} ^ {2}) ^ {\frac {1}{2}} \leqslant \sqrt {n} \left| m _ {j} \right|, \\ \frac {1}{2} (1 + | m |) \leqslant \sqrt {n} | m _ {j} |. \\ \end{array}
+$$
+
+从而由(4)推知
+
+$$
+\left| c _ {m} \right| \leqslant \frac {A}{\left| m _ {j} \right| ^ {N}} \leqslant \frac {A ^ {\prime}}{(1 + | m |) ^ {N}}. \tag {5}
+$$
+
+这表明若 $f \in C^{\infty}(T^{n})$ ，必有 $\lim_{|m| \to \infty} c_{m}(f) = 0$ .
+
+设 $f \in L(T^n)$ . 对任给 $\varepsilon > 0$ , 存在 $g \in C^\infty(T^n)$ , 使得
+
+$$
+\int_ {T ^ {n}} | f - g | \mathrm{d} x <   \frac {\varepsilon}{2}.
+$$
+
+对这个 $g$ ，由(5)知存在 $M$ ，当 $|m| > M$ 时， $\left|c_m(g)\right| <   \frac{\varepsilon}{2}$ .于是
+
+$$
+\begin{array}{l} \left| c _ {m} (f) \right| \leqslant \frac {1}{(2 \pi) ^ {n}} \left| \int_ {T ^ {n}} [ f (x) - g (x) ] e ^ {- i m \cdot x} d x \right| + \left| c _ {m} (g) \right| \\ <   \frac {\varepsilon}{2} + | c _ {m} (g) | <   \varepsilon , \quad | m | > M. \\ \end{array}
+$$
+
+推论2 若 $f \in C^{\infty}(T^n)$ , 则 $f$ 的Fourier级数绝对一致收敛于 $f(x)$ .
+
+注 推论 2 的条件可以减弱, 见定理 7.
+
+关于多重 Fourier 级数部分和的定义是与一维情形大不相同的.
+
+在 $n$ 维情形, $n \geqslant 2$ , 设 $E_{j}$ 是 $\mathbb{R}^{n}$ 中的有界域, 并且当 $j \to \infty$ 时, $E_{j}$ 趋向于全空间, 我们把 $f$ 的 Fourier 级数(3)的部分和记为
+
+$$
+S _ {E _ {j}} (x) = S _ {E _ {j}} (f, x) = \sum_ {m \in E _ {j}} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}.
+$$
+
+可以考虑当 $j \to \infty$ 时, $S_{E_j}(x)$ 是否有极限. 在一维情形, 我们只需讨论区间 $E_N = [-N, N]$ , 部分和为 $S_N(x) = \sum_{|k| \leqslant N} c_k e^{ikx}$ . 而在多维情形, $E_j$ 可以有各种不同的形状, 情况要复杂得多. 由于 Fourier 级数不是正项级数, 如果级数不绝对收敛, 那么, 不同形式的部分和(也就是求和的顺序不同),其收敛性质就会不同.
+
+最重要的特殊情形是区域 $E_{j}$ 为球形或矩形(也叫做 $\pmb{n}$ 维区间)的情形. 我们介绍以下三种部分和：
+
+(i) 球形部分和
+
+$$
+S _ {R} (x) = S _ {R} (f, x) = \sum_ {| m | <   R} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}, \tag {6}
+$$
+
+即对于 $m \in E_R = \{x : |x| < R\}$ 求和.
+
+(ii) 矩形部分和, 对于 $N=(N_{1},\cdots,N_{n})$ ,
+
+$$
+S _ {N} (f, x) = S _ {N _ {1}, \dots , N _ {n}} (x) = \sum_ {\substack {| m _ {j} | \leqslant N _ {j} \\ j = 1, 2, \dots , n}} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}, \tag{7}
+$$
+
+一般来说, $N_{j}$ 可以互不相同,但也可以相同.因此,它以方形部分和作为特殊情形.
+
+(iii) 方形部分和, 对于 $N_{1}=N_{2}=\cdots=N_{n}=k$ ,
+
+$$
+S _ {k, \dots , k} (f, x) = \sum_ {\substack {| m _ {j} | \leqslant k \\ j = 1, 2, \dots , n}} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}. \tag{8}
+$$
+
+对这些不同形式的部分和讨论收敛问题或求和问题时，取极限的方式也不相同。对于球形部分和，讨论 $S_{R}(f,x)$ 当 $R\to\infty$ 时的极限；对于方形部分和，讨论 $S_{k,\ldots,k}(f,x)$ 当 $k\to\infty$ 时的极限；对于矩形部分和，则讨论 $S_{N_{1},\ldots,N_{n}}(f,x)$ 当 $N_{j}\to\infty(j=1,2,\cdots,n)$ 时的极限，我们用 $N\to\infty$ 来表示 $N_{j}\to\infty,j=1,2,\cdots,n$ 。
+
+关于矩形部分和, 可用以下方法化为卷积形式. 先将(2)代入(7), 再多次利用一维的公式(2.8)式, 得到
+
+$$
+\begin{array}{l} S _ {N _ {1}, \dots , N _ {n}} (f, x) = \int_ {T ^ {n}} f (t) D _ {N} (x - t) \mathrm{d} t \\ = \int_ {T ^ {n}} f (x - t) D _ {N} (t) \mathrm{d} t, \tag {9} \\ \end{array}
+$$
+
+其中
+
+$$
+\begin{array}{l} D _ {N} (t) = D _ {N _ {1}} (t _ {1}) \dots D _ {N _ {n}} (t _ {n}) \\ = \frac {1}{\pi^ {n}} \frac {\sin \left(N _ {1} + \frac {1}{2}\right) t _ {1}}{2 \sin \frac {t _ {1}}{2}} \dots \frac {\sin \left(N _ {n} + \frac {1}{2}\right) t _ {n}}{2 \sin \frac {t _ {n}}{2}}. \tag {10} \\ \end{array}
+$$
+
+特别,如果函数 $f(x)=f_{1}(x_{1})\cdot f_{2}(x_{2})\cdot\cdots\cdot f_{n}(x_{n})$ , 则
+
+$$
+S _ {N _ {1}, \dots , N _ {n}} (f, x) = S _ {N _ {1}} (f _ {1}, x _ {1}) \dots S _ {N _ {n}} (f _ {n}, x _ {n}),
+$$
+
+其中 $S_{N_{j}}(f_{j},x_{j})$ 是一维情形的 Fourier 级数部分和， $j=1,2,\cdots,n$ .
+
+在 §2.2 曾指出, 一维情形有局部化定理 (定理 2.9 及推论 2.10). 而在 $n$ 维情形 $(n \geqslant 2)$ , 设 $f \in C(T^n)$ , 它在原点的一个邻域 $\{x: |x| < \delta\}$ 中为零, 由此并不能推知它的矩形部分和 $S_N(f, 0)$ 收敛于零.
+
+我们举出反例来说明. 不妨设 $n = 2$ , 并且设 $f_{1}, f_{2}$ 是一元连续函数, $f(x) = f_{1}(x_{1})f_{2}(x_{2})$ . 取 $f_{1}$ 使得当 $|x_{1}| < \delta$ 时, $f_{1}(x_{1}) = 0$ . 又取 $f_{2}$ 使得它的 Fourier 级数部分和 $S_{N_2}(f_2, 0)$ 无界 (见定理 2.16 末尾的说明, 若取 $f_{2}$ 为该处的 $f$ , 取 $N_{2} = 3 \times 2^{k^3} - 1$ , 便可使 $S_{N_2}(f_2, 0) \geqslant k\ln 2$ ). 以上取法使得当 $|x| < \delta$ 时, $f(x) = 0$ , 并且
+
+$$
+S _ {N _ {1}, N _ {2}} (f, 0) = S _ {N _ {1}} \left(f _ {1}, 0\right) S _ {N _ {2}} \left(f _ {2}, 0\right).
+$$
+
+虽然当 $N_{1} \to \infty$ 时 $S_{N_1}(f_1,0)$ 的极限为零，但可以取到适当的 $f_{1}$ ，使得对于无穷多个 $N_{1}, S_{N_{1}}(f,0) = A_{N_{1}} \neq 0$ ，从而取 $N_{2}$ 上升得足够快，可以使得 $S_{N_{2}}(f_{2},0)$ 上升得很快（例如使 $S_{N_{2}}(f_{2},0) \geqslant k_{N_{1}} \ln 2 \geqslant \frac{N_{1}}{|A_{N_{1}}|}$ ），以至于 $S_{N_{1},N_{2}}(f,0) = S_{N_{1}}(f_{1},0) S_{N_{2}}(f_{2},0)$ 仍然无界，它不收敛于零。这表明，即使 $f$ 连续，关于矩形部分和的局部化定理对于球形邻域并不成立（关于方形部分和也不成立，证明省略）。
+
+给定一点 $x^{0}=(x_{1}^{0},\cdots,x_{n}^{0})$ 及 $\delta>0$ ，我们称至少满足以下不等式
+
+$$
+\left| x _ {1} - x _ {1} ^ {0} \right| <   \delta , \dots , \left| x _ {n} - x _ {n} ^ {0} \right| <   \delta
+$$
+
+中之一个的点 $x=(x_{1},\cdots,x_{n})$ 组成的集合为 $x^{0}$ 的一个十字邻域 $\Omega_{\delta}$ ，亦即
+
+$$
+\Omega_ {\delta} = \bigcup_ {j = 1} ^ {n} \left\{x: | x _ {j} - x _ {j} ^ {0} | <   \delta \right\},
+$$
+
+当 $n = 2$ 时， $\Omega_{\delta}$ 的形状就像一个十字（见图I.1）.
+
+![](images/8fbcbac62b2161af8ae711f3750aac4aab3bdaba9906b0924ec4ec4d99b4da30.jpg)
+
+<details>
+<summary>text_image</summary>
+
+x₂
+(x₁⁰, x₂⁰)
+O
+x₁
+</details>
+
+图1.1
+
+定理3 设 $f \in L^{1}(\pmb{T}^{n})$ ，若在 $x^{0}$ 的一个十字邻域 $\Omega_{\delta}$ 内 $f(x) = 0$ ，则当 $N \to \infty$ 时，矩形部分和 $S_{N}(f, x^{0}) \to 0$ .
+
+根据(9)，(10)式以及Riemann-Lebesgue引理便可推得此结论.而且实际上不仅对于点 $x^{0}$ ，对于一切点 $x\in I_{\delta}=\{x:|x_{j}-x_{j}^{0}|<\delta,j=1,2,\cdots,n\}$ ，也有 $\lim_{N\to\infty}S_{N}(f,x)=0$ .
+
+# § 2 收敛与求和
+
+$f$ 的Fourier级数按上述三种部分和来研究, 其收敛性是不相同的.
+
+对于球形部分和,为了便于讨论,常考虑以下的 Bochner-Riesz 平均
+
+$$
+S _ {R} ^ {\alpha} (f, x) = \sum_ {| m | <   R} \left(1 - \frac {| m | ^ {2}}{R ^ {2}}\right) ^ {\alpha} c _ {m} e ^ {i m \cdot x}, \tag {11}
+$$
+
+$\alpha=\frac{n-1}{2}$ 叫做临界指标.
+
+若 $\alpha >\frac{n - 1}{2},f\in L(T^n)$ ，则有
+
+$$
+\lim _ {R \rightarrow \infty} S _ {R} ^ {\alpha} (f, x) = f (x)
+$$
+
+几乎处处成立(在Lebesgue点 $x$ 处成立)，并且
+
+$$
+\lim _ {R \rightarrow \infty} \| S _ {R} ^ {\alpha} (f) - f \| _ {L (T ^ {n})} = 0.
+$$
+
+当 $a \leqslant \frac{n - 1}{2}, n \geqslant 2$ 时，有下述否定性结论：
+
+(i) 存在函数 $f \in L(T^n)$ 使得
+
+$$
+\varlimsup_ {R \rightarrow \infty} S _ {R} ^ {(n - 1) / 2} (f, x) = \infty , \quad \text { a.e. }.
+$$
+
+这表明对于临界指标,几乎处处可求和不能成立.对于可积函数,关于临界指标的局部化定理也不成立 $^{①}$ .
+
+(ii) 存在 $f \in L^{p}(\mathbf{T}^{n}), 1 < p < 2$ , 使得 $S_{R}(f, x)$ (即 $S_{R}^{0}(f, x)$ ) 几乎处处发散②. 也就是说, 对于 $L^{p}(\mathbf{T}^{n})$ 中的函数 $(1 < p < 2)$ , 球形部分和的几乎处处收敛性不成立.
+
+以上结果详见 E. M. Stein, G. Weiss[4]第七章以及陆善镇，王昆扬著“Bochner-Riesz 平均”.
+
+对于方形部分和,有些一维的结果可以推广到 n 维.70 年代初,C.Fefferman 等人证明了:若 $f \in L^{p}(T^{n}), p > 1$ ,则方形部分和
+
+$$
+\lim _ {R \rightarrow \infty} S _ {k, \dots , k} (f, x) = f (x), \quad \text { a.e. }.
+$$
+
+对于多维情形, 矩形部分和的收敛性是很差的. C. Fefferman (1971) 证明: 存在 $[0, 2\pi] \times [0, 2\pi]$ 上的二元连续函数 $f$ , 它的 Fourier 级数的矩形部分和 $S_{N_1, N_2}(f, x)$ 处处发散 ( $N_1 \to \infty, N_2 \to \infty$ ).
+
+于是, 有必要讨论矩形部分和的各种求和法. 这里只介绍 $(C,1)$ 平均(即算术平均)与 Abel 平均.
+
+设 $f \in L(T^n), (C, 1)$ 平均为
+
+$$
+\begin{array}{l} \sigma_ {N} (f, x) = \sigma_ {N _ {1}, \dots , N _ {n}} (x) \\ = \frac {1}{(N _ {1} + 1) \cdots (N _ {n} + 1)} \sum_ {k _ {1} = 0} ^ {N _ {1}} \dots \sum_ {k _ {n} = 0} ^ {N _ {n}} S _ {k _ {1}, \dots , k _ {n}} (x) \\ \end{array}
+$$
+
+$$
+= \int_ {T ^ {n}} f (x - t) K _ {n} (t) \mathrm{d} t, \tag {12}
+$$
+
+其中 $K_{N}(t)=K_{N_{1}}(t_{1})\cdots K_{N_{n}}(t_{n})$ ,
+
+$$
+K _ {N _ {j}} \left(t _ {j}\right) = \frac {1}{N _ {j} + 1} \sum_ {k = 0} ^ {N _ {j}} D _ {k} \left(t _ {j}\right) = \frac {1}{2 \pi \left(N _ {j} + 1\right)} \left[ \frac {\sin \frac {1}{2} \left(N _ {j} + 1\right) t _ {j}}{\sin \left(\frac {t _ {j}}{2}\right)} \right] ^ {2}.
+$$
+
+Abel 平均为
+
+$$
+\begin{array}{l} f (r, x) = \sum_ {m \in \mathbf {Z} ^ {n}} c _ {m _ {1}, \dots , m _ {n}} r _ {1} ^ {| m _ {1} |} \dots r _ {n} ^ {| m _ {n} |} e ^ {i \left(m _ {1} x _ {1} + \dots + m _ {n} x _ {n}\right)} \\ = \frac {1}{\pi^ {n}} \int_ {T ^ {n}} f (x - t) P (r, t) \mathrm{d} t, \tag {13} \\ \end{array}
+$$
+
+其中 $r=(r_{1},\cdots,r_{n}),0\leqslant r_{j}<1,j=1,2,\cdots,n,$
+
+$$
+P (r, t) = P \left(r _ {1}, t _ {1}\right) \dots P \left(r _ {n}, t _ {n}\right),
+$$
+
+$$
+P \left(r _ {j}, t _ {j}\right) = \frac {1 - r _ {j} ^ {2}}{2 \left(1 - 2 r _ {j} \cos t _ {j} + r _ {j} ^ {2}\right)}.
+$$
+
+显然有
+
+$$
+\int_ {T ^ {n}} K _ {N} (t) \mathrm{d} t = 1, \quad \frac {1}{\pi^ {n}} \int_ {T ^ {n}} P (r, t) \mathrm{d} t = 1. \tag {14}
+$$
+
+以下定理是 Fejer 定理对多重 Fourier 级数的推广. 记 $Q=\{x:-\pi\leqslant x_{j}\leqslant\pi,j=1,2,\cdots,n\}$ .
+
+定理4 设 $f$ 有界, 则在 $f$ 的连续点 $x^0$ 处有
+
+$$
+\lim _ {N \rightarrow \infty} \sigma_ {N} (f, x ^ {0}) = f \left(x ^ {0}\right), \tag {15}
+$$
+
+并且在 $Q$ 中由连续点组成的任何闭集上，其收敛是一致的.
+
+证明 我们知 $K_{N}(x)$ 非负及有(14)的第一式，又有
+
+$$
+\lim _ {N \rightarrow \infty} \int_ {\substack {| t | \geqslant \delta\\t \in Q}} K _ {N} (t) \mathrm{d} t = 0, \quad 0 <   \delta <   \pi . \tag{16}
+$$
+
+此式证明如下，由 $|t| = (t_1^2 + \cdots + t_n^2)^{1/2} \geqslant \delta$ 推知至少有一个 $j_0$ ，使得 $|t_{j_0}| \geqslant \delta / \sqrt{n}$ （否则，对 $j = 1, 2, \cdots, n, |t_j| < \delta / \sqrt{n}$ ，便有 $t_1^2 + \cdots + t_n^2 < \delta^2$ ，矛盾），所以
+
+$$
+\begin{array}{l} 0 \leqslant \int_ {\substack {| t | \geqslant \delta \\ t \in Q}} K _ {N} (t) \mathrm{d} t \\ \leqslant \int_ {\pi \geqslant | t _ {j _ {0}} | \geqslant \delta / \sqrt {n}} K _ {N _ {J _ {0}}} (t _ {J _ {0}}) \mathrm{d} t _ {J _ {0}} \cdot \left[ \prod_ {\substack {j = 1 \\ j \neq J _ {0}}} ^ {n} \int_ {- \pi} ^ {\pi} K _ {N _ {j}} (t _ {j}) \mathrm{d} t _ {j} \right] \\ \leqslant \int_ {\pi \geqslant | t _ {j _ {0}} | \geqslant \delta / \sqrt {n}} K _ {N _ {J _ {0}}} (t _ {J _ {0}}) \mathrm{d} t _ {J _ {0}} \rightarrow 0 (N _ {j} \rightarrow \infty , j = 1, 2, \dots , n). \\ \end{array}
+$$
+
+设 $x^0$ 是 $f$ 的连续点
+
+$$
+\begin{array}{l} \sigma_ {N} \left(f, x ^ {0}\right) - f \left(x ^ {0}\right) = \int_ {Q} \left[ f \left(x ^ {0} - t\right) - f \left(x ^ {0}\right) \right] K _ {N} (t) d t \\ = \int_ {t \in Q, | t | <   \delta} [ f (x ^ {0} - t) - f (x ^ {0}) ] K _ {N} (t) d t \\ + \int_ {t \in Q, | t | \geqslant \delta} [ f (x ^ {0} - t) - f (x ^ {0}) ] K _ {N} (t) \mathrm{d} t \\ = I _ {1} + I _ {2}. \tag {17} \\ \end{array}
+$$
+
+任给 $\varepsilon > 0$ ，存在 $\delta > 0$ ，当 $|t| < \delta$ 时，
+
+$$
+\left| f (x ^ {0} - t) - f (x ^ {0}) \right| <   \frac {\varepsilon}{2}, \tag {18}
+$$
+
+取这个 $\delta$ 作为(17)中的 $\delta$ ，便有 $|I_1| \leqslant \frac{\varepsilon}{2}$ . 又因 $f$ 有界， $|f(x)| \leqslant M$ ，所以
+
+$$
+\left| I _ {2} \right| \leqslant 2 M \int_ {t \in Q, | t | \geqslant \delta} K _ {N} (t) \mathrm{d} t.
+$$
+
+由(16)式知，取 A 充分大，当 $N_{j} \geqslant A (j = 1, 2, \cdots, n)$ 时，有 $|I_{2}| \leqslant \frac{\varepsilon}{2}$ .
+
+因为 $f(x)$ 在 $Q$ 中由连续点组成的闭集上一致连续，可以取到共同的 $\delta$ 使对这些点有(18)式成立，所以(15)式的收敛是一致的。
+
+推论5 若 $f \in C(T^n)$ , 则
+
+$$
+\lim _ {N \rightarrow \infty} \sigma_ {N} (f, x) = f (x)
+$$
+
+对 $x \in Q$ 一致收敛. 因此存在三角多项式一致逼近 $f(x)$ .
+
+定理6 若 $f \in L^{p}(T^{n}), 1 \leqslant p < \infty$ ，则
+
+$$
+\| \sigma_ {N} (f) \| _ {p} \leqslant \| f \| _ {p} = \left(\int_ {\mathbf {T} ^ {n}} | f (x) | ^ {p} \mathrm{d} x\right) ^ {1 / p}, \tag {19}
+$$
+
+$$
+\| \sigma_ {N} (f) - f \| _ {p} \rightarrow 0 \quad (\text {当} N \rightarrow \infty). \tag {20}
+$$
+
+证明 用广义 Minkowski 不等式, 得
+
+$$
+\begin{array}{l} \left(\int_ {T ^ {n}} \left| \sigma_ {N} (x) \right| ^ {p} \mathrm{d} x\right) ^ {1 / p} = \left(\int_ {T ^ {n}} \left| \int_ {T ^ {n}} f (x - t) K _ {N} (t) \mathrm{d} t \right| ^ {p} \mathrm{d} x\right) ^ {1 / p} \\ \leqslant \int_ {T ^ {n}} \left(\int_ {T ^ {n}} | f (x - t) | ^ {p} \mathrm{d} x\right) ^ {1 / p} K _ {N} (t) \mathrm{d} t = \| f \| _ {p}. \\ \end{array}
+$$
+
+对任给 $\varepsilon > 0$ ，可取到 $\varphi \in C(T^n)$ ，使
+
+$$
+\| f - \varphi \| _ {p} <   \varepsilon .
+$$
+
+于是用(19)式便得到
+
+$$
+\begin{array}{l} \| f - \sigma_ {N} (f) \| _ {p} \leqslant \| f - \varphi \| _ {p} + \| \varphi - \sigma_ {N} (\varphi) \| _ {p} \\ + \left\| \sigma_ {N} (\varphi - f) \right\| _ {p} \\ \leqslant \varepsilon + \| \varphi - \sigma_ {N} (\varphi) \| _ {p} + \varepsilon . \\ \end{array}
+$$
+
+再由推论5可推知 $\lim_{N\to \infty}\| \varphi -\sigma_N(\varphi)\| _p = 0.$ 这样就得到(20)式.
+
+定理 4 及定理 6 的结果对于 Abel 求和也成立.
+
+关于矩形部分和及方形部分和的讨论详见 Zygmund[7]第十七章以及 S. Igari “Lectures on Fourier Series of Several Variables”.
+
+若 $f \in L^{2}(T^{n})$ ，其Fourier级数为(3)，则具有与一维情形类似的Bessel不等式，并有Parseval等式如下：
+
+$$
+(2 \pi) ^ {- n} \int_ {T ^ {n}} | f (x) | ^ {2} \mathrm{d} x = \sum_ {m \in Z ^ {n}} \left| c _ {m} \right| ^ {2}. \tag {21}
+$$
+
+其证明与一维情形类似(单重积分换成 n 重积分).
+
+定理7 设对某个 $k > \frac{n}{2}, f \in C^{(k)}(\mathbf{T}^n)$ ，则 $\sum_{m \in \mathbb{Z}^n} |c_m| < \infty$ ，并且 $f$ 的Fourier级数绝对一致收敛于 $f(x)$ .
+
+证明 利用周期性,通过分部积分可得
+
+$$
+\int_ {T ^ {n}} (\mathrm{D} ^ {a} f) (x) \mathrm{e} ^ {- \mathrm{i} m \cdot x} \mathrm{d} x = (\mathrm{i} m) ^ {a} \int_ {T ^ {n}} f (x) \mathrm{e} ^ {- \mathrm{i} m \cdot x} \mathrm{d} x
+$$
+
+$$
+= (2 \pi) ^ {n} (\mathrm{i} m) ^ {\alpha} c _ {m}, \quad | \alpha | \leqslant k,
+$$
+
+即 $\mathrm{D}^a f$ 的Fourier系数为 $\{(im)^a c_m\}_{m\in \mathbb{Z}^n}$
+
+当 $|\alpha| \leqslant k$ 时, $\mathrm{D}^{\alpha}f$ 连续, 显然平方可积. 由 Parseval 等式 (21) 可知
+
+$$
+\sum_ {m \in \mathbb {Z} ^ {n}} \left| c _ {m} \right| ^ {2} \left| m ^ {\alpha} \right| ^ {2} = (2 \pi) ^ {- n} \| D ^ {\alpha} f \| _ {2} ^ {2} <   + \infty ,
+$$
+
+式中 $m^{\alpha}=m_{1}^{\alpha_{1}}\cdots m_{n}^{\alpha_{n}}$ . 由此得知
+
+$$
+\sum_ {| \alpha | = k} \left(\sum_ {m \in \mathbb {Z} ^ {n}} \left| c _ {m} \right| ^ {2} \left| m ^ {\alpha} \right| ^ {2}\right) <   + \infty , \quad | \alpha | = \alpha_ {1} + \dots + \alpha_ {n}. \tag {22}
+$$
+
+我们由多项式定理得到
+
+$$
+\begin{array}{l} \left| m \right| ^ {2 k} = \left(m _ {1} ^ {2} + \dots + m _ {n} ^ {2}\right) ^ {k} = \sum_ {a _ {1} + \dots + a _ {n} = k} a _ {\alpha} \left(m _ {1} ^ {2}\right) ^ {\alpha_ {1}} \dots \left(m _ {n} ^ {2}\right) ^ {\alpha_ {n}} \\ \leqslant A \sum_ {a _ {1} + \dots + a _ {n} = k} \left(m _ {1} ^ {2}\right) ^ {a _ {1}} \dots \left(m _ {n} ^ {2}\right) ^ {a _ {n}} = A \sum_ {| a | = k} \left| m ^ {\alpha} \right| ^ {2}, \tag {23} \\ \end{array}
+$$
+
+其中 $a_{\alpha}=\frac{k!}{\alpha_{1}!\cdots\alpha_{n}!}, A=\max\{a_{\alpha}: \alpha_{1}+\cdots+\alpha_{n}=k\}$ . 于是, 用(23)式及 Holder 不等式可推得
+
+$$
+\begin{array}{l} \sum_ {| m | > 0} \left| c _ {m} \right| \leqslant \sum_ {| m | > 0} \left| c _ {m} \right| \left[ \left(A \sum_ {| \alpha | = k} \left| m ^ {\alpha} \right| ^ {2}\right) ^ {\frac {1}{2}} | m | ^ {- k} \right] \\ \leqslant A ^ {\frac {1}{2}} \left[ \sum_ {| m | > 0} \left| c _ {m} \right| ^ {2} \left(\sum_ {| \alpha | = k} \left| m ^ {\alpha} \right| ^ {2}\right) \right] ^ {\frac {1}{2}} \left(\sum_ {| m | > 0} | m | ^ {- 2 k}\right) ^ {\frac {1}{2}}. \tag {24} \\ \end{array}
+$$
+
+注意到当 $k > \frac{n}{2}$ 时，级数 $\sum_{|m| > 0}|m|^{-2k}$ 收敛.因此由(24)及(22)式推知 $\sum_{m\in \mathbf{Z}^n}|c_m| < +\infty$
+
+由此可知级数 $\sum_{m\in \mathbb{Z}^n}c_m\mathrm{e}^{1m\cdot x}$ 绝对一致收敛.记级数的和为 $g(x)$ ，即
+
+$$
+g (x) = \sum_ {m \in \mathbf {Z} ^ {n}} c _ {m} \mathrm{e} ^ {\mathrm{i} m \cdot x}.
+$$
+
+显然知 $g \in C(T^n)$ , 它的 Fourier 系数是 $\{c_m\}_{m \in \mathbb{Z}^n}$ . 这表明 $f(x) - g(x)$ 的一切 Fourier 系数为零. 根据三角函数系 $\{\mathrm{e}^{\mathrm{i}m \cdot x}\}_{m \in \mathbb{Z}^n}$ 的完全性便推知 $f(x) = g(x)$ . 因此 $f$ 的 Fourier 级数绝对一致收敛到 $f(x)$ .
+
+# 附录Ⅱ 快速 Fourier 变换
+
+因为各式各样的问题都能用 Fourier 变换来处理, 所以, 很希望能用计算机来计算 Fourier 变换. 本附录研究 Fourier 变换
+
+$$
+F (\omega) = \hat {f} (\omega) = \int_ {- \infty} ^ {\infty} f (t) \mathrm{e} ^ {- 2 \pi i \omega t} \mathrm{d} t \tag {1}
+$$
+
+的数值计算问题.
+
+# § 1 离散 Fourier 变换
+
+为了计算 $F(\omega)$ ，必须将(1)式中的积分改为有限积分，然后用求和来逼近积分，最后计算对一组离散的 $\omega$ 值的求和.
+
+Poisson 求和公式是把(1)变为有限积分的基础. 我们引进函数
+
+$$
+g (t) = \sum_ {n = - \infty} ^ {\infty} f (t + n T), \quad G (\omega) = \sum_ {n = - \infty} ^ {\infty} F (\omega + n \omega_ {1}). \tag {2}
+$$
+
+易见 $g(t)$ 是以 $T$ 为周期的函数, $G(\omega)$ 是以 $\omega_{1}$ 为周期的函数. 根据 §6.7 中给出的 Poisson 求和公式 (3.65') 得知
+
+$$
+g (t) = \frac {1}{T} \sum_ {n = - \infty} ^ {\infty} F \left(\frac {n}{T}\right) \mathrm{e} ^ {\frac {2 \pi i n t}{T}} = \frac {1}{T} \sum_ {n = - \infty} ^ {\infty} F \left(n \omega_ {0}\right) \mathrm{e} ^ {2 \pi i n \omega_ {0} t}, \omega_ {0} = \frac {1}{T}. \tag {3}
+$$
+
+类似地有
+
+$$
+G (\omega) = \frac {1}{\omega_ {1}} \sum_ {m = - \infty} ^ {\infty} f (m T _ {1}) \mathrm{e} ^ {- 2 m m T _ {1} \omega}, \quad T _ {1} = \frac {1}{\omega_ {1}}. \tag {4}
+$$
+
+§ 3.6 曾给出 Poisson 求和公式成立的充分条件, 此处不再讨论它们成立的条件①.
+
+由(3)形式地可知 $F(n\omega_{0})$ 是周期函数 $T \cdot g(t)$ 的 Fourier 系
+
+数，即
+
+$$
+F (n \omega_ {0}) = \int_ {- \frac {T}{2}} ^ {\frac {T}{2}} g (t) \mathrm{e} ^ {- 2 \pi i n \omega_ {0} t} \mathrm{d} t. \tag {5}
+$$
+
+要计算 $F(\omega)$ 的取样值 $F(n\omega_0)$ ，需用到以下结论：
+
+若 T 是任意正常数, N 是任意正整数, 及
+
+$$
+\omega_ {0} = \frac {1}{T}, T _ {1} = \frac {T}{N}, \omega_ {1} = \frac {1}{T _ {1}} = N \omega_ {0},
+$$
+
+则对任意 $m$ ，有
+
+$$
+g (m T _ {1}) = \frac {1}{T} \sum_ {n = 0} ^ {N - 1} G (n \omega_ {0}) W _ {N} ^ {m n}, \tag {6}
+$$
+
+其中 $W_{N} = \mathrm{e}^{12\pi / N}, g$ 与 $G$ 由(2)式给出.
+
+这个结论可如下导出. 由(3)式知
+
+$$
+g \left(m T _ {1}\right) = \frac {1}{T} \sum_ {k = - \infty} ^ {\infty} F \left(k \omega_ {0}\right) \mathrm{e} ^ {2 \pi i k \omega_ {0} m T _ {1}} = \frac {1}{T} \sum_ {k = - \infty} ^ {\infty} F \left(k \omega_ {0}\right) W _ {N} ^ {k m}, \tag {7}
+$$
+
+其中 $W_{N} = \mathrm{e}^{2\pi n / N}$ . 设用 $N$ 去除 $k$ 后得余数为 $n, k$ , 可以写成
+
+$$
+k = n + j N.
+$$
+
+k 的变化范围是从 $-\infty$ 到 $\infty$ ，从而 j 的变化范围也是从 $-\infty$ 到 $\infty$ 。而 n 的取值范围是 $n=0,1,\cdots,N-1$ 。注意到
+
+$$
+W _ {N} ^ {N} = 1, W _ {N} ^ {k m} = W _ {N} ^ {(n + j N) m} = W ^ {n m}.
+$$
+
+于是(7)可改写成
+
+$$
+\begin{array}{l} g \left(m T _ {1}\right) = \frac {1}{T} \sum_ {n = 0} ^ {N - 1} \sum_ {j = - \infty} ^ {\infty} F \left(\left(n + j N\right) \omega_ {0}\right) W _ {N} ^ {(n + j N) m} \\ = \frac {1}{T} \sum_ {n = 0} ^ {N - 1} W _ {N} ^ {n m} \sum_ {j = - \infty} ^ {\infty} F ((n + j N) \omega_ {0}), \tag {8} \\ \end{array}
+$$
+
+式中
+
+$$
+\sum_ {j = - \infty} ^ {\infty} F ((n + j N) \omega_ {0}) = \sum_ {j = - \infty} ^ {\infty} F (n \omega_ {0} + j \omega_ {1}) = G (n \omega_ {0}).
+$$
+
+因此由(8)便得到(6)式.
+
+在(6)式中, 令 $m=0,1,\cdots,N-1$ , 得到 $N$ 个方程. 求这个方程组的解 $\{G(n\omega_0)\}(n=0,1,\cdots,N-1)$ , 亦即求出用取样值
+
+$g(mT_{1})$ 表示 $G(n\omega_{0})$ 的关系式.
+
+一般来说，求出 $G(n\omega_0)$ 还不能决定 $F(n\omega_0)$ . 但是，若
+
+$$
+F (\omega) = 0, \quad | \omega | > \sigma , \tag {9}
+$$
+
+并且 $\omega_{1} > 2\sigma$ ，则
+
+$$
+F (\omega) = G (\omega), | \omega | <   \sigma . \tag {10}
+$$
+
+如果函数 $f(t)$ 虽然并不满足条件(9)，但是取 $\omega_{1}$ 足够大，当 $|\omega|>\frac{\omega_{1}}{2}$ 时， $F(\omega)$ 可以忽略，那么，当 $|n\omega_0|<\frac{\omega_1}{2}$ 时， $F(n\omega_0)$ 近似地等于 $G(n\omega_0)$ . 称 $F(n\omega_0)-G(n\omega_0)$ 为误差.
+
+以上讨论表明：计算傅里叶变换的取样值 $F(n\omega_{0})$ 可以简化为求形如以下 N 个方程组成的方程组的解，
+
+$$
+A _ {m} = \sum_ {n = 0} ^ {N - 1} a _ {n} W _ {N} ^ {m n}, \quad m = 0, 1, \dots , N - 1, \tag {11}
+$$
+
+其中 $W_{N} = \mathrm{e}^{i2\pi /N}$ .这个方程组的解为
+
+$$
+a _ {n} = \frac {1}{N} \sum_ {k = 0} ^ {N - 1} A _ {k} W _ {N} ^ {- k n}, \quad n = 0, 1, \dots , N - 1. \tag {12}
+$$
+
+只要注意到 $W_{N}^{N} = 1$ ，以及
+
+$$
+\sum_ {n = 0} ^ {N - 1} W _ {N} ^ {n (m - k)} = \left\{ \begin{array}{l l} \frac {W _ {N} ^ {N (m - k)} - 1}{W _ {N} ^ {(m - k)} - 1}, & m \neq k, \\ N, & m = k. \end{array} \right.
+$$
+
+将(12)式代入(11)式,便可验证(12)式给出的 $a_{n}$ 是方程组(11)的解.因此,方程组(6)的解是
+
+$$
+G \left(n \omega_ {0}\right) = T _ {1} \sum_ {k = 0} ^ {N - 1} g \left(k T _ {1}\right) W _ {N} ^ {- k n}, \quad n = 0, 1, \dots , N - 1. \tag {13}
+$$
+
+# § 2 快速 Fourier 变换(FFT)
+
+本节研究(12)式给定的 N 个数 $a_{N}$ 的具体算法(亦即(13)式的具体算法). 由于加法运算通常比乘法运算快, 所以快速算法的思想就是要尽量减少乘法运算. 例如 $ab + ac = a(b + c)$ , 用左式计算要做两次乘法, 而用右式计算则只做一次乘法. 由(12)式计算 $a_{n}$ 时, 对每个确定的 $n$ , 要做 $N$ 次乘法, 总共要做 $N^{2}$ 次乘法. 若用以下快速算法 (把一些相同的项合并), 当 $N = 2^{m}$ 时, 就可以把乘法总数由 $N^{2}$ 减少到 $\frac{N}{2} \ln_{2} N$ . 当 $N$ 数很大时, 计算速度明显提高. 这种“快速傅里叶变换”的算法是 1965 年由 Cooley-Tukey 提出的.
+
+设 $N = 2^{m}, m$ 是正整数. 记 $E_{N} = W_{N}^{-1} = \mathrm{e}^{-2\pi / N}$ , 易知 $E_{N}^{N} = 1$ . 又记 $c_{k} = \frac{1}{N} A_{k}$ , 于是(12)改写成
+
+$$
+a _ {n} = \sum_ {k = 0} ^ {N - 1} c _ {k} E _ {N} ^ {k n}, \quad n = 0, 1, \dots , N - 1. \tag {14}
+$$
+
+下面以 $N=2^{3}=8$ 为例介绍这种算法, 这时(14)式中 n=0,1, …,7. 我们用二进制数表示 k 与 n 为
+
+$$
+k = 2 ^ {2} k _ {2} + 2 ^ {1} k _ {1} + 2 ^ {0} k _ {0}, \quad k _ {j} = 0, 1, j = 0, 1, 2. \tag {15}
+$$
+
+$$
+n = 2 ^ {2} n _ {2} + 2 ^ {1} n _ {1} + 2 ^ {0} n _ {0}, \quad n _ {l} = 0, 1, l = 0, 1, 2.
+$$
+
+对(15)式表示的 $k$ 与 $\pmb{n}$ 记为
+
+$$
+k = \left(k _ {2}, k _ {1}, k _ {0}\right), \quad n = \left(n _ {2}, n _ {1}, n _ {0}\right), \tag {16}
+$$
+
+例如， $2=(0,1,0)$ ， $5=(1,0,1)$ .
+
+记 $E=E_{8}$ ，将(15)代入(14)，得到
+
+$$
+\begin{array}{l} a _ {n} = a \left(n _ {2}, n _ {1}, n _ {0}\right) = \sum_ {k = 0} ^ {7} c _ {k} E ^ {k n} \\ = \sum_ {k _ {0} = 0} ^ {1} \sum_ {k _ {1} = 0} ^ {1} \sum_ {k _ {2} = 0} ^ {1} c (k _ {2}, k _ {1}, k _ {0}) E ^ {(2 ^ {2} k _ {2} + 2 k _ {1} + k _ {0}) (2 ^ {2} n _ {2} + 2 n _ {1} + n _ {0})}. \tag {17} \\ \end{array}
+$$
+
+注意到 $E^0 = E^8 = E^{16} = 1$ ，我们有
+
+$$
+\begin{array}{l} E ^ {\left(2 ^ {2} k _ {2} + 2 k _ {1} + k _ {0}\right) \left(2 ^ {2} n _ {2} + 2 n _ {1} + n _ {0}\right)} = E ^ {2 ^ {2} k _ {2} n _ {0} + 2 k _ {1} \left(2 n _ {1} + n _ {0}\right) + k _ {0} \left(2 ^ {2} n _ {2} + 2 n _ {1} + n _ {0}\right)} \\ = E ^ {k _ {2} \left(n _ {0}, 0, 0\right)} \cdot E ^ {k _ {1} \left(n _ {1}, n _ {0}, 0\right)} \cdot E ^ {k _ {0} \left(n _ {2}, n _ {1}, n _ {0}\right)}, \tag {18} \\ \end{array}
+$$
+
+把(18)式代入(17)式,得到
+
+$$
+\begin{array}{l} a \left(n _ {2}, n _ {1}, n _ {0}\right) \\ = \sum_ {k _ {0} = 0} ^ {1} \left\{\sum_ {k _ {1} = 0} ^ {1} \left[ \sum_ {k _ {2} = 0} ^ {1} c \left(k _ {2}, k _ {1}, k _ {0}\right) E ^ {k _ {2} \left(n _ {0}, 0, 0\right)} \right] E ^ {k _ {1} \left(n _ {1}, n _ {0}, 0\right)} \right\} E ^ {k _ {0} \left(n _ {2}, n _ {1}, n _ {0}\right)}. \tag {19} \\ \end{array}
+$$
+
+在(19)式中,方括号内的和只与 $n_{0},k_{1},k_{0}$ 有关,我们记它为 $c_{1}(n_{0},k_{1},k_{0})$ ,
+
+$$
+c _ {1} (n _ {0}, k _ {1}, k _ {0}) = \sum_ {k _ {2} = 0} ^ {1} c (k _ {2}, k _ {1}, k _ {0}) E ^ {k _ {2} (n _ {0}, 0, 0)}.
+$$
+
+类似地记花括号内的和为
+
+$$
+c _ {2} (n _ {0}, n _ {1}, k _ {0}) = \sum_ {k _ {1} = 0} ^ {1} c _ {1} (n _ {0}, k _ {1}, k _ {0}) E ^ {k _ {1} (n _ {1}, n _ {0}, 0)}.
+$$
+
+然后由(19)式得到
+
+$$
+a (n _ {2}, n _ {1}, n _ {0}) = c _ {3} (n _ {0}, n _ {1}, n _ {2}) = \sum_ {k _ {0} = 0} ^ {1} c _ {2} (n _ {0}, n _ {1}, k _ {0}) E ^ {k _ {0} (n _ {2}, n _ {1}, n _ {0})}.
+$$
+
+这就是 N=8 情形所要计算的结果.
+
+一般地，设 $N = 2^{m}.k$ 与 $\pmb{n}$ 的二进制表示为
+
+$$
+k = \left(k _ {m - 1}, \dots , k _ {1}, k _ {0}\right) = 2 ^ {m - 1} k _ {m - 1} + \dots + 2 k _ {1} + k _ {0},
+$$
+
+$$
+n = \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right) = 2 ^ {m - 1} n _ {m - 1} + \dots + 2 n _ {1} + n _ {0},
+$$
+
+$k_{1}, n_{j}$ 取值为 0 或 $1, j=0,1,\cdots,m-1$ . 由此(14)式可写成
+
+$$
+a _ {n} = a \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right)
+$$
+
+$$
+= \sum_ {k _ {0}} \sum_ {k _ {1}} \dots \sum_ {k _ {m - 1}} c \left(k _ {m - 1}, \dots , k _ {1}, k _ {0}\right) E _ {N} ^ {\left(k _ {m - 1}, \dots , k _ {1}, k _ {0}\right) \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right)} (2 0)
+$$
+
+式中的和号 $\sum_{k_{j}}=\sum_{k_{j}=0}^{1},\quad j=0,1,\cdots,m-1.$ 因为 $E_{N}^{N}=1;$ 当 $k\equiv l(\bmod N)$ 时， $E_{N}^{k}=E_{N}^{l}.$ 我们有
+
+$$
+E _ {N ^ {m - 1}, \dots , k _ {1}, k _ {0}) (n _ {m - 1}, \dots , n _ {1}, n _ {0})} = E _ {N} ^ {(2 ^ {m - 1} k _ {m - 1} + \dots + 2 k _ {1} + k _ {0}) (2 ^ {m - 1} n _ {m - 1} + \dots + 2 n _ {1} + n _ {0})}
+$$
+
+$$
+= E _ {N} ^ {2 ^ {m - 1} k _ {m - 1} n _ {0} + 2 ^ {m - 2} k _ {m - 2} \left(2 n _ {1} + n _ {0}\right) + \dots + k _ {0} \left(2 ^ {m - 1} n _ {m - 1} + \dots + 2 n _ {1} + n _ {0}\right)}
+$$
+
+$$
+= E _ {N} ^ {k _ {m - 1} \left(n _ {0}, 0, \dots , 0\right)} \cdot E _ {N} ^ {k _ {m - 2} \left(n _ {1}, n _ {0}, 0, \dots , 0\right)} \dots E _ {N} ^ {k _ {0} \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right)}.
+$$
+
+将它代入(20)式,得到
+
+$$
+\begin{array}{l} a \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right) \\ = \sum_ {k _ {0}} \left\{\sum_ {k _ {1}} \dots \left[ \sum_ {k _ {m - 2}} \left(\sum_ {k _ {m - 1}} c (k _ {m - 1}, \dots , k _ {1}, k _ {0}) E _ {N} ^ {k _ {m - 1} (n _ {0}, 0, \dots , 0)}\right) \right. \right. \\ \left. \cdot E _ {N} ^ {k _ {m - 2} (n _ {1}, n _ {0}, 0, \cdot , 0)} \right] \dots E _ {N} ^ {k _ {1} (n _ {m - 2}, \dots , n _ {1}, n _ {0}, 0)} \Bigg \} E _ {N} ^ {k _ {0} (n _ {m - 1}, \dots , n _ {1}, n _ {0})}. \\ \end{array}
+$$
+
+由此得到递推公式：
+
+$$
+\begin{array}{l} c _ {0} (k _ {m - 1}, \dots k _ {1}, k _ {0}) = c (k _ {m - 1}, \dots , k _ {1}, k _ {0}), \\ c _ {1} (n _ {0}, k _ {m - 2}, \dots k _ {1}, k _ {0}) = \sum_ {k _ {m - 1}} c _ {0} (k _ {m - 1}, \dots , k _ {1}, k _ {0}) E _ {N} ^ {k _ {m - 1} (n _ {0}, 0, \dots , 0)}, \\ c _ {2} (n _ {0}, n _ {1}, k _ {m - 3}, \dots , k _ {1}, k _ {0}) \\ = \sum_ {k _ {m - 2}} c _ {1} (n _ {0}, k _ {m - 2}, \dots , k _ {1}, k _ {0}) E _ {N} ^ {k _ {m - 2} (n _ {1}, n _ {0}, 0, \dots , 0)}, \\ \end{array}
+$$
+
+$$
+\begin{array}{l} c _ {2} (n _ {0}, n _ {1}, k _ {m - 3}, \dots , k _ {1}, k _ {0}) \\ = \sum_ {k _ {m - 2}} c _ {1} (n _ {0}, k _ {m - 2}, \dots , k _ {1}, k _ {0}) E _ {N} ^ {k _ {m - 2} (n _ {1}, n _ {0}, 0, \dots , 0)}, \\ \end{array}
+$$
+
+● ● ● ● ● ● ● ● ● ●
+
+$$
+\begin{array}{l} c _ {l} (n _ {0}, n _ {1}, \dots , n _ {l - 1}, k _ {m - l - 1}, \dots k _ {1}, k _ {0}) \\ = \sum_ {k _ {m - l}} c _ {l - 1} (n _ {0}, n _ {1}, \dots , n _ {l - 2}, k _ {m - l}, \dots , k _ {1}, k _ {0}) E _ {N} ^ {k _ {m - l} (n _ {l - 1}, \dots , n _ {0}, 0, \dots , 0)}, \\ \end{array}
+$$
+
+●●●●●●●●●●●
+
+$$
+c _ {m} (n _ {0}, n _ {1}, \dots , n _ {m - 1}) = \sum_ {k _ {0}} c _ {m - 1} (n _ {0}, n _ {1}, \dots , n _ {m - 2}, k _ {0}) E _ {N} ^ {k _ {0} (n _ {m - 1}, \dots , n _ {1}, n _ {0})}.
+$$
+
+而且最后有
+
+$$
+a \left(n _ {m - 1}, \dots , n _ {1}, n _ {0}\right) = c _ {m} \left(n _ {0}, n _ {1}, \dots , n _ {m - 1}\right).
+$$
+
+附表 1 一些函数的 Fourier 变换
+
+<table><tr><td>f(x)</td><td> $\hat{f}(t)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i2t}dx$ </td></tr><tr><td> $(\tau_h f)(x)=f(x-h)$ </td><td> $e^{-2\pi ih t}\hat{f}(t)$ </td></tr><tr><td> $e^{2\pi ih x}f(x)$ </td><td> $\hat{f}(t--h)$ </td></tr><tr><td> $f(ax)\quad(a\neq0)$ </td><td> $|a|^{-1}\hat{f}(t/a)$ </td></tr><tr><td> $(f*g)(x)$ </td><td> $\hat{f}(t)\cdot\hat{g}(t)$ </td></tr><tr><td> $f(x)g(x)$ </td><td> $(\hat{f}* \hat{g})(t)$ </td></tr><tr><td> $f'(x)$ </td><td> $(2\pi it)\hat{f}(t)$ </td></tr><tr><td> $xf(x)$ </td><td> $(2\pi)^{-1}_{1}(f)'(t)$ </td></tr><tr><td> $\chi_a(x)=\begin{cases}1, & |x|\leqslant a, \\0, & |x|>a\end{cases}$ </td><td> $\frac{\sin 2\pi at}{\pi t}$ </td></tr><tr><td> $(1-|x|)\chi_1(x)$ </td><td> $\left(\frac{\sin\pi t}{\pi t}\right)^2$ </td></tr><tr><td> $e^{-2\pi y|t|}\quad(y>0)$ </td><td> $\frac{y}{\pi(t^2+y^2)}$ </td></tr><tr><td> $e^{-|r^2 a}\quad(\alpha>0)$ </td><td> $(4\pi\alpha)^{-1/2}e^{-t^2/4\alpha}$ </td></tr><tr><td> $\frac{1}{1+x^2}$ </td><td> $\pi e^{-2\pi|t|}$ </td></tr><tr><td> $\frac{x}{\pi(x^2+y^2)}$ </td><td> $-1(\text{sgn}t)e^{-2\pi y|t|}$ </td></tr><tr><td> $\widetilde{f}(x)=\lim_{\delta\to+0}\frac{1}{\pi}\int_{|u|\geqslant\delta}\frac{f(x-u)}{u}du$ </td><td> $-1(\text{sgn}t)\hat{f}(t)$ </td></tr></table>
+
+注 表中 Fourier 变换结果成立所需的条件不再叙述, 详见书中有关章节.
+
+附表 2 一些广义函数的 Foruier 变换
+
+<table><tr><td>u(∈S&#x27;)</td><td>ˆu(ˆu,φ)=ˆu,φ∈S)</td></tr><tr><td>Dk u</td><td>(2π1t)kˆu</td></tr><tr><td>(-2πix)k u</td><td>Dkˆu</td></tr><tr><td>τh u</td><td>e-2πihtˆu</td></tr><tr><td>e2πihx u</td><td>τhˆu</td></tr><tr><td>1</td><td>δ(t)</td></tr><tr><td>δ(x)</td><td>1</td></tr><tr><td>xk</td><td>(i/2π)kDkδ(t)</td></tr><tr><td>Dkδ(x)</td><td>(2π1t)k</td></tr><tr><td>τaδ(x)=δ(x-a)</td><td>e-2πiat</td></tr><tr><td>e2max</td><td>δ(t-a)</td></tr><tr><td>sinax</td><td>1/2[δ(t+a/2π)-δ(t-a/2π)]</td></tr><tr><td>cosax</td><td>1/2[δ(t+a/2π)+δ(t-a/2π)]</td></tr><tr><td>x-1</td><td>-πisgnt</td></tr><tr><td>arc tanx</td><td>(-1/2)e-2π|t|/t</td></tr><tr><td>|x|-1</td><td>-2(γ+ln2π|t|)</td></tr><tr><td>ln2π|x|</td><td>- [1/2|t|+γδ(t)]</td></tr><tr><td>∑m=-∞δ(x-mT)</td><td>1/T ∑m=-∞δ(t-m/T)</td></tr></table>
+
+注 表中的常数 $\gamma = \int_{0}^{1}\frac{1 - \cos y}{y}\mathrm{d}y - \int_{1}^{\infty}\frac{\cos y}{y}\mathrm{d}y.$
+
