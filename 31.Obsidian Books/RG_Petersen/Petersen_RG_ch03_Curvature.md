@@ -8,13 +8,13 @@ We shall also try to justify curvature on more geometric grounds. The idea is to
 
 Much of what we do in this chapter carries over to the pseudo-Riemannian setting. The connection and curvature tensor are generalized without changes. But formulas that involve contractions do need modification (see exercise 1.6.10).
 
-# 3.1 Curvature
+## 3.1 Curvature
 
 We introduced in the previous chapter the idea of covariant derivatives of tensors and explained their relation to the classical concepts of gradient, Hessian, and Laplacian. However, the Riemannian metric is parallel and consequently has no meaningful derivatives. Instead, we think of the connection itself as a sort of gradient of the metric. The next question then is, what should the Laplacian and Hessian be? The answer is, curvature.
 
 Any affine connection on a manifold gives rise to a curvature tensor. This operator measures in some sense how far away the connection is from being our standard connection on Rn, which we assume is our canonical curvature-free, or flat, space. On a (pseudo-)Riemannian manifold it is also possible to take traces of this curvature operator to obtain various averaged curvatures.
 
-# 3.1.1 The Curvature Tensor
+### 3.1.1 The Curvature Tensor
 
 We shall work exclusively in the Riemannian setting. So let .M; g/ be a Riemannian manifold and the Riemannian connection. The curvature tensor is the .1; 3/-tensor defined by
 
@@ -40,7 +40,6 @@ $$
 \begin{array}{l} R (X, Y) f Z = \nabla_ {X, Y} ^ {2} (f Z) - \nabla_ {Y, X} ^ {2} (f Z) \\ = f \nabla_ {X, Y} ^ {2} (Z) - f \nabla_ {Y, X} ^ {2} (Z) \\ + \left(\nabla_ {X, Y} ^ {2} f\right) Z - \left(\nabla_ {Y, X} ^ {2} f\right) Z \\ + \left(\nabla_ {Y} f\right) \nabla_ {X} Z + \left(\nabla_ {X} f\right) \nabla_ {Y} Z \\ - \left(\nabla_ {X} f\right) \nabla_ {Y} Z - \left(\nabla_ {Y} f\right) \nabla_ {X} Z \\ = f \left(\nabla_ {X, Y} ^ {2} (Z) - \nabla_ {Y, X} ^ {2} (Z)\right) \\ = f R (X, Y) Z. \\ \end{array}
 $$
 
-# 3.1 Curvature
 
 Observe that X; Y appear skew-symmetrically in $R ( X , Y ) Z \ = \ R _ { X , Y } Z$ , while Z plays its own role on top of the line, hence the unusual notation.
 
@@ -130,7 +129,6 @@ $$
 \begin{array}{l} 0 = (L _ {X} L) _ {Y} Z \\ = (L _ {X} \nabla) _ {Y} Z - (L _ {X} \nabla) _ {Z} Y \\ \end{array}
 $$
 
-# 3.1 Curvature
 
 $$
 = R _ {X, Y} Z + \nabla_ {Y, Z} ^ {2} X - R _ {X, Z} Y - \nabla_ {Z, Y} ^ {2} X
@@ -190,7 +188,7 @@ Example 3.1.2. $( \mathbb { R } ^ { n } , g _ { \mathbb { R } ^ { n } } )$ has $
 
 From the curvature tensor R we can derive several different curvature concepts.
 
-# 3.1.2 The Curvature Operator
+### 3.1.2 The Curvature Operator
 
 First recall that we have the space $\Lambda ^ { 2 } T M$ of bivectors. A decomposable bivector v w can be thought of as the oriented parallelogram spanned by v; w. If $e _ { i }$ is ^an orthonormal basis for $T _ { p } M$ , then the inner product on $\Lambda ^ { 2 } T _ { p } M$ is such that the bivectors $e _ { i } \wedge e _ { j } , i < j$ will form an orthonormal basis. The inner product that $\Lambda ^ { 2 } T M$ ^inherits in this way is also denoted by $g .$ : Note that this inner product on $\Lambda ^ { 2 } T _ { p } M$ has the property that
 
@@ -216,7 +214,6 @@ $$
 (x \wedge y) (z) + (y \wedge z) (x) + (z \wedge x) (y) = 0.
 $$
 
-# 3.1 Curvature
 
 From the symmetry properties of the curvature tensor it follows that R defines a symmetric bilinear map
 
@@ -236,7 +233,7 @@ $$
 
 consequently defines a self-adjoint operator $: \Lambda ^ { 2 } T M \to \Lambda ^ { 2 } T M$ . This operator R W !is called the curvature operator. It is evidently just a different manifestation of the curvature tensor. The switch between V and W is related to our definition of the next curvature concept.
 
-# 3.1.3 Sectional Curvature
+### 3.1.3 Sectional Curvature
 
 For any $v \in T _ { p } M$ let
 
@@ -299,7 +296,6 @@ $$
 \begin{array}{l} g \left(\Re \left(e _ {i} \wedge e _ {j}\right), e _ {t} \wedge e _ {s}\right) = R (e _ {i}, e _ {j}, e _ {s}, e _ {t}) \\ = k \cdot \left(g (e _ {j}, e _ {s}) g (e _ {i}, e _ {t}) - g (e _ {i}, e _ {s}) g (e _ {j}, e _ {t})\right) \\ = k \cdot g \left(e _ {i} \wedge e _ {j}, e _ {t} \wedge e _ {s}\right). \\ \end{array}
 $$
 
-# 3.1 Curvature
 
 But this implies that
 
@@ -315,7 +311,7 @@ $$
 
 A Riemannian manifold $( M , g )$ that satisfies either of these four conditions for all $p \in M$ and the same $k \in \mathbb { R }$ for all $p \in M$ is said to have constant curvature k. $\mathrm { \bf S o }$ 2far we only know that $( \mathbb { R } ^ { n } , g _ { \mathbb { R } ^ { n } } )$ 2has curvature zero. In sections 4.2.1 and 4.2.3 we shall prove that the space forms $S _ { k } ^ { n }$ as described in example 1.4.6 have constant curvature k.
 
-# 3.1.4 Ricci Curvature
+### 3.1.4 Ricci Curvature
 
 Our next curvature is the Ricci curvature, which can be thought of as the Laplacian of $g .$ :
 
@@ -361,7 +357,7 @@ $$
 
 As the matrix has det 2 any sectional curvature can be computed from Ric. DIn particular, we see that $( M ^ { 3 } , g )$ is Einstein if and only if $( M ^ { 3 } , g )$ has constant sectional curvature. Therefore, the search for Einstein metrics that do not have constant curvature naturally begins in dimension 4.
 
-# 3.1.5 Scalar Curvature
+### 3.1.5 Scalar Curvature
 
 The last curvature quantity we define here is the scalar curvature:
 
@@ -369,7 +365,6 @@ $$
 \operatorname{scal} = \operatorname{tr} (\operatorname{Ric}) = 2 \cdot \operatorname{tr} \Re .
 $$
 
-# 3.1 Curvature
 
 Notice that scal depends only on $p \in M ,$ , so we obtain a function scal $M \to \mathbb { R }$ . In an orthonormal basis $e _ { 1 } , \ldots , e _ { n }$ 2for $T _ { p } M$ W !it can be calculated from the curvature tensor in several ways:
 
@@ -426,9 +421,8 @@ $$
 \mathrm{Ric} = \frac {\mathrm{scal}}{n} g.
 $$
 
-# 3.1 Curvature
 
-# 3.1.6 Curvature in Local Coordinates
+### 3.1.6 Curvature in Local Coordinates
 
 As with the connection it is sometimes convenient to know what the curvature tensor looks like in local coordinates. We first observe that when $X = X ^ { i } \partial _ { i } , Y = Y ^ { j } \partial _ { j }$ , $Z = Z ^ { k } \partial _ { k }$ , then
 
@@ -494,11 +488,11 @@ $$
 
 are also used in the literature.
 
-# 3.2 The Equations of Riemannian Geometry
+## 3.2 The Equations of Riemannian Geometry
 
 In this section we will see that curvature comes up naturally in the investigation of certain types of functions. This will lead us to a collection of formulas that will facilitate the calculation of the curvature tensor of rotationally symmetric and doubly warped product metrics (see section 4.2).
 
-# 3.2.1 Curvature Equations
+### 3.2.1 Curvature Equations
 
 We start with the goal of calculating the curvatures on a Riemannian manifold using various geometric concepts that relate to a specific smooth function $f : M \to \mathbb { R }$ . Often this function will only be smooth on an open subset $O \subset M$ W !in which case we just confine our attention to what happens on that subset.
 
@@ -506,7 +500,6 @@ The function has a gradient f and a Hessian Hess f . We shall also use $S \left(
 
 D ıThe second fundamental form of a hypersurface $H ^ { n - 1 } \subset M ^ { n }$ with a fixed unit normal vector field $N : H  T ^ { \perp } H = \{ v \in T _ { p } M | p \in H , v \perp T _ { p } H \}$ is defined as the .0; 2/-tensor II $\left( { \cal X } , { \cal Y } \right) \ = \ g \left( \nabla _ { \cal X } N , { \cal Y } \right)$ 2 j 2on H. Since $X , Y , [ X , Y ] ~ \in ~ T H$ are perpendicular to N we have
 
-# 3.2 The Equations of Riemannian Geometry
 
 $$
 \begin{array}{l} g (\nabla_ {X} N, Y) = D _ {X} g (N, Y) - g (N, \nabla_ {X} Y) \\ = - g (N, \nabla_ {X} Y) \\ = - g (N, \nabla_ {Y} X) \\ = g \left(\nabla_ {Y} N, X\right). \\ \end{array}
@@ -522,7 +515,7 @@ So we can also define II $\left( { { X , Y } } \right) = g \left( { { \nabla _ {
 
 For the remainder of this section assume that f is given and that $H \subset f ^ { - 1 } \left( a \right)$ is open and consists entirely of regular points for $f .$ . In this case H is clearly a hypersurface. We start by relating the second fundamental form of H to f .
 
-# Proposition 3.2.1. The following properties hold:
+Proposition 3.2.1. The following properties hold:
 
 (1) $\begin{array} { r } { N = \frac { \nabla f } { | \nabla f | } } \end{array}$ is a unit normal to H,   
 (2) $\begin{array} { r } { \operatorname { I I } \left( X , Y \right) = \frac { 1 } { \left| \nabla f \right| } } \end{array}$ Hess f .X; Y/ for all $X , Y \in T H ,$ , and   
@@ -648,7 +641,7 @@ This was Gauss’s wonderful observation! Namely, that the extrinsic quantity de
 
 Finally, in dimension 4 everything reaches its most general level. We can start with an orthonormal frame $\{ X , Y , Z , N \}$ and there are potentially twenty different fcurvature quantities to compute.
 
-# 3.2.2 Distance Functions
+### 3.2.2 Distance Functions
 
 The formulas in the previous section become simpler and more significant if we start by making assumptions about the function. The geometrically defined functions we shall study are distance functions. As we don’t have a concept of distance yet, we define $r : O \to \mathbb { R }$ , where $O \subset \mathsf { ( } M , g )$ is open, to be a distance function if $| \boldsymbol { \nabla } \boldsymbol { r } | \equiv 1$ W ! on O. Distance functions are then simply solutions to the Hamilton-Jacobi jr j equation or eikonal equation $| \boldsymbol { \nabla } r | ^ { 2 } = 1$ : This is a nonlinear first-order PDE and can jr j Dbe solved by the method of characteristics (see e.g. [6]). For now we shall assume that solutions exist and investigate their properties. Later, after we have developed the theory of geodesics, we establish the existence of such functions on general Riemannian manifolds and also justify their name.
 
@@ -728,7 +721,7 @@ Thus, $S \equiv 0$ if and only if $\ddot { c } ^ { 1 } = \ddot { c } ^ { 2 } = 0
 
 We have seen here the difference between extrinsic and intrinsic geometry. Intrinsic geometry is everything we can do on a Riemannian manifold $( M , g )$ that does not depend on how $( M , g )$ might be isometrically immersed in some other Riemannian manifold. Extrinsic geometry is the study of how an isometric immersion $( M , g ) \to$ $( \bar { M } , g _ { \bar { M } } )$ bends $( M , g )$ inside $( { \bar { M } } , g _ { \bar { M } } )$ . For example, the curvature tensor on $( M , g )$ N Nmeasures how the space bends intrinsically, while the shape operator measures extrinsic bending.
 
-# 3.2.3 The Curvature Equations for Distance Functions
+### 3.2.3 The Curvature Equations for Distance Functions
 
 We start by reformulating the radial curvature equation from theorem 3.2.2.
 
@@ -760,7 +753,7 @@ The first equation shows how the Hessian controls the metric. The second and thi
 
 Next we show how appropriate choices for vector fields can give us a better understanding of these fundamental equations.
 
-# 3.2.4 Jacobi Fields
+### 3.2.4 Jacobi Fields
 
 A Jacobi field for a smooth distance function r is a smooth vector field J that does not depend on r, i.e., it satisfies the Jacobi equation
 
@@ -884,7 +877,7 @@ $$
 \sec (T _ {p} M) = - \frac {\partial_ {r} ^ {2} \rho}{\rho}.
 $$
 
-# 3.2.5 Parallel Fields
+### 3.2.5 Parallel Fields
 
 A parallel field for a smooth distance function r is a vector field X such that:
 
@@ -920,7 +913,7 @@ $$
 
 on unit parallel fields that are orthogonal to $\partial _ { r }$ : In this way we really have decoupled the equation for the Hessian from the metric. This allows us to glean information about the Hessian from information about sectional curvature. Equation (1), when rewritten using Jacobi fields, then gives us information about the metric from the information we just obtained about the Hessian using parallel fields.
 
-# 3.2.6 Conjugate Points
+### 3.2.6 Conjugate Points
 
 In general, we might think of the directional curvatures $R _ { \partial _ { r } }$ as being given or having some specific properties. We then wish to investigate how the curvatures influence the metric according to the equations from proposition 3.2.11 and their simplifications on Jacobi fields or parallel fields from sections 3.2.4 and 3.2.5. Equation (1) is linear. Thus the metric can’t degenerate in finite time unless the
 
@@ -946,11 +939,11 @@ then we can think of the curvatures as representing fixed external forces, while
 
 We shall study and exploit this in much greater detail throughout the book.
 
-# 3.3 Further Study
+## 3.3 Further Study
 
 In the upcoming chapters we shall mention several other books on geometry that the reader might wish to consult. A classic that is considered old fashioned by some is [40]. It offers a fairly complete treatment of the tensorial aspects of both Riemannian and pseudo-Riemannian geometry. I would certainly recommend this book to anyone who is interested in learning Riemannian geometry. There is also the authoritative guide [70]. Every differential geometer should have a copy of these tomes especially volume 2. Volume 1 contains a lot of foundational material and is probably best as a reference guide.
 
-# 3.4 Exercises
+## 3.4 Exercises
 
 EXERCISE 3.4.1. Let M be an n-dimensional submanifold of $\mathbb { R } ^ { n + m }$ with the induced metric. Further assume that we have a local coordinate system given by a parametrization $u ^ { s } \left( x ^ { 1 } , \ldots , x ^ { n } \right) , s = 1 , \ldots , n + m$ : Show that in these coordinates $R _ { i j k l }$ D Cdepends only on the first and second partials of $u ^ { s }$ . Hint: Look at exercise 2.5.22.
 
@@ -1018,7 +1011,6 @@ $$
 
 The tangential parts on both sides of this curvature relation form the Gauss equations and the normal parts the Peterson-Codazzi-Mainardi equations.
 
-# 3.4 Exercises
 
 EXERCISE 3.4.12. Let $H ^ { n - 1 } ~ \subset ~ \mathbb { R } ^ { n }$ be a hypersurface. Show that $\begin{array} { r l } { \operatorname { R i c } ^ { H } } & { { } = } \end{array}$ tr $\cdot \mathrm { I I } \cdot \mathrm { I I } - \mathrm { I I } ^ { 2 }$
 
@@ -1056,7 +1048,8 @@ $$
 \left( \begin{array}{c c c} \alpha + \beta & 0 & 0 \\ 0 & \beta + \gamma & 0 \\ 0 & 0 & \alpha + \gamma \end{array} \right).
 $$
 
-Moreover, the numbers ˛; ˇ;  must be sectional curvatures.
+Moreover, the numbers ˛; ˇ; 
+ must be sectional curvatures.
 
 EXERCISE 3.4.16. Consider the .0; 2/-tensor
 
@@ -1108,7 +1101,6 @@ It is called isotropic sectional curvature when v; w span an isotropic plane.
 
 (2) An isotropic plane can be spanned by two Hermitian orthonormal vectors v; w that are isotropic. Show that if $\boldsymbol { v } ~ = ~ \boldsymbol { v } _ { 1 } + \mathrm { i } \boldsymbol { v } _ { 2 }$ and $w ~ = ~ w _ { 1 } + \mathrm { i } w _ { 2 }$ , then $v _ { 1 } , v _ { 2 } , w _ { 1 } , w _ { 2 }$ are orthonormal.
 
-# 3.4 Exercises
 
 (3) Show that $R _ { \mathbb { C } } \left( v , w , \bar { w } , \bar { v } \right)$ is always a real number.
 
@@ -1208,7 +1200,6 @@ $$
 R _ {i k l j} = \mathrm{II} _ {i j} \mathrm{II} _ {k l} - \mathrm{II} _ {i k} \mathrm{II} _ {j l}
 $$
 
-# 3.4 Exercises
 
 $$
 \frac {\partial \amalg_ {j k}}{\partial x ^ {l}} - \frac {\partial \amalg_ {j l}}{\partial x ^ {k}} = \Gamma_ {l j} ^ {s} \amalg_ {s k} - \Gamma_ {k j} ^ {s} \amalg_ {s l}
@@ -1299,7 +1290,6 @@ for any orthonormal frame $E _ { i }$ . Hint: Use (6) from exercise 3.4.24.
 
 (3) Show that the decomposition $R = P \circ g + W$ is orthogonal. Hint: This is similar D ı Cto showing that homotheties and traceless matrices are perpendicular.
 
-# 3.4 Exercises
 
 EXERCISE 3.4.26. Show that
 
@@ -1397,7 +1387,6 @@ $$
 \begin{array}{l} 6 R (X, Y, V, W) = R (X + W, Y + V, Y + V, X + W) \\ - R (X, Y + V, Y + V, X) - R (W, Y + V, Y + V, W) \\ - R (X + W, V, V, X + W) - R (X + W, Y, Y, X + W) \\ + R (X, V, V, X) + R (W, V, V, W) \\ + R (X, Y, Y, X) + R (W, Y, Y, W) \\ \end{array}
 $$
 
-# 3.4 Exercises
 
 $$
 \begin{array}{l} - R (X + V, Y + W, Y + W, X + V) \\ + R (X, Y + W, Y + W, X) + R (V, Y + W, Y + W, V) \\ + R (X + V, Y, Y, X + V) + R (X + V, W, W, X + V) \\ - R (X, Y, Y, X) - R (V, Y, Y, V) \\ - R (X, W, W, X) - R (V, W, W, V). \\ \end{array}

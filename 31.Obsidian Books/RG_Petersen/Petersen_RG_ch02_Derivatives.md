@@ -8,9 +8,9 @@ Surprisingly, the idea of a connection postdates Riemann’s introduction of the
 
 Much of what we do in this chapter carries over to the pseudo-Riemannian setting as long as we keep in mind how to calculate traces in this context.
 
-# 2.1 Lie Derivatives
+## 2.1 Lie Derivatives
 
-# 2.1.1 Directional Derivatives
+### 2.1.1 Directional Derivatives
 
 There are many ways of denoting the directional derivative of a function on a manifold. Given a function $f : M \to \mathbb { R }$ and a vector field Y on M we will use W !the following ways of writing the directional derivative of f in the direction of Y
 
@@ -34,11 +34,10 @@ $$
 
 One rule of thumb for items that are invariantly defined is that they should satisfy the Einstein summation convention. Thus, $d f = \partial _ { i } \left( f \right) d x ^ { i }$ is invariantly defined, while $\nabla f = \partial _ { i } \left( f \right) \partial _ { i }$ is not. The metric $g = g _ { i j } d x ^ { i } d x ^ { j }$ and gradient $\nabla f = g ^ { i j } \partial _ { i } \left( f \right) \partial _ { j }$ are r D Dinvariant expressions that also depend on our choice of metric.
 
-# 2.1.2 Lie Derivatives
+### 2.1.2 Lie Derivatives
 
 Let X be a vector field and $F ^ { t }$ the corresponding locally defined flow on a smooth manifold M. Thus $F ^ { t } \left( p \right)$ is defined for small t and the curve $t \mapsto F ^ { t } \left( p \right)$ is the integral curve for X that goes through p at $t = 0$ : The $L i e$ 7!derivative of a tensor in Dthe direction of X is defined as the first-order term in a suitable Taylor expansion of the tensor when it is moved by the flow of X: The precise formula, however, depends on what type of tensor we use.
 
-# 2.1 Lie Derivatives
 
 If f M R is a function, then
 
@@ -142,7 +141,6 @@ $$
 \left(\left(F ^ {t}\right) ^ {*} T\right) (Y) = T \left(D F ^ {t} (Y)\right)
 $$
 
-# 2.1 Lie Derivatives
 
 $$
 \begin{array}{l} = T \left(Y | _ {F ^ {t}} - t D F ^ {t} \left(L _ {X} Y\right)\right) + o (t) \\ = T (Y) \circ F ^ {t} - t T \left(D F ^ {t} \left(L _ {X} Y\right)\right) + o (t) \\ = T (Y) + t D _ {X} (T (Y)) - t T \left(D F ^ {t} \left(L _ {X} Y\right)\right) + o (t). \\ \end{array}
@@ -220,7 +218,6 @@ $$
 \begin{array}{l} \left(L _ {X} L\right) _ {Y} T = L _ {X} \left(L _ {Y} T\right) - L _ {L _ {X} Y} T - L _ {Y} \left(L _ {X} T\right) \\ = \left[ L _ {X}, L _ {Y} \right] T - L _ {[ X, Y ]} T. \\ \end{array}
 $$
 
-# 2.1 Lie Derivatives
 
 Proposition 2.1.6 (The Generalized Jacobi Identity). For all vector fields X; Y and tensors T
 
@@ -284,7 +281,7 @@ $$
 d \omega (X, Y) = D _ {X} (\omega (Y)) - D _ {Y} (\omega (X)) - \omega ([ X, Y ]).
 $$
 
-# 2.1.3 Lie Derivatives and the Metric
+### 2.1.3 Lie Derivatives and the Metric
 
 The Lie derivative allows us to define the Hessian of a function on a Riemannian manifold as a .0; 2/-tensor:
 
@@ -336,7 +333,7 @@ $$
 \begin{array}{l} = + \sum d (\partial_ {j} f) d x ^ {i} (\partial_ {j}) d x ^ {i} + \sum d (\partial_ {j} f) d x ^ {i} d x ^ {i} (\partial_ {j}) \\ = 2 \sum d (\partial_ {i} f) d x ^ {i} \\ = 2 \sum \partial_ {j i} f d x ^ {j} d x ^ {i} \\ = 2 \text {Hess} f. \\ \end{array}
 $$
 
-# 2.1.4 Lie Groups
+### 2.1.4 Lie Groups
 
 Lie derivatives as might be expected also come in handy when working with Lie groups. For a Lie group G we have the inner automorphism $\mathbf { A d } _ { h } : x \mapsto h x h ^ { - 1 }$ and its differential at $x = e$ denoted by the same letters $\mathbf { A d } _ { h } : { \mathfrak { g } } \to { \mathfrak { g } }$ .
 
@@ -360,15 +357,14 @@ $$
 
 Proof. Since $x \mapsto h x h ^ { - 1 }$ is a linear map on the space Hom $( V , V )$ we see that $\mathbf { A d } _ { h } \left( X \right) = h X h ^ { - 1 }$ : The flow of U is given by $F ^ { t } \left( g \right) = g \left( I + t U + o \left( t \right) \right)$ / so we have
 
-# 2.2 Connections
+## 2.2 Connections
 
 $$
 \begin{array}{l} [ U, X ] = \frac {d}{d t} \left(F ^ {t} (I) X F ^ {- t} (I)\right) | _ {t = 0} \\ = \frac {d}{d t} \left(\left(I + t U + o (t)\right) X (I - t U + o (t))\right) | _ {t = 0} \\ = \frac {d}{d t} (X + t U X - t X U + o (t)) | _ {t = 0} \\ = U X - X U. \\ \end{array}
 $$
 
-# 2.2 Connections
 
-# 2.2.1 Covariant Differentiation
+### 2.2.1 Covariant Differentiation
 
 We now come to the question of attaching a meaning to the change of a vector field. The Lie derivative is one possibility, but it is not a strong enough concept as it doesn’t characterize the Cartesian coordinate fields in $\mathbb { R } ^ { n }$ as having zero derivative. A better strategy for $\mathbb { R } ^ { n }$ is to write $X = X ^ { i } \partial _ { i }$ , where $\partial _ { i }$ are the Cartesian coordinate Dfields. If we want the coordinate vector fields to have zero derivative, then it is natural to define the covariant derivative of X in the direction of Y as
 
@@ -432,7 +428,6 @@ $$
 
 Proof. Since both sides are tensorial in Y and Z it suffices to check the formula on the Cartesian coordinate vector fields. Write $X = a ^ { i } \partial _ { i }$ and calculate the right-hand side
 
-# 2.2 Connections
 
 $$
 \begin{array}{l} \left(L _ {X} g\right) \left(\partial_ {k}, \partial_ {l}\right) + \left(d \theta_ {X}\right) \left(\partial_ {k}, \partial_ {l}\right) = D _ {X} \delta_ {k l} - g \left(L _ {X} \partial_ {k}, \partial_ {l}\right) - g \left(\partial_ {k}, L _ {X} \partial_ {l}\right) \\ + \partial_ {k} g (X, \partial_ {l}) - \partial_ {l} g (X, \partial_ {k}) - g (X, [ \partial_ {k}, \partial_ {l} ]) \\ = - g \left(L _ {a ^ {i} \partial_ {i}} \partial_ {k}, \partial_ {l}\right) - g \left(\partial_ {k}, L _ {a ^ {j} \partial_ {j}} \partial_ {l}\right) \\ + \partial_ {k} a ^ {l} - \partial_ {l} a ^ {k} \\ = - g \left(- \left(\partial_ {k} a ^ {i}\right) \partial_ {i}, \partial_ {l}\right) - g \left(\partial_ {k}, - \left(\partial_ {l} a ^ {j}\right) \partial_ {j}\right) \\ + \partial_ {k} a ^ {l} - \partial_ {l} a ^ {k} \\ = + \partial_ {k} a ^ {l} + \partial_ {l} a ^ {k} + \partial_ {k} a ^ {l} - \partial_ {l} a ^ {k} \\ = 2 \partial_ {k} a ^ {l} \\ = 2 g \left(\left(\partial_ {k} a ^ {i}\right) \partial_ {i}, \partial_ {l}\right) \\ = 2 g \left(\nabla_ {\partial_ {k}} X, \partial_ {l}\right). \\ \end{array}
@@ -502,7 +497,6 @@ $$
 \begin{array}{l} 2 g \left(\nabla_ {X} Y - \nabla_ {Y} X, Z\right) = D _ {Y} g (X, Z) + D _ {X} g (Z, Y) - D _ {Z} g (Y, X) \\ - g ([ Y, X ], Z) - g ([ X, Z ], Y) + g ([ Z, Y ], X) \\ - D _ {X} g (Y, Z) - D _ {Y} g (Z, X) + D _ {Z} g (X, Y) \\ + g ([ X, Y ], Z) + g ([ Y, Z ], X) - g ([ Z, X ], Y) \\ = 2 g ([ X, Y ], Z). \\ \end{array}
 $$
 
-# 2.2 Connections
 
 And (4) from
 
@@ -556,9 +550,8 @@ This shows that $\nabla _ { v } { X }$ makes sense as long as X is prescribed al
 
 It will occasionally be convenient to use coordinates or orthonormal frames with certain nice properties. We say that a coordinate system is normal at p if $g _ { i j } \big | _ { p } = \delta _ { i j }$ and $\partial _ { k } g _ { i j } \rvert _ { p } = 0$ : An orthonormal frame $E _ { i }$ is normal at $p \in M$ if $\nabla _ { v } E _ { i } ( p ) = 0$ Dfor all $i = 1 , \ldots , n$ and $v \in T _ { p } M$ 2 r D: It is not hard to show that such coordinates and frames D 2always exist (see exercises 2.5.20 and 2.5.19).
 
-# 2.2 Connections
 
-# 2.2.2 Covariant Derivatives of Tensors
+### 2.2.2 Covariant Derivatives of Tensors
 
 The connection, as we shall see, is also useful in generalizing many of the well-known concepts (such as Hessian, Laplacian, divergence) from multivariable calculus to the Riemannian setting (see also section 2.1.3).
 
@@ -638,7 +631,6 @@ $$
 (\nabla_ {X} d f) (Y) - (\nabla_ {Y} d f) (X) = [ D _ {X}, D _ {Y} ] f - D _ {[ X, Y ]} f = 0.
 $$
 
-# 2.2 Connections
 
 Thus $\left( \nabla _ { X } d f \right) \left( Y \right)$ is symmetric. This can be used to establish the formulas
 
@@ -648,7 +640,7 @@ $$
 
 ![](images/ce0d658ceaa338a46602614fe04e37ef52930f1657c6c01f3d994fb3ea0ec6bd.jpg)
 
-# 2.2.2.1 The Adjoint of the Covariant Derivative
+#### 2.2.2.1 The Adjoint of the Covariant Derivative
 
 The adjoint to the covariant derivative on $( s , t )$ -tensors with $t > 0$ is defined as
 
@@ -696,7 +688,7 @@ where X is any compactly supported vector field.
 
 ![](images/e59cebe3bb0947c377b348f020c7128c3b16dacfec027f0d9145fea12ef83188.jpg)
 
-# 2.2.2.2 Exterior Derivatives
+#### 2.2.2.2 Exterior Derivatives
 
 The covariant derivative gives us a very nice formula for exterior derivatives of forms as the skew-symmetrized covariant derivative:
 
@@ -716,7 +708,6 @@ $$
 \left(d ^ {\nabla} Y\right) (X) = \nabla_ {X} Y.
 $$
 
-# 2.2 Connections
 
 When k  1 we have a .1; 1/-tensor and obtain the .1; 2/-tensor:
 
@@ -724,7 +715,7 @@ $$
 \begin{array}{l} \left(d ^ {\nabla} T\right) (X, Y) = \left(\nabla_ {X} T\right) (Y) - \left(\nabla_ {Y} T\right) (X) \\ = \nabla_ {X} (T (Y)) - \nabla_ {Y} (T (X)) - T [ X, Y ]. \\ \end{array}
 $$
 
-# 2.2.2.3 The Second Covariant Derivative
+#### 2.2.2.3 The Second Covariant Derivative
 
 For a .s; t/-tensor field S we define the second covariant derivative $\nabla ^ { 2 } S$ as the $( s , t + 2 )$ -tensor field
 
@@ -746,7 +737,7 @@ $$
 \Delta f = - \nabla^ {*} \nabla f = \sum_ {i = 1} ^ {n} \nabla_ {E _ {i}, E _ {i}} ^ {2} f.
 $$
 
-# 2.2.2.4 The Lie Derivative of the Covariant Derivative
+#### 2.2.2.4 The Lie Derivative of the Covariant Derivative
 
 We can define the Lie derivative of the connection in a way similar to the Lie derivative of the Lie bracket
 
@@ -762,7 +753,7 @@ $$
 
 Moreover as $\nabla _ { U } V$ is tensorial in U the Lie derivative $( L _ { X } \nabla ) _ { U }$ V will also be tensorial r rin U. The fact that it is also symmetric shows that it is tensorial in both variables.
 
-# 2.2.2.5 The Covariant Derivative of the Covariant Derivative
+#### 2.2.2.5 The Covariant Derivative of the Covariant Derivative
 
 We can also define the covariant derivative of the covariant derivative
 
@@ -778,7 +769,7 @@ $$
 \nabla_ {X, Y} ^ {2} T = (\nabla_ {X} \nabla) _ {Y} T + \nabla_ {Y} (\nabla_ {X} T).
 $$
 
-# 2.3 Natural Derivations
+## 2.3 Natural Derivations
 
 We’ve seen that there are many natural derivations on tensors coming from various combinations of derivatives. We shall attempt to tie these together in a natural and completely algebraic fashion by using that all .1; 1/-tensors naturally act as derivations on tensors.
 
@@ -788,7 +779,7 @@ $$
 D \left(T _ {1} \otimes T _ {2}\right) = \left(D T _ {1}\right) \otimes T _ {2} + T _ {1} \otimes D T _ {2}.
 $$
 
-# 2.3.1 Endomorphisms as Derivations
+### 2.3.1 Endomorphisms as Derivations
 
 The goal is to show that .1; 1/-tensors naturally act as derivations on the space of all tensors.
 
@@ -804,7 +795,6 @@ $$
 v _ {1} \otimes \dots \otimes v _ {s} \otimes \phi_ {1} \otimes \dots \otimes \phi_ {t}
 $$
 
-# 2.3 Natural Derivations
 
 where $v _ { 1 } , \dotsc , v _ { s } \in V$ and $\phi _ { 1 } , \dots , \phi _ { t } : V \to \mathbb { R }$ are linear functions. The natural 2homomorphism acts as follows: for $\alpha \in \mathbb { R }$ !we have $g \cdot \alpha = 0 ;$ ; for $v \in V$ we have $g \cdot v = g \left( v \right)$ ; for $\phi \in V ^ { * }$ we have $g \cdot \phi = \phi \circ g ^ { - 1 }$  D 2; and on general tensors
 
@@ -869,7 +859,7 @@ Proposition 2.3.3. Assume V has an inner product:
 (1) The adjoint of $L : V \to V$ extends to become the adjoint for $L : T ( V )  T ( V )$ .   
 (2) If $L \in \mathfrak { s o } \left( V \right) , i . e .$ ! W !, L is skew-adjoint, then L commutes with type change of 2tensors.
 
-# 2.3.2 Derivatives
+### 2.3.2 Derivatives
 
 One can easily show that both the Lie derivative $L _ { U }$ and the covariant derivative $\nabla _ { U }$ act as derivations on tensors (see exercises 2.5.9 and 2.5.10). However, these roperations are nontrivial on functions. Therefore, they are not of the type we just introduced above.
 
@@ -883,7 +873,7 @@ Proof. It suffices to check that this identity holds on vector fields and functi
 
 This proposition indicates that one can make sense of the expression $\nabla _ { T } U$ where T is a tensor and U a vector field. It has in other places been named $A _ { X } T$ r, but as that now generally has been accepted as the A-tensor for a Riemannian submersion we have not adopted this notation.
 
-# 2.4 The Connection in Tensor Notation
+## 2.4 The Connection in Tensor Notation
 
 In a local coordinate system the metric is written as $g = g _ { i j } d x ^ { i } d x ^ { j }$ : So if $X = X ^ { i } \partial _ { i }$ and $Y = Y ^ { j } \partial _ { j }$ are vector fields, then
 
@@ -1153,7 +1143,7 @@ $$
 
 This notation is also explored in exercise 2.5.34. This will also be our convention when using indices for the curvature tensor.
 
-# 2.5 Exercises
+## 2.5 Exercises
 
 EXERCISE 2.5.1. Show that the connection on Euclidean space is the only affine connection such that $\nabla X = 0$ for all constant vector fields X:
 
@@ -1183,7 +1173,6 @@ $$
 \operatorname{Hess} (f h) = h \operatorname{Hess} f + f \operatorname{Hess} h + d f d h + d h d f.
 $$
 
-# 2.5 Exercises
 
 EXERCISE 2.5.6. Let $( M , g )$ be a Riemannian manifold, f a function on M, and 
  a function on R. Show that
@@ -1277,7 +1266,6 @@ EXERCISE 2.5.19. For any $p \in ( M , g )$ and orthonormal basis $e _ { 1 } , \l
 
 EXERCISE 2.5.20. Show that there are coordinates $x ^ { 1 } , \ldots , x ^ { n }$ such that $\partial _ { i } = e _ { i }$ and $\nabla \partial _ { i } = 0$ at p: These conditions imply that the metric coefficients satisfy $g _ { i j } = \delta _ { i j }$ rand $\partial _ { k } g _ { i j } = 0$ at $p .$ : Such coordinates are called normal coordinates at $p$ D: Hint: Given Da general set of coordinates $y ^ { i }$ around $p$ with $y ^ { i } \left( p \right) = 0$ , let $x ^ { i } = \alpha _ { i } ^ { i } \left( y \right) y ^ { j }$ , adjust
 
-# 2.5 Exercises
 
 $\alpha _ { i } ^ { i } \left( 0 \right)$ to make the fields orthonormal at $p ,$ , and adjust $\frac { \partial \alpha _ { j } ^ { i } } { \partial y ^ { k } } \left( 0 \right)$ to make the covariant derivatives vanish at $p .$ .
 
@@ -1379,7 +1367,6 @@ $$
 g _ {\bar {M}} (T _ {X} Y, V) = - g _ {M} (Y, T _ {X} V).
 $$
 
-# 2.5 Exercises
 
 (3) Show that $\nabla _ { X } ^ { \perp } V$ is linear and a derivation in the V variable and tensorial in the X variable.
 

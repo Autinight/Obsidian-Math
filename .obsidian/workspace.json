@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Petersen_RG_ch02_Derivatives"
+              "title": "Petersen_RG_ch01_Riemannian_Metrics"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Petersen_RG_ch02_Derivatives 的大纲"
+              "title": "Petersen_RG_ch01_Riemannian_Metrics 的大纲"
             }
           }
         ],
@@ -170,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,11 +185,19 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch12_Sectional_Curvature_Comparison_II.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch11_Convergence.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch03_Curvature.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch04_Examples.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch06_Sectional_Curvature_Comparison_I.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch12_Sectional_Curvature_Comparison_II.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch11_Convergence.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch09_The_Bochner_Technique.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch08_Killing_Fields.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch07_Ricci_Curvature_Comparison.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
+    "60.Templates/Archive.js",
     "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
@@ -201,13 +209,6 @@
     "31.Obsidian Books/RG_Petersen/images/ff25bf89bfd13915c5f0959ddf3bbc4d679ff4bd4f5f150a3101e63c25121825.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff19d3c7f8e1c34e4e97a244041245785842458d546596a4b3e954a315ceafa3.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff17ba1c0b63eb6aae1ae4b365d2ba4e9fcf83bdf9be8149ac7c869e259a3543.jpg",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch09_The_Bochner_Technique.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch08_Killing_Fields.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch07_Ricci_Curvature_Comparison.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch06_Sectional_Curvature_Comparison_I.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch03_Curvature.md",
     "31.Obsidian Books/RG_Petersen/images",
     "31.Obsidian Books/RG_Petersen",
     "31.Obsidian Books/未命名",
@@ -219,7 +220,6 @@
     "30.Recources/HA/HA_Pan/full.md.tmp.16244.c3a2f5329005",
     "30.Recources/HA/傅里叶分析及其应用.md",
     "30.Recources/HA/HA_Pan/full.md.tmp.4476.aba9fa3ed5d2",
-    "30.Recources/HA/HA_Pan/images",
     "30.Recources/FA/FA_Zhang/FA_Zhang.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch4.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch3.md",

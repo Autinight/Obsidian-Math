@@ -6,11 +6,11 @@ We start by introducing the concept of differentiation of vector fields along cu
 
 We also establish some basic comparison estimates that are needed here and later in the text. These results are used to show how geodesics and curvature can help in estimating the injectivity, conjugate, and convexity radii.
 
-# 6.1 The Connection Along Curves
+## 6.1 The Connection Along Curves
 
 Recall that in sections 3.2.4 and 3.2.5 we introduced Jacobi and parallel fields for a smooth distance function. Here we will generalize these concepts to allow for Jacobi and parallel fields along a single geodesic, rather than the whole family of geodesics associated to a distance function. This will be quite useful when we study variations.
 
-# 6.1.1 Vector Fields Along Curves
+### 6.1.1 Vector Fields Along Curves
 
 Let $c : I  M$ be a curve in M. A vector field V along c is by definition a map $V : I  T M$ with $V ( t ) \in T _ { c ( t ) } M$ for all $t \in I .$ . The goal is to define the covariant W !derivative
 
@@ -66,7 +66,7 @@ where $\lambda : I  \mathbb { R }$ is a function.
 
 W !As with second partials, differentiation along curves can be done in a larger space and then projected on to M. Specifically, if $M \subset { \bar { M } }$ and $c : I \to M$ is a curve and $V : I  T M$  Na vector field along c, then we can compute $\dot { V } \in T \bar { M }$ and then project $\left( \dot { V } \right) ^ { \top } \in T M$ 2to obtain the derivative of V along c in M. Example 6.1.1 shows what 2can go wrong if we are not careful about projecting the derivatives.
 
-# 6.1.2 Third Partials
+### 6.1.2 Third Partials
 
 One of the uses of taking derivatives of vector fields along curves is that we can now define third and higher order partial derivatives. If we wish to compute
 
@@ -150,7 +150,7 @@ $$
 \begin{array}{l} \frac {\partial^ {3} c}{\partial u \partial s \partial t} | _ {p} - \frac {\partial^ {3} c}{\partial s \partial u \partial t} | _ {p} = \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial s} \frac {\partial c ^ {k}}{\partial u} \left(\partial_ {k} \Gamma_ {i j} ^ {l}\right) \partial_ {l} - \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial u} \frac {\partial c ^ {k}}{\partial s} \left(\partial_ {k} \Gamma_ {i j} ^ {l}\right) \partial_ {l} \\ = \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial s} \frac {\partial c ^ {k}}{\partial u} \left(\partial_ {k} \Gamma_ {i j} ^ {l}\right) \partial_ {l} - \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {k}}{\partial u} \frac {\partial c ^ {j}}{\partial s} \left(\partial_ {j} \Gamma_ {i k} ^ {l}\right) \partial_ {l} \\ = \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial s} \frac {\partial c ^ {k}}{\partial u} \left(\partial_ {k} \Gamma_ {i j} ^ {l} - \partial_ {j} \Gamma_ {i k} ^ {l}\right) \partial_ {l} \\ = \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial s} \frac {\partial c ^ {k}}{\partial u} \left(\partial_ {k} \Gamma_ {j i} ^ {l} - \partial_ {j} \Gamma_ {k i} ^ {l}\right) \partial_ {l} \\ = \frac {\partial c ^ {i}}{\partial t} \frac {\partial c ^ {j}}{\partial s} \frac {\partial c ^ {k}}{\partial u} R _ {k j i} ^ {l} \partial_ {l} \\ = R \left(\frac {\partial c}{\partial u}, \frac {\partial c}{\partial s}\right) \frac {\partial c}{\partial t}. \\ \end{array}
 $$
 
-# 6.1.3 Parallel Transport
+### 6.1.3 Parallel Transport
 
 A vector field V along c is said to be parallel along c provided ${ \dot { V } } \equiv 0$ . We know that the tangent field c along a geodesic is parallel. We also just saw in example 6.1.1 Pthat the unit field perpendicular to a great circle in $S ^ { 2 } \left( 1 \right)$ is a parallel field.
 
@@ -195,7 +195,7 @@ This makes it possible to understand equations involving only one covariant deri
 
 In this way parallel frames make covariant derivatives look like standard derivatives in the same fashion that coordinate vector fields make Lie derivatives look like standard derivatives.
 
-# 6.1.4 Jacobi Fields
+### 6.1.4 Jacobi Fields
 
 Another variational field that is often quite useful is the field that comes from a geodesic variation, i.e., $t \mapsto { \bar { c } } \left( s , t \right)$ is a geodesic for all s. We encountered these 7! Nfields in section 3.2.4 as vector fields satisfying $L _ { \partial _ { r } } J = 0$ . Here they need only Dbe defined along a single geodesic so the Lie derivative equation no longer makes sense. The second-order Jacobi equation, however, does make sense in this context:
 
@@ -237,7 +237,7 @@ $$
 \begin{array}{l} \operatorname{Hess} r (J (t), J (t)) = g (\nabla_ {J (t)} \nabla r, J (t)) \\ = g \left(\frac {\partial^ {2} \bar {c}}{\partial s \partial t}, J\right) | _ {(0, t)} \\ = g \left(\frac {\partial^ {2} \bar {c}}{\partial t \partial s}, J\right) | _ {(0, t)} \\ = g \left(\dot {J} (t), J (t)\right). \\ \end{array}
 $$
 
-# 6.1.5 Second Variation of Energy
+### 6.1.5 Second Variation of Energy
 
 Recall from section 5.4 that all geodesics are stationary points for the energy functional. To better understand what happens near a geodesic we do exactly what we would do in calculus, namely, compute the second derivative of any variation of a geodesic.
 
@@ -279,7 +279,7 @@ $$
 
 but the formula still depends on the variation and not just on V. If, however, we select the variation such that $s \mapsto \bar { c } \left( s , t \right)$ are geodesics, then the last term also drops out.
 
-# 6.2 Nonpositive Sectional Curvature
+## 6.2 Nonpositive Sectional Curvature
 
 In this section we show that the exponential map $\exp _ { p } : T _ { p } M  M$ is a covering map, provided $( M , g )$ W !is complete and has nonpositive sectional curvature everywhere. This implies, in particular, that no compact simply connected manifold admits such a metric. We shall also prove some interesting results about the fundamental groups of such manifolds.
 
@@ -287,7 +287,7 @@ The first observation about manifolds with nonpositive curvature is that any geo
 
 Recall from our discussion of the fundamental equations in section 3.2 and 3.2.4 that Jacobi fields seem particularly well-suited for the task of studying nonpositive curvature. This will be borne out here and later in section 6.4.
 
-# 6.2.1 Manifolds Without Conjugate Points
+### 6.2.1 Manifolds Without Conjugate Points
 
 We start with a result that gives strong restrictions on the behavior of the exponential map.
 
@@ -347,7 +347,7 @@ which is what we wanted to prove.
 
 No similar theorem can hold for Riemannian manifolds with $\mathrm { R i c } \le 0$ or scal $\leq$ 0, since we saw in sections 4.2.3 and $4 . 2 . 5$  that there exist Ricci flat metrics on $\mathbb { R } ^ { 2 } \times S ^ { n - 2 }$ and scalar flat metrics on $\mathbb { R } \times S ^ { n - 1 }$ .
 
-# 6.2.2 The Fundamental Group in Nonpositive Curvature
+### 6.2.2 The Fundamental Group in Nonpositive Curvature
 
 We are going to prove two results on the structure of the fundamental group for manifolds with nonpositive curvature. The interested reader is referred to the book by Eberlein [38] for further results on manifolds with nonpositive curvature.
 
@@ -609,13 +609,13 @@ c₂
 
 Fig. 6.3 Dilatation and axes
 
-# 6.3 Positive Curvature
+## 6.3 Positive Curvature
 
 In this section we establish several of the classical results for manifolds with positive curvature. In contrast to the previous section, it is not possible to carry Euclidean geometry over to this setting. So while we try to imitate the results, new techniques are necessary.
 
 In our discussion of the fundamental equations in section 3.2 we saw that using parallel fields most easily gave useful information about Hessians of distance functions when the curvature is nonnegative. This will be confirmed here through the use of suitable variational fields to find the second variation of energy. In section 6.5 below we show how more sophisticated techniques can be used in conjunction with the developments here to establish stronger results.
 
-# 6.3.1 The Diameter Estimate
+### 6.3.1 The Diameter Estimate
 
 Our first restriction on positively curved manifolds is an estimate for how long minimal geodesics can be. It was first proven by Bonnet for surfaces and later by Synge for general Riemannian manifolds as an application of his second variation formula.
 
@@ -633,7 +633,6 @@ $$
 \begin{array}{l} \frac {d ^ {2} E}{d s ^ {2}} | _ {s = 0} = \int_ {0} ^ {l} | \dot {V} | ^ {2} d t - \int_ {0} ^ {l} g (R (V, \dot {c}) \dot {c}, V) d t \\ = \int_ {0} ^ {l} \left| \frac {\pi}{l} \cos \left(\frac {\pi}{l} t\right) E (t) \right| ^ {2} d t \\ - \int_ {0} ^ {l} g \left(R \left(\sin \left(\frac {\pi}{l} t\right) E (t), \dot {c}\right) \dot {c}, \sin \left(\frac {\pi}{l} t\right) E (t)\right) d t \\ = \left(\frac {\pi}{l}\right) ^ {2} \int_ {0} ^ {l} \cos^ {2} \left(\frac {\pi}{l} t\right) d t - \int_ {0} ^ {l} \sin^ {2} \left(\frac {\pi}{l} t\right) \sec (E, \dot {c}) d t \\ \end{array}
 $$
 
-# 6.3 Positive Curvature
 
 $$
 \begin{array}{l} \leq \left(\frac {\pi}{l}\right) ^ {2} \int_ {0} ^ {l} \cos^ {2} \left(\frac {\pi}{l} t\right) d t - k \int_ {0} ^ {l} \sin^ {2} \left(\frac {\pi}{l} t\right) d t \\ <   k \int_ {0} ^ {l} \cos^ {2} \left(\frac {\pi}{l} t\right) d t - k \int_ {0} ^ {l} \sin^ {2} \left(\frac {\pi}{l} t\right) d t \\ = 0. \\ \end{array}
@@ -685,7 +684,7 @@ $$
 
 that has $\mathrm { R i c } > 0$ everywhere. Curvatures are calculated as in 1.4.5. If we define $\rho ( t ) = t ^ { - 1 / 4 }$ and $\phi ( t ) \stackrel { \textstyle \cdot } { = } t ^ { 3 / 4 }$ for $t \geq 1$ , then the Ricci curvature will be positive. DNext extend to $[ 0 , \infty ]$ D so that the metric becomes smooth at $t = 0 ;$ the functions are $C ^ { 1 }$ 1and piecewise smooth at $t = 1 ; - 1 < \dot { \rho } \le 0 ; 0 < \dot { \phi } \le 1 ; \ddot { \phi } < 0 ;$ ; and on $[ 0 , 1 ] \ddot { \rho } \leq 0$ . This will result in a $C ^ { 1 }$  P  P  Rmetric that has positive Ricci curvature except at $t = 1$ . Finally, smooth out $\rho$ at $t = 1$ ensuring that the Ricci curvature stays Dpositive.
 
-# 6.3.2 The Fundamental Group in Even Dimensions
+### 6.3.2 The Fundamental Group in Even Dimensions
 
 For the next result we need to study what happens when we have a closed geodesic in a Riemannian manifold of positive curvature.
 
@@ -695,7 +694,6 @@ Let $c : [ 0 , l ] \to M$ be a closed unit speed geodesic, $\mathbf { i . e . , 
 
 (2) If M is not orientable, has odd dimension, and furthermore, c is a nonorientable loop, i.e., the orientation changes as we go around this loop, then parallel
 
-# 6.3 Positive Curvature
 
 Fig. 6.4 Finding shorter curves near a closed geodesic   
 ![](images/cc7e05ff528a59890c58bf1a3dc7587a751f8e3bf9d3b1cbe872627db865b22d.jpg)
@@ -729,11 +727,11 @@ Thus all nearby curves in this variation are closed curves whose lengths are sho
 
 The first important conclusion we get from this result is that while $\mathbb { R } \mathbb { P } ^ { 2 } \times \mathbb { R } \mathbb { P } ^ { 2 }$ has -positive Ricci curvature, it cannot support a metric of positive sectional curvature. It is, on the other hand, completely unknown whether $S ^ { 2 } \times S ^ { 2 }$ admits a metric of -positive sectional curvature. This is known as the Hopf problem. Recall that in section 6.2.2 we showed, using fundamental group considerations, that no product manifold admits negative curvature. In this case, fundamental group considerations cannot take us as far.
 
-# 6.4 Basic Comparison Estimates
+## 6.4 Basic Comparison Estimates
 
 In this section we lay the foundations for the comparison estimates that will be needed later in the text.
 
-# 6.4.1 Riccati Comparison
+### 6.4.1 Riccati Comparison
 
 We start with a general result for differential inequalities.
 
@@ -849,7 +847,7 @@ The Hessian estimates for the modified distance functions follow immediately.
 
 Remark 6.4.4. A more traditional proof technique using the index form is discussed in exercise 6.7.25 within the context of lower curvature bounds. It can also be adapted to deal with upper curvature bounds.
 
-# 6.4.2 The Conjugate Radius
+### 6.4.2 The Conjugate Radius
 
 As in the proof of theorem 6.2.2 we are going to estimate where the exponential map is nonsingular.
 
@@ -957,11 +955,11 @@ $$
 \operatorname{conv.rad} (M, g) = \frac {\operatorname{inj} (M , g)}{2}.
 $$
 
-# 6.5 More on Positive Curvature
+## 6.5 More on Positive Curvature
 
 In this section we shall establish some further restrictions on the topology of manifolds with positive curvature. The highlight will be the classical quarter pinched sphere theorem of Rauch, Berger, and Klingenberg. To prove this theorem requires considerable preparation. We shall elaborate further on this theorem and its generalizations in section 12.3.
 
-# 6.5.1 The Injectivity Radius in Even Dimensions
+### 6.5.1 The Injectivity Radius in Even Dimensions
 
 Using the ideas of the proof of theorem 6.3.6 we get another interesting restriction on the geometry of positively curved manifolds.
 
@@ -988,7 +986,7 @@ A much deeper result by Klingenberg asserts that if a simply connected manifold 
 
 These injectivity radius estimates will be used to prove some fascinating sphere theorems.
 
-# 6.5.2 Applications of Index Estimation
+### 6.5.2 Applications of Index Estimation
 
 Some notions and results from topology are needed to explain the material here.
 
@@ -1016,7 +1014,8 @@ $$
 
 is .m 1/-connected.
 
-Outline of Proof. If there are no critical points in $f ^ { - 1 } \left( [ a , b ] \right)$ , then the gradient flow will deform $f ^ { - 1 } \left( \left( - \infty , b \right] \right) \mathsf { t o } f ^ { - 1 } \left( \left( - \infty , a \right] \right)$ . This is easy to prove and is explained 1 1in lemma 12.1.1. If there are critical points, then by compactness we can cover the set of critical points by finitely many open sets $U _ { i } \approx ( - a , a ) ^ { n } , 0 < a < 1$ , where $\bar { U } _ { i } \subset V _ { i }$ and $\bar { V } _ { i } \approx [ - 1 , 1 ] ^ { n }$ is a closed box coordinate chart where the first m   coordinates correspond to directions where Hess f is negative definite.
+Outline of Proof. If there are no critical points in $f ^ { - 1 } \left( [ a , b ] \right)$ , then the gradient flow will deform $f ^ { - 1 } \left( \left( - \infty , b \right] \right) \mathsf { t o } f ^ { - 1 } \left( \left( - \infty , a \right] \right)$ . This is easy to prove and is explained 1 1in lemma 12.1.1. If there are critical points, then by compactness we can cover the set of critical points by finitely many open sets $U _ { i } \approx ( - a , a ) ^ { n } , 0 < a < 1$ , where $\bar { U } _ { i } \subset V _ { i }$ and $\bar { V } _ { i } \approx [ - 1 , 1 ] ^ { n }$ is a closed box coordinate chart where the first m  
+ coordinates correspond to directions where Hess f is negative definite.
 
 Consider a map $\phi : N ^ { k - 1 }  f ^ { - 1 } ( [ a , b ] ) , k \leq m$ , where $\partial N ^ { k - 1 } \subset f ^ { - 1 } \left( ( - \infty , a ] \right)$ Wif the boundary is nonempty.
 
@@ -1119,7 +1118,7 @@ Using $E : \Omega _ { N _ { 1 } , N _ { 2 } } \left( M \right) \to \left[ 0 , \i
 
 What is commonly known as Frankel’s theorem is included in part (b). The statement is simply that under the conditions in (b) the intersection is nonempty.
 
-# 6.6 Further Study
+## 6.6 Further Study
 
 Several textbooks treat the material mentioned in this chapter, and they all use variational calculus. We especially recommend [23, 30, 47] and [65]. The latter also discusses in more detail closed geodesics and, more generally, minimal maps and surfaces in Riemannian manifolds.
 
@@ -1129,7 +1128,7 @@ For more information about the injectivity radius in positive curvature the read
 
 All of the necessary topological background material used in this chapter can be found in [75] and [96].
 
-# 6.7 Exercises
+## 6.7 Exercises
 
 EXERCISE 6.7.1. Show that in even dimensions the sphere and real projective space are the only closed manifolds with constant positive curvature.
 
@@ -1139,7 +1138,6 @@ EXERCISE 6.7.2. Consider a rotationally symmetric metric $d r ^ { 2 } + \rho ^ {
 (2) Now take a piece of paper and try to figure out what parallel translation along a latitude on a cone looks like. If you unwrap the paper, then it is flat; thus parallel translation is what it is in the plane. Now rewrap the paper and observe that parallel translation along a latitude does not necessarily generate a closed parallel field.   
 (3) Show that in the above example the parallel field along $r = a$ closes up when ${ \dot { \rho } } \left( a \right) = 0$ .
 
-# 6.7 Exercises
 
 EXERCISE 6.7.3 (Fermi-Walker transport). Related to parallel transport there is a more obscure type of transport sometimes used in physics. Let $c : [ a , b ] \to M$ be a Wcurve into a Riemannian manifold whose speed never vanishes and
 
@@ -1280,7 +1278,6 @@ EXERCISE 6.7.22. Use an analog of theorem 6.2.3 to show that any closed manifold
 
 EXERCISE 6.7.23. Consider a complete Riemannian n-manifold $( M , g )$ with $| \mathsf { s e c } | \le K$ . Fix n points $p _ { i }$ and a ball $B \left( p , \epsilon \right)$ such that the distance functions $r ^ { i } \left( x \right) = \left| x p _ { i } \right|$ are smooth on $B \left( p , \epsilon \right)$ with $g \left( \bar { \nabla } r ^ { i } , \nabla r ^ { j } \right) \mid _ { p } = \delta ^ { i j }$ and $| p p _ { i } | \geq 2 \epsilon$ .
 
-# 6.7 Exercises
 
 (1) Let $g ^ { i j } = g \left( \nabla r ^ { i } , \nabla r ^ { j } \right) = g \left( d r ^ { i } , d r ^ { j } \right)$ . Show that there exists $C \left( K , \epsilon \right) > 0$ such that $\left| d g ^ { i j } \right| \le C = C \left( n , K , \epsilon \right)$ .
 

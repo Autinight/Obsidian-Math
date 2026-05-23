@@ -8,7 +8,7 @@ Another important topic that involves geodesics is the variation of arclength an
 
 We are also finally getting to results where there will be a significant difference between the Riemannian setting and the pseudo-Riemannian setting. Mixed partials and geodesics easily generalize. However, as there is no norm of vectors in the pseudo-Riemannian setting we do not have arclength or distances. Nevertheless, the energy functional does make sense so we still obtain a variational characterization of geodesics as critical points for the energy functional.
 
-# 5.1 Mixed Partials
+## 5.1 Mixed Partials
 
 So far we have only considered the calculus of functions (and tensors) on a Riemannian manifold, and have seen that defining the gradient and Hessian requires that we use the metric structure. Here we are going to study maps into Riemannian manifolds and how to define meaningful higher derivatives for such maps. The simplest example is to consider a curve $c : I  M$ on some interval $I \subset \mathbb { R }$ . We know how to define the derivative ${ \dot { c } } ,$ W ! but not how to define the acceleration in such a Pway that it also gives us a tangent vector to M. A similar but slightly more general problem is that of defining mixed partial derivatives
 
@@ -32,7 +32,6 @@ $$
 \frac {\partial^ {2} c}{\partial t ^ {i} \partial t ^ {j}} = \frac {\partial^ {2} c}{\partial t ^ {j} \partial t ^ {i}}.
 $$
 
-# 5.1 Mixed Partials
 
 (2) The product rule:
 
@@ -170,7 +169,7 @@ $$
 
 This shows that $\left( \frac { \partial ^ { 2 } c } { \partial t ^ { i } \partial t ^ { j } } \right) ^ { \top }$ is the correct mixed partial in M.
 
-# 5.2 Geodesics
+## 5.2 Geodesics
 
 We define the acceleration of a curve $c : I \to M$ by the formula
 
@@ -184,7 +183,6 @@ $$
 \ddot {c} = \frac {d ^ {2} c ^ {k}}{d t ^ {2}} \partial_ {k} + \frac {d c ^ {i}}{d t} \frac {d c ^ {j}}{d t} \Gamma_ {i j} ^ {k} \partial_ {k}.
 $$
 
-# 5.2 Geodesics
 
 Fig. 5.1 Tangent and acceleration of a curve   
 ![](images/8ea31e5a188f90fef1efbe15e66a29397c70ed3dcf604dde62df85b88441913f.jpg)
@@ -330,7 +328,7 @@ Fig. 5.5 Hyperbolas as geodesics in hyperbolic space
 Abstract geometric line pattern with intersecting curves and a diagonal line (no text or symbols)
 </details>
 
-# 5.3 The Metric Structure of a Riemannian Manifold
+## 5.3 The Metric Structure of a Riemannian Manifold
 
 The positive definite inner product structures on the tangent space of a Riemannian manifold automatically give rise to a concept of lengths of tangent vectors. From this one can obtain an idea of the length of a curve as the integral of the speed, i.e., length of velocity. This is a direct extension of the usual calculus concept of the length of curves in Euclidean space. Indeed, the definition of Riemannian manifolds is motivated from the beginning by lengths of curves. The situation is turned around a bit from that of $\mathbb { R } ^ { n }$ , though: On Euclidean spaces, we have in advance a concept of distance between points. Thus, the definition of lengths of curves is justified by the fact that the length of a curve should be approximated by sums of distances for a fine subdivision (e.g., a fine polygonal approximation). For Riemannian manifolds, there is no immediate idea of distance between points. Instead, we have a natural idea of speed, hence curve length, and we shall use the length of curve idea to define distance between points. The goal of this section is to carry out these constructions in detail.
 
@@ -521,7 +519,7 @@ $$
 
 This distance is always smaller than the arclength distance. One can, however, show as before that it generates the standard manifold topology. In fact, after we have established the existence of smooth distance functions, it will become clear that the two distances are equal provided p and q are sufficiently close to each other.
 
-# 5.4 First Variation of Energy
+## 5.4 First Variation of Energy
 
 In this section we study the arclength functional
 
@@ -660,11 +658,11 @@ Corollary 5.4.4 (Characterization of segments). Any piecewise smooth segment is 
 
 While this result shows precisely what the local minima of the energy functional must be it does not guarantee that geodesics are local minima. In Euclidean space all geodesics are minimal as they are the integral curves for globally defined distance functions: $u \left( x \right) = v \cdot x .$ , where v is a unit vector. On the unit sphere, however, no D geodesic of length > 	 can be locally minimizing. Such geodesics always form part of a great circle where the complement of the geodesic in the great circle has length $< \pi$ , so they can’t be absolute minima. One can also easily construct a variation where the nearby curves are all shorter. We shall spend much more time on these issues in the subsequent sections as well as the next chapter. Certainly much more work has to be done before we can characterize what makes geodesics minimal.
 
-# 5.5 Riemannian Coordinates
+## 5.5 Riemannian Coordinates
 
 The goal of this section is to introduce a natural set of coordinates around each point in a Riemannian manifold. These coordinates will depend on the geometry and also allow us to show the existence of smooth distance functions as well as many other things. They go under the name of exponential or Riemannian normal coordinates. They are normal in the sense of exercise 2.5.20, but have further local and infinitesimal properties. Gauss first introduced such coordinates for surfaces and Riemann in the general context.
 
-# 5.5.1 The Exponential Map
+### 5.5.1 The Exponential Map
 
 For a tangent vector $v \in T _ { p } M _ { \mathrm { : } }$ , let $c _ { v }$ be the unique geodesic with $c \left( 0 \right) = p$ and $\dot { \boldsymbol { c } } ( 0 ) ~ = ~ \boldsymbol { v }$ , and $[ 0 , L _ { v } )$ 2 Dthe nonnegative part of the maximal interval on which $c$ P Dis defined. Notice that uniqueness of geodesics implies the homogeneity property: $c _ { \alpha v } ( t ) = c _ { v } ( \alpha t )$ for all $\alpha > 0$ and $t < L _ { \alpha v }$ . In particular, $L _ { \alpha v } = \alpha ^ { - 1 } L _ { v }$ . Let $O _ { p } \subset$ $T _ { p } M$ Dbe the set of vectors v such that $1 \ < \ L _ { v }$ . In other words $c _ { v } ( t )$ is defined on Œ0; 1. The exponential map at $p , \exp _ { p } : O _ { p } \to M .$ , is defined by
 
@@ -762,7 +760,7 @@ Corollary 5.5.3. The map $D \exp ^ { \perp }$ is nonsingular at $0 _ { p } , f o
 
 Such an image $\exp ^ { \perp } ( U )$ is called a tubular neighborhood of N in M, because when N is a curve in $\mathbb { R } ^ { 3 }$ it looks like a solid tube around the curve.
 
-# 5.5.2 Short Geodesics Are Segments
+### 5.5.2 Short Geodesics Are Segments
 
 We just saw that points that are close together on a Riemannian manifold are connected by a short geodesic, and in fact by exactly one short geodesic. But so far, we don’t have any real evidence that such short geodesics are segments. It is the goal of this section to take care of this last piece of the puzzle. Incidentally, several different ways of saying that a curve is a segment are in common use: “minimal geodesic,” “minimizing curve,” “minimizing geodesic,” and even “minimizing geodesic segment.”
 
@@ -840,11 +838,10 @@ $$
 \exp_ {p} (\overline {{B}} (0, \delta)) = \overline {{B}} (p, \delta).
 $$
 
-# 5.5.3 Properties of Exponential Coordinates
+### 5.5.3 Properties of Exponential Coordinates
 
 Let us recapture what we have achieved in this section so far. Given $p \in ( M , g )$ we found coordinates near $p$ 2using the exponential map such that the distance function
 
-# 5.5 Riemannian Coordinates
 
 $r ( x ) = \vert p x \vert$ to p has the formula
 
@@ -950,7 +947,6 @@ $$
 \begin{array}{l} \nabla_ {\partial_ {r}} \left(\frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)} g _ {r}\right) + \left(\frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)}\right) ^ {2} g _ {r} \\ = \left(\frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)}\right) ^ {\prime} g _ {r} + \left(\frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)}\right) ^ {2} g _ {r} + \frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)} \nabla_ {\partial_ {r}} g _ {r} \\ \end{array}
 $$
 
-# 5.5 Riemannian Coordinates
 
 $$
 = - k g _ {r} - \frac {\mathrm{sn} _ {k} ^ {\prime} (r)}{\mathrm{sn} _ {k} (r)} \nabla_ {\partial_ {r}} d r ^ {2}, \text {since} 0 = \nabla_ {\partial_ {r}} g _ {r} + \nabla_ {\partial_ {r}} d r ^ {2},
@@ -1018,13 +1014,14 @@ $$
 
 has infinitely many solutions $\lambda \operatorname { s n } _ { k } ^ { 2 } \left( r \right) d s _ { n - 1 } ^ { 2 } , \lambda \in \mathbb { R }$ . Although only one of these with give a smooth metric at $p .$ .
 
-# 5.6 Riemannian Isometries
+## 5.6 Riemannian Isometries
 
 We are now ready to explain the key properties of Riemannian isometries. After a general discussion of Riemannian isometries we classify all geodesically complete simply connected Riemannian manifolds with constant sectional curvature.
 
-# 5.6.1 Local Isometries
+### 5.6.1 Local Isometries
 
-A map $F \colon ( M , g _ { M } ) \to ( N , g _ { N } )$ is a local Riemannian isometry if for each $p \in M$ the Wdifferential $D F _ { p } : T _ { p } M \to T _ { F ( p ) } N$ 2is a linear isometry. A special and trivial example W !of such a map is a local coordinate system $\varphi : U \to \Omega \subset \mathbb { R } ^ { n }$ where we use the induced metric $g$ W !on U and its coordinate representation $\left( \varphi ^ { - 1 } \right) ^ { * } g = g _ { i j } d x ^ { i } d x ^ { j }$ on .
+A map $F \colon ( M , g _ { M } ) \to ( N , g _ { N } )$ is a local Riemannian isometry if for each $p \in M$ the Wdifferential $D F _ { p } : T _ { p } M \to T _ { F ( p ) } N$ 2is a linear isometry. A special and trivial example W !of such a map is a local coordinate system $\varphi : U \to \Omega \subset \mathbb { R } ^ { n }$ where we use the induced metric $g$ W !on U and its coordinate representation $\left( \varphi ^ { - 1 } \right) ^ { * } g = g _ { i j } d x ^ { i } d x ^ { j }$ on 
+.
 
 Proposition 5.6.1. Let $F : ( M , g _ { M } ) \to ( N , g _ { N } )$ be a local Riemannian isometry.
 
@@ -1118,7 +1115,7 @@ Next let $\varepsilon > 0$ W !be chosen so that $\exp _ { p } : B ( 0 , \varepsi
 
 Remark 5.6.6. Note that if $D F _ { p } : T _ { p } M \to T _ { p } M$ is orientation preserving for $p \in$ W !Fix .F/, then the Zariski tangent space at $p$ 2must have even codimension as the 1-eigenspace of an element in ${ \mathrm { S O } } \left( n \right)$ has even codimension. In particular each Ccomponent of Fix .F/ has even codimension.
 
-# 5.6.2 Constant Curvature Revisited
+### 5.6.2 Constant Curvature Revisited
 
 We just saw that isometries are uniquely determined by their differential. What about the existence question? Given any linear isometry $L : T _ { p } M \to T _ { q } N$ , is there an isometry $F : M \to N$ such that $D F _ { p } = L ?$ In case $M = N$ W !, this would, in particular, Wmean that if $\pi$ !is a 2-plane in $T _ { p } M$ Dand $\tilde { \pi }$ a 2-plane in $T _ { q } M$ , then there should be an isometry $F : M \to M$ such that $F ( \pi ) = \tilde { \pi }$ . But this would imply that M has constant W ! D Qsectional curvature. Therefore, the problem cannot be solved in general. From our knowledge of Iso.Sn / it follows that these spaces have enough isometries so that any linear isometry $L : T _ { p } S _ { k } ^ { n } \to T _ { q } S _ { k } ^ { n }$ can be extended to a global isometry $F : S _ { k } ^ { n } \to S _ { k } ^ { n }$ with $D F _ { p } = L$ W ! W !(see section 1.3.1). We show below that in a suitable sense these are Dthe only spaces with this property. However, there are other interesting results in this direction for other spaces (see section 10.1.2).
 
@@ -1154,7 +1151,7 @@ Corollary 5.6.14 (Classification of Constant Curvature Spaces, Killing, 1893 and
 
 This result shows how important the geodesic completeness of the metric is. A large number of open manifolds admit immersions into Euclidean space of the same dimension $( \mathbf { e . g . } , \ S ^ { n } \ \times \ \mathbb { R } ^ { k } )$ and hence carry incomplete metrics with zero -curvature. Carrying a geodesically complete Riemannian metric of a certain type, therefore, often implies various topological properties of the underlying manifold. Riemannian geometry at its best tries to understand this interplay between metric and topological properties.
 
-# 5.6.3 Metric Characterization of Maps
+### 5.6.3 Metric Characterization of Maps
 
 For a Riemannian manifold $( M , g )$ we denote the corresponding metric space by $\left( M , \vert \cdots \vert _ { g } \right)$ or simply $( M , \left| \cdots \right| )$ if only one metric is in play. It is natural to ask whether jj jjone can somehow recapture the Riemannian metric g from the distance $| \cdots | _ { g }$ . If for instance $v , w \in T _ { p } M$ , then we would like to be able to compute $g ( v , w )$ jfrom knowledge of $| \cdot \cdot | _ { g }$ 2. First note that it suffices to compute the length of vectors as the inner product $g ( v , w )$ can be computed by polarization:
 
@@ -1212,7 +1209,7 @@ The observation is simply that $\nabla r$ W is the horizontal lift of $\partial
 
 Remark 5.6.17. It can be shown that submetries are $C ^ { 1 , 1 }$ , i.e., their derivatives are locally Lipschitz. In terms of the above proof this follows from showing that the map $\bar { p } \mapsto \bar { q }$ is locally Lipschitz. It is in general not possible to improve this. Consider, e.g., $K = [ 0 , 1 ] ^ { 2 } \subset \mathbb { R } ^ { 2 }$ and let $r ( x ) = \left| x K \right|$ . Then the levels $r = r _ { 0 } > 0$ are not $C ^ { 2 }$ D  D j j Das they consist of a rounded square with sides parallel to the sides of K and rounded corners that are quarter circles centered at the corners of K.
 
-# 5.6.4 The Slice Theorem
+### 5.6.4 The Slice Theorem
 
 In this section we establish several important results about actions on manifolds. First we show that the isometry group is a Lie group and then proceed with a study of the topology near the orbits of actions by isometries.
 
@@ -1395,9 +1392,9 @@ This in turn implies.
 
 Corollary 5.6.26. If $_ { \mathrm { ~ H ~ } \subset }$ Iso $( M , g )$ is a closed subgroup with the property that all its isotropy groups are conjugate to each other, then the quotient space is a Riemannian manifold and the quotient map a Riemannian submersion.
 
-# 5.7 Completeness
+## 5.7 Completeness
 
-# 5.7.1 The Hopf-Rinow Theorem
+### 5.7.1 The Hopf-Rinow Theorem
 
 One of the foundational centerpieces of Riemannian geometry is the Hopf-Rinow theorem. This theorem states that all concepts of completeness are equivalent. This should not be an unexpected result for those who have played around with open subsets of Euclidean space. For it seems that in these examples, geodesic and metric completeness break down in exactly the same places.
 
@@ -1420,7 +1417,6 @@ $$
 
 for all R (note that always holds). This will follow if we can show that any point $q \in M$ is joined to p by a segment. By corollary 5.5.6 we can find $\epsilon > 0$ such that any 2point in the compact set $\overline { { B } } \left( p , \epsilon \right) = \exp _ { p } \left( \overline { { B } } ( 0 , \epsilon ) \right)$ can be joined to p by a minimal geodesic. This shows that if $p ^ { \prime } \in \overline { { B } } ( p , \epsilon ) - B ( p , \epsilon )$ is closest to q, then $| p p ^ { \prime } | +$
 
-# 5.7 Completeness
 
 Fig. 5.13 Two short cuts from p to q   
 ![](images/73262a7681fb622912227086318ab637fe2b661b42729a832433ade136918053.jpg)
@@ -1492,13 +1488,12 @@ This corollary also makes it easy to check completeness for all of our examples 
 
 From now on, virtually all Riemannian manifolds will automatically be assumed to be connected and complete.
 
-# 5.7.2 Warped Product Characterization
+### 5.7.2 Warped Product Characterization
 
 In theorem 4.3.3 we offered a local characterization of Riemannian manifolds that admit functions whose Hessian is conformal to the metric and saw that these were all locally given by warped product structures. Here we extend this to a global result for complete Riemannian manifolds.
 
 Theorem 5.7.4 (Tashiro, 1965). Let .M; g/ be a complete Riemannian n-mani-fold that admits a nontrivial function f whose Hessian is conformal, i.e., Hess $f = \lambda g .$ . Then $( M , g )$ Dis isometric to a complete warped product metric and must have one of the three forms:
 
-# 5.7 Completeness
 
 (1) $M = \mathbb { R } \times N a n d g = d r ^ { 2 } + \rho ^ { 2 } \left( r \right) g _ { N } ,$
 
@@ -1590,7 +1585,7 @@ $$
 
 Remark 5.7.6. In a separate direction it is shown in [100] that transnormal functions (see remark 4.3.5) on a complete Riemannian manifold give a similar topological decomposition of the manifold. Specifically such functions can have zero, one, or two critical values. All level sets for f are smooth submanifolds, including the critical levels. Moreover, $f = \phi \left( r \right)$ where r is the signed distance to a fixed level set of f .
 
-# 5.7.3 The Segment Domain
+### 5.7.3 The Segment Domain
 
 In this section we characterize when a geodesic is a segment and use this to find a maximal domain in $T _ { p } M$ on which the exponential map is an embedding. This is achieved through a systematic investigation of when distance functions to points are smooth. All Riemannian manifolds are assumed to be complete in this section, but it is possible to make generalizations to incomplete metrics by working on suitable star-shaped domains.
 
@@ -1634,7 +1629,6 @@ Proof. The standard proof of this statement uses Jacobi fields and is outlined i
 
 The proof is by contradiction. As the set of singular points is closed we can assume that $\exp _ { p }$ is singular at $v \in \mathrm { s e g } ^ { 0 } ( p )$ and nonsingular at all points $t v , t \in$ $[ 0 , 1 )$ . Since $c \left( t \right) = \exp _ { p } \left( t v \right)$ 2 2/ is an embedding on Œ0; 1/ we can find neighborhoods U around $[ 0 , 1 ) v \subset T _ { p } \dot { M }$ and V around $c ( [ 0 , 1 ) ) \subset M$ such that $\exp _ { p } : U \to V$ is a diffeomorphism. Note that $v \not \in U$ and $c ( 1 ) \notin V .$ W !. If we take a tangent vector $w \in T _ { v } T _ { p } M$ … …, then we can extend it to a Jacobi field J on $T _ { p } M , \mathrm { i . e . , } [ \partial _ { r } , J ] = 0$ . 2Next J can be pushed forward via $\exp _ { p }$ to a vector field on $V ,$ D also called J, that also
 
-# 5.7 Completeness
 
 commutes with $\partial _ { r }$ . If $D \exp _ { p } | _ { v } w = 0$ , then
 
@@ -1721,7 +1715,6 @@ Proposition 5.7.10. $\mathrm { s e g } ^ { 0 } ( p )$ is open.
 
 Proof. If we fix $v \in \mathrm { s e g } ^ { 0 } ( p )$ , then there is going to be a neighborhood $V \subset T _ { p } M$ around v on which $\exp _ { p }$ is a diffeomorphism onto its image. If $v _ { i } \in V$ converge to $v ,$ , then $D \exp _ { p }$ is also nonsingular at $v _ { i }$ . For each i choose $w _ { i } \in \mathsf { s e g } ( p )$ such that $\mathrm { e x p } _ { p } ( v _ { i } ) = \mathrm { e } \mathbf { \dot { x } } \mathbf { p } _ { p } ( w _ { i } )$ . When $w _ { i }$ has an accumulation point $w \ne v$ it follows that $v \not \in \sec ^ { 0 } ( p )$ . Hence $w _ { i }  v$ and $w _ { i } \in V$ for large i. As $\exp _ { p }$ ¤is a diffeomorphism …on V this implies that $w _ { i } = v _ { i }$ 2and that $v _ { i } \in \mathsf { s e g } ( p )$ . We already know that $\exp _ { p }$ is nonsingular at $v _ { i }$ D. Moreover, as $w _ { i } = v _ { i }$ 2condition (1) in lemma 5.7.9 cannot hold.
 
-# 5.7 Completeness
 
 It follows that $v _ { i } \in \mathrm { s e g } ^ { 0 } ( p )$ for large i and hence that $V \cap \operatorname { s e g } ^ { 0 } ( p )$ is a neighborhood of v.
 
@@ -1737,7 +1730,7 @@ $$
 
 then r is smooth at $c ( t ) , ~ t ~ < ~ \mathrm { c u t } ( \dot { c } ( 0 ) )$ , but not smooth at $x \ = \ c ( \operatorname { c u t } ( { \dot { c } } ( 0 ) ) )$ . PFurthermore, the failure of r to be smooth at x is because $\exp _ { p } : \sec ( p )  M$ either fails to be one-to-one at x or has x as a critical value.
 
-# 5.7.4 The Injectivity Radius
+### 5.7.4 The Injectivity Radius
 
 In a complete Riemannian manifold the injectivity radius is the largest radius " for which
 
@@ -1792,11 +1785,11 @@ This implies that $\exp _ { p }$ is not one-to-one on $\mathrm { s e g } ^ { 0 }
 
 ![](images/0f45ab88bdeec9c5057797b711eb2d23a3421b1f4ce3a82a5cb8f40f10c5b547.jpg)
 
-# 5.8 Further Study
+## 5.8 Further Study
 
 There are several textbooks on Riemannian geometry such as [23, 24, 47, 65] and [80] that treat most of the more basic material included in this chapter. All of these books, as is usual, emphasize the variational approach as being the basic technique used to prove every theorem. To see how the variational approach works the text [75] is also highly recommended.
 
-# 5.9 Exercises
+## 5.9 Exercises
 
 EXERCISE 5.9.1. Assume that $( M , g )$ has the property that all unit speed geodesics exist for a fixed time $\varepsilon > 0$ . Show that $( M , g )$ is geodesically complete.
 
@@ -1806,7 +1799,6 @@ $$
 \frac {d (c \circ \phi)}{d t} = \dot {c} \circ \phi \frac {d \phi}{d t},
 $$
 
-# 5.9 Exercises
 
 $$
 \frac {d ^ {2} (c \circ \phi)}{d t ^ {2}} = \dot {c} \circ \phi \frac {d ^ {2} \phi}{d t ^ {2}} + \ddot {c} \circ \phi \left(\frac {d \phi}{d t}\right) ^ {2}.
@@ -1875,7 +1867,6 @@ EXERCISE 5.9.21. Let $f : ( M , g ) \to \mathbb { R }$ be a smooth function on a
 (1) Let $c : ( a , b ) \to M$ be a geodesic. Compute the first and second derivatives of $f \circ c .$ .   
 ı(2) Use this to show that at a local maximum (or minimum) for f the gradient is zero and the Hessian nonpositive (or nonnegative).
 
-# 5.9 Exercises
 
 (3) Show that f has everywhere nonnegative Hessian if and only ${ \mathrm { i f } } f \circ c$ is convex for all geodesics c in $( M , g )$ .
 
@@ -1967,7 +1958,6 @@ $$
 
 (7) Conclude that the right-hand (and left-hand) derivatives of f exist everywhere.
 
-# 5.9 Exercises
 
 EXERCISE 5.9.29. In a metric space $( X , | \cdots | )$ one can measure the length of continuous curves $c : [ a , b ] \to X$ by
 
@@ -2109,7 +2099,6 @@ $$
 
 for some tensor C. This tensor has some obvious symmetry properties from the form of the expansion. It is possible to calculate it from the derivatives $\partial _ { i } \partial _ { j } g _ { k l }$ provided they satisfy $\partial _ { i } \partial _ { j } g _ { k l } = \partial _ { k } \partial _ { l } g _ { i j }$ . Finally, one has to show that this property is equivalent Dto the assertion that the above expansion is possible.
 
-# 5.9 Exercises
 
 EXERCISE 5.9.43. With notation as in the previous exercise show:
 

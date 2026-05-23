@@ -4,9 +4,9 @@ In this chapter we offer an introduction to several of the convergence ideas for
 
 The idea of measuring the distance between subspaces of a given space goes back to Hausdorff and was extensively studied in the Polish and Russian schools of topology. The more abstract versions used here go back to Shikata’s proof of the differentiable sphere theorem. Cheeger’s thesis also contains the idea that abstract manifolds can converge to each other. In fact, he proved his finiteness theorem by showing that certain classes of manifolds are precompact in various topologies. Gromov further developed the theory of convergence to the form presented here that starts with the weaker Gromov-Hausdorff convergence of metric spaces. His first use of this new idea was to prove a group-theoretic question about the nilpotency of groups with polynomial growth. Soon after the introduction of this weak convergence, the earlier ideas on strong convergence by Cheeger resurfaced.
 
-# 11.1 Gromov-Hausdorff Convergence
+## 11.1 Gromov-Hausdorff Convergence
 
-# 11.1.1 Hausdorff Versus Gromov Convergence
+### 11.1.1 Hausdorff Versus Gromov Convergence
 
 At the beginning of the twentieth century, Hausdorff introduced what is now called the Hausdorff distance between subsets of a metric space. If $( X , | \cdots | )$ is the metric space and A; $B \subset X$ ; then
 
@@ -186,7 +186,7 @@ $$
 
 where $i : X \to L ^ { \infty } \left( [ 0 , 1 ] \right)$ and $j : Y  L ^ { \infty } ( [ 0 , 1 ] )$ are distance preserving maps.
 
-# 11.1.2 Pointed Convergence
+### 11.1.2 Pointed Convergence
 
 So far, we haven’t dealt with noncompact spaces. There is, of course, nothing wrong with defining the Gromov-Hausdorff distance between unbounded spaces, but it will almost never be finite. In order to change this, we should have in mind what is done for convergence of functions on unbounded domains. There, one usually speaks about convergence on compact subsets. To do something similar, we first define the pointed Gromov-Hausdorff distance
 
@@ -208,7 +208,7 @@ $$
 
 converge with respect to the pointed Gromov-Hausdorff metric.
 
-# 11.1.3 Convergence of Maps
+### 11.1.3 Convergence of Maps
 
 We also need to address convergence of maps. Suppose we have
 
@@ -246,7 +246,7 @@ Lemma 11.1.9. An equicontinuous family $f _ { k } : X _ { k } \to Y _ { k }$ ; w
 
 Proof. The standard proof carries over without much change. Namely, first choose dense subsets $A _ { i } = \{ a _ { 1 } ^ { i } , a _ { 2 } ^ { i } , . . . \} \subset X _ { i }$ such that $a _ { j } ^ { i }  a _ { j } \in X$ as $i  \infty$ . Then also, $A = \left\{ a _ { j } \right\} \subset X$  ! 2 ! 1is dense. Next, use a diagonal argument to find a subsequence D of functions that converge on the above sequences. Finally, show that this sequence converges as promised. □
 
-# 11.1.4 Compactness of Classes of Metric Spaces
+### 11.1.4 Compactness of Classes of Metric Spaces
 
 We now turn our attention to conditions that ensure convergence of spaces. More precisely we want some good criteria for when a collection of (pointed) spaces is precompact (i.e., closure is compact).
 
@@ -353,13 +353,14 @@ $$
 N \left(\varepsilon - 2 d _ {G - H} \left(X, X _ {i}\right)\right)\rightarrow N (\varepsilon) \text {as} i \rightarrow \infty .
 $$
 
-# 11.2 Hölder Spaces and Schauder Estimates
+## 11.2 Hölder Spaces and Schauder Estimates
 
 First, we define the Hölder norms and Hölder spaces, and then briefly discuss the necessary estimates we need for elliptic operators for later applications. The standard reference for all the material here is the classic book by Courant and Hilbert [35], especially chapter IV, and the thorough text [50], especially chapters 1–6. A more modern text that also explains how PDEs are used in geometry, including some of the facts we need is [99], especially vol. III.
 
-# 11.2.1 Hölder Spaces
+### 11.2.1 Hölder Spaces
 
-Fix a bounded domain $\Omega \subset \mathbb { R } ^ { n }$ . The bounded continuous functions from  to $\mathbb { R } ^ { k }$ are denoted by $C ^ { 0 } \left( \Omega , \mathbb { R } ^ { k } \right)$ ; and we use the sup-norm
+Fix a bounded domain $\Omega \subset \mathbb { R } ^ { n }$ . The bounded continuous functions from 
+ to $\mathbb { R } ^ { k }$ are denoted by $C ^ { 0 } \left( \Omega , \mathbb { R } ^ { k } \right)$ ; and we use the sup-norm
 
 $$
 \| u \| _ {C ^ {0}} = \sup _ {x \in \Omega} | u (x) |
@@ -451,7 +452,7 @@ $$
 
 Therefore, a sequence that converges in $C ^ { 0 }$ and is bounded in $C ^ { \alpha }$ ; also converges in $C ^ { \beta }$ , as long as $\beta < \alpha \leq 1$ :
 
-# 11.2.2 Elliptic Estimates
+### 11.2.2 Elliptic Estimates
 
 We now turn our attention to elliptic operators of the form
 
@@ -471,7 +472,10 @@ $$
 \left\| u \right\| _ {C ^ {1, \alpha}, K} \leq C \left(\left\| L u \right\| _ {C ^ {0}, \Omega} + \left\| u \right\| _ {C ^ {\alpha}, \Omega}\right).
 $$
 
-Furthermore, if  has smooth boundary and $u = \varphi$ on @; then there is a constant $C = C \left( n , \alpha , \lambda , D \right)$ Dsuch that on all of  we have
+Furthermore, if 
+ has smooth boundary and $u = \varphi$ on @
+; then there is a constant $C = C \left( n , \alpha , \lambda , D \right)$ Dsuch that on all of 
+ we have
 
 $$
 \left\| u \right\| _ {C ^ {2, \alpha}, \Omega} \leq C \left(\left\| L u \right\| _ {C ^ {\alpha}, \Omega} + \left\| \varphi \right\| _ {C ^ {2, \alpha}, \partial \Omega}\right).
@@ -503,7 +507,8 @@ $$
 \int_ {\Omega} \left(\partial_ {i} \left(a ^ {i j} \partial_ {j} u\right)\right) h = - \int_ {\Omega} a ^ {i j} \partial_ {j} u \partial_ {i} h
 $$
 
-when $h = 0$ on @: This is interesting in the context of geometric operators, as the DLaplacian on manifolds in local coordinates is of that form
+when $h = 0$ on @
+: This is interesting in the context of geometric operators, as the DLaplacian on manifolds in local coordinates is of that form
 
 $$
 L u = \Delta_ {g} u = \frac {1}{\sqrt {\det g _ {i j}}} \partial_ {i} \left(\sqrt {\det g _ {i j}} \cdot g ^ {i j} \cdot \partial_ {j} u\right).
@@ -541,7 +546,7 @@ always has a unique solution $u \in C ^ { 2 , \alpha } \left( \Omega \right) i f
 
 Observe that uniqueness is an immediate consequence of the maximum principle. The existence part requires more work.
 
-# 11.2.3 Harmonic Coordinates
+### 11.2.3 Harmonic Coordinates
 
 The above theorems make it possible to introduce harmonic coordinates on Riemannian manifolds.
 
@@ -657,11 +662,11 @@ $$
 
 The right-hand side makes sense as long as $g _ { i j }$ is $C ^ { 1 }$ . The equation can then be understood in the weak sense: Multiply by some test function, integrate, and use integration by parts to obtain a formula that uses only first derivatives of $g _ { i j }$ on the left-hand side. If $g _ { i j }$ is $C ^ { 1 , \alpha }$ ; then the left-hand side lies in some $C ^ { \beta }$ ; but then our elliptic estimates show that $g _ { i j }$ must be in $C ^ { 2 , \beta }$ . This can be bootstrapped until we have that the metric is $C ^ { \infty }$ : In fact, one can even show that it is analytic. Therefore, we can conclude that any metric which in harmonic coordinates is a weak solution to the Einstein equation must in fact be smooth. We have obviously left out a few details about weak solutions. A detailed account can be found in [99, vol. III].
 
-# 11.3 Norms and Convergence of Manifolds
+## 11.3 Norms and Convergence of Manifolds
 
 We next explain how the $C ^ { m , \alpha }$ norm and convergence concepts for functions generalize to Riemannian manifolds. These ideas can be used to prove various compactness and finiteness theorems for classes of Riemannian manifolds.
 
-# 11.3.1 Norms of Riemannian Manifolds
+### 11.3.1 Norms of Riemannian Manifolds
 
 Before defining norms for manifolds, let us discuss which spaces should have norm zero. Clearly Euclidean space is a candidate. But what about open subsets of Euclidean space and other flat manifolds? If we agree that all open subsets of Euclidean space also have norm zero, then any flat manifold becomes a union of manifolds with norm zero and therefore should also have norm zero. In order to create a useful theory, it is often best to have only one space with vanishing norm. Thus we must agree that subsets of Euclidean space cannot have norm zero. To accommodate this problem, we define a family of norms of a Riemannian manifold, i.e., we use a function $N : ( 0 , \infty ) \to ( 0 , \infty )$ rather than just a number. The number $N \left( r \right)$ W 1 ! 1then measures the degree of flatness on the scale of $r ,$ where the standard measure of flatness on the scale of r is the Euclidean ball $B \left( 0 , r \right)$ : For small $r ,$ all flat manifolds then have norm zero; but as r increases we see that the space looks less and less like $B \left( 0 , r \right)$ and therefore the norm will become positive unless the space is Euclidean space.
 
@@ -699,15 +704,16 @@ The norm at a point is always finite, but when M is not compact the global norm 
 
 Example 11.3.1. If $( M , g )$ is a complete flat manifold, then $\| ( M , g ) \| _ { C ^ { m , \alpha } , r } = 0$ for all $r \leq \operatorname { i n j } \left( M , g \right)$ : In particular, $\| ( \mathbb { R } ^ { n } , g _ { \mathbb { R } ^ { n } } ) \| _ { C ^ { m , \alpha } , r } = 0$ k k Dfor all r: We will show that  k k Dthese properties characterize flat manifolds and Euclidean space.
 
-# 11.3.2 Convergence of Riemannian Manifolds
+### 11.3.2 Convergence of Riemannian Manifolds
 
 Now for the convergence concept that relates to this new norm. As we can’t subtract manifolds, we have to resort to a different method for defining this. If we fix a closed manifold M; or more generally a precompact subset $A \subset M$ ; then we say that a sequence of functions on A converges in $C ^ { m , \alpha }$ ; if they converge in the charts for some fixed finite covering of coordinate patches that are uniformly bi-Lipschitz. This definition is clearly independent of the finite covering we choose. We can then more generally say that a sequence of tensors converges in $C ^ { m , \alpha }$ if the components of the tensors converge in these patches. This makes it possible to speak about convergence of Riemannian metrics on compact subsets of a fixed manifold.
 
-A sequence of pointed complete Riemannian manifolds is said to converge in the pointed $C ^ { m , \alpha }$ topology, $( M _ { i } , g _ { i } , p _ { i } ) \ \to \ ( M , g , p )$ , if for every $R ~ > ~ 0$ we can find a domain $\Omega \supset B \left( p , R \right) \subset M$ !and embeddings $F _ { i } : \Omega  M _ { i }$ for large i such that $F _ { i } \left( p \right) = p _ { i } , F _ { i } \left( \Omega \right) \supset B \left( p _ { i } , R \right)$ , and $F _ { i } ^ { * } g _ { i } \to g$ on $\Omega$ in the $C ^ { m , \alpha }$ topology. D  !It is easy to see that this type of convergence implies pointed Gromov-Hausdorff convergence. When all manifolds in question are closed with a uniform bound on the diameter, then the maps $F _ { i }$ are diffeomorphisms. For closed manifolds we can also speak about unpointed convergence. In this case, convergence can evidently only occur if all the manifolds in the tail end of the sequence are diffeomorphic. In particular, we have that classes of closed Riemannian manifolds that are precompact in some $C ^ { m , \alpha }$ topology contain at most finitely many diffeomorphism types.
+A sequence of pointed complete Riemannian manifolds is said to converge in the pointed $C ^ { m , \alpha }$ topology, $( M _ { i } , g _ { i } , p _ { i } ) \ \to \ ( M , g , p )$ , if for every $R ~ > ~ 0$ we can find a domain $\Omega \supset B \left( p , R \right) \subset M$ !and embeddings $F _ { i } : \Omega  M _ { i }$ for large i such that $F _ { i } \left( p \right) = p _ { i } , F _ { i } \left( \Omega \right) \supset B \left( p _ { i } , R \right)$ , and $F _ { i } ^ { * } g _ { i } \to g$ on $\Omega$ in the $C ^ { m , \alpha }$ topology. D 
+ !It is easy to see that this type of convergence implies pointed Gromov-Hausdorff convergence. When all manifolds in question are closed with a uniform bound on the diameter, then the maps $F _ { i }$ are diffeomorphisms. For closed manifolds we can also speak about unpointed convergence. In this case, convergence can evidently only occur if all the manifolds in the tail end of the sequence are diffeomorphic. In particular, we have that classes of closed Riemannian manifolds that are precompact in some $C ^ { m , \alpha }$ topology contain at most finitely many diffeomorphism types.
 
 A warning about this kind of convergence is in order here. Suppose we have a sequence of metrics $g _ { i }$ on a fixed manifold M: It is possible that these metrics might converge in the sense just defined, without converging in the traditional sense of converging in some fixed coordinate systems. To be more specific, let $g$ be the standard metric on $M = S ^ { 2 }$ : Now define diffeomorphisms $F _ { t }$ coming from the flow Dcorresponding to the vector field that is 0 at the two poles and otherwise points in the direction of the south pole. As t increases, the diffeomorphisms will try to map the whole sphere down to a small neighborhood of the south pole. Therefore, away from the poles the metrics $F _ { t } ^ { * } g$ will converge to 0 in some fixed coordinates. ${ \bf S } _ { 0 }$ they cannot converge in the classical sense. If, however, we pull these metrics back by the diffeomorphisms $F _ { - t } ,$ , then we just get back to $g .$ : Thus the sequence $( M , g _ { t } )$ ; from the new point of view we are considering, is a constant sequence. This is really the right way to think about this as the spaces $\left( S ^ { 2 } , F _ { t } ^ { * } g \right)$ are all isometric as abstract metric spaces.
 
-# 11.3.3 Properties of the Norm
+### 11.3.3 Properties of the Norm
 
 Let us now consider some of the elementary properties of norms and their relation to convergence.
 
@@ -834,7 +840,7 @@ Corollary 11.3.4. $I f \parallel ( M , g , p ) \parallel _ { C ^ { m , \alpha } 
 
 Proof. It follows from proposition 11.3.2 that there is a $C ^ { m + 1 , \alpha }$ chart $\varphi : B \left( 0 , r \right) \to$ $U \supset B \left( p , e ^ { - Q } r \right)$ with $Q = 0$ . This implies that it is a $C ^ { 1 }$ W !Riemannian isometry and Dthen by theorem 5.6.15 a Riemannian isometry.
 
-# 11.3.4 The Harmonic Norm
+### 11.3.4 The Harmonic Norm
 
 We define a more restrictive norm, called the harmonic norm and denoted
 
@@ -942,7 +948,7 @@ $$
 
 It follows that $\psi _ { i }$ must become coordinates for large i: Also, these coordinates will show that $\| ( M _ { i } , g _ { i } , p _ { i } ) \| _ { C ^ { m , \alpha } , r } ^ { h a r } < Q$ for large i:
 
-# 11.3.5 Compact Classes of Riemannian Manifolds
+### 11.3.5 Compact Classes of Riemannian Manifolds
 
 We can now state and prove the result that is our manifold equivalent of the Arzela-Ascoli lemma. This theorem is essentially due to J. Cheeger.
 
@@ -1062,7 +1068,7 @@ Corollary 11.3.8. Given $Q > 0 , n \geq 2 , m \geq 0 , \alpha \in ( 0 , 1 ]$ , a
 
 The only issue to worry about is whether it is really true that limit spaces have $\| ( M , g ) \| _ { C ^ { m , \alpha } , r } ^ { h a r } \ \leq \ Q$ : But one can easily see that harmonic charts converge k k to harmonic charts as in proposition 11.3.5.
 
-# 11.3.6 Alternative Norms
+### 11.3.6 Alternative Norms
 
 Finally, we mention that the norm concept and its properties do not change if n1 and n2 are altered as follows:
 
@@ -1110,17 +1116,16 @@ $$
 
 for some small ı. Relative volume comparison tells us that the volume condition holds for all small r if it holds for just one r: Thus the smallness condition for the norm holds for all small r provided we have the volume condition for just some r:
 
-# 11.4 Geometric Applications
+## 11.4 Geometric Applications
 
 To obtain better estimates on the norms it is convenient to use more analysis. The idea of using harmonic coordinates for similar purposes goes back to [37]. In [66] it was shown that manifolds with bounded sectional curvature and lower bounds for the injectivity radius admit harmonic coordinates on balls of an a priori size. This result was immediately seized by the geometry community and put to use in improving the theorems from the previous section. At the same time, Nikolaev developed a different, more synthetic approach to these ideas. For the whole story we refer the reader to Greene’s survey in [51]. Here we shall develop these ideas from a different point of view due to Anderson.
 
-# 11.4.1 Ricci Curvature
+### 11.4.1 Ricci Curvature
 
 The most important feature about harmonic coordinates is that the metric is apparently controlled by the Ricci curvature. This is exploited in the next lemma, where we show how one can bound the harmonic $C ^ { 1 , \alpha }$ norm in terms of the harmonic $C ^ { 1 }$ norm and Ricci curvature.
 
 Lemma 11.4.1 (Anderson, 1990). Suppose that a Riemannian manifold $( M , g )$ has bounded Ricci curvature $| \mathrm { R i c } | \le \Lambda . \ F o r$ any $r _ { 1 } < r _ { 2 } , K \geq \| ( M , g , p ) \| _ { C ^ { 1 } , r _ { 2 } } ^ { h a r }$ ; and $\alpha \in ( 0 , 1 )$ we can find $C \left( n , \alpha , K , r _ { 1 } , r _ { 2 } , \Lambda \right)$ such that
 
-# 11.4 Geometric Applications
 
 $$
 \| (M, g, p) \| _ {C ^ {1, \alpha}, r _ {1}} ^ {h a r} \leq C \left(n, \alpha , K, r _ {1}, r _ {2}, \Lambda\right).
@@ -1226,7 +1231,6 @@ $$
 \left\| \left(M _ {i}, \bar {g} _ {i}, p _ {i}\right) \right\| _ {C ^ {1, \alpha}, 1} ^ {h a r} \in \left[ \frac {Q}{2}, Q \right].
 $$
 
-# 11.4 Geometric Applications
 
 The first important step is to use the bounded Ricci curvature of $( M _ { i } , \bar { g } _ { i } )$ to conclude that the $C ^ { 1 , \gamma }$ norm must be bounded for any $\gamma \in ( \alpha , 1 )$ N: Then we can assume by the fundamental theorem that the sequence $( M _ { i } , \bar { g } _ { i } , p _ { i } )$ converges in the pointed $C ^ { 1 , \alpha }$ topology, to a Riemannian manifold $( M , g , p )$ Nof class $C ^ { 1 , \gamma }$ : Since the $C ^ { 1 , \alpha }$ norm is continuous in the $C ^ { 1 , \alpha }$ topology we can conclude that
 
@@ -1274,7 +1278,7 @@ is precompact in the $C ^ { 1 , \alpha }$ topology for any $\alpha \in ( 0 , 1 )
 
 Notice how the above theorem depended on the characterization of Euclidean space we obtained from the splitting theorem. There are other similar characterizations of Euclidean space. One of the most interesting ones uses volume pinching.
 
-# 11.4.2 Volume Pinching
+### 11.4.2 Volume Pinching
 
 The idea is to use the relative volume comparison (see lemma 7.1.4) rather than the splitting theorem. It is relatively easy to prove that Euclidean space is the only space with
 
@@ -1312,7 +1316,6 @@ Therefore, if this holds for one p; then it must hold for all p: Moreover, if we
 
 If our assertion is assumed to be false, then for each integer i there is a Ricci flat manifold $( M _ { i } , g _ { i } )$ with
 
-# 11.4 Geometric Applications
 
 $$
 \lim _ {r \rightarrow \infty} \frac {\operatorname{vol} B (p _ {i} , r)}{\omega_ {n} r ^ {n}} \geq (1 - i ^ {- 1}),
@@ -1380,7 +1383,7 @@ $$
 
 This limit space is also Ricci flat and is therefore Euclidean space. The rest of the proof goes as before, by getting a contradiction with the continuity of the norms.
 
-# 11.4.3 Sectional Curvature
+### 11.4.3 Sectional Curvature
 
 Given the results for Ricci curvature we immediately obtain.
 
@@ -1404,7 +1407,6 @@ A similar result was also proven by A. Weinstein at the same time. The hypothese
 
 Our next result shows that one can bound the injectivity radius provided that one has lower volume bounds and bounded curvature. This result is usually referred to as Cheeger’s lemma. With a little extra work one can actually prove this lemma for complete manifolds. This requires that we work with pointed spaces and also to some extent incomplete manifolds as it isn’t clear from the beginning that the complete manifolds in question have global lower bounds for the injectivity radius.
 
-# 11.4 Geometric Applications
 
 Lemma 11.4.9 (Cheeger, 1967). Given $n \geq 2 , v , K > 0 ,$ , and a compact n-manifold .M; g/ with
 
@@ -1460,7 +1462,7 @@ $$
 
 is precompact in the $C ^ { 1 , \alpha }$ topology for any $\alpha \in ( 0 , 1 )$ and in particular, contains only finitely many diffeomorphism types.
 
-# 11.4.4 Lower Curvature Bounds
+### 11.4.4 Lower Curvature Bounds
 
 It is also possible to obtain similar compactness results for manifolds that only have lower curvature bounds as long as we also assume that the injectivity radius is bounded from below.
 
@@ -1490,7 +1492,6 @@ $$
 \operatorname{Hess} r \geq \operatorname{Hess} f \geq - k \cdot \coth (| x _ {0} y _ {0} | \cdot k) g _ {r} = - k \cdot \coth (k (R - r (x _ {0}))) g _ {r}
 $$
 
-# 11.4 Geometric Applications
 
 at $x _ { 0 }$ . Hence $\left| \mathrm { H e s s } r \right| \le { \cal Q } \left( k , R \right)$ on metric balls $B \left( x , r \right)$ where $| x p | \geq R / 4$ and $r \leq R / _ { 4 }$ .
 
@@ -1548,13 +1549,12 @@ satisfies $\| ( M , g ) \| _ { C ^ { \alpha } , r } ^ { h a r } \leq Q .$
 
 The proof of this result is again by contradiction and uses most of the ideas we have already covered. However, since the harmonic norm does not work well without control on the derivatives of the metric it is necessary to use the Sobolev spaces $W ^ { 1 , p } ~ \subset ~ C ^ { 1 - n / p }$ to define a new harmonic norm with $L ^ { p }$ control on the derivatives. For the contradiction part of the argument we need to use distance functions as above, but we only obtain bounds on their Laplacians. By inspecting how these bounds are obtained we can show that they $ 0$ as inj  and $k  0$ . ! ! 1 !This will assist in showing that the limit space is Euclidean space. For more details see the original paper [4].
 
-# 11.4.5 Curvature Pinching
+### 11.4.5 Curvature Pinching
 
 Let us turn our attention to some applications of these compactness theorems. One natural subject to explore is that of pinching results. Recall from corollary 5.6.14 that complete constant curvature manifolds have uniquely defined universal coverings. It is natural to ask whether one can in some topological sense still expect this to be true when one has close to constant curvature. Now, any Riemannian manifold $( M , g )$ has curvature close to zero if we multiply the metric by a large scalar. Thus, some additional assumptions must come into play.
 
 We start out with the simpler problem of considering Ricci pinching and then use this in the context of curvature pinching below. The results are very simple consequences of the convergence theorems we have already presented.
 
-# 11.4 Geometric Applications
 
 Theorem 11.4.16. Given $n \geq 2$ ; R; $D > 0 ,$ , and $\lambda \in \mathbb { R }$ ; there is an $\varepsilon \left( n , \lambda , D , R \right) >$ 0 such that any closed Riemannian n-manifold $( M , g )$ with
 
@@ -1652,13 +1652,13 @@ $$
 
 for some very small $\varepsilon \left( n \right) > 0$ : More specifically, they all have a finite cover that is a quotient of a nilpotent Lie group by a discrete subgroup. Interestingly, there is also a Ricci flow type proof of this result in [94]. For more on collapsing in general, the reader can start by reading [44].
 
-# 11.5 Further Study
+## 11.5 Further Study
 
 Cheeger first proved his finiteness theorem and put down the ideas of $C ^ { k }$ convergence for manifolds in [25]. They later appeared in journal form [26], but not all ideas from the thesis were presented in this paper. Also the idea of general pinching theorems as described here are due to Cheeger [27]. For more generalities on convergence and their uses we recommend the surveys by Anderson, Fukaya, Petersen, and Yamaguchi in [51]. Also for more on norms and convergence theorems the survey by Petersen in [54] might prove useful. The text [53] should also be mentioned again. It was probably the original french version of this book that really spread the ideas of Gromov-Hausdorff distance and the stronger convergence theorems to a wider audience. Also, the convergence theorem of Riemannian geometry, as stated here, appeared for the first time in this book.
 
 We should also mention that S. Peters in [86] obtained an explicit estimate for the number of diffeomorphism classes in Cheeger’s finiteness theorem. This also seems to be the first place where the modern statement of Cheeger’s finiteness theorem is proved.
 
-# 11.6 Exercises
+## 11.6 Exercises
 
 EXERCISE 11.6.1. Find a sequence of 1-dimensional metric spaces that Hausdorff converge to the unit cube ${ [ 0 , 1 \dot { ] } } ^ { 3 }$ endowed with the metric coming from the maximum norm on $\mathbb { R } ^ { 3 }$ : Then find surfaces (jungle gyms) converging to the same space.
 

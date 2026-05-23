@@ -20,7 +20,7 @@ With this in mind it is clear that curvature influences the behavior of harmonic
 
 Prior to Bochner’s work Weitzenböck developed a formula very similar to the Bochner formula. We shall also explain this related formula and how it can be used to establish the Bochner formulas we use. It appears that Weitzenböck never realized that his work could have an impact on geometry and only thought of his work as an application of algebraic invariant theory.
 
-# 9.1 Hodge Theory
+## 9.1 Hodge Theory
 
 We start by giving a brief account of Hodge theory to explain why it calculates the homology of a manifold.
 
@@ -42,7 +42,6 @@ $$
 \begin{array}{l} \Omega^ {k} (M) \times \Omega^ {n - k} (M) \to \mathbb {R}, \\ \left(\omega_ {1}, \omega_ {2}\right)\rightarrow \int_ {M} \omega_ {1} \wedge \omega_ {2}, \\ \end{array}
 $$
 
-# 9.1 Hodge Theory
 
 that induces a nondegenerate pairing on the cohomology groups
 
@@ -108,11 +107,11 @@ $$
 
 If $\omega \in \Omega ^ { k }$ , then we can write $\omega = d \delta \theta + \delta d \theta + \tilde { \omega }$ , where $\Delta \tilde { \omega } = 0$ . When 2in addition $d \omega = 0$ it follows that $\triangle d \theta = d \delta d \theta = 0$ Q. Since $d \theta$ 4 Q Dis also harmonic it follows that $\delta d \theta = 0$ 4. In particular, $\omega = d \delta \theta + \tilde { \omega }$ and $\tilde { \omega }$ represents the same Dcohomology class as !.
 
-# 9.2 1-Forms
+## 9.2 1-Forms
 
 We shall see how Hodge theory can be used to get information about the first Betti number $b _ { 1 } ( M ) = \dim { \mathcal { H } } ^ { 1 } ( M )$ /. In the next section we generalize this to other forms and tensors.
 
-# 9.2.1 The Bochner Formula
+### 9.2.1 The Bochner Formula
 
 Let - be a harmonic 1-form on $( M , g )$ and $\begin{array} { r } { f = \frac { 1 } { 2 } | \theta | ^ { 2 } } \end{array}$ . To get a better feel for this D function consider the vector field X field dual to $\theta , \mathrm { i . e . , } \theta ( v ) = g ( X , v )$ for all v. Then
 
@@ -132,7 +131,6 @@ $$
 d \theta (V, W) + \left(L _ {X} g\right) (V, W) = 2 g \left(\nabla_ {V} X, W\right).
 $$
 
-# 9.2 1-Forms
 
 Since $L _ { X } g$ is symmetric and $d \theta$ is skew-symmetric the result immediately follows. The second part was proven in proposition 2.2.7.
 
@@ -170,7 +168,7 @@ $$
 \begin{array}{l} \sum g \left(\nabla_ {X, E _ {i}} ^ {2} X, E _ {i}\right) = \sum \left(\nabla_ {X} \text { Hess } u\right) (E _ {i}, E _ {i}) \\ = D _ {X} \sum \mathrm{Hess} u (E _ {i}, E _ {i}) \\ = D _ {X} \Delta u. \\ \end{array}
 $$
 
-# 9.2.2 The Vanishing Theorem
+### 9.2.2 The Vanishing Theorem
 
 We can now easily establish the other Bochner theorem for 1-forms.
 
@@ -194,11 +192,10 @@ Proof. We know from Hodge theory that $b _ { 1 } ( M ) = \dim { \mathcal { H } }
 
 If equality holds, then there are n linearly independent parallel fields $E _ { i } , \ i \ =$ $1 , \ldots , n$ . This clearly implies that .M; g/ is flat. Thus the universal covering is $\mathbb { R } ^ { n }$ with $\pi _ { 1 } \left( M \right)$ acting by isometries. Now pull the vector fields $E _ { i } , i = 1 , \ldots , n$ ; back to $\tilde { E } _ { i } , \ i = 1 , \dots , n$ ; on $\mathbb { R } ^ { n }$ D. These vector fields are again parallel and therefore Dconstant vector fields. This means that we can think of them as the usual Cartesian coordinate vector fields $\partial _ { i }$ : In addition, they are invariant under the action of $\pi _ { 1 } \left( M \right)$ , $\mathrm { i . e . }$ , for each ${ \cal F } \in \pi _ { 1 } \left( M \right)$ we have DF $( \partial _ { i } | _ { p } ) = \partial _ { i } | _ { F ( p ) } , i = 1 , \ldots , n $ : But only 2 j D jtranslations leave all of the coordinate fields invariant. Thus, $\pi _ { 1 } \left( M \right)$ consists entirely of translations. This means that $\pi _ { 1 } \left( M \right)$ is finitely generated, Abelian, and torsion free. Hence $\Gamma \ = \ \mathbb { Z } ^ { k }$ for some k. To see that M is a torus, we need $k \ = \ n$ : If $k < n ,$ then $\mathbb { Z } ^ { k }$ D Dgenerates a proper subspace of the space of translations and can’t act cocompactly on $\mathbb { R } ^ { n }$ . If $k > n ,$ , then $\mathbb { Z } ^ { k }$ can’t act discretely on $\mathbb { R } ^ { n }$ . Thus, it follows that $\Gamma = \mathbb { Z } ^ { n }$ and generates Rn:
 
-# 9.2.3 The Estimation Theorem
+### 9.2.3 The Estimation Theorem
 
 The goal is to generalize theorem 9.2.3 to manifolds with a negative lower bound for the Ricci curvature. The techniques were first developed by P. Li in the late ’70s and then improved by Gallot to give the results we present. Gallot’s contribution was in part to obtain a suitable bound for Sobolev constants as in theorem 7.1.13.
 
-# 9.2 1-Forms
 
 We start with a very general analysis lemma. Assume we have a compact Riemannian manifold $( M , g )$ and a vector bundle $E  M$ where the fibers are !endowed with a smoothly varying inner product and the dimension of the fibers is m. Sections of this bundle are denoted $\Gamma \left( E \right)$ and have several natural norms
 
@@ -278,7 +275,6 @@ $$
 = - \frac {q ^ {2}}{2 q - 1} \left(f ^ {2 q - 1}, \Delta f\right)
 $$
 
-# 9.2 1-Forms
 
 We can then use the Sobolev inequality to conclude that
 
@@ -354,11 +350,11 @@ $$
 
 where $S = D \cdot C \left( n , k D ^ { 2 } \right)$ is estimated in theorem 7.1.13 and proposition 7.1.17. The D specific nature of the bound proves the theorem.
 
-# 9.3 Lichnerowicz Laplacians
+## 9.3 Lichnerowicz Laplacians
 
 We introduce a natural class of Laplacians and show how the Bochner technique works for these operators. In the next section we then show that there are several natural Laplacians of this type including the Hodge Laplacian.
 
-# 9.3.1 The Connection Laplacian
+### 9.3.1 The Connection Laplacian
 
 We start by collecting the results from the previous section in a more general context.
 
@@ -398,7 +394,7 @@ $$
 
 to conclude via ${ \bf K } { \bf a t o } ^ { \prime } { \bf s }$ inequality that $\Delta f \geq - \lambda f$ . We can then finish the proof in the same fashion.
 
-# 9.3.2 The Weitzenböck Curvature
+### 9.3.2 The Weitzenböck Curvature
 
 The Weitzenböck curvature operator on a tensor is defined by
 
@@ -436,7 +432,7 @@ The first assumption is usually implied by showing that the Lichnerowicz Laplaci
 
 The second assumption $g \left( \operatorname { R i c } \left( T \right) , T \right) \ \geq \ 0$ , is often difficult to check and in many cases it took decades to sort out what curvature assumptions gave the best results. The goal in this section is to first develop a different formula for Ric .T/ and second to change T in a suitable fashion so as to create a significantly simpler formula for $g \left( \operatorname { R i c } \left( T \right) , T \right)$ . This formula will immediately show that $g \left( \operatorname { R i c } \left( T \right) , T \right)$ is nonnegative when the curvature operator is nonnegative. It will also make it very easy to calculate precisely what happens when T is a .0; 1/- or .0; 2/-tensor, a task we delay until the next section. It is worthwhile mentioning that the original proofs of some of these facts were quite complicated and only came to light long after the Bochner technique had been introduced.
 
-# 9.3.3 Simplification of Ric .T/
+### 9.3.3 Simplification of Ric .T/
 
 Since $R _ { X , Y } : T _ { p } M \to T _ { p } M$ is always skew-symmetric it can be decomposed using an W !orthonormal basis of skew-symmetric transformations $\Xi _ { \alpha } ~ \in ~ \mathfrak { s o } \left( T _ { p } M \right)$ : A tricky 2 sopoint enters our formulas at this point. It comes from the fact that if v and w are orthonormal, then $v \wedge w \in \Lambda ^ { 2 } T _ { p } M$ is a unit vector, while the corresponding ^ 2skew-symmetric operator, a counter clockwise rotation of $\pi / 2$ in span $\{ v , w \}$ ; has Euclidean norm ${ \sqrt { 2 } } .$ f g: To avoid confusion and unnecessary factors we assume that so $\left( T _ { p } M \right)$ is endowed with the metric that comes from $\Lambda ^ { 2 } T _ { p } M$ . With that in mind sowe have
 
@@ -506,11 +502,11 @@ $$
 
 and when $k = 0$ all $T \in V$ are parallel tensors.
 
-# 9.4 The Bochner Technique in General
+## 9.4 The Bochner Technique in General
 
 The goal in this section is to show that there are several natural Lichnerowicz Laplacians on Riemannian manifolds.
 
-# 9.4.1 Forms
+### 9.4.1 Forms
 
 The first obvious case is that of the Hodge Laplacian on k-forms as we already know that harmonic forms compute the topology of the underlying manifold.
 
@@ -558,7 +554,7 @@ $$
 \begin{array}{l} \triangle \omega = \nabla^ {*} \nabla \omega + \sum (R (E _ {j}, X _ {i}) \omega) (X _ {1}, \dots , E _ {j}, \dots , X _ {k}) \\ = \nabla^ {*} \nabla \omega + \operatorname{Ric} (\omega). \\ \end{array}
 $$
 
-# 9.4.2 The Curvature Tensor
+### 9.4.2 The Curvature Tensor
 
 We show that a suitably defined Laplacian on curvature tensors is in fact a Lichnerowicz Laplacian. This Laplacian is a symmetrized version of $\left( \nabla _ { X } \left( \nabla ^ { * } R \right) \right) \left( Y , Z , W \right)$ so as to make it have the same symmetries as R. It appears as r rthe right-hand side in the formula below.
 
@@ -588,7 +584,7 @@ $$
 
 One might expect that, as with the Hodge Laplacian, there should also be terms where one takes the divergence of certain derivatives of R: However, the second Bianchi identity shows that these terms already vanish for R: In particular, R is harmonic if it is divergence free: $\nabla ^ { * } R = 0$ :
 
-# 9.4.3 Symmetric .0; 2/-Tensors
+### 9.4.3 Symmetric .0; 2/-Tensors
 
 Let h be a symmetric .0; 2/-tensor. If we consider the corresponding .1; 1/-tensor H, then we have defined $\left( d ^ { \nabla } H \right) \left( X , Y \right) = \left( \nabla _ { X } H \right) \left( Y \right) - \left( \nabla _ { Y } H \right) \left( X \right)$ . Changing the type back allows us to define
 
@@ -664,7 +660,7 @@ $$
 
 Thus the scalar curvature must be constant and the Ricci tensor divergence free.
 
-# 9.4.4 Topological and Geometric Consequences
+### 9.4.4 Topological and Geometric Consequences
 
 Theorem 9.4.6 (D. Meyer, 1971, D. Meyer-Gallot, 1975, and Gallot, 1981). Let $( M , g )$ be a closed Riemannian n-manifold. If the curvature operator is nonnegative, then all harmonic forms are parallel. When the curvature operator is positive the only parallel l-forms have l  0; n. Finally when $\Re \geq k$ and ${ \mathrm { d i a m } } \leq D ,$ ,
 
@@ -740,7 +736,7 @@ $$
 
 showing that $R \left( x , v , w , z \right) = 0$ :
 
-# 9.4.5 Simplification of g .Ric .T/ ; T/
+### 9.4.5 Simplification of g .Ric .T/ ; T/
 
 Finally we mention an alternate method that recovers the formula for 1-forms and also gives a formula for general .0; 2/-tensors.
 
@@ -910,13 +906,13 @@ and the result follows from the previous proposition.
 
 ![](images/7b5697b2d9014c4fdf73c174bd19dca7396e8be1961b70e067c22c205d9c13f4.jpg)
 
-# 9.5 Further Study
+## 9.5 Further Study
 
 For more general and complete accounts of the Bochner technique and spin geometry we recommend the two texts [107] and [71]. The latter book also has a complete proof of the Hodge theorem. Other sources for this particular result are [65], [92], and [101].
 
 For other generalizations to manifolds with integral curvature bounds the reader should consult [46]. In there the reader will find a complete discussion on generalizations of the above mentioned results about Betti numbers.
 
-# 9.6 Exercises
+## 9.6 Exercises
 
 EXERCISE 9.6.1. Suppose $( M ^ { n } , g )$ is compact and has $b _ { 1 } = k$ : If $\operatorname { R i c } \geq 0$ ; then the universal covering splits:
 
@@ -1089,7 +1085,6 @@ $$
 
 for any $s \in \Omega ^ { p } \left( M , E \right)$ and that Bianchi’s second identity can be stated as $d ^ { \nabla } R = 0$ :
 
-# 9.6 Exercises
 
 EXERCISE 9.6.17. If we let $E = T M$ in the previous exercise, then
 

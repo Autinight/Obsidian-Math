@@ -6,7 +6,7 @@ Toponogov’s theorem is a very useful refinement of Gauss’s early realization
 
 The idea of triangle comparison for surfaces goes back to Alexandrov who in turn influenced Toponogov, however it is interesting to note that in fact Pizzetti had already established the local triangle comparison on surfaces at the beginning of the 20th century (see [84]).
 
-# 12.1 Critical Point Theory
+## 12.1 Critical Point Theory
 
 In the generalized critical point theory developed here, the object is to define generalized gradients of continuous functions and then use these gradients to conclude that certain regions of a manifold have no topology. The motivating basic lemma is the following:
 
@@ -34,7 +34,6 @@ $$
 \begin{array}{l} r _ {t}: f ^ {- 1} ([ - \infty , b ]) \rightarrow f ^ {- 1} ([ - \infty , b ]), \\ r _ {t} \left(p\right) = \left\{ \begin{array}{l l} p & \text { if } f \left(p\right) \leq a, \\ F ^ {t (f (p) - a)} \left(p\right) & \text { if } a \leq f \left(p\right) \leq b. \end{array} \right. \\ \end{array}
 $$
 
-# 12.1 Critical Point Theory
 
 Fig. 12.1 Gradient Flow Deformation   
 ![](images/a36a20b30c2d09692f198026a0f5c6d57026dd59d3daa8a7339557db33c2b2c8.jpg)
@@ -100,7 +99,6 @@ $$
 C _ {\alpha} (w) = \{v \in T _ {x} M \mid \angle (v, w) <   \alpha \}
 $$
 
-# 12.1 Critical Point Theory
 
 is convex when $\alpha \leq \pi / 2$ . Then observe that $R _ { \alpha } \left( x , K \right)$ is the intersection of the cones $C _ { \alpha } \left( \overrightarrow { x K } \right) , \overrightarrow { x K } \in \overrightarrow { x K }$ and is therefore also convex.
 
@@ -174,7 +172,7 @@ $$
 
 This clearly defines a differentiable map. For small t this is just the exponential map. The map is one-to-one since integral curves for X can’t intersect. The integral curves for X must leave all of the sublevels of the proper function xK . Consequently they are defined for all $t > 0$ j j. This shows that F is onto. Finally, as it is a diffeomorphism onto a neighborhood of K by the normal exponential map and the flow of a vector field always acts by local diffeomorphisms we see that it has nonsingular differential everywhere.
 
-# 12.2 Distance Comparison
+## 12.2 Distance Comparison
 
 In this section we introduce the geometric results that will enable us to check that various distance functions are noncritical. This obviously requires some sort of angle comparison. The most important step in this direction is supplied by the Toponogov comparison theorem. The proof we present is probably the simplest available and is based upon an idea by H. Karcher (see [32]).
 
@@ -338,7 +336,6 @@ $$
 \begin{array}{l} \ddot {\rho} - \rho = 1, \\ \rho (0) = \cosh (b) - 1, \\ \dot {\rho} (0) = - \sinh (b) \cos \alpha . \\ \end{array}
 $$
 
-# 12.2 Distance Comparison
 
 The general solution is
 
@@ -438,7 +435,6 @@ p
 ¯p
 </details>
 
-# 12.2 Distance Comparison
 
 For small t these functions are smooth and satisfy
 
@@ -566,7 +562,7 @@ $$
 \frac {\psi}{\zeta} (0) = 1,
 $$
 
-# 12.3 Sphere Theorems
+## 12.3 Sphere Theorems
 
 $$
 \frac {\psi}{\zeta} (t) \geq 1 \text {   for   small   } t.
@@ -582,7 +578,6 @@ But this becomes positive as $\delta  0$ ; since we assumed $\psi _ { \delta } \
 
 Remark 12.2.5. Note that we never really use in the proof that we work with segments. The only thing that must hold is that the geodesics in the space form are segments. For $k \leq 0$ this is of course always true. When $k > 0$ this means that the geodesic must have length $\leq \pi / { \sqrt { k } } .$ . This was precisely the important condition in the last part of the proof.
 
-# 12.3 Sphere Theorems
 
 Our first applications of the Toponogov theorem are to the case of positively curved manifolds. Using scaling, we can assume throughout this section that we work with a closed Riemannian n-manifold $( M , g )$ with sec $\geq 1$ : For such spaces we have established:
 
@@ -694,7 +689,7 @@ Theorem 12.3.4 (Grove-Gromoll, 1987 and Wilking, 2001). $I f \left( M , g \right
 
 Grove and Gromoll settled all but part (4), where they only showed that M had to have the cohomology ring of $\mathbb { O P } ^ { 2 }$ : It was Wilking who finally settled this last case (see [104]).
 
-# 12.4 The Soul Theorem
+## 12.4 The Soul Theorem
 
 The idea behind the soul theorem is a similar result by Cohn-Vossen for convex surfaces that are complete and noncompact. Such surfaces must contain a core or soul that is either a point or a planar convex circle. In the case of a point the surface is diffeomorphic to a plane. In the case of a circle the surface is isometric to the generalized cylinder over the circle.
 
@@ -835,7 +830,6 @@ $$
 N ^ {\prime} = A \cap B (q, \varepsilon) \subset N
 $$
 
-# 12.4 The Soul Theorem
 
 and $p \in \partial A ^ { \prime }$ (see figure 12.13). Thus $C _ { p } A ^ { \prime } \subset C _ { p } A$ and $T _ { p } A = T _ { p } A ^ { \prime }$ : The tangent 2cone of $\bar { B } \left( q , \varepsilon \right)$ is given by
 
@@ -901,7 +895,8 @@ $$
 C _ {1} = \{x \in M \mid f (x) = \max f \}
 $$
 
-is nonempty and convex since f is proper and concave. Moreover, it follows from the previous lemma that $C _ { 1 }$ is a point if $\sec > 0$ : This is because the superlevel sets $A = \left\{ x \in M \vert f \left( x \right) \geq a \right\}$ are convex with $\partial A = f ^ { - 1 } \left( a \right)$ ; $\quad \operatorname { s o } f \left( x \right) = \left| x \partial A \right|$ on A: If $C _ { 1 }$ D f 2 j  g Dis a submanifold, then we are also done. In this case $| x C _ { 1 } |$ D j jhas no critical points, as j jany point lies on the boundary of a convex superlevel set. Otherwise, $C _ { 1 }$ is a convex set with nonempty boundary. But then $| x \partial C _ { 1 } |$ is concave on $C _ { 1 }$ . The maximum set $C _ { 2 }$ is again nonempty, since $C _ { 1 }$ j jis compact and convex. If it is a submanifold, then we again claim that we are done. For the distance function $\left| x C _ { 2 } \right|$ has no critical j jpoints, as any point lies on the boundary for a superlevel set for either f or $| x \partial C _ { 1 } |$ : We can iterate this process to obtain a sequence of convex sets $C _ { 1 } \supset C _ { 2 } \supset \cdots \supset C _ { k }$ . We claim that in at most $n = \dim M$    steps we arrive at a point or submanifold S that we call the soul (see figure 12.15). This is because dim $C _ { i } > \mathrm { d i m } C _ { i + 1 }$ : To see this suppose dim $\boldsymbol { \mathrm { \Lambda } } C _ { i } = \dim C _ { i + 1 }$ . Then in $C _ { i + 1 }$ Cwill be an open subset of in $C _ { i }$ : So if $p \in \mathrm { i n t } C _ { i + 1 }$ D C; then we can find ı such that
+is nonempty and convex since f is proper and concave. Moreover, it follows from the previous lemma that $C _ { 1 }$ is a point if $\sec > 0$ : This is because the superlevel sets $A = \left\{ x \in M \vert f \left( x \right) \geq a \right\}$ are convex with $\partial A = f ^ { - 1 } \left( a \right)$ ; $\quad \operatorname { s o } f \left( x \right) = \left| x \partial A \right|$ on A: If $C _ { 1 }$ D f 2 j  g Dis a submanifold, then we are also done. In this case $| x C _ { 1 } |$ D j jhas no critical points, as j jany point lies on the boundary of a convex superlevel set. Otherwise, $C _ { 1 }$ is a convex set with nonempty boundary. But then $| x \partial C _ { 1 } |$ is concave on $C _ { 1 }$ . The maximum set $C _ { 2 }$ is again nonempty, since $C _ { 1 }$ j jis compact and convex. If it is a submanifold, then we again claim that we are done. For the distance function $\left| x C _ { 2 } \right|$ has no critical j jpoints, as any point lies on the boundary for a superlevel set for either f or $| x \partial C _ { 1 } |$ : We can iterate this process to obtain a sequence of convex sets $C _ { 1 } \supset C _ { 2 } \supset \cdots \supset C _ { k }$ . We claim that in at most $n = \dim M$    
+steps we arrive at a point or submanifold S that we call the soul (see figure 12.15). This is because dim $C _ { i } > \mathrm { d i m } C _ { i + 1 }$ : To see this suppose dim $\boldsymbol { \mathrm { \Lambda } } C _ { i } = \dim C _ { i + 1 }$ . Then in $C _ { i + 1 }$ Cwill be an open subset of in $C _ { i }$ : So if $p \in \mathrm { i n t } C _ { i + 1 }$ D C; then we can find ı such that
 
 Fig. 12.15 Iteration for soul construction   
 Level set for b   
@@ -936,7 +931,7 @@ $$
 
 admits a metric with positive Ricci curvature, thus putting to rest any hopes for general theorems in this direction. Sha-Yang have a very nice survey in [51] describing these and other examples. The construction uses doubly warped product metrics on $I \times S ^ { 2 } \times S ^ { 1 }$ as described in section 1.4.5.
 
-# 12.5 Finiteness of Betti Numbers
+## 12.5 Finiteness of Betti Numbers
 
 We prove two results in this section.
 
@@ -1347,7 +1342,7 @@ The Betti number theorem can easily be proved in the more general context of man
 
 It is also possible to reach a stronger conclusion (see [102]). In outline this is done as follows. First one should use simplicial instead of singular homology. If one inspects the proof of lemma 12.5.3 with this in mind, then one can, from a sufficiently fine simplicial subdivision of M relative to the doubly indexed cover, create a CW complex X that uses at most $C \left( n , k D ^ { 2 } \right)$ cells as well as maps $M \to X \to M$ whose ! !composition is the identity. In other words M is dominated by a CW complex with a bounded number of cells. This will also give a bound for the Betti numbers.
 
-# 12.6 Homotopy Finiteness
+## 12.6 Homotopy Finiteness
 
 This section is devoted to a result that interpolates between Cheeger’s finiteness theorem and Gromov’s Betti number estimate. We know that in Gromov’s theorem the class under investigation contains infinitely many homotopy types, while if we have a lower volume bound and an upper curvature bound as well, Cheeger’s result says that we have finiteness of diffeomorphism types.
 
@@ -1373,7 +1368,6 @@ Lemma 12.6.2. For M as in the theorem, there exists $\begin{array} { r } { \alph
 
 Proof. The proof is by contradiction and based on a suggestion by Cheeger. For simplicity assume that $k = - 1$ . Suppose there are points $p , q \in M$ that are not
 
-# 12.6 Homotopy Finiteness
 
 ˛-regular with respect to each other and with $| p q | \leq \delta$ . Then the two sets ${ \overrightarrow { p q } } \subset T _ { p } M$ and $\overrightarrow { \boldsymbol { q } \boldsymbol { p } } \subset T _ { \boldsymbol { q } } \boldsymbol { M }$ of unit vectors tangent segments joining $p$ and $q$ are by assumption $( \pi - \alpha )$ -dense in the unit spheres. It is a simple exercise to show that if $A \subset S ^ { n - 1 }$ ; then the function
 
@@ -1482,7 +1476,6 @@ $$
 \begin{array}{l} \cosh | x p | \leq \cosh | x q | \\ + (\cosh | p q | - 1) \cosh D - \sinh | p q | \sinh r \cos (\alpha). \\ \end{array}
 $$
 
-# 12.6 Homotopy Finiteness
 
 However, as $| p q | \to 0$ ; we see that the quantity
 
@@ -1565,7 +1558,8 @@ M
 
 Figure 12.19 shows how the contraction onto the diagonal works and also how segments to the diagonal are related to segments in M:
 
-Thus, we can find a curve of length $\begin{array} { r l } { \leq } & { { } \frac { 1 } { \cos \alpha } \left| \left( p , q \right) \Delta \right| } \end{array}$ from any point in this  j jneighborhood to : Moreover, this curve depends continuously on $( p , q )$ : We can translate this back into M: Namely, if $| p q | \ < \ \delta$ ; then $p$ and $q$ are joined by a curve $t \mapsto H \left( p , q , t \right) , 0 \leq t \leq 1$ j j; whose length is $\leq { \frac { \sqrt { 2 } } { \cos \alpha } } \left| p q \right|$ : Furthermore, the map $( p , q , t ) \mapsto H ( p , q , t )$ is continuous. For simplicity, we let $\begin{array} { r } { C = \frac { \sqrt { 2 } } { \cos \alpha } } \end{array}$ in the 7!constructions below.
+Thus, we can find a curve of length $\begin{array} { r l } { \leq } & { { } \frac { 1 } { \cos \alpha } \left| \left( p , q \right) \Delta \right| } \end{array}$ from any point in this  j jneighborhood to 
+: Moreover, this curve depends continuously on $( p , q )$ : We can translate this back into M: Namely, if $| p q | \ < \ \delta$ ; then $p$ and $q$ are joined by a curve $t \mapsto H \left( p , q , t \right) , 0 \leq t \leq 1$ j j; whose length is $\leq { \frac { \sqrt { 2 } } { \cos \alpha } } \left| p q \right|$ : Furthermore, the map $( p , q , t ) \mapsto H ( p , q , t )$ is continuous. For simplicity, we let $\begin{array} { r } { C = \frac { \sqrt { 2 } } { \cos \alpha } } \end{array}$ in the 7!constructions below.
 
 We now have the first ingredient in our proof.
 
@@ -1690,7 +1684,6 @@ $$
 \leq 2 \varepsilon + \varepsilon + | q _ {i _ {0}} f (x) |
 $$
 
-# 12.6 Homotopy Finiteness
 
 $$
 \begin{array}{l} \leq 3 \varepsilon + 4 \varepsilon + 8 \varepsilon \cdot C \cdot \frac {C ^ {n} - 1}{C - 1} \\ = 7 \varepsilon + 8 \varepsilon \cdot C \cdot \frac {C ^ {n} - 1}{C - 1}. \\ \end{array}
@@ -1744,15 +1737,14 @@ The family of lens spaces $\left\{ S ^ { 3 } / \mathbb { Z } _ { p } \right\}$ w
 
 Some further improvements are possible in the conclusion of the homotopy finiteness result. Namely, one can strengthen the conclusion to state that the class contains finitely many homeomorphism types. This was proved for $n \neq 3$ in [59] ¤and in a more general case in [85]. One can also prove many of the above results for manifolds with certain types of integral curvature bounds, see for instance [91] and [88]. The volume [54] also contains complete discussions of generalizations to the case where one has merely Ricci curvature bounds.
 
-# 12.7 Further Study
+## 12.7 Further Study
 
 There are many texts that partially cover or expand the material in this chapter. We wish to attract attention to the surveys by Grove in [51], by Abresch-Meyer, Colding, Greene, and Zhu in [54], by Cheeger in [28], and by Karcher in [32]. The most glaring omission from this chapter is probably that of the Abresch-Gromoll theorem and other uses of the excess function. The above-mentioned articles by Zhu and Cheeger cover this material quite well.
 
-# 12.8 Exercises
+## 12.8 Exercises
 
 EXERCISE 12.8.1. Let .M; g/ be a closed simply connected positively curved manifold. Show that if M contains a totally geodesic closed hypersurface, then M is homeomorphic to a sphere. Hint: first show that the hypersurface is orientable, and then show that the signed distance function to this hypersurface has only two critical points - a maximum and a minimum. This also shows that it suffices to assume that $H ^ { 1 } \left( M , \mathbb { Z } _ { 2 } \right) = 0$ :
 
-# 12.8 Exercises
 
 EXERCISE 12.8.2. Let $( M , g )$ be a complete noncompact manifold with sec $\geq 0$ and soul $S \subset M$ .
 

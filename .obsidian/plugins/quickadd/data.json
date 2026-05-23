@@ -1,74 +1,6 @@
 {
   "choices": [
     {
-      "id": "bec6c636-1c39-4bcc-ad46-c6c315fd3a30",
-      "name": "Format Math",
-      "type": "Macro",
-      "command": true,
-      "runOnStartup": false,
-      "macro": {
-        "name": "Format Math",
-        "id": "77c9d5ab-376f-4b74-8212-1cd82f532551",
-        "commands": [
-          {
-            "name": "latexFormatGeneral",
-            "type": "UserScript",
-            "id": "55cd0ae5-a9f5-4b59-8aa4-5929933d2377",
-            "path": "latexFormatGeneral.js",
-            "settings": {}
-          },
-          {
-            "name": "replaceAllDfntxt",
-            "type": "UserScript",
-            "id": "e6d1e7b3-4d42-4d1b-89fb-21ee0fc4ad6f",
-            "path": "replaceAllDfntxt.js",
-            "settings": {}
-          },
-          {
-            "name": "latexToCallout",
-            "type": "UserScript",
-            "id": "09db55a1-27dd-4ef7-b425-111f441d69c8",
-            "path": "latexToCallout.js",
-            "settings": {}
-          }
-        ]
-      }
-    },
-    {
-      "id": "0fa3b190-7868-4b1b-9252-ba7f7fb6ce7a",
-      "name": "Reverse",
-      "type": "Macro",
-      "command": true,
-      "runOnStartup": false,
-      "macro": {
-        "name": "Reverse",
-        "id": "e6e6c435-87fd-4db5-91a5-0db6f360b56c",
-        "commands": [
-          {
-            "name": "latexReverse",
-            "type": "UserScript",
-            "id": "b1bef128-e064-41c9-b03e-4750afd7d5e7",
-            "path": "latexReverse.js",
-            "settings": {}
-          },
-          {
-            "name": "reverseItem",
-            "type": "UserScript",
-            "id": "dbb1bc8b-ba7a-421d-b1b2-d6592252f42e",
-            "path": "reverseItem.js",
-            "settings": {}
-          },
-          {
-            "name": "reverseAllDfntxt",
-            "type": "UserScript",
-            "id": "53bc4ff3-0c8c-40b1-8807-700944c0ebc8",
-            "path": "reverseAllDfntxt.js",
-            "settings": {}
-          }
-        ]
-      }
-    },
-    {
       "id": "e04adf2d-ed1b-4f60-969c-4b0d898167df",
       "name": "Archive",
       "type": "Macro",
@@ -81,8 +13,8 @@
           {
             "name": "Archive",
             "type": "UserScript",
-            "id": "4e4e7829-d037-4e74-9620-18046c75c716",
-            "path": "Archive.js",
+            "id": "4749afd6-b689-4765-8a7d-dab988ca4fdd",
+            "path": "60.Templates/Archive.js",
             "settings": {}
           }
         ]

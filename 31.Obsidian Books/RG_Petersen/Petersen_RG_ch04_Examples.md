@@ -4,7 +4,7 @@ We are now ready to compute the curvature tensors on all of the examples constru
 
 The examples we present here include a selection of important techniques such as: Conformal change, left-invariant metrics, warped products, Riemannian submersion constructions etc. We shall not always develop the techniques in complete generality. Rather we show how they work in some basic, but important, examples. The exercises also delve into important ideas that are not needed for further developments in the text.
 
-# 4.1 Computational Simplifications
+## 4.1 Computational Simplifications
 
 Before we do more concrete calculations it will be useful to have some general results that deal with how one finds the range of the various curvatures.
 
@@ -48,13 +48,12 @@ $$
 
 so if we assume that $i \neq j ,$ then $g \left( R \left( e _ { i } , e _ { k } \right) e _ { k } , e _ { j } \right) = 0$ unless k is either i or j. However, if $k = i , j ;$ ¤ D, then the expression is zero from the symmetry properties of R. Thus, $e _ { i }$ Dmust diagonalize Ric. □
 
-# 4.2 Warped Products
+## 4.2 Warped Products
 
 So far, all we know about curvature is that Euclidean space has $R = 0$ . Using this, we determine the curvature tensor on $S ^ { n - 1 } ( R )$ D. Armed with that information we can in turn calculate the curvatures on rotationally symmetric metrics.
 
-# 4.2 Warped Products
 
-# 4.2.1 Spheres
+### 4.2.1 Spheres
 
 On $\mathbb { R } ^ { n }$ consider the distance function $r ( x ) \ = \ | x |$ and the polar coordinate representation:
 
@@ -76,7 +75,7 @@ $$
 
 since the curvature on $\mathbb { R } ^ { n }$ is zero. In particular, if $e _ { i }$ is any orthonormal basis, then $R ^ { r } \left( e _ { i } , e _ { j } \right) e _ { k } ~ = ~ 0$ when the indices are mutually distinct. Therefore, $S ^ { n - 1 } ( R )$ has Dconstant curvature $R ^ { - 2 }$ provided $n \geq 3$ . This justifies our notation that $S _ { k } ^ { n }$ is the rotationally symmetric metric $d r ^ { 2 } + \mathrm { s n } _ { k } ^ { 2 } ( r ) d s _ { n - 1 } ^ { 2 }$ when $k \geq 0$ , as these metrics have C  curvature k in this case. In section 4.2.3 we shall see that this is also true when $k < 0$ .
 
-# 4.2.2 Product Spheres
+### 4.2.2 Product Spheres
 
 Next we compute the curvatures on the product spheres
 
@@ -110,7 +109,7 @@ $$
 
 Therefore, we conclude that $S _ { a } ^ { n } \times S _ { b } ^ { m }$ always has constant scalar curvature, is an Einstein manifold exactly when $( n - 1 ) a = ( m - 1 ) b$ (which requires $n , m \geq 2$ or $n = m = 1 )$  D , and has constant sectional curvature only when $n = m = 1$ . Note also D Dthat the curvature tensor on $S _ { a } ^ { n } \times S _ { b } ^ { m }$ is always parallel.
 
-# 4.2.3 Rotationally Symmetric Metrics
+### 4.2.3 Rotationally Symmetric Metrics
 
 Next we consider what happens for a general rotationally symmetric metric
 
@@ -120,7 +119,6 @@ $$
 
 The metric is of the form $g = d r ^ { 2 } + g _ { r } \mathrm { o n } ( a , b ) \times S ^ { n - 1 }$ , with $g _ { r } = \rho ^ { 2 } d s _ { n - 1 } ^ { 2 }$ . As $d s _ { n - 1 } ^ { 2 }$ D Cdoes not depend on r we have that
 
-# 4.2 Warped Products
 
 $$
 \begin{array}{l} 2 \operatorname{Hess} r = L _ {\partial_ {r}} g _ {r} \\ = L _ {\partial_ {r}} \left(\rho^ {2} d s _ {n - 1} ^ {2}\right) \\ = \partial_ {r} (\rho^ {2}) d s _ {n - 1} ^ {2} + \rho^ {2} L _ {\partial_ {r}} (d s _ {n - 1} ^ {2}) \\ = 2 \rho (\partial_ {r} \rho) d s _ {n - 1} ^ {2} \\ = 2 \frac {\partial_ {r} \rho}{\rho} g _ {r}. \\ \end{array}
@@ -192,7 +190,6 @@ $$
 \begin{array}{l} \nabla_ {X} \amalg = \nabla_ {X} \left(\frac {\partial_ {r} \rho}{\rho} g _ {r}\right) \\ = D _ {X} \left(\frac {\partial_ {r} \rho}{\rho}\right) g _ {r} + \frac {\partial_ {r} \rho}{\rho} \nabla_ {X} g _ {r} \\ = 0. \\ \end{array}
 $$
 
-# 4.2 Warped Products
 
 From this we can use proposition 4.1.2 to conclude
 
@@ -284,7 +281,6 @@ $$
 \ddot {\rho} = - \frac {n - 2}{2} C \rho^ {1 - n} <   0.
 $$
 
-# 4.2 Warped Products
 
 Thus, if $\rho$ is extended to its maximal interval, then it must cross the “r-axis,” but as pointed out above this means that $\ddot { \rho }$ becomes undefined. Consequently, we don’t get any nice metrics this way.
 
@@ -320,7 +316,7 @@ This shows that the metric looks like the Euclidean metric $d \rho ^ { 2 } + \rh
 
 In section 5.6.2 we show that $\mathbb { R } \times S ^ { n - 1 } , n \geq 3$ C  ! 1, does not admit a (complete) - constant curvature metric. Later in section 7.3.1 and theorem 7.3.5, we will see that if $\mathbb { R } \times S ^ { n - 1 }$ has $\operatorname { R i c } \equiv 0 .$ , then $S ^ { n - 1 }$ also has a metric with $\operatorname { R i c } \equiv 0$ . When $n = 3$ or -4 this means that $S ^ { 2 }$ and $S ^ { 3 }$  Dhave flat metrics, and we shall see in section 5.6.2 that this is not possible. Thus we have found a manifold with a nice scalar flat metric that does not carry any Ricci flat or constant curvature metrics.
 
-# 4.2.4 Doubly Warped Products
+### 4.2.4 Doubly Warped Products
 
 We wish to compute the curvatures on
 
@@ -374,7 +370,6 @@ $$
 \operatorname{Ric} \left(\partial_ {r}\right) = \left(- p \frac {\ddot {\rho}}{\rho} - q \frac {\ddot {\phi}}{\phi}\right) \partial_ {r},
 $$
 
-# 4.2 Warped Products
 
 $$
 \operatorname{Ric} (X) = \left(\frac {- \ddot {\rho}}{\rho} + (p - 1) \frac {1 - \dot {\rho} ^ {2}}{\rho^ {2}} - q \cdot \frac {\dot {\rho} \dot {\phi}}{\rho \phi}\right) X,
@@ -384,7 +379,7 @@ $$
 \operatorname{Ric} (V) = \left(\frac {- \ddot {\phi}}{\phi} + (q - 1) \frac {1 - \dot {\phi} ^ {2}}{\phi^ {2}} - p \cdot \frac {\dot {\rho} \dot {\phi}}{\rho \phi}\right) V.
 $$
 
-# 4.2.5 The Schwarzschild Metric
+### 4.2.5 The Schwarzschild Metric
 
 We wish to find a Ricci flat metric on $\mathbb { R } ^ { 2 } \times S ^ { n - 2 }$ . Choose $p = n - 2$ and $q = 1$ in - Dthe above doubly warped product case so that the metric is on $( 0 , \infty ) \times S ^ { n - 2 } \times S ^ { 1 }$ . $ { \mathrm { W e } } ^ { \cdot }  { \mathrm { l l } }$ see that this forces $d r ^ { 2 } + \rho ^ { 2 } \left( r \right) d s _ { n - 2 } ^ { 2 }$ 1 - -to be scalar flat (see also exercise 4.7.16 Cfor a more general treatment).
 
@@ -452,11 +447,11 @@ $$
 \frac {1}{1 - \frac {\rho_ {0}}{\rho}} d \rho^ {2} + \rho^ {2} d s _ {2} ^ {2} - \frac {1}{c ^ {2}} \left(1 - \frac {\rho_ {0}}{\rho}\right) d t ^ {2}.
 $$
 
-# 4.3 Warped Products in General
+## 4.3 Warped Products in General
 
 We are now ready for a slightly more general context for warped products. This will allow us to characterize the rotationally symmetric constant curvature metrics through a very simple equation for the Hessian of a modified distance function.
 
-# 4.3.1 Basic Constructions
+### 4.3.1 Basic Constructions
 
 Given a Riemannian metric $( H , g _ { H } )$ a warped product (over I) is defined as a metric on $I \times H$ , where $I \subset \mathbb { R }$ is an open interval, with metric
 
@@ -546,7 +541,6 @@ $$
 \operatorname{Hess} f = \operatorname{cs} _ {k} (r) g = (1 - k f) g.
 $$
 
-# 4.3 Warped Products in General
 
 More specifically, when $k = 1$
 
@@ -568,7 +562,7 @@ $$
 \operatorname{Hess} f = \cosh r = 1 + f.
 $$
 
-# 4.3.2 General Characterization
+### 4.3.2 General Characterization
 
 We can now state and prove our main characterization of warped products.
 
@@ -616,7 +610,6 @@ $$
 
 The goal is to show that $g _ { S ^ { n - 1 } } = d s _ { n - 1 } ^ { 2 }$ . The initial conditions for $\rho$ guarantee that the metric $d r ^ { 2 } + \rho ^ { 2 } d s _ { n - 1 } ^ { 2 }$ D is continuous at p when we switch to Cartesian coordinates C as in section 1.4.4. We can use a similar analysis here. First assume that dim $M = 2$ and $x = r$ cos $\theta , y = r$ sin $\theta$ , where r is as above and $\theta$ coordinatizes $S ^ { 1 }$ D. The metric $g _ { S ^ { 1 } }$ on $S ^ { 1 }$ Dmust take the form $\phi ^ { 2 } \left( \theta \right) d \theta ^ { 2 }$ for some function $\phi : S ^ { 1 } \to ( 0 , \infty )$ . The metric is then given by $g = \dot { d r } ^ { 2 } + \rho ^ { 2 } \left( r \right) \phi ^ { 2 } \left( \theta \right) d \theta ^ { 2 }$ W ! 1. As the new coordinate fields are
 
-# 4.3 Warped Products in General
 
 $$
 \partial_ {x} = \cos \theta \partial_ {r} - \frac {1}{r} \sin \theta \partial_ {\theta},
@@ -698,7 +691,7 @@ $$
 
 The solutions are consequently given by the standard warped product representations of constant curvature metrics:
 
-# Euclidean Space
+Euclidean Space
 
 $$
 g = d r ^ {2} + r ^ {2} d s _ {n - 1} ^ {2},
@@ -722,7 +715,7 @@ In all cases $r = 0$ corresponds to the point $p .$
 
 Remark 4.3.5. A function $f : M \to \mathbb { R }$ is called transnormal provided $\left| d f \right| ^ { 2 } = \rho ^ { 2 } \left( f \right)$ for some smooth function $\rho .$ W ! j j D. We saw above that functions with conformal Hessian locally have this property. However, it is easy to construct transnormal functions that do not have conformal Hessian. A good example is the function $\begin{array} { r } { f = \frac { 1 } { 2 } } \end{array}$ sin .2r/ on the doubly warped product representation of $S ^ { 3 } \left( 1 \right)$ given by $d r ^ { 2 } + \sin ^ { 2 } \bar { ( r ) } d \theta _ { 1 } ^ { 2 } +$ $\cos ^ { 2 } \left( r \right) d \theta _ { 2 } ^ { 2 }$ on $( 0 , \pi / 2 ) \times S ^ { 1 } \times S ^ { 1 }$ .
 
-# 4.3.3 Conformal Representations of Warped Products
+### 4.3.3 Conformal Representations of Warped Products
 
 If $( M , g )$ is a Riemannian manifold and is positive on M, then we can construct a new Riemannian manifold $( M , \psi ^ { 2 } g )$ . Such a change in metric is called a conformal change, and $\psi ^ { 2 }$ is referred to as the conformal factor.
 
@@ -732,7 +725,6 @@ $$
 d r ^ {2} + \rho^ {2} (r) g _ {H} = \psi^ {2} (\rho) (d \rho^ {2} + g _ {H}),
 $$
 
-# 4.3 Warped Products in General
 
 $$
 d r = \psi (\rho) d \rho ,
@@ -748,7 +740,7 @@ $$
 \begin{array}{l} d r ^ {2} + \rho^ {2} (r) g _ {H} = \psi^ {2} (\rho) \left(d \rho^ {2} + \rho^ {2} g _ {H}\right), \\ d r = \psi (\rho) d \rho , \\ \rho (r) = \rho \psi (\rho). \\ \end{array}
 $$
 
-# 4.3.3.1 Conformal Models of Spheres
+#### 4.3.3.1 Conformal Models of Spheres
 
 The first of these changes has been studied since the time of Mercator. The sphere of radius R and curvature $\frac { 1 } { R ^ { 2 } }$ can be written as
 
@@ -830,7 +822,7 @@ $$
 
 This gives us a representation of the metric on the punctured sphere that only involves algebraic functions. See also exercise 4.7.13 for a geometric construction of the representation.
 
-# 4.3.3.2 Conformal Models of Hyperbolic Space
+#### 4.3.3.2 Conformal Models of Hyperbolic Space
 
 We defined hyperbolic space $H ^ { n }$ in example 1.1.7 and exhibited it as a rotationally symmetric metric in example 1.4.6. The rotationally symmetric metric on $H ^ { n } \left( R \right)$ can be written as
 
@@ -906,7 +898,7 @@ $$
 \frac {1}{\left(1 - \frac {1}{4} | F | ^ {2}\right) ^ {2}} \left(\sum_ {k = 1} ^ {n} \left(d F ^ {k}\right) ^ {2}\right) = \frac {4}{\left(1 - | x | ^ {2}\right) ^ {2}} \left(\sum_ {k = 1} ^ {n} \left(d x ^ {k}\right) ^ {2}\right).
 $$
 
-# 4.3.4 Singular Points
+### 4.3.4 Singular Points
 
 The polar coordinate conformal model
 
@@ -922,11 +914,11 @@ $$
 
 depends only on $\psi ^ { 2 } \left( \rho \right)$ being smooth (see Section 1.4.4). Thinking of $\rho$ as being Euclidean distance indicates that this is not entirely trivial. In fact we must assume that $\psi \left( 0 \right) ~ > ~ 0$ and $\psi ^ { ( \mathrm { o d d } ) } \left( 0 \right) ~ = ~ 0$ . Translating back to $\varphi$ we obtain the usual conditions: $\dot { \varphi } \left( 0 \right) = \pm 1$ and $\varphi ^ { \mathrm { ( e v e n ) } } \left( 0 \right) = 0$ .
 
-# 4.4 Metrics on Lie Groups
+## 4.4 Metrics on Lie Groups
 
 We are going to study some general features of left-invariant metrics and show how things simplify in the biinvariant situation. There are two examples of left-invariant metrics. The first represents hyperbolic space $H ^ { 2 }$ , and the other is the Berger sphere (see example 1.3.5).
 
-# 4.4.1 Generalities on Left-invariant Metrics
+### 4.4.1 Generalities on Left-invariant Metrics
 
 We can construct a metric on a Lie group G by fixing an inner product .; / on $T _ { e } \mathrm { { G } }$ and then translating it to $T _ { g } M$ using left-translation $L _ { g } \left( x \right) = g x$ . The metric is also denoted $( X , Y )$ on G so as not to confuse it with elements $g \in { \mathrm { G } }$ . With this metric, $L _ { g }$ becomes an isometry for all g since
 
@@ -944,7 +936,6 @@ $$
 \begin{array}{l} \frac {d}{d t} | _ {t = t _ {0}} \left(e ^ {t X}\right) = \frac {d}{d t} | _ {s = 0} \left(e ^ {(t _ {0} + s) X}\right) \\ = \frac {d}{d t} | _ {s = 0} \left(e ^ {t _ {0} X} e ^ {s X}\right) \\ = \frac {d}{d t} | _ {s = 0} \left(L _ {e ^ {t _ {0} X}} e ^ {s X}\right) \\ = D \left(L _ {e ^ {t _ {0} X}}\right) \left(\frac {d}{d t} | _ {s = 0} e ^ {s X}\right) \\ = D \left(L _ {e ^ {t _ {0} X}}\right) (X | _ {I}) \\ = X \big | _ {e ^ {t _ {0} X}}. \\ \end{array}
 $$
 
-# 4.4 Metrics on Lie Groups
 
 The key property for $t \mapsto \exp \left( t X \right)$ to be the integral curve for X is evidently that the derivative at $t = 0 { \mathrm { i s } } X | _ { e }$ and that $t \mapsto \exp \left( t X \right)$ is a homomorphism
 
@@ -1020,7 +1011,6 @@ $$
 
 Keeping this skew-symmetry in mind we can use the Koszul formula on $X , Y , Z \in$ to see that
 
-# 4.4 Metrics on Lie Groups
 
 $$
 \begin{array}{l} 2 \left(\nabla_ {Y} X, Z\right) = D _ {X} (Y, Z) + D _ {Y} (Z, X) - D _ {Z} (X, Y) \\ - ([ X, Y ], Z) - ([ Y, Z ], X) + ([ Z, X ], Y) \\ = - ([ X, Y ], Z) - ([ Y, Z ], X) + ([ Z, X ], Y) \\ = - ([ X, Y ], Z) + ([ Y, X ], Z) + ([ X, Y ], Z) \\ = ([ Y, X ], Z). \\ \end{array}
@@ -1042,7 +1032,7 @@ $$
 
 We note that Lie groups with biinvariant Riemannian metrics always have nonnegative sectional curvature and with a little more work it is also possible to show that the curvature operator is nonnegative (see exercise 3.4.32).
 
-# 4.4.2 Hyperbolic Space as a Lie Group
+### 4.4.2 Hyperbolic Space as a Lie Group
 
 Let G be the 2-dimensional Lie group
 
@@ -1102,11 +1092,10 @@ $$
 
 This, however, is not an orthonormal basis unless ˇ 0 and ˛ 1. Therefore, the D Dmetric is not biinvariant, nor are the left-invariant fields Killing fields.
 
-# 4.4 Metrics on Lie Groups
 
 This example can be generalized to higher dimensions. Thus, the upper half plane is in a natural way also a Lie group with a left-invariant metric of constant curvature 1. This is in sharp contrast to the spheres, where only $S ^ { 3 } = \mathrm { S U } ( 2 )$ and $S ^ { 1 } = S O$ .2/ are Lie groups.
 
-# 4.4.3 Berger Spheres
+### 4.4.3 Berger Spheres
 
 On SU.2/ consider the left-invariant metric such that $\lambda _ { 1 } ^ { - 1 } X _ { 1 } , \lambda _ { 2 } ^ { - 1 } X _ { 2 } , \lambda _ { 3 } ^ { - 1 } X _ { 3 }$ is an orthonormal frame and $[ X _ { i } , X _ { i + 1 } ] = 2 X _ { i + 2 }$ (indices are mod 3) as in example 1.3.5. The Koszul formula is:
 
@@ -1174,11 +1163,11 @@ $$
 
 If the three vectors $X _ { 1 } , X _ { 2 } , X _ { 3 }$ have the same length, then we see that the adjoint action is by isometries, otherwise not.
 
-# 4.5 Riemannian Submersions
+## 4.5 Riemannian Submersions
 
 In this section we develop formulas for curvatures that relate to Riemannian submersions. The situation is similar to that of distance functions, which as we know are Riemannian submersions. In this case, however, we determine the curvature of the base space from information about the total space.
 
-# 4.5.1 Riemannian Submersions and Curvatures
+### 4.5.1 Riemannian Submersions and Curvatures
 
 Throughout this section let $F : ( \bar { M } , \bar { g } ) \  \ ( M , g )$ be a Riemannian submersion. W N !Like with the metrics we shall use the standard $\mathbf { \tilde { \Delta } b a r } \mathbf { \overrightarrow { \Delta } }$ notation: $\bar { p }$ and $p$ and $\bar { X }$ and X for points and vector fields that are F-related, i.e., $F ( { \bar { p } } ) = p$ Nand $D F \left( { \bar { X } } \right) = X$ .
 
@@ -1247,7 +1236,6 @@ $$
 \begin{array}{l} \bar {g} \left(\bar {R} (\bar {X}, \bar {Y}) \bar {Z}, \bar {H}\right) = \bar {g} \left(\nabla_ {\bar {X}} \nabla_ {\bar {Y}} \bar {Z} - \nabla_ {\bar {Y}} \nabla_ {\bar {X}} \bar {Z} - \nabla_ {[ \bar {X}, \bar {Y} ]} \bar {Z}, \bar {H}\right) \\ = \bar {g} \left(\nabla_ {\bar {X}} \left(\overline {{\nabla_ {Y} Z}} + \frac {1}{2} [ \bar {Y}, \bar {Z} ]\right), \bar {H}\right) \\ - \bar {g} \left(\nabla_ {\bar {Y}} \left(\overline {{\nabla_ {X} Z}} + \frac {1}{2} [ \bar {X}, \bar {Z} ]\right), \bar {H}\right) \\ + \bar {g} \left(\left[ \bar {Z}, \bar {H} \right], \left[ \bar {X}, \bar {Y} \right]\right) \\ = \bar {g} \left(\overline {{\nabla_ {X} \nabla_ {Y} Z}} + \frac {1}{2} \left[ \bar {X}, \overline {{\nabla_ {Y} Z}} \right] ^ {\mathcal {V}} + \frac {1}{2} \nabla_ {\bar {X}} \left[ \bar {Y}, \bar {Z} \right], \bar {H}\right) \\ - \bar {g} \left(\overline {{\nabla_ {Y} \nabla_ {X} Z}} + \frac {1}{2} \left[ \bar {Y}, \overline {{\nabla_ {X} Z}} \right] ^ {\mathcal {V}} + \frac {1}{2} \nabla_ {\bar {Y}} \left[ \bar {X}, \bar {Z} \right], \bar {H}\right) \\ - \frac {1}{2} \bar {g} \left(\left[ \bar {X}, \bar {Y} \right], \left[ \bar {H}, \bar {Z} \right]\right) \\ \end{array}
 $$
 
-# 4.5 Riemannian Submersions
 
 $$
 \begin{array}{l} = g (R (X, Y) Z, H) \\ - \frac {1}{2} \bar {g} \left(\left[ \bar {Y}, \bar {Z} \right], \nabla_ {\bar {X}} \bar {H}\right) + \frac {1}{2} \bar {g} \left(\left[ \bar {X}, \bar {Z} \right], \nabla_ {\bar {Y}} \bar {H}\right) \\ - \frac {1}{2} \bar {g} \left(\left[ \bar {X}, \bar {Y} \right], \left[ \bar {H}, \bar {Z} \right]\right) \\ = g (R (X, Y) Z, H) \\ - \frac {1}{4} \bar {g} \left(\left[ \bar {Y}, \bar {Z} \right], \left[ \bar {X}, \bar {H} \right]\right) + \frac {1}{4} \bar {g} \left(\left[ \bar {X}, \bar {Z} \right], \left[ \bar {Y}, \bar {H} \right]\right) \\ - \frac {1}{2} \bar {g} \left(\left[ \bar {X}, \bar {Y} \right], \left[ \bar {H}, \bar {Z} \right]\right) \\ \end{array}
@@ -1259,7 +1247,7 @@ When X H and Y Z we get the above formula.
 
 More generally, one can find formulas for $\bar { R }$ where the variables are various combinations of basic horizontal and vertical fields.
 
-# 4.5.2 Riemannian Submersions and Lie Groups
+### 4.5.2 Riemannian Submersions and Lie Groups
 
 One can find many examples of manifolds with nonnegative or positive curvature using the previous theorem. In this section we shall explain the terminology in the general setting. The types of examples often come about by having $\left( { \bar { M } } , { \bar { g } } \right)$ with a free compact group action G by isometries and using $M = \mathbf { G } \backslash \bar { M } = \bar { M } / \mathbf { G }$ N. Note we D n Dnormally write such quotients on the right, but the action is generally on the left so $\mathbf { G } \backslash M$ is more appropriate. Examples are:
 
@@ -1285,7 +1273,7 @@ Thus $D x \left( X | _ { \bar { p } } \right)$ comes from first conjugating  via
 
 In the above discussion we did not discuss what conditions to put on the action of G on $\bar { M }$ in order to ensure that the quotient becomes a nice manifold. If G is compact and acts freely, then this will happen. The general situation is studied in section 5.6.4. In the next subsection we consider the special case of complex projective space as a quotient of a sphere. There is also a general way of getting new metrics on $\bar { M }$ it self from having a general isometric group action. This will be considered in section 4.5.4.
 
-# 4.5.3 Complex Projective Space
+### 4.5.3 Complex Projective Space
 
 Recall that $\mathbb { C P } ^ { n } = S ^ { 2 n + 1 } / S ^ { 1 }$ , where $S ^ { 1 }$ acts by complex scalar multiplication on $S ^ { 2 n + 1 } \subset \mathbb { C } ^ { n + 1 }$ D. If we write the metric as
 
@@ -1347,7 +1335,7 @@ $$
 \begin{array}{l} \operatorname{Ric} (X, X) = \sum_ {i = 0} ^ {2 n - 2} \sec (X, E _ {i}) \\ = \sec (X, E _ {0}) + \sum_ {i = 1} ^ {2 n - 2} \sec (X, E _ {i}) \\ = 1 + 3 \left| \bar {g} (\bar {E} _ {0}, \mathrm{i} \bar {X}) \right| ^ {2} + \sum_ {i = 1} ^ {2 n - 2} \left(1 + 3 \left| \bar {g} (\bar {E} _ {i}, \mathrm{i} \bar {X}) \right| ^ {2}\right) \\ = 1 + 3 \left| \bar {g} (\mathrm{i} \bar {X}, \mathrm{i} \bar {X}) \right| ^ {2} + \sum_ {i = 1} ^ {2 n - 2} \left(1 + 3 | 0 | ^ {2}\right) \\ = 1 + 3 + 2 n - 2 \\ = 2 n + 2. \\ \end{array}
 $$
 
-# 4.5.4 Berger-Cheeger Perturbations
+### 4.5.4 Berger-Cheeger Perturbations
 
 The construction we do here was first considered by Cheeger and was based on a slightly different construction by Berger used to construct the Berger spheres.
 
@@ -1381,13 +1369,13 @@ Using that we know how to compute horizontal lifts and that the metric on $\math
 
 Let $X , Y \in \mathcal { H } _ { p }$ . In this case the vectors are already horizontal for the action on $\mathbf { G } \times M$ 2. Thus we have that $\sec _ { g _ { \lambda } } \left( X , Y \right) \geq \sec _ { g } \left( X , Y \right)$ . There is a correction coming - from the integrability tensor associated with the action on $\mathbf { G } \times \boldsymbol { M }$ that possibly increases these curvatures.
 
-# 4.6 Further Study
+## 4.6 Further Study
 
 The book by O’Neill [80] gives an excellent account of Minkowski geometry and also studies in detail the Schwarzschild metric in the setting of general relativity. It appears to have been the first exact nontrivial solution to the vacuum Einstein field equations. There is also a good introduction to locally symmetric spaces and their properties. This book is probably the most comprehensive elementary text and is good for a first encounter with most of the concepts in differential geometry. The third edition of [47] also contains a good number of examples. Specifically they have a lot of material on hyperbolic space. They also have a brief account of the Schwarzschild metric in the setting of general relativity.
 
 Another book, which contains many more advanced examples, is [12]. This is also a good reference on Riemannian geometry in general.
 
-# 4.7 Exercises
+## 4.7 Exercises
 
 Remark. It will be useful to read exercises 3.4.23, 3.4.24, and 3.4.25 before doing the exercises for this chapter.
 
@@ -1455,7 +1443,6 @@ EXERCISE 4.7.9. Let $( M , g ) \ = \ ( M _ { 1 } \times M _ { 2 } , g _ { 1 } + 
 (1) Show that $R = R _ { 1 } + R _ { 2 }$ , where $R _ { i }$ is the curvature tensor of $( M _ { i } , g _ { i } )$ pulled back to M.   
 (2) Assume for the remainder of this exercise that $( M _ { i } , g _ { i } )$ has constant curvature $c _ { i }$ . Show that $R = c _ { 1 } g _ { 1 } \circ g _ { 1 } + c _ { 2 } g _ { 2 } \circ g _ { 2 }$ .
 
-# 4.7 Exercises
 
 (3) Show that $( M , g )$ is Einstein if and only if $( n _ { 1 } - 1 ) c _ { 1 } \ = \ ( n _ { 2 } - 1 ) c _ { 2 }$ where $n _ { i } = \dim M _ { i }$ .
 
@@ -1543,7 +1530,6 @@ $$
 
 This is referred to as the conformal invariance of the Weyl tensor under conformal changes and was discovered by Weyl.
 
-# 4.7 Exercises
 
 EXERCISE 4.7.15. Show that
 
@@ -1637,7 +1623,6 @@ $$
 
 EXERCISE 4.7.19 (SCHOUTEN 1921). In this exercise assume that we have a Riemannian manifold of dimension $n > 2$ such that $W = 0$ and $\left( \nabla _ { X } P \right) \left( Y , Z \right) =$ $\left( \nabla _ { Y } P \right) \left( X , Z \right)$ .
 
-# 4.7 Exercises
 
 (1) Show that if there is a 1-form ! such that
 
@@ -1736,7 +1721,6 @@ $$
 d r ^ {2} + \rho^ {2} (r) \left(\phi^ {2} (r) (\sigma^ {1}) ^ {2} + (\sigma^ {2}) ^ {2} + (\sigma^ {3}) ^ {2}\right).
 $$
 
-# 4.7 Exercises
 
 (1) Show that if
 
@@ -1815,7 +1799,6 @@ $$
 \mathfrak {R} = \left[ \begin{array}{c c} A & D \\ B & C \end{array} \right].
 $$
 
-# 4.7 Exercises
 
 Since is symmetric, we get that A; C are symmetric and that $D = B ^ { * }$ is the Radjoint of B. One can furthermore show that
 

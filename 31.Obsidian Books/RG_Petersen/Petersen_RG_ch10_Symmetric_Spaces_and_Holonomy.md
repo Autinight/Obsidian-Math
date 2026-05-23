@@ -8,11 +8,11 @@ After Cartan’s work, a few people worked on getting a better conceptual unders
 
 An even more interesting question also came out of this, namely, what about those few holonomy groups that do not occur for symmetric spaces? This is related to the study of Kähler manifolds and some exotic geometries in dimensions 7 and 8. The Kähler case seems to be quite well understood by now, not least because of Yau’s work on the Calabi conjecture. The exotic geometries have only more recently become better understood with D. Joyce’s work.
 
-# 10.1 Symmetric Spaces
+## 10.1 Symmetric Spaces
 
 There are many ways of representing symmetric spaces. Below we shall see how they can be described as homogeneous spaces, Lie algebras with involutions, or by their curvature tensor.
 
-# 10.1.1 The Homogeneous Description
+### 10.1.1 The Homogeneous Description
 
 We say that a Riemannian manifold $( M , g )$ is a symmetric space if for each $p \in M$ the isotropy group $\mathrm { I s o } _ { p }$ contains an isometry $A _ { p }$ such that $D A _ { p } : T _ { p } M \to T _ { p } M$ is the antipodal map $- I$ W !. Since isometries preserve geodesics, any geodesic c .t/ with $c \left( 0 \right) = p$ has the property that: $A _ { p } \circ c \left( t \right) = c \left( - t \right)$ : This quickly shows that D ı D symmetric spaces are homogeneous and hence complete. Specifically, if two points are joined by a geodesic, then the symmetry in the midpoint between these points on the geodesic is an isometry that maps these points to each other. Thus, any two points that can be joined by a broken sequence of geodesics can be mapped to each other by an isometry. This shows that the space is homogeneous.
 
@@ -52,7 +52,7 @@ Note that all of the compact examples have sec $\geq 0$ by O’Neill’s formula
 
 In the tables there is a column called rank. This is related to the rank of a Lie group as discussed in section 8.3. Here, however, we need a rank concept for more general spaces. The rank of a geodesic $c : \mathbb { R } \to M$ is the dimension of parallel fields E along c such that $R \left( E \left( t \right) , \dot { c } \left( t \right) \right) \dot { c } \left( t \right) = 0$ for all t: The rank of a geodesic P P Dis, in particular, always 1: The rank of a Riemannian manifold is defined as the minimum rank over all of the geodesics in M: For symmetric spaces the rank can be computed from knowledge of Abelian subgroups in Lie groups. For a general manifold there might naturally be metrics with different ranks, but this is actually not so obvious. Is it, for example, possible to find a metric on the sphere of rank $> 1 2 \mathrm { ~ A ~ }$ general remark is that any Cartesian product has rank  2; and also many symmetric spaces have rank $\geq 2$ : It is unclear to what extent other manifolds can also have rank $\geq 2$ : All of the rank 1 symmetric spaces are listed in tables 10.3 and 10.4. The compact ones are also known as CROSSes.
 
-# 10.1.2 Isometries and Parallel Curvature
+### 10.1.2 Isometries and Parallel Curvature
 
 Another interesting property for symmetric spaces is that they have parallel curvature tensor. This is because the symmetries $A _ { p }$ leave the curvature tensor and its covariant derivative invariant. In particular, we have
 
@@ -72,7 +72,6 @@ Theorem 10.1.1 (Cartan). $H \left( M , g \right)$ is a Riemannian manifold with 
 
 Proof. The global statement follows from the local one using an analytic continuation argument as in the proof of theorem 5.6.7 and the next theorem below. Note that for the local statement we already have a candidate for a map. Namely, if " is so small that $\exp _ { p } : B ( 0 , \varepsilon )  B ( p , \varepsilon )$ is a diffeomorphism, then we can just define $A _ { p } \left( x \right) = - x$ W !in these coordinates. It remains to see why this is an isometry D when we have parallel curvature tensor. Equivalently, we must show that in these coordinates the metric has to be the same at x and x: To this end we switch to polar coordinates and use the fundamental equations relating curvature and the metric. The claim follows if we can prove that the curvature tensor is the same when we go in opposite directions. To check this, first observe that at $p$
 
-# 10.1 Symmetric Spaces
 
 $$
 R (\cdot , v) v = R (\cdot , - v) (- v).
@@ -110,7 +109,7 @@ To see that this indeed defines an isometry, we have to show that the metrics in
 
 This result shows that the curvature tensor completely characterizes the symmetric space. It also tells us what the isometry group must be in case the symmetric space is simply connected. This will be investigated further below.
 
-# 10.1.3 The Lie Algebra Description
+### 10.1.3 The Lie Algebra Description
 
 Finally, we offer a more algebraic description of symmetric spaces. There are many ways of writing homogeneous spaces as quotients ${ \mathrm { G / H } } , { \mathrm { e . g . } }$ .,
 
@@ -146,7 +145,6 @@ $$
 
 showing that $\sigma \left( X \right) = X$ .
 
-# 10.1 Symmetric Spaces
 
 On the other hand, if $\sigma _ { p } \left( X \right) = - X$ , then $\left( \nabla X \right) \mid _ { p } = 0$ since at p
 
@@ -258,7 +256,6 @@ $$
 \operatorname{Ric} (Y, Z) = - \frac {1}{2} B (Z, Y).
 $$
 
-# 10.1 Symmetric Spaces
 
 Moreover, in case $\operatorname { R i c } = \lambda g$ , it follows that the curvature operator has the same sign as $\lambda .$ .
 
@@ -324,7 +321,6 @@ $$
 
 Fortunately we have the following modification of theorem 10.1.2.
 
-# 10.1 Symmetric Spaces
 
 Corollary 10.1.7. Let $( M , g )$ be a simply connected symmetric space. $H \ S \ \in$ 50 $\left( T _ { p } M \right)$ , then $S \in { \mathfrak { s } } _ { p }$ if and only if for all X; $Y \in T _ { p } M$
 
@@ -368,7 +364,7 @@ This algebraic approach will in general not immediately give us the isometry gro
 
 isoIt is important to realize that a Lie algebra ; in itself, does not give rise to a gsymmetric space. The involution is an integral part of the construction and does not necessarily exist on a given Lie algebra. The map $- i d$ can, for instance, not be used, as it does not preserve the bracket. Rather, it is an anti-automorphism. This is particularly interesting if comes from a Lie group G with biinvariant metric. There the involution $A _ { e } \left( g \right) = g ^ { - 1 }$ is an isometry and makes G a symmetric space. But it’s Ddifferential on is an anti-automorphism. Instead the algebraic description of G as ga symmetric space comes from using ${ \mathfrak { g } } \times { \mathfrak { g } }$ with $\sigma \left( X , Y \right) = \left( Y , X \right)$ : This will be investigated in the next section.
 
-# 10.2 Examples of Symmetric Spaces
+## 10.2 Examples of Symmetric Spaces
 
 We explain how some of the above constructions work in the concrete case of the Grassmann manifold and its hyperbolic counterpart. We also look at complex Grassmannians, but there we restrict attention to the complex projective space. Finally, we briefly discuss the symmetric space structure of SL $\left( n \right) / { \cal { S } } \mathrm { { O } } \left( n \right)$ : After these examples we give a formula for the curvature tensor on compact Lie groups with biinvariant metrics and their noncompact counter parts.
 
@@ -398,7 +394,7 @@ This allows us to conclude that the metrics we study can be extended to the enti
 
 \- Theorem 10.1.6 is used to calculate the curvatures in specific examples and the relevant Killing forms are calculated in exercise 10.5.6.
 
-# 10.2.1 The Compact Grassmannian
+### 10.2.1 The Compact Grassmannian
 
 First consider the Grassmannian of oriented k-planes in $\mathbb { R } ^ { k + l }$ , denoted by $M \ =$ $\tilde { \mathbf { G } } _ { k } \left( \mathbb { R } ^ { k + l } \right)$ . Each element in M is a k-dimensional subspace of $\mathbb { R } ^ { k + l }$ Dtogether with an orientation, $\mathrm { e . g . , } \tilde { \mathrm { G } } _ { 1 } \left( \mathbb { R } ^ { n + 1 } \right) = S ^ { n }$ . We shall assume that we have the orthogonal splitting $\mathbb { R } ^ { k + l } = \bar { \mathbb { R } } ^ { k } \oplus \bar { \mathbb { R } ^ { l } }$ D; where the distinguished element $p = \mathbb { R } ^ { k }$ takes up the first Dk coordinates in $\mathbb { R } ^ { k + l }$ Dand is endowed with its natural positive orientation.
 
@@ -480,7 +476,7 @@ When $k = 1$ or $l = 1$ ; it is easy to see that one gets a metric of constant p
 
 The calculations also show that in fact ${ \mathfrak { r } } _ { p } = { \mathfrak { s o } } \left( k \right) \oplus$ .l/ and corollary 10.1.8 can be used to show that $\mathfrak { r } = \mathfrak { s o } \left( k + l \right)$ .
 
-# 10.2.2 The Hyperbolic Grassmannian
+### 10.2.2 The Hyperbolic Grassmannian
 
 Next we consider the hyperbolic analogue. In the Euclidean space $\mathbb { R } ^ { k , l }$ we use, instead of the positive definite inner product $v ^ { t } \cdot w$ ; the quadratic form:
 
@@ -538,7 +534,7 @@ This is exactly the negative of the expression we got in the compact case. Hence
 
 Again it follows that ${ \mathfrak { r } } _ { p } = { \mathfrak { s o } } \left( k \right) \oplus { \mathfrak { s o } } \left( l \right)$ and $\mathfrak { o } = \mathfrak { s o } \left( k , l \right)$ .
 
-# 10.2.3 Complex Projective Space Revisited
+### 10.2.3 Complex Projective Space Revisited
 
 We view the complex projective space as a complex Grassmannian. Namely, let $M \ = \ \mathbb { C P } ^ { n } \ = \ G _ { 1 } \left( \mathbb { C } ^ { n + 1 } \right)$ , i.e., the complex lines in $\mathbb { C } ^ { n + 1 }$ : More generally one Dcan consider $G _ { k } \left( \mathbb { C } ^ { k + l } \right)$ and the hyperbolic counterparts $G _ { k } \left( \mathbb { C } ^ { k , l } \right)$ of space-like subspaces. We leave this to the reader.
 
@@ -610,7 +606,7 @@ $$
 
 Showing that ${ \frac { 1 } { 2 } } \leq \sec \leq 2$ , where the minimum value occurs when $z ^ { * } w = 0$ and  the maximum value when $w = \mathrm { i } z$ D. Note that this scaling isn’t consistent with our Ddiscussion in section 4.5.3 but we have still shown that the metric is quarter pinched.
 
-# 10.2.4 SL .n/ =SO .n/
+### 10.2.4 SL .n/ =SO .n/
 
 The manifold is the quotient space of the $n \times n$ matrices with determinant 1 by the -orthogonal matrices. The Lie algebra of SL .n/ is
 
@@ -626,7 +622,7 @@ $$
 
 So $\operatorname { R i c } = - n g$ and $\langle R \left( X , Y \right) Z , W \rangle = \langle \left[ X , Y \right] , \left[ Z , W \right] \rangle$ . In particular, the sectional D  hcurvatures must be nonpositive.
 
-# 10.2.5 Lie Groups
+### 10.2.5 Lie Groups
 
 Next we check how Lie groups become symmetric spaces.
 
@@ -636,11 +632,11 @@ The Lie algebra description of G as a symmetric space is given by $( { \mathfrak
 
 t gWe can also construct a noncompact symmetric space using the same Lie algebra that comes from a compact Lie group without center. Consider: $( { \mathfrak { g } } \otimes \mathbb { C } , \sigma )$ , where $\sigma \left( X \right) = \bar { X }$ is complex conjugation. Then ${ \mathfrak { k } } \ = \ { \mathfrak { g } } \ \subset \ { \mathfrak { g } } \ \otimes \ { \mathbb { C } }$ g ˝and $\mathfrak { t } \ = \ \mathrm { i g }$ . The D k D g  g ˝inner product on  is B on , while on  the metric is given by $g \left( \mathrm { i } X , \mathrm { i } Y \right) ~ =$ $- B \left( X , Y \right) = B \left( \mathrm { i } X , \mathrm { i } Y \right)$  g. This gives us Ric $\operatorname { ( i } X , \mathrm { i } Y ) = - { \textstyle { \frac { 1 } { 2 } } } B \operatorname { ( i } X , \mathrm { i } Y ) = - { \textstyle { \frac { 1 } { 2 } } } g \operatorname { ( i } X , \mathrm { i } Y )$  Dand nonpositive curvature.
 
-# 10.3 Holonomy
+## 10.3 Holonomy
 
 First we discuss holonomy for general manifolds and the de Rham decomposition theorem. We then use holonomy to give a brief discussion of how symmetric spaces can be classified according to whether they are compact or not.
 
-# 10.3.1 The Holonomy Group
+### 10.3.1 The Holonomy Group
 
 Let $( M , g )$ be a Riemannian n-manifold. If $c : [ a , b ] \to M$ is a unit speed curve, then
 
@@ -686,7 +682,6 @@ With this we can state de Rham’s decomposition theorem.
 
 Theorem 10.3.1 (de Rham, 1952). If we decompose the tangent bundle of a Riemannian manifold $( M , g )$ into irreducible components according to the restricted holonomy:
 
-# 10.3 Holonomy
 
 $$
 T M = \eta_ {1} \oplus \dots \oplus \eta_ {k},
@@ -750,7 +745,7 @@ DSecond, the skew-symmetric part has purely imaginary eigenvalues, however, we s
 
 Corollary 10.3.3. A simply connected irreducible symmetric space is an Einstein manifold. In particular, it has nonnegative or nonpositive curvature operator according to the sign of the Einstein constant.
 
-# 10.3.2 Rough Classification of Symmetric Spaces
+### 10.3.2 Rough Classification of Symmetric Spaces
 
 We are now in a position to explain the essence of what irreducible symmetric spaces look like. They are all Einstein and come in three basic categories.
 
@@ -764,7 +759,8 @@ We won’t give a complete list of all irreducible symmetric spaces, but one int
 
 Type I: Compact irreducible symmetric spaces of the form . ; /, where  is simple; the Lie algebra of a compact Lie group; and ${ \mathfrak { k } } \subset { \mathfrak { g } }$ g k ga maximal subalgebra, e.g., . .k  l/ ;  .k/   .l//.
 
-so C so - soType II: Compact irreducible symmetric spaces .  ;  /, where  is simple and k ˚ k k kcorresponds to a compact Lie group. The space is a compact Lie group with a biinvariant metric.
+so C so - soType II: Compact irreducible symmetric spaces .  ; 
+ /, where  is simple and k ˚ k k kcorresponds to a compact Lie group. The space is a compact Lie group with a biinvariant metric.
 
 Type III: Noncompact symmetric spaces . ; /, where  is simple; the Lie algebra of a non-compact Lie group; and ${ \mathfrak { k } } \subset { \mathfrak { g } }$ g k ga maximal subalgebra corresponding to k  ga compact Lie group, e.g., . .k; l/ ;  .k/   .l// or . .n/ ;  .n//
 
@@ -772,7 +768,7 @@ so soType IV: Noncompact symmetric spaces $( \mathfrak { k } \otimes \mathbb { C
 
 Note that since compact type symmetric spaces have nonnegative curvature operator, it becomes possible to calculate their cohomology algebraically. The Bochner technique tells us that all harmonic forms are parallel. As parallel forms are invariant under the holonomy we are left with a classical invariance problem: Determine all forms on a Euclidean space that are invariant under a given group action on the space. It is particularly important to know the cohomology of the real and complex Grassmannians, as one can use that information to define Pontryagin and Chern classes for vector bundles. We refer the reader to [97, vol. 5] and [76] for more on this.
 
-# 10.3.3 Curvature and Holonomy
+### 10.3.3 Curvature and Holonomy
 
 We mention, without proof, the general classification of connected irreducible holonomy groups. Berger classified all possible holonomies. Simons gave a direct proof of the fact that spaces with nontransitive holonomy must be locally symmetric, i.e., he did not use Berger’s classification of holonomy groups.
 
@@ -846,11 +842,11 @@ $\mathrm { ( c ) } \qquad T h e u n i v e r s a l c o \nu e r i n g o f M i s b 
 
 Given that there is such a big difference between the classes of manifolds with nonnegative curvature operator and nonnegative sectional curvature, one might think the same is true for nonpositive curvature. However, the above rank rigidity theorem tells us that in fact nonpositive sectional curvature is much more rigid than nonnegative sectional curvature. Nevertheless, there is an example of Aravinda and Farrell showing that there are nonpositively curved manifolds that do not admit metrics with nonpositive curvature operator (see [5]).
 
-# 10.4 Further Study
+## 10.4 Further Study
 
 We have not covered all important topics about symmetric spaces. For more indepth information we recommend the texts by Besse, Helgason, and Jost (see [12, Chapters 7,10], [13, Chapter 3], [62], and [65, Chapter 6]). Another very good text which covers the theory of Lie groups and symmetric spaces is [64]. O’Neill’s book [80, Chapter 8] also has a nice elementary account of symmetric spaces. Finally, Klingenberg’s book [69] has an excellent geometric account of symmetric spaces.
 
-# 10.5 Exercises
+## 10.5 Exercises
 
 EXERCISE 10.5.1. Let M be a symmetric space and $X \in \mathfrak { t } _ { p } , \mathrm { i . e . , } X$ is a nontrivial Killing field with $\left( \nabla X \right) \mid _ { p } = 0$ .
 

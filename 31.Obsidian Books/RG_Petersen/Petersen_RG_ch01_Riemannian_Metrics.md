@@ -10,7 +10,7 @@ From Riemann’s work it appears that he worked with changing metrics mostly by 
 
 Another important way of finding examples of Riemannian metrics is by using left-invariant metrics on Lie groups. This leads us, among other things, to the Hopf fibration and Berger spheres. Both of these are of fundamental importance and are also at the core of a large number of examples in Riemannian geometry. These will also be defined here and studied further throughout the book.
 
-# 1.1 Riemannian Manifolds and Maps
+## 1.1 Riemannian Manifolds and Maps
 
 A Riemannian manifold $( M , g )$ consists of a $C ^ { \infty }$ -manifold M (Hausdorff and second countable) and a Euclidean inner product $g _ { p } \thinspace 0 \Gamma g \vert _ { p }$ on each of the tangent spaces $T _ { p } M$ of $M .$ . In addition we assume that $p \mapsto g _ { p }$ jvaries smoothly. This means that for any 7!two smooth vector fields X; Y the inner product $g _ { p } \left( X | _ { p } , Y | _ { p } \right)$ is a smooth function of $p .$ : The subscript $p$ j jwill usually be suppressed when it is not needed. Thus we might write $g \left( X , Y \right)$ with the understanding that this is to be evaluated at each $p$ where X and $Y$ are defined. When we wish to associate the metric with M we also denote it as $g _ { M }$ : The tensor $g$ is referred to as the Riemannian metric or simply the metric. Generally speaking the manifold is assumed to be connected. Exceptions do occur, especially when studying level sets or submanifolds defined by constraints.
 
@@ -159,7 +159,7 @@ $$
 \begin{array}{l} | v | ^ {2} = \left(v ^ {1}\right) ^ {2} + \dots + (v ^ {n}) ^ {2} - \left(v ^ {n + 1}\right) ^ {2} \\ = \left(v ^ {1}\right) ^ {2} + \dots + (v ^ {n}) ^ {2} - \left(\frac {v ^ {1} p ^ {1} + \cdots + v ^ {n} p ^ {n}}{p ^ {n + 1}}\right) ^ {2}. \\ \end{array}
 $$
 
-# 1.2 The Volume Form
+## 1.2 The Volume Form
 
 Using Cauchy-Schwarz on the expression in the numerator together with
 
@@ -177,7 +177,6 @@ When R  1 we generally just write $H ^ { n }$ and refer to this as hyperbolic n-
 
 Much of the tensor analysis that we shall develop on Riemannian manifolds can be carried over to pseudo-Riemannian manifolds without further ado. It is only when we start using norm and distances that we have to be more careful.
 
-# 1.2 The Volume Form
 
 In Euclidean space the inner product not only allows us to calculate norms and angles but also areas, volumes, and more. The key to understanding these definitions better lies in using determinants.
 
@@ -217,11 +216,11 @@ is the projection of X onto $E _ { i }$ and this describes the height in the ith
 
 On oriented manifolds it is possible to integrate n-forms. On oriented Riemannian manifolds we can then integrate functions f by integrating the form $f$ vol. In fact any manifold contains an open dense set $O \subset M$ where $T O = O \times \mathbb { R } ^ { n }$ is trivial. In particular, $o$  D -is orientable and we can choose an orthonormal frame on all of $O .$ . This shows that we can integrate functions over M by integrating them over $O .$ . Thus we can integrate on all Riemannian manifolds.
 
-# 1.3 Groups and Riemannian Manifolds
+## 1.3 Groups and Riemannian Manifolds
 
 We shall study groups of Riemannian isometries on Riemannian manifolds and see how they can be used to construct new Riemannian manifolds.
 
-# 1.3.1 Isometry Groups
+### 1.3.1 Isometry Groups
 
 For a Riemannian manifold $( M , g )$ we use Iso $( M , g )$ or Iso.M/ to denote the group of Riemannian isometries ${ \cal F } : ( { \cal M } , g ) \ :  \ : ( { \cal M } , g )$ and $\mathrm { I s o } _ { p } ( M , g )$ the isotropy or stabilizer (sub)group at $p _ { i }$ W; i.e., those $F \in { \mathrm { I s o } } ( M , g )$ with $F ( p ) = p$ . A Riemannian 2 Dmanifold is said to be homogeneous if its isometry group acts transitively, i.e., for each pair of points $p , q \in M$ there is an $F \in \operatorname { I s o } \left( M , g \right)$ such that $F \left( p \right) = q$ .
 
@@ -265,7 +264,7 @@ $$
 
 The isotropy group that preserves $R e _ { n + 1 }$ can be identified with ${ \mathrm { O } } ( n )$ (isometries Cwe get from the metric being rotationally symmetric). One can also easily check that ${ \mathrm { O } } ^ { + } ( n , 1 )$ acts transitively on $H ^ { n } ( R )$ .
 
-# 1.3.2 Lie Groups
+### 1.3.2 Lie Groups
 
 If instead we start with a Lie group G, then it is possible to make it a group of isometries in several ways. The tangent space can be trivialized
 
@@ -283,7 +282,6 @@ Example 1.3.4. The idea of taking the quotient of a Lie group by a subgroup can 
 
 Example 1.3.5. One of the most important nontrivial Lie groups is SU .2/ ; which is defined as
 
-# 1.3 Groups and Riemannian Manifolds
 
 $$
 \begin{array}{l} \mathrm{SU} (2) = \left\{A \in M _ {2 \times 2} (\mathbb {C}) \mid \det A = 1, A ^ {*} = A ^ {- 1} \right\} \\ = \left\{\left[ \begin{array}{c c} z & w \\ - \bar {w} & \bar {z} \end{array} \right] | | z | ^ {2} + | w | ^ {2} = 1 \right\} \\ = S ^ {3} (1). \\ \end{array}
@@ -315,7 +313,7 @@ $$
 
 Thus $X _ { 1 }$ is tangent to the orbits of the Hopf circle action. The Berger spheres are then obtained from the canonical metric by multiplying the metric along the Hopf fiber by $\varepsilon ^ { 2 }$ :
 
-# 1.3.3 Covering Maps
+### 1.3.3 Covering Maps
 
 Discrete groups are also common in geometry, often through deck transformations or covering transformations. Suppose that $F : M \to N$ is a covering map. Then W !F is, in particular, both an immersion and a submersion. Thus, any Riemannian metric on N induces a Riemannian metric on M. This makes F into an isometric immersion, also called a Riemannian covering. Since dimM dimN; F must in fact be a local isometry, i.e., for every $p \in M$ Dthere is a neighborhood $U \ni p$ in M such that $F | _ { U } : U \to F ( U )$ 2 3is a Riemannian isometry. Notice that the pullback j W !metric on M has considerable symmetry. For if $q \in V \subset N$ is evenly covered by $\{ U _ { p } \} _ { p \in F ^ { - 1 } ( q ) }$ ; then all the sets V and $U _ { p }$ 2 are isometric to each other. In fact, if F is a f g 2normal covering, i.e., there is a group  of deck transformations acting on M such that:
 
@@ -335,9 +333,9 @@ The orbit of the origin looks like a lattice. The quotient is a torus $T ^ { 2 }
 
 Example 1.3.7. The involution I on $S ^ { n } ( 1 ) \subset \mathbb { R } ^ { n + 1 }$ is an isometry and induces a Riemannian covering $S ^ { n } \to \mathbb { R } \mathbb { P } ^ { n }$ .
 
-# 1.4 Local Representations of Metrics
+## 1.4 Local Representations of Metrics
 
-# 1.4.1 Einstein Summation Convention
+### 1.4.1 Einstein Summation Convention
 
 We shall often use the index and summation convention introduced by Einstein. Given a vector space V; such as the tangent space of a manifold, we use subscripts for vectors in V: Thus a basis of V is denoted by $e _ { 1 } , \ldots , e _ { n }$ : Given a vector $v \in V$ we can then write it as a linear combination of these basis vectors as follows
 
@@ -393,7 +391,7 @@ and then observing that we have used the above definition for finding the compon
 
 When offering coordinate dependent definitions we shall be careful that they are given in a form where they obviously conform to this philosophy and are consequently easily seen to be invariantly defined.
 
-# 1.4.2 Coordinate Representations
+### 1.4.2 Coordinate Representations
 
 On a manifold M we can multiply 1-forms to get bilinear forms:
 
@@ -459,7 +457,7 @@ $$
 \begin{array}{l} g = d x ^ {2} + d y ^ {2} \\ = (\cos \theta d r - r \sin \theta d \theta) ^ {2} + (\sin \theta d r + r \cos \theta d \theta) ^ {2} \\ = (\cos^ {2} \theta + \sin^ {2} \theta) d r ^ {2} + (r \cos \theta \sin \theta - r \cos \theta \sin \theta) d r d \theta \\ + (r \cos \theta \sin \theta - r \cos \theta \sin \theta) d \theta d r + (r ^ {2} \sin^ {2} \theta) d \theta^ {2} + (r ^ {2} \cos^ {2} \theta) d \theta^ {2} \\ = d r ^ {2} + r ^ {2} d \theta^ {2}. \\ \end{array}
 $$
 
-# 1.4.3 Frame Representations
+### 1.4.3 Frame Representations
 
 A similar way of representing the metric is by choosing a frame $X _ { 1 } , \ldots , X _ { n }$ on an open set U of M, i.e., n linearly independent vector fields on U; where $n = \dim M$ : If $\sigma ^ { 1 } , \ldots , \sigma ^ { n }$ is the coframe, i.e., the 1-forms such that $\sigma ^ { i } \left( X _ { j } \right) = \delta _ { j } ^ { i }$ D; then the metric can be written as
 
@@ -606,7 +604,7 @@ $$
 \begin{array}{l} \frac {d \operatorname{sn} _ {k}}{d t} (t) = \operatorname{cs} _ {k} (t), \\ \frac {d \operatorname{cs} _ {k}}{d t} (t) = - k \operatorname{sn} _ {k} (t), \\ 1 = \mathrm{cs} _ {k} ^ {2} (t) + k \mathrm{sn} _ {k} ^ {2} (t). \\ \end{array}
 $$
 
-# 1.4.4 Polar Versus Cartesian Coordinates
+### 1.4.4 Polar Versus Cartesian Coordinates
 
 In the rotationally symmetric examples we haven’t discussed what happens when $\rho ( t ) = 0$ . In the revolution case, the profile curve clearly needs to have a horizontal Dtangent in order to look smooth. To be specific, consider $d t ^ { 2 } + \rho ^ { 2 } ( t ) d \theta ^ { 2 }$ , where $\rho : [ 0 , b )  [ 0 , \infty )$ with $\rho ( 0 ) = 0$ and $\rho ( t ) > 0$ for $t > 0$ C. All other situations can W ! 1 Dbe translated or reflected into this position.
 
@@ -716,7 +714,7 @@ $$
 \begin{array}{l} - d t ^ {2} + \sum \delta_ {i j} d x ^ {i} d x ^ {j} \\ = - \left(d \left(R \cosh \left(\frac {r}{R}\right)\right)\right) ^ {2} + \sum \delta_ {i j} d \left(R \sinh \left(\frac {r}{R}\right) s ^ {i}\right) d \left(R \sinh \left(\frac {r}{R}\right) s ^ {j}\right) \\ = - \sinh^ {2} \left(\frac {r}{R}\right) d r ^ {2} \\ + \sum \delta_ {i j} \left(s ^ {i} \cosh \left(\frac {r}{R}\right) d r + R \sinh \left(\frac {r}{R}\right) d s ^ {i}\right) \left(s ^ {j} \cosh \left(\frac {r}{R}\right) d r + R \sinh \left(\frac {r}{R}\right) d s ^ {j}\right) \\ = - \sinh^ {2} \left(\frac {r}{R}\right) d r ^ {2} + \sum \delta_ {i j} s ^ {i} s ^ {j} \cosh^ {2} \left(\frac {r}{R}\right) d r ^ {2} + \sum \delta_ {i j} R ^ {2} \sinh^ {2} \left(\frac {r}{R}\right) d s ^ {i} d s ^ {j} \\ = d r ^ {2} + R ^ {2} \sinh^ {2} \left(\frac {r}{R}\right) d s _ {n - 1} ^ {2}. \\ \end{array}
 $$
 
-# 1.4.5 Doubly Warped Products
+### 1.4.5 Doubly Warped Products
 
 We can more generally consider metrics of the type:
 
@@ -762,7 +760,6 @@ By adjusting and possibly changing the roles of these functions we obtain three 
 
 Example 1.4.9. We exhibit spheres as doubly warped products. The claim is that the metrics
 
-# 1.4 Local Representations of Metrics
 
 $$
 d t ^ {2} + \sin^ {2} (t) d s _ {p} ^ {2} + \cos^ {2} (t) d s _ {q} ^ {2}, t \in [ 0, \pi / 2 ],
@@ -776,7 +773,7 @@ $$
 
 where $x \in \mathbb { R } ^ { p + 1 } , y \in \mathbb { R } ^ { q + 1 }$ have $| x | = | y | = 1$ . These embeddings clearly map into 2 2 j j D j j Dthe unit sphere. The computations that the map is a Riemannian isometry are similar to the calculations in example 1.4.6.
 
-# 1.4.6 Hopf Fibrations
+### 1.4.6 Hopf Fibrations
 
 We use several of the above constructions to understand the Hopf fibration. This includes the higher dimensional analogues and other metric variations of these examples.
 
@@ -878,7 +875,6 @@ $$
 
 is always a Riemannian submersion when the domain is endowed with the doubly warped product metric
 
-# 1.4 Local Representations of Metrics
 
 $$
 d t ^ {2} + \rho^ {2} (t) d \theta_ {1} ^ {2} + \phi^ {2} (t) d \theta_ {2} ^ {2}
@@ -956,15 +952,14 @@ $$
 d t ^ {2} + \sin^ {2} (t) (g + \cos^ {2} (t) h).
 $$
 
-# 1.5 Some Tensor Concepts
+## 1.5 Some Tensor Concepts
 
 In this section we shall collect together some notational baggage and more general inner products of tensors that will be needed from time to time.
 
-# 1.5.1 Type Change
+### 1.5.1 Type Change
 
 The inner product structures on the tangent spaces to a Riemannian manifold allow us to view tensors in different ways. We shall use this for the Hessian of a function and the Ricci tensor. These are naturally bilinear tensors, but can also be viewed as endomorphisms of the tangent bundle. Specifically, if we have a metric g and an endomorphism S on a vector space, then $b \left( v , w \right) = g \left( S \left( v \right) , w \right)$ is the corresponding Dbilinear form. Given g, this correspondence is an isomorphism. When generalizing to the pseudo-Riemannian setting it is occasionally necessary to change the formulas we develop (see also exercise 1.6.10).
 
-# 1.5 Some Tensor Concepts
 
 If, in general, we have an .s; t/-tensor T; then we can view it as a section in the bundle
 
@@ -1064,7 +1059,6 @@ $$
 
 Note that we have elected to place l at the end of the .0; 4/ version. In many texts it is placed first. Our choice appears natural given how we write these tensors in invariant notation in chapter 3. As a .2; 2/-tensor we have:
 
-# 1.5 Some Tensor Concepts
 
 $$
 \begin{array}{l} R = R _ {i j} ^ {k l} \cdot E _ {k} \otimes E _ {l} \otimes \sigma^ {i} \otimes \sigma^ {j} \\ = R _ {i j s} ^ {l} g ^ {s k} \cdot E _ {k} \otimes E _ {l} \otimes \sigma^ {i} \otimes \sigma^ {j}. \\ \end{array}
@@ -1072,7 +1066,7 @@ $$
 
 Here we must be careful as there are several different possibilities for raising and lowering indices. We chose to raise the last index, but we could also have chosen any other index, thus yielding different .2; 2/-tensors. The way we did it gives what we will call the curvature operator.
 
-# 1.5.2 Contractions
+### 1.5.2 Contractions
 
 Contractions are traces of tensors. Thus, the contraction of a .1; 1/-tensor $T = T _ { j } ^ { i }$ $E _ { i } \otimes \sigma ^ { j }$ is its usual trace:
 
@@ -1108,7 +1102,7 @@ $$
 
 Again, it is necessary to be careful to specify over which indices one contracts in order to get the right answer.
 
-# 1.5.3 Inner Products of Tensors
+### 1.5.3 Inner Products of Tensors
 
 There are several conventions for how one should measure the norm of a linear map. Essentially, there are two different norms in use, the operator norm and the Euclidean norm. The former is defined for a linear map $L : V \to W$ between normed spaces as
 
@@ -1138,7 +1132,6 @@ $$
 T ^ {*} = T _ {i} ^ {j} \cdot \sigma^ {i} \otimes E _ {j},
 $$
 
-# 1.5 Some Tensor Concepts
 
 which after type change becomes
 
@@ -1178,7 +1171,7 @@ $$
 \left(T _ {1}, T _ {2}\right) = \int_ {M} g \left(T _ {1}, T _ {2}\right) \text { vol }.
 $$
 
-# 1.5.4 Positional Notation
+### 1.5.4 Positional Notation
 
 A final remark is in order. Many of the above notations could be streamlined even further so as to rid ourselves of some of the notational problems we have introduced by the way in which we write tensors in frames. Namely, tensors $T M \to T M$ (section of $T M \otimes T ^ { * } M )$ and $T ^ { * } M \to T ^ { * } M$ (section of ${ \cal T } ^ { * } { \cal M } \otimes { \cal T } { \cal M } )$ ! seem to be written in ˝ ! ˝the same way, and this causes some confusion when computing their Euclidean norms. That is, the only difference between the two objects $\sigma \otimes E$ and $E \otimes \sigma$ is ˝ ˝in the ordering, not in what they actually do. We simply interpret the first as a map
 
@@ -1210,7 +1203,7 @@ $$
 
 Nice as this notation is, it is not used consistently in the literature. It would be convenient to use it, but in most cases one can usually keep track of things anyway. Most of this notation can of course also be avoided by using invariant (coordinate free) notation, but often it is necessary to do coordinate or frame computations both in abstract and concrete situations.
 
-# 1.6 Exercises
+## 1.6 Exercises
 
 EXERCISE 1.6.1. On $M \times N$ one has the Cartesian product metrics $g = g _ { M } + g _ { N }$ where $g _ { M } , g _ { N }$ -are metrics on M, N respectively.
 
@@ -1222,7 +1215,6 @@ $$
 T ^ {2} = \mathbb {R} ^ {2} / \mathbb {Z} ^ {2} = \left(S ^ {1}, \left(\frac {1}{2 \pi}\right) ^ {2} d \theta^ {2}\right) \times \left(S ^ {1}, \left(\frac {1}{2 \pi}\right) ^ {2} d \theta^ {2}\right).
 $$
 
-# 1.6 Exercises
 
 (3) Show that
 
@@ -1297,7 +1289,6 @@ $$
 (1) Show that the arc length does not depend on the parametrization of c.   
 (2) Show that any curve with nowhere vanishing speed can be reparametrized to have unit speed.
 
-# 1.6 Exercises
 
 (3) Show that it is possible to define the arclength of an absolutely continuous curve. You should, in particular, show that the concept of being absolutely continuous is well-defined for curves in manifolds.
 
@@ -1380,7 +1371,6 @@ $$
 \bar {q} = a - b \mathrm{i} - c \mathrm{j} - d \mathrm{k},
 $$
 
-# 1.6 Exercises
 
 then the following identities hold:
 
@@ -1471,7 +1461,6 @@ $$
 
 Hint: It is shown in section 2.1.4 that $U \mapsto \mathrm { a d } _ { U }$ is the differential of $h \mapsto \mathbf { A d } _ { h }$ . EXERCISE 1.6.25. Let G be a Lie group with Lie algebra . Show that a nondegenerate, bilinear, symmetric form $( X , Y )$ gon defines a biinvariant pseudo-Riemannian metric if and only if $( X , Y ) = ( \mathrm { A d } _ { h } X , \mathrm { A d } _ { h } Y )$ for all $h \in \mathbf { G }$ .
 
-# 1.6 Exercises
 
 EXERCISE 1.6.26. Let G be a compact group acting on a Riemannian manifold. Show that M admits a Riemannian metric such that G acts by isometries. Hint: You first have to show that any manifold admits a Riemannian metric (partition of unity) and then average the metric to make it G-invariant.
 

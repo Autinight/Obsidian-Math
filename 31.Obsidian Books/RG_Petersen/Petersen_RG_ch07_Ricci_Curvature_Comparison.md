@@ -6,9 +6,9 @@ The goal is to develop several techniques to help us understand lower Ricci curv
 
 The focus in this chapter will be on the fundamental comparison techniques and how they are used to prove a few rigidity theorems. In subsequent chapters there will be many further results related to lower Ricci curvature bounds that depend on more analytical techniques.
 
-# 7.1 Volume Comparison
+## 7.1 Volume Comparison
 
-# 7.1.1 The Fundamental Equations
+### 7.1.1 The Fundamental Equations
 
 Throughout this section, assume that we have a complete Riemannian manifold $( M , g )$ of dimension n and a distance function $r \left( x \right)$ that is smooth on an open set $U \subset M$ . In subsequent sections we shall further assume that $r \left( x \right) = \left| x p \right|$ so that it is  D j jsmooth on the image of the interior of the segment domain (see section 5.7.3). Recall the following fundamental equations for the metric from proposition 3.2.11:
 
@@ -43,7 +43,6 @@ $$
 \begin{array}{l} \sum_ {i = 1} ^ {n} \operatorname{Hess} ^ {2} r \left(E _ {i}, E _ {i}\right) = \sum_ {i = 1} ^ {n} g \left(\nabla_ {E _ {i}} \partial_ {r}, \nabla_ {E _ {i}} \partial_ {r}\right) \\ = \sum_ {i, j = 1} ^ {n} g \left(\nabla_ {E _ {i}} \partial_ {r}, g \left(\nabla_ {E _ {i}} \partial_ {r}, E _ {j}\right) E _ {j}\right) \\ = \sum_ {i, j = 1} ^ {n} g \left(\nabla_ {E _ {i}} \partial_ {r}, E _ {j}\right) g \left(\nabla_ {E _ {i}} \partial_ {r}, E _ {j}\right) \\ = | \mathrm{Hess} r | ^ {2}. \\ \end{array}
 $$
 
-# 7.1 Volume Comparison
 
 Finally we need to show that
 
@@ -99,7 +98,7 @@ $$
 \partial_ {r} \left(\operatorname{sn} _ {k} ^ {n - 1} (r)\right) = (n - 1) \frac {\operatorname{sn} _ {k} ^ {\prime} (r)}{\operatorname{sn} _ {k} (r)} \operatorname{sn} _ {k} ^ {n - 1} (r).
 $$
 
-# 7.1.2 Volume Estimation
+### 7.1.2 Volume Estimation
 
 With the above information we can prove the estimates that are analogous to our basic comparison estimates for the metric and Hessian of $r \left( x \right) = \left| x p \right|$ assuming lower sectional curvature bounds (see section 6.4).
 
@@ -143,7 +142,6 @@ $$
 \lim _ {r \to 0} \frac {\lambda}{\lambda_ {k}} = 1.
 $$
 
-# 7.1 Volume Comparison
 
 Our first volume comparison yields the obvious upper volume bound coming from the upper bound on the volume density.
 
@@ -197,7 +195,7 @@ is nonincreasing. This follows from lemma 7.1.2 as $\begin{array} { r } { \parti
 
 ![](images/320e07eab6086d293cd07173aef025f0fb90da5f689ff4111a24e5c5872b94d3.jpg)
 
-# 7.1.3 The Maximum Principle
+### 7.1.3 The Maximum Principle
 
 We explain how one can assign second derivatives to functions at points where the function is not smooth. In section 12.1 we shall also discuss generalized gradients, but this theory is completely different and works only for Lipschitz functions.
 
@@ -217,7 +215,6 @@ $$
 \Delta f (p) \geq \Delta h (p).
 $$
 
-# 7.1 Volume Comparison
 
 Proof. If $( M , g ) \subset \mathsf { \Gamma } ( \mathbb { R } , g _ { \mathbb { R } } )$ ; then the theorem is standard from single variable calculus. In general, let $c : ( - \varepsilon , \varepsilon ) \to M$ be a curve with $c ( 0 ) = p$ . Then use W  !this observation on f c, h c to see that
 
@@ -297,7 +294,6 @@ $$
 
 On the other hand, we can also show tha $\bar { \boldsymbol { f } }$ has positive Laplacian, thus obtaining a contradiction as in the first part of the proof. To see that the Laplacian is positive,
 
-# 7.1 Volume Comparison
 
 Fig. 7.1 Coordinate function construction   
 ![](images/f99448c4653d9abeaf264f249c3c20f733e690093f2f9bd3bb59a923aa877c0f.jpg)
@@ -353,7 +349,8 @@ for each $p \in M$ and some $v _ { p } \in T _ { p } M .$ . In particular, f is 
 
 Theorem 7.1.8 (Regularity of harmonic functions). If $f ~ : ~ ( M , g ) ~ \to ~ \mathbb { R }$ is continuous and harmonic in the weak sense, then f is smooth.
 
-Proof. We fix $p \in M$ and a neighborhood  around p with smooth boundary. We 2can in addition assume that $\Omega$ is contained in a coordinate neighborhood. It is a standard but nontrivial fact from PDE theory that the following Dirichlet boundary value problem has a solution:
+Proof. We fix $p \in M$ and a neighborhood 
+ around p with smooth boundary. We 2can in addition assume that $\Omega$ is contained in a coordinate neighborhood. It is a standard but nontrivial fact from PDE theory that the following Dirichlet boundary value problem has a solution:
 
 $$
 \Delta u = 0,
@@ -363,9 +360,11 @@ $$
 u | _ {\partial \Omega} = f | _ {\partial \Omega}.
 $$
 
-Moreover, such a solution u is smooth on the interior of : Now consider the two functions $u - f$ and $f - u$ on : If they are both nonpositive, then they must vanish and hence $\textit { f } = \textit { u }$ is smooth near $p .$ : Otherwise one of these functions must be Dpositive somewhere. However, as it vanishes on the boundary and is subharmonic this implies that it has an interior global maximum. The maximum principle then shows that the function is constant, but this is only possible if it vanishes.
+Moreover, such a solution u is smooth on the interior of 
+: Now consider the two functions $u - f$ and $f - u$ on 
+: If they are both nonpositive, then they must vanish and hence $\textit { f } = \textit { u }$ is smooth near $p .$ : Otherwise one of these functions must be Dpositive somewhere. However, as it vanishes on the boundary and is subharmonic this implies that it has an interior global maximum. The maximum principle then shows that the function is constant, but this is only possible if it vanishes.
 
-# 7.1.4 Geometric Laplacian Comparison
+### 7.1.4 Geometric Laplacian Comparison
 
 The idea of using support functions to estimate the Laplacian is particularly convenient for geometric applications since distance functions always have support functions from above.
 
@@ -390,11 +389,10 @@ as $\varepsilon \to 0$ since $\frac { \mathrm { s n } _ { k } ^ { \prime } ( r )
 
 Case (1) would give us a nonsmooth curve of length L from $p$ to $q ,$ ; which we know is impossible. Thus, case (2) must hold. To get a contradiction out of this, we show that this implies that $\exp _ { q }$ has $\sigma \left( \varepsilon \right)$ as a critical value.
 
-# 7.1 Volume Comparison
 
 Using that q is critical for $\exp _ { \sigma ( \varepsilon ) }$ ; we find a Jacobi field $J ( t ) : [ \varepsilon , L ]  T M$ along $\sigma \vert _ { [ \varepsilon , L ] }$ such that $J \left( \varepsilon \right) = 0 , { \dot { J } } \left( \varepsilon \right) \neq 0$ and $J \left( L \right) = 0$ (see section 5.7.3). Then also $\dot { J } \left( L \right) \neq 0$ D ¤ Das it solves a linear second-order equation. Running backwards from q to $\sigma \left( \varepsilon \right)$ ¤then shows that $\exp _ { q }$ is critical at $\sigma \left( \varepsilon \right)$ . This however contradicts that $\sigma : [ 0 , L ] \to M$ is a segment.
 
-# 7.1.5 The Segment, Poincaré, and Sobolev Inequalities
+### 7.1.5 The Segment, Poincaré, and Sobolev Inequalities
 
 We shall use the results obtained in section 7.1.2 to prove a some important analytic inequalities that will be used in chapter 9.
 
@@ -462,7 +460,6 @@ $$
 \begin{array}{l} \int_ {B} | u - u _ {B} | = \int_ {B} \left| u (x) - \frac {1}{\operatorname{vol} B} \int_ {B} u (y) \operatorname{vol} _ {y} \right| \operatorname{vol} _ {x} \\ = \int_ {B} \left| \frac {1}{\operatorname{vol} B} \int_ {B} (u (x) - u (y)) \operatorname{vol} _ {y} \right| \operatorname{vol} _ {x} \\ \leq \frac {1}{\operatorname{vol} B} \int_ {B} \int_ {B} | u (x) - u (y) | \operatorname{vol} _ {y} \operatorname{vol} _ {x} \\ \leq \frac {1}{\operatorname{vol} B} \int_ {B} \int_ {B} \int_ {0} ^ {1} | x y | | | d u | (c _ {x, y} (t)) | d t \operatorname{vol} _ {y} \operatorname{vol} _ {x} \\ \leq \frac {2 R}{\operatorname{vol} B} \int_ {B} \int_ {B} \int_ {0} ^ {1} | | d u | (c _ {x, y} (t)) | d t \operatorname{vol} _ {y} \operatorname{vol} _ {x}. \\ \end{array}
 $$
 
-# 7.1 Volume Comparison
 
 This shows that
 
@@ -542,7 +539,6 @@ $$
 \begin{array}{l} \left| u (x) - u _ {B _ {0}} \right| \leq \sum_ {i = 0} ^ {\infty} \left| u _ {B _ {i}} - u _ {B _ {i + 1}} \right| \\ \leq \sum_ {i = 0} ^ {\infty} \left\| u - u _ {B _ {i}} \right\| _ {1, B _ {i + 1}} \\ \end{array}
 $$
 
-# 7.1 Volume Comparison
 
 $$
 \begin{array}{l} \leq \sum_ {i = 0} ^ {\infty} \frac {\operatorname{vol} B _ {i}}{\operatorname{vol} B _ {i + 1}} \left\| u - u _ {B _ {i}} \right\| _ {1, B _ {i}} \\ \leq C \sum_ {i = 0} ^ {\infty} \left\| u - u _ {B _ {i}} \right\| _ {1, B _ {i}} \\ \leq 2 C ^ {3} \sum_ {i = 0} ^ {\infty} R _ {i} \| | d u | \| _ {1, B _ {i - 1}}. \\ \end{array}
@@ -630,7 +626,6 @@ $$
 \left\| v ^ {\pm} \right\| _ {\frac {n}{n - 1}} \leq C (n, k D ^ {2}) D \| | d v ^ {\pm} | \| _ {1}
 $$
 
-# 7.1 Volume Comparison
 
 as
 
@@ -714,9 +709,9 @@ where $C ^ { \prime }$ is independent of i.
 
 This implies that vol $\{ | u _ { i } ( x ) - u ( x ) | > \epsilon \}  0$ as $i  \infty$ . We can then extract another subsequence of $u _ { i }$  j g ! ! 1that converges pointwise to u almost everywhere on M. Since $\begin{array} { r } { \left\| u _ { i } \right\| \frac { 2 n } { n - 2 } } \end{array}$ is bounded Egorov’s theorem implies that $u _ { i } \to u$ in $L ^ { 2 }$ .
 
-# 7.2 Applications of Ricci Curvature Comparison
+## 7.2 Applications of Ricci Curvature Comparison
 
-# 7.2.1 Finiteness of Fundamental Groups
+### 7.2.1 Finiteness of Fundamental Groups
 
 Our first application of volume comparison shows how one can control the fundamental group. We start with a result that addresses how fundamental groups can be represented.
 
@@ -794,7 +789,7 @@ $$
 \begin{array}{l} \frac {v (n , k , 2 D)}{v} + 1 = N \\ \leq | U (N) | \\ \leq \frac {v (n , k , 2 D)}{v}. \\ \end{array}
 $$
 
-# 7.2.2 Maximal Diameter Rigidity
+### 7.2.2 Maximal Diameter Rigidity
 
 Next we show how Laplacian comparison can be used. Given Myers’ diameter estimate, it is natural to ask what happens when the diameter attains it maximal value. The next result shows that only the sphere has this property.
 
@@ -881,11 +876,11 @@ on $I \times S ^ { 2 } \times S ^ { n - 3 }$ . Similar choices for $\rho$ and $\
 
 In both of the above examples we only constructed $C ^ { 1 }$ functions $\rho , \phi$ and therefore only $C ^ { 1 }$ metrics. However, the functions are concave and can easily be smoothed near the break points so as to stay concave. This will not change the values or first derivatives much and only increase the second derivative in absolute value. Thus the lower curvature bound still holds.
 
-# 7.3 Manifolds of Nonnegative Ricci Curvature
+## 7.3 Manifolds of Nonnegative Ricci Curvature
 
 In this section we shall prove the splitting theorem of Cheeger-Gromoll. This theorem is analogous to the maximal diameter theorem in many ways. It also has far-reaching consequences for compact manifolds with nonnegative Ricci curvature. For instance, it can be used to show that $S ^ { 3 } \times S ^ { 1 }$ does not admit a Ricci flat metric.
 
-# 7.3.1 Rays and Lines
+### 7.3.1 Rays and Lines
 
 We will work only with complete and noncompact manifolds in this section. A ray $r ( t ) : [ 0 , \infty ) \to ( M , g )$ is a unit speed geodesic such that
 
@@ -974,7 +969,7 @@ $$
 
 This shows that Hess $b _ { \pm } | ^ { 2 } \ = \ 0$ and $b _ { \pm }$ are the sought after linear distance functions.
 
-# 7.3.2 Busemann Functions
+### 7.3.2 Busemann Functions
 
 For the rest of this section fix a complete noncompact Riemannian manifold $( M , g )$ with nonnegative Ricci curvature. Let $c : [ 0 , \infty ) \to ( M , g )$ be a unit speed ray, and define
 
@@ -1134,7 +1129,7 @@ $$
 
 with equality holding for $x = p .$ . Since both $b _ { t } ^ { \pm }$ are smooth at $p$ with unit gradient it follows that $\nabla b _ { t } ^ { + } ( p ) = - \nabla b _ { t } ^ { - } ( p )$ . Then $b ^ { \pm }$ must also be differentiable at $p$ with r D runit gradient. Therefore, we have shown (without using that $b ^ { \pm }$ are smooth from $\Delta b ^ { \pm } = 0 )$ that $b ^ { \pm }$ are everywhere differentiable with unit gradient. The result that Dharmonic functions are smooth can now be invoked and the proof is finished as explained earlier.
 
-# 7.3.3 Structure Results in Nonnegative Ricci Curvature
+### 7.3.3 Structure Results in Nonnegative Ricci Curvature
 
 The splitting theorem gives several nice structure results for compact manifolds with nonnegative Ricci curvature.
 
@@ -1210,15 +1205,14 @@ Proof. First split $( M , g ) = \left( N \times \mathbb { R } ^ { k } , g _ { N 
 
 The claim will then follow from the splitting theorem provided we can show that any noncompact homogeneous space contains a line. To see this choose a unit speed
 
-# 7.5 Exercises
+## 7.5 Exercises
 
 ray $c : [ 0 , \infty ) \to M$ and isometries $F _ { s }$ such that $F _ { s } \left( c \left( s \right) \right) = c \left( 0 \right)$ . Now consider the W 1 !unit speed rays $c _ { s } : [ - s , \infty )$ defined by $\begin{array} { r } { c _ { s } \left( t \right) = F _ { s } \left( c \left( t + s \right) \right) } \end{array}$ . Then $c _ { s } \left( 0 \right) = c \left( 0 \right)$ and $\dot { c } _ { s } \left( 0 \right) = \dot { c } \left( 0 \right)$ Wso $c _ { s }$ 1 D C Dis simply the extension of c. As cs is a ray it follows that the P Dextension of $c$ to R must be a line.
 
-# 7.4 Further Study
+## 7.4 Further Study
 
 The adventurous reader could consult [53] for further discussions. Anderson’s article [2] contains some interesting examples of manifolds with nonnegative Ricci curvature. For the examples with almost maximal diameter we refer the reader to [3] and [81]. It is also worthwhile to consult the original paper on the splitting theorem [31] and the elementary proof of it in [41]. The reader should also consult the articles by Colding, Perel’man, and Zhu in [54] to get an idea of how the subject has developed.
 
-# 7.5 Exercises
 
 EXERCISE 7.5.1. With notation as in section 7.1.1 and using vol $= \lambda d r \wedge \mathrm { v o l } _ { n - 1 }$ show that $\mu = \lambda ^ { \frac { 1 } { n - 1 } }$ satisfies
 
@@ -1290,7 +1284,6 @@ $$
 
 Hint: Use that any $n \times n$ matrix satisfies $\left( \operatorname { t r } \left( A \right) \right) ^ { 2 } \leq n \operatorname { t r } \left( A ^ { * } A \right)$ :
 
-# 7.5 Exercises
 
 EXERCISE 7.5.10. Show that a complete manifold $( M , g )$ with the property that
 
@@ -1324,7 +1317,8 @@ EXERCISE 7.5.14. Show that the modified distance functions $u _ { k } = \cos \le
 
 EXERCISE 7.5.15 (Lichnerowicz). Let $( M ^ { n } , g )$ be closed with Ric $\geq \left( n - 1 \right) k > 0$ . Use the Bochner formula to show that all functions with $\Delta u = - \lambda u , \lambda > 0$ , satisfy $\lambda \geq n k$ .
 
-The spectral theorem for  then implies that all functions with $\begin{array} { r } { \int u \mathbf { v } \mathbf { o } \mathbf { l } \ = \ 0 } \end{array}$ satisfy the Poincaré inequality
+The spectral theorem for 
+ then implies that all functions with $\begin{array} { r } { \int u \mathbf { v } \mathbf { o } \mathbf { l } \ = \ 0 } \end{array}$ satisfy the Poincaré inequality
 
 $$
 \int u ^ {2} \mathrm{vol} \leq \frac {1}{n k} \int | d u | ^ {2} \mathrm{vol}.
@@ -1381,7 +1375,6 @@ $$
 
 is nonincreasing. To prove this, use the above with the finite collection of points taken to be very dense in A:
 
-# 7.5 Exercises
 
 EXERCISE 7.5.19. The absolute volume comparison can be generalized to hold for cones. Namely, for $p \in M$ and a subset $\Gamma \subset T _ { p } M$ of unit vectors, consider the cones 2defined in polar coordinates:
 
