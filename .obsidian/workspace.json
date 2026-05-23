@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-05-22"
+              "title": "Petersen_RG_ch02_Derivatives"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-05-22 的大纲"
+              "title": "Petersen_RG_ch02_Derivatives 的大纲"
             }
           }
         ],
@@ -183,35 +183,48 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch12_Sectional_Curvature_Comparison_II.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch11_Convergence.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch04_Examples.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
+    "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff79ad08871251d6eb0f86abe1d71ed24c9c3fd1a52d5b736e989bd42c79a59d.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff53c0707341a714624c581ab42f8b0fbf6fe85fb30be0cca895c413cbbd0903.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff3ce4fc7c1f8f058f54547e715881c779d559a9cd396331b1405246f2b80d51.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff397be8071123f7c46f21bf3840a8b28ce2bcbadc632284f62415d7d113a0d4.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff25bf89bfd13915c5f0959ddf3bbc4d679ff4bd4f5f150a3101e63c25121825.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff19d3c7f8e1c34e4e97a244041245785842458d546596a4b3e954a315ceafa3.jpg",
+    "31.Obsidian Books/RG_Petersen/images/ff17ba1c0b63eb6aae1ae4b365d2ba4e9fcf83bdf9be8149ac7c869e259a3543.jpg",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch09_The_Bochner_Technique.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch08_Killing_Fields.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch07_Ricci_Curvature_Comparison.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch06_Sectional_Curvature_Comparison_I.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
+    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch03_Curvature.md",
+    "31.Obsidian Books/RG_Petersen/images",
+    "31.Obsidian Books/RG_Petersen",
+    "31.Obsidian Books/未命名",
+    "31.Obsidian Books",
+    "00.Inbox/31",
     "30.Recources/HA/HA_Pan/HA_Pan.md",
     "30.Recources/HA/HA_Pan.7z",
     "30.Recources/HA/未命名",
     "30.Recources/HA/HA_Pan/full.md.tmp.16244.c3a2f5329005",
     "30.Recources/HA/傅里叶分析及其应用.md",
-    "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
-    "30.Recources/HA/HA_Pan/images/ff59c2dcd5694c4b7dd14965903bab4d14345516fb3b89a63983c5742a17bdf4.jpg",
-    "30.Recources/HA/HA_Pan/images/ff7b6dc4419b1abde390d597b4f11fd55fb73bb5918688b624b89977984c400c.jpg",
-    "30.Recources/HA/HA_Pan/images/ff4b275159854d0b7b2d329977e85ab04a4962f2cbd9099e79fcf86bb83faadf.jpg",
-    "30.Recources/HA/HA_Pan/images/fe8d7e94e6806f6c09c2528f87b2e917af959dacbd4ce93e7b9457be1ab53cad.jpg",
-    "30.Recources/HA/HA_Pan/images/fdb302004c920b21d19446ef462f49f80f18c6d92c546c632c6f97284e05c7c9.jpg",
-    "30.Recources/HA/HA_Pan/images/fd2db2fb9c01a2d0eaf69cc5c79f3a60f44da10dc01b85c7f046a5ffea2c51b0.jpg",
-    "30.Recources/HA/HA_Pan/images/fc46cef88543330773178dd4af8dd325563dfc434b6200ae1e2a5e5591b23f23.jpg",
-    "30.Recources/HA/HA_Pan/images/fc7a9eb5c77e45c24866a517c65df0ea5c685be8d763d737b2f339824cc156ac.jpg",
-    "30.Recources/HA/HA_Pan/images/fc4e012c5d22f731df10ecb02f653e501892d8ba190930446e6e9cf0477d751d.jpg",
-    "30.Recources/HA/HA_Pan/images/fbec3bda15995b7e07bc7c84b4f18e630c962a855080957008b8ad593da9014a.jpg",
     "30.Recources/HA/HA_Pan/full.md.tmp.4476.aba9fa3ed5d2",
     "30.Recources/HA/HA_Pan/images",
-    "30.Recources/HA/HA_Pan/未命名",
-    "30.Recources/HA/HA_Pan",
-    "00.Inbox/744760c2-70f8-4dcf-957a-02db68413ef8_origin.pdf",
     "30.Recources/FA/FA_Zhang/FA_Zhang.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch4.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch3.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch2.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch1.md",
-    "30.Recources/FA/FA_Zhang",
     "00.Inbox/FA-Zhang 1.md",
     "00.Inbox/FA-Zhang.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
@@ -224,19 +237,6 @@
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
-    "40.Drafts/2026-05/Daily Draft 2026-05-20.md",
-    "00.Inbox/00.Complished/Daily Draft 2026-05-19.md",
-    "00.Inbox/evolution_metric_curvature.md",
-    "30.Recources/FA/Course HW/FA - HW10.md",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md",
-    "11.Chapter Notes/MA/chnt - 反常积分.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch4.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch3.md",
-    "30.Recources/MA/MA-Pei/MA-Pei-Ch7.md",
-    "30.Recources/HA/Course HW/HA - HW2.1.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
-    "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519"
+    "40.Drafts/2026-05/Daily Draft 2026-05-19.md"
   ]
 }
