@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/FA_Zhang/FA_Zhang.md",
+                "file": "30.Recources/HA/HA_Pan/full.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Zhang"
+              "title": "full"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/FA_Zhang/FA_Zhang.md",
+                "file": "30.Recources/HA/HA_Pan/full.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Zhang 的大纲"
+              "title": "full 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -197,18 +197,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "59b83501e178381d",
+  "active": "70d88fea85b01a62",
   "lastOpenFiles": [
+    "30.Recources/HA/HA_Pan/full.md.tmp.4476.aba9fa3ed5d2",
+    "30.Recources/HA/HA_Pan/images/3641995e13a748fbb46f0654e8c752743d246d18544e81414863f1c5490ae0e9.jpg",
+    "30.Recources/HA/HA_Pan/images/ff530615b63b8410d8fe8c55be7a47bce57481e44cc3d338e1692db46851836e.jpg",
+    "30.Recources/HA/HA_Pan/images/ff3de24193ef825eb28ac76416170d66cb669dce0dba145cf97e55f6e5edb19a.jpg",
+    "30.Recources/HA/HA_Pan/images/fe8876041a1eb0125677d0d5624f976d823a43e1eb648c930f8d3d24cf2a53f1.jpg",
+    "30.Recources/HA/HA_Pan/images/fded392801c62ca17d93341ed7da97061ce79dc4d02996d39b65ffa39dc1deaf.jpg",
+    "30.Recources/HA/HA_Pan/images/fd6554dd80bd9a007d8ddf42f2c80ec483b86cc3210cbbd54d751c6207f66862.jpg",
+    "30.Recources/HA/HA_Pan/images/fd67aa2d31331ea7cd234e9a799d3fc931e95c4d0d99dc72cc297f82c889594d.jpg",
+    "30.Recources/HA/HA_Pan/images/fd46a5d7834e8c77c0380fd9ee9944fbfaccc6c09305a64e89c88f759693c2a6.jpg",
+    "30.Recources/HA/HA_Pan/images/fd8fdfbba0701f8395ea37c5cd539e691b2c045a6ac7c7ceec51410ea420a42c.jpg",
+    "30.Recources/HA/HA_Pan/images/fd8fb492cfedc04298067441d4138d2140080387bf717fb6f9e989ab05217554.jpg",
+    "30.Recources/HA/HA_Pan/full.md",
+    "30.Recources/HA/HA_Pan/images",
+    "30.Recources/HA/HA_Pan/未命名",
+    "30.Recources/HA/HA_Pan",
+    "00.Inbox/Daily Draft 2026-05-22.md",
+    "00.Inbox/744760c2-70f8-4dcf-957a-02db68413ef8_origin.pdf",
+    "30.Recources/FA/FA_Zhang/FA_Zhang.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch4.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch3.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch2.md",
     "30.Recources/FA/FA_Zhang/FA_Zhang_Ch1.md",
-    "30.Recources/FA/FA_Zhang/FA_Zhang.md",
     "30.Recources/FA/FA_Zhang",
     "00.Inbox/FA-Zhang 1.md",
     "00.Inbox/FA-Zhang.md",
     "30.Recources/FA/FA_Liu_obsidian.md",
-    "00.Inbox/Daily Draft 2026-05-22.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-21.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
@@ -232,8 +248,6 @@
     "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW1.2.md",
-    "30.Recources/LA/LA - Xie and Yao - 第3章_线性空间与线性方程组.md",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519",
     "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287"
   ]
