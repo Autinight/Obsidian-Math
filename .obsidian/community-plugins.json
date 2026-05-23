@@ -1,17 +1,11 @@
 [
   "albus-mathcraft",
-  "obsidian42-brat",
   "obsidian-latex-suite",
-  "claudian",
   "cursor-commands",
   "dataview",
-  "obsidian-full-calendar",
   "open-vscode",
   "quickadd",
   "obsidian-tasks-plugin",
   "obsidian-git",
-  "obsidian-zotero-desktop-connector",
-  "webpage-html-export",
-  "templater-obsidian",
-  "better-export-pdf"
+  "templater-obsidian"
 ]

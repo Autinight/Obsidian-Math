@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/HA/HA_Pan/HA_Pan.md",
-                "mode": "source",
+                "file": "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA_Pan"
+              "title": "Daily Draft 2026-05-22"
             }
           }
         ]
@@ -156,27 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/HA/HA_Pan/HA_Pan.md",
+                "file": "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA_Pan 的大纲"
-            }
-          },
-          {
-            "id": "70d88fea85b01a62",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "title": "Daily Draft 2026-05-22 的大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -188,22 +178,19 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
-      "obsidian42-brat:BRAT": false,
-      "claudian:Open Claudian": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "open-vscode:VSCode": false,
       "obsidian-git:Open Git source control": false,
-      "webpage-html-export:导出为HTML": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "59b83501e178381d",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
+    "30.Recources/HA/HA_Pan/HA_Pan.md",
     "30.Recources/HA/HA_Pan.7z",
     "30.Recources/HA/未命名",
     "30.Recources/HA/HA_Pan/full.md.tmp.16244.c3a2f5329005",
     "30.Recources/HA/傅里叶分析及其应用.md",
-    "00.Inbox/Daily Draft 2026-05-22.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
     "30.Recources/HA/HA_Pan/images/ff59c2dcd5694c4b7dd14965903bab4d14345516fb3b89a63983c5742a17bdf4.jpg",
     "30.Recources/HA/HA_Pan/images/ff7b6dc4419b1abde390d597b4f11fd55fb73bb5918688b624b89977984c400c.jpg",
     "30.Recources/HA/HA_Pan/images/ff4b275159854d0b7b2d329977e85ab04a4962f2cbd9099e79fcf86bb83faadf.jpg",
@@ -214,7 +201,6 @@
     "30.Recources/HA/HA_Pan/images/fc7a9eb5c77e45c24866a517c65df0ea5c685be8d763d737b2f339824cc156ac.jpg",
     "30.Recources/HA/HA_Pan/images/fc4e012c5d22f731df10ecb02f653e501892d8ba190930446e6e9cf0477d751d.jpg",
     "30.Recources/HA/HA_Pan/images/fbec3bda15995b7e07bc7c84b4f18e630c962a855080957008b8ad593da9014a.jpg",
-    "30.Recources/HA/HA_Pan/HA_Pan.md",
     "30.Recources/HA/HA_Pan/full.md.tmp.4476.aba9fa3ed5d2",
     "30.Recources/HA/HA_Pan/images",
     "30.Recources/HA/HA_Pan/未命名",
@@ -251,7 +237,6 @@
     "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519",
-    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243360287"
+    "30.Recources/PDE/Elliptic_PDE_Han_Lin.md.tmp.5356.1779243384519"
   ]
 }
