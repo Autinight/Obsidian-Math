@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] 5.2
 > 设 $G$ 是 $r$ 维李群，$\varphi:G\times G\to G$ 是 $G$ 的乘法运算，若 $X\in\mathfrak{X}(G)$ 对于任意 $a\in G$ 满足
 > $$
@@ -12,16 +14,30 @@
 > [Y_i,Y_j](e)=\widetilde C^{k}_{ij}Y_k(e).
 > $$
 
-$$ \begin{aligned} \begin{aligned} \left[ Y_{i},Y_{j} \right]\left(e\right)&= \left[\frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial }{\partial u^{k}}, \frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}} \right]\\&=  \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\left[ \frac{\partial }{\partial u^{k}}, \frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}} \right] -\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}}\left(\frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\right)\frac{\partial }{\partial u^{k}}\\&= \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\left[ \frac{\partial }{\partial u^{k}} ,\frac{\partial }{\partial u^{l}}\right]+ \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial }{\partial u^{k}}\left(\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\right)\frac{\partial }{\partial u^{l}}-\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}}\left(\frac{\partial \widehat{\varphi}^{k}}{\partial w ^{i}}\right)\frac{\partial }{\partial u^{k}}\\&= \frac{\partial \widehat{\varphi}^{k}}{\partial u^{i}}\frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial u^{k}\partial u^{j}}\frac{\partial }{\partial u^{l}}- \frac{\partial \widehat{\varphi}^{l}}{\partial u^{j}}\frac{\partial \widehat{\varphi}^{k}}{\partial u^{l}\partial u^{i}}\frac{\partial }{\partial u^{k}}\\&= \left(\frac{\partial \widehat{\varphi}^{l}}{\partial u^{i}}\frac{\partial ^{2}\widehat{\varphi}^{k}}{\partial u^{l}\partial u^{j}}-\frac{\partial \widehat{\varphi}^{l}}{\partial u^{j}}\frac{\partial^{2} \widehat{\varphi}^{k}}{\partial u^{l}\partial u^{i}}\right)\frac{\partial }{\partial u^{k}}\end{aligned}\end{aligned} $$ 
-
-$$ \frac{\partial \widehat{\varphi}^{j}}{\partial u^{i}}\left(0;0,\cdots 0\right)= u^{j}\circ \left(\left(\frac{\partial }{\partial u^{i}}\right)\varphi \left(e,e\right)\right) $$ 
-
 > [!proof] Proof: 
-> 1. $$ \frac{\partial }{\partial v^{i}}= \left. \frac{\partial }{\partial u^{i}} \right|_{V} $$ 
->    $$ \begin{aligned} \begin{aligned} \left(R_{a}\right) _{*e}\left(\frac{\partial }{\partial v^{i}}\right)\left(f\right)&= \left(\frac{\partial }{\partial v^{i}}\right)_{v= 0}f\left(R_{a}\left(v\right)\right)\\&=\left(\frac{\partial }{\partial v^{i}}\right) _{v= 0}f\left(\widehat{\varphi}\left(v,a\right)\right)\\&= \sum _{j}\frac{\partial f}{\partial u^{j}}\left(a\right) \frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(a\right),\cdots ,u^{n}\left(a\right)\right) \end{aligned}\end{aligned} $$ 
+> 1. $$ \frac{\partial }{\partial w^{i}}= \left. \frac{\partial }{\partial u^{i}} \right|_{W} $$ 
+>    $$ \begin{aligned} \begin{aligned} \left(R_{a}\right) _{*e}\left(\frac{\partial }{\partial w^{i}}\right)\left(f\right)&= \left(\frac{\partial }{\partial w^{i}}\right)_{v= 0}f\left(R_{a}\left(v\right)\right)\\&=\left(\frac{\partial }{\partial w^{i}}\right) _{v= 0}f\left(\widehat{\varphi}\left(v,a\right)\right)\\&= \sum _{j}\frac{\partial f}{\partial v^{j}}\left(a\right) \frac{\partial \widehat{\varphi}^{j}}{\partial w^{i}}\left(0,u^{1}\left(a\right),\cdots ,u^{n}\left(a\right)\right) \end{aligned}\end{aligned} $$ 
 >    于是
->    $$ Y_{i}\left(g\right)= \sum _{j}\frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(g\right),\cdots ,u^{n}\left(g\right)\right)\left. \frac{\partial }{\partial u^{j}} \right|_{g} $$ 
-> 
+>    $$ Y_{i}\left(g\right)= \sum _{j}\frac{\partial \widehat{\varphi}^{j}}{\partial w^{i}}\left(0,u^{1}\left(g\right),\cdots ,u^{n}\left(g\right)\right)\left. \frac{\partial }{\partial v^{j}} \right|_{g} $$ 
+> 2. $$ \frac{\partial \widehat{\varphi}^{j}}{\partial w^{i}}\left(0;0,\cdots 0\right)= u^{j}\circ \left(\left(\frac{\partial }{\partial w^{i}}\right)\varphi \left(e,e\right)\right)= \frac{\mathrm{d}}{\mathrm{d}t}u^{j}\left(0,\cdots ,t,0,\cdots ,0\right)\\= \frac{\partial u^{j}}{\partial u^{i}}= \delta _{i}^{j} $$ 
+>    
+>    记
+>    $$ Y_{i}= a_{i}^{k}\frac{\partial }{\partial v^{k}},\quad Y_{j}= a_{j}^{k}\frac{\partial }{\partial v^{k}} $$ 
+>    
+>    则在$e$处
+>    $$ a_{i}^{k}\left(e\right)= \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\left(0;0\right)= \delta ^{k}_{i} $$ 
+>    
+>    于是
+>    $$ \begin{aligned} \left[ Y_{i},Y_{j} \right]\left(e\right)&= \left(a_{i}^{k} \partial _{k}a_{j}^{l}- a_{j}^{k}\partial _{k}a_{i}^{l}\right)\partial _{l}\\&= \left(\delta _{i}^{k}\partial _{k}a_{j}^{l}-\delta _{j}^{k}\partial _{k}a_{i}^{l}\right)\partial _{l}\\&= \left(\partial _{i}a_{j}^{l}- \partial _{j}a_{i}^{l}\right)\partial _{l} \end{aligned} $$ 
+>    
+>    其中
+>    $$ \partial _{i}a_{j}^{l}= \partial _{i}\frac{\partial \widehat{\varphi}^{l}}{\partial w^{j}} = \frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial v^{i}\partial w^{j}},\quad \partial _{j}a_{i}^{l}= \frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial v^{j}\partial w^{i}}$$ 
+>    
+>    又在$e$处
+>    $$ Y_{l}\left(e\right)= \delta _{l}^{k}\frac{\partial }{\partial v^{k}}= \partial _{l} $$ 
+>    于是
+>    $$ \begin{aligned} \left[ Y_{i},Y_{j} \right]\left(e\right)&= \left(\partial _{i}a_{j}^{l}-\partial _{j}a_{i}^{l}\right)Y_{l}\left(e\right)\\&= \left(\frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial v^{i}\partial w^{j}}-\frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial v^{j}\partial w^{i}}\right) Y_{l}\left(e\right)\end{aligned} $$ 
+
 
 
 > [!exercise] 5.3
