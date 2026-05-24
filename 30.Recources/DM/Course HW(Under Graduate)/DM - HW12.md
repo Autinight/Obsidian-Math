@@ -91,8 +91,10 @@
 >    $$ E_1= -x_1\partial _{x_0}+ x_0\partial _{x_1}+ x_3\partial _{x_2}- x_2\partial _{x_3} $$ 
 >    $$ E_2=- x_2\partial _{x_0} -x_3\partial _{x_1}+   x_0\partial _{x_2}+ x_1\partial _{x_3}$$
 >    $$ E_3= -x_3\partial _{x_0} + x_2 \partial _{x_1}- x_1\partial _{x_2} +  x_0\partial _{x_3} $$  
-> 3. $$ \left[ E_{1},E_{2} \right] $$ 
-
+> 3. 
+> 我们先证明若$a,b\in T_1H\simeq H$, $X_{a},X_{b}$是$a,b$生成的左不变向量场, 则
+>   $$ \left[ X_{a}, X_{b} \right]= X_{ab-ba} $$ 
+> 事实上, 
 
 
 
