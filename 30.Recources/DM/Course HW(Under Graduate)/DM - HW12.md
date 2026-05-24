@@ -65,6 +65,13 @@
 >
 > (4) 求李群 $H^*$ 的 Maurer-Cartan 形式（左不变微分式）和结构方程。
 
+先说明$H^{*}$是一个李群, 也就是说
+
+将$H^{*}$视为$\mathbb{R} ^{4}$的一个开子流形, 则$H^{*}$是一个4维的光滑流形. 并且有全局坐标$\left(x_0,x_1,x_2,x_3\right)$
+
+设$y= y_0 1+ y_1i+ y_2j+ y_3k$, 则
+$$ \begin{aligned} x\cdot y&= \left(\sum _{l}x_{l}y_{l}\right)1+ \left(x_1y_0+ x_0y_1+ x_2y_3-y_2x_3 \right)i\\&+ \left(x_0y_2+ y_0x_2+ x_3y_1-y_3x_1\right)j+ \left(x_0y_3+ y_0x_3+ x_1y_2-y_1x_2\right)k \end{aligned} $$ 
+故乘法映射是光滑的. 
 
 > [!exercise] 5.6
 > 设
