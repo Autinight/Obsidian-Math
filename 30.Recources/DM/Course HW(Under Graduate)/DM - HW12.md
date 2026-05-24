@@ -92,11 +92,34 @@
 >    $$ E_2=- x_2\partial _{x_0} -x_3\partial _{x_1}+   x_0\partial _{x_2}+ x_1\partial _{x_3}$$
 >    $$ E_3= -x_3\partial _{x_0} + x_2 \partial _{x_1}- x_1\partial _{x_2} +  x_0\partial _{x_3} $$  
 > 3. 
-> 我们先证明若$a,b\in T_1H\simeq H$, $X_{a},X_{b}$是$a,b$生成的左不变向量场, 则
->   $$ \left[ X_{a}, X_{b} \right]= X_{ab-ba} $$ 
-> 事实上, 
-
-
+>    我们先证明若$a,b\in T_1H\simeq H$, $X_{a},X_{b}$是$a,b$生成的左不变向量场, 则
+>      $$ \left[ X_{a}, X_{b} \right]= X_{ab-ba} $$ 
+>    事实上, 设$\Phi ^{a}$, $\Phi ^{b}$是$X_{a},X_{b}$的流, 
+>    则
+>    $$ \Phi ^{a}_{t}\left(q\right)= q e^{ta} $$ 
+>    因为
+>    $$ \frac{\mathrm{d}}{\mathrm{d}t}\left(q e^{ta}\right)= a q e^{ta}= X_{a}\left(q e^{ta}\right) $$ 
+>    类似地
+>    $$ \Phi _{t}^{b}\left(q\right)=  q e^{tb} $$ 
+>    令
+>    $$ \Phi _{t,s}=\Phi ^{b}_{-s}\circ \Phi ^{a}_{-t}\circ \Phi ^{b}_{s}\circ \Phi ^{a}_{t} $$ 
+>    则
+>    $$ \Phi ^{*}_{t,s}f= f+  ts\left[ X_{a},X_{b} \right]f+ o\left(ts\right) $$ 
+>    
+>    $$ \Phi _{-t}^{b}\circ \Phi _{-s}^{a}\circ \Phi _{t}^{b}\circ \Phi _{s}^{a}\left(q\right)=  q e^{sa}e^{tb}e^{-sa}e^{-ab}  $$ 
+>    在$q$附近展开为
+>    $$ \begin{aligned} &q\left(1+ sa+ o\left(s^{2}\right)\right)\left(1+ tb+ o\left(t^{2}\right)\right)\left(1-sa+ o\left(s^{2}\right)\right)\left(1-tb+ o\left(t^{2}\right)\right)\\&= q \left(1+ ts \left(ab-ba\right)\right)+ o\left(ts\right) \end{aligned} $$ 
+>    于是
+>    $$ \left[ X_{a},X_{b} \right]= X_{ab-ba} $$ 
+>    带入计算, 得到
+>    $$ \left[ E_{0},E_{1} \right]= X_{\left[ 1,i \right]}= X_{0}= 0 $$
+>    类似地
+>    $$ \left[ E_0,E_2 \right]= \left[ E_0,E_3 \right]= 0 $$  
+>    $$ \left[ E_1,E_2 \right]= X_{\left[ i,j \right]}= X_{2k}= 2 E_3 $$ 
+>    $$ \left[ E_1,E_3 \right]= -2E_2,\quad \left[ E_2,E_3 \right]=2 E_1 $$ 
+>    于是设结构常数为$c_{st}^{r}$, 则
+>    $$ c_{12}^{3}=-c_{21}^{3}=  2\quad   c_{13}^{2}= -c_{31}^{2}= -2\quad  c_{23}^{1}= -c_{32}^{1}= 2 $$ 
+>    其余均为零.
 
 > [!exercise] 5.6
 > 设
@@ -111,6 +134,14 @@
 > (2) 求李群 $G$ 的 Maurer-Cartan 形式（左不变微分式）。
 >
 > (3) 求李群 $G$ 的结构常数。
+
+> [!proof] Proof: 
+> 任取$A\in G$, 有
+> $$ \det A= \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}\neq 0   $$ 
+> 于是
+> $$ G\subseteq \operatorname{GL} \left(2, \mathbb{C} \right) $$ 
+> 
+> 
 
 > [!exercise] 5.7
 > 用 $\mathbb R^*$ 记非零实数的集合，命
