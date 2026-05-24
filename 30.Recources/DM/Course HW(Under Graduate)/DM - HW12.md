@@ -154,25 +154,32 @@
 >
 > (3) 求李群 $G$ 的结构常数。
 
+
+
 > [!proof] Proof: 
-> 任取$A\in G$, 有
-> $$ \det A= \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}\neq 0   $$ 
-> 于是
-> $$ G\subseteq \operatorname{GL} \left(2, \mathbb{C} \right) $$ 
->
-> $$ \begin{pmatrix} \alpha _1 &\beta _1 \\- \overline{\beta_1}&\overline{\alpha}_{1} \end{pmatrix}\begin{pmatrix} \alpha _2 &\beta _2 \\- \overline{\beta}_{2}& \overline{\alpha}_{2} \end{pmatrix}= \begin{pmatrix} \alpha _1 \alpha _2 -\beta _1 \overline{\beta}_{2}&\alpha _1 \beta _2 +  \beta _1  \overline{\alpha}_{2}\\ - \overline{\alpha_1\beta _2 + \beta _1 \overline{\alpha}_{2}}& \overline{\alpha_1\alpha _2 -\beta _1 \overline{\beta}_{2}}  \end{pmatrix} \tag{*}$$ 
-> 并且
-> 若
-> $$ \alpha_1\alpha _2 -\beta _1 \overline{\beta_2}= \alpha _1\beta _2 + \beta _1  \overline{\alpha_2}= 0 $$ 
-> 则
-> $$ \alpha _1 \alpha _2 \beta _2 +  \beta _1 \left| \alpha _2  \right|^{2}= 0\implies \beta _1 \left| \beta _2  \right|^{2}+ \beta _1 \left| \alpha _2  \right|^{2}= 0\implies \beta _1 = 0, \text{or} \beta _2 = \alpha _2 = 0    $$ 
-> 后者是不可能的, 但是若为前者, 则$\alpha _1 \neq 0$, 但是此时$\alpha _1 \alpha _2 = \alpha _1 \beta _2= 0\implies \alpha _2 = \beta _2 = 0$矛盾. 
-> 因此(*)式右侧属于$G$, 这表明$G$对矩阵乘法封闭.
-> 注意到
-> $$ \begin{pmatrix} \alpha &\beta \\-\beta &\overline{\alpha} \end{pmatrix}\begin{pmatrix} \overline{\alpha}&-\beta \\ \beta &\alpha  \end{pmatrix}= \begin{pmatrix} \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2} & 0\\0&\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}    \end{pmatrix} $$ 
-> 因此$\begin{pmatrix} \alpha &\beta \\-\beta &\overline{\alpha} \end{pmatrix}$有逆
-> $$ \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \beta &\alpha  \end{pmatrix}\in G $$ 
-> 故$G$对逆封闭. 而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维闭子集, 进而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维拓扑闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的一个$4$维嵌入李子群, 自然是一个4维李群.
+> 1. 任取$A\in G$, 有
+>     $$ \det A= \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}\neq 0   $$ 
+>    于是
+>    $$ G\subseteq \operatorname{GL} \left(2, \mathbb{C} \right) $$ 
+>   
+>    $$ \begin{pmatrix} \alpha _1 &\beta _1 \\- \overline{\beta_1}&\overline{\alpha}_{1} \end{pmatrix}\begin{pmatrix} \alpha _2 &\beta _2 \\- \overline{\beta}_{2}& \overline{\alpha}_{2} \end{pmatrix}= \begin{pmatrix} \alpha _1 \alpha _2 -\beta _1 \overline{\beta}_{2}&\alpha _1 \beta _2 +  \beta _1  \overline{\alpha}_{2}\\ - \overline{\alpha_1\beta _2 + \beta _1 \overline{\alpha}_{2}}& \overline{\alpha_1\alpha _2 -\beta _1 \overline{\beta}_{2}}  \end{pmatrix} \tag{*}$$ 
+>    并且
+>    若
+>    $$ \alpha_1\alpha _2 -\beta _1 \overline{\beta_2}= \alpha _1\beta _2 + \beta _1  \overline{\alpha_2}= 0 $$ 
+>    则
+>    $$ \alpha _1 \alpha _2 \beta _2 +  \beta _1 \left| \alpha _2  \right|^{2}= 0\implies \beta _1 \left| \beta _2  \right|^{2}+ \beta _1 \left| \alpha _2  \right|^{2}= 0\implies \beta _1 = 0, \text{or} \beta _2 = \alpha _2 = 0    $$ 
+>    后者是不可能的, 但是若为前者, 则$\alpha _1 \neq 0$, 但是此时$\alpha _1 \alpha _2 = \alpha _1 \beta _2= 0\implies \alpha _2 = \beta _2 = 0$矛盾. 
+>    因此(*)式右侧属于$G$, 这表明$G$对矩阵乘法封闭.
+>    注意到
+>    $$ \begin{pmatrix} \alpha &\beta \\-\beta &\overline{\alpha} \end{pmatrix}\begin{pmatrix} \overline{\alpha}&-\beta \\ \beta &\alpha  \end{pmatrix}= \begin{pmatrix} \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2} & 0\\0&\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}    \end{pmatrix} $$ 
+>    因此$\begin{pmatrix} \alpha &\beta \\-\beta &\overline{\alpha} \end{pmatrix}$有逆
+>    $$ \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \beta &\alpha  \end{pmatrix}\in G $$ 
+>    故$G$对逆封闭. 而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维闭子集, 进而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维拓扑闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的一个$4$维嵌入李子群, 自然是一个4维李群.
+> 2. 任取$B\in T_{A}G\simeq$
+>    $$ \omega _{g}\left(A\right)= \left(L_{g^{-1} }\right) _{*}\left(A\right)= g^{-1}  A$$
+>    于是
+>    $$ \omega _{g}= g^{-1}  dg = \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \overline{\beta}&\alpha  \end{pmatrix}\begin{pmatrix} d\alpha & d \beta \\- d \overline{\beta}& d \overline{\alpha} \end{pmatrix} $$ 
+>     
 
 > [!exercise] 5.7
 > 用 $\mathbb R^*$ 记非零实数的集合，命
