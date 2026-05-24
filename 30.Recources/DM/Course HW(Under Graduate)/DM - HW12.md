@@ -175,11 +175,26 @@
 >    因此$\begin{pmatrix} \alpha &\beta \\-\beta &\overline{\alpha} \end{pmatrix}$有逆
 >    $$ \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \beta &\alpha  \end{pmatrix}\in G $$ 
 >    故$G$对逆封闭. 而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维闭子集, 进而$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的$4$维拓扑闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的一个$4$维嵌入李子群, 自然是一个4维李群.
-> 2. 任取$B\in T_{A}G\simeq$
+> 2. 任取$B\in T_{A}G$
 >    $$ \omega _{g}\left(A\right)= \left(L_{g^{-1} }\right) _{*}\left(A\right)= g^{-1}  A$$
 >    于是
->    $$ \omega _{g}= g^{-1}  dg = \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \overline{\beta}&\alpha  \end{pmatrix}\begin{pmatrix} d\alpha & d \beta \\- d \overline{\beta}& d \overline{\alpha} \end{pmatrix} $$ 
->     
+>    $$ \begin{aligned} \omega _{g}= g^{-1}  dg &= \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha}&-\beta \\ \overline{\beta}&\alpha  \end{pmatrix}\begin{pmatrix} d\alpha & d \beta \\- d \overline{\beta}& d \overline{\alpha} \end{pmatrix}\\&= \frac{1 }{\left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}   }\begin{pmatrix} \overline{\alpha} d \alpha+ \beta  d \overline{\beta}& \overline{\alpha}d\beta -\beta d \overline{\alpha}\\ \overline{\beta}d \alpha -\alpha  d \overline{\beta}& \overline{\beta}d\beta + \alpha d\overline{\alpha}  \end{pmatrix}\\&= \begin{pmatrix} \omega _1 &\omega _2 \\- \overline{\omega}_{2}&\overline{\omega}_{1} \end{pmatrix} \end{aligned} $$ 
+> 其中
+> $$ \omega _1 = \frac{\overline{\alpha}d\alpha + \beta d\overline{\beta} }{ \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}  },\quad \omega _2 = \frac{\overline{\alpha}d\beta -\beta d \overline{\alpha} }{ \left| \alpha  \right|^{2}+ \left| \beta  \right|^{2}  } $$ 
+> 注意到对角元共轭, 次对角元负共轭, 故$\omega$是$\mathfrak{g}$-值的.
+> 
+> 3. 为了计算$T_{e}G$, 考虑曲线
+>    $$ M\left(t\right)= \begin{pmatrix} \alpha ^{\prime} \left(0\right)&\beta ^{\prime} \left(0\right)\\- \overline{\beta^{\prime} \left(0\right)}& \overline{\alpha^{\prime} \left(0\right)} \end{pmatrix} $$ 
+>    记$a= \alpha ^{\prime} \left(0\right), b = \beta ^{\prime} \left(0\right)$. 由于$G$是$\mathbb{C} ^{2}\setminus \left\{ 0 \right\}$中开集$\left(\alpha ,\beta \right)\mapsto M$的像, $\left(1,0\right)$是内点, 故曲线方向$\left(\alpha ^{\prime} \left(0\right), \beta ^{\prime} \left(0\right)\right)$可取$\mathbb{C} ^{2}$任意值, 于是
+>    $$ \mathfrak{g}= T_{e}G= \left\{ \begin{pmatrix} a&b\\-\bar{b}&\bar{a} \end{pmatrix} : a,b\in \mathbb{C} \right\} $$ 
+>    
+>      取$\mathfrak{g}= T_{e}G$的基
+>    $$ E_1= \begin{pmatrix} 1&0\\0&1 \end{pmatrix}, \quad E_2= \begin{pmatrix} i&0\\0&-i \end{pmatrix},\quad E_3= \begin{pmatrix} 0&1\\-1&0 \end{pmatrix},\quad E_4= \begin{pmatrix} 0&i\\i&0 \end{pmatrix} $$ 
+>    $E_1$与$E_2,E_3,E_4$交换. 
+>    $$ \left[ E_2,E_3 \right]= 2E_4,\quad \left[ E_3,E_4 \right]= 2E_2,\quad \left[ E_4,E_2 \right]= 2E_3 $$ 
+>    故非零结构常数为
+>    $$ c_{23}^{4}= c_{34}^{2}= c_{42}^{3}= 2,\quad c_{1j}^{k}= 0,\quad \forall j,k $$ 
+>    其余由反对称性$c_{ij}^{k}= -c_{ji}^{k}$决定
 
 > [!exercise] 5.7
 > 用 $\mathbb R^*$ 记非零实数的集合，命
@@ -198,3 +213,46 @@
 > 证明：$K$ 仍是一个 $2$ 维李群，并且求 $K$ 的左不变向量场和结构常数。
 >
 > 然后将以上两种情况进行比较，看一看所得的结果有什么差别。
+
+> [!proof] Proof: 
+> 1. $K$是$\mathbb{R}^{2}$的开子集, 故作为开子流形成为一个2维光滑流形,由整体坐标$\left(a,b\right)$.
+>  
+>      乘法映射显然是光滑的, 且易见$K$有乘法单位$e= \left(1,0\right)$.
+>      并且乘法逆为
+>      $$ \left(a,b\right)^{-1} = \left(\frac{1 }{a },-\frac{b }{a }\right)  $$ 
+>      在$a \neq 0$光滑, 因此$K$是一个2维李群.
+>  
+>      $$ L_{\left(a,b\right)}\left(x,y\right)= \left(ax,b+ ay\right) $$ 
+>      Jacobi矩阵为
+>     $$ \left(L_{\left(a,b\right)}\right) _{*}= \begin{pmatrix} a&0\\0&a \end{pmatrix}$$ 
+>     取$T_{e}K$的基$\partial _{a}|_{e}, \partial _{b}|_{e}$, 生成出一组左不变向量场
+>     $$ X_1=  a \frac{\partial }{\partial a},\quad X_2=  a\frac{\partial }{\partial b} $$ 
+>    任取$f\in C^{\infty}\left(K\right)$, 则
+>    $$ \left[ X_1,X_2 \right]f=a\partial _{b}f+ a^{2}\partial _{a}\partial _{b}f-a^{2}\partial _{a}\partial _{b}f=  a\partial _{b}f= X_2f $$ 
+>    故
+>     $$ \left[ X_1,X_2 \right]= X_2 $$ 
+>    结构常数为
+>     $$ c_{12}^{2}= 1,\quad c_{21}^{2}= -1 $$ 
+>    其余为零.
+> 2. 流形结构同上. 乘法依然为多项式, 故光滑. 单位元仍为$\left(1,0\right)$, 乘法逆为
+>   $$ \left(a,b\right)^{-1} = \left(\frac{1 }{a }, -\frac{b }{a }\right) $$ 
+>   $$ L_{\left(a,b\right)}\left(x,y\right)= \left(ax, bx+ y\right) $$ 
+>  Jacobi为
+>   $$ \left(L_{\left(a,b\right)}\right)_{*}= \begin{pmatrix} a&0\\b&1 \end{pmatrix} $$ 
+>   通过$\partial _{a}|_{e}, \partial _{b}|_{e}$生成出左不变向量场
+>  $$ Y_1= a \frac{\partial }{\partial b}+ b \frac{\partial }{\partial b},\quad Y_2= \frac{\partial }{\partial b} $$ 
+>  $$ \left[ Y_1,Y_2 \right]f= -\partial _{b}f= -Y_2f $$ 
+>  于是
+>   $$ \left[ Y_1,Y_2 \right]= -Y_2 $$ 
+>  结构常数为
+>   $$ \tilde{c}_{12}^{2}= -1,\quad \tilde{c}_{21}^{2}= 1 $$ 
+>  其余为零
+>
+> 3. 两种乘法分别通过矩阵实现为
+>   $$ \begin{pmatrix} a&b\\0&1 \end{pmatrix},\quad \begin{pmatrix} a&0\\b&1 \end{pmatrix} $$ 
+>  互为转置.
+>  两种乘法有关系
+>  $$ g_1*g_2= g_2\cdot g_1 $$ 
+>  二者之间存在李群同构
+>  $$ \left(a,b\right)\mapsto \left(\frac{1 }{a },- \frac{b }{a }\right) $$ 
+
