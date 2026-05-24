@@ -120,6 +120,25 @@
 >    于是设结构常数为$c_{st}^{r}$, 则
 >    $$ c_{12}^{3}=-c_{21}^{3}=  2\quad   c_{13}^{2}= -c_{31}^{2}= -2\quad  c_{23}^{1}= -c_{32}^{1}= 2 $$ 
 >    其余均为零.
+> 4. 设$\omega$是Maurer-Cartan形式, 则
+> $$ \omega _{x}\left(v\right)= \left(L_{x^{-1} }\right)_{*}\left(v\right)= x^{-1} v $$ 
+>    $dx= dx_0\cdot 1+ dx_1\cdot i +  dx_2\cdot j+ d x_3\cdot k$将$T_{x}H^{*}$自然地等同于$H$, 于是
+>    $$ \omega _{x}= x ^{-1}  d x $$ 
+>    即
+>    $$ \omega = \frac{\bar{x}dx }{\left| x \right|^{2}  } $$ 
+>    将$\omega$分解为
+>    $$ \omega = \omega ^{0}+ \omega ^{1}i+ \omega ^{2}j + \omega ^{3}k $$ 
+>    则
+>    结构方程为
+>    $$ d \omega ^{\gamma }= -\frac{1}{2}c_{\alpha \beta }^{\gamma }\omega ^{\alpha }\wedge \omega ^{\beta } $$  
+>    根据上面计算的结构常数
+>    $$ d \omega ^{0}= 0,\quad d \omega ^{1}= -2\omega ^{2}\wedge \omega ^{3},  \quad d \omega ^{2}= -2\omega ^{3}\wedge \omega ^{1},\quad d\omega ^{3}= -2\omega ^{1}\wedge \omega ^{2} $$ 
+>    于是
+>    $$ d \omega =  -2\omega ^{2}\wedge \omega ^{3}i -2 \omega ^{3}\wedge \omega ^{1}j - 2\omega ^{1}\wedge \omega ^{2}k $$ 
+>    注意到
+>    $$ \omega \wedge \omega = 2\omega ^{1}\wedge \omega ^{2}k + 2 \omega ^{2}\wedge \omega ^{3} i + 2 \omega ^{3}\wedge \omega ^{1}j $$ 
+>    于是 
+>    $$ d\omega = -\omega \wedge \omega   $$ 
 
 > [!exercise] 5.6
 > 设
