@@ -12,6 +12,20 @@
 > [Y_i,Y_j](e)=\widetilde C^{k}_{ij}Y_k(e).
 > $$
 
+$g$的局部坐标, $e$的局部坐标, $g$坐标中的一个开邻域, $v^{i}$是限制在$V$上的坐标. $\varphi$是乘法运算,$V$在乘一个小的$W$后落在$U$中. 求$Y_{i}$在$V$上的局部表示.
+
+求$y_{i}$在$V$上的局部坐标, 就是求
+
+
+$$ \left(R_{a}\right)_{*g} \left(Y_{i}\left(g\right)\right)= Y_{i}\left(g \cdot a\right) $$ 
+这里取$e= g$, 则
+$$ \left(R_{a}\right) _{*e}\left(\frac{\partial }{\partial u^{i}}\right)= Y_{i}\left(g\right)$$  
+求$Y_{i}$在$V$上的局部坐标表示, 就是$Y_{i}\left(g\right)$怎么用$\frac{\partial }{\partial v^{i}}$表示.
+$$ \frac{\partial }{\partial v^{i}}= \left. \frac{\partial }{\partial u^{i}} \right|_{V} $$ 
+
+$$ \begin{aligned} \begin{aligned} du^{j}\left(\left(R_{a}\right) _{* e}\left(\frac{\partial }{\partial u^{i}}\right)\right)= \left(R_{a}\right)_{*e}\left(\frac{\partial }{\partial u^{i}}\right)\left(u^{j}\right)&= \left(\frac{\partial }{\partial u^{i}}\right) _{e}\left(u^{j}\circ R_{a}\right)\\&= \frac{\mathrm{d}}{\mathrm{d}t}|_{t= 0}\left(u^{j}\circ R_{a}\left(0,\cdots ,t,\cdots ,0\right)\right)\\&=  \frac{\mathrm{d}}{\mathrm{d}t}u^{j}\left(\varphi \left(te_{i},a\right)\right)\end{aligned}\end{aligned}$$ 
+
+
 > [!exercise] 5.3
 > 设 $H=\mathbb R^4$，取 $H$ 的基底为 $\{1,i,j,k\}$，乘法表为
 > $$
