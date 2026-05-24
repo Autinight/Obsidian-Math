@@ -65,21 +65,33 @@
 >
 > (4) 求李群 $H^*$ 的 Maurer-Cartan 形式（左不变微分式）和结构方程。
 
-先说明$H^{*}$是一个李群, 也就是说
 
-将$H^{*}$视为$\mathbb{R} ^{4}$的一个开子流形, 则$H^{*}$是一个4维的光滑流形. 并且有全局坐标$\left(x_0,x_1,x_2,x_3\right)$
-
-设$y= y_0 1+ y_1i+ y_2j+ y_3k$, 则
-$$ \begin{aligned} x\cdot y&= \left(\sum _{l}x_{l}y_{l}\right)1+ \left(x_1y_0+ x_0y_1+ x_2y_3-y_2x_3 \right)i\\&+ \left(x_0y_2+ y_0x_2+ x_3y_1-y_3x_1\right)j+ \left(x_0y_3+ y_0x_3+ x_1y_2-y_1x_2\right)k \end{aligned} $$ 
-故乘法映射是光滑的. 
-
-$$ \bar{x}= x_0 1- x_1 i -  x_2 j  - x_3 k  $$ 
-
-$$ x \cdot  \bar{x}= \left\| x \right\|^{2}1 $$ 
-故
-$$ x ^{-1}  = \frac{\bar{x} }{\left\| x \right\|^{2}}= \frac{1 }{\left\| x \right\|^{2} }\left(x_0 1 -  x_1 i -  x_2 j -  x_3 k \right) $$ 
-故$x\mapsto x ^{-1}$是光滑的. 
-因此 $H^{*}$是一个四维李群.
+> [!proof] Proof:
+> 1. 先说明$H^{*}$是一个李群, 也就是说
+>    
+>    将$H^{*}$视为$\mathbb{R} ^{4}$的一个开子流形, 则$H^{*}$是一个4维的光滑流形. 并且有全局坐标$\left(x_0,x_1,x_2,x_3\right)$
+>    
+>    设$y= y_0 1+ y_1i+ y_2j+ y_3k$, 则
+>    $$ \begin{aligned} x\cdot y&= \left(\sum _{l}x_{l}y_{l}\right)1+ \left(x_1y_0+ x_0y_1+ x_2y_3-y_2x_3 \right)i\\&+ \left(x_0y_2+ y_0x_2+ x_3y_1-y_3x_1\right)j+ \left(x_0y_3+ y_0x_3+ x_1y_2-y_1x_2\right)k \end{aligned} $$ 
+>    故乘法映射是光滑的. 
+>    
+>    $$ \bar{x}= x_0 1- x_1 i -  x_2 j  - x_3 k  $$ 
+>    
+>    $$ x \cdot  \bar{x}= \left\| x \right\|^{2}1 $$ 
+>    故
+>    $$ x ^{-1}  = \frac{\bar{x} }{\left\| x \right\|^{2}}= \frac{1 }{\left\| x \right\|^{2} }\left(x_0 1 -  x_1 i -  x_2 j -  x_3 k \right) $$ 
+>    故$x\mapsto x ^{-1}$是光滑的. 
+>    因此 $H^{*}$是一个四维李群.
+> 2.  $\xi \in T_{1}H^{*}$生成的左不变向量场$X_{\xi }$为
+>     $$ X_{\xi }\left(q\right)= \left(dL_{q}\right) _{1}\left(\xi \right)=  q \xi $$ 
+>     于是$T_{1}G$的基$1,i,j,k$生成的左不变向量场分别为
+>     $$ E_0\left(q\right)= q,\quad E_1\left(q\right) =  qi ,\quad E_2 \left(q\right)=  q j,\quad E_3\left(q\right)=   q k $$ 
+>    即
+>    $$ E_0=  x_0\partial _{x_0}+ x_1\partial _{x_1}+ x_2\partial _{x_2}+ x_3\partial _{x_3} $$ 
+>    $$ E_1= -x_1\partial _{x_0}+ x_0\partial _{x_1}+ x_3\partial _{x_2}- x_2\partial _{x_3} $$ 
+>    $$ E_2=- x_2\partial _{x_0} -x_3\partial _{x_1}+   x_0\partial _{x_2}+ x_1\partial _{x_3}$$
+>    $$ E_3= -x_3\partial _{x_0} + x_2 \partial _{x_1}- x_1\partial _{x_2} +  x_0\partial _{x_3} $$  
+> 3. $$ \left[ E_{1},E_{2} \right] $$ 
 
 
 
