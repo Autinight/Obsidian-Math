@@ -12,12 +12,16 @@
 > [Y_i,Y_j](e)=\widetilde C^{k}_{ij}Y_k(e).
 > $$
 
-$$ \frac{\partial }{\partial v^{i}}= \left. \frac{\partial }{\partial u^{i}} \right|_{V} $$ 
+$$ \begin{aligned} \begin{aligned} \left[ Y_{i},Y_{j} \right]\left(e\right)&= \left[\frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial }{\partial u^{k}}, \frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}} \right]\\&=  \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\left[ \frac{\partial }{\partial u^{k}}, \frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}} \right] -\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}}\left(\frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\right)\frac{\partial }{\partial u^{k}}\\&= \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\left[ \frac{\partial }{\partial u^{k}} ,\frac{\partial }{\partial u^{l}}\right]+ \frac{\partial \widehat{\varphi}^{k}}{\partial w^{i}}\frac{\partial }{\partial u^{k}}\left(\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\right)\frac{\partial }{\partial u^{l}}-\frac{\partial \widehat{\varphi}^{l}}{\partial v^{j}}\frac{\partial }{\partial u^{l}}\left(\frac{\partial \widehat{\varphi}^{k}}{\partial w ^{i}}\right)\frac{\partial }{\partial u^{k}}\\&= \frac{\partial \widehat{\varphi}^{k}}{\partial u^{i}}\frac{\partial ^{2}\widehat{\varphi}^{l}}{\partial u^{k}\partial u^{j}}\frac{\partial }{\partial u^{l}}- \frac{\partial \widehat{\varphi}^{l}}{\partial u^{j}}\frac{\partial \widehat{\varphi}^{k}}{\partial u^{l}\partial u^{i}}\frac{\partial }{\partial u^{k}}\\&= \left(\frac{\partial \widehat{\varphi}^{l}}{\partial u^{i}}\frac{\partial ^{2}\widehat{\varphi}^{k}}{\partial u^{l}\partial u^{j}}-\frac{\partial \widehat{\varphi}^{l}}{\partial u^{j}}\frac{\partial^{2} \widehat{\varphi}^{k}}{\partial u^{l}\partial u^{i}}\right)\frac{\partial }{\partial u^{k}}\end{aligned}\end{aligned} $$ 
 
+$$ \frac{\partial \widehat{\varphi}^{j}}{\partial u^{i}}\left(0;0,\cdots 0\right)= u^{j}\circ \left(\left(\frac{\partial }{\partial u^{i}}\right)\varphi \left(e,e\right)\right) $$ 
 
-$$ \begin{aligned} \begin{aligned} \left(R_{a}\right) _{*e}\left(\frac{\partial }{\partial v^{i}}\right)\left(f\right)&= \left(\frac{\partial }{\partial v^{i}}\right)_{v= 0}f\left(R_{a}\left(v\right)\right)\\&=\left(\frac{\partial }{\partial v^{i}}\right) _{v= 0}f\left(\widehat{\varphi}\left(v,a\right)\right)\\&= \sum _{j}\frac{\partial f}{\partial u^{j}}\left(a\right) \frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(a\right),\cdots ,u^{n}\left(a\right)\right) \end{aligned}\end{aligned} $$ 
-于是
-$$ Y_{i}\left(g\right)= \sum _{j}\frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(g\right),\cdots ,u^{n}\left(g\right)\right)\left. \frac{\partial }{\partial u^{j}} \right|_{g} $$ 
+> [!proof] Proof: 
+> 1. $$ \frac{\partial }{\partial v^{i}}= \left. \frac{\partial }{\partial u^{i}} \right|_{V} $$ 
+>    $$ \begin{aligned} \begin{aligned} \left(R_{a}\right) _{*e}\left(\frac{\partial }{\partial v^{i}}\right)\left(f\right)&= \left(\frac{\partial }{\partial v^{i}}\right)_{v= 0}f\left(R_{a}\left(v\right)\right)\\&=\left(\frac{\partial }{\partial v^{i}}\right) _{v= 0}f\left(\widehat{\varphi}\left(v,a\right)\right)\\&= \sum _{j}\frac{\partial f}{\partial u^{j}}\left(a\right) \frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(a\right),\cdots ,u^{n}\left(a\right)\right) \end{aligned}\end{aligned} $$ 
+>    于是
+>    $$ Y_{i}\left(g\right)= \sum _{j}\frac{\partial \widehat{\varphi}^{j}}{\partial v^{i}}\left(0,u^{1}\left(g\right),\cdots ,u^{n}\left(g\right)\right)\left. \frac{\partial }{\partial u^{j}} \right|_{g} $$ 
+> 
 
 
 > [!exercise] 5.3
