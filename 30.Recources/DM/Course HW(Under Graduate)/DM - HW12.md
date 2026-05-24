@@ -73,6 +73,17 @@
 $$ \begin{aligned} x\cdot y&= \left(\sum _{l}x_{l}y_{l}\right)1+ \left(x_1y_0+ x_0y_1+ x_2y_3-y_2x_3 \right)i\\&+ \left(x_0y_2+ y_0x_2+ x_3y_1-y_3x_1\right)j+ \left(x_0y_3+ y_0x_3+ x_1y_2-y_1x_2\right)k \end{aligned} $$ 
 故乘法映射是光滑的. 
 
+$$ \bar{x}= x_0 1- x_1 i -  x_2 j  - x_3 k  $$ 
+
+$$ x \cdot  \bar{x}= \left\| x \right\|^{2}1 $$ 
+故
+$$ x ^{-1}  = \frac{\bar{x} }{\left\| x \right\|^{2}}= \frac{1 }{\left\| x \right\|^{2} }\left(x_0 1 -  x_1 i -  x_2 j -  x_3 k \right) $$ 
+故$x\mapsto x ^{-1}$是光滑的. 
+因此 $H^{*}$是一个四维李群.
+
+
+
+
 > [!exercise] 5.6
 > 设
 > $$
