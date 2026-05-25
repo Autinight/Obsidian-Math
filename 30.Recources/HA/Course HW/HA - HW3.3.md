@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise: 
 > 求以下函数的 Fourier 变换：
 > (提示：利用已知函数的 Fourier 变换及 Fourier 变换的性质)
@@ -21,11 +23,11 @@
 > (1) $\frac{1}{\pi} \int_{-\infty}^{\infty} \left( \frac{\sin t}{t} \right)^2 \cos xt \, dt = ?$   
 
 > [!proof] Proof: 
-> $$ \frac{1 }{2\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}e^{-ixt} \,d t= \pi -\pi ^{2}\left| x \right| $$ 
-> 由于$\left(\frac{\sin t }{t }\right)^{2}$是偶函数, 我们有
-> $$\frac{1 }{2\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}e^{ixt}\,d t= \pi -\pi ^{2}\left| x \right|$$ 
-> 两式相加, 得到
-> $$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}\cos xt\,d t= \left(2\pi -2\pi ^{2}\left| x \right|\right)_{+ }  $$ 
+> 在上一题中取$a= 1$, 
+> 令$f\left(t\right)=\left(\frac{\sin t }{t }\right)^{2}$, 由于$f$是偶函数, 我们有
+> $$ \hat{f}\left(\xi \right)= \int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}\cos 2\pi \xi t\,d t = \left(\pi -\pi ^{2}\left| \xi  \right| \right)_{+ }$$  
+> 于是
+> $$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}\cos xt\,d t=\frac{1 }{\pi  } \hat{f}\left(\frac{x }{2\pi  }\right) = \left(1-\frac{\left|x  \right|  }{2 }\right)_{+ }$$ 
 
 > [!exercise] Exercise: 
 >  设 $g \in L(R)$ , $\int_{R} g(x) \mathrm{d}x = 1$ 
@@ -36,9 +38,30 @@
 >  $$
 >  (2) 设连续的 $f \in L(R)$ ，且 $\hat{f} \in L(R)$ ，证明：
 >  $$
->  \lim _ {\delta \rightarrow 0} \int_ {- \infty} ^ {\infty} \hat {g} (\delta \xi) \hat {f} (\xi) \mathrm{e} ^ {2 m \xi x} \mathrm{d} x = f (x)
+>  \lim _ {\delta \rightarrow 0} \int_ {- \infty} ^ {\infty} \hat {g} (\delta \xi) \hat {f} (\xi) \mathrm{e} ^ {2 \pi i \xi x} \mathrm{d} \xi  = f (x)
 >  $$
 >  对一切 $x$ 成立.
+
+> [!proof] Proof: 
+> 1. $$ \begin{aligned} \begin{aligned} \hat{g}\left(\delta \xi \right)&=\int _{-\infty}^{\infty}g\left(t\right)e^{-2\pi  i \left(\delta \xi \right)t}\,d  t\end{aligned} \end{aligned}$$ 
+>    当$\delta \to 0$时, 
+>    $$ g\left(t\right)e^{-2\pi i\left(\delta \xi \right)t}\to g\left(x\right) $$ 
+>    逐点地成立.
+>    又
+>     $$ \left\| g\left(t\right)e^{-2\pi i\delta \xi t} \right\|_{L^{1}}\le \left\| e^{-2\pi i\delta \xi t} \right\|_{\infty}\left\| g \right\|_{L^{1}}\le \left\| g \right\|_{L^{1}} $$ 
+>    故由控制收敛定理
+>     $$ \lim_{\delta \to 0}\hat{g}\left(\delta \xi \right)= \int _{-\infty}^{\infty}g\left(t\right)\,d t= 1 $$ 
+> 2. 由于$f$连续, $f, \hat{f}\in L^{1}$, 我们有
+> $$ f\left(x\right)= \int _{-\infty}^{\infty}\hat{f}\left(\xi \right)e^{2\pi i \xi x}d\xi  $$ 
+> 令
+>  $$ I_{\delta }= \int _{-\infty}^{\infty}\hat{g}\left(\delta \xi \right)\hat{f}\left(\xi \right)e^{2\pi i \xi x}d\xi  $$ 
+> 当$\delta \to 0$时, 
+> $$ \hat{g}\left(\delta \xi \right)\hat{f}\left(\xi \right)e^{2\pi i\xi x} \to \hat{f}\left(\xi \right)e^{2\pi i\xi x}\,$$ 
+> 逐点地成立, 并且
+> $$ \left| \hat{g}\left(\delta \xi \right) \right|\le \left\| g \right\|_{L^{1}}  $$ 
+> $$ \left| \hat{g}\left(\delta \xi \right)\hat{f}\left(\xi \right)e^{2\pi i\xi x} \right|  \le \left\| g \right\|_{L^{1}}\left| \hat{f} \right| $$ 
+> 而$\left\| g \right\|_{L^{1}}\left| \hat{f} \right|\in L^{1}$, 由控制收敛定理
+> $$ \lim_{\delta \to 0}I_{\delta } \left(x\right)= \int _{\mathbb{R} }\hat{f}\left(\xi \right)e^{2\pi i\xi x}d\xi = f\left(x\right)$$ 
 
 
 > [!exercise] Exercise: 
@@ -47,3 +70,13 @@
 >f\left(x\right) = 0, \quad \mathrm{a.e.};
 > $$
 > (2) 设 $f \in L(\mathbb{R})$ ，且 $(f * f)(x) = 0$ ，a.e., 试证 $f(x) = 0$ ，a.e..
+
+> [!proof] Proof: 
+> 1. $$ \hat{f}\left(x\right)= \widehat{f*f}\left(x\right)= \hat{f}\left(x\right)\hat{f}\left(x\right) $$ 
+>    于是
+>    $$ \hat{f}\left(\mathbb{R} \right)\subseteq \left\{ 0,1 \right\} $$ 
+>    由于$\hat{f}$连续, $\mathbb{R}$连通, 只能有 $\hat{f}\equiv 1$或者$\hat{f}\equiv 0$, 前者Riemann-Lebesgue引理矛盾, 因此只能有$\hat{f}\equiv 0$.
+>    由 Fourier变换的唯一性, 
+>    $$ f\left(x\right)= 0,\quad a.e. $$ 
+> 2. 取Fourier变换, 得到
+>   $$ \hat{f}\left(x\right)\hat{f}\left(x\right)= 0\implies \hat{f}\left(x\right)\equiv 0\implies f= 0,\quad a.e. $$ 
