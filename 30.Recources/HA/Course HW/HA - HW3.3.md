@@ -14,11 +14,18 @@
 > 则
 >  $$ \mathcal{F}\left[ g \right]= \mathcal{F}\left[ \pi \cdot \frac{\sin \left(a\xi \right) }{\pi \xi  } \right] = \pi \chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(x\right) $$ 
 > 则 $f\left(x\right)= g\left(x\right)\cdot g\left(x\right)$, 
->  $$ \begin{aligned} \mathcal{F}\left(f\right)\left(\xi \right)= \hat{g}* \hat{g}\left(\xi \right)&= \pi ^{2} \int _{-\infty}^{\infty} \chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(y\right)\chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(\xi -y\right)\,d y\\&= \begin{cases} 0,&\xi \le -\frac{a }{\pi  }, \text{or} \xi \ge \frac{a }{\pi  } \\ \pi a-\pi ^{2}\left| \xi  \right|,& \left| \xi  \right|\le \frac{a }{\pi  }   \end{cases} \end{aligned}$$ 
+>  $$ \begin{aligned} \mathcal{F}\left(f\right)\left(\xi \right)= \hat{g}* \hat{g}\left(\xi \right)&= \pi ^{2} \int _{-\infty}^{\infty} \chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(y\right)\chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(\xi -y\right)\,d y\\&= \begin{cases} 0,&\xi \le -\frac{a }{\pi  }, \text{or} \xi \ge \frac{a }{\pi  } \\ \pi a-\pi ^{2}\left| \xi  \right|,& \left| \xi  \right|\le \frac{a }{\pi  }   \end{cases}\\&= \left(\pi a- \pi ^{2}\left| \xi  \right| \right)_{+ } \end{aligned}$$ 
 
 > [!exercise] Exercise: 
 > 求以下积分的值：
 > (1) $\frac{1}{\pi} \int_{-\infty}^{\infty} \left( \frac{\sin t}{t} \right)^2 \cos xt \, dt = ?$   
+
+> [!proof] Proof: 
+> $$ \frac{1 }{2\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}e^{-ixt} \,d t= \pi -\pi ^{2}\left| x \right| $$ 
+> 由于$\left(\frac{\sin t }{t }\right)^{2}$是偶函数, 我们有
+> $$\frac{1 }{2\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}e^{ixt}\,d t= \pi -\pi ^{2}\left| x \right|$$ 
+> 两式相加, 得到
+> $$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{2}\cos xt\,d t= \left(2\pi -2\pi ^{2}\left| x \right|\right)_{+ }  $$ 
 
 > [!exercise] Exercise: 
 >  设 $g \in L(R)$ , $\int_{R} g(x) \mathrm{d}x = 1$ 
