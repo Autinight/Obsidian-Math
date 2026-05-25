@@ -92,7 +92,7 @@
   "savedProviderThinkingBudget": {
     "claude": "high"
   },
-  "lastCustomModel": "deepseek-v4-flash",
+  "lastCustomModel": "gpt-5.5",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

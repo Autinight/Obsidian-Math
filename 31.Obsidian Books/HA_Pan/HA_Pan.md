@@ -1712,7 +1712,7 @@ $$
 
 (见图 2.1).
 
-![](images/2c6086d27001c7294d5e977b05f87379977325964cc7401381079a2269fa601f.jpg)
+![](2c6086d27001c7294d5e977b05f87379977325964cc7401381079a2269fa601f.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1727,7 +1727,7 @@ y
 
 图2.1
 
-![](images/41801a74731208af3f6bfacc5a93e64f9abc70b4827144922d97980cfdcd8482.jpg)
+![](41801a74731208af3f6bfacc5a93e64f9abc70b4827144922d97980cfdcd8482.jpg)
 
 <details>
 <summary>line</summary>
@@ -1975,7 +1975,7 @@ $$
 \begin{array}{l} S _ {2 n - 1} (x _ {1} ^ {(n)}) = \frac {2}{\pi} \int_ {0} ^ {\frac {\pi}{2 n}} \frac {\sin 2 n t}{\sin t} d t = \frac {2}{\pi} \int_ {0} ^ {\pi} \frac {\sin t}{2 n \sin \frac {t}{2 n}} d t \\ = \frac {2}{\pi} \int_ {0} ^ {\pi} \frac {\sin t}{t} \frac {\frac {t}{2 n}}{\sin \frac {t}{2 n}} d t. \\ \end{array}
 $$
 
-![](images/0b0a92f5ea520e1a4e5f1d71621a9aae67ab73bbf7e532501598d4e8f4634c59.jpg)
+![](0b0a92f5ea520e1a4e5f1d71621a9aae67ab73bbf7e532501598d4e8f4634c59.jpg)
 
 <details>
 <summary>line</summary>
@@ -2913,7 +2913,7 @@ $$
 
 如果 $f$ 及其一阶导数 $f'$ 都在 $[a, b]$ 上逐段连续，就称 $f$ 在 $[a, b]$ 上逐段光滑，也记作 $f \in \mathrm{PS}(a, b)$ . 参见下图，图2.4是逐段光滑函数，而图2.5为非逐段光滑函数.
 
-![](images/e7e8208d8160cc77cd079a320eb051d154602855d1c9082a9b994798a4f5e133.jpg)
+![](e7e8208d8160cc77cd079a320eb051d154602855d1c9082a9b994798a4f5e133.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2923,7 +2923,7 @@ Hand-drawn mathematical graph showing a piecewise function with x-axis and y-axi
 
 图24
 
-![](images/4d2b5434d4c1f787104e6f5734635c6dd2dbf24e3a1f512128a08d7d3dd369da.jpg)
+![](4d2b5434d4c1f787104e6f5734635c6dd2dbf24e3a1f512128a08d7d3dd369da.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3532,7 +3532,7 @@ $$
 $$
 
 $$
-= \sum_ {n = - \infty} ^ {\infty} \left[ \frac {1}{2 \pi} \int_ {- l} ^ {l} f (y) \mathrm{e} ^ {\mathrm{i} t _ {n} (r - y)} \mathrm{d} y \right] \Delta t _ {n},
+= \sum_ {n = - \infty} ^ {\infty} \left[ \frac {1}{2 \pi} \int_ {- l} ^ {l} f (y) \mathrm{e} ^ {\mathrm{i} t _ {n} (x - y)} \mathrm{d} y \right] \Delta t _ {n},
 $$
 
 其中
@@ -3548,7 +3548,7 @@ $$
 这个和式可以近似地看作关于 $t$ 的函数
 
 $$
-\frac {1}{2 \pi} \int_ {- \infty} ^ {\infty} f (y) \mathrm{e} ^ {i t (\tau - y)} \mathrm{d} y
+\frac {1}{2 \pi} \int_ {- \infty} ^ {\infty} f (y) \mathrm{e} ^ {i t (x - y)} \mathrm{d} y
 $$
 
 在 $(-\infty, \infty)$ 上的积分和，令 $l \to +\infty$ ，形式上得到它的极限是积分
@@ -4082,7 +4082,7 @@ $$
 \int_ {\Gamma} \mathrm{e} ^ {- z ^ {2}} \mathrm{d} z = 0, \tag {3.28}
 $$
 
-![](images/9c6ae6a2fa427bac3d0e3f4e94bb3b8b0389c1a506f3349c3de97d9ffabcaab3.jpg)
+![](9c6ae6a2fa427bac3d0e3f4e94bb3b8b0389c1a506f3349c3de97d9ffabcaab3.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -4832,7 +4832,7 @@ $$
 
 (见图 3.2), 显然 $D \in L^{1}(\mathbb{R}) \cap L^{2}(\mathbb{R})$ . 它的 Fourier 变换为
 
-![](images/5849ca8a28a4701ff9b8fad30bdccede350d9394626c70b7bce6d3a6db0d5e22.jpg)
+![](5849ca8a28a4701ff9b8fad30bdccede350d9394626c70b7bce6d3a6db0d5e22.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -4922,7 +4922,7 @@ $$
 
 令
 
-![](images/c69b3051d2e8e352fd008da717ca0d2b3ae6af8d44da9042aa61be36750fd42a.jpg)
+![](c69b3051d2e8e352fd008da717ca0d2b3ae6af8d44da9042aa61be36750fd42a.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -4950,7 +4950,7 @@ $$
 \hat {\Delta} (t) = \left(\frac {\sin \pi t}{\pi t}\right) ^ {2},
 $$
 
-![](images/15ce7deaff13faabe989080f960bac0b9059f2e117b4298d0a2dcf3c204be37d.jpg)
+![](15ce7deaff13faabe989080f960bac0b9059f2e117b4298d0a2dcf3c204be37d.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -4963,7 +4963,7 @@ y
 
 图3.4
 
-![](images/fd67aa2d31331ea7cd234e9a799d3fc931e95c4d0d99dc72cc297f82c889594d.jpg)
+![](fd67aa2d31331ea7cd234e9a799d3fc931e95c4d0d99dc72cc297f82c889594d.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -5546,7 +5546,7 @@ $$
 
 因此 $f$ 在上半圆周的积分当 $r \to \infty$ 时极限为零. 于是由(3.81)式, 令 $r \to \infty$ , 便推得(3.80)式.
 
-![](images/f6c9a143093bb66c07ba165fed934ca7f1e2e133899a5ec50dbd9aaa3dd08964.jpg)
+![](f6c9a143093bb66c07ba165fed934ca7f1e2e133899a5ec50dbd9aaa3dd08964.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -7850,7 +7850,7 @@ $$
 
 如图5.1, 可以看到 $\psi$ 的支集是位于 $x + y = M$ 与 $x + y = -M$ 两
 
-![](images/29c969848545d38bdc7c373d77caa30359afc9106d1078a5fd79660057c4d80b.jpg)
+![](29c969848545d38bdc7c373d77caa30359afc9106d1078a5fd79660057c4d80b.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -8001,7 +8001,7 @@ $$
 
 从而推知 $|x| \leqslant M + M_1$ . 因此 $\widetilde{F}$ 有界. 参看图5.2.
 
-![](images/2193d5801af53c66684a53b3256d6871e2d204e2355060f7d6a11d886cf851c3.jpg)
+![](2193d5801af53c66684a53b3256d6871e2d204e2355060f7d6a11d886cf851c3.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -8017,7 +8017,7 @@ M₁ M+M₁
 
 图5.2
 
-![](images/4972ae9cdcfbe9fe1761d198bc43ba5bf95b3bb7ff5cdfff4164e972b4fcc070.jpg)
+![](4972ae9cdcfbe9fe1761d198bc43ba5bf95b3bb7ff5cdfff4164e972b4fcc070.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -10179,7 +10179,7 @@ $$
 
 (见图 6.2).
 
-![](images/e8eae50834f4d00ab2763087c0fa5620ab61f159c738764af8d5cf4e56ede114.jpg)
+![](e8eae50834f4d00ab2763087c0fa5620ab61f159c738764af8d5cf4e56ede114.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -10192,7 +10192,7 @@ f(t)
 
 图6.1
 
-![](images/d9f55e2cc4430e2a0c5118e136311a0b200c3b9c8b39ff8e1af51d82bdbf6eca.jpg)
+![](d9f55e2cc4430e2a0c5118e136311a0b200c3b9c8b39ff8e1af51d82bdbf6eca.jpg)
 
 <details>
 <summary>line</summary>
@@ -10245,7 +10245,7 @@ $$
 
 即(6.49)式成立.
 
-![](images/64202b81f22f09c1c79b3b96b11176381f69d99e07fbe3df24632543c7eb7cc9.jpg)
+![](64202b81f22f09c1c79b3b96b11176381f69d99e07fbe3df24632543c7eb7cc9.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -10257,7 +10257,7 @@ O T t
 
 图6.3
 
-![](images/bbea5ec8ff20222944669a14a1e17ac1c1a7e6d2799213450d563cd7a98dbfbb.jpg)
+![](bbea5ec8ff20222944669a14a1e17ac1c1a7e6d2799213450d563cd7a98dbfbb.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -10281,7 +10281,7 @@ $$
 
 解 根据回路电压定律,可以列出 RC 串联电路中电容 C 上电压 $u_{t}$ 满足的微分方程(省略),从而得知输出端电压 $g(t)$ (与电
 
-![](images/049daf1dc6ff08b18b4821e28550738167a67367a908b14ebf2e089593b2432c.jpg)
+![](049daf1dc6ff08b18b4821e28550738167a67367a908b14ebf2e089593b2432c.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -10719,7 +10719,7 @@ $$
 
 当 $n = 2$ 时， $\Omega_{\delta}$ 的形状就像一个十字（见图I.1）.
 
-![](images/8fbcbac62b2161af8ae711f3750aac4aab3bdaba9906b0924ec4ec4d99b4da30.jpg)
+![](8fbcbac62b2161af8ae711f3750aac4aab3bdaba9906b0924ec4ec4d99b4da30.jpg)
 
 <details>
 <summary>text_image</summary>
