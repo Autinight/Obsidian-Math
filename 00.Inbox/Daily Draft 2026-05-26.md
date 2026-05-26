@@ -152,3 +152,22 @@ $y\in T\left(x\right)\in T\left(B_1\right)$.
 因此只需要说明对于所有的$y\in Tx$上逐点收敛, 即定义
 $$ \varphi _{n}\left(y\right)= \left< y_{n}^{*},y \right>,\quad y\in \overline{T\left(B_1\right)} $$ 
 证明$\varphi _{n}\left(y\right)$逐点收敛即可.
+
+$T^{*}y_{n}^{*}$是一列$\mathscr{Y}^{*}$, 是一列泛函, 证明这一列泛函收敛, 
+有界集上一致收敛
+
+$\varphi _{n}$在$T\left(B_1\right)$上一致收敛, 我们用$\overline{T\left(B_1\right)}$上一致收敛.
+
+$\varphi _{n}$是连续的, 因为$y_{n}^{*}$是有界线性算子, 连续的.
+
+我们证明$\left\{ \varphi _{n} \right\}$有一致收敛的子列. 只需要说明一致有界和等度连续.
+
+$\left| \varphi _{n}\left(y\right) \right|\le \left\| y_{n}^{*} \right\|\left\| y \right\|\le \left\| T \right\| $
+所以一致有界.
+
+等度连续呢
+
+$$ \left| \varphi _{n}\left(y\right)-\varphi _{n}\left(z\right) \right|\le \left\| y_{n}^{*} \right\|\left\| y-z \right\|\le \left\| y-z \right\|  $$ 
+> 故
+>
+> 反过来, 如果$T^{*}$, 
