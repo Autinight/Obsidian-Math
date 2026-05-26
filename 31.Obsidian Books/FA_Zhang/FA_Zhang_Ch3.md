@@ -27,6 +27,7 @@
 > (3) $\mathscr{C}(\mathscr{X},\mathscr{Y})$ 在 $\mathscr{L}(\mathscr{X},\mathscr{Y})$ 中闭.
 > 
 > (4) 设 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, 又设 $\mathscr{X}_0\subset\mathscr{X}$ 是一个闭线性子空间, 那么 $A_0\triangleq A|_{\mathscr{X}_0}\in\mathscr{C}(\mathscr{X}_0,\mathscr{Y})$.
+> 
 > (5) 若 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, 则 $R(A)$ 可分.
 > 
 > (6) 若 $A\in\mathscr{L}(\mathscr{X},\mathscr{Y})$, 而 $B\in\mathscr{L}(\mathscr{Y},\mathscr{Z})$, 并且这两个算子中有一个是紧的, 则 $BA\in\mathscr{C}(\mathscr{X},\mathscr{Z})$.
