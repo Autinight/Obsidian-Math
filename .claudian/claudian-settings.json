@@ -2,7 +2,7 @@
   "userName": "Autin",
   "permissionMode": "yolo",
   "model": "gpt-5.5",
-  "thinkingBudget": "high",
+  "thinkingBudget": "xhigh",
   "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": false,
@@ -90,7 +90,7 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "high"
+    "claude": "xhigh"
   },
   "lastCustomModel": "gpt-5.5",
   "maxTabs": 5,

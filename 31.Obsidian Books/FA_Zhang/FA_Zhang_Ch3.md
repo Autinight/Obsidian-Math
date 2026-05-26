@@ -19,39 +19,39 @@
 
 > [!proposition] 命题 3.1.2
 > 关于紧算子有下列简单性质:
+> 
 > (1) $\mathfrak{E}(\mathscr{X},\mathscr{Y})\subset\mathscr{L}(\mathscr{X},\mathscr{Y})$.
->
-> > [!proof]-
-> > 因为 $y\mapsto\|y\|$ 是连续的, 所以若 $A\in\mathfrak{E}(\mathscr{X},\mathscr{Y})$, 则
-> >
-> > $M\triangleq\sup_{x\in B_1}\|Ax\|=\max_{y\in\overline{A(B_1)}}\|y\|<\infty\implies\|Ax\|\le M\|x\|\;(\forall x\in\mathscr{X})$.
->
+> 
 > (2) 若 $A,B\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, $\alpha,\beta\in\mathbb{C}$, 则 $\alpha A+\beta B\in\mathscr{C}(\mathscr{X},\mathscr{Y})$.
 >
 > (3) $\mathscr{C}(\mathscr{X},\mathscr{Y})$ 在 $\mathscr{L}(\mathscr{X},\mathscr{Y})$ 中闭.
->
-> > [!proof]-
-> > 设 $T_n\in\mathscr{C}(\mathscr{X},\mathscr{Y})\;(n=1,2,\cdots)$, 且 $\|T_n-T\|\to0\;(n\to\infty)$, 要证: $T\in\mathscr{C}(\mathscr{X},\mathscr{Y})$. $\forall\varepsilon>0$, 取 $n\in\mathbb{N}$, 使得
-> >
-> > $\|T_n-T\|<\varepsilon/2$.
-> >
-> > 对 $\overline{T_n(B_1)}$ 取有穷的 $\varepsilon/2$ 网, 设它为 $\{y_1,y_2,\cdots,y_m\}$, 则
-> >
-> > $\overline{T(B_1)}\subset\bigcup_{i=1}^m B(y_i,\varepsilon)$.
-> >
-> > 从而 $\overline{T(B_1)}$ 有有穷的 $\varepsilon$ 网, 即得 $\overline{T(B_1)}$ 紧. $\blacksquare$
->
+> 
 > (4) 设 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, 又设 $\mathscr{X}_0\subset\mathscr{X}$ 是一个闭线性子空间, 那么 $A_0\triangleq A|_{\mathscr{X}_0}\in\mathscr{C}(\mathscr{X}_0,\mathscr{Y})$.
->
 > (5) 若 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, 则 $R(A)$ 可分.
->
-> > [!proof]-
-> > $R(A)=\bigcup_{n=1}^\infty nA(B_1)$, 由 $A(B_1)$ 列紧, 推出 $R(A)$ 可分. $\blacksquare$
->
+> 
 > (6) 若 $A\in\mathscr{L}(\mathscr{X},\mathscr{Y})$, 而 $B\in\mathscr{L}(\mathscr{Y},\mathscr{Z})$, 并且这两个算子中有一个是紧的, 则 $BA\in\mathscr{C}(\mathscr{X},\mathscr{Z})$.
+
+> [!proof]- Proof of (1)
+> 因为 $y\mapsto\|y\|$ 是连续的, 所以若 $A\in\mathfrak{E}(\mathscr{X},\mathscr{Y})$, 则
 >
-> > [!proof]-
-> > 因为连续线性算子把有界集映为有界集, 把紧集映为紧集. $\blacksquare$
+> $M\triangleq\sup_{x\in B_1}\|Ax\|=\max_{y\in\overline{A(B_1)}}\|y\|<\infty\implies\|Ax\|\le M\|x\|\;(\forall x\in\mathscr{X})$.
+
+> [!proof]- Proof of (3)
+> 设 $T_n\in\mathscr{C}(\mathscr{X},\mathscr{Y})\;(n=1,2,\cdots)$, 且 $\|T_n-T\|\to0\;(n\to\infty)$, 要证: $T\in\mathscr{C}(\mathscr{X},\mathscr{Y})$. $\forall\varepsilon>0$, 取 $n\in\mathbb{N}$, 使得
+>
+> $\|T_n-T\|<\varepsilon/2$.
+>
+> 对 $\overline{T_n(B_1)}$ 取有穷的 $\varepsilon/2$ 网, 设它为 $\{y_1,y_2,\cdots,y_m\}$, 则
+>
+> $\overline{T(B_1)}\subset\bigcup_{i=1}^m B(y_i,\varepsilon)$.
+>
+> 从而 $\overline{T(B_1)}$ 有有穷的 $\varepsilon$ 网, 即得 $\overline{T(B_1)}$ 紧. $\blacksquare$
+
+> [!proof]- Proof of (5)
+> $R(A)=\bigcup_{n=1}^\infty nA(B_1)$, 由 $A(B_1)$ 列紧, 推出 $R(A)$ 可分. $\blacksquare$
+
+> [!proof]- Proof of (6)
+> 因为连续线性算子把有界集映为有界集, 把紧集映为紧集. $\blacksquare$
 
 与紧性概念密切有关的是全连续概念.
 
@@ -62,39 +62,39 @@
 
 > [!proposition] 命题 3.1.4
 > 若 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$, 则 $A$ 是全连续的; 反之, 若 $\mathscr{X}$ 是自反的, 并且 $A$ 是全连续的, 则 $A\in\mathscr{C}(\mathscr{X},\mathscr{Y})$.
+
+> [!proof]-
+> 必要性. 设 $x_n\rightharpoonup x\;(n\to\infty)$, 要证: $Ax_n\to Ax=y\;(n\to\infty)$. 用反证法, 倘若不然, 则 $\exists\varepsilon_0>0$, 及 $\{n_i\}$, 使得
 >
-> > [!proof]-
-> > 必要性. 设 $x_n\rightharpoonup x\;(n\to\infty)$, 要证: $Ax_n\to Ax=y\;(n\to\infty)$. 用反证法, 倘若不然, 则 $\exists\varepsilon_0>0$, 及 $\{n_i\}$, 使得
-> >
-> > $\|Ax_{n_i}-y\|\ge\varepsilon_0$.
-> >
-> > 由共鸣定理 (定理 2.3.16), $\{x_n\}$ 有界. 又由 $A$ 紧, 从 $\{x_{n_i}\}$ 中又可抽出子列, 不妨仍记作 $\{x_{n_i}\}$, 使得 $Ax_{n_i}\to z$. 但
-> >
-> > $\langle y^*,Ax_{n_i}-y\rangle=\langle A^*y^*,x_{n_i}-x\rangle\to0\quad(\forall y^*\in\mathscr{Y}^*)$,
-> >
-> > 即 $Ax_{n_i}\rightharpoonup y$, 从而 $y=z$, 这便导出矛盾.
-> >
-> > 充分性. 利用 Eberlein-Šmulian 定理 (定理 2.5.28), 若 $\{x_n\}$ 有界, 则必有子列 $x_{n_i}\rightharpoonup x$. 由 $A$ 全连续推得 $Ax_{n_i}\to Ax$, 故 $A$ 紧. $\blacksquare$
+> $\|Ax_{n_i}-y\|\ge\varepsilon_0$.
+>
+> 由共鸣定理 (定理 2.3.16), $\{x_n\}$ 有界. 又由 $A$ 紧, 从 $\{x_{n_i}\}$ 中又可抽出子列, 不妨仍记作 $\{x_{n_i}\}$, 使得 $Ax_{n_i}\to z$. 但
+>
+> $\langle y^*,Ax_{n_i}-y\rangle=\langle A^*y^*,x_{n_i}-x\rangle\to0\quad(\forall y^*\in\mathscr{Y}^*)$,
+>
+> 即 $Ax_{n_i}\rightharpoonup y$, 从而 $y=z$, 这便导出矛盾.
+>
+> 充分性. 利用 Eberlein-Šmulian 定理 (定理 2.5.28), 若 $\{x_n\}$ 有界, 则必有子列 $x_{n_i}\rightharpoonup x$. 由 $A$ 全连续推得 $Ax_{n_i}\to Ax$, 故 $A$ 紧. $\blacksquare$
 
 > [!theorem] 定理 3.1.5
 > $T\in\mathscr{C}(\mathscr{X},\mathscr{Y})\iff T^*\in\mathscr{C}(\mathscr{Y}^*,\mathscr{X}^*)$.
+
+> [!proof]-
+> 必要性. 要证: 若 $y_n^*\in B_1^*$ ($\mathscr{Y}^*$ 中的单位球), 则 $\{T^*y_n^*\}$ 中有收敛子列. 对 $\forall n\in\mathbb{N}$, 令
 >
-> > [!proof]-
-> > 必要性. 要证: 若 $y_n^*\in B_1^*$ ($\mathscr{Y}^*$ 中的单位球), 则 $\{T^*y_n^*\}$ 中有收敛子列. 对 $\forall n\in\mathbb{N}$, 令
-> >
-> > $\varphi_n(y)\triangleq\langle y_n^*,y\rangle\quad(\forall y\in\overline{T(B_1)})$,
-> >
-> > 显然 $\varphi_n\in C(\overline{T(B_1)})\;(\forall n\in\mathbb{N})$, 我们只要证明 $\{\varphi_n\}$ 作为 $C(\overline{T(B_1)})$ 上的函数列有一致收敛的子列就够了. 事实上, 我们有
-> >
-> > $|\varphi_n(y)|\le\|y_n^*\|\cdot\|y\|\le\|T\|\quad(\forall n\in\mathbb{N},\forall y\in\overline{T(B_1)})$
-> >
-> > 及
-> >
-> > $|\varphi_n(y)-\varphi_n(z)|\le\|y_n^*\|\cdot\|y-z\|\le\|y-z\|$
-> >
-> > $(\forall n\in\mathbb{N},\forall y,z\in\overline{T(B_1)})$, 这两个式子分别表明 $\{\varphi_n\}$ 是一致有界和等度连续的. 由 Arzelà-Ascoli 定理 (定理 1.3.16), $\{\varphi_n\}$ 中有子列在 $C(\overline{T(B_1)})$ 中收敛, 即得 $\{T^*y_n^*\}$ 中有子列收敛.
-> >
-> > 充分性. 用必要性的结论, 可见 $T^{**}\in\mathscr{C}(\mathscr{X}^{**},\mathscr{Y}^{**})$, 但 $T=T^{**}|_{\mathscr{X}}$, 直接应用命题 3.1.2(4), 即得结论. $\blacksquare$
+> $\varphi_n(y)\triangleq\langle y_n^*,y\rangle\quad(\forall y\in\overline{T(B_1)})$,
+>
+> 显然 $\varphi_n\in C(\overline{T(B_1)})\;(\forall n\in\mathbb{N})$, 我们只要证明 $\{\varphi_n\}$ 作为 $C(\overline{T(B_1)})$ 上的函数列有一致收敛的子列就够了. 事实上, 我们有
+>
+> $|\varphi_n(y)|\le\|y_n^*\|\cdot\|y\|\le\|T\|\quad(\forall n\in\mathbb{N},\forall y\in\overline{T(B_1)})$
+>
+> 及
+>
+> $|\varphi_n(y)-\varphi_n(z)|\le\|y_n^*\|\cdot\|y-z\|\le\|y-z\|$
+>
+> $(\forall n\in\mathbb{N},\forall y,z\in\overline{T(B_1)})$, 这两个式子分别表明 $\{\varphi_n\}$ 是一致有界和等度连续的. 由 Arzelà-Ascoli 定理 (定理 1.3.16), $\{\varphi_n\}$ 中有子列在 $C(\overline{T(B_1)})$ 中收敛, 即得 $\{T^*y_n^*\}$ 中有子列收敛.
+>
+> 充分性. 用必要性的结论, 可见 $T^{**}\in\mathscr{C}(\mathscr{X}^{**},\mathscr{Y}^{**})$, 但 $T=T^{**}|_{\mathscr{X}}$, 直接应用命题 3.1.2(4), 即得结论. $\blacksquare$
 
 以下给出紧算子的例子.
 
@@ -104,19 +104,19 @@
 > $T:u\mapsto\int_\Omega K(x,y)u(y)\,dy\quad(\forall u\in C(\Omega))$,
 >
 > 则 $T\in\mathscr{C}(\mathscr{X})$.
+
+> [!proof]-
+> 只需证 $\overline{T(B_1)}$ 是紧的, 为此用 Arzelà-Ascoli 定理 (定理 1.3.16). 若
 >
-> > [!proof]-
-> > 只需证 $\overline{T(B_1)}$ 是紧的, 为此用 Arzelà-Ascoli 定理 (定理 1.3.16). 若
-> >
-> > $M\triangleq\max_{x,y\in\Omega}|K(x,y)|$,
-> >
-> > 则有 $\|Tu\|\le M\|u\|\operatorname{mes}(\Omega)$. 又对 $\forall\varepsilon>0$, 由 $K(x,y)$ 在 $\Omega\times\Omega$ 中的一致连续性, $\exists\delta>0$, 使得对 $\forall y\in\Omega$, 有
-> >
-> > $|K(x,y)-K(x',y)|<\varepsilon$ (当 $|x-x'|<\delta$),
-> >
-> > 从而
-> >
-> > $|(Tu)(x)-(Tu)(x')|\le\int_\Omega|K(x,y)-K(x',y)|\cdot|u(y)|\,dy\le\varepsilon\|u\|\operatorname{mes}(\Omega)$ (当 $|x-x'|<\delta$). $\blacksquare$
+> $M\triangleq\max_{x,y\in\Omega}|K(x,y)|$,
+>
+> 则有 $\|Tu\|\le M\|u\|\operatorname{mes}(\Omega)$. 又对 $\forall\varepsilon>0$, 由 $K(x,y)$ 在 $\Omega\times\Omega$ 中的一致连续性, $\exists\delta>0$, 使得对 $\forall y\in\Omega$, 有
+>
+> $|K(x,y)-K(x',y)|<\varepsilon$ (当 $|x-x'|<\delta$),
+>
+> 从而
+>
+> $|(Tu)(x)-(Tu)(x')|\le\int_\Omega|K(x,y)-K(x',y)|\cdot|u(y)|\,dy\le\varepsilon\|u\|\operatorname{mes}(\Omega)$ (当 $|x-x'|<\delta$). $\blacksquare$
 
 > [!example] 例 3.1.7
 > 设 $\Omega\subset\mathbb{R}^n$ 是一个有界开区域, 又设 $A\in\mathscr{L}(H_0^1(\Omega))$ 满足
@@ -124,9 +124,9 @@
 > $\|Au\|_{H_0^1(\Omega)}\le C\|u\|_{L^2(\Omega)}$,
 >
 > 其中 $C$ 是一个常数, 那么 $A\in\mathscr{C}(H_0^1(\Omega))$.
->
-> > [!proof]-
-> > 由 Rellich 定理 (定理 4.5.10), $\iota:H_0^1(\Omega)\to L^2(\Omega)$ 是紧嵌入, 又 $A:L^2(\Omega)\to H_0^1(\Omega)$ 连续, 应用命题 3.1.2(6) 即得结论. $\blacksquare$
+
+> [!proof]-
+> 由 Rellich 定理 (定理 4.5.10), $\iota:H_0^1(\Omega)\to L^2(\Omega)$ 是紧嵌入, 又 $A:L^2(\Omega)\to H_0^1(\Omega)$ 连续, 应用命题 3.1.2(6) 即得结论. $\blacksquare$
 
 以下讨论紧算子的构造.
 
@@ -148,27 +148,27 @@
 > 为了 $T\in F(\mathscr{X},\mathscr{Y})$, 必须且仅须: $\exists y_i\in\mathscr{Y}$ 以及 $f_i\in\mathscr{X}^*\;(i=1,2,\cdots,n)$, 使得
 >
 > $T=\sum_{i=1}^n y_i\otimes f_i$.
+
+> [!proof]-
+> 充分性是因为 $R(T)=\operatorname{span}\{y_1,y_2,\cdots,y_n\}$. 下证必要性. 在 $R(T)$ 上取基 $\{y_1,y_2,\cdots,y_n\}$, 则 $\forall x\in\mathscr{X}$, $\exists!\{l_i(x)\}_{i=1}^n$, 使得
 >
-> > [!proof]-
-> > 充分性是因为 $R(T)=\operatorname{span}\{y_1,y_2,\cdots,y_n\}$. 下证必要性. 在 $R(T)$ 上取基 $\{y_1,y_2,\cdots,y_n\}$, 则 $\forall x\in\mathscr{X}$, $\exists!\{l_i(x)\}_{i=1}^n$, 使得
-> >
-> > $Tx=\sum_{i=1}^n l_i(x)y_i$.
-> >
-> > 下证 $l_i\;(i=1,2,\cdots,n)$ 是 $\mathscr{X}$ 上的连续线性泛函:
-> >
-> > (1) $l_i\;(i=1,2,\cdots,n)$ 是线性的. 这是由于 $T$ 的线性及 $l_i$ 表示的唯一性.
-> >
-> > (2) $l_i\;(i=1,2,\cdots,n)$ 是有界的. 事实上, 注意到 $\|Tx\|$ 及 $\sum_{i=1}^n|l_i(x)|$ 都是 $R(T)$ 上的范数, 而 $\dim R(T)<\infty$, 所以它们必须是等价范数. 于是 $\exists M>0$, 使得
-> >
-> > $\sum_{i=1}^n|l_i(x)|\le M\|Tx\|\le M\|T\|\cdot\|x\|\quad(\forall x\in\mathscr{X})$.
-> >
-> > 因此, $\exists f_i\in\mathscr{X}^*\;(i=1,2,\cdots,n)$, 使得
-> >
-> > $\langle f_i,x\rangle=l_i(x)\quad(\forall x\in\mathscr{X})\;(i=1,2,\cdots,n)$.
-> >
-> > 于是有
-> >
-> > $Tx=\sum_{i=1}^n y_i\langle f_i,x\rangle=\bigl(\sum_{i=1}^n y_i\otimes f_i\bigr)(x)\quad(\forall x\in\mathscr{X})$. $\blacksquare$
+> $Tx=\sum_{i=1}^n l_i(x)y_i$.
+>
+> 下证 $l_i\;(i=1,2,\cdots,n)$ 是 $\mathscr{X}$ 上的连续线性泛函:
+>
+> (1) $l_i\;(i=1,2,\cdots,n)$ 是线性的. 这是由于 $T$ 的线性及 $l_i$ 表示的唯一性.
+>
+> (2) $l_i\;(i=1,2,\cdots,n)$ 是有界的. 事实上, 注意到 $\|Tx\|$ 及 $\sum_{i=1}^n|l_i(x)|$ 都是 $R(T)$ 上的范数, 而 $\dim R(T)<\infty$, 所以它们必须是等价范数. 于是 $\exists M>0$, 使得
+>
+> $\sum_{i=1}^n|l_i(x)|\le M\|Tx\|\le M\|T\|\cdot\|x\|\quad(\forall x\in\mathscr{X})$.
+>
+> 因此, $\exists f_i\in\mathscr{X}^*\;(i=1,2,\cdots,n)$, 使得
+>
+> $\langle f_i,x\rangle=l_i(x)\quad(\forall x\in\mathscr{X})\;(i=1,2,\cdots,n)$.
+>
+> 于是有
+>
+> $Tx=\sum_{i=1}^n y_i\langle f_i,x\rangle=\bigl(\sum_{i=1}^n y_i\otimes f_i\bigr)(x)\quad(\forall x\in\mathscr{X})$. $\blacksquare$
 
 回过来研究 $\mathscr{C}(\mathscr{X},\mathscr{Y})$ 的构造, 因为 $F(\mathscr{X},\mathscr{Y})\subset\mathscr{C}(\mathscr{X},\mathscr{Y})$, 我们问: $\overline{F(\mathscr{X},\mathscr{Y})}=\mathscr{C}(\mathscr{X},\mathscr{Y})$ 对吗? 以下不妨设 $\mathscr{Y}=\mathscr{X}$.
 
@@ -206,29 +206,29 @@ $\|Tx-P_\varepsilon Tx\|<\varepsilon\quad(\forall x\in B_1)$,
 
 > [!theorem] 定理 3.1.13
 > 若可分 $B$ 空间 $\mathscr{X}$ 上有一组 Schauder 基, 则 $\overline{F(\mathscr{X})}=\mathscr{C}(\mathscr{X})$.
+
+> [!proof]-
+> (1) $\forall N\in\mathbb{N}$, 令
+> $S_N x=\sum_{n=1}^N C_n(x)e_n\quad(\forall x\in\mathscr{X})$,
+> 并令 $R_N=I-S_N$, 则由共鸣定理 (定理 2.3.16), $\exists M>0$, 使得 $\|S_N\|\le M$, 从而 $\|R_N\|\le 1+M$.
 >
-> > [!proof]-
-> > (1) $\forall N\in\mathbb{N}$, 令
-> > $S_N x=\sum_{n=1}^N C_n(x)e_n\quad(\forall x\in\mathscr{X})$,
-> > 并令 $R_N=I-S_N$, 则由共鸣定理 (定理 2.3.16), $\exists M>0$, 使得 $\|S_N\|\le M$, 从而 $\|R_N\|\le 1+M$.
-> >
-> > (2) 若 $T\in\mathscr{C}(\mathscr{X})$, $\forall\varepsilon>0$, 要找有穷秩算子 $T_\varepsilon$, 使得 $\|T-T_\varepsilon\|<\varepsilon$, 因 $\overline{T(B_1)}$ 紧, 存在有穷的 $\varepsilon/[3(M+1)]$ 网 $\{y_1,y_2,\cdots,y_m\}$, 即 $\forall x\in B_1$, 有 $y_i\;(1\le i\le m)$, 使得
-> >
-> > $\|Tx-y_i\|<\varepsilon/[3(M+1)]$. $\quad$(3.1.1)
-> >
-> > 又由 Schauder 基的定义 (定义 3.1.11), $\exists N\in\mathbb{N}$, 使得
-> >
-> > $\|y_j-S_N y_j\|<\varepsilon/3\quad(j=1,2,\cdots,m)$. $\quad$(3.1.2)
-> >
-> > 但因 $\|S_N\|\le M$, 所以由 (3.1.1) 式有
-> >
-> > $\|S_N(Tx)-S_N y_i\|<\frac{M}{3(M+1)}\varepsilon$. $\quad$(3.1.3)
-> >
-> > 联合不等式 (3.1.1), (3.1.2), (3.1.3) 就有
-> >
-> > $\|Tx-(S_N T)x\|<\varepsilon\quad(\forall x\in B_1)$.
-> >
-> > 取 $T_\varepsilon=S_N T$ 即得所求. $\blacksquare$
+> (2) 若 $T\in\mathscr{C}(\mathscr{X})$, $\forall\varepsilon>0$, 要找有穷秩算子 $T_\varepsilon$, 使得 $\|T-T_\varepsilon\|<\varepsilon$, 因 $\overline{T(B_1)}$ 紧, 存在有穷的 $\varepsilon/[3(M+1)]$ 网 $\{y_1,y_2,\cdots,y_m\}$, 即 $\forall x\in B_1$, 有 $y_i\;(1\le i\le m)$, 使得
+>
+> $\|Tx-y_i\|<\varepsilon/[3(M+1)]$. $\quad$(3.1.1)
+>
+> 又由 Schauder 基的定义 (定义 3.1.11), $\exists N\in\mathbb{N}$, 使得
+>
+> $\|y_j-S_N y_j\|<\varepsilon/3\quad(j=1,2,\cdots,m)$. $\quad$(3.1.2)
+>
+> 但因 $\|S_N\|\le M$, 所以由 (3.1.1) 式有
+>
+> $\|S_N(Tx)-S_N y_i\|<\frac{M}{3(M+1)}\varepsilon$. $\quad$(3.1.3)
+>
+> 联合不等式 (3.1.1), (3.1.2), (3.1.3) 就有
+>
+> $\|Tx-(S_N T)x\|<\varepsilon\quad(\forall x\in B_1)$.
+>
+> 取 $T_\varepsilon=S_N T$ 即得所求. $\blacksquare$
 
 **引理 3.1.12 的证明** 在 $\mathscr{X}$ 上引入另一个范数:
 
@@ -400,6 +400,7 @@ $$\dim N(T)=\dim N(T^*)<\infty.$$
 > 设 $\mathscr{X}$ 是 B 空间, $A\in\mathfrak{C}(\mathscr{X})$, $T=I-A$, 则
 > (1) $\sigma(T)=\sigma(T^*)$;
 > (2) $\dim N(T)=\dim N(T^*)<\infty$;
+
 > (3) $R(T)=N(T^*)^\perp=\{x\in\mathscr{X}\mid f(x)=0,\ \forall f\in N(T^*)\}$,
 > $R(T^*)={}^\perp N(T)=\{f\in\mathscr{X}^*\mid f(x)=0,\ \forall x\in N(T)\}$.
 
@@ -431,10 +432,13 @@ $$\dim N(T)=\dim N(T^*)<\infty.$$
 > $$\widetilde{T}:\mathscr{X}/N(T)\to\mathscr{X},\quad \widetilde{T}[x]\triangleq Tx.$$
 > 显然 $R(\widetilde{T})=R(T)$, 并且 $\widetilde{T}$ 还是有界线性的, 满足 $N(\widetilde{T})=\{[\theta]\}$, 即 $\widetilde{T}$ 的逆算子存在. 为了证明 $R(T)$ 闭, 只需证 $\widetilde{T}^{-1}$ 是连续的.
 > 用反证法, 倘若 $\widetilde{T}^{-1}$ 不连续, 那么 $\exists [w_n]\nrightarrow0$, 但 $\widetilde{T}[w_n]\to0$, 从而有子列 $\|[w_{n_k}]\|\ge\varepsilon>0$. 令 $[x_n]=[w_{n_k}]/\|[w_{n_k}]\|$, 则
+
 > $$\|[x_n]\|=1\quad (n=1,2,\cdots),\quad \text{但}\quad \widetilde{T}[x_n]\to\theta\quad (n\to\infty).$$
+
 > 因此对 $\forall n\in\mathbb{N}$, $\exists x_n\in[x_n]$, 使得
 > $$\|x_n\|<2\quad (n=1,2,\cdots),\quad (I-A)x_n\to\theta\quad (n\to\infty).$$
 > 由 $A$ 是紧的, 有子列 $\{x_{n_k}\}$, 使得 $Ax_{n_k}\to z$ $(k\to\infty)$, 从而
+
 > $$x_{n_k}=Ax_{n_k}+(I-A)x_{n_k}\to z\quad (k\to\infty).$$
 > 于是有 $Tz=\theta$, 即得 $[z]=[\theta]$. 因此
 > $$\|[x_{n_k}]\|=\|[x_{n_k}-z]\|\le\|x_{n_k}-z\|\to0\quad (k\to\infty).$$
@@ -447,6 +451,7 @@ $$\dim N(T)=\dim N(T^*)<\infty.$$
 > 用反证法. 倘若不然, 做 $\mathscr{X}_0=\mathscr{X}$, $\mathscr{X}_k=T(\mathscr{X}_{k-1})$ $(k=1,2,\cdots)$, 那么因为 $\mathscr{X}_1\ne\mathscr{X}_0$, 且 $T$ 是 1–1 的, 可见
 > $$\mathscr{X}_0\supsetneqq\mathscr{X}_1\supsetneqq\mathscr{X}_2\supsetneqq\cdots.$$
 > 用 Riesz 引理 (引理 1.4.31), $\exists y_k\in\mathscr{X}_k$, $\|y_k\|=1$, 但
+
 > $$\operatorname{dist}(y_k,\mathscr{X}_{k+1})\ge\frac12\quad (k=0,1,2,\cdots).$$
 > 于是对 $\forall p,n\in\mathbb{N}$, 我们有
 > $$\|Ay_n-Ay_{n+p}\|=\|y_n-Ty_n+Ty_{n+p}-y_{n+p}\|\ge\frac12.$$
@@ -620,9 +625,10 @@ $$R(T^*)=\overline{R(T^*)}=N(T^{**})^\perp={}^\perp N(T).$$ ■
 > 若 $A\in\mathfrak{C}(\mathscr{X})$, 则
 > (1) $0\in\sigma(A)$, 除非 $\dim\mathscr{X}<\infty$;
 > (2) $\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}$;
+
 > (3) $\sigma_p(A)$ 至多以 $0$ 为聚点.
 
-> [!proof]- 证
+> [!proof]- Proof of (3)
 > (1) 的证明见习题 3.1.1.
 > (2) 是 Fredholm 结论 1.
 > (3) 用反证法. 倘若有 $\lambda_n\in\sigma_p(A)\setminus\{0\}$ $(n=1,2,\cdots)$, $\lambda_n\ne\lambda_m$ (当 $n\ne m$), 并且 $\lambda_n\to\lambda\ne0$ $(n\to\infty)$, 那么
@@ -651,6 +657,7 @@ $$R(T^*)=\overline{R(T^*)}=N(T^{**})^\perp={}^\perp N(T).$$ ■
 > [!remark] 注
 > 本定理表明: 对于无穷维空间上的紧算子 $A$, 只有三种可能情形:
 > (1) $\sigma(A)=\{0\}$;
+
 > (2) $\sigma(A)=\{0,\lambda_1,\lambda_2,\cdots,\lambda_n\}$;
 > (3) $\sigma(A)=\{\lambda_1,\lambda_2,\cdots,\lambda_n,\cdots\}$, 其中 $\lambda_n\to0$.
 > 试举例说明: 这三种情形都可能发生.
@@ -742,7 +749,9 @@ $$(\lambda_i I-A)|_{N((\lambda_i I-A)^{p_i})}\quad(i=1,2,\cdots,k)$$
 $$\{\theta\}\subseteq N(T)\subseteq N(T^2)\subseteq\cdots,$$
 而且一旦有 $N(T^k)=N(T^{k+1})$, 就有 $N(T^k)=N(T^n)\,(\forall n\geqslant k)$. 事实上,
 $$\begin{aligned}
+
 x\in N(T^{k+2})&\Longrightarrow T^{k+1}Tx=\theta\\
+
 &\Longrightarrow Tx\in N(T^{k+1})=N(T^k)\\
 &\Longrightarrow x\in N(T^{k+1}).
 \end{aligned}$$
@@ -754,6 +763,7 @@ $$\mathscr{X}\supseteq R(T)\supseteq R(T^2)\supseteq\cdots,$$
 $$W\in R(T^k)=R(T^{k+1})\Longrightarrow x=TW\in R(T^{k+2}).$$
 因此, 称此链中使得 $R(T^k)=R(T^{k+1})$ 成立的最小整数 $q$ 为像链长, 有时记为 $q(T)$. 由定义, 我们有
 $$p=0\Longleftrightarrow N(T)=\{\theta\}\Longleftrightarrow T\text{ 是单射}, \tag{3.3.3}$$
+
 $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}. \tag{3.3.4}$$
 
 问题 $p,q$ 一定有穷吗? $p$ 与 $q$ 有什么关系?
@@ -820,6 +830,7 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > **3.3.6** 设 $A\in\mathscr{L}(\mathscr{X})$, $M$ 是 $A$ 的有穷维的闭不变子空间, 求证: (1) $A$ 在 $M$ 上的作用可以用一个矩阵来表示;
 > (2) $M$ 中存在 $A$ 的特征元.
 > 
+
 > **3.3.7** 设 $x_0\in\mathscr{X}$, $f\in\mathscr{X}^*$, 满足 $\langle f,x_0\rangle=1$, 令 $A=x_0\otimes f$, 并且 $T=I-A$, 求 $T$ 的零链长 $p$.
 
 ## §4 Hilbert-Schmidt 定理
@@ -840,17 +851,20 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > $$(A+B)^*=A^*+B^*,\quad(\alpha A)^*=\bar{\alpha}A^*,$$
 > $$A^{**}=A,\quad(AB)^*=B^*A^*,$$
 > $$\sigma(A^*)=\overline{\sigma(A)}=\{\bar{\lambda}\mid\lambda\in\sigma(A)\}.$$
+
 > 证明很简单, 留给读者.
 
 > [!example] 例 3.4.3
 > 在 $\mathbb{R}^n$ 上, 若 $A$ 是对称矩阵, 则 $A$ 是对称的. 在 $\mathbb{C}^n$ 上, 若 $A$ 是 Hermite 矩阵, 则 $A$ 是对称的. 一般地有: $A$ 是 $\mathbb{R}^n$ 上的矩阵, $A^*=A^{\mathsf{T}}$, 这里 $A^{\mathsf{T}}$ 为 $A$ 的转置矩阵; $A$ 是 $\mathbb{C}^n$ 上的矩阵, $A^*=\bar{A}^{\mathsf{T}}$, 这里 $\bar{A}^{\mathsf{T}}$ 为 $A$ 的共轭转置矩阵.
 
 > [!example] 例 3.4.4
+
 > 在实的 $L^2(\Omega,\mathscr{B},\mu)$ 上, 设 $K\in L^\infty(\Omega\times\Omega,d\mu)$, 并且 $K(x,y)=K(y,x)$, 则
 > $$A:u(x)\mapsto\int_\Omega K(x,y)u(y)\,d\mu(y)$$
 > 是 $L^2(\Omega,\mathscr{B},\mu)$ 上的对称算子.
 
 > [!example] 例 3.4.5
+
 > 设 $H$ 是 Hilbert 空间, $M$ 是它的一个闭线性子空间. 由 $H$ 到 $M$ 上的投影算子 $P_M$ 便是对称的.
 
 > [!proof]- 证
@@ -858,44 +872,47 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > $$x=x_M+x_{M^\perp}\quad(x_M\in M,\,x_{M^\perp}\in M^\perp),$$
 > $$y=y_M+y_{M^\perp}\quad(y_M\in M,\,y_{M^\perp}\in M^\perp).$$
 > 由 $P_M$ 的定义, $x_M=P_Mx$, $y_M=P_My$, 因此有
+
 > $$(P_Mx,y)=(x_M,y_M+y_{M^\perp})=(x_M,y_M)=(x,P_My).\quad\blacksquare$$
 
 > [!proposition] 命题 3.4.6
 > 关于 $H$ 上的对称算子, 有下列基本性质:
 > (1) 为了 $A$ 对称, 必须且仅须 $(Ax,x)\in\mathbb{R}\,(\forall x\in H)$.
 
-> [!proof]- 证 (1)
-> 令 $a(x,y)\triangleq(Ax,y)\,(\forall x,y\in H)$, 那么 $a(\cdot,\cdot)$ 是 $H$ 上的共轭双线性函数, $(Ax,x)$ 是由 $a(\cdot,\cdot)$ 诱导的二次型, 由定义, 我们有
-> $$A\text{ 对称}\Longleftrightarrow a(x,y)=\overline{a(y,x)}\quad(\forall x,y\in H). \tag{3.4.3}$$
-> 又由命题 1.6.2, 我们有
-> $$a(x,y)=\overline{a(y,x)}\;(\forall x,y\in H)\Longleftrightarrow(Ax,x)\in\mathbb{R}\;(\forall x\in H). \tag{3.4.4}$$
-> 联合 (3.4.3) 式和 (3.4.4) 式即得结论. $\blacksquare$
-
 > (2) 若 $A$ 对称, 则 $\sigma(A)\subset\mathbb{R}$, 并且有
 > $$\|(\lambda I-A)^{-1}x\|\le\frac{1}{|\operatorname{Im}\lambda|}\|x\|\quad(\forall x\in H,\,\forall\lambda\in\mathbb{C},\,\operatorname{Im}\lambda\neq 0).$$
-
-> [!proof]- 证 (2)
-> 设 $\lambda=\mu+i\nu$, $\nu\neq 0$, $\mu,\nu\in\mathbb{R}$, 则由对称性,
-> $$\|(\lambda I-A)x\|^2=\|(\mu I-A)x\|^2+|\nu|^2\cdot\|x\|^2\ge|\nu|^2\cdot\|x\|^2\quad(\forall x\in H). \tag{3.4.5}$$
-> 此外, $R(\lambda I-A)=H$, 这是因为:
-> $$R(\lambda I-A)^\perp=N(\bar{\lambda}I-A^*)=N(\bar{\lambda}I-A),$$
-> 再由 (3.4.5) 式, $N(\bar{\lambda}I-A)=\{\theta\}$ (当 $\operatorname{Im}\lambda\neq 0$). $\blacksquare$
 
 > (3) 设 $H_1$ 是 $H$ 的一个闭不变子空间, $A$ 是 $H$ 上的对称算子, 则 $A|_{H_1}$ 也是 $H_1$ 上的对称算子.
 >
 > (4) 若 $A$ 对称, $\lambda,\lambda'\in\sigma_p(A)$, $\lambda\neq\lambda'$, 则
 > $$N(\lambda I-A)\perp N(\lambda'I-A).$$
 
-> [!proof]- 证 (4)
+> (5) 若 $A$ 对称, 则
+> $$\sup_{\|x\|=1}|(Ax,x)|=\|A\|.$$
+
+> [!proof]- Proof of (1)
+> 令 $a(x,y)\triangleq(Ax,y)\,(\forall x,y\in H)$, 那么 $a(\cdot,\cdot)$ 是 $H$ 上的共轭双线性函数, $(Ax,x)$ 是由 $a(\cdot,\cdot)$ 诱导的二次型, 由定义, 我们有
+> $$A\text{ 对称}\Longleftrightarrow a(x,y)=\overline{a(y,x)}\quad(\forall x,y\in H). \tag{3.4.3}$$
+> 又由命题 1.6.2, 我们有
+> $$a(x,y)=\overline{a(y,x)}\;(\forall x,y\in H)\Longleftrightarrow(Ax,x)\in\mathbb{R}\;(\forall x\in H). \tag{3.4.4}$$
+> 联合 (3.4.3) 式和 (3.4.4) 式即得结论. $\blacksquare$
+
+> [!proof]- Proof of (2)
+> 设 $\lambda=\mu+i\nu$, $\nu\neq 0$, $\mu,\nu\in\mathbb{R}$, 则由对称性,
+> $$\|(\lambda I-A)x\|^2=\|(\mu I-A)x\|^2+|\nu|^2\cdot\|x\|^2\ge|\nu|^2\cdot\|x\|^2\quad(\forall x\in H). \tag{3.4.5}$$
+> 此外, $R(\lambda I-A)=H$, 这是因为:
+
+> $$R(\lambda I-A)^\perp=N(\bar{\lambda}I-A^*)=N(\bar{\lambda}I-A),$$
+> 再由 (3.4.5) 式, $N(\bar{\lambda}I-A)=\{\theta\}$ (当 $\operatorname{Im}\lambda\neq 0$). $\blacksquare$
+
+> [!proof]- Proof of (4)
 > 若 $x\in N(\lambda I-A)$, $x'\in N(\lambda'I-A)$, 则
 > $$\lambda(x,x')=(Ax,x')=(x,Ax')=\lambda'(x,x').$$
 > 由 $\lambda\neq\lambda'$, 推出 $(x,x')=0$. $\blacksquare$
 
-> (5) 若 $A$ 对称, 则
-> $$\sup_{\|x\|=1}|(Ax,x)|=\|A\|.$$
-
-> [!proof]- 证 (5)
+> [!proof]- Proof of (5)
 > 记 $c=\sup_{\|x\|=1}|(Ax,x)|$, $c\le\|A\|$ 显然. 下证 $c\ge\|A\|$. 由 $A$ 的对称性和平行四边形法则,
+
 > $$4\operatorname{Re}(Ax,y)=(A(x+y),x+y)-(A(x-y),x-y)\le c\|x+y\|^2+c\|x-y\|^2=2c(\|x\|^2+\|y\|^2).$$
 > 取 $\|x\|=\|y\|=1$, 便有 $\operatorname{Re}(Ax,y)\le c$. 由 $A$ 的自伴性 (即对称性), $\forall x,y\in H$, $\|x\|=\|y\|=1$, 取 $a=e^{-i\arg(Ax,y)}$ (这里 $\arg$ 表示幅角), 则有
 > $$(Ax,ay)=(aAx,y)=|a|(Ax,y)=|(Ax,y)|,$$
@@ -937,6 +954,7 @@ $$\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}=\{\lambda_1,\lambda_2,\cdots
 如果 $\{\lambda_n\}$ 中有无穷多个是不同的, 那么满足 $\lambda_n\to 0$; 如果 $A$ 还是自伴的, 由命题 3.4.6(2), $\lambda_n$ 都是实数. 此外还有下面的定理.
 
 > [!theorem] 定理 3.4.8 (Hilbert-Schmidt)
+
 > 若 $A$ 是 Hilbert 空间 $H$ 上的对称紧算子, 则至多有可数个非零的, 只可能以 $0$ 为聚点的实数 $\{\lambda_i\}$, 它们是算子 $A$ 的特征值, 并对应一组正交规范基 $\{e_i\}$, 使得
 > $$x=\sum(x,e_i)e_i,$$
 > $$Ax=\sum\lambda_i(x,e_i)e_i. \tag{3.4.10}$$
@@ -949,6 +967,7 @@ $$\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}=\{\lambda_1,\lambda_2,\cdots
 > 它不一定是可数的. 如今我们令
 > $$\{e_i'\}\triangleq\bigcup_{\lambda\in\sigma_p(A)\setminus\{0\}}\{e_i^{(\lambda)}\}_{i=1}^{m(\lambda)},$$
 > $$\{e_i\}\triangleq\begin{cases}
+
 > \{e_i'\}, & 0\notin\sigma_p(A),\\[4pt]
 > \{e_i'\}\cup\{e_i^{(0)}\}, & 0\in\sigma_p(A).
 > \end{cases}$$
@@ -1182,6 +1201,7 @@ $$\mathrm{P.V.}\int_{S^1}\frac{u(s)}{z-s}\,\mathrm{d}s\triangleq\lim_{\varepsilo
 > 若 $\mathscr{X}=l^2$，$T$ 是 $\mathscr{X}$ 上的左推移算子，即
 > $$T:x=(x_1,x_2,\cdots)\mapsto(x_2,x_3,\cdots),$$
 > 则 $T\in\mathscr{F}(\mathscr{X})$，并且 $\mathrm{ind}(T)=1$。同理，$T^*$ 是右推移算子，即
+
 > $$T^*:x=(x_1,x_2,\cdots)\mapsto(0,x_1,x_2,\cdots),$$
 > 有 $T^*\in\mathscr{F}(\mathscr{X})$，并且 $\mathrm{ind}(T^*)=-1$。一般地，还有
 > $$T^n\in\mathscr{F}(\mathscr{X}),\quad\mathrm{ind}(T^n)=n\quad(n=1,2,\cdots),$$
@@ -1214,6 +1234,7 @@ $$\mathrm{P.V.}\int_{S^1}\frac{u(s)}{z-s}\,\mathrm{d}s\triangleq\lim_{\varepsilo
 > 图 3.6.1
 >
 > (2) 如果存在 $R_1,R_2$ 及 $A_1,A_2$，使得 (3.6.3) 式成立，那么
+
 > $$N(T)\subset N(R_1T)=N(I_x-A_1)\Longrightarrow\dim N(T)<\infty,$$
 > 以及
 > $$R(T)\supset R(TR_2)=R(I_y-A_2)\Longrightarrow\mathrm{codim}\,R(T)\le\mathrm{codim}\,R(I_y-A_2)<\infty.$$
@@ -1245,6 +1266,7 @@ $$\mathrm{P.V.}\int_{S^1}\frac{u(s)}{z-s}\,\mathrm{d}s\triangleq\lim_{\varepsilo
 > 记
 > $$\begin{aligned}\mathscr{Y}_2&=R(T_1)\cap N(T_2),&\mathscr{X}_2&=T_1^{-1}\mathscr{Y}_2,\\\mathscr{Y}_1&=R(T_1)\ominus\mathscr{Y}_2,&\mathscr{Y}_3&=N(T_2)\ominus\mathscr{Y}_2,\\\mathscr{Y}_4&=\mathscr{Y}/R(T_1)\ominus\mathscr{Y}_3,&\mathscr{Z}_4&=T_2\mathscr{Y}_4,\end{aligned}$$
 > 便有
+
 > $$R(T_2)\cong\mathscr{Y}/N(T_2)=\mathscr{Y}_1+\mathscr{Y}_4,$$
 > $$\mathscr{X}_2\cong\mathscr{Y}_2,\quad\mathscr{Z}_4\cong\mathscr{Y}_4,$$
 > 以及
@@ -1303,6 +1325,7 @@ $$(Hu)(z)\triangleq\frac{1}{\pi i}\,\mathrm{P.V.}\int_{S^1}\frac{u(s)}{s-z}\,\ma
 > $$c_n=\frac{1}{2\pi}\int_0^{2\pi}u(e^{i\theta})e^{-in\theta}\,\mathrm{d}\theta\quad(n=0,\pm1,\pm2,\dots).$$
 > 容易验证：
 > $$L^2(S^1)\ni u\mapsto\{c_n\}_{n=-\infty}^{\infty}\in l^2$$
+
 > 是等距同构的。其次，注意到
 > $$\frac{e^{i\varphi}}{e^{i\varphi}-e^{i\theta}}=\frac{1}{2}\Bigl(1+\frac{e^{i\varphi}+e^{i\theta}}{e^{i\varphi}-e^{i\theta}}\Bigr)=\frac{1}{2}\Bigl(1+i\cot\frac{\theta-\varphi}{2}\Bigr),$$
 > 可见

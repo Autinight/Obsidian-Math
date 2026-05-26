@@ -1,0 +1,22 @@
+{
+  "id": "conv-1779762974593-2k1csqdcp",
+  "providerId": "claude",
+  "title": "把被嵌套进其它callout的证明callout拿出来",
+  "createdAt": 1779762974593,
+  "updatedAt": 1779763581181,
+  "lastResponseAt": 1779763571794,
+  "sessionId": "d4f66361-5249-4e2c-b192-ca2405d4a105",
+  "providerState": {
+    "providerSessionId": "d4f66361-5249-4e2c-b192-ca2405d4a105"
+  },
+  "currentNote": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 93839,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 93839,
+    "percentage": 9
+  }
+}
