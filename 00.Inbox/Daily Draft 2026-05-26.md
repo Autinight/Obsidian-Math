@@ -112,3 +112,43 @@ $x$的弱收敛传递给$Ax$的弱收敛.
 紧算子把有界点列映到收敛点列
 
 自反型导致有界点列是弱收敛点列, 所以自反+全连续就是紧.把有界点列映到收敛点列.
+
+
+紧算子的伴随是紧的
+
+
+取$y_{n}^{*}\in B_{1}^{*}$
+
+$B_1^{*}$上的有界点列, $\left\{ T^{*}y_{n}^{*} \right\}$有收敛性子列
+
+
+$$ \varphi _{n}\left(y\right)= \left< y_{n}^{*},y \right> $$ 
+
+$T^{*}y_{n}^{*}$有收敛子列, 
+
+$$ T^{*}y_{n}^{*} $$ 
+
+
+
+$\varphi _{n}$作为$C\left(\overline{T\left(B_1\right)}\right)$上的函数列有一致收敛的子列.
+
+$\left\{ \varphi _{n} \right\}$, 是一致有界且等度连续的, 有收敛子列,
+
+$T^{*}y_{n}^{*}$有收敛子列.
+$T^{*}\in \mathfrak{C}\left(\mathscr{Y}^{*},\mathscr{X}^{*}\right)$
+
+$$ T^{*}y_{n}^{*}\mapsto x_{n}^{*} $$ 
+
+$$ T^{*}y_{n}^{*}\left(x\right)= y_{n}^{*}\left(T\left(x\right)\right)= y_{n}^{*}\left(y\right)= \left< y_{n}^{*},y \right> $$ 
+$y\in T\left(x\right)\in T\left(B_1\right)$.
+
+就是$y_{n}^{*}\left(y\right)$有收
+
+
+ $T^{*}y_{n}^{*}$收敛, 
+
+ $$ T^{*}y_{n}^{*}\left(x\right)= y_{n}^{*}\left(Tx\right) $$ 
+
+因此只需要说明对于所有的$y\in Tx$上逐点收敛, 即定义
+$$ \varphi _{n}\left(y\right)= \left< y_{n}^{*},y \right>,\quad y\in \overline{T\left(B_1\right)} $$ 
+证明$\varphi _{n}\left(y\right)$逐点收敛即可.
