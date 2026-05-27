@@ -1,6 +1,19 @@
 > [!exercise] 1
 > 设 $X,Y$ 是线性赋范空间，$T \in \mathcal{B}(X,Y)$ 是紧算子，证明：$TX$ 是可分的。
 
+设$B_{X}\left(r\right)$, 是$X$中半径为$r$的球. 那么
+$$ TX= \bigcup _{r = 1}^{\infty} T\left(B_{X}\left(r\right)\right) $$ 
+
+因此只需要证明
+$$ T\left(B_{X}\left(r\right)\right) $$
+是可分的. 
+又
+$$ T\left(B_{X}\left(r\right)\right)= T\left(rB_{X}\left(1\right)\right)= rT \left(B_{X}\left(1\right)\right) $$  
+
+因此只需要证明$T\left(B_{X}\left(1\right)\right)$是可分的.
+
+由于$T$是紧算子, $\overline{T\left(B_{X}\left(1\right)\right)}$是紧集, 从而$T\left(B_{X}\left(1\right)\right)$是预列紧的. 任取$\varepsilon > 0$, 存在它的有限$\varepsilon$-网, $\left\{ y_1,\cdots ,y_{n} \right\}$.
+
 > [!exercise] 2
 > 设 $k(s,t) \in L^2([a,b]\times [a,b])$，求证：算子
 > $$
