@@ -56,3 +56,84 @@
 > 由控制收敛定理
 > $$ \lim_{n\to \infty}\left\| Tx_{n}-Tx \right\|_{L^{2}}^{2}= \lim_{n\to \infty}\int_{a}^{b}\left| T_{t}\left(x_{n}-x\right) \right|^{2}\,d t = 0$$ 
 > 即$\left\{ Tx_{n} \right\}$在$L^{2}$中收敛于$Tx$, 因此$T$是全连续的, 又$L^{2}\left[ a,b \right]$ 是自反空间, $T$是紧算子.
+
+> [!exercise] Exercise 3
+> $X$ 是线性赋范空间，设 $\{x_n\}\subset X$ 是弱有界的，即对任意 $f\in X^*$，数列 $\{f(x_n)\}$ 都有界，证明 $\{x_n\}$ 是有界的。
+
+> [!proof] Proof: 
+> 设
+> $$ J_{X}: X\to X^{**} $$ 
+> 是典范映射, 即
+> $$ J_{X}\left(x\right)\left(f\right)= f\left(x\right) $$ 
+> 
+> 那么
+> 对于任意的$f\in X^{*}$, 
+> 
+> $$ \left\{ J_{X}\left(x_{n}\right)\left(f\right) \right\} $$ 
+> 是有界的, 这表明$\left\{ J_{X}\left(x_{n}\right) \right\}$是$X^{*}$上逐点有界的一列线性泛函. 由于$X^{*}$是Banach空间, 由Banach-Steinhause定理, 
+> $$ \sup _{n}\left\| J_{X}\left(x_{n}\right) \right\|< \infty $$ 
+> 又
+> $$ \left\| J_{X}\left(x_{n}\right) \right\| = \left\| x_{n} \right\|$$ 
+> 故
+> $$ \sup _{n}\left\| x_{n} \right\| < \infty$$ 
+> 即$\left\{ x_{n} \right\}$有界.
+
+> [!exercise] Exercise 4
+> 设 $X$ 是自反空间，证明 $X$ 中弱 Cauchy 列一定是弱收敛的。即证：如果 $\{x_n\}\subset X$ 满足对任意 $f\in X^*$，$\{f(x_n)\}$ 都是 Cauchy 列，则 $\{x_n\}$ 弱收敛。（提示：利用第 3 题结论）
+
+
+
+> [!proof] Proof: 
+> 对于任意的$f\in X^{*}$, $\left\{ f\left(x_{n}\right) \right\}$是$\mathbb{R}$上的Cauchy列, 故是收敛的, 存在$a_{f}\in \mathbb{R}$使得
+> $$ \lim_{n\to \infty}f\left(x_{n}\right) = a_{f}$$ 
+> 并且$\left\{ f\left(x_{n}\right) \right\}$是有界的, 故$\left\{ x_{n} \right\}$是弱有界的.  进而由Exercise 3, $\left\{ x_{n} \right\}$是有界点列.
+> 对于任意的$f\in X^{*}$, 我们定义$\varphi : X^{*}\to \mathbb{R}$, 
+> $$ \varphi \left(f\right) = a_{f}$$ 
+> 由于
+> $$ \varphi \left(f+ kg\right) = \lim_{n\to \infty}\left(f+ kg\right)\left(x_{n}\right)= \lim_{n\to \infty}f\left(x_{n}\right)+ k \lim_{n\to \infty}g\left(x_{n}\right)= a_{f}+ k a_{g}$$ 
+> 故$\varphi$是线性算子.  
+> 由于$x_{n}$是有界的, 设$\left\| x_{n} \right\|\le M$, 则
+> $$ \left| f\left(x_{n}\right) \right| \le M\left\| f \right\|  $$ 
+> 进而
+> $$ \left| a_{f} \right| \le M\left\| f \right\| $$ 
+> 故
+> $$ \left| \varphi \left(f\right) \right|= \left| a_{f} \right| \le M\left\| f \right\|\implies \left\| \varphi  \right\|\le M  $$ 
+> $\varphi \in X^{**}$. 由于$X$是自反的, 存在$x\in X$, 使得$x$与$\varphi$典范地对应. 即
+> 
+> $$ \varphi \left(f\right)= f\left(x\right) , \forall f\in X^{*}$$ 
+> 因此
+> $$ \lim_{n\to \infty}f\left(x_{n}\right)= f\left(x\right) ,\quad \forall f\in X^{*}$$ 
+> 因此$\left\{ x_{n} \right\}$弱收敛.
+
+> [!exercise] Exercise 5
+> 对任意 $f\in X^*, y\in Y$，可定义以下秩 $1$ 算子：
+> $$
+> y\otimes f:X\to Y,\quad x\mapsto f(x)y.
+> $$
+> 证明：$T\in\mathcal L(X,Y)$ 是有穷秩算子（即 $\dim\mathcal R(T)<\infty$）当且仅当 $T$ 可分解为有限个秩 $1$ 算子，即 $\exists f_i\in X^*, y_i\in Y, i=1,2,\cdots,n$，使得
+> $$
+> T=\sum_{i=1}^n y_i\otimes f_i.
+> $$
+
+> [!proof] Proof: 
+> **当**:
+> 若$T$可分解为有限个秩$1$算子, 设
+> $$ T= \sum _{i= 1}^{n}y_{i}\otimes f_{i} $$ 
+> 则
+> $$ \mathcal{R}\left(T\right)\subseteq \operatorname{span}\left\{ y_1,\cdots ,y_{n} \right\} $$ 
+> 由于$\operatorname{dim}\operatorname{span}\left\{ y_1,\cdots y_{n} \right\}= n$, 故
+> $$ \operatorname{dim}R\left(t\right)\le n< \infty $$ 
+> 故$T$为有穷秩算子.
+>
+> **仅当**: 反过来, 若$T\in \mathcal{L}\left(X,Y\right)$是有穷秩算子.
+> 取$\mathcal{R}\left(T\right)$的一组基$\left\{ y_1,\cdots ,y_{n} \right\}$. 定义
+> $$ M_{i}= \operatorname{span}\left\{ y_1,\cdots ,\widehat{y_{i}},y_{i+ 1},\cdots ,y_{n} \right\} $$ 
+> 则$M_{i}$是$Y$的闭子空间, 进而$T^{-1} \left(M_{i}\right)$也是$X$的闭子空间.
+> 
+
+> [!exercise] Exercise 6
+> 设数列 $\{a_n\}\subset\mathbb K$ 收敛到 $0$。求证：映射
+> $$
+> T:\{\xi_n\}\mapsto \{a_n\xi_n\}
+> $$
+> 是 $\ell^p(p>1)$ 上的紧算子。
