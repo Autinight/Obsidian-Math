@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW11.md",
-                "mode": "preview",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW11"
+              "title": "FA_Zhang_Ch3"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW11.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW11 的大纲"
+              "title": "FA_Zhang_Ch3 的大纲"
             }
           },
           {
@@ -196,10 +196,10 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "30.Recources/FA/Course HW/FA - HW11.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
-    "30.Recources/FA/Course HW/FA - HW11.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "00.Inbox/Daily Draft 2026-05-26.md",

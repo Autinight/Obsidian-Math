@@ -126,10 +126,14 @@
 > 故$T$为有穷秩算子.
 >
 > **仅当**: 反过来, 若$T\in \mathcal{L}\left(X,Y\right)$是有穷秩算子.
-> 取$\mathcal{R}\left(T\right)$的一组基$\left\{ y_1,\cdots ,y_{n} \right\}$. 定义
-> $$ M_{i}= \operatorname{span}\left\{ y_1,\cdots ,\widehat{y_{i}},y_{i+ 1},\cdots ,y_{n} \right\} $$ 
-> 则$M_{i}$是$Y$的闭子空间, 进而$T^{-1} \left(M_{i}\right)$也是$X$的闭子空间.
-> 
+> 取$\mathcal{R}\left(T\right)$的一组基$\left\{ y_1,\cdots ,y_{n} \right\}$. 
+> 对于任意的$x$, 则存在唯一的一组数$l_{1}\left(x\right),\cdots ,l_{n}\left(x\right)$, 使得
+> $$ T\left(x\right)= l_1\left(x\right)y_1+ \cdots + l_{n}\left(x\right)y_{n} $$ 
+> $$ \begin{aligned} T\left(x_1+ kx_2\right)&= T\left(x_1\right)+ kT\left(x_2\right)\\&= \left(l_1\left(x_1\right)+ k l_1\left(x_2\right)\right)y_1+ \cdots + \left(l_{n}\left(x_1\right)+ kl_{n}\left(x_2\right)\right)y_{n} \end{aligned} $$ 
+> 故
+> $$ l_{i}\left(x_1+ kx_2\right)= l_{i}\left(x_1\right)+ k l_{i}\left(x_2\right) $$ 
+> 故$l_{i}$是$X$上的线性算子.
+
 
 > [!exercise] Exercise 6
 > 设数列 $\{a_n\}\subset\mathbb K$ 收敛到 $0$。求证：映射
