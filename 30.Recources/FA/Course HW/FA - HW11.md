@@ -133,7 +133,21 @@
 > 故
 > $$ l_{i}\left(x_1+ kx_2\right)= l_{i}\left(x_1\right)+ k l_{i}\left(x_2\right) $$ 
 > 故$l_{i}$是$X$上的线性算子.
-
+>
+> 在$\mathcal{R}\left(T\right)$上, 可以定义两种范数,
+> 分别为对于
+> $$ y= k_1y_1+ \cdots + k_{n}y_{n} $$
+> 为
+> $$ \left\| y \right\|_{Y},\quad \sum _{j}\left| k_{j} \right|  $$
+> 由于有限维赋范空间上, 范数是等价的, 存在$m,M> 0$, 使得
+> $$ m\left\| y \right\|_{Y}\le \sum _{j}\left| k_{j} \right|\le M \left\| y \right\|_{Y}  $$  
+> 因此
+> $$ \left| l_i\left(x\right) \right|\le \sum _{j}\left| l_{j}\left(x\right) \right| \le M\left\| T\left(x\right) \right\|_{Y}\le M\left\| T \right\|\left\| x \right\|  $$ 
+> 因此定义
+> $$ f_{i}\left(x\right)= l_{i}\left(x\right) $$ 
+> 则$\left\| f_{i} \right\|\le M\left\| T \right\|$, $f_{i}\in X^{*}$.
+> 并且
+> $$ T\left(x\right)= f_1\left(x\right)y_1+ \cdots + f_{n}\left(x\right)y_{n}= \sum _{j}y_{j}\otimes f_{j}\left(x\right) $$ 
 
 > [!exercise] Exercise 6
 > 设数列 $\{a_n\}\subset\mathbb K$ 收敛到 $0$。求证：映射
@@ -141,3 +155,33 @@
 > T:\{\xi_n\}\mapsto \{a_n\xi_n\}
 > $$
 > 是 $\ell^p(p>1)$ 上的紧算子。
+
+> [!proof] Proof: 
+> 由于$\ell ^{p}$有一组标准的Schauder基, 我们有$\overline{F\left(\ell ^{p}\right)}= C\left(\ell ^{p}\right)$, 即有穷秩线性算子空间在紧算子空间中稠密.
+> 我们定义
+> $$ T_{k}: \left\{ \xi _{n} \right\}\mapsto \left(a_1\xi_1,\cdots ,a_{k-1}\xi _{k-1},a_{k}\xi _{k}, 0,0,,\cdots \right) $$ 
+> 则$T_{k}$是$\ell ^{p}$上的有穷秩线性算子.
+> $$ \left\| Tx-T_{k}x \right\|^{p}= \sum _{m =  k+ 1}^{\infty}\left| a_{m} \right|^{p}\left| \xi _{m} \right|^{p}   $$ 
+> 
+> $$ \sum _{m = k+ 1}^{\infty}\left| a_{m} \right|^{p}\left| \xi _{m} \right|^{p}\le \sup _{m> k} \left| a_{m} \right|^{p} \sum _{m = k+ 1}^{\infty}\left| \xi _{m} \right|^{p}\le \sup _{m> k}\left| a_{m} \right|^{p}\left\| x \right\|_{\ell ^{p}}^{p}     $$ 
+> 令$k\to \infty$, 得到
+> $$ \limsup_{k\to \infty}\left\| Tx-T_{k}x \right\|^{p} \le \left\| x \right\|^{p}_{\ell ^{p}} \lim_{k\to \infty}\sup _{m> k}\left| a_{m} \right|^{p} = \left\| x \right\|^{p}_{\ell ^{p}}\lim_{m\to \infty}\left| a_{m} \right|^{p}= 0 $$ 
+> 特别地, 对于$\left\| x \right\|= 1$, 我们有
+> $$ \limsup_{k\to \infty}\left\| Tx-T_{k}x \right\|^{p}\le \lim_{m\to \infty}\left| a_{m} \right|^{p}= 0  $$ 
+> $$ \lim_{k\to \infty}\left\| T-T_{k} \right\|\le \lim_{k\to \infty}\sup _{\left\| x \right\|= 1}\left\| Tx-T_{k}x \right\|= 0 $$ 
+> 故$T\in \overline{F\left(\ell ^{p}\right)}= C\left(\ell ^{p}\right)$, $T$是紧算子.
+
+
+> [!exercise] Exercise 27
+> 设无穷矩阵 $(a_{ij})$ 满足条件
+> $$
+> \sum_{i=1}^{\infty}\sum_{j=1}^{\infty}|a_{ij}|^2<\infty,
+> $$
+> 定义算子 $T:\ell^2\to\ell^2,\ y=Tx$，其中 $x=\{\xi_k\},\ y=\{\eta_k\}$，
+> $$
+> \eta_n=\sum_{k=1}^{\infty}a_{nk}\xi_k\quad(n=1,2,\cdots).
+> $$
+> 证明 $T$ 是紧算子。
+
+> [!exercise] Exercise 28
+> 设 $\{T_n\}$ 是 Banach 空间 $X$ 上的紧算子列并且强收敛于线性算子 $T$，试举例说明 $T$ 不必是紧算子。

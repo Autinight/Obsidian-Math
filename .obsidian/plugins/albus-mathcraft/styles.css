@@ -37,7 +37,7 @@ body.mathcraft-active ol.math-env-rendered-marker-list > li.math-env-rendered-ma
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr);
   column-gap: 0.15em;
-  align-items: start;
+  align-items: baseline;
   margin: 0;
   padding: 0;
 }
@@ -71,6 +71,7 @@ body.mathcraft-active .callout-content .el-ol:has(ol.math-env-rendered-marker-li
 }
 body.mathcraft-active .math-env-editor-list-marker {
   display: inline-block;
+  vertical-align: baseline;
   margin-right: 0.15em;
   white-space: nowrap;
   text-align: left;
@@ -2662,8 +2663,8 @@ body.mathcraft-active.theorem-style-framed .callout[data-callout=remark],
 body.mathcraft-active.theorem-style-framed .callout[data-callout=note] {
   --callout-color: var(--text-normal);
   background-color: transparent;
-  padding: 8px 12px;
-  border: 1.5px solid var(--background-modifier-border);
+  padding: 12px 20px;
+  border: 1px solid var(--text-normal);
   border-radius: var(--radius-l);
   box-shadow: none;
 }
@@ -2709,53 +2710,8 @@ body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callo
 body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-title,
 body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-title,
 body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-title {
-  display: inline;
   padding: 0;
   background-color: transparent;
-}
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=corollary] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=proposition] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=definition] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=axiom] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=example] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=exercise] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=remark] .callout-title-inner,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=note] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=theorem] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=lemma] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=corollary] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=proposition] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=definition] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=axiom] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-title-inner,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-title-inner {
-  display: inline;
-}
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=corollary] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=proposition] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=definition] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=axiom] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=example] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=exercise] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=remark] .callout-title-inner > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=note] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=theorem] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=lemma] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=corollary] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=proposition] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=definition] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=axiom] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-title-inner > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-title-inner > * {
-  display: inline;
 }
 body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-content,
 body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-content,
@@ -2777,31 +2733,51 @@ body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callo
 body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-content,
 body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-content,
 body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-content {
-  display: inline;
   padding: 0;
-  padding-left: 0.5em;
 }
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=corollary] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=proposition] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=definition] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=axiom] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=example] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=exercise] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=remark] .callout-content > *,
-body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=note] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=theorem] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=lemma] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=corollary] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=proposition] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=definition] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=axiom] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-content > *,
-body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-content > * {
-  display: inline;
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=corollary] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=proposition] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=definition] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=axiom] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=example] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=exercise] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=remark] .callout-content > :first-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=note] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=theorem] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=lemma] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=corollary] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=proposition] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=definition] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=axiom] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-content > :first-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-content > :first-child {
+  margin-top: 0.5em;
+}
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=theorem] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=lemma] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=corollary] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=proposition] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=definition] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=axiom] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=example] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=exercise] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=remark] .callout-content > :last-child,
+body.mathcraft-active[data-theorem-style=framed] .callout[data-callout=note] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=theorem] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=lemma] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=corollary] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=proposition] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=definition] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=axiom] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=example] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=exercise] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=remark] .callout-content > :last-child,
+body.mathcraft-active.theorem-style-framed .callout[data-callout=note] .callout-content > :last-child {
+  margin-bottom: 0;
 }
 
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem],
@@ -2824,16 +2800,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] {
   --callout-color: var(--text-normal);
   background-color: transparent;
   padding-left: 0;
@@ -2861,16 +2837,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-icon,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-icon,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-icon,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-icon {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-icon,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-icon {
   display: none;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-title,
@@ -2893,16 +2869,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-title,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-title,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-title {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-title {
   display: inline;
   padding: 0;
   background-color: transparent;
@@ -2927,16 +2903,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-title-inner,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-title-inner,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-title-inner,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-title-inner {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-title-inner {
   display: inline;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-title-inner > *,
@@ -2959,16 +2935,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-title-inner > *,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-title-inner > *,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-title-inner > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-title-inner > * {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-title-inner > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-title-inner > * {
   display: inline;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-content,
@@ -2991,16 +2967,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-content,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-content,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-content {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-content {
   display: inline;
   padding: 0;
 }
@@ -3024,16 +3000,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-content > *,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-content > *,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-content > *,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-content > * {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-content > *,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-content > * {
   display: inline;
   margin: 0;
 }
@@ -3057,16 +3033,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark],
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark],
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark],
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] {
   display: block;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-title,
@@ -3089,16 +3065,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-title,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-title,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-title,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-title {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-title,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-title {
   display: inline !important;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-content,
@@ -3121,16 +3097,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-content,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-content,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-content,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-content {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-content,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-content {
   display: inline !important;
 }
 body.mathcraft-active[data-theorem-style=plain] .callout[data-callout=theorem] .callout-content p,
@@ -3153,16 +3129,16 @@ body.mathcraft-active.theorem-style-plain .callout[data-callout=example] .callou
 body.mathcraft-active.theorem-style-plain .callout[data-callout=exercise] .callout-content p,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=remark] .callout-content p,
 body.mathcraft-active.theorem-style-plain .callout[data-callout=note] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=theorem] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=lemma] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=corollary] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=proposition] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=definition] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=axiom] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=example] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=exercise] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=remark] .callout-content p,
-body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer) .callout[data-callout=note] .callout-content p {
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=theorem] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=lemma] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=corollary] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=proposition] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=definition] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=axiom] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=example] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=exercise] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=remark] .callout-content p,
+body.mathcraft-active:not([data-theorem-style]):not(.theorem-style-framed):not(.theorem-style-card):not(.theorem-style-latex):not(.theorem-style-beamer):not(.theorem-style-grid):not(.theorem-style-brutalism) .callout[data-callout=note] .callout-content p {
   display: inline !important;
   margin: 0 !important;
 }
@@ -3191,7 +3167,7 @@ body.mathcraft-active.theorem-style-card .callout[data-callout=note] {
   border: none;
   border-left: 8px solid var(--callout-color);
   border-radius: 6px;
-  padding: 0;
+  padding: 8px 0;
   box-shadow: none;
 }
 body.mathcraft-active[data-theorem-style=card] .callout[data-callout=theorem] .callout-icon,
@@ -3238,7 +3214,7 @@ body.mathcraft-active.theorem-style-card .callout[data-callout=remark] .callout-
 body.mathcraft-active.theorem-style-card .callout[data-callout=note] .callout-title {
   background-color: var(--background-primary-alt);
   color: var(--text-normal);
-  padding: 6px 14px;
+  padding: 4px 14px;
 }
 body.mathcraft-active[data-theorem-style=card] .callout[data-callout=theorem] .callout-title-inner,
 body.mathcraft-active[data-theorem-style=card] .callout[data-callout=lemma] .callout-title-inner,
@@ -3284,7 +3260,7 @@ body.mathcraft-active.theorem-style-card .callout[data-callout=exercise] .callou
 body.mathcraft-active.theorem-style-card .callout[data-callout=remark] .callout-content,
 body.mathcraft-active.theorem-style-card .callout[data-callout=note] .callout-content {
   background-color: var(--background-primary-alt);
-  padding: 4px 14px 10px 14px;
+  padding: 4px 14px;
   color: var(--text-normal);
   line-height: 1.6;
 }
@@ -4000,6 +3976,780 @@ body.mathcraft-active.theorem-style-beamer .mastery-indicator::after {
   border: 1.5px dashed color-mix(in srgb, var(--callout-color) 28%, transparent);
   border-radius: 50%;
   pointer-events: none;
+}
+
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark],
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark],
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] {
+  background-color: var(--background-primary);
+  border: 1px solid var(--callout-color);
+  border-left: 6px solid var(--callout-color);
+  border-radius: 0 8px 8px 0;
+  padding: 12px 0;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient(color-mix(in srgb, var(--callout-color) 12%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--callout-color) 12%, transparent) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: -1px -1px;
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-icon,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-icon,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-icon {
+  display: none;
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-title,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-title,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-title {
+  background-color: transparent;
+  color: var(--callout-color);
+  padding: 0 14px 8px 14px;
+  border-bottom: 2px dashed color-mix(in srgb, var(--callout-color) 40%, transparent);
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-title-inner {
+  color: var(--callout-color);
+  font-weight: 600;
+  font-size: 1.05em;
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-content,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-content,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-content {
+  background-color: transparent;
+  padding: 8px 14px;
+  color: var(--text-normal);
+  line-height: 1.6;
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-content p:first-child {
+  margin-top: 0;
+}
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=corollary] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=proposition] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=definition] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=axiom] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=example] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=exercise] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=remark] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=note] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=theorem] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=lemma] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=corollary] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=proposition] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=definition] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=axiom] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=example] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=exercise] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-content p:last-child {
+  margin-bottom: 0;
+}
+body.mathcraft-active[data-theorem-style=grid] .mastery-indicator,
+body.mathcraft-active.theorem-style-grid .mastery-indicator {
+  right: -16px;
+  top: -16px;
+  transform: none;
+  background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--callout-color) 80%, white), var(--callout-color));
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 0 0 3px var(--background-primary), 0 0 18px -4px color-mix(in srgb, var(--callout-color) 50%, transparent), 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --mastery-accent: rgba(255, 255, 255, 0.95);
+  --mastery-track: rgba(255, 255, 255, 0.28);
+  --mastery-text: white;
+}
+body.mathcraft-active[data-theorem-style=grid] .mastery-indicator svg,
+body.mathcraft-active.theorem-style-grid .mastery-indicator svg {
+  width: 34px;
+  height: 34px;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.15));
+}
+body.mathcraft-active[data-theorem-style=grid] .mastery-indicator:hover,
+body.mathcraft-active.theorem-style-grid .mastery-indicator:hover {
+  transform: scale(1.15);
+}
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=theorem],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=lemma],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=corollary],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=proposition],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=definition],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=axiom],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=example],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=exercise],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=remark],
+body.mathcraft-active[data-theorem-style=grid].theme-dark .callout[data-callout=note],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=theorem],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=lemma],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=corollary],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=proposition],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=definition],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=axiom],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=example],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=exercise],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=remark],
+body.mathcraft-active.theorem-style-grid.theme-dark .callout[data-callout=note] {
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(color-mix(in srgb, var(--callout-color) 15%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--callout-color) 15%, transparent) 1px, transparent 1px);
+}
+
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark],
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark],
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] {
+  background-color: color-mix(in srgb, var(--callout-color) 70%, white);
+  color: #000;
+  border: 3px solid #000;
+  box-shadow: 6px 6px 0 #000;
+  border-radius: 0;
+  padding: 14px 18px;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-icon,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-icon,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-icon {
+  display: none;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-title,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-title {
+  background-color: #000;
+  color: var(--callout-color);
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.4;
+  text-shadow: none;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-title-inner {
+  color: var(--callout-color);
+  font-weight: 700;
+  text-shadow: none;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content {
+  background-color: transparent;
+  padding: 0;
+  color: #000;
+  line-height: 1.6;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content p:first-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content p:first-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content p:first-child {
+  margin-top: 0;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content p:last-child,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content p:last-child,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content p:last-child {
+  margin-bottom: 0;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content .external-link {
+  color: #000 !important;
+  text-decoration: none !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0;
+  padding: 0 3px;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=theorem] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=lemma] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=corollary] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=proposition] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=definition] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=axiom] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=example] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=exercise] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=remark] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism] .callout[data-callout=note] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=theorem] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=lemma] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=corollary] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=proposition] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=definition] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=axiom] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=example] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=exercise] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=remark] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism .callout[data-callout=note] .callout-content .external-link:hover {
+  border-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.06);
+}
+body.mathcraft-active[data-theorem-style=brutalism] .mastery-indicator,
+body.mathcraft-active.theorem-style-brutalism .mastery-indicator {
+  right: -16px;
+  top: -16px;
+  transform: none;
+  background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--callout-color) 80%, white), var(--callout-color));
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 0 0 3px var(--background-primary), 0 0 18px -4px color-mix(in srgb, var(--callout-color) 50%, transparent), 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --mastery-accent: rgba(255, 255, 255, 0.95);
+  --mastery-track: rgba(255, 255, 255, 0.28);
+  --mastery-text: white;
+}
+body.mathcraft-active[data-theorem-style=brutalism] .mastery-indicator svg,
+body.mathcraft-active.theorem-style-brutalism .mastery-indicator svg {
+  width: 34px;
+  height: 34px;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.15));
+}
+body.mathcraft-active[data-theorem-style=brutalism] .mastery-indicator:hover,
+body.mathcraft-active.theorem-style-brutalism .mastery-indicator:hover {
+  transform: scale(1.15);
+}
+body.mathcraft-active[data-theorem-style=brutalism] .mastery-indicator,
+body.mathcraft-active.theorem-style-brutalism .mastery-indicator {
+  --mastery-text: white;
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark],
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark],
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] {
+  background-color: color-mix(in srgb, var(--callout-color) 75%, black);
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+  box-shadow: 6px 6px 0 #e0e0e0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-title,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-title,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-title {
+  background-color: #e0e0e0;
+  color: var(--callout-color);
+  text-shadow: none;
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-title-inner,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-title-inner {
+  color: var(--callout-color);
+  text-shadow: none;
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content {
+  color: #e0e0e0;
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content .external-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content a,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content .internal-link,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content .external-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content a,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content .internal-link,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content .external-link {
+  color: #e0e0e0 !important;
+  text-decoration: none !important;
+  border: 1.5px solid rgba(224, 224, 224, 0.4);
+  border-radius: 0;
+  padding: 0 3px;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=theorem] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=lemma] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=corollary] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=proposition] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=definition] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=axiom] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=example] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=exercise] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=remark] .callout-content .external-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content a:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content .internal-link:hover,
+body.mathcraft-active[data-theorem-style=brutalism].theme-dark .callout[data-callout=note] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=theorem] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=lemma] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=corollary] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=proposition] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=definition] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=axiom] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=example] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=exercise] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=remark] .callout-content .external-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content a:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content .internal-link:hover,
+body.mathcraft-active.theorem-style-brutalism.theme-dark .callout[data-callout=note] .callout-content .external-link:hover {
+  border-color: rgba(224, 224, 224, 0.65);
+  background-color: rgba(224, 224, 224, 0.1);
 }
 
 body.mathcraft-active[data-theorem-style=framed] .mastery-indicator,

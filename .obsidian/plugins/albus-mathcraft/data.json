@@ -15,7 +15,8 @@
     "note"
   ],
   "theoremNumberingMode": "unified",
-  "theoremStyle": "beamer",
+  "theoremHeadingLevel": 1,
+  "theoremStyle": "latex",
   "theoremColors": {
     "theorem": "#1555bc",
     "lemma": "#8b5cf6",
@@ -32,6 +33,7 @@
   "pdfPreventBreakInside": true,
   "equationMarkerMode": "all",
   "equationNumberingMode": "by-heading",
+  "equationHeadingLevel": 1,
   "mathLinks": {
     "templates": [],
     "excludedPaths": [],
@@ -81,5 +83,6 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "theorem"
+  "settingsTab": "tikz",
+  "simpleTexToken": ""
 }
