@@ -1,4 +1,6 @@
-> [!exercise] 1
+代靖涵 25120222201319
+
+> [!exercise] Exercise 1
 > 设 $X,Y$ 是线性赋范空间，$T \in \mathcal{B}(X,Y)$ 是紧算子，证明：$TX$ 是可分的。
 
 > [!proof] Proof: 
@@ -15,7 +17,7 @@
 > 
 > 由于$T$是紧算子, $\overline{T\left(B_{X}\left(1\right)\right)}$是紧集, 从而$T\left(B_{X}\left(1\right)\right)$是预列紧的, 进而$T\left(B_{X}\left(1\right)\right)$是完全有界的. 而完全有界集是可分的, 因此$T\left(B_{X}\left(1\right)\right)$可分, 进而$T\left(B_{X}\left(r\right)\right)$可分, $TX$可分.
 
-> [!exercise] 2
+> [!exercise] Exercise 2
 > 设 $k(s,t) \in L^2([a,b]\times [a,b])$，求证：算子
 > $$
 > T: x(t) \longmapsto \int_a^b k(s,t)x(s)\,ds
@@ -172,7 +174,7 @@
 > 故$T\in \overline{F\left(\ell ^{p}\right)}= C\left(\ell ^{p}\right)$, $T$是紧算子.
 
 
-> [!exercise] Exercise 27
+> [!exercise] Exercise 7
 > 设无穷矩阵 $(a_{ij})$ 满足条件
 > $$
 > \sum_{i=1}^{\infty}\sum_{j=1}^{\infty}|a_{ij}|^2<\infty,
@@ -217,5 +219,21 @@
  
 
 
-> [!exercise] Exercise 28
+> [!exercise] Exercise 8
 > 设 $\{T_n\}$ 是 Banach 空间 $X$ 上的紧算子列并且强收敛于线性算子 $T$，试举例说明 $T$ 不必是紧算子。
+
+> [!proof] Proof: 
+> 令$X= \ell ^{2}$, 考虑
+> $$ T_{n}: \left(x_1,x_2,\cdots \right)\mapsto \left(x_1,\cdots ,x_{n},0,0,\cdots \right) $$ 
+> 由于$T_{n}$是有穷秩的, $T_{n}$是紧算子.
+> 那么
+> $$ \left(T_{n}-I\right)\left(x\right)= \left(x_{n+ 1}, x_{n+ 2},\cdots \right) $$ 
+> 于是
+> $$ \lim_{n\to \infty}\left\| \left(T_{n}-I\right)\left(x\right) \right\|_{\ell ^{2}} ^{2}= \lim_{n\to \infty}\sum _{ k = n+ 1}^{\infty}\left| x_{k} \right|^{2}= 0 $$ 
+> 这表明$T_{n}$强收敛于$I$.
+>
+> **I不是紧算子**: 
+> 考虑有界点列$\left\{ e_1,e_2,\cdots  \right\}$
+> 由于
+> $$ \left\| e_{i}-e_{j} \right\| = \sqrt{2},\forall i \neq j$$ 
+> 故$\left\{ e_{k} \right\}$不是Cauchy列, 从而不可能收敛. 因此$I$不是紧算子.
