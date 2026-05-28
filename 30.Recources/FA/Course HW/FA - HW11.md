@@ -189,6 +189,35 @@ $\eta _{k}$是把$x$和矩阵第$k$行加权求和.
 
 由于$\ell ^{2}$有标准的Schauder基, 我们有$\overline{F\left(\ell ^{2}\right)}= C\left(\ell ^{2}\right)$
 
+定义算子$F_{i,j}$
+
+$$ \left(F_{ij}\left(x\right)\right)_{n}= \begin{cases} \sum _{k= 1}^{i}a_{nk}\xi _{k},& n \le j\\0,& n\ge j\end{cases}  $$ 
+
+
+
+$$ \begin{aligned} \left| T\left(x\right)-F_{ij}\left(x\right) \right|&= \sum _{ n = 1}^{\infty} \left(\left(T\left(x\right)\right)_{n}- \left(F_{ij}\right)_{n}\left(x\right)\right)\\&= \sum _{ n = 1}^{j}\left(\left(T\left(x\right)\right)_{n}-\left(F_{ij}\right)n\left(x\right)\right)+ \sum _{ n = j + 1}^{\infty}\left(T\left(x\right)\right)_{n}\\&= \sum  _{n = 1}^{j}\left( \sum _{k = 1}^{\infty}a_{nk }\xi _{k}-\sum _{k = 1}^{i}a_{n k }\xi _{k}\right)+ \sum _{ n = j + 1}^{\infty} \sum _{k = 1}^{\infty}\left|a_{ n k} \right|\left| \xi _{k} \right| \\ &\le \sum _{n = 1}^{j}\sum _{k =  i+ 1}^{\infty} \left| a_{n k } \right|\left| \xi _{k} \right|+  \sum _{ n = j + 1}^{\infty}\sum _{k = 1}^{\infty}\left| a_{nk} \right|\left| \xi _{k} \right|\\&\le \sum _{n = 1}^{j} \left(\sum _{k = i+ 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}\left\| x \right\|_{\ell ^{2}}+ \sum _{ n = j + 1}^{\infty}\left(\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}\left\| x \right\|_{\ell ^{2}} \\&= \left\| x \right\|_{\ell ^{2}}\left(\sum _{n = 1}^{j}\left(\sum _{k = i+ 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}+  \sum _{n  =  j + 1}^{\infty}\left(\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}\right)\\&\le  \left\| x \right\|_{\ell ^{2}}\left(\left(\sum _{n = 1}^{j}\sum _{k = i+ 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}+ \left(\sum _{n = j + 1}^{\infty}\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2} \right)^{\frac{1}{2}}\right)\end{aligned}   $$ 
+
+由于
+$$ \sum _{n = 1}^{\infty}\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2}< \infty  $$ 
+我们有
+$$ \lim_{j\to \infty}\sum _{n = j + 1}^{\infty}\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2}= 0  $$ 
+
+存在$j_{\varepsilon }$, 使得
+$$ \sum _{n = j + 1}^{\infty}\sum _{k = 1}^{\infty}\left| a_{nk} \right|^{2}< \varepsilon   $$ 
+
+对于固定的$j_{\varepsilon }$, 我们有
+$$ \lim_{i\to \infty}\sum _{n = 1}^{j_{\varepsilon }}\sum _{k = i+ 1}^{\infty}\left| a_{nk} \right|^{2}< \varepsilon   $$ 
+于是存在$i _{\varepsilon }$, 使得
+$$ \sum _{n = 1}^{j_{\varepsilon }}\sum _{k = i_{\varepsilon }+ 1}^{\infty}\left| a_{nk} \right|^{2}< \varepsilon   $$ 
+此时对于这组$\left(i_{\varepsilon },j_{\varepsilon }\right)$, 我们有
+$$ \left| T\left(x\right)-F_{i_{\varepsilon }j_{\varepsilon }} \left(x\right)\right|\le \left\| x \right\|_{\ell ^{2}}\left(2\varepsilon ^{\frac{1}{2}}\right)  $$ 
+
+由于$\varepsilon$是任意的, 因此
+$$ T\in   \overline{\left\{ F_{i,j}: i,j \in \mathbb{N}  \right\}}j\subseteq \overline{F\left(\ell ^{2}\right)} $$ 
+
+故$T$是紧算子.
+
+ 
 
 
 > [!exercise] Exercise 28
