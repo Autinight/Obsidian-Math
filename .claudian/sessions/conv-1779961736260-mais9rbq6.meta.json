@@ -1,0 +1,22 @@
+{
+  "id": "conv-1779961736260-mais9rbq6",
+  "providerId": "claude",
+  "title": "修复一下标题层级",
+  "createdAt": 1779961736260,
+  "updatedAt": 1779961852501,
+  "lastResponseAt": 1779961836218,
+  "sessionId": "5f328445-e98e-4247-9780-f91544857cfd",
+  "providerState": {
+    "providerSessionId": "5f328445-e98e-4247-9780-f91544857cfd"
+  },
+  "currentNote": "30.Recources/LA/LA Xie Ch10.md",
+  "usage": {
+    "model": "gpt-5.5",
+    "inputTokens": 39745,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 39745,
+    "percentage": 4
+  }
+}

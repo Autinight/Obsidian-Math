@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-05-26.md",
+                "file": "30.Recources/LA/LA Xie Ch6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-05-26"
+              "title": "LA Xie Ch6"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-05-26.md",
+                "file": "30.Recources/LA/LA Xie Ch6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-05-26 的大纲"
+              "title": "LA Xie Ch6 的大纲"
             }
           },
           {
@@ -197,32 +197,34 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "30.Recources/LA/LA Xie Ch7.md",
+    "30.Recources/LA/LA Xie Ch6.md",
+    "30.Recources/LA/LA Xie Ch5.md",
+    "30.Recources/LA/LA Xie Ch8.md",
+    "30.Recources/LA/LA Xie Ch10.md",
+    "30.Recources/LA/LA Xie Ch9.md",
+    "30.Recources/LA/LA Xie Ch1.md",
+    "30.Recources/LA/LA Xie Ch4.md",
+    "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
+    "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
+    "30.Recources/LA/LA 501-640.md",
+    "30.Recources/LA/LA 401-500.md",
+    "30.Recources/LA/LA 301-400.md",
+    "30.Recources/LA/LA 1-100.md",
+    "30.Recources/LA/LA 101-300.md",
+    "30.Recources/LA/LA Xie Ch2.md",
+    "30.Recources/LA/LA Xie Ch3.md",
+    "30.Recources/LA/LA - Xie and Yao.md",
+    "30.Recources/LA/LA - Xie and Yao - 第1章_行列式.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-26.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-    "00.Inbox/Daily Draft 2026-05-26.md",
     "31.Obsidian Books/HA_Pan/HA_Pan.md",
-    "30.Recources/HA/Course HW/HA - HW3.3.md",
-    "30.Recources/HA/Course HW/HA - HW3.2.md",
-    "30.Recources/HA/Obsidian Books/HA Pan CH3.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch07_Ricci_Curvature_Comparison.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch03_Curvature.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch04_Examples.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch02_Derivatives.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch06_Sectional_Curvature_Comparison_I.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch12_Sectional_Curvature_Comparison_II.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch11_Convergence.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch09_The_Bochner_Technique.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch08_Killing_Fields.md",
     "60.Templates/Archive.js",
-    "40.Drafts/2026-05/Daily Draft 2026-05-22.md",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
@@ -240,9 +242,6 @@
     "00.Inbox/31",
     "30.Recources/HA/HA_Pan.7z",
     "30.Recources/HA/未命名",
-    "30.Recources/HA/HA_Pan/full.md.tmp.16244.c3a2f5329005",
-    "30.Recources/HA/傅里叶分析及其应用.md",
-    "30.Recources/HA/HA_Pan/full.md.tmp.4476.aba9fa3ed5d2",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
