@@ -236,4 +236,4 @@
 > 考虑有界点列$\left\{ e_1,e_2,\cdots  \right\}$
 > 由于
 > $$ \left\| e_{i}-e_{j} \right\| = \sqrt{2},\forall i \neq j$$ 
-> 故$\left\{ e_{k} \right\}$不是Cauchy列, 从而不可能收敛. 因此$I$不是紧算子.
+> 故$\left\{ e_{k} \right\}$的任意子列都不是Cauchy列, 从而不可能收敛. 因此$I$不是紧算子.
