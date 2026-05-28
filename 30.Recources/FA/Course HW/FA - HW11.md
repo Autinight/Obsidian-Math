@@ -183,5 +183,13 @@
 > $$
 > 证明 $T$ 是紧算子。
 
+$$ \eta _{k}= \sum _{j = 1}^{\infty}a_{kj}\xi _{j} $$ 
+
+$\eta _{k}$是把$x$和矩阵第$k$行加权求和.
+
+由于$\ell ^{2}$有标准的Schauder基, 我们有$\overline{F\left(\ell ^{2}\right)}= C\left(\ell ^{2}\right)$
+
+
+
 > [!exercise] Exercise 28
 > 设 $\{T_n\}$ 是 Banach 空间 $X$ 上的紧算子列并且强收敛于线性算子 $T$，试举例说明 $T$ 不必是紧算子。
