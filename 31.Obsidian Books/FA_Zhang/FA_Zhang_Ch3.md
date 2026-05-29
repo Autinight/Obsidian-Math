@@ -852,7 +852,6 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > $$(A+B)^*=A^*+B^*,\quad(\alpha A)^*=\bar{\alpha}A^*,$$
 > $$A^{**}=A,\quad(AB)^*=B^*A^*,$$
 > $$\sigma(A^*)=\overline{\sigma(A)}=\{\bar{\lambda}\mid\lambda\in\sigma(A)\}.$$
-
 > 证明很简单, 留给读者.
 
 > [!example] 例 3.4.3

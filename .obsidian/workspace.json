@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Zhang_Ch3"
+              "title": "FA_Liu_obsidian"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Zhang_Ch3 的大纲"
+              "title": "FA_Liu_obsidian 的大纲"
             }
           },
           {
@@ -181,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +197,11 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "00.Inbox/Daily Draft 2026-05-29.md",
     "Untitled.md",
@@ -223,10 +225,6 @@
     "30.Recources/LA/LA Xie Ch3.md",
     "30.Recources/LA/LA - Xie and Yao.md",
     "30.Recources/LA/LA - Xie and Yao - 第1章_行列式.md",
-    "40.Drafts/2026-05/Daily Draft 2026-05-26.md",
-    "30.Recources/FA/Course HW/FA - HW11.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "60.Templates/Archive.js",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
