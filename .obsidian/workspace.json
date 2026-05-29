@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/ep - Matrix Lie Group.md",
+                "file": "00.Inbox/dfn - Maurer-Cartan Form.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ep - Matrix Lie Group"
+              "title": "dfn - Maurer-Cartan Form"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/ep - Matrix Lie Group.md",
+                "file": "00.Inbox/dfn - Maurer-Cartan Form.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ep - Matrix Lie Group 的大纲"
+              "title": "dfn - Maurer-Cartan Form 的大纲"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "356b1b8fd1841417",
   "lastOpenFiles": [
+    "20.Cards/Examples/ep - Matrix Lie Group.md",
     "20.Cards/Propositions/pps - Lie Algebra Characterized by One-Parameter Subgroups.md",
-    "00.Inbox/ep - Matrix Lie Group.md",
     "00.Inbox/dfn - Maurer-Cartan Form.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",

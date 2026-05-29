@@ -21,45 +21,6 @@ tags: []
 > [!remark] Remark: 
 > 最自然的一个$\mathfrak{g}$-值1-形式.
 
-对于矩阵李代数,  $\theta = g^{-1} dg$
-
-什么是$dg$, 
-$$ dg: T_{g}G\to \mathfrak{g},\quad ,\quad g\mapsto g  $$ 
-
-For a matrix Lie group,
-
-对于矩阵李群$G\subseteq \operatorname{GL} \left(n,\mathbb{R} \right)$.
-每个$g\in G$就是一个矩阵.
-$$ g: G\to M_{n}\left(\mathbb{R} \right) $$ 就是一个包含映射. 把每个$G$等同于一个矩阵, 那么$dg$是?
-这个矩阵值函数的微分
-$$ \left(dg\right)_{g}: T_{g}G\to M_{n}\left(\mathbb{R} \right) $$ 也是一个包含映射, $T_{g}G\subseteq M_{n}\left(\mathbb{R} \right)$. 
-
-其中$T_{g}G$有自然的包含$T_{g}G\subseteq T_{g}M_{n}\left(\mathbb{R} \right)\simeq M_{n}\left(\mathbb{R} \right)$, 于是
-$$ \left(dg\right)_{g} $$ 也无非就是一个包含映射. 我们有
-$$ \left(dg\right)_{g}\left(v\right)= v $$
-这里把$v$一股脑看成是$M_{n}\left(\mathbb{R} \right)$理解就行了.
-那么
-$$ \left(dL_{g^{-1} }\right)_{g}\left(v\right) $$ 所以我们来看$L_{h}$是什么
-$$ L_{h}g = hg $$
-于是
-$$ \left(dL_{h}\right)_{g} $$ 
-$$  $$ 
-
-$$
-\boxed{\theta=g^{-1}dg}
-$$
-
-so along a curve $g(t)$,
-
-$$
-\theta_{g(t)}(g'(t))=g(t)^{-1}g'(t)\in \mathfrak g.
-$$
-
-If $X\in\mathfrak g$ and $X^L$ is the corresponding left-invariant vector field, then
-
-$$
-\theta(X^L)=X.
-$$
 
 The Maurer-Cartan form satisfies the **Maurer-Cartan equation**
 

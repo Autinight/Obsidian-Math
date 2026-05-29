@@ -1,9 +1,12 @@
 ---
 type: example
 aliases:
-- Matrix Lie Group
+  - Matrix Lie Group
 technique: []
-tags: []
+tags:
+  - Lie_subgroup
+  - matrix_Lie_group
+  - Maurer_Cartan
 ---
 ### Definition
 
