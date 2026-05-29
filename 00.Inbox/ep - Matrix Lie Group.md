@@ -71,23 +71,8 @@ tags: []
 > X\in T_IG=\mathfrak g.
 > $$
 
-> [!intuition]
-> In an abstract Lie group, the exponential map exists but is defined intrinsically.
-> In a matrix Lie group, the exponential map is literally the matrix power series
-> $$
-> e^X=I+X+\frac{X^2}{2!}+\cdots.
-> $$
-> This is why infinitesimal data in the Lie algebra can be converted into actual group elements by ordinary matrix exponentiation.
 
 
-
-> [!property] Lie algebra via the exponential map
-> Equivalently,
-> $$
-> \mathfrak g
-> =
-> \{X\in M_n(\mathbb F):\exp(tX)\in G \text{ for all small } t\}.
-> $$
 
 > [!property] Tangent space by left translation
 > For every $g\in G$,
@@ -100,6 +85,59 @@ tags: []
 > \quad\Longleftrightarrow\quad
 > g^{-1}V\in \mathfrak g.
 > $$
+
+> [!proof]- Proof
+> Since left multiplication
+> $$
+> L_g:G\to G,\qquad h\mapsto gh
+> $$
+> is a diffeomorphism with $L_g(I)=g$, its differential at $I$ is a linear isomorphism
+> $$
+> (dL_g)_I:T_IG\longrightarrow T_gG.
+> $$
+> By definition, $T_IG=\mathfrak g$, hence
+> $$
+> T_gG=(dL_g)_I(\mathfrak g).
+> $$
+>
+> In the matrix Lie group case, if $X\in\mathfrak g$ and $\gamma(t)$ is a curve in $G$ with
+> $$
+> \gamma(0)=I,\qquad \gamma'(0)=X,
+> $$
+> then
+> $$
+> (dL_g)_I(X)
+> =
+> \left.\frac{d}{dt}\right|_{t=0}g\gamma(t)
+> =
+> g\gamma'(0)
+> =
+> gX.
+> $$
+> Therefore
+> $$
+> (dL_g)_I(\mathfrak g)=g\mathfrak g,
+> $$
+> and so
+> $$
+> T_gG=g\mathfrak g.
+> $$
+>
+> Finally, for $V\in T_gG$,
+> $$
+> V\in T_gG
+> \Longleftrightarrow
+> V=gX\text{ for some }X\in\mathfrak g
+> \Longleftrightarrow
+> g^{-1}V=X\in\mathfrak g.
+> $$
+> Hence
+> $$
+> V\in T_gG
+> \quad\Longleftrightarrow\quad
+> g^{-1}V\in\mathfrak g.
+> $$
+
 
 > [!property] Left-invariant vector fields
 > A left-invariant vector field determined by $A\in\mathfrak g$ is
