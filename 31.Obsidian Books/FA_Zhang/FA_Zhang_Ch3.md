@@ -859,13 +859,11 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > 在 $\mathbb{R}^n$ 上, 若 $A$ 是对称矩阵, 则 $A$ 是对称的. 在 $\mathbb{C}^n$ 上, 若 $A$ 是 Hermite 矩阵, 则 $A$ 是对称的. 一般地有: $A$ 是 $\mathbb{R}^n$ 上的矩阵, $A^*=A^{\mathsf{T}}$, 这里 $A^{\mathsf{T}}$ 为 $A$ 的转置矩阵; $A$ 是 $\mathbb{C}^n$ 上的矩阵, $A^*=\bar{A}^{\mathsf{T}}$, 这里 $\bar{A}^{\mathsf{T}}$ 为 $A$ 的共轭转置矩阵.
 
 > [!example] 例 3.4.4
-
 > 在实的 $L^2(\Omega,\mathscr{B},\mu)$ 上, 设 $K\in L^\infty(\Omega\times\Omega,d\mu)$, 并且 $K(x,y)=K(y,x)$, 则
 > $$A:u(x)\mapsto\int_\Omega K(x,y)u(y)\,d\mu(y)$$
 > 是 $L^2(\Omega,\mathscr{B},\mu)$ 上的对称算子.
 
 > [!example] 例 3.4.5
-
 > 设 $H$ 是 Hilbert 空间, $M$ 是它的一个闭线性子空间. 由 $H$ 到 $M$ 上的投影算子 $P_M$ 便是对称的.
 
 > [!proof]- 证
@@ -879,15 +877,12 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > [!proposition] 命题 3.4.6
 > 关于 $H$ 上的对称算子, 有下列基本性质:
 > (1) 为了 $A$ 对称, 必须且仅须 $(Ax,x)\in\mathbb{R}\,(\forall x\in H)$.
-
 > (2) 若 $A$ 对称, 则 $\sigma(A)\subset\mathbb{R}$, 并且有
 > $$\|(\lambda I-A)^{-1}x\|\le\frac{1}{|\operatorname{Im}\lambda|}\|x\|\quad(\forall x\in H,\,\forall\lambda\in\mathbb{C},\,\operatorname{Im}\lambda\neq 0).$$
-
 > (3) 设 $H_1$ 是 $H$ 的一个闭不变子空间, $A$ 是 $H$ 上的对称算子, 则 $A|_{H_1}$ 也是 $H_1$ 上的对称算子.
 >
 > (4) 若 $A$ 对称, $\lambda,\lambda'\in\sigma_p(A)$, $\lambda\neq\lambda'$, 则
 > $$N(\lambda I-A)\perp N(\lambda'I-A).$$
-
 > (5) 若 $A$ 对称, 则
 > $$\sup_{\|x\|=1}|(Ax,x)|=\|A\|.$$
 
@@ -902,7 +897,6 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 > 设 $\lambda=\mu+i\nu$, $\nu\neq 0$, $\mu,\nu\in\mathbb{R}$, 则由对称性,
 > $$\|(\lambda I-A)x\|^2=\|(\mu I-A)x\|^2+|\nu|^2\cdot\|x\|^2\ge|\nu|^2\cdot\|x\|^2\quad(\forall x\in H). \tag{3.4.5}$$
 > 此外, $R(\lambda I-A)=H$, 这是因为:
-
 > $$R(\lambda I-A)^\perp=N(\bar{\lambda}I-A^*)=N(\bar{\lambda}I-A),$$
 > 再由 (3.4.5) 式, $N(\bar{\lambda}I-A)=\{\theta\}$ (当 $\operatorname{Im}\lambda\neq 0$). $\blacksquare$
 
@@ -913,7 +907,6 @@ $$q=0\Longleftrightarrow R(T)=\mathscr{X}\Longleftrightarrow T\text{ 是满射}.
 
 > [!proof]- Proof of (5)
 > 记 $c=\sup_{\|x\|=1}|(Ax,x)|$, $c\le\|A\|$ 显然. 下证 $c\ge\|A\|$. 由 $A$ 的对称性和平行四边形法则,
-
 > $$4\operatorname{Re}(Ax,y)=(A(x+y),x+y)-(A(x-y),x-y)\le c\|x+y\|^2+c\|x-y\|^2=2c(\|x\|^2+\|y\|^2).$$
 > 取 $\|x\|=\|y\|=1$, 便有 $\operatorname{Re}(Ax,y)\le c$. 由 $A$ 的自伴性 (即对称性), $\forall x,y\in H$, $\|x\|=\|y\|=1$, 取 $a=e^{-i\arg(Ax,y)}$ (这里 $\arg$ 表示幅角), 则有
 > $$(Ax,ay)=(aAx,y)=|a|(Ax,y)=|(Ax,y)|,$$
@@ -955,7 +948,6 @@ $$\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}=\{\lambda_1,\lambda_2,\cdots
 如果 $\{\lambda_n\}$ 中有无穷多个是不同的, 那么满足 $\lambda_n\to 0$; 如果 $A$ 还是自伴的, 由命题 3.4.6(2), $\lambda_n$ 都是实数. 此外还有下面的定理.
 
 > [!theorem] 定理 3.4.8 (Hilbert-Schmidt)
-
 > 若 $A$ 是 Hilbert 空间 $H$ 上的对称紧算子, 则至多有可数个非零的, 只可能以 $0$ 为聚点的实数 $\{\lambda_i\}$, 它们是算子 $A$ 的特征值, 并对应一组正交规范基 $\{e_i\}$, 使得
 > $$x=\sum(x,e_i)e_i,$$
 > $$Ax=\sum\lambda_i(x,e_i)e_i. \tag{3.4.10}$$
@@ -968,7 +960,6 @@ $$\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}=\{\lambda_1,\lambda_2,\cdots
 > 它不一定是可数的. 如今我们令
 > $$\{e_i'\}\triangleq\bigcup_{\lambda\in\sigma_p(A)\setminus\{0\}}\{e_i^{(\lambda)}\}_{i=1}^{m(\lambda)},$$
 > $$\{e_i\}\triangleq\begin{cases}
-
 > \{e_i'\}, & 0\notin\sigma_p(A),\\[4pt]
 > \{e_i'\}\cup\{e_i^{(0)}\}, & 0\in\sigma_p(A).
 > \end{cases}$$

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/LA/LA Xie Ch6.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch6"
+              "title": "FA_Zhang_Ch3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/LA/LA Xie Ch6.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch6 的大纲"
+              "title": "FA_Zhang_Ch3 的大纲"
             }
           },
           {
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +199,13 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
-    "30.Recources/LA/LA Xie Ch7.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
+    "00.Inbox/Daily Draft 2026-05-29.md",
+    "Untitled.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan.md",
     "30.Recources/LA/LA Xie Ch6.md",
+    "30.Recources/LA/LA Xie Ch7.md",
     "30.Recources/LA/LA Xie Ch5.md",
     "30.Recources/LA/LA Xie Ch8.md",
     "30.Recources/LA/LA Xie Ch10.md",
@@ -219,11 +226,7 @@
     "40.Drafts/2026-05/Daily Draft 2026-05-26.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan.md",
     "60.Templates/Archive.js",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
