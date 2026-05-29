@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Liu_obsidian"
+              "title": "FA_Zhang_Ch3"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Liu_obsidian 的大纲"
+              "title": "FA_Zhang_Ch3 的大纲"
             }
           },
           {
@@ -184,7 +184,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -197,12 +196,12 @@
   },
   "active": "59b83501e178381d",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "00.Inbox/Daily Draft 2026-05-29.md",
     "Untitled.md",
     "31.Obsidian Books/HA_Pan/HA_Pan.md",
