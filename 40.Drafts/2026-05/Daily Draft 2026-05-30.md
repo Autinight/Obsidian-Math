@@ -188,3 +188,30 @@ $$ \theta ^{\prime} \left(t\right)= X_{\theta \left(t\right)} = \left(dL_{\theta
 $$ X_{g}= \left(dR_{g}\right) \left(X\right)$$ 
 则
 $$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= \theta ^{\prime} \left(t\right)\cdot  g = \left(dR_{g}\right)\left(\theta ^{\prime} \left(t\right)\right)= X_{\theta ^{\prime} \left(t\right)} $$ 
+
+
+
+$$ \theta ^{\prime} \left(t\right) = X_{\theta \left(t\right)}= \left(dL_{\theta \left(t\right)}\right)\left(X_{e}\right)$$ 
+
+
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)\left(t\right)= \left(L_{\theta \left(t\right)}\right)\left(g\right) $$ 
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= \theta \left(t\right)\cdot g = \left(dR_{g}\right)\left(\theta ^{\prime} \left(t\right)\right)=\left(dR_{g}\right)\left(X_{\theta \left(t\right)}\right)= \left(dL_{\theta \left(t\right)}\right)\left(dR_{g}\left(X_{e}\right)\right)  $$
+$$ \left(dL_{\theta \left(t\right)}\right)\left(Y_{g}\right) $$
+
+$$ \widetilde{\psi}^{\left(g\right)} \left(t+ s\right)= \theta \left(t+ s\right)\cdot g = \theta \left(t\right)\theta \left(s\right)g = \theta \left(t\right)\widetilde{\psi}^{\left(g\right)}\left(s,g\right)= \widetilde{\psi}\left(t,\widetilde{\psi}\left(s,g\right)\right)$$ 
+
+> [!exercise] **5.12**
+> 证明：李群 $G$ 的任意一个右不变向量场 $\tilde{X}$ 必定在李群 $G$ 上生成一个单参数变换群 $\psi: \mathbb{R} \times G \to G$，使得它在 $G$ 上所诱导的向量场恰好是右不变向量场 $\tilde{X}$ 本身。
+
+设
+$$ \psi : \mathcal{D}\to G$$
+是$\widetilde{X}$生成的局部流.
+则
+即
+$$ \left(\psi ^{\left(g\right)}\right)^{\prime} \left(t\right)= \widetilde{X}_{\psi ^{\left(g\right)}\left(t\right)} $$ 
+
+
+$$ \left(\psi \left(e\right)\right)^{\prime} \left(t\right)= \widetilde{X}_{\psi \left(e\right)^{\prime} \left(t\right)} $$ 
+
+于是
+

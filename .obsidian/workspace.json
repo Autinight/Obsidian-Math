@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exponential map of Lie ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "356b1b8fd1841417",
+  "active": "0fd238d1811f5860",
   "lastOpenFiles": [
     "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-29.md",

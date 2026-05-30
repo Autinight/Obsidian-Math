@@ -84,6 +84,21 @@
 > $$\tilde{\psi}(t, g) = \theta(t) \cdot g,\quad \forall t \in \mathbb{R},\; g \in G.$$
 > 证明：$\tilde{\psi}$ 是作用在 $G$ 上的单参数变换群，并且它所诱导的切向量场是由 $X \in T_e G$ 生成的右不变向量场。
 
+> [!proof] Proof: 
+> 由于$\theta$是单参数子群, 我们有
+> $$ \theta \left(0\right)= e $$ 
+> $$ \widetilde{\psi}\left(0,g\right)= \theta \left(0\right)\cdot g = g$$ 
+> 此外
+> $$ \widetilde{\psi}\left(t+ s,g\right)= \theta \left(t+ s\right)g = \theta \left(t\right)\theta \left(s\right)g = \theta \left(t\right)\widetilde{\psi}\left(s,g\right)= \widetilde{\psi}\left(t,\widetilde{\psi}\left(s,g\right)\right) $$ 
+> 故$\widetilde{\psi}$是$G$上的单参数变换群.
+> 注意到
+> $$ \widetilde{\psi}^{\left(g\right)}\left(t\right)= \theta \left(t\right)\cdot g = R_{g}\left(\theta \left(t\right)\right) $$ 
+> $$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(0\right)= \left(dR_{g}\right)\left(\theta ^{\prime} \left(0\right)\right) = \left(dR_{g}\right)\left(X_{e}\right) $$ 
+> 令
+> $$ Y_{g}= \left(dR_{g}\right)\left(X_{e}\right) $$ 
+> 则$Y$是$X$生成的右不变向量场, 满足
+> $$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(0\right)= Y_{g} $$ 
+
 > [!exercise] **5.12**
 > 证明：李群 $G$ 的任意一个右不变向量场 $\tilde{X}$ 必定在李群 $G$ 上生成一个单参数变换群 $\psi: \mathbb{R} \times G \to G$，使得它在 $G$ 上所诱导的向量场恰好是右不变向量场 $\tilde{X}$ 本身。
 
