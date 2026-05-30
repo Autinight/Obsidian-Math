@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/dfn - Maurer-Cartan Form.md",
+                "file": "30.Recources/LA/LA Xie Ch5.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dfn - Maurer-Cartan Form"
+              "title": "LA Xie Ch5"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/dfn - Maurer-Cartan Form.md",
+                "file": "30.Recources/LA/LA Xie Ch5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "dfn - Maurer-Cartan Form 的大纲"
+              "title": "LA Xie Ch5 的大纲"
             }
           },
           {
@@ -196,33 +196,41 @@
   },
   "active": "356b1b8fd1841417",
   "lastOpenFiles": [
+    "30.Recources/LA/LA Xie Ch1.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
+    "00.Inbox/dfn - Maurer-Cartan Form.md",
+    "00.Inbox/dfn - Left Invariant Form.md",
+    "00.Inbox/Daily Draft 2026-05-29.md",
+    "30.Recources/DM/Course HW/DM - Review of HW5.md",
+    "30.Recources/DM/Course HW/DM - Review of HW4.md",
+    "10.Atlas/DM/Atlas - Tensor.canvas",
+    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
+    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "20.Cards/Examples/ep - Matrix Lie Group.md",
     "20.Cards/Propositions/pps - Lie Algebra Characterized by One-Parameter Subgroups.md",
-    "00.Inbox/dfn - Maurer-Cartan Form.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch05_Geodesics_and_Distance.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch10_Symmetric_Spaces_and_Holonomy.md",
     "20.Cards/Propositions/pps - Lie Subgroup Characterized by Exponential Map.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "20.Cards/Definitions/dfn - Lie Subgroup.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch08_Killing_Fields.md",
-    "00.Inbox/dfn - Left Invariant Form.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "00.Inbox/Daily Draft 2026-05-29.md",
     "31.Obsidian Books/HA_Pan/HA_Pan.md",
     "30.Recources/LA/LA Xie Ch6.md",
     "30.Recources/LA/LA Xie Ch7.md",
     "30.Recources/LA/LA Xie Ch5.md",
     "30.Recources/LA/LA Xie Ch8.md",
     "30.Recources/LA/LA Xie Ch10.md",
-    "30.Recources/LA/LA Xie Ch9.md",
-    "30.Recources/LA/LA Xie Ch1.md",
-    "30.Recources/LA/LA Xie Ch4.md",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
     "60.Templates/Archive.js",
@@ -243,12 +251,6 @@
     "00.Inbox/31",
     "30.Recources/HA/HA_Pan.7z",
     "30.Recources/HA/未命名",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "10.Atlas/AT/Atlas - Basic Topology.canvas",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
-    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "10.Atlas/DM/Atlas - Tensor.canvas"
+    "10.Atlas/AT/Atlas - Covering Space.canvas"
   ]
 }
