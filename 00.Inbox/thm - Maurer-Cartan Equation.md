@@ -27,6 +27,18 @@ tags: []
 > $$
 > It is the canonical left-invariant $\mathfrak{g}$-valued form, satisfying $\omega_e = \mathrm{id}_{\mathfrak{g}}$.
 
+
+> [!theorem] Structure Constants from Maurer-Cartan
+> Expand the Maurer-Cartan form as $\omega = \omega^k e_k$. Then
+> $$
+> d\omega^k = -\tfrac{1}{2}\,c^{k}_{\,ij}\,\omega^i\wedge\omega^j.
+> $$
+> **Use it:** compute $d\omega^k$, write it as $\sum_{i<j} a^k_{ij}\,\omega^i\wedge\omega^j$, and read off
+> $$
+> c^{k}_{\,ij} = -\,a^{k}_{ij}\quad(i<j).
+> $$
+
+
 > [!example] Reading Off Structure Constants from Maurer-Cartan
 > Fix a basis $\{e_1,\dots,e_n\}$ of $\mathfrak{g}$ with structure constants defined by
 > $$

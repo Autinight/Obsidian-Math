@@ -16,7 +16,7 @@
   ],
   "theoremNumberingMode": "unified",
   "theoremHeadingLevel": 1,
-  "theoremStyle": "grid",
+  "theoremStyle": "beamer",
   "theoremColors": {
     "theorem": "#1555bc",
     "lemma": "#8b5cf6",
