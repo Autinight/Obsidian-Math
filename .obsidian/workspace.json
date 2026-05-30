@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
-                "mode": "preview",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-05-30"
+              "title": "DM - HW13"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -198,8 +197,8 @@
   },
   "active": "356b1b8fd1841417",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "00.Inbox/thm - Maurer-Cartan Equation.md",

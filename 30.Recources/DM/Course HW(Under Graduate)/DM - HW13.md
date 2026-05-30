@@ -58,17 +58,25 @@
 > 那么
 > $$ \mathfrak{g}= \operatorname{span}\left\{ E_1,E_2,E_3,E_4 \right\} $$ 
 > 我们有
-> $$ \left[ E_1,E_{j} \right]= 0,\quad j= 2,3,4 $$ 
->
+> $$ \left[ E_1,E_3 \right]= E_3 $$
+> $$ \left[ E_1,E_4 \right]= E_4 $$  
 > $$ \left[ E_2,E_3 \right]= E_2E_3-E_3E_2= E_4 $$ 
 > $$ \left[ E_2,E_4 \right]=E_2E_4-E_4E_2= -E_3 $$ 
 > $$ \left[ E_3,E_4 \right]= E_4E_4-E_4E_3= 0 $$ 
 > 于是非零的结构常数只有
+> $$ c_{13}^{3}= -c_{31}^{3}= 1,\quad c_{14}^{4}= -c_{41}^{4}= 1 $$ 
 > $$ c_{23}^{4}= -c_{32}^{4}= 1,\quad c_{24}^{3}= -c_{42}^{3}= -1 $$ 
 > 其余为零.
 >
 > (4) 注意到$E_1^{k}= E_1,\forall k\in \mathbb{Z} _{\ge 1}$, 于是
-> $$ \begin{aligned} \theta _1 \left(t\right)&= \exp \left(tE_1\right)= \sum _{ k= 0}^{\infty}\frac{1 }{k! }t^{k}\left(E_1\right)^{k}\\&= E_1\sum _{k = 0}^{\infty}\frac{1 }{k! }t^{k}+ \left(I-E_1\right) \end{aligned} $$ 
+> $$ \begin{aligned} \theta _1 \left(t\right)&= \exp \left(tE_1\right)= \sum _{ k= 0}^{\infty}\frac{1 }{k! }t^{k}\left(E_1\right)^{k}\\&= E_1\sum _{k = 0}^{\infty}\frac{1 }{k! }t^{k}+ \left(I-E_1\right) \\&= e^{t}E_1+ \left(I-E_1\right)\\&= \begin{pmatrix} e^{t}&0\\0&1 \end{pmatrix}\end{aligned} $$ 
+>
+> 注意到$E_2= iE_1$, 因此$E_2^{k}= i^{k}E_1^{k}$, 那么
+> $$ \begin{aligned} \theta _2 \left(t\right)&= \exp \left(tE_2\right)= \sum _{k = 0}^{\infty}\frac{1 }{k! }\left(it\right)^{k}E_1^{k}\\&= e^{it}E_1+ \left(I-E_1\right)\\&= \begin{pmatrix} \cos t+ i\sin t &0\\0&1 \end{pmatrix} \end{aligned} $$ 
+> $E_3^{k}=E_4^{k}= 0,\forall k\ge 2$, 于是
+> $$ \begin{aligned} \theta _3 \left(t\right)&= \exp \left(tE_3\right)= \sum  _{ k= 0}^{\infty}\frac{1 }{k! }t^{k}E_3\\&= I+ tE_3\\&= \begin{pmatrix} 1&t\\0&1 \end{pmatrix} \end{aligned} $$ 
+> 类似地, 
+> $$ \theta _4 \left(t\right)= \begin{pmatrix} 1&it\\0&1 \end{pmatrix} $$ 
 
 
 > [!exercise] **5.11**

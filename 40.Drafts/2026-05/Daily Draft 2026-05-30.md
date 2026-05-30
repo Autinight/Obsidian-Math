@@ -134,3 +134,7 @@ $f$是连续映射,  故$G$是闭子集.
 
 故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
 
+> [!exercise] **5.11**
+> 设 $\theta: \mathbb{R} \to G$ 是 $r$ 维李群 $G$ 的一个单参数子群。命 $\theta'(0) = X \in T_e G$。定义映射 $\tilde{\psi}: \mathbb{R} \times G \to G$ 为
+> $$\tilde{\psi}(t, g) = \theta(t) \cdot g,\quad \forall t \in \mathbb{R},\; g \in G.$$
+> 证明：$\tilde{\psi}$ 是作用在 $G$ 上的单参数变换群，并且它所诱导的切向量场是由 $X \in T_e G$ 生成的右不变向量场。
