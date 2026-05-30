@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/LA/LA Xie Ch5.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch5"
+              "title": "DM - HW13"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/LA/LA Xie Ch5.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch5 的大纲"
+              "title": "DM - HW13 的大纲"
             }
           },
           {
@@ -196,10 +196,12 @@
   },
   "active": "356b1b8fd1841417",
   "lastOpenFiles": [
-    "30.Recources/LA/LA Xie Ch1.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
+    "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "00.Inbox/dfn - Maurer-Cartan Form.md",
     "00.Inbox/dfn - Left Invariant Form.md",
+    "30.Recources/LA/LA Xie Ch5.md",
+    "30.Recources/LA/LA Xie Ch1.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
     "00.Inbox/Daily Draft 2026-05-29.md",
     "30.Recources/DM/Course HW/DM - Review of HW5.md",
     "30.Recources/DM/Course HW/DM - Review of HW4.md",
@@ -228,9 +230,7 @@
     "31.Obsidian Books/HA_Pan/HA_Pan.md",
     "30.Recources/LA/LA Xie Ch6.md",
     "30.Recources/LA/LA Xie Ch7.md",
-    "30.Recources/LA/LA Xie Ch5.md",
     "30.Recources/LA/LA Xie Ch8.md",
-    "30.Recources/LA/LA Xie Ch10.md",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
     "60.Templates/Archive.js",
