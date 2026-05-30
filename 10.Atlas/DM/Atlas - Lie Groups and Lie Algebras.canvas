@@ -20,7 +20,7 @@
 		{"id":"e8c042649b72d0ab","type":"text","text":"[[thm - The Adjoint Representatino of Lie Group Induces that of the Lie Algebra|The Adjoint Representatino of Lie Group Induces that of the Lie Algebra]]","x":166,"y":2159,"width":379,"height":94,"color":"1"},
 		{"id":"40b84ba8341eccf2","type":"text","text":"[[dfn - The Adjoint Representation of a Lie Algebra|The Adjoint Representation of a Lie Algebra]]","x":820,"y":2132,"width":250,"height":121,"color":"6"},
 		{"id":"c86b84cf454d0aab","type":"text","text":"[[pps - Properties of the Exponential Map|Properties of the Exponential Map]]","x":-127,"y":1946,"width":293,"height":74,"color":"3"},
-		{"id":"dda85f8b9c011ddb","type":"text","text":"[[thm - Cartan Closed Subgroup Theorem|Cartan Closed Subgroup Theorem]]","x":545,"y":1940,"width":250,"height":86,"color":"1"},
+		{"id":"dda85f8b9c011ddb","type":"text","text":"[[20.Cards/Theorems/thm - Cartan Closed Subgroup Theorem|Cartan Closed Subgroup Theorem]]","x":545,"y":1940,"width":250,"height":86,"color":"1"},
 		{"id":"4e9ba6c99806343f","type":"text","text":"[[pps - Lie Subgroup Characterized by Exponential Map|Lie Subgroup Characterized by Exponential Map]]","x":166,"y":1744,"width":250,"height":92,"color":"3"},
 		{"id":"4841b4463b43d1eb","type":"text","text":"[[pps - Neighborhood of the Identity Generates an Open Subgroup|Neighborhood of the Identity Generates an Open Subgroup]]","x":890,"y":1299,"width":250,"height":119,"color":"3"}
 	],
