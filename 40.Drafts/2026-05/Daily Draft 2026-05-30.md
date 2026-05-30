@@ -31,6 +31,21 @@
 > 决定的单参数子群 $\theta_i(t)$，$1\le i\le 4$。
 
 
+$$ \theta _{i}\left(t\right)= \exp \left(t \frac{\partial }{\partial x^{i}}|_{I}\right) $$ 
+
+$$ \theta _{1}\left(t\right)= \exp \left(tE_1\right)= \sum _{k = 0}^{\infty}\frac{1 }{k! }t^{k}\left(E_1\right)^{k} $$ 
+
+$$ \left(E_1\right)^{2}=1,\quad  \sum _{k = 0}^{\infty}\frac{1 }{k! }t^{k}\left(E_1\right)=  I+ \left(e^{t}-1\right)E_1= \begin{pmatrix} e^{t}&0\\0&1 \end{pmatrix}$$ 
+于是
+
+
+$$ \begin{aligned} \theta _2 \left(t\right)&= \exp \left(tE_2\right)= \sum _{ k= 0}^{\infty}\frac{1 }{k! }t^{k}\left(E_2\right)^{k}= \sum _{k = 0}^{\infty}\frac{1 }{k! }\left(it\right)^{k}E_1^{k}= I+ \left(e^{it}-1\right)E_1\\&= I+ \left(\cos t-1\right)E_1+ i \sin tE_1\\&= \begin{pmatrix}  \cos t + i\sin t &0\\0& 1\end{pmatrix}\end{aligned}$$ 
+$$ E_3^{2}= 0 ,\quad $$
+于是
+$$ \theta _3\left(t\right)= I+ tE_3=\begin{pmatrix} 1&t\\0&1 \end{pmatrix}  $$  
+$$ \theta _4 \left(t\right)= I+  tE_4= \begin{pmatrix} 1&it\\0&1 \end{pmatrix} $$ 
+$$ E_{11}E_{11}= E_{11} $$ 
+
 
 #### 结构常数
 
@@ -118,4 +133,73 @@ $$ G= f^{-1} \left(\left(0,1\right)\right) $$
 $f$是连续映射,  故$G$是闭子集.
 
 故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+
+
+
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+故$G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的闭子群. 由Cartan闭子群定理, $G$是$\operatorname{GL} \left(2,\mathbb{C} \right)$的嵌入李子群. 并且$G$是余$\operatorname{dim}\mathbb{C} ^{2}= 4$维的, 因此$G$是4维子流形. 故$G$是四维李群.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
