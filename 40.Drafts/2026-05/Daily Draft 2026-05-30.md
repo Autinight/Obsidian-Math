@@ -146,4 +146,45 @@ $$ \left(\widetilde{\psi}\right)\left(t,g\right) $$
 
 $\theta$是一个单参数子群,
 
-什么事单参数变换群
+$\widetilde{\psi}$是$G$上的一个flow , 也就是说满足,
+
+
+$$ \widetilde{\psi}^{\left(g\right)} \left(t\right)= \theta \left(t\right)\cdot g$$ 
+
+$$ \left(\left(\widetilde{\psi}^{\left(g\right)}\right)\right)^{\prime} \left(t\right)= \theta ^{\prime} \left(t\right)g $$ 
+
+$$ \widetilde{\psi}^{\left(g\right)}\left(t\right)= \theta \left(t\right)\cdot g $$ 
+
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime}\left(t\right)= \theta ^{\prime} \left(t\right)\cdot g $$ 
+由于$\theta \left(t\right)$是一个单参数子群, 我们有
+$$ \theta ^{\prime} \left(t\right)=X_{\theta \left(t\right)}=  \left(dL_{\theta \left(t\right)}\right)\left(X\right) $$ 
+
+$$ \widetilde{\psi}^{\left(g\right)}\left(t\right)= \theta \left(t\right)\cdot g = R_{g}\left(\theta \left(t\right)\right)$$ 
+于是
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= \left(dR_{g}\right)\left(\theta ^{\prime} \left(t\right)\right)= \left(dR_{g}\right)\left(dL_{\theta \left(t\right)}\right)\left(X\right) $$ 
+
+Since
+$$ R_{g}\circ L_{\theta \left(t\right)}= L_{\theta \left(t\right)}\circ R_{g} $$ 
+We have 
+$$ \left(dL_{\theta \left(t\right)}\right) \left(dR_{g}\right)= \left(dR_{g}\right)\left(dL_{\theta \left(t\right)}\right)$$ 
+于是
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= \left(dL_{\theta \left(t\right)}\right)\left(\left(dR_{g}\right)\left(X_{e}\right)\right) = \left(dR_{g}\right)X_{\theta \left(t\right)}$$ 
+
+令
+$$ Y_{g}= \left(dR_{g}\right)\left(X_{e}\right) $$ 
+则
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= Y_{\theta \left(t\right)\cdot g}= Y_{\widetilde{\psi}\left(t,g\right)} $$ 
+
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= Y_{\widetilde{\psi}\left(t,g\right)}= Y_{\theta \left(t\right)\cdot g} = Y_{R_{g}\left(\theta \left(t\right)\right)}$$ 
+
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)=  $$ 
+
+$\theta$是单参数子群, 意味着
+$$ \theta ^{\prime} \left(t\right)= X_{\theta \left(t\right)} = \left(dL_{\theta \left(t\right)}\right)\left(X_{e}\right)$$ 
+
+
+
+记$X$就是它生成的右不变向量场, 即
+$$ X_{g}= \left(dR_{g}\right) \left(X\right)$$ 
+则
+$$ \left(\widetilde{\psi}^{\left(g\right)}\right)^{\prime} \left(t\right)= \theta ^{\prime} \left(t\right)\cdot  g = \left(dR_{g}\right)\left(\theta ^{\prime} \left(t\right)\right)= X_{\theta ^{\prime} \left(t\right)} $$ 
