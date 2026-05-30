@@ -102,6 +102,25 @@
 > [!exercise] **5.12**
 > 证明：李群 $G$ 的任意一个右不变向量场 $\tilde{X}$ 必定在李群 $G$ 上生成一个单参数变换群 $\psi: \mathbb{R} \times G \to G$，使得它在 $G$ 上所诱导的向量场恰好是右不变向量场 $\tilde{X}$ 本身。
 
+> [!proof] Proof: 
+> 设$\gamma :I\to G$是$e$处的极大积分曲线.  设$\left(-\varepsilon ,\varepsilon \right)\subseteq I$.
+> 若$\sup I< \infty$, 记$b= \sup I$, 则 定义
+> $$ \widetilde{\gamma}\left(t\right)= \begin{cases} \gamma \left(t\right), & t< b\\\gamma \left(b-\frac{\varepsilon  }{2 }\right)\gamma \left(\left(t-b\right)+ \frac{\varepsilon  }{2 }\right), & b-\frac{\varepsilon  }{2 }\le  t\le b+ \frac{\varepsilon  }{2 }\end{cases}  $$ 
+> 对于$s \in \left(-\varepsilon ,\varepsilon \right)$, $t\in I$, $t+ s \in I$, 我们有
+> $$ \frac{\mathrm{d}}{\mathrm{d}t}\left(\gamma \left(t\right)\gamma \left(s\right)\right)= \left(dR_{\gamma \left(s\right)}\right)\left(\gamma ^{\prime} \left(t\right)\right)= \widetilde{X}_{\gamma \left(s\right)\gamma \left(t\right)}  $$ 
+> $$ \frac{\mathrm{d}}{\mathrm{d}t}\gamma \left(t+ s\right)= \gamma ^{\prime} \left(s+ t\right)= \widetilde{X}_{\gamma \left(s+ t\right)} $$ 
+> 于是由积分曲线的存在唯一性,
+> $$ \gamma \left(t\right)\gamma \left(s\right)= \gamma \left(s\right)\gamma \left(t\right) $$ 
+> 于是对于$b-\frac{\varepsilon  }{2 }\le t< b$, 我们有
+> $$ \gamma \left(t\right)= \gamma \left(b-\frac{\varepsilon  }{2 }\right)\gamma \left(\left(t-b\right)+ \frac{\varepsilon  }{2 }\right) $$ 
+> 因此$\widetilde{\gamma}\left(t\right)$是良定义且光滑的.  并且
+> $$ \widetilde{\gamma}^{\prime} \left(t\right)= \widetilde{X}_{\widetilde{\gamma}\left(t\right)} $$ 
+> 从而是$\widetilde{\gamma}\left(t\right)$是$\gamma \left(t\right)$的一个延拓, 与$I$是极大积分曲线矛盾. 因此 $b= \infty$, 类似地, $\inf I= -\infty$, $I= \mathbb{R}$. 故$\gamma \left(t\right)$是一个单参数子群.
+>
+> 定义
+> $$ \psi \left(t,g\right)= \gamma \left(t\right)\cdot g $$ 
+> 则由5.11, $\psi$是$G$上的单参数变换群, 切它诱导的向量场恰好是右不变向量场$\widetilde{X}$.
+
 > [!exercise] **5.13**
 > 设 $G$ 是 $r$ 维李群，证明：每一个切向量 $X \in T_e G$ 唯一地决定了李群 $G$ 的一个单参数子群 $\theta: \mathbb{R} \to G$，使得 $\theta'(0) = X$，且
 > $$\theta'(t) = \tilde{X}\bigl(\theta(t)\bigr),$$

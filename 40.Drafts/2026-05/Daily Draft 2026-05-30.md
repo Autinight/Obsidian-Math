@@ -211,7 +211,25 @@ $$ \psi : \mathcal{D}\to G$$
 $$ \left(\psi ^{\left(g\right)}\right)^{\prime} \left(t\right)= \widetilde{X}_{\psi ^{\left(g\right)}\left(t\right)} $$ 
 
 
-$$ \left(\psi \left(e\right)\right)^{\prime} \left(t\right)= \widetilde{X}_{\psi \left(e\right)^{\prime} \left(t\right)} $$ 
+$$ \left(\psi ^{\left(e\right)}\right)^{\prime} \left(t\right)= \widetilde{X}_{\psi ^{\left(t\right)}\left(t\right)}$$ 
+
+设$\gamma \left(t\right)$是$e$处的极大积分曲线, 则
+$$ \gamma ^{\prime} \left(t\right)= \widetilde{X}_{\gamma \left(t\right)}= \left(dR_{\gamma \left(t\right)}\right)\left(\widetilde{X}\right) $$ 
+
+我们来计算$\gamma \left(t+ s\right)$
+$$ \frac{\mathrm{d}}{\mathrm{d}t}|_{t= 0}\left(\gamma \left(s+ t\right)\right)= \widetilde{X}_{\gamma \left(s+ t\right)}= \left(dR_{\gamma \left(s+ t\right)}\right)\left(\widetilde{X}_{e}\right)=  $$ 
+
+$$ \frac{\mathrm{d}}{\mathrm{d}t}\left(\gamma \left(t\right)\gamma \left(s\right)\right) = \frac{\mathrm{d}}{\mathrm{d}t}\left(R_{\gamma \left(s\right)}\left(\gamma \left(t\right)\right)\right)= \left(dR_{\gamma \left(s\right)}\right)\left(\gamma ^{\prime} \left(t\right)\right)= \left(dR_{\gamma \left(s\right)}\right)\left(\widetilde{X}_{\gamma \left(t\right)}\right)$$ 
+
+$$ \gamma \left(t+ s\right)= \gamma \left(t\right)\gamma \left(s\right) $$ 
+$I$是开的.
+
+设$\gamma$至少在$\left(-\varepsilon ,\varepsilon \right)$上有定义. 
+$\gamma$是被全局定义的.
+
+于是我们定义
+$$ \psi \left(s,g\right)= \gamma \left(s\right)g $$ 
+
 
 于是
 
