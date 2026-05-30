@@ -138,3 +138,12 @@ $f$是连续映射,  故$G$是闭子集.
 > 设 $\theta: \mathbb{R} \to G$ 是 $r$ 维李群 $G$ 的一个单参数子群。命 $\theta'(0) = X \in T_e G$。定义映射 $\tilde{\psi}: \mathbb{R} \times G \to G$ 为
 > $$\tilde{\psi}(t, g) = \theta(t) \cdot g,\quad \forall t \in \mathbb{R},\; g \in G.$$
 > 证明：$\tilde{\psi}$ 是作用在 $G$ 上的单参数变换群，并且它所诱导的切向量场是由 $X \in T_e G$ 生成的右不变向量场。
+
+
+$\widetilde{\psi}\left(t,g\right)= \theta \left(t\right)\cdot g$
+
+$$ \left(\widetilde{\psi}\right)\left(t,g\right) $$ 
+
+$\theta$是一个单参数子群,
+
+什么事单参数变换群
