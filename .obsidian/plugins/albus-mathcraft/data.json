@@ -16,7 +16,7 @@
   ],
   "theoremNumberingMode": "unified",
   "theoremHeadingLevel": 1,
-  "theoremStyle": "latex",
+  "theoremStyle": "grid",
   "theoremColors": {
     "theorem": "#1555bc",
     "lemma": "#8b5cf6",
@@ -83,6 +83,7 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "tikz",
-  "simpleTexToken": ""
+  "settingsTab": "theorem",
+  "simpleTexToken": "",
+  "simpleTexSecretName": ""
 }

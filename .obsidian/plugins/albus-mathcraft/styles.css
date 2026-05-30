@@ -249,13 +249,22 @@ body.mathcraft-active .callout .callout-content > p:empty {
 }
 
 /* Settings tab styles */
+/* Root container — flex column fills the settings pane */
+.math-env-settings-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Fixed tab bar at top */
 .math-env-settings-tabs {
   display: flex;
   justify-content: flex-start;
   border-bottom: 1px solid var(--background-modifier-border);
   overflow-x: auto;
   padding: 0;
-  margin: 0 0 16px 0;
+  margin: 0;
+  flex-shrink: 0;
 }
 .math-env-settings-tabs::-webkit-scrollbar {
   display: none;
@@ -284,8 +293,15 @@ body.mathcraft-active .callout .callout-content > p:empty {
   border-bottom-color: var(--interactive-accent);
 }
 
+/* Scrollable content area */
+.math-env-settings-scroll {
+  flex: 1 1 0;
+  overflow-y: auto;
+  min-height: 0;
+}
+
 .math-env-settings-content {
-  padding-top: 0;
+  padding-top: 16px;
 }
 .math-env-settings-content .setting-group + .setting-item-heading {
   margin-top: 1.5em;
@@ -4052,8 +4068,7 @@ body.mathcraft-active.theorem-style-grid .callout[data-callout=remark] .callout-
 body.mathcraft-active.theorem-style-grid .callout[data-callout=note] .callout-title {
   background-color: transparent;
   color: var(--callout-color);
-  padding: 0 14px 8px 14px;
-  border-bottom: 2px dashed color-mix(in srgb, var(--callout-color) 40%, transparent);
+  padding: 0 14px 0 14px;
 }
 body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=theorem] .callout-title-inner,
 body.mathcraft-active[data-theorem-style=grid] .callout[data-callout=lemma] .callout-title-inner,
