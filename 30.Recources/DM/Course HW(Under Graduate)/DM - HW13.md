@@ -104,15 +104,15 @@
 
 > [!proof] Proof: 
 > 设$\gamma :I\to G$是$e$处的极大积分曲线.  设$\left(-\varepsilon ,\varepsilon \right)\subseteq I$.
-> 若$\sup I< \infty$, 记$b= \sup I$, 则 定义
-> $$ \widetilde{\gamma}\left(t\right)= \begin{cases} \gamma \left(t\right), & t< b\\\gamma \left(b-\frac{\varepsilon  }{2 }\right)\gamma \left(\left(t-b\right)+ \frac{\varepsilon  }{2 }\right), & b-\frac{\varepsilon  }{2 }\le  t\le b+ \frac{\varepsilon  }{2 }\end{cases}  $$ 
+> 若$\sup I< \infty$, 记$b= \sup I$, 记$a= b-\frac{\varepsilon }{2 }$, 定义
+> $$ \widetilde{\gamma}\left(t\right)= \begin{cases} \gamma \left(t\right), & t< b\\ \gamma \left(t-a\right)\gamma \left(a\right)\, & b-\frac{\varepsilon  }{2 }\le  t\le b+ \frac{\varepsilon  }{2 }\end{cases}  $$ 
 > 对于$s \in \left(-\varepsilon ,\varepsilon \right)$, $t\in I$, $t+ s \in I$, 我们有
-> $$ \frac{\mathrm{d}}{\mathrm{d}t}\left(\gamma \left(t\right)\gamma \left(s\right)\right)= \left(dR_{\gamma \left(s\right)}\right)\left(\gamma ^{\prime} \left(t\right)\right)= \widetilde{X}_{\gamma \left(s\right)\gamma \left(t\right)}  $$ 
-> $$ \frac{\mathrm{d}}{\mathrm{d}t}\gamma \left(t+ s\right)= \gamma ^{\prime} \left(s+ t\right)= \widetilde{X}_{\gamma \left(s+ t\right)} $$ 
+> $$ \frac{\mathrm{d}}{\mathrm{d}t}\left(\gamma \left(t\right)\gamma \left(s\right)\right)= \left(dR_{\gamma \left(s\right)}\right)\left(\gamma ^{\prime} \left(t\right)\right)= \widetilde{X}_{\gamma \left(t\right)\gamma \left(s\right)}  $$ 
+> $$ \frac{\mathrm{d}}{\mathrm{d}t}\gamma \left(t+ s\right)= \gamma ^{\prime} \left(t+ s\right)= \widetilde{X}_{\gamma \left(t+ s\right)} $$ 
 > 于是由积分曲线的存在唯一性,
-> $$ \gamma \left(t\right)\gamma \left(s\right)= \gamma \left(s\right)\gamma \left(t\right) $$ 
+> $$ \gamma \left(t+ s\right)= \gamma \left(t\right)\gamma \left(s\right) $$ 
 > 于是对于$b-\frac{\varepsilon  }{2 }\le t< b$, 我们有
-> $$ \gamma \left(t\right)= \gamma \left(b-\frac{\varepsilon  }{2 }\right)\gamma \left(\left(t-b\right)+ \frac{\varepsilon  }{2 }\right) $$ 
+> $$ \gamma \left(t\right)=\gamma \left(t-a\right)\gamma \left(a\right)$$ 
 > 因此$\widetilde{\gamma}\left(t\right)$是良定义且光滑的.  并且
 > $$ \widetilde{\gamma}^{\prime} \left(t\right)= \widetilde{X}_{\widetilde{\gamma}\left(t\right)} $$ 
 > 从而是$\widetilde{\gamma}\left(t\right)$是$\gamma \left(t\right)$的一个延拓, 与$I$是极大积分曲线矛盾. 因此 $b= \infty$, 类似地, $\inf I= -\infty$, $I= \mathbb{R}$. 故$\gamma \left(t\right)$是一个单参数子群.
@@ -125,6 +125,15 @@
 > 设 $G$ 是 $r$ 维李群，证明：每一个切向量 $X \in T_e G$ 唯一地决定了李群 $G$ 的一个单参数子群 $\theta: \mathbb{R} \to G$，使得 $\theta'(0) = X$，且
 > $$\theta'(t) = \tilde{X}\bigl(\theta(t)\bigr),$$
 > 其中 $\tilde{X} \in \mathfrak{X}(G)$ 是由 $X \in T_e G$ 决定的右不变向量场。
+
+> [!proof] Proof: 
+> 对于每个切向量$X \in T_{e}G$, 它决定了唯一的右不变向量场
+> $$ \widetilde{X}_{g}= \left(dR_{g}\right)\left(X_{e}\right) $$ 
+> 根据5.12的证明, $\widetilde{X}$的在$e$处的积分曲线$\theta \left(t\right)$是global的, 并且是一个单参数子群, 
+> $$ \theta \left(t+ s\right)= \theta \left(t\right)\theta \left(s\right) $$
+> 满足
+> $$ \theta ^{\prime} \left(t\right)= \widetilde{X}\left(\theta \left(t\right)\right) $$ 
+> 由积分曲线的唯一性, $\theta$ 是满足这些条件的唯一的单参数子群.
 
 > [!exercise] **5.16**
 > 设

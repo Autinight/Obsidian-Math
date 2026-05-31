@@ -13,9 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "40.Drafts/2026-05/Daily Draft 2026-05-31.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily Draft 2026-05-31"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9204344c3fbba0b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0ce6d9d34cf2e0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -198,9 +228,9 @@
   },
   "active": "356b1b8fd1841417",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-31.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-29.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
