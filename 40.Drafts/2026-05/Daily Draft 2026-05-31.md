@@ -76,4 +76,26 @@ $$ \varphi \left(g,\varphi \left(h,w\right)\right)= \varphi \left(gh,w\right) $$
 
 
 $$ \varphi \left(g,w\right) $$ 
-设$\varphi$
+设$\varphi$是左作用, 则
+$$ \varphi \left(g, w\right)= g  \cdot  w $$ 
+若$g = \exp \left(tX\right)$
+
+在
+$$ \varphi \left(\exp \left(tX\right), w\right) = \exp \left(tX\right)\cdot w$$ 
+
+$\varphi: G\times M\to M$
+
+For $X \in \mathfrak{g}$, $\varphi _{X}$ gives a 
+
+$$ \varphi _{X}: \mathbb{R} \times M\to M,\quad \varphi _{X}\left(t,g\right)= \exp \left(tX\right)\cdot g $$ 
+Since $\exp \left(tX\right)$ is a on-parameter subgroup, we have $\varphi _{X}\left(t,g\right)$ is a flow.
+which induces a vector field
+
+Then
+$$ \varphi _{X}\left(t,g\right)= \exp \left(tX\right)\begin{pmatrix} u\\1 \end{pmatrix} $$ 
+
+$$ X= \begin{pmatrix} z^{1}&z^{2}\\0&1 \end{pmatrix} $$ 
+
+$$ \exp \left(tX\right)= \sum _{k = 0}^{\infty}t^{k}X^{k}\begin{pmatrix} u\\1 \end{pmatrix} $$ 
+
+$$ \frac{\mathrm{d}}{\mathrm{d}t}|_{t = 0}\left(\varphi _{X}\left(t,g\right)\right) = X\begin{pmatrix} u\\1 \end{pmatrix}=\begin{pmatrix} z^{1}u+ z^{2}\\1 \end{pmatrix} $$ 
