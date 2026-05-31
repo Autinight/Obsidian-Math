@@ -178,4 +178,21 @@
 > 
 > (2) 求 $G$ 在 $M$ 上的左作用所产生的基本向量场。
 
-
+> [!proof] Proof: 
+> 1. 易见$\varphi$是光滑映射, 满足
+> $$ \varphi \left(I,w\right)= I\begin{pmatrix} u\\1 \end{pmatrix}= \begin{pmatrix} u\\1 \end{pmatrix} $$
+> 此外, $G$在$M$上的作用无非就是矩阵乘法, 而$G$自身的乘法也是矩阵乘法, 由矩阵乘法的结合律, 我们有
+>   $$ \varphi \left(g,\varphi \left(h,w\right)\right)= \varphi \left(gh,w\right) $$
+>   因此$G$是左作用在$M$上的李变换群.  
+>   
+> 2. 对于$X \in \mathfrak{g}$, 设
+> $$ X= \begin{pmatrix} a&b\\
+> 0&0 \end{pmatrix} $$ 
+> $X$在$M$上诱导出的流是
+>     $$ \varphi _{X}\left(t,w\right)= \varphi \left(\exp \left(tX\right),w\right)= \exp \left(tX\right)\begin{pmatrix} u\\1 \end{pmatrix} $$
+>    即
+>  $$ \varphi _{X}\left(t,w\right)= \sum _{k = 0}^{\infty}\frac{1 }{k! }t^{k}\left(X^{k}\begin{pmatrix} u\\1 \end{pmatrix}\right) $$
+>  那么
+>  $$ \left(\varphi _{X}^{\left(w\right)}\right)^{\prime} \left(0\right)= \sum _{k = 0}^{\infty}\frac{\mathrm{d}}{\mathrm{d}t}|_{t= 0}\left(t^{k}X^{k}\begin{pmatrix} u\\1 \end{pmatrix}\right) = X\begin{pmatrix} u\\1 \end{pmatrix}= \begin{pmatrix} au+ b\\0\end{pmatrix}$$
+>  因此$\varphi$关于$X$在$M$上生成的基本向量场$Y_{X}$就是
+>  $$ Y_{x}\left(w\right)= \begin{pmatrix} au+ b\\0\end{pmatrix} = \left(a^{1}u^{1}-a^{2}u^{2}+ b^{1}\right)\frac{\partial }{\partial u^{1}}+ \left(a^{1}u^{2}+ a^{2}u^{1}+ b^{2}\right)\frac{\partial }{\partial u^{2}}$$   
