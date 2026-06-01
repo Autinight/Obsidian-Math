@@ -99,3 +99,38 @@ $$ X= \begin{pmatrix} z^{1}&z^{2}\\0&1 \end{pmatrix} $$
 $$ \exp \left(tX\right)= \sum _{k = 0}^{\infty}t^{k}X^{k}\begin{pmatrix} u\\1 \end{pmatrix} $$ 
 
 $$ \frac{\mathrm{d}}{\mathrm{d}t}|_{t = 0}\left(\varphi _{X}\left(t,g\right)\right) = X\begin{pmatrix} u\\1 \end{pmatrix}=\begin{pmatrix} z^{1}u+ z^{2}\\1 \end{pmatrix} $$ 
+
+
+
+
+$$ \left\| f \right\|_{2}= \left\| \hat{f} \right\|_{2} $$
+
+
+
+$$ \int _{-\infty}^{\infty}f\left(x\right) \overline{g\left(x\right)} $$ 
+
+$$ \int _{-\infty}^{\infty}\left(\frac{\sin t }{t }\right)^{4}\,\,d t $$ 
+
+$$ \int _{-\infty}^{\infty}\frac{\sin ^{2}t }{t^{2} }\frac{\sin ^{2}t }t{ } $$ 
+
+Let 
+$$ f\left(x\right)= \frac{\left(\sin t\right)^{2} }{ t^{2}} $$ 
+
+Then
+$$ F\left(f\right)\left(\xi \right)= \left(\pi a- \pi ^{2}\left| \xi  \right| \right)_{+ } $$ 
+
+$$ \left\| f \right\|_{L^{2}}^{2}= \int _{-\infty}^{\infty}f\left(x\right)\overline{f\left(x\right)} \,d x= \int _{-\infty}^{\infty}\frac{\left(\sin t\right)^{4} }{t^{4} }\,d t$$ 
+
+由于$f\in L^{2}$
+
+当$t\to 0$时, $\frac{\sin t }{t }\to 1$, 故
+$$ \int _{-1}^{1}\left| f \right|^{2}\,d x< \infty  $$ 
+
+当$t\to \infty$时, $\frac{\left(\sin t\right)^{2} }{t^{2} }= o\left(t^{2}\right)$ , 故$\int _{-\infty}^{-1}\left| f \right|^{2}+ \int _{1}^{\infty}\left| f \right|^{2}< \infty$. 因此$f\in L^{2}$.
+
+$$ \hat{f}= \left(\pi -\pi ^{2}\left| \xi  \right| \right)_{+ } $$ 
+
+于是
+$$ \begin{aligned} \begin{aligned} \left\| \hat{f} \right\|_{L^{2}}^{2}&= \int _{-\infty}^{\infty}\left(\pi -\pi ^{2}\left| \xi  \right| \right)_{+ }^{2}\,d \xi =   =2 \int _{0}^{\frac{1 }{\pi  }}\left(\pi -\pi ^{2}\xi \right)^{2}\,d \xi\\&= 2\pi ^{2}\int _{0}^{\frac{1 }{ \pi }}\left(1-\pi \xi \right)^{2}\,d \xi\\&= 2\pi \int _{0}^{1}\left(1-\xi \right)^{2}d\xi \\&= 2\pi \int _{0}^{1}\xi ^{2}\,d \xi = \frac{2 }{3 }\pi  \end{aligned} \end{aligned}$$ 
+于是
+$$ \int _{-\infty}^{\infty}\frac{\left(\sin t\right)^{4} }{t^{4} }\,d t= \left\| f \right\|^{2}_{L^{2}}= \left\| \widehat{} \right\|^{2}_{L^{2}}= \frac{2 }{3 }\pi  $$ 
