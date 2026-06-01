@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-01.md",
+                "file": "00.Inbox/HA - HW3.5.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-06-01"
+              "title": "HA - HW3.5"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-01.md",
+                "file": "00.Inbox/HA - HW3.5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-06-01 的大纲"
+              "title": "HA - HW3.5 的大纲"
             }
           },
           {
@@ -198,12 +197,13 @@
   },
   "active": "2c2f8b88e15e580a",
   "lastOpenFiles": [
-    "00.Inbox/HA - HW3.4.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
-    "00.Inbox/HA - HW3.5.md",
     "30.Recources/HA/Course HW/HA - HW3.3.md",
+    "40.Drafts/2026-06",
+    "00.Inbox/HA - HW3.4.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-01.md",
+    "00.Inbox/HA - HW3.5.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
-    "00.Inbox/Daily Draft 2026-06-01.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "30.Recources/HA/Course HW/HA - HW3.2.md",
@@ -224,7 +224,6 @@
     "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-29.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
-    "40.Drafts/2026-03/Daily Draft 2026-03-31.md",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
@@ -252,7 +251,6 @@
     "31.Obsidian Books/未命名",
     "31.Obsidian Books",
     "00.Inbox/31",
-    "30.Recources/HA/HA_Pan.7z",
     "10.Atlas/AT/Atlas - Covering Space.canvas"
   ]
 }

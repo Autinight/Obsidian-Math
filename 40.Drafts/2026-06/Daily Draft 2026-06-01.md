@@ -83,3 +83,35 @@ $$ \hat{f}_{b}\left(t\right)= \pi e^{-2\pi b\left| t \right| } $$
 于是
 $$ \begin{aligned} \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)\,d t&= \pi ^{2}\int _{-\infty}^{\infty}e^{-2\pi \left(a+ b\right)\left| t \right| }\,d t\\&= 2\pi ^{2}\int _{0}^{\infty}e^{-2\pi \left(a+ b\right)t}\,d t= 2\pi ^{2}\left[ \frac{1 }{-2\pi \left(a+ b\right) } e^{-2\pi \left(a+ b\right)t}\right]\\&=  2\pi ^{2}\frac{1 }{2\pi \left(a+ b\right) }= \frac{\pi  }{a+ b }\end{aligned}$$ 
 dm
+
+o
+> [!exercise] Exercise: 
+> 利用 Fourier 变换来证明以下等式: $a > 0, b > 0$ ,
+> 1. $f_{a} * f_{b} = f_{a + b}$ , 其中 $f_{a} = \frac{a}{\pi(x^{2} + a^{2})}$ ;  
+> 2. $g_{a} * g_{b} = g_{\min(a, b)}$ ，其中 $g_{a} = \frac{\sin ax}{\pi x}$ .
+
+
+$$ \widehat{f_{a}*f_{b}}= \hat{f}_{a} \cdot  \hat{f}_{b} $$ 
+
+$$ f_{a}= $$ 
+$$ \frac{1 }{2\pi \left(a+ it\right) }= \int _{0}^{\infty}e^{-2\pi ax}e^{-2\pi xit}\,d x $$ 
+$$ \frac{1 }{2\pi  }\frac{1 }{a-it }= \int _{0}^{\infty}e^{-2\pi ax}e^{2\pi ixt}\,d x = \int _{-\infty}^{0}e^{2\pi a x}e^{-2\pi  ixt}\,d x$$ 
+
+$$ \frac{a }{\pi \left(t^{2}+ a^{2}\right) }= \frac{ 1}{2\pi  } \left(\frac{1 }{a+ it }+ \frac{1 }{a-it }\right)= \int _{-\infty}^{\infty}e^{-2\pi a\left| x \right| }e^{-2\pi i xt}\,d x $$ 
+于是
+
+$$ f_{a}\left(t\right)= \mathcal{F}\left[ e^{-2\pi a \left| x \right| } \right] \left(t\right)$$ 
+
+$$ \hat{f}_{a}\left(t\right)= e^{-2\pi a\left| x \right| } $$ 
+于是
+$$ \hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)= e^{-2\pi \left(a+ b\right)\left| x \right| }= \hat{f}_{a+ b} \left(t\right)$$ 
+于是
+$$ \widehat{f_{a}*f_{b}}= \hat{f}_{a+ b} $$ 
+由fourier变换的唯一性
+$$ f_{a}*f_{b}= f_{a+ b} $$ 
+
+
+
+$$ \mathcal{F}\left[ \chi _{\left[ -b,b \right]}\left(x\right) \right] \left(t\right)= \frac{\sin \left(2\pi  bt\right) }{ \pi t}$$ 
+
+$$ \mathcal{F}\left[ \chi _{\left[ -b,b \right]}\left(2 \pi x\right) \right]\left(t\right)= \frac{\sin \left(bt\right) }{\pi t } $$ 
