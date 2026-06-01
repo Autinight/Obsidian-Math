@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/HA - HW3.5.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA - HW3.5"
+              "title": "LA Xie Ch6"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/HA - HW3.5.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA - HW3.5 的大纲"
+              "title": "LA Xie Ch6 的大纲"
             }
           },
           {
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,11 +196,21 @@
   },
   "active": "2c2f8b88e15e580a",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
+    "10.Atlas/DM/Atlas - Tensor.canvas",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "00.Inbox/HA - HW3.5.md",
+    "00.Inbox/HA - HW3.4.md",
     "30.Recources/HA/Course HW/HA - HW3.3.md",
     "40.Drafts/2026-06",
-    "00.Inbox/HA - HW3.4.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-01.md",
-    "00.Inbox/HA - HW3.5.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
@@ -224,14 +233,6 @@
     "40.Drafts/2026-05/Daily Draft 2026-05-30.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-29.md",
     "40.Drafts/2026-03/Daily Draft 2026-03-30.md",
-    "10.Atlas/DM/Atlas - Tensor.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
@@ -250,7 +251,6 @@
     "31.Obsidian Books/RG_Petersen",
     "31.Obsidian Books/未命名",
     "31.Obsidian Books",
-    "00.Inbox/31",
-    "10.Atlas/AT/Atlas - Covering Space.canvas"
+    "00.Inbox/31"
   ]
 }
