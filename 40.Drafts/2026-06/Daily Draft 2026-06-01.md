@@ -162,6 +162,8 @@ $$ \lambda _1 ^{k}\left(k_1\alpha _1 \right)+ \lambda _2 ^{k}+ \cdots + \lambda 
 $$\left( \frac{\lambda _1  }{\lambda _{n} }\right)^{k}+ \cdots + k_{n}\alpha _{n}= 0 $$ 
 当$k\to \infty$, 得到$k_{n}\alpha _{n}= 0$, 矛盾. 任取部分非零线性组合.
 
+---
+
 例 6.3 设 $\varphi$ 是线性空间 V 上的线性变换, V 有一个直和分解:
 
 $$
@@ -178,6 +180,91 @@ $$
 
 (2) 设 $\lambda_0$ 是 $\varphi$ 的特征值, $V_0 = \{\pmb{v} \in V \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ 为特征子空间, $V_{i,0} = V_i \cap V_0 = \{\pmb{v} \in V_i \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ , 求证:
 
+
 $$
 V _ {0} = V _ {1, 0} \oplus V _ {2, 0} \oplus \dots \oplus V _ {m, 0}.
 $$
+
+
+
+
+$V_{i}$是$\varphi$-不变子空间, 是指
+$$ \varphi \left(V_{i}\right)\subseteq V_{i} $$ 
+
+我们证明特征多项式可以根据不变子空间分解, 事实上.
+我们证明
+$$ f_{i}\left(\lambda \right)|f\left(\lambda \right) $$ 
+
+我们证明如果$f_{i}\left(\lambda \right)= 0$, 则$f\left(\lambda \right)= 0$即可.
+
+若不整除, 则
+$$ \operatorname{gcd}\left(f_{i},f\right)\neq f_{i} $$ 
+$$ f_{i}= \operatorname{gcd}\left(f_{i},f\right)g_{i} $$ 
+那么存在点使得$g_{i}= 0$, $\operatorname{gcd}\left(f_{i},f\right)\neq  0$.
+于是 $f_{i}\left(x\right)= 0$但是$f\left(x\right)\neq 0$.
+
+如果不整除, 则存在$f_{i}\left(x\right)= 0$但是$f\left(x\right)\neq 0$
+反之, 如果
+对于任意的$f_{i}\left(x\right)= 0$, $f\left(x\right)= 0$, 则一定整除.
+
+是否存在$x$, 使得$g_{i}\left(x\right)= 0$, 但是$\operatorname{gcd}\left(f_{i},f\right)\neq 0$呢
+
+
+
+所谓特征多项式, 就是
+
+$\det \left(\lambda I-A\right)$
+对于任意的特征向量, 存在, 把$\alpha$变成是一个基, 则
+$$ \left(\lambda I-A\right)\alpha = 0 $$ 
+所以$\lambda I-A$不是可逆的, $\det$为零.
+则存在一组基
+$$ \alpha _{11},\cdots ,\alpha _{1k_1},\cdots ,\alpha _{i1},\alpha _{i k_{i}},\cdots ,\alpha _{m1}, \cdots ,\alpha _{m  k_{m}} $$ 
+
+使得$A$在这组基下为分块
+$$ \operatorname{diag} \left( A_1,\cdots ,A_{m} \right)   $$ 
+
+那么
+$$ \lambda I-A= \operatorname{diag} \left( \lambda I-A_1,\cdots ,\lambda I-A_{m} \right)   $$ 
+
+$$ \det \left(\lambda I-A\right)= \det \left(\lambda I-A_1\right)\cdots \det \left(\lambda I-A_{m}\right) $$ 
+oo
+
+
+(2) 设 $\lambda_0$ 是 $\varphi$ 的特征值, $V_0 = \{\pmb{v} \in V \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ 为特征子空间, $V_{i,0} = V_i \cap V_0 = \{\pmb{v} \in V_i \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ , 求证:
+
+
+$$
+V _ {0} = V _ {1, 0} \oplus V _ {2, 0} \oplus \dots \oplus V _ {m, 0}.
+$$
+
+$$ V_0= V_0\cap V= V_0\cap \left(V_1\oplus V_2\oplus \cdots \oplus V_{m}\right) $$ 
+
+任取$v\in V_0$, 设
+$$ v_0= v_1+ \cdots + v_{m} $$ 
+我们证明
+$$ v_{i}\in V_{i}\cap V_0 $$ 
+
+$$ \varphi \left(v_0\right)= \sum _{i}\varphi \left(v_{m}\right)= \lambda _0 v_0 $$ 
+
+$$ \varphi \left(v_{m}\right)\subseteq V_{m} $$
+记$v_{m}^{\prime} = \varphi \left(v_{mo}\right)$ 
+
+$$ \lambda _0 v_0=  v_1^{\prime} + \cdots + v_{m}^{\prime} = \lambda _0 v_1+ \cdots + \lambda _0 v_{m}$$ 
+于是
+$$ \left(v_1^{\prime} -\lambda _0 v_1\right)+ \cdots + \left(v_{m}^{\prime} -\lambda _0 v_{m}\right) = 0$$ 
+
+由于分解是直和分解, 我们得到
+$$ v_{i}^{\prime} = \lambda _0 v_{m} $$ 
+于是
+$$ \varphi \left(v_{m}\right)= \lambda _0 v_{m} $$ 
+$v_{m}\in V_{m}\cap V_0$
+因此
+$$ V_0\subseteq V_{10}\oplus \cdots \oplus V_{m_0} $$ 
+反过来, 易见
+$$ V_{10} \oplus \cdots \oplus V_{m 0}\subseteq V_0$$ 
+
+例 6.4 设 n 阶分块对角阵 $A = \text{diag}\{A_{1}, A_{2}, \cdots, A_{m}\}$ ，其中 $A_{i}$ 是 $n_{i}$ 阶矩阵.
+
+(1) 任取 $A_{i}$ 的特征值 $\lambda_{i}$ 及其特征向量 $\pmb{x}_{i} \in \mathbb{C}^{n_{i}}$ , 求证: 可在 $\pmb{x}_{i}$ 的上下添加适当多的零, 得到非零向量 $\widetilde{\pmb{x}}_{i} \in \mathbb{C}^{n}$ , 使得 $A\widetilde{\pmb{x}}_{i} = \lambda_{i}\widetilde{\pmb{x}}_{i}$ , 即 $\widetilde{\pmb{x}}_{i}$ 是 $\pmb{A}$ 关于特征值 $\lambda_{i}$ 的特征向量, 称为 $\pmb{x}_{i}$ 的延拓.
+
+(2) 任取 A 的特征值 $\lambda_{0}$ ，并设 $\lambda_{0}$ 是 $A_{i_{1}}, \cdots, A_{i_{r}}$ 的特征值，但不是其他 $A_{j} (1 \leq j \leq m, j \neq i_{1}, \cdots, i_{r})$ 的特征值，求证：A 关于特征值 $\lambda_{0}$ 的特征子空间的一组基可取为 $A_{i_{k}} (1 \leq k \leq r)$ 关于特征值 $\lambda_{0}$ 的特征子空间的一组基的延拓的并集.
