@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/HA - HW3.4.md",
-                "mode": "source",
+                "file": "00.Inbox/Daily Draft 2026-06-01.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA - HW3.4"
+              "title": "Daily Draft 2026-06-01"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/HA - HW3.4.md",
+                "file": "00.Inbox/Daily Draft 2026-06-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA - HW3.4 的大纲"
+              "title": "Daily Draft 2026-06-01 的大纲"
             }
           },
           {
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +198,9 @@
   },
   "active": "2c2f8b88e15e580a",
   "lastOpenFiles": [
+    "00.Inbox/HA - HW3.4.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "00.Inbox/HA - HW3.5.md",
-    "00.Inbox/HA - HW3.4.md",
     "30.Recources/HA/Course HW/HA - HW3.3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "00.Inbox/Daily Draft 2026-06-01.md",

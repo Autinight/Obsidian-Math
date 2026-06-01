@@ -58,3 +58,28 @@ $$ \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right) \hat{f}_{b}\left(t\right)\,
  $$ f_{a}\left(t\right)= \left(\frac{1 }{2 }\ln \left(t^{2}+ a^{2}\right)\right) ^{\prime} = \frac{t }{t^{2}+ a^{2} }$$ 
 
  $$ \widehat{f^{\prime} }\left(t\right)= \left(2\pi i t\right) \hat{f}\left(t\right)$$ 
+
+ $$ f_{a}^{\prime} \left(t\right)= \frac{t^{2}+ a^{2}-t\left(2t\right) }{t^{2}+ a^{2} }= \frac{a^{2}-t^{2} }{a^{2}+ t^{2} } $$ 
+
+
+
+$$ \int _{-\infty}^{\infty}\ln \left(t^{2}+ a^{2}\right) e^{-2\pi  i \xi t}\,d t= $$ 
+o
+
+
+$$ \frac{t }{t^{2}+ a^{2} }= \frac{1}{2}\left(\frac{1 }{a+ it }+ \frac{1 }{a-it }\right) $$ 
+
+$$ \frac{1 }{2\pi \left(a+ it\right) }= \frac{e^{-\left(a+ it\right)2\pi  x} }{2\pi \left(a+ it \right)}|_{\infty}^{0}= \int _{0}^{\infty}e^{-\left(a+ it\right)2\pi x}= \int _{0}^{\infty}e^{-2\pi  ax}e^{-2\pi x it}\,d x$$ 
+
+$$ \frac{1 }{2\pi  }\frac{1 }{\left(a-it\right) }= \left[ \frac{e^{-\left(a- it\right)2\pi x} }{ 2\pi \left(a-it\right)} \right] _{\infty}^{0}= \int _{0}^{\infty}e^{-\left(a-it\right)2\pi  x}= \int _{0}^{\infty}e^{-2\pi ax}e^{2\pi xit}\,d x= \int _{-\infty}^{0}e^{2\pi  ax}e^{2\pi x it}$$ 
+于是
+$$ \frac{1 }{2\pi  }\left(\frac{1 }{a+ it }+ \frac{1 }{a-it }\right) = \mathcal{F}\left[ e^{-2\pi a \left| x \right| } \right]\left(t\right)$$ 
+于是
+$$ f_{a}\left(t\right)= \frac{t }{t^{2}+ a^{2} }= \pi  \mathcal{F}\left[ e^{-2\pi  a\left| x \right| } \right] \left(t\right)$$ 
+
+$$ \hat{f}_{a}\left(t\right)= \pi e^{-2\pi a \left| t \right| } $$ 
+$$ \hat{f}_{b}\left(t\right)= \pi e^{-2\pi b\left| t \right| } $$ 
+
+于是
+$$ \begin{aligned} \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)\,d t&= \pi ^{2}\int _{-\infty}^{\infty}e^{-2\pi \left(a+ b\right)\left| t \right| }\,d t\\&= 2\pi ^{2}\int _{0}^{\infty}e^{-2\pi \left(a+ b\right)t}\,d t= 2\pi ^{2}\left[ \frac{1 }{-2\pi \left(a+ b\right) } e^{-2\pi \left(a+ b\right)t}\right]\\&=  2\pi ^{2}\frac{1 }{2\pi \left(a+ b\right) }= \frac{\pi  }{a+ b }\end{aligned}$$ 
+dm

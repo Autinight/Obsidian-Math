@@ -50,6 +50,27 @@
 >    
 >    最终得到
 >    $$ \int _{-\infty}^{\infty}\frac{\sin \left(at\right) \sin \left(bt\right)}{t^{2} }\,d t= \pi \min \left(a,b\right)$$ 
-
-
-
+> 
+> 2. 令
+>    $$ f_{a}\left(t\right)= \frac{t }{t^{2}+ a^{2} },\quad f_{b}\left(t\right)= \frac{t }{t^{2}+ b^{2} }$$ 
+>    
+>    则
+>    $$ f_{a}\left(t\right)= \frac{1}{2}\left(\frac{1 }{a+ it }+ \frac{1 }{a-it }\right) $$ 
+>    
+>    $$ \frac{1 }{2\pi \left(a+ it\right) }= \left[ \frac{e^{-\left(a+ it\right)2\pi x} }{ 2\pi \left(a+ it\right)} \right]_{\infty}^{0}= \int _{0}^{\infty}e^{-\left(a+ it\right)2\pi x}= \int _{0}^{\infty}e^{-2\pi ax}e^{-2\pi x it}\,d x $$ 
+>    类似地, 
+>    $$ \frac{1 }{2\pi  }\frac{1 }{a-it }= \int _{-\infty}^{0}e^{2\pi ax} e^{2\pi x it}\,d x$$ 
+>    故
+>    $$ \frac{1 }{2\pi  }\left(\frac{1 }{a+ it }+ \frac{1 }{a-it }\right) = \mathcal{F}\left[ e^{-2\pi a\left| x \right| } \right]\left(t\right)$$ 
+>    故
+>    $$ f_{a}\left(t\right)= \mathcal{F}\left[ \pi e^{-2\pi a\left| x \right| } \right] \left(t\right)$$
+>    故
+>    $$ \hat{f}_{a}\left(t\right)eq\pi e^{-2\pi a\left| -t \right| }= \pi e^{-2\pi a\left| t \right| } $$  
+>    
+>    同样地
+>    $$ \hat{f}_{b}\left(t\right)= e^{-2\pi  b \left| t \right| } $$ 
+>    
+>    于是
+>    $$ \begin{aligned} \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)&= \pi ^{2}\int _{-\infty}^{\infty}e^{-2\pi \left(a+ b\right)\left| t \right| }\,d t\\&= 2\pi ^{2}\int _{0}^{\infty}e^{-2\pi \left(a+ b\right)t} \,d t\\&= \frac{\pi  }{a+ b }\end{aligned} $$ 
+>    由Parseval等式, 
+>    $$ \begin{aligned} \int _{-\infty}^{\infty}\frac{t^{2} }{\left(t^{2}+ a^{2}\right)\left(t^{2}+ b^{2}\right) }&= \int _{-\infty}^{\infty}f_{a}\left(t\right)f_{b}\left(t\right)\,d t\\&= \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)\,d t\\&= \frac{\pi  }{a+ b } \end{aligned} $$ 
