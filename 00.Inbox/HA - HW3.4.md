@@ -22,7 +22,34 @@
 > 1. $\int_{-\infty}^{\infty} \frac{\sin(at)\sin(bt)}{t^2} \mathrm{d}t = \pi \min(a, b)$ ;   
 > 2. $\int_{-\infty}^{\infty} \frac{t^2}{(t^2 + a^2)(t^2 + b^2)} \, \mathrm{d}t = \frac{\pi}{a + b}$ .
 
-> [!proof] Proof:
+> [!proof] Proof: 
 > 1. 令
-> $$ f_{a}\left(t\right)= \frac{\sin \left(at\right) }{t } ,\quad f_{b}\left(t\right)= \frac{\sin \left(bt\right) }{t }$$ 
+>    $$ f_{a}\left(t\right)= \frac{\sin \left(at\right) }{t },\quad f_{b}\left(t\right)= \frac{\sin \left(bt\right) }{t }  $$ 
+>    
+>    
+>    则 $f_{a}, f_{b}\in L^{1}\cap L^{2}\left(\mathbb{R} \right)$.
+>    
+>    
+>    由Parseval等式, 我们有
+>    $$ \int _{-\infty}^{\infty}f_{a}\left(t\right){f}_{b}\left(t\right)\,d t= \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right)\hat{f}_{b}\left(t\right)\,d t$$ 
+>    
+>    其中
+>    $$ \int _{-\infty}^{\infty}f_{a}\left(t\right)f_{b}\left(t\right)\,d t= \int _{-\infty}^{\infty}\frac{\sin \left(at\right)\sin \left(bt\right) }{t^{2} }\,d t $$ 
+>    
+>    
+>    
+>    
+>    
+>    此外,
+>    $$F\left[ \frac{\sin \left(ax\right) }{  x} \right]\left(\xi \right)= \pi \chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(\xi \right) $$  
+>    
+>    于是
+>    $$ \hat{f}_{a}\left(t\right)= \pi \chi _{\left[ -\frac{a }{2\pi  },\frac{a }{2\pi  } \right]}\left(t\right) ,\quad \hat{f}_{b}\left(t\right)= \pi \chi _{\left[ -\frac{b }{2\pi  },\frac{b }{2\pi  } \right]}\left(t\right)$$
+>    因此
+>    $$ \int _{-\infty}^{\infty}\hat{f}_{a}\left(t\right) \hat{f}_{b}\left(t\right)\,d t= \pi ^{2}\int _{-\frac{\min \left(a,b\right) }{2\pi  }}^{\frac{\min \left(a,b\right) }{2\pi  }}\,d t= \pi \min \left(a,b\right)$$  
+>    
+>    最终得到
+>    $$ \int _{-\infty}^{\infty}\frac{\sin \left(at\right) \sin \left(bt\right)}{t^{2} }\,d t= \pi \min \left(a,b\right)$$ 
+
+
 
