@@ -115,3 +115,69 @@ $$ f_{a}*f_{b}= f_{a+ b} $$
 $$ \mathcal{F}\left[ \chi _{\left[ -b,b \right]}\left(x\right) \right] \left(t\right)= \frac{\sin \left(2\pi  bt\right) }{ \pi t}$$ 
 
 $$ \mathcal{F}\left[ \chi _{\left[ -b,b \right]}\left(2 \pi x\right) \right]\left(t\right)= \frac{\sin \left(bt\right) }{\pi t } $$ 
+
+
+$$f:V\to V $$ 
+
+$$ \operatorname{Im}f\simeq  V/\operatorname{ker}f $$ 
+$f$是满的, 则$V/\operatorname{ker}f\simeq V$,只能有$\operatorname{ker}f= 0$.
+如果$f$是单的, 则$\operatorname{ker}f= 0$, $\operatorname{Im}f= V$.
+因为是有限维, 所以维数可以做减法.
+
+$V$是$n$阶矩阵全体构成的线性空间, $\varphi$是$V$上的线性变换, 使得
+$$ \varphi \left(A\right)= AX $$ 
+$A$是一个$n$阶矩阵, $\varphi$和$A$有相同的特征值(重数不同).
+
+设$\lambda$是$A$的特征值, 则
+$$ Ax_0= \lambda x_0 $$ 
+
+于是
+$$ \varphi \left(\left(x_0,0,\cdots \right)\right)= A\left(x_0,0,\cdots ,0\right)= \left(Ax_0,\cdots ,0\right)= \left(\lambda x_0,\cdots ,0\right)= \lambda X $$ 
+于是$\lambda$是$\varphi$的特征值. 反之, 若$\lambda$是$\varphi$ 的特征值, 设
+$$ AX_0= \lambda X_0, $$ 
+于是对于
+$$ A\left(x_0,x_1,\cdots ,x_{n}\right)= \lambda \left(x_0,x_1,\cdots ,x_{n}\right) $$ 
+你可以看到, $A$的关于$\lambda$特征向量组合在一起张成一个矩阵, 构成$\varphi$的一个特征"向量".  $\varphi$的特征"向量"矩阵都是$A$的特征向量.
+
+
+例 6.2 设 $\lambda_{1}, \lambda_{2}$ 是矩阵 A 的两个不同的特征值, $\alpha_{1}, \alpha_{2}$ 分别是 $\lambda_{1}, \lambda_{2}$ 的特征向量, 求证: $\alpha_{1} + \alpha_{2}$ 必不是 A 的特征向量.
+
+不同的特征值, 特征向量, $\alpha _1 + \alpha _2$不是特征向量. 
+$$ A\left(\alpha _1 + \alpha _2 \right)= \lambda _1 \alpha _1 + \lambda _2 \alpha _2  $$ 
+
+如果$\alpha _1 + \alpha _2$是特征向量, 存在$\lambda _3$, 使得
+$$ \left(\lambda _1 -\lambda _3 \right) \alpha _1 + \left(\lambda _2 -\lambda _3 \right)\alpha _2 = 0$$  
+由于特征向量是线性无关的.
+
+为什么特征向量是线性无关的?
+
+$$ k_1\alpha _2 + k_2\alpha _2 + \cdots + k_{n}\alpha _{n}= 0$$ 
+则
+$$ \lambda _1 k_1\alpha _1 + \lambda _2 k_2\alpha _2 + \cdots + \lambda _{n}k_{n}\alpha _{n}= 0 $$ 
+于是
+$$ \lambda _1 ^{k}\left(k_1\alpha _1 \right)+ \lambda _2 ^{k}+ \cdots + \lambda _{n}^{k}k_{n}\alpha _{n}= 0 $$ 
+
+当$k\to \infty$时, 赋予向量空间欧式内积. 从而定义出范数, 所有向量都是有限范数的. 
+
+$$\left( \frac{\lambda _1  }{\lambda _{n} }\right)^{k}+ \cdots + k_{n}\alpha _{n}= 0 $$ 
+当$k\to \infty$, 得到$k_{n}\alpha _{n}= 0$, 矛盾. 任取部分非零线性组合.
+
+例 6.3 设 $\varphi$ 是线性空间 V 上的线性变换, V 有一个直和分解:
+
+$$
+V = V _ {1} \oplus V _ {2} \oplus \dots \oplus V _ {m},
+$$
+
+其中 $V_{i}$ 都是 $\varphi-$ 不变子空间.
+
+(1) 设 $\varphi$ 限制在 $V_{i}$ 上的特征多项式为 $f_{i}(\lambda)$ , 求证: $\varphi$ 的特征多项式
+
+$$
+f (\lambda) = f _ {1} (\lambda) f _ {2} (\lambda) \dots f _ {m} (\lambda).
+$$
+
+(2) 设 $\lambda_0$ 是 $\varphi$ 的特征值, $V_0 = \{\pmb{v} \in V \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ 为特征子空间, $V_{i,0} = V_i \cap V_0 = \{\pmb{v} \in V_i \mid \varphi(\pmb{v}) = \lambda_0 \pmb{v}\}$ , 求证:
+
+$$
+V _ {0} = V _ {1, 0} \oplus V _ {2, 0} \oplus \dots \oplus V _ {m, 0}.
+$$
