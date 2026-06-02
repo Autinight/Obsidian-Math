@@ -1,6 +1,24 @@
 > [!exercise] Exercise 1
 > 证明赋范线性空间中的范数由内积诱导当且仅当其满足平行四边形法则。
 
+> [!proof] Proof: 
+> 若
+> $$ \left\| x \right\|^{2}= \left(x,x\right) $$ 
+> 则
+> $$ \begin{aligned} &\left\| x+ y \right\|^{2}+ \left\| x-y \right\| ^{2}\\&= \left(x+ y,x+ y\right)+ \left(x-y,x-y\right)\\&= \left(x,x\right)+ \left(x,y\right)+ \left(y,x\right)+ \left(y,y\right)\\&+ \left(x,x\right)-\left(x,y\right)-\left(y,x\right)+ \left(y,y\right)\\&= 2\left(x,x\right)+ 2\left(y,y\right)\\&= 2\left\| x \right\|^{2}+ \left\| y \right\|^{2} \end{aligned}$$ 
+> 故范数诱导的内积满足平行四边形法则
+>
+> **反之, 若范数满足平行四边形法则**, 则
+> $$ \left\| x+ y \right\|^{2}+ \left\| x-y \right\|^{2}= 2\left\| x \right\|^{2}+ 2\left\| y \right\|^{2} $$ 
+>
+> $$ \left\| x+ y \right\|^{2}-\left\| x-y \right\|^{2}= \left(x,y\right)+ \left(y,x\right) $$ 
+> $$ \left\| x+ iy \right\|^{2}-\left\| x-iy \right\|^{2}= -i\left(x,y\right)+ i\left(y,x\right) $$
+> $$ \left(x,y\right)-\left(y,x\right)= i\left\| x+ iy \right\|-i\left\| x-iy \right\|^{2} $$  
+> 定义
+> $$ \left(x,y\right)= \frac{1}{2}\left(\left\| x+ y \right\|^{2}-\left\| x-y \right\|^{2}+ i\left\| x+ iy \right\|^{2}-i\left\| x-iy \right\|^{2}\right) $$ 
+>
+> 
+
 > [!exercise] Exercise 2
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，证明商空间 $H / M$ 与 $M$ 的正交补空间 $M^\perp$ 等距同构。
 
