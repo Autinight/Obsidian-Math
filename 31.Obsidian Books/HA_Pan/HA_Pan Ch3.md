@@ -141,7 +141,7 @@ $$
 (1) $\lim_{|t|\to \infty}\hat{f} (t) = 0;$   
 (ii) $|\hat{f}(t)| \leqslant \| f \|_1, t \in (-\infty, \infty)$ ,
 
-其中 $\| f \|_1 = \int_{-\infty}^{\infty} |f(x)| \mathrm{d}x$ 。映射 $f \to \hat{f}$ 可以看作是 $L^1(R)$ 到 $L^\frac{1}{\infty}(R)$ 的有界线性算子：
+其中 $\| f \|_1 = \int_{-\infty}^{\infty} |f(x)| \mathrm{d}x$ 。映射 $f \to \hat{f}$ 可以看作是 $L^1(R)$ 到 $L^{\infty}(R)$ 的有界线性算子：
 
 $$
 \| \hat {f} \| _ {\infty} \leqslant \| f \| _ {1};
