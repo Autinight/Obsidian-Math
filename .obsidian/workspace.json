@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-                "mode": "source",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch6"
+              "title": "HA_Pan Ch3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch6 的大纲"
+              "title": "HA_Pan Ch3 的大纲"
             }
           },
           {
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +198,14 @@
   },
   "active": "2c2f8b88e15e580a",
   "lastOpenFiles": [
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
+    "00.Inbox/Daily Draft 2026-06-02.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "30.Recources/HA/HA - HW3.4.md",
+    "30.Recources/HA/HA - HW3.5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
@@ -215,12 +222,8 @@
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "00.Inbox/HA - HW3.5.md",
-    "00.Inbox/HA - HW3.4.md",
     "30.Recources/HA/Course HW/HA - HW3.3.md",
     "40.Drafts/2026-06",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "30.Recources/HA/Course HW/HA - HW3.2.md",
@@ -232,7 +235,6 @@
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
