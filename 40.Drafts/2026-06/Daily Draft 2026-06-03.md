@@ -77,3 +77,33 @@ $$ \lim_{n\to \infty}\left\| \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\a
 
 可数个是合理的.
 为什么需要说明$x_{m}$是基本列? 说明了基本列.
+
+
+$S$是封闭的, $S$是完备的, Parseval恒等式.
+
+什么是封闭性?
+
+为什么完备能导出Parseval.
+
+完备是指
+若
+$$ \left\| x-\sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } \right\| ^{2}= 0$$ 
+则
+$$ x= \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } $$ 
+如果是正交规范 的, 则$\sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha }$也是
+是一个基, 也就是说内积空间中的任意元都可以表示.
+
+Bessel不等式是说如果你有表示,那么有不等式
+
+Hilbert空间中的正交规范集,则 你的内积也是属于$\mathfrak{X}$的, 因为
+$$ \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } = \sum _{i = 1}^{\infty}\left(x,e_{\alpha }\right)e_{\alpha }$$ 
+被定义为有限维组合的上确界.
+因为是可数的, 所以$\sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha }$
+可以看成是可数点列极限.
+于是,
+验证Cauchy条件, 然后发现收敛. 这是第一个结论
+
+
+$$ \frac{1 }{\sqrt{2\pi } }e^{\int } $$ 
+是一组基, 或者
+$$ \frac{1 }{2\pi  }e^{2\pi  i n t} $$ 

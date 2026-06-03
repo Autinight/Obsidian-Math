@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "52949b3b328f6f3a",
+        "id": "36d91b267cbe15c6",
         "type": "tabs",
         "children": [
           {
-            "id": "2c2f8b88e15e580a",
+            "id": "e7dfc63ad7d5fd71",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,43 +30,8 @@
               "icon": "lucide-file",
               "title": "FA_Zhang_Ch1"
             }
-          },
-          {
-            "id": "32b5273e78c9c8e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FA_Liu_obsidian"
-            }
-          },
-          {
-            "id": "7e50633a5fe48cf2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -191,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "thm - Gagliardo-Nirenberg-Sobolev Inequality 的大纲"
+              "title": "FA_Zhang_Ch1 的大纲"
             }
           },
           {
@@ -230,13 +196,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "e7dfc63ad7d5fd71",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
@@ -250,7 +219,6 @@
     "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-02.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
@@ -259,7 +227,6 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
