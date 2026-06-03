@@ -141,4 +141,41 @@ $$ m= \inf _{x\in C}\left\| y-x \right\| $$
 $$ \left\| y-x_{m} \right\|\to m $$ 
 
 我们来考虑$x_{n}$是不是Cauchy列, 计算
-$$ \begin{aligned} \left\| x_{m}-x_{n} \right\| &= \left\| \left(y-x_{m}\right)-\left(y-x_{n}\right) \right\|^{2}\\&=  \end{aligned}$$ 
+$$ \begin{aligned} \begin{aligned} \left\| x_{m}-x_{n} \right\| &= \left\| \left(y-x_{m}\right)-\left(y-x_{n}\right) \right\|^{2}\\&=-\left\| \left(y-x_{m}\right)+ \left(y-x_{n}\right) \right\|+ 2\left(\left\| y-x_{m} \right\|^{2}+ \left\| y-x_{n} \right\|^{2}\right)\\&= -4\left\| y-\frac{x_{m}+ x_{n} }{2 } \right\|+ 2\left(\to 2m\right) \\&\le -4m^{2}+ 4m^{2}\to 0\end{aligned} \end{aligned}$$ 
+
+凸集,
+$$ \left\| y-\frac{x_{m}+ x_{n} }{2 } \right\|\ge m $$ 
+于是是Cauchy列, 进而由完备性可知收敛.
+Hilbert性质用与平行四边形公式.
+
+存在$x_{n}\to x_0$. $x_0\in C$, 由于是闭集.
+
+所以凸性在于平行四边形公式的时候, 另一条对角线可控.
+
+闭性在于我们找的逼近点是收敛点,它得在$C$limm .
+
+唯一性就
+
+$x_0$是最佳逼近, 当且仅当
+$$ R\left(y-x_0, x_0-x\right)\ge 0,\forall x\in C $$ 
+
+展开复Hilbert空间的一个和式, 就是
+$$ \left\| a \right\|^{2}+ 2\operatorname{Re}\left(a,b\right)+ \left\| b \right\|^{2} $$ 
+最佳逼近, 考虑和最佳逼近的距离
+
+用凸集构建一个连线方向的方程, 在$x$趋于$x_0$的过程中, 我们有
+$$ 2t\operatorname{Re}\left(y-x_0,x-x_0\right)\le t^{2}\left\| \times-x_0 \right\|^{2} $$ 这块比较重要. 
+所以
+$$ \operatorname{Re}\left(y-x_0,x-x_0\right)\le 0 $$ 
+
+$$ \operatorname{Re}\left(y-x_0, x_0-x\right)\ge 0 $$ 
+
+$y$和$x_0$的距离, $x$和$x_0$的距离是小于等于零的.. $y$和$x$是两个方向, 最佳逼近点o
+用点和圆盘的模型, $x_0$作为最佳逼近点, 所在的距离水平面, 将$C$和$y$切分.
+
+反过来.
+我们把$\left\| y-x_0 \right\|^{2}$拆成两个家伙和$x_0$的距离的差, 然后展开, 二次项剩下$\left\| x_0-x \right\|^{2}$, 交叉项就是$\operatorname{Re}$, 所以这里的$\operatorname{Re}$就是内积和展开式的交叉项.
+
+$x_0$是$y_0$的最佳逼近, 当且仅当
+
+最佳逼近, $y$是$x$在$M$上的最佳逼近, 当且仅当$x-y\perp M$.

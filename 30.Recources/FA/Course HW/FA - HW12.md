@@ -57,6 +57,9 @@
 > [!exercise] Exercise 2
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，证明商空间 $H / M$ 与 $M$ 的正交补空间 $M^\perp$ 等距同构。
 
+> [!proof] Proof: 
+> $$ H/M=  $$ 
+
 > [!exercise] Exercise 3
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，$\{e_n\}$ 与 $\{f_m\}$ 分别是 $M$ 与 $M^\perp$ 的标准正交基。证明：
 > $$
