@@ -65,7 +65,17 @@
 > $$ \begin{aligned} \varphi : H/M&\to M^{\perp},\\ \left[ y \right]&\mapsto y-x_0\end{aligned} $$ 
 > 为了说明$\varphi$良定义, 设$y_1,y_2\in H$, 使得$y_1-y_2\in M$, 并且$x_0,x_0^{\prime}$分别是$y_1,y_2$的最佳逼近. 则
 > 则$y_1-x_0\in M^{\perp}$, $y_2-x_0^{\prime} \in M^{\perp}$, 我们有
-> 
+> $$ \begin{aligned} &\left(y_1-y_2-\left(x_0-x_0^{\prime} \right), y_1-y_2-\left(x_0-x_0^{\prime} \right)\right)\\&= \left(\left(y_1-y_2\right)-\left(x_0-x_0^{\prime} \right), \left(y_1-x_0\right)-\left(y_2-x_0^{\prime} \right)\right)\end{aligned} $$ 
+> 其中$\left(y_1-y_2\right)-\left(x_0-x_0\right)^{\prime} \in M$, $\left(y_1-x_0\right)-\left(y_2-x_0^{\prime} \right)\in M^{\perp}$. 于是
+> $$ \left\| y_1-y_2 -\left(x_0-x_0\right)^{\prime} \right\|^{2}= 0 $$ 
+> 故
+> $$ y_1-x_0= y_2-x_0^{\prime}  $$ 
+> 这表明$\varphi$是良定义的.
+> 此外, 若$x_0$是$y_1$的最佳逼近, $x_0^{\prime}$是$y_2$的最佳逼近, 则$y_1-x_0\in M^{\perp}, y_2-x_0^{\prime} \in M^{\perp}$, 进而$\left(y_1+ ky_2\right)-\left(x_0+ kx_0^{\prime} \right)\in M^{\perp}$. 因此
+> $$ \varphi \left(\left[ y_1+ ky_2 \right]\right) =\varphi \left(\left[ y_1 \right]\right)+ k \varphi \left(\left[ y_2 \right]\right)$$ 
+> 故$\varphi$是线性映射. 并且
+> $$ \left\| \left[ y \right] \right\|_{H/M}= \left\| y-x_0 \right\|_{M}= \left\| \varphi \left(y\right) \right\| $$ 
+> 故$\varphi$是等距同构.
 
 > [!exercise] Exercise 3
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，$\{e_n\}$ 与 $\{f_m\}$ 分别是 $M$ 与 $M^\perp$ 的标准正交基。证明：
@@ -74,8 +84,25 @@
 > $$
 > 是 $H$ 的标准正交基。
 
+> [!proof] Proof: 
+> 易见$\left\{ e_{n} \right\}\cup \left\{ f_{m} \right\}$中的元是两两正交的, 只需要证明$\overline{\operatorname{span}\left(\left\{ e_{n} \right\}\cup \left\{ f_{n} \right\}\right)}= M$
+>
+> 任取$x\in H$, 设$y$是$x$在$M$上的最佳逼近, 则$x-y\in M^{\perp}$, 记$x^{\perp}= x-y$, 则
+> $$ x= y+ x^{\perp} $$ 
+> 由于$\left\{ e_{n} \right\}$是$M$的正交基, 我们有
+> $$ y= \sum \left(e_{n},y\right) e_{n}$$ 
+> 由于$\left\{ f_{m} \right\}$是$M^{\perp}$的正交基, 我们有
+> $$ x^{\perp}= \sum \left(f_{m},x^{\perp}\right)f_{m} $$ 
+> 于是
+> $$ x= \sum \left(e_{n},y\right)e_{n}+ \sum \left(f_{m},y\right)f_{m} $$ 
+> 这表明$x\in \overline{\operatorname{span}\left(\left\{ e_{n} \right\}\cup \left\{ f_{m} \right\}\right)}$.  因此$\left\{ e_{n} \right\}\cup \left\{ f_{m} \right\}$是$H$的标准正交基.
+
+
 > [!exercise] Exercise 4
 > 设 $M$ 是 Hilbert 空间 $H$ 的线性子空间，$f$ 是 $M$ 上的有界线性泛函。证明 $f$ 有且只有一个到 $H$ 上的保范延拓，使得这个延拓在 $M^\perp$ 上为零。
+
+> [!proof] Proof: 
+> $$ H= M\oplus M^{\perp} $$ 
 
 > [!exercise] Exercise 5
 > 设 $M$ 是 Hilbert 空间 $H$ 中的非空子集，证明 $(M^\perp)^\perp$ 是包含 $M$ 的最小闭子空间。

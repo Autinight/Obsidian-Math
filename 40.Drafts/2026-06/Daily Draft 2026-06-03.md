@@ -192,3 +192,8 @@ $$ \left(x-y,w\right)= 0 $$
 $$ \operatorname{Re}\left(x-y,w\right)= 0 $$ 
 
 $$ \left(x-y, z-y\right)= \left(x-y,z\right)+ \left(x-y,\right) $$ 
+
+
+我们发现简单的减法有些问题emmm
+
+$$ \left\| z-\left(x_0+ y_0\right) \right\| $$ 
