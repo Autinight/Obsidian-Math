@@ -102,13 +102,13 @@
 > 设 $M$ 是 Hilbert 空间 $H$ 的线性子空间，$f$ 是 $M$ 上的有界线性泛函。证明 $f$ 有且只有一个到 $H$ 上的保范延拓，使得这个延拓在 $M^\perp$ 上为零。
 
 > [!proof] Proof: 
-> $$ H= M\oplus M^{\perp} $$ 
+> $$ H= \overline{M}\oplus M^{\perp} $$ 
 > 任取$h\in H$, 有分解
-> $$ h= h_{M}+ h_{M^{\perp}} $$ 
+> $$ h= h_{\overline{M}}+ h_{M^{\perp}} $$ 
 > 我们定义
-> $$ \begin{aligned} F: H&\to H\\ h &\mapsto f\left(h_{M}\right) \end{aligned} $$ 
+> $$ \begin{aligned} F: H&\to \mathbb{F}\\ h &\mapsto f\left(h_{\overline{M}}\right) \end{aligned} $$ 
 > 由正交分解的唯一性, 可知$F$是线性映射. 此外
-> $$ \left\| F\left(h\right) \right\|= \left\| f\left(h_{M}\right) \right\|\le \left\| f \right\|\left\| h_{M} \right\|\le \left\| f \right\|\left\| h \right\| $$ 
+> $$ \left\| F\left(h\right) \right\|= \left\| f\left(h_{\overline{M}}\right) \right\|\le \left\| f \right\|\left\| h_{\overline{M}} \right\|\le \left\| f \right\|\left\| h \right\| $$ 
 > 故
 > $$ \left\| F \right\|\le \left\| f \right\| $$ 
 > 此外, 由于$F|_{M}= f$, 易见$\left\| F \right\|\ge \left\| F|_{M} \right\|= \left\| f \right\|$, 因此$\left\| F \right\|= \left\| f \right\|$.
@@ -122,8 +122,53 @@
 > [!exercise] Exercise 5
 > 设 $M$ 是 Hilbert 空间 $H$ 中的非空子集，证明 $(M^\perp)^\perp$ 是包含 $M$ 的最小闭子空间。
 
+> [!proof] Proof: 
+> 任取$x \in M$, 我们有
+> $$ \left(x, y\right)= 0,\forall y\in M^{\perp} $$ 
+> 因此$x\in \left(M^{\perp}\right)^{\perp}$. 故$M\subseteq \left(M^{\perp}\right)^{\perp}$
+>
+> 任取$\left(M^{\perp}\right)^{\perp}$上的收敛点列$\left\{ x_{n} \right\}$,设$\lim_{n\to \infty}x_{n}= x$. 则对于任意的 $y\in M^{\perp}$, 我们有
+> $$ \left(x_{n},y\right)= 0 $$ 
+> 由内积的连续性, 我们有
+> $$ \left(x,y\right)= \lim_{n\to \infty}\left(x_{n},y\right)= 0 $$ 
+> 因此$x\in \left(M^{\perp}\right)^{\perp}$. 这表明$\left(M^{\perp}\right)^{\perp}$是闭子集.
+> 若$x_1\in \left(M^{\perp}\right)^{\perp}$, $x_2\in \left(M^{\perp}\right)^{\perp}$, 则对于任意的$y\in M^{\perp}$, 我们有
+> $$ \left(x_1,y\right)= \left(x_2,y\right)= 0 $$ 
+> 于是
+> $$ \left(x_1+ cx_2,y\right)= 0 $$
+> 这表明$x_1+ cx_2\in \left(M^{\perp}\right)^{\perp}$.因此$\left(M^{\perp}\right)^{\perp}$是线性子空间. 故$\left(M^{\perp}\right)^{\perp}$是包含了$M$的一个线性子空间. 
+>
+> 现在任取包含了$M$的闭子空间$N$, 由于$M\subseteq N$, 若$z\in N^{\perp}$, 则$z\in M^{\perp}$, 即$N^{\perp}\subseteq M^{\perp}$
+> 于是任取$x\in \left(M^{\perp}\right)^{\perp}$, 考虑$H$的正交分解
+> $$ H= N\oplus N^{\perp} $$ 
+> 则
+> $$ x= x_{N}+ x_{N^{\perp}} $$ 
+> $x_{N^{\perp}}\in N^{\perp}\subseteq M^{\perp}$, 故$x_{N^{\perp}}\in M^{\perp}$. 而$x\in \left(M^{\perp}\right)^{\perp}$, 于是
+> $$ \left(x, x_{N^{\perp}}\right)= 0 $$ 
+> 于是
+> $$ \left(x_{N}, x_{N^{\perp}}\right)+ \left(x_{N^{\perp}},x_{N^{\perp}}\right)= 0 $$ 
+> 其中$\left(x_{N},x_{N^{\perp}}\right)= 0$, 故$\left(x_{N^{\perp}},x_{N^{\perp}}\right)= 0$, $x_{N^{\perp}}= 0$. 因此$x= x_{N}\in N$. 这表明$\left(M^{\perp}\right)^{\perp}\subseteq N$.
+
 > [!exercise] Exercise 6
 > 证明在可分内积空间中，任一标准正交系至多为一可数集。
+
+> [!proof] Proof: 
+> 设$H$是可分的内积空间. 设$D= \left\{ x_{n} \right\}$是$H$的一个可数的稠密子集.
+>
+> 任取$H$的标准正交系$E$. 任取$e\in E$, 存在 $x\left(e\right)\in D$, 使得
+> $$ \left\| e-x\left(e\right) \right\|< \frac{1 }{3 } $$ 
+> 我们证明
+> $$ e\mapsto x\left(e\right) $$ 
+> 是单射.
+> 事实上, 若$e,f\in E$, $e\neq f$, 则
+> $$ \left\| e-f \right\|^{2}= \left\| e \right\|^{2}+ \left\| f \right\|^{2}-2\operatorname{Re}\left(e,f\right)= 2 $$ 
+> 于是
+> $$ \left\| e-f \right\|= \sqrt{2} $$ 
+> 如果$x\left(e\right)= x\left(f\right)$, 则由三角不等式
+> $$ \left\| e-f \right\|le\left\| e-x\left(e\right) \right\|+ \left\| x\left(f\right)-f \right\|< \frac{1}{3}+ \frac{1}{3}= \frac{2}{3} $$ 
+> 与
+> $$ \left\| e-f \right\|= \sqrt{2} $$ 
+> 矛盾. 因此$e\mapsto x\left(e\right)$是但是, $E$是至多可数的.
 
 > [!exercise] Exercise 7
 > 求
@@ -131,6 +176,22 @@
 > \min_{\alpha,\beta,\gamma}\int_{-1}^{1}
 > \left|t^3-\alpha-\beta t-\gamma t^2\right|^2\,dt.
 > $$
+
+> [!proof] Proof: 
+> 在$L^{2}\left[ -1,1 \right]$上, 我们寻找$t^{3}$在闭线性子空间
+> $$ M=\operatorname{span}\left\{ 1,t,t^{2} \right\} $$ 
+> 上的最佳逼近.
+> $L^{2}\left[ -1,1 \right]$正交分解为
+> $$ L^{2}\left[ -1,1 \right] = M\oplus M^{\perp}$$ 
+> 设
+> $$ t^{3}=  x_{M}+ x_{M^{\perp}} $$ 
+> 则由于$t^{3}$是奇函数 $1,t^{2}$是偶函数, 我们有
+> $$ \left(t^{3},1\right)= 0,\quad \left(t^{3},t^{2}\right)= 0 $$ 
+> 于是$x_{M}= \frac{\left(t^{3},t\right) }{\left(t,t\right) }t=\frac{3}{5}t$.
+> 于是
+> $$ t^{3}= \frac{3}{5}t+ x_{M^{\perp}} $$ 
+> $t^{3}-\frac{2 }{5 }t= x_{M^{\perp}}$.  因此$\frac{2}{5}t$是$t^{3}$在$x_{M^{\perp}}$上的最佳逼近 我们有
+> $$ \min _{\alpha ,\beta ,\gamma }\int _{-1}^{1}\left| t^{3}-\alpha -\beta t-\gamma t^{2} \right|^{2}\,d t= \int _{-1}^{1}\left(t^{3}-\frac{3 }{5 }t\right)^{2}\,d t= \frac{8}{175}  $$ 
 
 > [!exercise] Exercise 8
 > 设 $f_1,f_2$ 是 Hilbert 空间 $H$ 上的有界线性泛函，若 $\ker f_1\subset \ker f_2$，证明存在 $\alpha\in\mathbb K$，使得
