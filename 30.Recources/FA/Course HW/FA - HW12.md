@@ -103,6 +103,16 @@
 
 > [!proof] Proof: 
 > $$ H= M\oplus M^{\perp} $$ 
+> 任取$h\in H$, 有分解
+> $$ h= h_{M}+ h_{M^{\perp}} $$ 
+> 我们定义
+> $$ \begin{aligned} F: H&\to H\\ h &\mapsto f\left(h_{M}\right) \end{aligned} $$ 
+> 由正交分解的唯一性, 可知$F$是线性映射. 此外
+> $$ \left\| F\left(h\right) \right\|= \left\| f\left(h_{M}\right) \right\|\le \left\| f \right\|\left\| h_{M} \right\|\le \left\| f \right\|\left\| h \right\| $$ 
+> 故
+> $$ \left\| F \right\|\le \left\| f \right\| $$ 
+> 此外, 由于$F|_{M}= f$, 易见$\left\| F \right\|\ge \left\| F|_{M} \right\|= \left\| f \right\|$, 因此$\left\| F \right\|= \left\| f \right\|$.
+>
 
 > [!exercise] Exercise 5
 > 设 $M$ 是 Hilbert 空间 $H$ 中的非空子集，证明 $(M^\perp)^\perp$ 是包含 $M$ 的最小闭子空间。
