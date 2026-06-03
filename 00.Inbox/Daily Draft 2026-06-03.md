@@ -71,4 +71,9 @@ $$ \left\| x-\sum _{ i = 1}^{n}\left(x, e_{i}\right) e_{i}\right\|^{2}= \left\| 
 
 
 我们只是看到了$A$是一个可数集, 所以
-$$ \begin{aligned} LHS & \le  \left\| x- \sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i} \right\|^{2}+ \left\| \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } -\sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i}\right\| \\&\le \end{aligned}$$ 
+$$ \begin{aligned} LHS & \le  \left\| x- \sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i} \right\|^{2}+ \left\| \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } -\sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i}\right\| \\&=  \left\| x \right\|^{2}- \sum _{i = 1}^{n}\left| \left(x,e_{\alpha }\right) \right|^{2}+ \cdots   \end{aligned}$$ 
+只需要证明
+$$ \lim_{n\to \infty}\left\| \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } -\sum _{i= 1}^{n}\left(x,e_{i}\right)e_{i}\right\| $$ 
+
+可数个是合理的.
+为什么需要说明$x_{m}$是基本列? 说明了基本列.
