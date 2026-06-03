@@ -53,3 +53,22 @@ $$ \sum _{i = 1}^{n}\left| \left(x,e_{i}\right) \right|^{2}  $$
 **惊人地发现, Hilbert空间中的基元素表示一定是可数的**
 
 我们是通过做可数个截断发现的.
+
+> [!corollary] 推论 1.6.24
+> 假设 $\mathscr{X}$ 是 Hilbert 空间, 且 $\{e_\alpha\mid\alpha\in A\}$ 是 $\mathscr{X}$ 中的正交规范集. 那么对 $\forall x\in\mathscr{X}$, 有
+> $$\sum_{\alpha\in A}(x,e_\alpha)e_\alpha\in\mathscr{X},$$
+> 且
+> $$\|x-\sum_{\alpha\in A}(x,e_\alpha)e_\alpha\|^2=\|x\|^2-\sum_{\alpha\in A}|(x,e_\alpha)|^2.\tag{1.6.18}$$
+
+我们已经证明了
+
+Besel不等式, 所以说怎么吧不等式变成
+
+
+对于有限多个, 我们是有
+$$ \left\| x-\sum _{ i = 1}^{n}\left(x, e_{i}\right) e_{i}\right\|^{2}= \left\| x \right\|^{2}-\sum _{i = 1}^{n}\left| \left(x, e_{i}\right) \right| ^{2} $$ 
+我们不是说$x$是被可数个表示的吗, 存在
+
+
+我们只是看到了$A$是一个可数集, 所以
+$$ \begin{aligned} LHS & \le  \left\| x- \sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i} \right\|^{2}+ \left\| \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } -\sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i}\right\| \\&\le \end{aligned}$$ 
