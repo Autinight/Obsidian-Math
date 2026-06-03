@@ -25,3 +25,31 @@ Fourier系数, 就是Hilbert space在一组基下的系数
 
 **Schauder基有一个可数的关键属性**
 
+
+
+$$ Bessel $$ 
+不等式
+
+$$ \sum _{\alpha \in A}\left| \left(x,e_{\alpha }\right) \right| ^{2} $$ 
+相当于是$L^{2}$-范数平方. 正交规范集,
+对于任意有限自己$A$
+
+
+$$ \begin{aligned} 0&\le \left\| x- \sum _{i = 1}^{n}\left(x,e_{i}\right)e_{i} \right\|^{2}\\&= \left(x-\sum _{i= 1}^{n}\left(x,e_{i}\right)e_{i}, x-\sum _{j= 1}^{n}\left(x,e_{j}\right)e_{j}\right)\\&= \left\| x \right\|^{2}- \sum _{i = 1}^{n}\left| \left(x,e_{i}\right) \right|^{2}    \end{aligned} $$  
+现在的问题是怎么把任意变为可数, 再变为, 有限.
+我们来做截断. 
+
+
+$$ \sum _{\alpha \in A}\left| \left(x,e_{\alpha }\right) \right|^{2}  $$ 
+
+由于每个有限和都是有限的, 所有大于
+$$ \frac{1 }{n } $$ 
+的
+$\left| \left(x,e_{\alpha }\right) \right|$一定是有限多个的. 所有上面的和是一个可数和,所以可以把$\sum _{\alpha \in A}$编排成可数和, 从而用有限个逼近, 去极限得到
+$$ \sum _{i = 1}^{n}\left| \left(x,e_{i}\right) \right|^{2}  $$ 
+居然必须是可数的, 我倒是没想到.
+我们利用Besl不等式, 说明了有限和的范数上界, 然后
+
+**惊人地发现, Hilbert空间中的基元素表示一定是可数的**
+
+我们是通过做可数个截断发现的.

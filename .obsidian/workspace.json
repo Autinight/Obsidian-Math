@@ -11,10 +11,24 @@
             "id": "2c2f8b88e15e580a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA_Zhang_Ch1"
             }
           },
           {
@@ -225,6 +239,11 @@
   },
   "active": "2c2f8b88e15e580a",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "00.Inbox/Daily Draft 2026-06-03.md",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
@@ -236,10 +255,7 @@
     "20.Cards/Theorems/thm - First Existence Theorem for weak solutions.md",
     "20.Cards/Theorems/thm - Energy Estimates.md",
     "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
-    "00.Inbox/Daily Draft 2026-06-03.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
@@ -252,7 +268,6 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
