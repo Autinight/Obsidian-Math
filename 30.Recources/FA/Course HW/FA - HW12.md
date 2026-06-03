@@ -112,6 +112,11 @@
 > 故
 > $$ \left\| F \right\|\le \left\| f \right\| $$ 
 > 此外, 由于$F|_{M}= f$, 易见$\left\| F \right\|\ge \left\| F|_{M} \right\|= \left\| f \right\|$, 因此$\left\| F \right\|= \left\| f \right\|$.
+> 故$F$是$f$的一个保范延拓, 且在$M^{\perp}$上为零.
+>
+> 假设$G$是$f$的另一个延拓, 使得其在$M^{\perp}$上为零, 则
+> $$ \left(F-G\right)|_{M} = 0,\quad \left(F-G\right)|_{M^{\perp}}= 0$$ 
+> 于是$F-G= 0$, 即$F= G$, 因此这样的延拓是唯一的. 
 >
 
 > [!exercise] Exercise 5
