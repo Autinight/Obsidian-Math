@@ -107,3 +107,38 @@ $$ \sum _{\alpha \in A}\left(x,e_{\alpha }\right)e_{\alpha } = \sum _{i = 1}^{\i
 $$ \frac{1 }{\sqrt{2\pi } }e^{\int } $$ 
 是一组基, 或者
 $$ \frac{1 }{2\pi  }e^{2\pi  i n t} $$ 
+
+复圆盘上, $L^{2}$-可积的解析函数空间, 有一组基$\varphi _{n}\left(z\right)= \sqrt{\frac{n }{\pi  }}z^{n-1}$, 就是多项式函数展开, 然后配一个系数.
+可以计算Fourier系数.
+
+内积空间中线性无关的一列, 可以正交化.
+$$ y_{n}= x_{n}-\sum _{k = 1}^{n-1}\left(x_{n},e_{k}\right)e_{k} $$ 
+
+
+$$ y_{n} $$
+与$e_1,\cdots ,e_{n-1}$ 正交.
+
+内积空间, 线性同构, 保内积
+$$ \left(Tx,Ty\right)= \left(x,y\right) $$ 
+
+可分的Hilbert space与$\ell ^{2}$的一个空间或一个有限子空间同构.
+
+可分的, 找到线性无关的元素, 使得$\operatorname{span}\left\{ y_{n} \right\}$在$H$中稠密. 正交化, 有限维的span是一样 .
+
+
+
+设$H$是Hilbert空间, $C$是闭的凸子集, 则
+
+存在唯一的$x_0\in C$, 使得
+$x_0$是最佳逼近
+$$ \left\| y-x_0 \right\|= \inf _{x\in C}\left\| y-x \right\| $$ 
+
+为什么存在, 
+
+
+$$ m= \inf _{x\in C}\left\| y-x \right\| $$ 
+于是你找一列$\left\{ x_{n} \right\}\in C$, 使得
+$$ \left\| y-x_{m} \right\|\to m $$ 
+
+我们来考虑$x_{n}$是不是Cauchy列, 计算
+$$ \begin{aligned} \left\| x_{m}-x_{n} \right\| &= \left\| \left(y-x_{m}\right)-\left(y-x_{n}\right) \right\|^{2}\\&=  \end{aligned}$$ 
