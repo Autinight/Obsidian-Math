@@ -179,3 +179,16 @@ $y$和$x_0$的距离, $x$和$x_0$的距离是小于等于零的.. $y$和$x$是�
 $x_0$是$y_0$的最佳逼近, 当且仅当
 
 最佳逼近, $y$是$x$在$M$上的最佳逼近, 当且仅当$x-y\perp M$.
+
+如果是最佳逼近, 则
+$$ \operatorname{Re}\left(x-y, y-z\right)\ge 0 $$ 
+
+$M$是线性流形
+$z=  y+  w$.
+
+
+$$ \left(x-y,w\right)= 0 $$ 
+
+$$ \operatorname{Re}\left(x-y,w\right)= 0 $$ 
+
+$$ \left(x-y, z-y\right)= \left(x-y,z\right)+ \left(x-y,\right) $$ 

@@ -58,7 +58,14 @@
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，证明商空间 $H / M$ 与 $M$ 的正交补空间 $M^\perp$ 等距同构。
 
 > [!proof] Proof: 
-> $$ H/M=  $$ 
+> 任取$\left[ y \right]\in H/M$, 则由于$M$是闭的凸子空间, 存在$y$在$M$上的唯一最佳逼近$x_0$, 于是
+> $$ \left\| \left[ y \right] \right\|_{H/M}= \left\| y-x_0 \right\|_{M}= \inf _{x \in M}\left\| y-x \right\| $$  
+> 又在Hilbert空间的闭线性子空间上, $x_0$是$y$的最佳逼近, 当且仅当$y-x_0\in M$,
+> 我们定义
+> $$ \begin{aligned} \varphi : H/M&\to M^{\perp},\\ \left[ y \right]&\mapsto y-x_0\end{aligned} $$ 
+> 为了说明$\varphi$良定义, 设$y_1,y_2\in H$, 使得$y_1-y_2\in M$, 并且$x_0,x_0^{\prime}$分别是$y_1,y_2$的最佳逼近. 则
+> 则$y_1-x_0\in M^{\perp}$, $y_2-x_0^{\prime} \in M^{\perp}$, 我们有
+> 
 
 > [!exercise] Exercise 3
 > 设 $M$ 是 Hilbert 空间 $H$ 的闭线性子空间，$\{e_n\}$ 与 $\{f_m\}$ 分别是 $M$ 与 $M^\perp$ 的标准正交基。证明：
