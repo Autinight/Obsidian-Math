@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+                "file": "31.Obsidian Books/FA_Liu_obsidian.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thm - Gagliardo-Nirenberg-Sobolev Inequality"
+              "title": "FA_Liu_obsidian"
             }
           },
           {
@@ -230,16 +230,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32b5273e78c9c8e2",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
+    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
-    "00.Inbox/Daily Draft 2026-06-03.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
     "20.Cards/Theorems/thm - Morrey's Inequality.md",
