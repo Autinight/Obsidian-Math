@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-                "mode": "preview",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Zhang_Ch1"
+              "title": "Petersen_RG_ch01_Riemannian_Metrics"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
+                "file": "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Zhang_Ch1 的大纲"
+              "title": "Petersen_RG_ch01_Riemannian_Metrics 的大纲"
             }
           },
           {
@@ -196,12 +196,14 @@
   },
   "active": "e7dfc63ad7d5fd71",
   "lastOpenFiles": [
-    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
@@ -223,8 +225,6 @@
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "30.Recources/HA/HA - HW3.4.md",
     "30.Recources/HA/HA - HW3.5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
