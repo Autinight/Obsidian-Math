@@ -1,3 +1,5 @@
+代靖涵 25120222201319
+
 > [!exercise] Exercise 1
 > 证明赋范线性空间中的范数由内积诱导当且仅当其满足平行四边形法则。
 
@@ -305,3 +307,17 @@
 > \sum_{k=1}^{\infty}\|e_k-e'_k\|^2<1.
 > $$
 > 证明：如果 $\{e_n\},\{e'_n\}$ 中之一是完备的，则另一个也是完备的。
+
+> [!proof] Proof: 
+> 假设$\left\{ e_{n} \right\}$是完备的, 若存在非零的$x\in \overline{\operatorname{span}\left\{ e_{n}^{\prime}  \right\}}^{\perp}$. 则$\left< x,e_{n}^{\prime}  \right>= 0$. 由Parseval恒等式
+> $$ \left\| x \right\|^{2}= \sum _{n}\left| \left< x,e_{n} \right> \right| ^{2} $$ 
+> 又
+> $$ \left< x,e_{n} \right> = \left< x,e_{n}-e_{n}^{\prime}  \right>$$ 
+> 故
+> $$ \left| \left< x,e_{n} \right> \right| ^{2}= \left| \left< x,e_{n}-e_{n}^{\prime}  \right> \right| ^{2} $$ 
+> 由Cauchy不等式
+> $$ \left| \left< x,e_{n}-e_{n}^{\prime}  \right> \right|^{2}\le \left\| x \right\|^{2}\left\| e_{n}-e_{n}^{\prime}  \right\|^{2}  $$ 
+> 于是
+> $$ \left\| x \right\|^{2}\le \sum _{n}\left\| x \right\|^{2}\left\| e_{n}-e_{n}^{\prime}  \right\|^{2}= \left\| x \right\|^{2}\sum _{n}\left\| e_{n}-e_{n}^{\prime}  \right\|< \left\| x \right\|^{2} $$ 
+> 矛盾. 
+> 因此$\overline{\operatorname{span}\left\{ e_{n}^{\prime}  \right\}}^{\perp}= 0$, 故$\left\{ e_{n}^{\prime}  \right\}$完备. 由对称性可知若$\left\{ e_{n}^{\prime}  \right\}$完备则$\left\{ e_{n} \right\}$完备. 

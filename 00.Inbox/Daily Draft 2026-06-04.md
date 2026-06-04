@@ -64,5 +64,49 @@ $$ k_{i}= 0 $$
 > \|\widetilde T\|\leq \|T\|_M.
 > $$
 
-$T$是$M$上的有界线性算子, $\widetilde{T}$是$H$上的有界线性算子.
-这不就是Hahn-Banach?
+设$\left\{ e_{n} \right\}$是$\overline{M}$的一组标准基.
+则
+$$ T\left(x\right)= \sum _{i}\left< T\left(x\right) , e_{i}\right>e_{i} $$ 
+
+令$f_{i}= \left< T\left(x\right),e_{i} \right>$
+则$f_{i}$是有界线性泛函.
+
+由于
+$$ H= \overline{M}\oplus M^{\perp} $$ 
+$x$分解为
+$$ x= x_{\overline{M}}\oplus x_{M^{\perp}} $$ 
+定义
+$$ \tilde{f}_{i}\left(x\right)= f_{i}\left(x_{\overline{M}}\right) $$ 
+
+则$\tilde{f}_{i}\left(x\right)\in H^{*}$
+
+
+
+$$ \sum _{k = 1}^{\infty}\left\| e_{k}-e_{k}^{\prime}  \right\|^{2}< 1 $$ 
+
+$$ \sum _{k = n}^{\infty}\left\| e_{k}-e_{k}^{\prime}  \right\| < \infty$$ 
+
+
+$$ \sum _{n}\left(e_{n},x\right)e_{n }= 0 $$ 
+我们希望证明$\sum _{n }\left(e_{n}^{\prime} ,x\right)e_{n}^{\prime} = 0$
+
+事实上, 
+
+$$ \sum _{n}\left(e_{n}^{\prime} ,x\right)e_{n}^{\prime} = \sum _{n}\left(e_{n}^{\prime} -e_{n},x\right)e_{n}^{\prime} +  \left(e_{n},x\right)e_{n}^{\prime}  $$ 
+
+$$\sum  \left(e_{n}^{\prime} -e_{n},x\right)\left(e_{n}^{\prime} -e_{n}\right)= \sum \left(e_{n}^{\prime} ,x\right)e_{n}^{\prime} -\left(e_{n}^{\prime} ,x\right)e_{n}-\left(e_{n},x\right)e_{n}^{\prime}  $$ 
+Parseval, 
+$$ \left(e_{n}^{\prime} ,x\right)e_{n}^{\prime} =  $$ 
+
+设$\left\{ e_{n} \right\}$完备, 取$x\in \overline{\operatorname{span}\left\{ e_{n}^{\prime}  \right\}}^{\perp}$
+
+则
+$$ \left< x,e_{n} \right>= \left< x,e_{n}-e_{n}^{\prime}  \right> $$ 
+由parseval恒等式
+$$ \left\| x \right\|^{2}= \sum _{n}\left| \left< x,e_{n} \right> \right| ^{2} $$ 
+若$\left\| x \right\|> 0$, 则
+$$\left\| x \right\|^{2}=  \sum _{n}\left| \left< x,e_{n}-e_{n}^{\prime}  \right> \right| ^{2}\le \sum _{n}\left\| x \right\|^{2}\left\| e_{n}-e_{n}^{\prime}  \right\|^{2}= \left\| x \right\|^{2}\sum _{n}\left\| e_{n}-e_{n} ^{\prime} \right\|^{2}< \left\| x \right\|^{2} $$ 
+矛盾, 因此$\left\| x \right\|= 1$
+
+**我做不出来是因为我产生了误解, 我以为完备性是从$\sum _{n}\left(x,e_{n}\right)e_{n}= 0$推出$x= 0$,这个条件太弱了? 好像并不是,是我用的形式太弱了.** 
+我们实际上需要的是$\left(x,e_{n}^{\prime} \right)= 0$即$\left(x, e_{n}-e_{n}^{\prime} \right)= 0$.
