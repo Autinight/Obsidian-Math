@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "file": "00.Inbox/Daily Draft 2026-06-04.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA_Pan Ch3"
+              "title": "Daily Draft 2026-06-04"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +195,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e7dfc63ad7d5fd71",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
     "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
@@ -207,7 +208,7 @@
     "20.Cards/Definitions/dfn - Riemannian Immersion(Embedding).md",
     "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
-    "00.Inbox/Daily Draft 2026-06-04.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-04.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
