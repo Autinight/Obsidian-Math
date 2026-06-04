@@ -286,8 +286,18 @@
 
 
 > [!proof] Proof: 
-> 
-
+> 将$H$分解为
+> $$ H= \overline{M}\oplus M^{\perp} $$ 
+> $x\in H$分解为
+> $$ x= x_{\overline{M}}+ x_{M^{\perp}} $$ 
+> 由于$M\subseteq H$, 将$T$看做$T: M\to H$.  $H$完备, 且$M$在$\overline{M}$中稠密. $T$可以延拓到$\overline{M}$上的线性算子$T^{\prime} : \overline{M}\to H$, 使得
+> $$ T^{\prime} |_{M}= T,\quad \left\| T^{\prime}  \right\|= \left\| T \right\| $$ 
+> 现在, 我们定义$\widetilde{T}: H\to H$, 
+> $$ \widetilde{T}\left(x\right)= T^{\prime} \left(x_{\overline{M}}\right) $$ 
+> 易见$\widetilde{T}$是线性算子, 并且
+> $$ \left\| \widetilde{T}\left(x\right) \right\|= \left\| T^{\prime} \left(x_{\overline{M}}\right) \right\|\le \left\| T^{\prime}  \right\|\left\| x_{\overline{M}} \right\|\le \left\| T^{\prime}  \right\|\left\| x \right\| $$ 
+> 故
+> $$ \left\| \widetilde{T} \right\|\le \left\| T^{\prime}  \right\|= \left\| T \right\| $$ 
 
 > [!exercise] Exercise 13
 > 设 $\{e_k\},\{e'_k\}$ 是 Hilbert 空间 $H$ 中的两个标准正交系，并且
