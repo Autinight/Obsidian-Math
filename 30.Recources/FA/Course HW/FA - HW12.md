@@ -199,11 +199,57 @@
 > f_2=\alpha f_1.
 > $$
 
+> [!proof] Proof: 
+> 若$f_1= 0$, 则$\operatorname{ker}f_1= H$, 故而$\operatorname{ker}f_2= H$, $f_2= 0$, 此时$\alpha$取任意值即可.
+>
+> 下设$f_1\neq 0$, 设$x_0\in H$, 使得$f_1\left(x_0\right)\neq 0$, 则对于任意的$x\in H$, 我们有
+> $$ y= x-\frac{f_1\left(x\right) }{f_1\left(x_0\right) }x_0 $$ 
+> 则
+> $$ f_1\left(y\right)= f_1\left(x\right)-\frac{f_1\left(x\right) }{f_1\left(x_0\right) }f\left(x_0\right) = 0$$ 
+> 所以$y\in \operatorname{ker}f_1$, 由于$\operatorname{ker}f_1\subseteq \operatorname{ker}f_2$, 有$y\in \operatorname{ker}f_2$, 于是$f_2\left(y\right)= 0$. 因此
+> $$ 0= f_2\left(x-\frac{f_1\left(x\right) }{f_1\left(x_0\right) }x_0\right)= f_2\left(x\right)-\frac{f_1\left(x\right) }{f_1\left(x_0\right) }f_2\left(x_0\right) $$ 
+> 因此
+> $$ f_2\left(x\right)= \frac{f_2\left(x_0\right) }{f_1\left(x_0\right) }f_1\left(x\right) $$ 
+
 > [!exercise] Exercise 9
 > 设 $\{e_n\}$ 是 Hilbert 空间 $H$ 中的一个标准正交集，证明：$\{e_n\}$ 是完备的，当且仅当 $\{e_n\}$ 张成的子空间在 $H$ 中稠密。
 
+> [!proof] Proof: 
+> 令
+> $$ M= \operatorname{span}\left\{ e_{n}: n\in \mathbb{N}  \right\} $$ 
+> 则任取$x\in H$, 我们有
+> $x\in M^{\perp}\iff \left(x,y\right)= 0,\forall y\in M$. 由于$M$上的任意元素都是有限的线性组合, 因此
+> $$ x\in M^{\perp}\iff \left(x,e_{n}\right)= 0, \forall n $$ 
+> 于是
+> $$ M^{\perp}= \left\{ x\in H: \left(x,e_{n}\right)= 0, \forall n \right\} $$ 
+> 若$\left\{ e_{n} \right\}$完备, 我们有
+> $$ \left(x,e_{n}\right)= 0\implies x= 0 $$ 
+> 于是
+> $$ M^{\perp}= 0 $$ 
+> 另一方面, 任取$H$的子空间$M$, 我们有
+> $$ \overline{M}= H\iff M^{\perp}= \left\{ 0 \right\} $$ 
+> 事实上, 若$M^{\perp}= H$, 则任取$x\in M^{\perp}$, 我们有$\left(x,H\right)= 0$, 进而$x= 0$. 反过来, 若$\overline{M}\neq H$, 则存在非零向量$x\in \left(\overline{M}\right)^{\perp}= M^{\perp}$, 于是$M^{\perp}\neq \left\{ 0 \right\}$
+> 因此$\left\{ e_{n} \right\}$完备, 当且仅当$M^{\perp}= \left\{ 0 \right\}$, 当且仅当$\overline{M}= H$, 即$\left\{ e_{n} \right\}$完备.
+
 > [!exercise] Exercise 10
 > 设 $X$ 是 Banach 空间，$H$ 是 Hilbert 空间，证明从 $X$ 到 $H$ 的有限秩算子空间在 $\mathcal K(X,H)$ 中稠密。
+
+> [!proof] Proof: 
+> 设$T\in \mathcal{K}\left(X,H\right)$,  令
+> $$ K:= \overline{T\left(B_{X}\right)} $$ 
+> 是$H$中的紧集, $H$也是完全有界的, 任取$\varepsilon > 0$, 存在$K$的一个$\varepsilon$-网$y_1,\cdots ,y_{n}$.
+> 令
+> $$ M= \operatorname{span}\left\{ y_1,\cdots ,y_{n} \right\} $$ 
+> 则
+> $$ H= M\oplus M^{\perp} $$ 
+> 设$P_{M}: H\to M$是正交投影. 定义$S= P_{M}T: X\to H$, 由于$S\left(X\right)\subseteq M$, 而$M$是有限维的, 我们有$S$是有限秩的.
+> 若$\left\| x \right\|\le 1$, 则$Tx\in K$, 存在$y_{j}\in M$, 使得
+> $$ \left\| Tx-y_{j} \right\|< \varepsilon  $$ 
+> 又$P_{M}Tx$是$Tx$到$M$的最佳逼近, 我们有
+> $$ \left\| Tx-Sx \right\|\le \left\| Tx-y_{j} \right\| < \varepsilon $$ 
+> 对于所有的$x$成立,
+> $$ \left\| T-x \right\|\le \varepsilon  $$ 
+> 由于$\varepsilon > 0$ 是任取的, 我们有有限秩算子在$\mathcal{K}\left(X,H\right)$中稠密.
 
 > [!exercise] Exercise 11
 > 设 $H$ 是 Hilbert 空间，$T:H\to \mathbb K^n$ 是一个满的有界线性算子，$\{e_i\}_{i=1}^n$ 是 $\mathbb K^n$ 的标准正交基。证明存在有限个线性无关的元 $\{y_1,y_2,\cdots,y_n\}\subset H$，使得
