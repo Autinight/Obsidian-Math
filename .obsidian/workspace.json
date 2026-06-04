@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW12.md",
-                "mode": "source",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW12"
+              "title": "HA_Pan Ch3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW12.md",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW12 的大纲"
+              "title": "HA_Pan Ch3 的大纲"
             }
           },
           {
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +198,13 @@
   },
   "active": "e7dfc63ad7d5fd71",
   "lastOpenFiles": [
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "00.Inbox/Daily Draft 2026-06-04.md",
+    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
+    "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
@@ -205,11 +213,8 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
-    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
@@ -222,9 +227,6 @@
     "20.Cards/Theorems/thm - Energy Estimates.md",
     "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-02.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
