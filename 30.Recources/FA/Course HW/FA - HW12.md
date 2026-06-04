@@ -257,12 +257,37 @@
 > T(x)=\sum_{i=1}^n \langle y_i,x\rangle e_i,\quad \forall x\in H.
 > $$
 
+> [!proof] Proof: 
+> 对于$i\in \left\{ 1,\cdots,n  \right\}$, 定义
+> $$ \begin{aligned} f_{i}: H&\to \mathbb{K}\\ x &\mapsto \left< T\left(x\right), e_{i} \right>\end{aligned} $$ 
+> 易见$x$是线性的. 并且
+> $$ \left| f_{i}\left(x\right) \right| = \left| \left< T\left(x\right),e_{i} \right> \right|\le \left\| T\left(x\right) \right\|\left\| e_{i} \right\|\le \left\| T \right\|\left\| x \right\|  $$ 
+> 因此$\left\| f_{i} \right\|\le \left\| T \right\|$, 故$f_{i}$是有界线性泛函.
+>
+> 有Riesze表示定理, 存在唯一的$y_{i}\in H$, 使得
+> $$ f_{i}\left(x\right)= \left< y_{i},x \right> $$ 
+> 此时
+> $$ T\left(x\right)= \sum _{i = 1}^{n}\left< T\left(x\right),e_{i} \right> e_{i}= \sum _{i= 1}^{n}f_{i}\left(x\right)e_{i}= \sum _{i= 1}^{n}\left< y_{i},x \right>e_{i}$$ 
+>
+> 由于$T$是满的算子, 对于每个$i$, 存在$x_{i}\in H$, 使得
+> $$ T\left(x_{i}\right)= \sum _{j= 1}^{n}\left< y_{j}, x_{i}\right>e_{j}= e_{i} $$ 
+> 得到
+> $$ \left< y_{j},x_{i} \right>= \delta _{ji} $$ 
+> 于是若$k_1y_1+ \cdots + k_{n}y_{n}= 0$, 则
+> $$ k_1\left< y_1,x \right>+ \cdots + k_{n}\left< y_{n},x \right>= 0,\forall x\in H $$ 
+> 令$x= x_{i}$, 得到$k_{i}= 0$. 因此$y_1,\cdots ,y_{n}$是线性无关的.
+
 
 > [!exercise] Exercise 12
 > 设 $M$ 是 Hilbert 空间 $H$ 的线性子空间，$T$ 是 $M$ 上的有界线性算子，证明在 $H$ 上存在一个有界线性算子 $\widetilde T$，使得在 $M$ 上 $\widetilde T$ 与 $T$ 相等并且
 > $$
 > \|\widetilde T\|\leq \|T\|_M.
 > $$
+
+
+> [!proof] Proof: 
+> 
+
 
 > [!exercise] Exercise 13
 > 设 $\{e_k\},\{e'_k\}$ 是 Hilbert 空间 $H$ 中的两个标准正交系，并且
