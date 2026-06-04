@@ -238,4 +238,80 @@ $$ f\left(x\right)= \int _{-\infty}^{\infty}\hat{f}\left(t\right)e^{2\pi ixt}\,d
 来看反常积分是否存在
 $$ f_{R}\left(x\right)= \int _{-R}^{R}\hat{f}\left(t\right)e^{2\pi ixt} \,d t$$ 
 
-$$ \begin{aligned} \begin{aligned} \int _{-R}^{R}\int _{-\infty}^{\infty}f\left(u\right)e^{2\pi ut} e^{2\pi xt}\,d u\,d t\\&= \int _{-\infty}^{\infty}f\left(u\right)\int _{-R}^{R}e^{2\pi \left(x-u\right)it}\,d t\,d u\\&=  \end{aligned} \end{aligned}$$ 
+$$ \begin{aligned} \begin{aligned} \int _{-R}^{R}\int _{-\infty}^{\infty}f\left(u\right)e^{2\pi ut} e^{2\pi xt}\,d u\,d t\\&= \int _{-\infty}^{\infty}f\left(u\right)\int _{-R}^{R}e^{2\pi \left(x-u\right)it}\,d t\,d u\\&= \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(u\right)\frac{\sin 2\pi R\left(x-u\right) }{x-u }  \\&= \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(x-t\right)\end{aligned} \end{aligned}$$ 
+
+$$ x-u= t $$ 
+这个过程, $u$被怎么操作了.
+
+$$ u= t-x $$ 
+
+原先是$-u$, 我们先变成了$t$, 和就是说先加一个负号, 然后整体减$x$.c
+从$x-u$变成$u$, 需要先加$x$, 然后反转符号.
+没必要
+但是应该是能理清楚的
+
+$x-u= t$, $u = x-t$
+关注变量$t$.  $u$先反转符号, 然后
+说是$x-u$变成$u$, 实际上是$u-x$变成$-u$, $u$变成$x-u$, 我们先反转符号在加$x$.
+$x-u= t$, $x= u+ t$.
+
+
+$$ f_{R}\left(x\right)= \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(x-t\right)\frac{\sin 2\pi Rt }{t }\,d t $$ 
+Dirichlet积分, Di
+
+
+所以我们不需要直接$L^{1}$, 而是考虑
+$$ f_{R}\left(x\right)$$的极限. 
+考虑一个Cauchy极限.
+
+只需要 $$ \frac{f\left(x+ t\right) }{t }\in L\left(R\right) $$ 
+
+$\frac{\sin 2\pi Rt }{t }$有下届 , 远端$o\left(\frac{1 }{t }\right)$
+近端有下届, 所以只需要$o\left(\frac{1 }{1+ \left| x \right|  }\right)$
+积分进而可以收敛.m
+
+若$\frac{f }{1+ \left| x \right|  }\in L\left(R\right)$, 则$f$在有界区间是可积. 是
+
+定义$f^{\left(a\right)}$是从$a$跑出去一个周期. 然后延拓
+
+
+$f_{R}$在$\left(a,a+ 2\pi \right)$的收敛性, 与$f^{\left(a\right)}$的 Fourier技术的收敛性相同. $S_{n}\left(f^{\left(a\right)},x\right)$
+
+如果$\frac{f }{1+ \left| x \right|  }\in L\left(R\right)$, 这是保证 
+$f_{R}$有定义来着.
+
+
+这非常神奇. 为什么一个全域的积分极限, 能与一个周期函数的Fourier级数和有相同的收敛性呢?
+
+由Riemann-Lebesgue引理, 
+
+
+
+
+
+由R-L引理, 
+$$ f_{R}\left(x_0\right)= \frac{1 }{\pi  }\int _{-\delta }^{\delta }f\left(x_0+ t\right)\frac{\sin 2\pi Rt }{t }\,d t+ o\left(1\right) $$ 
+
+由局部化引理, 收敛性又只取决于一个小区间的行为. 而 Fourier级数, 经过代数操作后, 就变成是的Dirichlet核的卷积.
+$$ \frac{1 }{2\pi  }\int f^{\left(a\right)}\left(x_0+ t\right) \frac{\sin \left(n+ \frac{1}{2}\right)t }{\sin \left(\frac{t }{2 }\right) }\,d t $$ 
+
+在$t= 0$附近, Dirichlet核的 收敛性为由核在$t= 0$附近, 决定, 那么
+$$ S_{n}\left(f^{\left(a\right)},x_0\right)= \frac{1 }{2\pi  }\int f\left(x_0+ t\right)\frac{\sin \left(n+ \frac{1}{2}t\right) }{\frac{t}{2} } $$ 
+
+$$ S_{n}\left(f^{\left(a\right)},x_0\right)= \frac{1 }{\pi  }\int _{-\delta }^{\delta }f\left(x_0+ t\right) \frac{\sin \left(n+ \frac{1}{2}\right)t }{t }\,d t+ o\left(1\right)$$ 
+所以说现在就是比较两个核
+$$ \frac{\sin 2\pi Rt }{t } ,\quad \frac{\sin \left(n+ \frac{1}{2}\right)t }{t }$$ 
+
+$$ \frac{\sin R_1 t }{t } $$ 
+
+$$ R_2= \left[ R_1 \right]+ \frac{1}{2} $$ 
+$$ \neq \left[ R_1 \right], R_2= n+ \frac{1}{2} $$ 
+
+$$ f_{R}\left(x_0\right)-S_{\left[ 2\pi R \right]} $$ 
+所以说我们是让$n$和$R$做一个颗粒度对齐, 让
+$$ n+ \frac{1}{2}= R_2= \left[ R_1 \right] + \frac{1}{2}$$ 
+得到
+$$ \left| R_1-R_2 \right|\le \frac{1}{2}  $$ 
+
+
+i got it , 这里用了黎曼局部化引理吧, 把问题放到局部, 这样大部分的积分都会被高速震荡杀掉, 所以我们把两个核的作用范围对齐. 然后我们再尽量对齐两个核的颗粒度, 让它们的震荡速度差不多, 将这种差不多用和差化积, 弥留成一个有界项, 和一个高速震荡项, 正好杀死剩下的可积函数
