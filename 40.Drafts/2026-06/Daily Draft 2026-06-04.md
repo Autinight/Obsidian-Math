@@ -234,3 +234,8 @@ $$ f\left(x\right)= \int _{-\infty}^{\infty}\hat{f}\left(t\right)e^{2\pi ixt}\,d
 
 
 
+
+来看反常积分是否存在
+$$ f_{R}\left(x\right)= \int _{-R}^{R}\hat{f}\left(t\right)e^{2\pi ixt} \,d t$$ 
+
+$$ \begin{aligned} \begin{aligned} \int _{-R}^{R}\int _{-\infty}^{\infty}f\left(u\right)e^{2\pi ut} e^{2\pi xt}\,d u\,d t\\&= \int _{-\infty}^{\infty}f\left(u\right)\int _{-R}^{R}e^{2\pi \left(x-u\right)it}\,d t\,d u\\&=  \end{aligned} \end{aligned}$$ 
