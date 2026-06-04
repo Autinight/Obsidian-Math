@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -181,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,6 +198,14 @@
   "lastOpenFiles": [
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch01.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch04.md",
+    "10.Atlas/RG/Riemannian Metric.canvas",
+    "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
+    "20.Cards/Propositions/pps - Riemannian Metric Induced by Immersion.md",
+    "20.Cards/Definitions/dfn - Riemannian Immersion(Embedding).md",
+    "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "00.Inbox/Daily Draft 2026-06-04.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
@@ -220,20 +226,11 @@
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
-    "20.Cards/Theorems/thm - Morrey's Inequality.md",
-    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
-    "20.Cards/Theorems/thm - Interior H^2-regularity.md",
-    "20.Cards/Theorems/thm - First Existence Theorem for weak solutions.md",
-    "20.Cards/Theorems/thm - Energy Estimates.md",
-    "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "10.Atlas/DM/Atlas - Orientations.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
-    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
     "40.Drafts/2026-06",
     "31.Obsidian Books/HA_Pan/未命名",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
