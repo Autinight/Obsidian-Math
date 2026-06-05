@@ -11,24 +11,10 @@
             "id": "7313ec14a93bfc36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HA_Pan Ch3"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -157,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA_Pan Ch3 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -198,8 +183,9 @@
   },
   "active": "7313ec14a93bfc36",
   "lastOpenFiles": [
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "00.Inbox/Daily Draft 2026-06-05.md",
     "00.Inbox/未命名.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-04.md",
@@ -225,8 +211,6 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
