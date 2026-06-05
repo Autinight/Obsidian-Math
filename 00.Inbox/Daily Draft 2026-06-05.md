@@ -1,14 +1,3 @@
----
-cover:
-  image: 文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg
-  actualRatio: '16:9'
-  pixelWidth: 2000
-  pixelHeight: 1125
-  displayWidth: 100
-  displayHeight: 320
-  positionX: 50
-  positionY: 50
----
 ### 08:17
 
 
