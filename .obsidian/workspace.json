@@ -11,17 +11,24 @@
             "id": "bac48818570fe6df",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-                "viewState": {
-                  "x": 347,
-                  "y": 445,
-                  "zoom": -0.7810530507451251
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Harmonic Functions"
+              "icon": "lucide-file",
+              "title": "HA_Pan Ch3"
             }
           }
         ]
@@ -190,9 +197,11 @@
   },
   "active": "bac48818570fe6df",
   "lastOpenFiles": [
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "00.Inbox/Daily Draft 2026-06-05.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "00.Inbox/Daily Draft 2026-06-05.md",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "00.Inbox/文本附件",
@@ -201,7 +210,6 @@
     "open-vscode/data.json",
     "open-vscode",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
@@ -231,7 +239,6 @@
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
     "40.Drafts/2026-06",
     "31.Obsidian Books/HA_Pan/未命名",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",

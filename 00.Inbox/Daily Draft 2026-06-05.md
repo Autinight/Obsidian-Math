@@ -97,3 +97,5 @@ $e^{-x^{2}}$的Fourier变换, 无非是变化速度乘了$\pi$然后 积分归�
 $$ \lim_{\alpha \to 0_{+ }}\left(f*K_{\alpha }\right)\left(x\right)= f\left(x\right) $$ 
 
 可积的卷积核, 如果外围上确界函数是可积的, $f$具有某种可积性, 则在Lebesgue点处收敛.
+
+
