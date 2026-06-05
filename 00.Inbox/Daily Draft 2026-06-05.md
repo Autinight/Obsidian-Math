@@ -47,3 +47,26 @@ $$ \mathcal{F}\left[ \left(1-\left| x \right| \right)_{+ } \right] = \left(\frac
 $$ \begin{aligned} \begin{aligned} \begin{aligned} \sigma _{T}\left(x\right)&= \int _{-\infty}^{\infty}\Phi \left(\frac{t }{T }\right)\hat{f}\left(t\right)e^{2\pi xt}\\&= \int _{-\infty}^{\infty} \hat{f}\left(t\right) \widehat{\Phi _{T}e^{2\pi xt}}\,d t\\&= \int _{-\infty}^{\infty}\hat{f}\left(t\right) \tau _{x} \widehat{\Phi}_{T}\,d t\\&= \int _{-\infty}^{\infty}\hat{f}\left(t\right){T } K\left(\frac{t-x }{T }\right)\\&= \frac{1 }{T }\int _{-\infty}^{\infty}\hat{f}\left(t\right)\left(\frac{\sin \left(\pi \frac{t-x }{T }\right) }{ \pi \frac{t-x }{T }}\right)^{2}\\&= \frac{1 }{T }\int _{-\infty}^{\infty}\hat{f}\left(t+ x\right)\left(\frac{\sin \left(T\pi t\right) }{\pi t }\right)^{2}\\&=\frac{1 }{T }\int _{-\infty}^{\infty}\hat{f}\left(x-t\right)\left(\frac{\sin \left(T\pi t\right) }{\pi t }\right)^{2}\,d t \end{aligned} \end{aligned} \end{aligned}$$ 
 
 $$ \int _{-\infty}^{\infty}K\left(t\right)\,d t= \frac{1 }{\pi  }\int _{-\infty}^{\infty}\left(\frac{\sin u }{u }\right)^{2}\,d u= 1 $$ 
+
+$$ \int _{-\infty}^{\infty}\left(\frac{\sin \pi u }{\pi u }\right)^{2}\,d \pi u= \pi  \int _{-\infty}^{\infty}\left(\frac{\sin \pi u }{ \pi u}\right)^{2}\,d u= \overline{\pi \int _{-\infty}^{\infty}} = \pi \int _{-\infty}^{\infty}\chi _{-\frac{1}{2},\frac{1}{2}}= \pi $$ 
+由于
+$$ F\left[ \chi _{\left[ -\frac{1}{2},\frac{1}{2} \right]}\left(x\right) \right]\left(\xi \right)= \frac{\sin \pi \xi  }{\pi \xi  } $$ 
+
+
+$$ \frac{1 }{T }\left(\frac{\sin \pi Tt }{\pi t }\right)^{2} $$ 
+
+
+
+$$ e^{-\left| x \right| } $$ 
+
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} F\left[ e^{-\left| x \right| } \right]\left(t\right)&= \int _{-\infty}^{\infty}e^{-\left| x \right| }e^{-2\pi itx}\,d x\\&= \int _{0}^{\infty}e^{-x}2\cos 2\pi tx\,d x\\&=- 2 \int _{0}^{\infty}\cos 2\pi tx de^{-x}\\&= -2\left[ \cos 2\pi tx e^{-x} \right]_{0}^{\infty}-2\int _{0}^{\infty}e^{-x}d \cos 2\pi tx\\&= 2+ 2 \int _{0}^{\infty}2\pi t\sin 2\pi txe^{-x}\,d x\\&= 2+ 4\pi t\int _{0}^{\infty}e^{-x}\sin 2\pi tx\,d x \end{aligned} \end{aligned} \end{aligned} $$ 
+
+$$ \begin{aligned} \int _{0}^{\infty}e^{-x}\sin 2\pi tx\,d x&= \left[ -e^{-x}\sin 2\pi tx \right]_{0}^{\infty}-\int _{0}^{\infty}\left(-e^{-x}\right)2\pi t \cos 2\pi tx\,d x\\&= 2\pi t\int _{0}^{\infty}e^{-x}\cos 2\pi tx\,d x \end{aligned} $$ 
+
+$$ 2\int _{0}^{\infty}e^{-x}\cos 2\pi tx\,d x= 2\left(1+ 2\pi t \left(2\pi t\right)\int _{0}^{\infty}e^{-x\cos 2\pi tx}\,d \right) $$ 
+
+$$ f= 1+ \left(2\pi t\right)^{2}f $$ 
+
+
+$$ \int _{0}^{\infty}e^{-x}\left(e^{2\pi ixt}+ e^{-2\pi ixt}\right) $$ 
