@@ -70,3 +70,18 @@ $$ f= 1+ \left(2\pi t\right)^{2}f $$
 
 
 $$ \int _{0}^{\infty}e^{-x}\left(e^{2\pi ixt}+ e^{-2\pi ixt}\right) $$ 
+$$ = \int _{0}^{\infty}e^{\left(2\pi it-1\right)x}+ e^{-\left(2\pi it+ 1\right)x}\,d x $$ 
+
+$$ \frac{1 }{2\pi it-1 }e^{\left(2\pi it-1\right)x}|_{0}^{\infty}+ \frac{1 }{-\left(2\pi it+ 1\right) }e^{-\left(2\pi it+ 1\right)x}|_{0}^{\infty} $$ 
+
+$$ \frac{1 }{1-2\pi it }+ \frac{1 }{1+ 2\pi it }= \frac{2 }{1+ 4\pi ^{2}t^{2} } $$ 
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} u\left(x,y\right)&= \int _{-\infty}^{\infty}e^{-2\pi y\left| t \right| }\hat{f}\left(t\right)e^{2\pi ixt}\,d t\\&= \int _{-\infty}^{\infty}f\left(t\right)\mathcal{F}\left[ e^{-2\pi y\left| y \right| }e^{2\pi ixt} \right]\,d t\\&= \int _{-\infty}^{\infty}f\left(t\right) \tau _{x} \mathcal{F}\left(T_{2\pi y}\left(e^{-\left| y \right| }\right)\right)\,d t\\&= \int _{-\infty}^{\infty}f\left(t\right) \tau _{x} \frac{1 }{2\pi y } \left(\frac{2 }{1+ 4\pi ^{2}\left(\frac{t }{2\pi y }\right)^{2} }\right)\,d t\\&= \int _{-\infty}^{\infty}f\left(x+ t\right)\frac{1 }{\pi  } \frac{y }{t^{2}+ y^{2} }\,d t \end{aligned} \end{aligned} \end{aligned}$$ 
+
+$$ \int _{-\infty}^{\infty}f\left(x-t\right)\frac{1 }{\pi  }\frac{y }{t^{2}+ y^{2} }\,d t $$ 
+
+$$ P\left(x,y\right)= \frac{1 }{\pi  }\frac{y }{x^{2}+ y^{2} } $$ 
+
+$$ u\left(x,y\right)= f*_{x}P $$ 
+
+$$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\frac{1 }{t^{2} \,d t}= \frac{1 }{\pi  }\left[ \arctan t \right]_{-\infty}^{\infty}= 1 $$ 
