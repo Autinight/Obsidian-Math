@@ -90,3 +90,10 @@ $$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\frac{1 }{t^{2} \,d t}= \frac{1 }{\pi
 $$ \mathcal{F}\left(e^{-x^{2}}\right)= \sqrt{\pi }e^{-\left(\pi t\right)^{2}} $$ 
 
 $$ \int _{-\infty}^{\infty}\sqrt{\pi }e^{-\left(\pi t\right)^{2}}= \frac{1 }{\sqrt{\pi } }\int _{-\infty}^{\infty}e^{-u^{2}}\,d u= 1 $$ 
+
+$e^{-x^{2}}$的Fourier变换, 无非是变化速度乘了$\pi$然后 积分归一.
+
+设$f\in L\left(\mathbb{R} \right)$, $K\left(t\right)$是$\mathbb{R}$上的非负连续偶函数, 单调递减, 积分为一. 则
+$$ \lim_{\alpha \to 0_{+ }}\left(f*K_{\alpha }\right)\left(x\right)= f\left(x\right) $$ 
+
+可积的卷积核, 如果外围上确界函数是可积的, $f$具有某种可积性, 则在Lebesgue点处收敛.

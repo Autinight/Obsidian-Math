@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "b5342d762def4d07",
+        "id": "ddca7f39bc715cff",
         "type": "tabs",
         "children": [
           {
-            "id": "7313ec14a93bfc36",
+            "id": "bac48818570fe6df",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HA_Pan Ch3"
             }
           }
         ]
@@ -143,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "HA_Pan Ch3 的大纲"
             }
           },
           {
@@ -181,13 +196,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7313ec14a93bfc36",
+  "active": "bac48818570fe6df",
   "lastOpenFiles": [
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "00.Inbox/Daily Draft 2026-06-05.md",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
-    "00.Inbox/Daily Draft 2026-06-05.md",
     "00.Inbox/未命名.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-04.md",
     "00.Inbox/Daily Draft 2026-06-04.md",
@@ -199,7 +215,6 @@
     "20.Cards/Propositions/pps - Riemannian Metric Induced by Immersion.md",
     "20.Cards/Definitions/dfn - Riemannian Immersion(Embedding).md",
     "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
