@@ -85,3 +85,8 @@ $$ P\left(x,y\right)= \frac{1 }{\pi  }\frac{y }{x^{2}+ y^{2} } $$
 $$ u\left(x,y\right)= f*_{x}P $$ 
 
 $$ \frac{1 }{\pi  }\int _{-\infty}^{\infty}\frac{1 }{t^{2} \,d t}= \frac{1 }{\pi  }\left[ \arctan t \right]_{-\infty}^{\infty}= 1 $$ 
+
+
+$$ \mathcal{F}\left(e^{-x^{2}}\right)= \sqrt{\pi }e^{-\left(\pi t\right)^{2}} $$ 
+
+$$ \int _{-\infty}^{\infty}\sqrt{\pi }e^{-\left(\pi t\right)^{2}}= \frac{1 }{\sqrt{\pi } }\int _{-\infty}^{\infty}e^{-u^{2}}\,d u= 1 $$ 
