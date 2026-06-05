@@ -31,4 +31,8 @@ $$ K_{\alpha }\left(t\right)* \widehat{e^{2\pi ixt}}= \int _{-\infty}^{\infty}K_
 
 $$ \hat{f}\left(t\right)=  $$ 
 
-$$ \widehat{\Phi _{\frac{1 }{\alpha  }}\left(t\right)e^{2\pi ixt}} $$ 
+$$ \widehat{\Phi _{\frac{1 }{\alpha  }}\left(t\right)e^{2\pi ixt}}= \int _{-\infty}^{\infty}\Phi _{\frac{1 }{\alpha  }\left(t\right)}e^{2\pi ixt}e^{-2\pi ixt}\,d t $$ 
+
+$$ \int _{-\infty}^{\infty} \Phi _{\frac{1 }{\alpha  }}\left(t\right)e^{-2\pi i\left(x- y\right)t}\,d t= \widehat{\Phi _{\alpha }}\left(t-x\right)= \frac{1 }{\alpha  }\Phi \left(\frac{t-x }{\alpha  }\right)  $$ 
+
+$$ K\left(t\right)= \widehat{\Phi}= \int _{-1}^{1}\left(1-\left| xl \right| \right)e^{-2\pi ixt}\,d x= \int _{0}^{1}\left(1-x\right)2\cos 2\pi t\,d x= 2\frac{1 }{2\pi t }\int _{0}^{1}\left(1-x\right)d\sin \left(2\pi tx\right)= + \frac{2 }{2\pi t }\int _{0}^{1}\sin 2\pi tx\,d x=  $$ 
