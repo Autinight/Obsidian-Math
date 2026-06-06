@@ -122,3 +122,38 @@ $$
 
 等式右侧的级数不一定收敛. 但是我们确实通过控制收敛定理证明了极限相当(包含控制收敛定理的趋于无穷的情况).
 
+
+对函数逐项积分, 得到
+
+
+$$ \begin{aligned} \begin{aligned} \int _{0}^{t}f\left(\tau \right)\,d \tau &= \sum _{n = -\infty}^{\infty}\int _{0}^{t}c_{n}e^{inx}\,d \tau\\&=c_0t +  \sum  \left[ \frac{c_{n}e^{inx} }{in } \right]_{0}^{t}\\&= c_0t+ \sum  _{n \neq 0} \frac{c_{n}e^{inx} }{ in}- \sum _{n \neq 0} \frac{c_{n} }{in }\\&= c_0t+  i\sum _{n  \neq 0}\frac{c_{n} }{n }-  i  \sum _{n  \neq 0} \frac{c_{n}e^{inx} }{n } \end{aligned}\end{aligned} $$ 
+并且右端的级数一致收敛.所
+
+意思就是, 只要你是$L^{1}$的, 不管你Fourier级数收敛不收敛, 我积分增加正则性, 他就必须得收敛, 而且非常厉害, 一定是一致收敛, 只要能积分, 必须收敛.
+
+这里就用到那个$L$和有界变差配对的形式的Parseval恒等式.
+
+我们就把积分理解成配对, 和一个比较trivial的函数配对. 反正上面说明了 有界变差, 性质就够好, 就不用管你$f$到底能不能Fourier收敛, 反正积分是可以的, 配对可以补偿你本身的奇异性质.
+
+我们用一个$g =  \chi _{\left(0,t\right)}$
+这么一个家伙, 那么 Fourier系数算一算, $d _{n}= \frac{1 }{2\pi  }\int _{0}^{t}e^{-inx}\,d x= \begin{cases} \frac{1 }{2\pi  }\frac{i }{n }\left(e^{- i  nt }-1\right)\\\frac{1 }{2\pi  }t \end{cases}$
+
+然后你Parseval 恒等式, 不用管$f$的Fourier级数到底收不收敛, 我们要的 就是配对后的那个家伙, 一定是相等的.
+
+然后引入了一个$\psi$ , 不知道干嘛
+
+我们还想证明右侧是一致收敛的.
+
+
+现在右边这个级数和, 我们把它造成是Fourier级数, 然后
+
+然后把Parseval恒等式得到的结构, 变化出另一个Fourier级数的表达式, 这个表达式是真正Fourier级数收敛于原函数的, 所以我们就看新造的这个"原函数"到底有没有一致收敛的Fourier级数.
+
+Fourier级数的一致收敛性有一些已知的判据, 比如说$\psi$, 也就是说新造的原函数是绝对连续的.
+
+$c_{k}\left(\psi ^{\prime} \right)= c_{k}$
+
+$$ c_{k}\left(\psi \right)= \frac{c_{k} }{ik } $$ 
+
+
+

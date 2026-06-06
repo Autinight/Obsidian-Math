@@ -1642,13 +1642,16 @@ $$
 
 注意：在本定理的条件下，Parseval 等式右端的级数不一定绝对收敛.
 
-定理2.32 设 $f \in L(T)$ , 对 $f$ 的Fourier级数进行逐项积分必有等式成立, 即
-
+定理2.32 设 $f \in L(\mathbb{T})$，对 $f$ 的 Fourier 级数进行逐项积分必有等式成立，即
 $$
-\begin{array}{l} \int_ {0} ^ {t} f (x) \mathrm{d} x = \sum_ {n = - (\infty)} ^ {\infty} \int_ {0} ^ {t} c _ {n} \mathrm{e} ^ {\mathrm{i} n \tau} \mathrm{d} x \\ = c _ {0} t + 1 \sum_ {n \neq 0} \frac {\iota_ {n}}{n} - \mathrm{i} \sum_ {n \neq 0} \frac {\iota_ {n}}{n} \mathrm{e} ^ {\mathrm{i} n t}, \tag {2.63} \\ \end{array}
+\begin{aligned}
+\int_{0}^{t} f(\tau) \, \mathrm{d}\tau 
+&= \sum_{n=-\infty}^{\infty} \int_{0}^{t} c_{n} \mathrm{e}^{\mathrm{i} n \tau} \, \mathrm{d}\tau \\
+&= c_{0} t + \mathrm{i} \sum_{n \neq 0} \frac{c_{n}}{n} - \mathrm{i} \sum_{n \neq 0} \frac{c_{n}}{n} \mathrm{e}^{\mathrm{i} n t},
+\end{aligned}
 $$
+并且上式右端的级数一致收敛。
 
-并且上式右端的级数一致收敛.
 
 证明 设 $t \in (0, \pi]$ , 令
 
