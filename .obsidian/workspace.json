@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ddca7f39bc715cff",
+        "id": "d95dfd48db292e65",
         "type": "tabs",
         "children": [
           {
-            "id": "bac48818570fe6df",
+            "id": "e543e1b110f0690e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40.Drafts/2026-06/Daily Draft 2026-06-05.md",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-06-05"
+              "title": "HA_Pan Ch2"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA_Pan Ch3 的大纲"
+              "title": "HA_Pan Ch2 的大纲"
             }
           },
           {
@@ -195,14 +195,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "e543e1b110f0690e",
   "lastOpenFiles": [
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "00.Inbox/Daily Draft 2026-06-06.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-05.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "40.Drafts/2026-06/Daily Draft 2026-06-05.md",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "00.Inbox/文本附件",
