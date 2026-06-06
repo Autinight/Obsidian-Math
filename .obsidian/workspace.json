@@ -30,6 +30,23 @@
               "icon": "lucide-file",
               "title": "HA_Pan Ch2"
             }
+          },
+          {
+            "id": "9a6bb25576ca9da7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
+                "viewState": {
+                  "x": 599.5844508702384,
+                  "y": 475.5641683427858,
+                  "zoom": -0.3333333333333334
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Hilbert空间 最佳逼近和正交分解."
+            }
           }
         ]
       }
@@ -78,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -197,6 +215,14 @@
   },
   "active": "e543e1b110f0690e",
   "lastOpenFiles": [
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
+    "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
+    "10.Atlas/FA.md",
+    "10.Atlas/FA",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+    "30.Recources/FA/Course HW/FA - HW12.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "00.Inbox/Daily Draft 2026-06-06.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-05.md",
@@ -212,9 +238,7 @@
     "open-vscode/data.json",
     "open-vscode",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch1.md",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "00.Inbox/未命名.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-04.md",
     "00.Inbox/Daily Draft 2026-06-04.md",
@@ -228,23 +252,16 @@
     "20.Cards/Concepts/Divergence on Riemannian Manifold.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-03.md",
     "40.Drafts/2026-05/Daily Draft 2026-05-19.md",
-    "30.Recources/FA/Course HW/FA - HW12.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "30.Recources/FA/Course HW/FA - HW11.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
-    "10.Atlas/DM/Atlas - Tensor.canvas",
     "40.Drafts/2026-06",
     "31.Obsidian Books/HA_Pan/未命名",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.f0e99e61f679",
     "30.Recources/LA/LA Xie Ch7.md.tmp.1564.b97ae2d4dbda",
-    "60.Templates/Archive.js",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
