@@ -124,3 +124,59 @@ $$ \widehat{\varphi}\frac{1-2\lambda + 4\pi ^{2}t^{2} }{1+ 4\pi ^{2}t^{2} }= \ha
 $$ \widehat{\varphi}= \frac{1+ 4\pi ^{2}t^{2} }{1-2\lambda + 4\pi ^{2}t^{2} }\hat{f} $$ 
 
 $$ \varphi \left(x\right)= \mathcal{F}^{-1} \left(\frac{1+ 4\pi ^{2}t^{2} }{1-2\lambda + 4\pi ^{2}t^{2} }\hat{f}\right) $$ 
+
+> [!exercise] 9
+> 求积分方程
+> $$
+> \int_{-\infty}^{\infty}
+> \frac{u(t)}{(x-t)^2+a^2}\,dt
+> =
+> \frac{1}{x^2+b^2},
+> \qquad 0<a<b
+> $$
+> 的解 $u(t)\in L^2(\mathbb{R})$。
+
+
+
+$$ \hat{u}\cdot  \mathcal{F}\left[ \frac{1 }{x^{2}+ a^{2} } \right] = \mathcal{F}\left[ \frac{1 }{x^{2}+ b^{2} } \right]$$ 
+
+
+$$ \mathcal{F}\left[ e^{-\left| x \right| } \right]= \frac{2 }{1+ 4\pi ^{2}t^{2} } $$ 
+
+$$ \mathcal{F}\left[ e^{-\left| rx \right| } \right] = \frac{1 }{r }\frac{2 }{1+ 4\pi ^{2}\left(\frac{t }{r }\right)^{2} }= \frac{1 }{r }\frac{r^{2} }{4\pi ^{2} }\frac{2 }{\frac{r^{2} }{4\pi ^{2} }+ t^{2} }= \frac{r }{2\pi ^{2} }\frac{1 }{\frac{r^{2} }{4\pi ^{2} }+ t^{2} }$$ 
+令
+$$ \frac{r^{2} }{4\pi ^{2} }= a^{2}, then \quad r= 2\pi a $$ 
+We have 
+$$ \mathcal{F}\left[ e^{-\left| 2\pi a x \right| } \right] \left(t\right)= \frac{2 }{2\pi a }\frac{1 }{1+ 4\pi ^{2} \frac{t^{2} }{4\pi ^{2}a^{2} } }= \frac{1 }{\pi a }\frac{1 }{1+  \frac{t^{2} }{a^{2} } }= \frac{1 }{\pi a }\frac{a^{2} }{a^{2}+ t^{2} }= \frac{a }{\pi  }\frac{1 }{a^{2}+ t^{2} }$$ 
+Then
+$$ \mathcal{F}\left[ \frac{\pi  }{a }e^{-\left| 2\pi ax \right| } \right] \left(t\right)= \frac{1 }{a^{2}+ t^{2} }$$ 
+
+$$ \mathcal{F}\left[ \frac{1 }{a^{2}+ x^{2} } \right] \left(t\right)= \frac{\pi  }{a }e^{-\left| 2\pi a\left(-t\right) \right| }= \frac{\pi  }{a }e^{-\left| 2\pi at \right| }$$ 
+
+Similarly, 
+$$ \mathcal{F}\left[ \frac{1 }{b^{2}+ x^{2} } \right] \left(t\right)=  \frac{\pi  }{b }e^{-\left| 2\pi bt \right| }$$ 
+We have 
+$$ \hat{u} \frac{\pi  }{a }e^{-\left| 2\pi at \right| }= \frac{\pi  }{b }e^{-\left| 2\pi bt \right| } $$ 
+
+$$ \hat{u}= \frac{a }{b }e^{\left| 2\pi at \right| }e^{-\left| 2\pi bt \right| }= \frac{a }{b }e^{2\pi \left(a-b\right)\left| t \right| } $$ 
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} u\left(x\right)&= \int _{-\infty}^{\infty}\hat{u}e^{2\pi ixt}\,d t\\&= \frac{a }{b }\int _{-\infty}^{\infty}e^{2\pi \left(a-b\right)\left| t \right| }e^{2\pi ixt} \,d t\\&= \frac{a }{b }\int _{0}^{\infty}e^{2\pi \left(a-b+ ix\right)t}+ e^{2\pi \left(a-b-ix\right)t}\,d t\\&= -\frac{a }{b }\left(\frac{1 }{2\pi \left(a-b+ ix\right) }+ \frac{1 }{2\pi \left(a-b-ix\right) }\right)\\&= \frac{a }{b }\frac{1 }{2\pi  }\left(\frac{1 }{b-a+ ix }+ \frac{1 }{b-a-ix }\right)\\&= \frac{a }{b }\frac{1 }{2\pi  }\frac{1 }{\left(b-a\right)^{2}+ x^{2} } = \frac{1 }{2\pi  }\frac{a }{b }\frac{1 }{x^{2}+ \left(b-a\right)sr }\end{aligned} \end{aligned}\end{aligned} $$ 
+
+> [!exercise] Exercise: 
+> 设$f\in C\left(\mathbf{T}\right)$, 若$f\left(x\right)$的Fourier级数一致收敛, 则该级数的和为$f\left(x\right)$.
+
+$\left\{ e^{inx} \right\}$是完全的, 即若 
+$\left< f,e^{inx} \right>= 0, \forall n\implies f= 0$
+
+若
+$$ \left< f,e^{inx} \right> = \left< g,e^{inx} \right>\implies f= g a.e.$$ 
+
+
+由一致收敛, 级数和积分可交换
+$$ \left< g, e^{inx} \right>= \left< \sum _{n = -\infty}^{\infty}c_{n}e^{inx},e^{inx} \right>= \sum _{n = -\infty}^{\infty}\left< c_{n},e^{ikx},e^{inx} \right>= c_{n}$$ 
+于是
+
+$$ f= g, a.e. $$ 
+
+> [!exercise] Exercise: 
+> 若$f\in L^{p}\left(\mathbb{R} ^{n}\right)$, $\mathscr{K}\in L^{q}\left(\mathbb{R} ^{n}\right)$, $1\le p\le \infty$, $\frac{1 }{ p}+ \frac{1 }{q }= 1$, 证明: $f*\mathscr{K}$在$\mathbb{R} ^{n}$上有界并且连续.

@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-07.md",
+                "file": "30.Recources/HA/Course HW/HA - HW1.2.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-06-07"
+              "title": "HA - HW1.2"
             }
           }
         ]
@@ -195,14 +195,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
+    "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
+    "30.Recources/HA/Course HW/HA - HW2.1.md",
+    "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW1.2.md",
+    "30.Recources/HA/Course HW/HA - HW1.1.md",
+    "30.Recources/HA/Course HW/HA - HW3.5.md",
     "30.Recources/HA/Course HW/HA - HW3.6.md",
     "30.Recources/HA/Course HW/HA - HW3.4.md",
     "30.Recources/HA/Course HW/HA - HW3.3.md",
-    "30.Recources/HA/Course HW/HA - HW3.5.md",
-    "31.Obsidian Books/HA_Pan/HA.md",
+    "30.Recources/HA/Course HW/HA - HW3.2.md",
+    "30.Recources/HA/Course HW/HA - HW3.1.md",
     "00.Inbox/Daily Draft 2026-06-07.md",
+    "31.Obsidian Books/HA_Pan/HA.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
@@ -221,17 +233,6 @@
     "node_modules/util-deprecate/History.md",
     "node_modules/tunnel-agent/README.md",
     "node_modules/tar-stream/README.md",
-    "node_modules/tar-fs/README.md",
-    "node_modules/strip-json-comments/readme.md",
-    "node_modules/string_decoder/README.md",
-    "node_modules/simple-get/README.md",
-    "node_modules/simple-concat/README.md",
-    "node_modules/safe-buffer/README.md",
-    "node_modules/semver/README.md",
-    "node_modules/readable-stream/README.md",
-    "node_modules/readable-stream/GOVERNANCE.md",
-    "node_modules/readable-stream/CONTRIBUTING.md",
-    "node_modules/rc/README.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
