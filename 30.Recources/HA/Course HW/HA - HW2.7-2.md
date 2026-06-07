@@ -24,9 +24,7 @@
 
 
 > [!exercise] Exercise: 
-> 
 > 证明三角级数
-> 
 > $$\sum_{n=1}^{\infty} \frac{\sin nx}{\ln(n+1)}$$
 > 
 > 在 $[-\pi, \pi]$ 收敛，但它不是任何可积函数的 Fourier 级数。

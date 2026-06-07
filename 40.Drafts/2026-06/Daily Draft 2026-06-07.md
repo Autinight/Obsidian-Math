@@ -351,6 +351,8 @@ $$ \begin{aligned} \begin{aligned} \begin{aligned} \int _{-\infty}^{\infty}g^{2}
 则
 $$ \lim_{R\to \infty}\frac{1 }{\pi  }\int _{0}^{\infty}f\left(t\right)\frac{\sin R\left(x-t\right) }{\left(x-t\right) }\,d t=  \lim_{R\to \infty}S_{\left[ 2\pi R \right]}\left(f^{\left(0\right)},x\right) $$ 
 
+证明
+$\frac{f }{1+ \left| x \right|  }\in L^{1}$.
 $f\left(t\right)= \frac{1 }{t^{a} }$
 
 当$x \neq 0$时, 若$x> 0$, 考虑 $f^{\left(x\right)}: \left(x, x+ 2\pi \right)$
@@ -361,3 +363,11 @@ $$ \begin{aligned} \begin{aligned} f_{R}\left(x\right)&= \int _{-R}^{R}\hat{f}\l
 如果$\frac{f }{1+ \left| x \right|  }\in L\left(R\right)$,  则$f_{R}$存在.
 
 $f_{R}\left(x\right)- S_{\left[ 2\pi R \right]}\left(f^{\left(a\right)},x\right)\to 0$, $f^{\left(a\right)}$是$\left(a,a+ 2\pi \right)$周期化函数.
+
+Dini判别法, 局部上, 
+$$ \int _{0}^{\delta }\left| \varphi _{x}\left(t\right)-s \right| /t \,d t< \infty $$ 
+Jordan判别法, 在$x$的某个邻域上, 有界变差.
+
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} \begin{aligned} \hat{f}\left(t\right)&=\int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)e^{-2\pi itx} \,d x\\&=  \int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)\cos \left(2\pi  tx\right)\,d x- i  \int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)\sin \left(2\pi tx\right)\,d x\\&=2 \int _{0}^{1}\cos \left(\frac{\pi x }{2 }\right)\cos \left(2\pi tx\right)\,d x\\&=  \int _{0}^{1}\cos \left(\frac{\pi x }{2 }+ 2\pi tx\right)+ \cos \left(\frac{\pi x }{2 }-2\pi tx\right)\,d x\\&= \int _{0}^{1}\cos \left(\pi \left(\frac{1 }{2 }+ 2t\right)x\right)+ \cos \left(\pi \left(\frac{1 }{2 }-2t\right)x\right)\,d x\\&= \frac{1 }{\pi \left(\frac{1 }{2 }+ 2t\right) } \left(\sin \left(\pi \left(\frac{1}{2}+ 2t\right)\right)\right)+  \frac{1 }{\pi \left(\frac{1}{2}-2t\right) }\left(\sin \left(\pi \left(\frac{1 }{2 }-2t\right)\right)\right)\\&= \frac{\cos 2\pi t }{\pi \left(\frac{1}{2}+ 2t\right) }+  \frac{\cos 2\pi t }{\pi \left(\frac{1}{2}-2t\right) }= \frac{\cos 2\pi t }{\pi   }\frac{1 }{\frac{1}{4}-4t^{2} }= \frac{4\cos 2\pi t }{\pi \left(1-16t^{2}\right) } \end{aligned}  \end{aligned} \end{aligned}\end{aligned} $$ 
+
