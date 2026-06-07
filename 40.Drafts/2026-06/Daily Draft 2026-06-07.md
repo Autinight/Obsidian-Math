@@ -338,3 +338,10 @@ $$ \hat{f}*\hat{f}=  \pi ^{2}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ 
 $$ \hat{g}= \pi ^{2}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ } $$ 
 
 $$ \begin{aligned} \begin{aligned} \begin{aligned} \int _{-\infty}^{\infty}g^{2}\,d t&= \int _{-\infty}^{\infty}\hat{g}^{2}\,d t=  \pi ^{4}\int _{-\infty}^{\infty}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ }^{2}\,d x\\&= \pi ^{3} \int _{-\infty}^{\infty}\left(\frac{1 }{\pi  }-\frac{\left| x \right|  }{ \pi }\right)^{2}\,d x=  \pi \int _{-\infty}^{\infty}\left(1-\left| x \right| \right)^{2}\,d x\\&= \pi \int _{-1}^{1}\left(1-\left| x \right| \right)^{2}\,d x\\&= 2\pi \int _{0}^{1}\left(1-x\right)^{2}\,d x=  2\pi \int _{0}^{1}x^{2}\,d x= \frac{2\pi  }{3 } \end{aligned} \end{aligned} \end{aligned} $$ 
+
+> [!exercise] 习题 2
+> 若 $0<a<1$，当 $x\neq 0$，求
+> $$
+> \lim_{R\to\infty} \frac{1}{\pi} \int_0^\infty \frac{1}{t^a}\cdot\frac{\sin R(x-t)}{x-t}\, dt = \,?
+> $$
+
