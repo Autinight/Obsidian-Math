@@ -154,6 +154,7 @@ Fourier级数的一致收敛性有一些已知的判据, 比如说$\psi$, 也就
 $c_{k}\left(\psi ^{\prime} \right)= c_{k}$
 
 $$ c_{k}\left(\psi \right)= \frac{c_{k} }{ik } $$ 
+分部积分, 就是负的另一边的导数,
 
 
 
