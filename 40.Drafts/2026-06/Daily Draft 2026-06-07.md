@@ -405,3 +405,24 @@ $$ \frac{1 }{2\pi  } \int _{-\pi }^{\pi }F\left(x\right)=  \sum _{n = 1}^{\infty
 但是积分
 $$ \int _{2}^{\infty}\frac{1 }{x\ln x }\,d x= \infty $$ 
 由积分判别法, 技术发散到$\infty$, 于是$F$在$\left[ -\pi ,\pi  \right]$上不是$L^{1}$的, 进而不是绝对连续的.
+
+
+
+
+
+
+$$ \begin{aligned} \left< f, e^{inx} \right>&=  \frac{1 }{2\pi  }\int _{-\pi }^{\pi } x^{2}e^{-inx} \,d x= -\frac{x^{2}e^{-inx} }{in }|_{-\pi }^{\pi }+ \frac{2 }{in }\int _{-\pi }^{\pi }e^{-inx}x\,d x\\&= \frac{\pi ^{2} }{in } 2\left(-1\right)^{n}=\end{aligned}$$ 
+
+$f$是偶函数
+
+$$ a_0= \frac{1 }{\pi  }\int _{-\pi }^{\pi }x^{2}\,d x= \frac{2\pi ^{2} }{3 } $$ 
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} \begin{aligned} a_{n}&= \frac{2 }{\pi  }\int _{-\pi }^{\pi }x^{2}\cos \left(nx\right)\,d x\\&= \frac{2 }{\pi n }\int _{-\pi }^{\pi }x^{2} d\left(\sin \left(nx\right)\right)\\&= \frac{2 }{\pi n }x^{2}\sin nx|_{-\pi }^{\pi }-\frac{2 }{\pi n }\int _{-\pi }^{\pi }\left(2x\right)\sin \left(nx\right)\,d x\\&= -\frac{4 }{\pi n }\int _{-\pi }^{\pi }x\sin  \left(nx\right)\,d x\\&= \frac{4 }{\pi n^{2} }\int _{-\pi }^{\pi }xd\left(\cos \left(nx\right)\right)\\&= \frac{4 }{\pi n^{2} }x\cos nx|_{0}^{\pi }-\frac{4 }{\pi n^{2} }\int _{-\pi }^{\pi }\cos nx\,d x\\&= \frac{4 }{\pi n^{2} }\pi \left(-1\right)^{n}= 4 \frac{\left(-1\right)^{n} }{n^{2} } \end{aligned} \end{aligned} \end{aligned}\end{aligned} $$ 
+由Parseval恒等式
+$$ \frac{1 }{\pi  }\int _{-\pi }^{\pi }\left| f\left(x\right) \right|^{2}\,d x= \frac{a_0^{2} }{2 }\sum _{n = 1}^{\infty}a_{n}^{2}   $$
+
+$$ \frac{1 }{\pi  }2\int _{0}^{\pi }x^{4}\,d x= \frac{2 }{5\pi  }\pi ^{5}= \frac{2\pi ^{4} }{5 } $$ 
+
+$$ \left< f,f \right> $$ 
+
+$$ \frac{1 }{\pi  } \int _{-\pi }^{\pi } \sin ^{2}x\,d x=  $$ 
