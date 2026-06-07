@@ -371,3 +371,37 @@ Jordan判别法, 在$x$的某个邻域上, 有界变差.
 
 $$ \begin{aligned} \begin{aligned} \begin{aligned} \begin{aligned} \hat{f}\left(t\right)&=\int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)e^{-2\pi itx} \,d x\\&=  \int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)\cos \left(2\pi  tx\right)\,d x- i  \int _{-1}^{1}\cos \left(\frac{\pi x }{2 }\right)\sin \left(2\pi tx\right)\,d x\\&=2 \int _{0}^{1}\cos \left(\frac{\pi x }{2 }\right)\cos \left(2\pi tx\right)\,d x\\&=  \int _{0}^{1}\cos \left(\frac{\pi x }{2 }+ 2\pi tx\right)+ \cos \left(\frac{\pi x }{2 }-2\pi tx\right)\,d x\\&= \int _{0}^{1}\cos \left(\pi \left(\frac{1 }{2 }+ 2t\right)x\right)+ \cos \left(\pi \left(\frac{1 }{2 }-2t\right)x\right)\,d x\\&= \frac{1 }{\pi \left(\frac{1 }{2 }+ 2t\right) } \left(\sin \left(\pi \left(\frac{1}{2}+ 2t\right)\right)\right)+  \frac{1 }{\pi \left(\frac{1}{2}-2t\right) }\left(\sin \left(\pi \left(\frac{1 }{2 }-2t\right)\right)\right)\\&= \frac{\cos 2\pi t }{\pi \left(\frac{1}{2}+ 2t\right) }+  \frac{\cos 2\pi t }{\pi \left(\frac{1}{2}-2t\right) }= \frac{\cos 2\pi t }{\pi   }\frac{1 }{\frac{1}{4}-4t^{2} }= \frac{4\cos 2\pi t }{\pi \left(1-16t^{2}\right) } \end{aligned}  \end{aligned} \end{aligned}\end{aligned} $$ 
 
+
+
+有Parseval恒等式
+$$ \left< f, g \right>= \left< \hat{f}, \hat{g} \right> $$ 
+
+
+
+$$ \int _{-\infty}^{\infty}f\left(x\right)\cdot g\left(x\right)\,d x $$ 
+
+
+$$ S_{N}f= \sum _{k = -N}^{N}c_{k}e^{ikx} $$ 
+
+$$ \begin{aligned} \left<  S_{N}f, \bar{g} e^{inx}\right>&=  \frac{1 }{2\pi  }\int  \left(S_{N}f\right)g e^{-inx}\,d x\\&= \frac{1 }{2\pi  }\sum  \int  c_{k}g e^{-i\left(n-k\right)x}\,d x\\&= \frac{1 }{2\pi  }c_{k}\sum \left< g, e^{i\left(n-k\right)x} \right>\\&= \frac{1 }{2\pi  }\sum_{k = -N}^{N}  c_{k}d _{n-k} \end{aligned} $$ 
+
+$$ \lim_{N\to \infty}\left< S_{N}f, \bar{g} e^{inx} \right>= \frac{1 }{2\pi  }\sum _{k = -N}^{N}c_{k} d _{n-k} $$ 
+
+$$ \left< f, \bar{g}e^{inx} \right>= \sum _{k= -\infty}^{\infty} c _{k}d _{n-k} $$ 
+
+$$ \gamma _{n}= \left< f\cdot g, e^{inx} \right>= \left< f, \bar{g} e^{inx} \right> $$ 
+
+若三角技术收敛, 则存在奇函数 $f$, 使得
+
+$$ b_{n}= \frac{1 }{\pi  }\int _{-\pi }^{\pi }f\left(x\right)\sin \left(nx\right)\,d x= \frac{1 }{\ln \left(n+ 1\right) } $$ 
+若$f$是可积函数, 则可以逐项积分
+
+$$ F\left(x\right)= \sum _{n = 1}^{\infty} \int_{0}^{x}  b_{n}\sin nx= \sum _{n = 1}^{\infty} \frac{b_{n} }{n }\left(1-\cos nx\right)$$ 
+
+$$ F\left(x\right)= \left(\sum _{n = 1}^{\infty}\frac{b_{n} }{n }\right)+ \sum _{n = 1}^{\infty}\left(\frac{-b_{n} }{n }\right)\cos nx $$ 
+再积分, 得到
+$$ \frac{1 }{2\pi  } \int _{-\pi }^{\pi }F\left(x\right)=  \sum _{n = 1}^{\infty}\frac{b_{n} }{n }= \sum _{n = 1}^{\infty}\frac{1 }{n\ln \left(n+ 1\right) } $$ 
+
+但是积分
+$$ \int _{2}^{\infty}\frac{1 }{x\ln x }\,d x= \infty $$ 
+由积分判别法, 技术发散到$\infty$, 于是$F$在$\left[ -\pi ,\pi  \right]$上不是$L^{1}$的, 进而不是绝对连续的.
