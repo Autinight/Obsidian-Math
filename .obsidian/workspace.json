@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +196,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b885c711cfa082b4",
+  "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "00.Inbox/Daily Draft 2026-06-07.md",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
@@ -206,7 +212,6 @@
     "node_modules/drizzle-orm/query-builders/select.types.cjs.map",
     "node_modules/drizzle-orm/query-builders/select.types.cjs",
     "node_modules/drizzle-orm/query-builders/query-builder.js.map",
-    "node_modules/drizzle-orm/query-builders/query-builder.cjs",
     "node_modules/wrappy/README.md",
     "node_modules/util-deprecate/README.md",
     "node_modules/util-deprecate/History.md",
@@ -229,9 +234,6 @@
     "node_modules/mkdirp-classic/README.md",
     "node_modules/minimist/README.md",
     "node_modules/minimist/CHANGELOG.md",
-    "node_modules/mimic-response/readme.md",
-    "node_modules/ini/README.md",
-    "node_modules/inherits/README.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
