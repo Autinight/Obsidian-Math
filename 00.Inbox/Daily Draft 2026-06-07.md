@@ -180,3 +180,52 @@ $$ f= g, a.e. $$
 
 > [!exercise] Exercise: 
 > 若$f\in L^{p}\left(\mathbb{R} ^{n}\right)$, $\mathscr{K}\in L^{q}\left(\mathbb{R} ^{n}\right)$, $1\le p\le \infty$, $\frac{1 }{ p}+ \frac{1 }{q }= 1$, 证明: $f*\mathscr{K}$在$\mathbb{R} ^{n}$上有界并且连续.
+
+
+
+$$ f*\mathscr{K}= \int _{\mathbb{R} ^{n}} f\left(y\right)\mathscr{K}\left(x-y\right)\,d x$$ 
+
+由Minkowski不等式
+$$ \left| f*\mathscr{K} \right| \le \left\| f \right\|\left\| \tau _{y}\mathscr{K} \right\| = \left\| f \right\|_{L^{p}}\left\| \mathscr{K} \right\|_{L^{q}}< \infty$$ 
+故有界.
+
+$$ \begin{aligned} \left| f*\mathscr{K}\left(x+ h\right) -f*\mathscr{K}\left(x\right)\right| &=  \int _{\mathbb{R} ^{}} \mathscr{K}\left(y\right)\left| f\left(x+ h-y\right)-f\left(x-y\right) \right| \,d y\\\end{aligned} $$ 
+由于
+$$ \begin{aligned} \begin{aligned} \int _{\mathbb{R}^{n} }\left| \mathscr{K}\left(x+ y\right) \right| \left| f\left(-y+ h\right)-f\left(-y\right) \right| \,d y\\&= \int _{\mathbb{R} ^{n}} \left| \mathscr{K}\left(x-y\right) \right| \left| f\left(y+ h\right) -f\left(y\right)\right|\,d y\\&\le \left( \int _{\mathbb{R} ^{n}}\left| f\left(y+ h\right)-f\left(y\right) \right| ^{p}\,d y\right)^{\frac{1}{p}}\left\| \tau _{x}\mathscr{K} \right\|\\&= \left\| \tau \tau _{-h}-f \right\| \end{aligned} \end{aligned} $$ 
+当$p = \infty$, 则
+
+$$ \int _{\mathbb{R} ^{n}} $$ 
+由于$f\in L^{\infty}$, 
+> [!exercise] Exercise: 
+> 设$\mathscr{K}\left(x\right)\in L\left(\mathbb{R} \right)$, 及$\int _{\mathbb{R} }\mathscr{K}\left(x\right)\,d x= a$, 若$f\in L^{p}\left(\mathbb{R} \right)$, $1\le p< \infty$, 证明: 
+>  $$ \lim_{\varepsilon \to 0}\left\| f*\mathscr{K}_{\varepsilon} -af\right\|_{p}= 0 $$ 
+
+
+
+$$ af\left(x\right)= \int _{\mathbb{R} }\mathscr{K}\left(y\right)f\left(x\right)\,d y $$ 
+
+$$ f*\mathscr{K}_{\varepsilon }= \int _{\mathbb{R} }\mathscr{K}_{\varepsilon }\left(y\right) f\left(x-y\right)\,d y $$ 
+
+$$ af\left(x\right)-f*\mathscr{K}_{\varepsilon }= \int _{\mathbb{R} }\mathscr{K}_{} $$ 
+
+$$ af\left(x\right)= \int _{\mathbb{R} }f\left(x\right) \mathscr{K}_{\varepsilon < }\left(y\right)\,d y$$ 
+
+$$ \begin{aligned} f*\mathscr{K}_{\varepsilon }&= \int _{\mathbb{R} }f\left(x-y\right) \mathscr{K}_{\varepsilon }\left(y\right)\,d y\\&=  \end{aligned}$$ 
+
+$$ f*\mathscr{K}_{\varepsilon }-af= \int _{\mathbb{R} }\left(f\left(x-y\right)-f\left(x\right)\right) \mathscr{K}_{\varepsilon }\left(y\right)\,d y$$ 
+
+$$ \begin{aligned} \left\| f*\mathscr{K}_{\varepsilon }-af \right\|_{p}&=  \left(\int _{\mathbb{R} }\left|  \int _{\mathbb{R} }f\left(x-y\right)-f\left(x\right)\mathscr{K}_{\varepsilon }\left(y\right)\,d y \right|^{p}\,d x \right)^{\frac{1}{p}}\\&\le \left(\int _{\mathbb{R} }\left|  \left(\int _{\mathbb{R} }\left| f\left(x-y\right)-f\left(x\right) \right|^{p}\left| \mathscr{K}_{\varepsilon }\left(y\right) \right|^{p}\,d x  \right)^{\frac{1}{p}} \right|\,d y \right)\\&= \int _{\mathbb{R} } \left\| \tau _{y}f-f \right\|_{L^{p}}\left| \mathscr{K}_{\varepsilon }\left(y\right) \right|\,d y  \end{aligned} $$ 
+
+$$ \mathscr{K}_{\varepsilon }\left(y\right)= \frac{1 }{\varepsilon  }K\left(\frac{y }{\varepsilon  }\right) $$ 
+
+
+$$ \int _{\mathbb{R} }\left\| \tau _{\varepsilon y}f-f \right\|_{L^{p}}\left| \mathscr{K}\left(y\right) \right| \,d y $$ 
+控制函数
+$$ 2\left\| f \right\|\left| K \right|  $$ 
+对于任意的$y$, $\lim_{\varepsilon \to 0}\left\| \tau _{\varepsilon y}f-f \right\|_{L^{p}}= 0$, 逐点地成立.
+于是控制收敛定理趋于零.
+
+> [!exercise] Exercise: 
+> 设$\mathscr{K}\left(x\right)\in L\left(\mathbb{R} \right)$, $\int _{\mathbb{R} ^{1}}\mathscr{K}\left(x\right)\,d x= 1$, 并且当$\left| x \right|\to \infty$时, $\mathscr{K}\left(x\right)= o\left(\left| x \right|^{-1}  \right)$.若$f\in L^{1}\left(\mathbb{R} ^{1}\right)$, 试证明: 在$f$的每个连续点$x_0$处, 有
+>  $$ \lim_{\varepsilon \to 0}\left(f*\mathscr{K}_{\varepsilon }\right)\left(x_0\right)= f\left(x_0\right) $$ 
+> 成立, 其中$\mathscr{K}_{\varepsilon }\left(x\right)= \varepsilon ^{-1} \mathscr{K}\left(\frac{x}{\varepsilon }\right),\varepsilon > 0$.
