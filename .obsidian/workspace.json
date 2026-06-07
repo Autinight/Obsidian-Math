@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HA_Pan Ch3"
+              "title": "HA - HW2.5 - 1"
             }
           }
         ]
@@ -104,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HA_Pan Ch3 的大纲"
+              "title": "HA - HW2.5 - 1 的大纲"
             }
           },
           {
@@ -196,15 +196,19 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
+    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
+    "30.Recources/HA/Course HW/HA - HW3.1.md",
+    "30.Recources/HA/Course HW/HA - HW3.2.md",
+    "30.Recources/HA/Course HW/HA - HW3.3.md",
     "30.Recources/HA/Course HW/HA - HW3.4.md",
     "30.Recources/HA/Course HW/HA - HW3.5.md",
-    "30.Recources/HA/Course HW/HA - HW3.6.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
+    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "30.Recources/HA/Course HW/HA - HW2.2.md",
-    "30.Recources/HA/Course HW/HA - HW3.2.md",
-    "30.Recources/HA/Course HW/HA - HW3.1.md",
-    "30.Recources/HA/Course HW/HA - HW2.7-2.md",
-    "30.Recources/HA/Course HW/HA - HW2.7 - 1.md",
-    "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
+    "30.Recources/HA/Course HW/HA - HW3.6.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
@@ -213,11 +217,8 @@
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "30.Recources/HA/Course HW/HA - HW1.1.md",
     "30.Recources/HA/Course HW/HA - HW1.2.md",
-    "30.Recources/HA/Course HW/HA - HW3.3.md",
     "31.Obsidian Books/HA_Pan/HA.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
@@ -231,7 +232,6 @@
     "node_modules/wrappy/README.md",
     "node_modules/util-deprecate/README.md",
     "node_modules/util-deprecate/History.md",
-    "node_modules/tunnel-agent/README.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",

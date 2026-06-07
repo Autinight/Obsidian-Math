@@ -316,3 +316,25 @@ $$ \widehat{g_{a}*g_{b}}= \hat{g}_{a}\cdot \hat{g}_{b}= \chi _{\left[ -\frac{a }
 > [!exercise] Exercise: 8 
 > 求以下积分的值：
 > $\frac{1}{\pi} \int_{-\infty}^{\infty} \left( \frac{\sin t}{t} \right)^4 \mathrm{d}t = ?$
+
+
+
+
+$$ f\left(t\right)= \frac{\sin t }{t },\quad g\left(t\right)= \frac{\sin ^{2}t }{t^{2} } $$ 
+
+$$ f\cdot f= g $$ 
+
+$$ \hat{g}= \hat{f}*\hat{f} $$ 
+
+$$ F\left[ \chi _{\left[ -\frac{a }{2\pi  }, \frac{a }{2\pi  } \right]} \right]=  \frac{\sin  at }{\pi t } $$ 
+
+$$ F\left[ \pi \chi _{\left[ -\frac{1 }{2\pi  }, \frac{1 }{2\pi  } \right]} \right]\left(t\right)= f $$ 
+$$ \hat{f}= \pi \chi _{\left[ -\frac{1 }{2\pi  }, \frac{1 }{2\pi  } \right]} $$ 
+
+$$ \hat{f}*\hat{f}=  \pi ^{2}\int _{-\infty}^{\infty} \chi _{\left[ -\frac{1 }{2\pi  }, \frac{1 }{2\pi  } \right]} \left(y\right)\chi _{\left[ -\frac{1 }{2\pi  }, \frac{1 }{2\pi  } \right]}\left(y-x\right)\,d y=\pi ^{2}\begin{cases} 0, & \left| x \right|\ge \frac{1 }{\pi  }\\\frac{1 }{\pi  }-x,&\left| x \right|\le \frac{1 }{\pi  }   \end{cases}  $$ 
+
+$$ \hat{f}*\hat{f}=  \pi ^{2}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ }=  $$ 
+于是
+$$ \hat{g}= \pi ^{2}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ } $$ 
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} \int _{-\infty}^{\infty}g^{2}\,d t&= \int _{-\infty}^{\infty}\hat{g}^{2}\,d t=  \pi ^{4}\int _{-\infty}^{\infty}\left(\frac{1 }{\pi  }-\left| x \right| \right)_{+ }^{2}\,d x\\&= \pi ^{3} \int _{-\infty}^{\infty}\left(\frac{1 }{\pi  }-\frac{\left| x \right|  }{ \pi }\right)^{2}\,d x=  \pi \int _{-\infty}^{\infty}\left(1-\left| x \right| \right)^{2}\,d x\\&= \pi \int _{-1}^{1}\left(1-\left| x \right| \right)^{2}\,d x\\&= 2\pi \int _{0}^{1}\left(1-x\right)^{2}\,d x=  2\pi \int _{0}^{1}x^{2}\,d x= \frac{2\pi  }{3 } \end{aligned} \end{aligned} \end{aligned} $$ 
