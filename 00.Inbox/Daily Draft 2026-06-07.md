@@ -229,3 +229,90 @@ $$ 2\left\| f \right\|\left| K \right|  $$
 > 设$\mathscr{K}\left(x\right)\in L\left(\mathbb{R} \right)$, $\int _{\mathbb{R} ^{1}}\mathscr{K}\left(x\right)\,d x= 1$, 并且当$\left| x \right|\to \infty$时, $\mathscr{K}\left(x\right)= o\left(\left| x \right|^{-1}  \right)$.若$f\in L^{1}\left(\mathbb{R} ^{1}\right)$, 试证明: 在$f$的每个连续点$x_0$处, 有
 >  $$ \lim_{\varepsilon \to 0}\left(f*\mathscr{K}_{\varepsilon }\right)\left(x_0\right)= f\left(x_0\right) $$ 
 > 成立, 其中$\mathscr{K}_{\varepsilon }\left(x\right)= \varepsilon ^{-1} \mathscr{K}\left(\frac{x}{\varepsilon }\right),\varepsilon > 0$.
+
+
+
+$$ f*\mathscr{K}_{\varepsilon }\left(x_0\right)-f\left(x_0\right)= \int _{\mathbb{R} } f\left(x_0-y\right)\mathscr{K}_{\varepsilon }\left(y\right)-f\left(x_0\right)\mathscr{K}_{\varepsilon }\left(y\right)\,d y $$ 
+
+$$ \int _{\mathbb{R} }\left(f\left(x_0-y\right)-f\left(x_0\right)\right)\mathscr{K}_{\varepsilon }\left(y\right)\,d y $$ 
+
+在$x_0$附近, 当$\left|y\right|< \delta$, 我们有$\left| f\left(y-x_0\right) -f\left(x_0\right)\right|< a$, 于是
+$$ \left| I \right|\le \int _{\left| y-x_0 \right|< \delta  }a \left| \mathscr{K}_{\varepsilon }\left(y\right) \right|\,d y+  \int _{\left| y-x_0 \right|\ge \delta  } \left| f\left(y-x_0\right)-f\left(x_0\right) \right|\left| \mathscr{K}_{\varepsilon }\left(y\right) \right|\,d y      $$ 
+
+$$ I_1=  \int _{\left| y-x_0 \right|< \delta  } a \frac{1 }{\varepsilon  }\left| \mathscr{K}\left(\frac{y }{\varepsilon  }\right) \right|\,d y=  \int _{\left| \varepsilon y-x_0 \right|< \delta  }a\left| \mathscr{K}\left(y\right) \right|\,d y\le a\left\| \mathscr{K} \right\|_{L^{1}}   $$ 
+
+$$ \left| x \right|\left| \mathscr{K} \right|\to 0   $$ 
+存在$N$
+
+$$ I=  \int _{\left| y \right|< \delta  }\left(f\left(x_0-y\right)-f\left(x_0\right)\right)\mathscr{K}_{\varepsilon }\left(y\right)\,d y + \int _{\left| y \right|\ge \delta  }\left(f\left(x_0-y\right)-f\left(x_0\right)\right)\mathscr{K}_{\varepsilon }\left(y\right) $$ 
+
+
+$$ I_1\le \int _{\left| y \right|< \delta  }a \left| \mathscr{K}_{\varepsilon }\left(y\right) \right|\,d y\le  a \left\| \mathscr{K} \right\|_{L^{1}}  $$ 
+
+
+$$ I_2= \int _{\left| \varepsilon y \right|\ge \delta  }\left(f\left(x_0-\varepsilon y\right)-f\left(x_0\right)\right)\mathscr{K}\left(y\right)\,d y =  \int _{\left| y \right|\ge \frac{\delta  }{\varepsilon  } }\left| f\left(x_0-\varepsilon y\right)-f\left(x_0\right) \right|\mathscr{K}\left(y\right)\,d y $$ 
+
+
+$$ I_2\le \int _{\left| y \right|\ge \frac{\delta  }{\varepsilon  } }\frac{\varepsilon  }{\delta  } \left| y \right|\left| \mathscr{K}\left(y\right) \right| \left| f\left(x_0-\varepsilon y\right)-f\left(x_0\right) \right|\,d y $$ 
+当$\varepsilon$充分小时, $\left| y \right|\left| \mathscr{K}\left(y\right) \right|\le b$, 于是
+$$ I_2\le \frac{\varepsilon  }{\delta  }b \int _{\left| y \right|\ge \frac{\delta  }{ \varepsilon } }\left| f\left(x_0-\varepsilon y\right)-f\left(x_0\right) \right|\,d y\le \frac{\varepsilon b }{\delta  }2\left\| f \right\|_{L^{1}}  $$ 
+
+对于固定的$\delta$, $\left| y \right|\left| \mathscr{K}\left(y\right) \right|$ 有界, $\frac{\varepsilon  }{\delta  }\to 0$, 于是
+$$ I_2\to 0 $$ 
+> [!exercise] Exercise:
+> 设实值函数$f(x)$在$(0,2\pi)$上单调减, 试证明其Fourier正弦系数$b_n\ge 0$.
+
+
+$$ b_{n}= \frac{1 }{\pi  }\int _{-\pi }^{\pi }f\left(x\right)\sin nx\,d x $$ 
+
+$$ \pi  b _{n} =  \int _{-\pi }^{\pi }f\left(x\right)\sin nx \,d x $$ 
+
+$$ \begin{aligned} \pi b _{n} &= \frac{1 }{n } \int _{-n \pi }^{n \pi }f\left(\frac{x }{n }\right) \sin x \,d x\\&=  \end{aligned}$$ 
+$\sin x$ 在$2k\pi$到$\left(2k+ 1\right)\pi$是大于等于零的.
+
+$$ \pi b_{n}= \frac{1 }{n } \int _{\left(2k\right)\pi }^{\left(2k+ 1\right)\pi }f\left(\frac{x }{n }\right)\sin x\,d x + \frac{1 }{n }\sum  \int _{\left(2k-1\right)\pi }$$ 
+
+
+
+$$ \begin{aligned} \begin{aligned} \begin{aligned} \pi  n  b_{n }&=  \int _{0}^{2n \pi }f\left(\frac{x }{n }\right) \sin x\,d x\\&= \sum _{k = 0}\int _{2k\pi }^{\left(2k+ 1\right)\pi } f\left(\frac{x }{n }\right)\sin x\,d x+ \sum _{k = 0}\int _{\left(2k+ 1\right)\pi }^{\left(2k+ 2\right)\pi }f\left(\frac{x }{n }\right)\sin x \,d x\\&= \sum _{k = 0}\int _{2k\pi }^{\left(2k+ 1\right)\pi }f\left(\frac{x }{n }\right)\sin x\,d x- \sum _{k = 1}\int _{\left(2k\right)\pi } ^{\left(2k+ 1\right)\pi }f\left(\frac{x+ \pi  }{n }\right)\sin x\,d x\\&=  \end{aligned}\end{aligned}\end{aligned}$$ 
+如果$n$是偶数, 则, 就是
+$$ \pi n b_{n}= \sum _{k = 0}^{\frac{n }{2 }-1} \int _{2k\pi }^{\left(2k+ 1\right)\pi } - \sum _{k = 0}^{\frac{n }{2 }-1}$$ 
+如果$n$是奇数, 则
+$$ \sum _{k= 0}^{\frac{n-1 }{2 }}- \sum _{k = 0}^{\frac{n-3 }{2 }} $$ 
+
+$$  $$ 
+$2k+ 2= n-1$
+$$ \begin{aligned} \int _{0}^{2\pi n}f\left(\frac{x }{n }\right)\sin x \,d x&=\\ \sum _{k = 0}^{n-1} \int _{2k \pi }^{\left(2k+ 1\right)\pi }f\left(\frac{x }{n }\right)\sin x\,d x+ \sum _{k = 0}^{n-1}\int _{\left(2k+ 1\right)\pi }^{\left(2k+ 2\right)\pi } f\left(\frac{x }{n }\right)\sin x\,d x\end{aligned} $$ 
+> [!exercise] Exercise: 
+> 利用 Fourier 变换来证明以下等式: $a > 0, b > 0$ ,
+> 1. $f_{a} * f_{b} = f_{a + b}$ , 其中 $f_{a} = \frac{a}{\pi(x^{2} + a^{2})}$ ;  
+> 2. $g_{a} * g_{b} = g_{\min(a, b)}$ ，其中 $g_{a} = \frac{\sin ax}{\pi x}$ .
+
+
+$$ \mathcal{F}\left(e^{-\left| x \right| }\right)= \frac{2 }{1+ 4\pi ^{2}t^{2} } $$ 
+
+$$ \mathcal{F}\left[ e^{-2\pi \left| x \right| } \right]= \frac{1 }{2\pi  }\frac{2 }{1+ t^{2} } $$ 
+
+$$ \mathcal{F}\left[ e^{-2\pi a\left| x \right| } \right]= \frac{1 }{2\pi a }\frac{2 }{1+ \frac{t^{2} }{a^{2} } }= \frac{a }{2\pi  } \frac{2 }{t^{2}+ a^{2} } $$ 
+
+$$ \mathcal{F}\left[ e^{-2\pi a\left| x \right| } \right]= \frac{a }{\pi  }\frac{1 }{t^{2}+ a^{2} } $$ 
+
+于是
+$$ \widehat{f_{a}}=  e^{-2\pi a\left| -x \right| }= e^{-2\pi a\left| x \right| } $$ 
+
+$$ \widehat{f_{a}*f_{b}}= \hat{f}_{a}\hat{f}_{b}= e^{-2\pi \left(a+ b\right)\left| x \right| }= \hat{f}_{a+ b} $$ 
+故
+$$ f_{a}*f_{b}= f_{a+ b} $$ 
+几乎处处相等. 由连续映, 
+$$ f_{*}*f_{b}= f_{a+ b} $$ 
+
+
+$$ \mathcal{F}\left[ \chi _{\left[ -\frac{1}{2},\frac{1}{2} \right]} \right] = \frac{\sin \pi t }{\pi t }$$ 
+
+$$ \mathcal{F}\left[ \chi _{\left[ -\frac{a }{2\pi  }, \frac{a }{2\pi  } \right]} \right]= \frac{\sin at }{ \pi t} $$ 
+于是
+$$ \widehat{g_{a}*g_{b}}= \hat{g}_{a}\cdot \hat{g}_{b}= \chi _{\left[ -\frac{a }{2\pi  }, \frac{a }{2\pi  } \right]} \chi _{\left[ -\frac{b }{2\pi  }, \frac{b }{2\pi  } \right]}= \chi _{\left[ -\frac{\min \left\{ a,b \right\} }{2\pi  } \right]}$$ 
+
+> [!exercise] Exercise: 8 
+> 求以下积分的值：
+> $\frac{1}{\pi} \int_{-\infty}^{\infty} \left( \frac{\sin t}{t} \right)^4 \mathrm{d}t = ?$
