@@ -345,3 +345,19 @@ $$ \begin{aligned} \begin{aligned} \begin{aligned} \int _{-\infty}^{\infty}g^{2}
 > \lim_{R\to\infty} \frac{1}{\pi} \int_0^\infty \frac{1}{t^a}\cdot\frac{\sin R(x-t)}{x-t}\, dt = \,?
 > $$
 
+
+令$f\left(t\right)= \frac{1 }{t^{a} }$
+
+则
+$$ \lim_{R\to \infty}\frac{1 }{\pi  }\int _{0}^{\infty}f\left(t\right)\frac{\sin R\left(x-t\right) }{\left(x-t\right) }\,d t=  \lim_{R\to \infty}S_{\left[ 2\pi R \right]}\left(f^{\left(0\right)},x\right) $$ 
+
+$f\left(t\right)= \frac{1 }{t^{a} }$
+
+当$x \neq 0$时, 若$x> 0$, 考虑 $f^{\left(x\right)}: \left(x, x+ 2\pi \right)$
+周期化函数. $f$在$\left(x,x+ 2\pi \right)$上是有界变差的. 于是Fourier级数收敛到自身.
+
+
+$$ \begin{aligned} \begin{aligned} f_{R}\left(x\right)&= \int _{-R}^{R}\hat{f}\left(t\right)e^{2\pi ixt} \,d t\\&= \int _{-\infty}^{\infty}f\left(u\right)\left(\int _{-R}^{R}e^{2\pi \left(x-u\right)t}\,d t\right)\,d ualji\\&=  \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(u\right)\frac{\sin 2\pi R\left(x-u\right) }{\left(x-u\right) }\,d u\\&= \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(u+ x\right)\frac{\sin 2\pi Ru }{u }\,d u \\&= \frac{1 }{\pi  }\int _{-\infty}^{\infty}f\left(x-u\right)\frac{\sin 2\pi Ru }{u }\,d u\end{aligned} \end{aligned}$$ 
+如果$\frac{f }{1+ \left| x \right|  }\in L\left(R\right)$,  则$f_{R}$存在.
+
+$f_{R}\left(x\right)- S_{\left[ 2\pi R \right]}\left(f^{\left(a\right)},x\right)\to 0$, $f^{\left(a\right)}$是$\left(a,a+ 2\pi \right)$周期化函数.
