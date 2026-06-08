@@ -90,4 +90,6 @@ $f\left(x\right)= \frac{f\left(x\right) }{1+ \left| x \right|  }\left(1+ \left| 
 
 $1+ \left| x \right|$是局部$L^{\infty}$的.
 
+一直$f\in L^{1}$, $\hat{f}\ge 0$, 且$f$在$x= 0$处连续.求证:反演公式成立.
+
 
