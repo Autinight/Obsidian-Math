@@ -64,3 +64,12 @@ $$ \frac{\pi  }{\sin a\pi  }= \frac{1 }{a }+ 2a\sum _{k= 1}^{\infty}\frac{\left(
 
 $$ \cos a\pi = \frac{\sin a\pi  }{ \pi }\left(\frac{1}{a}+ \right) $$ 
 $\cos ax$的Fourier系数, 是$\sim \frac{\left(-1\right)^{n}}{a^{2}-n^{2} }$的.
+> [!exercise]
+> 令
+> $$
+> E=\left\{f(x):\frac{f(x)}{1+x^2}\in L^1(\mathbb R)\right\}.
+> $$
+> 有
+> $$
+> L^1(\mathbb R)\subseteq E\subseteq L^1_{\mathrm{loc}}(\mathbb R).
+> $$
