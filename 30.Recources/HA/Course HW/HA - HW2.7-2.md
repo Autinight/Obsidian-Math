@@ -44,3 +44,26 @@
 > 但是
 > $$ \int _{2}^{\infty}\frac{\,d x }{ x\ln x}= \left[ \ln \ln x \right]_{2}^{\infty}= \infty $$
 > 因此由积分判别法, 级数发散多$+ \infty$ , 与$F$在$\left[ -\pi ,\pi  \right]$上绝对连续矛盾. 
+
+
+> [!exercise] 11
+> 设 $f\in L^2(T)$，
+> 
+> $$
+> f\sim \sum_{k=-\infty}^{\infty} c_k e^{ikx}.
+> $$
+> 
+> 对每个 $n$，令
+> 
+> $$
+> \gamma_n=\sum_{k\ne n} c_k\frac{1}{n-k}
+> =\sum_{k\ne 0} c_{n-k}\frac{1}{k}.
+> $$
+> 
+> 试证明：
+> 
+> $$
+> \sum_{n=-\infty}^{\infty}|\gamma_n|^2
+> \le \pi^2\sum_{k=-\infty}^{\infty}|c_k|^2.
+> $$
+
