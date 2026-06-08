@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-08.md",
-                "mode": "preview",
+                "file": "30.Recources/HA/Course HW/HA - HW2.2.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-06-08"
+              "title": "HA - HW2.2"
             }
           }
         ]
@@ -104,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-08.md",
+                "file": "30.Recources/HA/Course HW/HA - HW2.2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-06-08 的大纲"
+              "title": "HA - HW2.2 的大纲"
             }
           },
           {
@@ -196,6 +196,8 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "30.Recources/HA/Course HW/HA - HW2.1.md",
+    "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 1.md",
     "00.Inbox/Daily Draft 2026-06-08.md",
     "30.Recources/HA/Course HW/HA - HW2.5 - 2.md",
@@ -208,7 +210,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-    "30.Recources/HA/Course HW/HA - HW2.2.md",
     "30.Recources/HA/Course HW/HA - HW3.1.md",
     "30.Recources/HA/Course HW/HA - HW3.2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
@@ -219,7 +220,6 @@
     "30.Recources/HA/Course HW/HA - HW3.5.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-07.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 2.md",
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
     "node_modules/better-sqlite3/build",
