@@ -67,9 +67,27 @@ $\cos ax$的Fourier系数, 是$\sim \frac{\left(-1\right)^{n}}{a^{2}-n^{2} }$的
 > [!exercise]
 > 令
 > $$
-> E=\left\{f(x):\frac{f(x)}{1+x^2}\in L^1(\mathbb R)\right\}.
+> E=\left\{f(x):\frac{f(x)}{1+\left| x \right| }\in L^1(\mathbb R)\right\}.
 > $$
 > 有
 > $$
 > L^1(\mathbb R)\subseteq E\subseteq L^1_{\mathrm{loc}}(\mathbb R).
 > $$
+
+若$f\in L^{1}$, 由于$\frac{1 }{1+ \left| x \right|  }\in L^{\infty}$, 我们有
+
+取$f\left(x\right)= 1+ \left| x \right|$, 则$f$是局部可积的, 但是
+$\frac{1+ \left| x \right| }{1+ \left| x \right|  }= 1$不是$L^{1}$的.
+
+$L^{1}$但是不是$1+ \left| x \right|$的.
+
+$f\left(x\right)= 1$, 则$\frac{1 }{1+ \left| x \right|  }$可积, 但是$1$不可积.
+
+包含关系
+$L^{1}\left(\mathbb{R} \right)\subseteq E$ easy
+
+$f\left(x\right)= \frac{f\left(x\right) }{1+ \left| x \right|  }\left(1+ \left| x \right| \right)$
+
+$1+ \left| x \right|$是局部$L^{\infty}$的.
+
+
