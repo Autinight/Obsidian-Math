@@ -67,3 +67,27 @@
 > \le \pi^2\sum_{k=-\infty}^{\infty}|c_k|^2.
 > $$
 
+于是
+$$ f\cdot g \sim \sum \gamma _{k} $$ 
+
+
+$$ \left< f, e^{ikx} \right>= c_{k} $$ 
+
+$$ \gamma _{n}= \sum  c_{k}d _{n-k} $$ 
+
+$$ f\sim \sum _{k= -\infty}^{\infty}c_{k}e^{ikx} $$ 
+
+$$ g\sim \sum _{k= -\infty}^{\infty}c_{k}e^{ikx} $$ 
+
+$$ \begin{aligned} \begin{aligned} \left< f\cdot g, e^{inx} \right>&= \left< f, \bar{g} e^{inx} \right> = \sum \left< c_{k}e^{ikx}, \bar{g}e^{inx} \right>=\sum \left< c_{k}e^{ikx}, d _{-m}e^{imx}e^{inx} \right>\\&= \sum \left< c_{k}e^{ikx}, d _{-m}e^{i\left(m+ n\right)x} \right> \\&= \sum c_{k}d _{n-k} \end{aligned}\end{aligned}$$ 
+
+$$ \begin{aligned} \begin{aligned} \left< f, \bar{g}inx \right>&= \sum \left< c_{k}e^{ikx}, \bar{g}e^{inx} \right>\\&= \sum c_{k}\left< e^{ikx}, \bar{g} e^{inx} \right>\\&= \sum  c_{k}\left< g e^{-inx}, e^{-ikx} \right>\\&= \sum c_{k}\left< g, e^{i\left(n-k\right)x} \right>\\&= \sum c_{k} g_{n-k} \end{aligned}\end{aligned} $$ 
+
+$$ d _{n-k}= \frac{1 }{n-k },\quad  d _{k}= \frac{1 }{k },\quad  d _{0}= 0 $$ 
+
+考虑以$d _{k}$为Fourier系数的函数
+$$ g\sim  \sum _{k \neq 0}\frac{1 }{k }e^{ikx} $$ 
+
+逐项求导, 得到
+
+$$ g^{\prime} \left(x\right)= i\sum _{k \neq 0} e^{ikx} $$ 
