@@ -91,3 +91,92 @@ $$ g\sim  \sum _{k \neq 0}\frac{1 }{k }e^{ikx} $$
 逐项求导, 得到
 
 $$ g^{\prime} \left(x\right)= i\sum _{k \neq 0} e^{ikx} $$ 
+
+$$ \int _{-\pi }^{\pi }e^{-ikx}\,d x=  - \frac{1 }{ik } e^{-ikx}|_{-\pi }^{\pi }=  \frac{1 }{ik }2i \sin kx= \frac{2\sin k\pi  }{k }$$ 
+
+$$ \int _{-\pi }^{\pi }\operatorname{sgn}\left(x\right)e^{-ikx} \,d x= 2\int _{0}^{\pi }e^{-ikx}\,d x=  -2\frac{1 }{ik }\left[ e^{-ikx} \right]_{0}^{\pi }=\frac{4 }{ik } $$ 
+
+$$ e^{-i\pi }= -1,\quad e^{0}= 1 $$ 
+
+$$ \sum _{k= -\infty}^{\infty}\left| \gamma _{n} \right|^{2}=  \left\| f\cdot g \right\|_{2}^{2}\le  \left\| f^{2} \right\|_{L^{2}}\left\| g ^{2}\right\|_{L^{2}}  $$ 
+有Dirichlet判据, $\sum _{k \neq 0}^{\infty}\frac{1 }{k }e^{ikx}$在$x\neq 2k\pi$的时候收敛, 从而Fourier级数是几乎处处收敛的.
+
+$-i$
+
+
+
+> [!proof] Proof:
+> 由 Parseval 知 $\{c_k\}_{k\in \mathbb Z}\in \ell^2(\mathbb Z)$。先注意对每个固定的 $n$，
+> $$
+> \sum_{k\ne 0}\left|c_{n-k}\right|\frac{1}{|k|}
+> \le
+> \left(\sum_{k\ne 0}|c_{n-k}|^2\right)^{1/2}
+> \left(\sum_{k\ne 0}\frac{1}{k^2}\right)^{1/2}
+> <\infty,
+> $$
+> 所以 $\gamma_n$ 定义良好。
+>
+> 令 $h$ 为 $2\pi$-周期函数，且在 $0<x<2\pi$ 上
+> $$
+> h(x)=i(\pi-x).
+> $$
+> 则 $h\in L^\infty(T)$，并且 $\|h\|_\infty\le \pi$。又
+> $$
+> \widehat h(0)
+> =
+> \frac{1}{2\pi}\int_0^{2\pi} i(\pi-x)\,dx
+> =
+> 0.
+> $$
+> 对 $k\ne 0$，有
+> $$
+> \begin{aligned}
+> \widehat h(k)
+> &=
+> \frac{1}{2\pi}\int_0^{2\pi} i(\pi-x)e^{-ikx}\,dx\\
+> &=
+> \frac{i}{2\pi}\left[\frac{(\pi-x)e^{-ikx}}{-ik}\right]_{0}^{2\pi}\\
+> &=
+> \frac{1}{k}.
+> \end{aligned}
+> $$
+> 因此
+> $$
+> h(x)\sim \sum_{k\ne 0}\frac{1}{k}e^{ikx}.
+> $$
+>
+> 因为 $f\in L^2(T)$ 且 $h\in L^\infty(T)$，所以 $fh\in L^2(T)$。由前一题的乘积 Fourier 系数公式，$fh$ 的第 $n$ 个 Fourier 系数为
+> $$
+> \widehat{fh}(n)
+> =
+> \sum_{m=-\infty}^{\infty}c_m\widehat h(n-m)
+> =
+> \sum_{m\ne n}c_m\frac{1}{n-m}
+> =
+> \gamma_n.
+> $$
+> 于是由 Parseval，
+> $$
+> \begin{aligned}
+> \sum_{n=-\infty}^{\infty}|\gamma_n|^2
+> &=
+> \sum_{n=-\infty}^{\infty}|\widehat{fh}(n)|^2\\
+> &=
+> \frac{1}{2\pi}\int_T |f(x)h(x)|^2\,dx\\
+> &\le
+> \|h\|_\infty^2\frac{1}{2\pi}\int_T |f(x)|^2\,dx\\
+> &\le
+> \pi^2\sum_{k=-\infty}^{\infty}|c_k|^2.
+> \end{aligned}
+> $$
+> 即
+> $$
+> \sum_{n=-\infty}^{\infty}|\gamma_n|^2
+> \le
+> \pi^2\sum_{k=-\infty}^{\infty}|c_k|^2.
+> $$
+
+
+
+
+$$ \left\| f^{2} \right\|_{L^{2}}, $$ 

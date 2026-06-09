@@ -8,12 +8,52 @@
 > \lim_{n \to \infty}\|x_n-x_0\|=0.
 > $$
 
+> [!proof] Proof: 
+>
+> $$ z\mapsto \left< z,x_0 \right> $$
+> 是$H$上的有界线性算子, 由弱收敛性, 可知
+> $$ \lim_{n\to \infty}\left< x_{n}, x_0 \right>= \left< x_0,x_0 \right>= \left\| x_0 \right\|^{2} $$  
+> 考虑
+> $$ \left< x_{n}-x_0, x_{n}-x_0 \right>= \left\| x_{n} \right\|^{2}+ \left\| x_0 \right\|^{2}-2\left< x_{n},x_0 \right> $$ 
+> 令$n\to \infty$, 得到
+> $$ \begin{aligned} \lim_{n\to \infty}\left\| x_{n}-x_0 \right\|^{2}&= \lim_{n\to \infty}\left< x_{n}-x_0,x_{n}-x_0 \right>\\&= \lim_{n\to \infty}\left(\left\| x_{n} \right\|^{2}+ \left\| x_0 \right\|^{2}-2 \left< x_{n},x_0 \right>\right)\\&= \left\| x_0 \right\|^{2}+ \left\| x_0 \right\|^{2}-2\left\| x_{0} \right\|^{2}= 0 \end{aligned} $$ 
+> 故$\left\{ x_{n} \right\}$强收敛到$x_0$.
+
+
 > [!exercise] 2
 > 证明 **Lax-Milgram 定理**：设 $a(x,y)$ 是实 Hilbert 空间 $H$ 上的一个强制有界双线性函数，证明存在唯一的有界线性算子 $T \in \mathcal{L}(H)$，满足
 > $$
 > a(x,y)=\langle x,Ty\rangle,\qquad \forall x,y \in H,
 > $$
 > 且 $T$ 有有界逆算子 $T^{-1}\in \mathcal{L}(H)$。
+
+定义
+$$ F_{y}\left(x\right)= a\left(x,y\right) $$ 
+易见$F_{y}$是线性算子.
+
+由于$a$是有界的, 存在$M> 0$, 使得
+$$ \left| a\left(x,y\right) \right|\le M\left\| x \right\|\left\| y \right\|  $$ 
+于是
+$$ \left\| F_{x}\left(y\right) \right\|\le M\left\| x \right\|\left\| y \right\|\implies \left\| F_{x} \right\|\le M\left\| x \right\| $$ 
+
+$F_{x}$是有界线性算子. 由Riesze表示定理,存在$Ty \in H$, 使得
+$$ a\left(x,y\right)= F_{y}\left(x\right)=  \left< x, Ty \right> $$ 
+
+定义
+$$ T: y\mapsto Ty $$ 
+对于任意的$x$
+$$ \begin{aligned} \left< x, T\left(y_1+ ky_2\right) \right>&= a\left(x, y_1+ ky_2\right)= a\left(x,y_1\right)+k a\left(x,y_2\right)= \left< x, Ty_1 \right>+k \left< x,Ty_2 \right>\\&= \left< x, Ty_1+ kTy_2 \right> \end{aligned}  $$ 
+于是
+$$ T\left(y_1+k y_2\right)= Ty_1+ kTy_2 $$ 
+因此$T$是线性算子.
+
+且 
+$$ \left| a\left(x,y\right) \right|= \left| \left< x, Ty \right> \right|\le M\left\| x \right\|\left\| y \right\|   $$ 
+取$x = Ty$, 则
+$$ \left\| Ty \right\|^{2}\le M \left\| Ty \right\|\left\| y \right\|\implies  \left\| Ty \right\|\le M\left\| y \right\|$$ 
+因此$\left\| T \right\|\le M$. 故$T$是有界线性算子.
+
+
 
 > [!exercise] 3
 > 设 $H$ 为 Hilbert 空间，$M$ 是 $H$ 的闭子空间。证明 $M$ 为 $H$ 上某个非零连续线性泛函的零空间，当且仅当 $M^\perp$ 是一维子空间。
