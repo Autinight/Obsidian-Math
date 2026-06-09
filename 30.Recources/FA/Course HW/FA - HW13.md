@@ -27,6 +27,8 @@
 > $$
 > 且 $T$ 有有界逆算子 $T^{-1}\in \mathcal{L}(H)$。
 
+> [!proof] Proof: 
+> **存在性**:
 定义
 $$ F_{y}\left(x\right)= a\left(x,y\right) $$ 
 易见$F_{y}$是线性算子.
@@ -34,11 +36,12 @@ $$ F_{y}\left(x\right)= a\left(x,y\right) $$
 由于$a$是有界的, 存在$M> 0$, 使得
 $$ \left| a\left(x,y\right) \right|\le M\left\| x \right\|\left\| y \right\|  $$ 
 于是
-$$ \left\| F_{x}\left(y\right) \right\|\le M\left\| x \right\|\left\| y \right\|\implies \left\| F_{x} \right\|\le M\left\| x \right\| $$ 
+$$ \left\| F_{y}\left(x\right) \right\|\le M\left\| x \right\|\left\| y \right\|\implies \left\| F_{y} \right\|\le M\left\| y \right\| $$ 
 
-$F_{x}$是有界线性算子. 由Riesze表示定理,存在$Ty \in H$, 使得
+$F_{y}$是有界线性算子. 由Riesze表示定理,存在$Ty \in H$, 使得
 $$ a\left(x,y\right)= F_{y}\left(x\right)=  \left< x, Ty \right> $$ 
-
+且
+$$ \left\| Ty \right\|= \left\| F_{y} \right\| \le M\left\| y \right\|$$ 
 定义
 $$ T: y\mapsto Ty $$ 
 对于任意的$x$
@@ -48,10 +51,30 @@ $$ T\left(y_1+k y_2\right)= Ty_1+ kTy_2 $$
 因此$T$是线性算子.
 
 且 
-$$ \left| a\left(x,y\right) \right|= \left| \left< x, Ty \right> \right|\le M\left\| x \right\|\left\| y \right\|   $$ 
-取$x = Ty$, 则
-$$ \left\| Ty \right\|^{2}\le M \left\| Ty \right\|\left\| y \right\|\implies  \left\| Ty \right\|\le M\left\| y \right\|$$ 
-因此$\left\| T \right\|\le M$. 故$T$是有界线性算子.
+$\left\| T \right\|\le M$, $T$是有界线性算子.
+
+**唯一性**:
+若$T_1,T_2$是有界线性算子, 使得
+$$ a\left(x,y\right)= \left< x,T_1y \right> = \left< x, T_2y \right>$$ 
+于是对于任意的$x,y$,
+$$ \left< x, \left(T_1-T_2\right)y \right>= 0 $$ 
+因此$T_1= T_2$. 
+
+
+**$T$是单射**. 
+
+若
+$$ Tx_1= Tx_2 $$
+则
+$$ 0 = \left< x_1-x_2, T\left(x_1-x_2\right) \right>= a\left(x_1-x_2,x_1-x_2\right)\ge m\left\| x_1-x_2 \right\|^{2}= 0 $$  
+于是$x_1= x_2$
+因此$T$是单射
+
+
+
+
+
+
 
 
 
