@@ -11,24 +11,17 @@
             "id": "2535ec1cc40b0a24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+                "viewState": {
+                  "x": 247.78137428710252,
+                  "y": 851.0419055185066,
+                  "zoom": -1.6037485189372154
                 }
               },
-              "icon": "lucide-file",
-              "title": "FA - HW13"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - Lie Groups and Lie Algebras"
             }
           }
         ]
@@ -78,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 317.5
   },
   "right": {
     "id": "fdbfa08b70660955",
@@ -104,13 +97,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
+                "file": "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW13 的大纲"
+              "title": "Atlas - Lie Groups and Lie Algebras 的大纲"
             }
           },
           {
@@ -196,13 +189,22 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - Sard's Theorem.canvas",
+    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
+    "10.Atlas/DM/Atlas - Tensor.canvas",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "20.Cards/Theorems/thm - Homotopy Invariance of de Rham Cohomology.md",
+    "00.Inbox/Daily Draft 2026-06-10.md",
+    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "30.Recources/FA/Course HW/FA - HW13.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "30.Recources/FA/Course HW/FA - HW13.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
-    "00.Inbox/Daily Draft 2026-06-10.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-08.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
@@ -219,9 +221,6 @@
     "30.Recources/HA/Course HW/HA - HW1.3 - 1.md",
     "30.Recources/HA/Course HW/HA - HW2.1.md",
     "30.Recources/HA/Course HW/HA - HW3.6.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
@@ -238,12 +237,6 @@
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
-    "10.Atlas/RG/Riemannian Metric.canvas",
-    "10.Atlas/RG/Examples of Riemannian Manifold.canvas",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
