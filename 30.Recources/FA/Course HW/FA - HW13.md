@@ -274,3 +274,34 @@
 > $$
 > 
 > (2) 若 $y\in X$ 使方程 $Tx=y$ 有解，则其中必有一个解达到范数最小。
+
+
+> [!proof] Proof:
+> 1. 由于$T$是有界算子, $N\left(T\right)$是$X$的闭子空间. 
+>    
+>    $$ \left\| \left[ x \right] \right\|= \inf _{z\in N\left(T\right)}\left\| x-z \right\| = \inf _{u\in \left[ x \right]}\left\| u \right\|$$ 
+>    取序列$\left\{ x_{n} \right\}\subseteq \left[ x \right]$, 使得
+>    $$ \lim_{n\to \infty}\left\| x_{n} \right\|= \left\| \left[ x \right] \right\| $$ 
+>    
+>    由于$\left\{ x_{n} \right\}$是有界点列, $A$是紧算子, 存在子列$\left\{ x_{n_{k}} \right\}$, 使得
+>    $$ \lim_{k\to \infty}Ax_{n_{k}}= u \in X $$ 
+>    又
+>    $$ \left(x-x_{n_{k}}\right)\in N\left(T\right) $$ 
+>    我们有
+>    $$ T\left(x-x_{n_{k}}\right) = 0,\quad Tx_{n_{k}}= Tx=:y_0$$ 
+>    为常值.
+>    因此
+>    $$ \left(I-A\right)x_{n_{k}}= y_0\implies x_{n_{k}}-A x_{n_{k}}= y_0$$ 
+>    
+>    $$ x_{n_{k}}= Ax_{n_{k}} + y_0$$ 
+>    令$k\to \infty$, 得到
+>    $$ \lim_{k\to \infty}x_{n_{k}}= u + y_0 = :x_0$$ 
+>    由于$\left[ x \right]$闭, 我们得到
+>    $$ x_0\in \left[ x \right]$$ 
+>    于是
+>    $$ \left\| x_0 \right\|= \lim_{k\to \infty}\left\| x_{n_{k}} \right\| = \left\| \left[ x \right] \right\|$$ 
+> 2. 若$x_1$是$Tx= y$的一个解, 则解集
+>    $$ S= \left\{ x: Tx= y \right\}= x_1+ N\left(T\right) = \left[ x_1 \right]$$ 
+>    是$X/N\left(T\right)$中的一个元素. 由1. 存在$x_0\in \left[ x_1 \right]$, 使得
+>    $$ \left\| x_0 \right\|= \left\| \left[ x_1 \right] \right\|= \inf _{x\in S} \left\| x \right\|$$ 
+>    $x_0$是范数最小的一个解.
