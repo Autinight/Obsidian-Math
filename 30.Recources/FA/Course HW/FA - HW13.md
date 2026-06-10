@@ -111,8 +111,43 @@
 > [!exercise] 3
 > 设 $H$ 为 Hilbert 空间，$M$ 是 $H$ 的闭子空间。证明 $M$ 为 $H$ 上某个非零连续线性泛函的零空间，当且仅当 $M^\perp$ 是一维子空间。
 
+
 > [!proof] Proof: 
+> $\implies$, 若$f$是$H$上的非零线性泛函, 有Riesz表示定理, 存在非零的$y\in H$, 使得
+> $$ f\left(x\right)= \left< y,x \right>, \quad \forall x\in H $$ 
+> 那么
+> $$ M= \operatorname{ker}f= \left\{ x \in H: \left< y,x \right>= 0 \right\}= \left\{ y \right\}^{\perp}= \operatorname{span}\left\{ y \right\}^{\perp} $$ 
+> 由于$\operatorname{span}\left\{ y \right\}$是闭的线性子空间, 可以将$H$正交分解为
+> $$ H= \operatorname{span}\left\{ y \right\}\oplus \operatorname{span}\left\{ y \right\}^{\perp} $$ 
+> 首先说明$\operatorname{span}\left\{ y \right\}\subseteq M^{\perp}= \left(\operatorname{span}\left\{ y \right\}^{\perp}\right)^{\perp}$, 事实上, 任取$x\in \operatorname{span}\left\{ y \right\}^{\perp}$, 我们有
+> $$ \left< ky, x \right>= 0 $$
+> 因此$ky \in \left(\operatorname{span}\left\{ y \right\}^{\perp}\right)^{\perp}$, 故$\operatorname{span}\left\{ y \right\}\subseteq M^{\perp}$. 反过来, 任取$z\in M^{\perp}$, 设$z= ky+ w$, 其中$w\in \operatorname{span}\left\{ y \right\}^{\perp}$. 则
+> $$ 0= \left< z, x \right>= \left< ky+ w,x \right>= \left< w,x \right>,\quad \forall x\in \operatorname{span}\left\{ y \right\}^{\perp} $$  
+> 特别地, 取$x= w$, 得到$w= 0$. 因此$z= ky$, $z\in \operatorname{span}\left\{ y \right\}$.  于是$M^{\perp}= \operatorname{span}\left\{ y \right\}$. 故$M^{\perp}$是一维的线性子空间.
 > 
+> $\impliedby$.
+>   设
+>  $$ M^{\perp}= \operatorname{span}\left\{ y \right\} $$ 
+>  由于$M$是闭的线性子空间, 将$H$分解为
+>  $$ H= M\oplus M^{\perp} $$ 
+>  
+>  我们证明$M= \left(M^{\perp}\right)^{\perp}$. 事实上, 一方面
+>  
+>  $$ \left< x,y \right>= 0 ,\quad \forall x\in M, y\in M^{\perp}\implies  x \in \left(M^{\perp}\right)^{\perp}, \forall x\in M $$ 
+>  
+>  另一方面, 任取$z\in \left(M^{\perp}\right)^{\perp}$, 设$z=  z_{M}+ z_{M^{\perp}}$, 
+>  则
+>  $$ 0= \left(z,  z_{M^{\perp}}\right) = \left< z_{M}, z_{M^{\perp}} \right>+ \left\| z_{M^{\perp}} \right\|^{2}= \left\| z_{M^{\perp}} \right\|^{2}$$ 
+>  得到$z_{M^{\perp}}= 0$. 因此$z= z_{m}\in M^{\perp}.$ 故$\left(M^{\perp}\right)^{\perp}= M$. 于是
+>  
+>  $M= \operatorname{span}\left\{ y \right\}^{\perp}$.
+>  定义
+>  $$ f\left(x\right)= \left< y,x \right> $$ 
+>  
+>  则$f$是有界线性泛函, 使得
+>  $$ M= \operatorname{ker}f $$ 
+
+
 
 > [!exercise] 4
 > 设 $T$ 是 Hilbert 空间 $H$ 上的线性算子且对所有 $x,y\in H$，
