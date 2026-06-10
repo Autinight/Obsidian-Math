@@ -193,27 +193,28 @@
 >    则$f\in ^{\perp}M$, 但是$x_0\not \in \left(^{\perp}M\right)^{\perp}$.
 >
 > 2. 
-我们证明
-$$ N\subseteq ^{\perp}\left(N^{\perp}\right) $$ 
-
-对于任意的 $f\in N$, 我们有
-
-$$ \left< f,x \right>= 0, \forall x \in N^{\perp} $$ 
-于是
-$$ f\in ^{\perp}\left(N^{\perp}\right) $$
-
-为了说明$^{\perp}\left(N^{\perp}\right)$是闭的, 接下来证明一个更一般的结论:
-> [!lemma] Lemma: 
-> 对于任意的$M\subseteq X$, 
-> $$ ^{\perp}M $$ 
-> 是$X^{*}$中的闭线性子空间.
-
-> [!proof] Proof of Lemma 
->
-> $$ \begin{aligned} ^{\perp}M&= \bigcap _{x \in M} \operatorname{ker} \hat{x}= \left\{ f \in X^{*}: \hat{x}\left(f\right)= 0, \forall x\in M \right\}\\&= \left\{ f\in X^{*}: f\left(x\right)= 0 , \forall x \in M \right\} \end{aligned}$$ 
-> 其中$\hat{x}\in X^{**}$, $\hat{x}\left(f\right)= f\left(x\right)$. $\hat{x}$是连续线性泛函, 故$\operatorname{ker}\hat{x}$是闭的, 而闭集的任意交是闭的, 故$^{\perp}M$是闭的.
-
-由引理可知$^{\perp}\left(N^{\perp}\right)$是闭的, 因此 $\overline{N}\subseteq ^{\perp}\left(N^{\perp}\right)$.
+>    我们证明
+>    $$ N\subseteq ^{\perp}\left(N^{\perp}\right) $$ 
+>    
+>    对于任意的 $f\in N$, 我们有
+>    
+>    $$ \left< f,x \right>= 0, \forall x \in N^{\perp} $$ 
+>    于是
+>    $$ f\in ^{\perp}\left(N^{\perp}\right) $$
+>    
+>    为了说明$^{\perp}\left(N^{\perp}\right)$是闭的, 接下来证明一个更一般的结论:
+> 
+>    > [!lemma] Lemma: 
+>    > 对于任意的$M\subseteq X$, 
+>    > $$ ^{\perp}M $$ 
+>    > 是$X^{*}$中的闭线性子空间.
+>    
+>    > [!proof] Proof of Lemma 
+>    >
+>    > $$ \begin{aligned} ^{\perp}M&= \bigcap _{x \in M} \operatorname{ker} \hat{x}= \left\{ f \in X^{*}: \hat{x}\left(f\right)= 0, \forall x\in M \right\}\\&= \left\{ f\in X^{*}: f\left(x\right)= 0 , \forall x \in M \right\} \end{aligned}$$ 
+>    > 其中$\hat{x}\in X^{**}$, $\hat{x}\left(f\right)= f\left(x\right)$. $\hat{x}$是连续线性泛函, 故$\operatorname{ker}\hat{x}$是闭的, 而闭集的任意交是闭的, 故$^{\perp}M$是闭的.
+>    
+>    由引理可知$^{\perp}\left(N^{\perp}\right)$是闭的, 因此 $\overline{N}\subseteq ^{\perp}\left(N^{\perp}\right)$.
 
 
 > [!exercise] 6
@@ -238,6 +239,27 @@ $$ f\in ^{\perp}\left(N^{\perp}\right) $$
 > $$
 > {}^\perp N(T^*)=\overline{R(T)}.
 > $$
+
+> [!proof] Proof: 
+> $T^{*}\in \mathcal{B}\left(Y^{*},X^{*}\right)$
+> $$ \left< \varphi  ,Tx \right>= \left< T^{*}\varphi , x  \right>,\quad \forall x\in X, \varphi \in Y^{*}$$ 
+> 1. 
+> $$ \begin{aligned} N\left(T\right)&= \left\{ x \in X: Tx= 0 \right\}\\&= \left\{ x\in X: \left< \varphi ,Tx \right>= 0, \forall \varphi \in Y^{*} \right\} \\&= \left\{ x\in X: \left< T^{*}\varphi ,x \right>= 0, \forall \varphi \in Y^{*} \right\}\\&= \left\{ x\in X: x\in ^{\perp}R\left(T^{*}\right)  \right\}\\&= ^{\perp}R\left(T^{*}\right)\end{aligned} $$ 
+> 2. 
+>   $$ \begin{aligned} N\left(T^{*}\right)&= \left\{ \varphi \in X^{*}: T^{*}\varphi = 0 \right\}\\&= \left\{ \varphi \in X^{*}:\left< T^{*}\varphi , x \right>= 0, \forall x\in X \right\} \\&= \left\{ \varphi \in X^{*}:\left< \varphi , Tx \right>= 0, \forall x\in X \right\}\\&= \left\{ \varphi \in X^{*}: \left< \varphi , y \right>= 0, \forall y\in R\left(T\right) \right\}\\&= R\left(T\right)^{\perp}\end{aligned} $$ 
+> 3. 由于$N\left(T\right)^{\perp}$是闭的, 只需要证明 $R\left(T^{*}\right)\subseteq N\left(T\right)^{\perp}$
+>    任取 $\varphi \in Y^{*}$,  则
+>    $$ \left< T^{*}\varphi ,x \right>= \left< \varphi , Tx \right>= \left< \varphi ,0 \right>= 0, \forall x\in N\left(T\right) $$ 
+>    因此
+>    $$ T^{*}\varphi \in N\left(T\right)^{\perp} $$ 
+>    这表明$R\left(T^{*}\right)\subseteq N\left(T\right)^{\perp}$
+>
+> 4. 任取$x\in X$, 则对于任意的 $f\in N\left(T^{*}\right)$, 我们有
+>    $$ \left< f, Tx \right>= \left< T^{*}f, x \right>= \left< 0,x \right>= 0 $$ 
+>    因此$Tx \in ^{\perp}N\left(T^{*}\right)$,  故$R\left(T\right)\subseteq ^{\perp}N\left(T^{*}\right)$. 由Exercise 5中的Lemma, $^{\perp}N\left(T^{*}\right)$是闭的, 因此$\overline{R\left(T\right)}\subseteq ^{\perp}N\left(T^{*}\right)$. 
+>    反过来, 若$y_0\not \in \overline{R\left(T\right)}$,  则由Hahn-Banach分离定理, 存在$f\in Y^{*}$, 使得
+>    $$ f|_{\overline{R\left(T\right)}= 0},\quad  f\left(y_0\right)= 1,\quad \left\| f \right\|= 1$$ 
+>    则 $f \in R\left(T\right)^{\perp}= N\left(T^{*}\right)$, 但是$y_0\not \in ^{\perp}\left(\left\{ f \right\}\right)$, 于是$y_0\not \in ^{\perp}\left(N\left(T^{*}\right)\right)$. 这就说明了$^{\perp}\left(N\left(T^{*}\right)\right)\subseteq \overline{R\left(T\right)}$
 
 > [!exercise] 7
 > 设 $X$ 是 Banach 空间，$A\in C(X)$，$T=I-A$，求证：
