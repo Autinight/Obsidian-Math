@@ -1,3 +1,4 @@
+代靖涵 25120222201319
 > [!exercise] 1
 > 假设 Hilbert 空间中的点列 $\{x_n\}$ 弱收敛到 $x_0$ 且
 > $$
@@ -156,6 +157,19 @@
 > $$
 > 证明 $T$ 是有界算子。
 
+> [!proof] Proof: 
+> 我们验证图像
+> $$ G\left(T\right)= \left\{ \left(x,Tx\right): x\in H \right\} $$ 
+> 是闭的, 从而由闭图像定理即可知结论成立.
+>
+> 为此, 设$\left\{ x_{n} \right\}\subseteq H$, $\lim_{n\to \infty}x_{n}= x_0$, $\lim_{n\to \infty}Tx_{n}= y$. 则由内积的连续性, 对于任意$z\in H$,
+> $$ \left< y,z \right>= \left< \lim_{n\to \infty}Tx_{n},z \right>= \lim_{n\to \infty}\left< Tx_{n},z \right> $$ 
+> 由自对偶性,
+> $\left< Tx_{n},z \right>= \left< x_{n},Tz \right>$
+> 再一次由内积的连续性和$T$的自对偶性,
+> $$ \left< y,z \right>= \lim_{n\to \infty}\left< x_{n},Tz \right>= \left< x_0,Tz \right>= \left< Tx_0,z \right> $$ 
+> 于是$y= Tx_0$. 因此$G\left(T\right)$是闭的, $T$是有界算子.
+
 > [!exercise] 5
 > 设 $X$ 是线性赋范空间，$X^*$ 是其对偶空间。
 > 
@@ -168,6 +182,39 @@
 > $$
 > {}^\perp(N^\perp)\supset \overline{N}.
 > $$
+
+> [!proof] Proof: 
+> 1. 任取$x\in M$, 我们有
+>    $$ \left< f,x \right>= 0, \forall f\in ^{\perp}M $$ 
+>    这表明$x\in \left(^{\perp}M\right)^{\perp}$, 因此$M\subseteq \left(^{\perp}M\right)^{\perp}$, 又$\left(^{\perp}M\right)^{\perp}$是闭的, $\overline{M}\subseteq \left(^{\perp}M\right)^{\perp}$.
+>   
+>    为了证明反方向, 我们证明$x_0\not \in \overline{M}\implies x_0\not \in \left(^{\perp}M\right)^{\perp}$. 事实上, 任取$x_0\not \in \overline{M}$, 有Hahn-Banach分离定理,  存在$f\in X^{*}$, 使得
+>    $$ f|_{\overline{M}}= 0,\quad f\left(x_0\right)= 1,\quad \left\| f \right\|= 1 $$ 
+>    则$f\in ^{\perp}M$, 但是$x_0\not \in \left(^{\perp}M\right)^{\perp}$.
+>
+> 2. 
+我们证明
+$$ N\subseteq ^{\perp}\left(N^{\perp}\right) $$ 
+
+对于任意的 $f\in N$, 我们有
+
+$$ \left< f,x \right>= 0, \forall x \in N^{\perp} $$ 
+于是
+$$ f\in ^{\perp}\left(N^{\perp}\right) $$
+
+为了说明$^{\perp}\left(N^{\perp}\right)$是闭的, 接下来证明一个更一般的结论:
+> [!lemma] Lemma: 
+> 对于任意的$M\subseteq X$, 
+> $$ ^{\perp}M $$ 
+> 是$X^{*}$中的闭线性子空间.
+
+> [!proof] Proof of Lemma 
+>
+> $$ \begin{aligned} ^{\perp}M&= \bigcap _{x \in M} \operatorname{ker} \hat{x}= \left\{ f \in X^{*}: \hat{x}\left(f\right)= 0, \forall x\in M \right\}\\&= \left\{ f\in X^{*}: f\left(x\right)= 0 , \forall x \in M \right\} \end{aligned}$$ 
+> 其中$\hat{x}\in X^{**}$, $\hat{x}\left(f\right)= f\left(x\right)$. $\hat{x}$是连续线性泛函, 故$\operatorname{ker}\hat{x}$是闭的, 而闭集的任意交是闭的, 故$^{\perp}M$是闭的.
+
+由引理可知$^{\perp}\left(N^{\perp}\right)$是闭的, 因此 $\overline{N}\subseteq ^{\perp}\left(N^{\perp}\right)$.
+
 
 > [!exercise] 6
 > 设 $X,Y$ 是 Banach 空间，$T\in \mathcal{B}(X,Y)$，求证：

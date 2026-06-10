@@ -304,6 +304,8 @@ $\|x\|_{\mathscr{Y}}\le\varepsilon\|x\|_{\mathscr{X}}+c(\varepsilon)\|x\|_{\math
 本节研究与紧算子有关的算子方程的可解性问题, 具体地说, 设 $\mathscr{X}$ 是一个 B 空间, $A\in\mathfrak{C}(\mathscr{X})$, 又设 $T=I-A$, 其中 $I$ 表示恒同算子. 我们要问:
 
 $$Tx=y \tag{3.2.1}$$
+^eq-2eed70
+
 
 对哪些 $y\in\mathscr{X}$ 有解? 解的结构如何?
 
