@@ -1,20 +1,18 @@
 
-
-> [!proposition] Proposition: 
+> [!proposition] Proposition
 > $$ \frac{\partial }{\partial t}g_{ij}= -2 Hh _{ij} $$ 
 
 > [!note] Note: 
 > 这里我们利用$\partial _{t}$和$\partial _{i}$的可交换性, 再利用定义$\partial _{t}X= H \vec{n}$,  之后的计算大多都是类似的操作.
 
 > [!proof] Proof: 
-> 
 > $$
 >  \begin{aligned}
 >  \frac{\partial g_{ij}}{\partial t}
 >  &=
 >  \frac{\partial}{\partial t}
 >  \left(
->  \frac{\partial X}{\partial x^i},
+>  \frac{\partial X}{\partial x^i}
 >  \frac{\partial X}{\partial x^j}
 >  \right) \\[4pt]
 >  &=
@@ -47,7 +45,7 @@
 >  \end{aligned}
 >  $$
 
-> [!proposition] Proposition: 
+> [!proposition] Proposition
 > $$ \frac{\partial \vec{n} }{\partial t}= - \operatorname{grad}H $$ 
 
 > [!remark] Remark: 

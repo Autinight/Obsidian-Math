@@ -89,16 +89,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f2a18cca59b2679",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
             "id": "b885c711cfa082b4",
             "type": "leaf",
             "state": {
@@ -175,8 +165,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,8 +179,7 @@
       "open-vscode:VSCode": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "templates:插入模板": false,
-      "claudian:Open Claudian": false
+      "templates:插入模板": false
     }
   },
   "active": "2535ec1cc40b0a24",
