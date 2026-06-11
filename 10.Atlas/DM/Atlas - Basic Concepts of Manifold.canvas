@@ -8,12 +8,35 @@
 		{"id":"4c656be90ae4e773","type":"text","text":"[[ep - R^n as a Manifold]]","x":200,"y":0,"width":250,"height":60},
 		{"id":"6fb07f7984c5e560","x":680,"y":-185,"width":250,"height":60,"type":"text","text":"  Existence of Maximal Atls\n  "},
 		{"id":"ca00ccc20abe0ea5","x":660,"y":-300,"width":250,"height":60,"type":"text","text":"Compatiable"},
-		{"id":"9506f4c0cde75bef","x":210,"y":97,"width":250,"height":60,"type":"text","text":"S^n"}
+		{"id":"9506f4c0cde75bef","x":210,"y":97,"width":250,"height":60,"type":"text","text":"S^n"},
+		{"id":"b06fbe250ce1fe3b","x":606,"y":57,"width":250,"height":60,"type":"text","text":"球极投影构造\n"},
+		{"id":"fc515c71a231b6e7","x":611,"y":125,"width":250,"height":60,"type":"text","text":"正则值构造\n"},
+		{"id":"d122a6fa6fcec771","x":200,"y":240,"width":250,"height":60,"type":"text","text":"RP^n"},
+		{"id":"2ae963b793474ab9","x":624,"y":221,"width":250,"height":60,"type":"text","text":"商映射是开的"},
+		{"id":"c3049e01ce3abdbf","x":1387,"y":150,"width":250,"height":75,"type":"text","text":"将Hausdorff用对角线的闭性来刻画."},
+		{"id":"0f00da5675b87a48","x":1777,"y":6,"width":250,"height":116,"type":"text","text":"关系$R=\\pi ^{-1} \\left(\\Delta _{X/\\sim }\\right)$\n\n也就是说, 在商空间一样, 相当于在原空间有关系."},
+		{"id":"828c8ec9355388e3","x":2161,"y":204,"width":336,"height":90,"type":"text","text":"开映射能把\"没关系\"开邻域传递到商空间上的\"不相等\"开邻域, 这是Hausdorff的定义."},
+		{"id":"a8d41765b28dd8d5","x":1809,"y":291,"width":268,"height":50,"type":"text","text":"如果商映射是开的, 则关系是闭的, 也会导致商空间是Hausdorff的."},
+		{"id":"16473861bb835531","x":2161,"y":-32,"width":250,"height":60,"type":"text","text":"所以商空间是Hausdorff的, 则关系是闭的."},
+		{"id":"31920144f69a663c","x":980,"y":150,"width":250,"height":60,"type":"text","text":"商空间何时是Hausdorff的?"},
+		{"id":"a0e1ebf95d775c84","x":608,"y":300,"width":322,"height":55,"type":"text","text":"关系是闭的: $R =  \\left\\{ \\left(x,y\\right): \\det \\left(x,y\\right)= 0 \\right\\}$"},
+		{"id":"8e4e06ac63d4c515","x":973,"y":248,"width":250,"height":60,"type":"text","text":"Hausdorff"}
 	],
 	"edges":[
 		{"id":"fe072baefc30b197","fromNode":"0b6220df59c81f0d","fromSide":"right","toNode":"afbb3ccd2530d08d","toSide":"left","label":"Defined to Composed of "},
 		{"id":"ad0119a742b9f22b","fromNode":"c67ec9aae74e6c16","fromSide":"right","toNode":"6fb07f7984c5e560","toSide":"left"},
 		{"id":"f7f8f5f6c67ad512","fromNode":"c67ec9aae74e6c16","fromSide":"right","toNode":"ca00ccc20abe0ea5","toSide":"left"},
-		{"id":"f0c3e45825fcf4d8","fromNode":"0b6220df59c81f0d","fromSide":"right","toNode":"6a60f31e700dd027","toSide":"left"}
+		{"id":"f0c3e45825fcf4d8","fromNode":"0b6220df59c81f0d","fromSide":"right","toNode":"6a60f31e700dd027","toSide":"left"},
+		{"id":"e847930d0cc7fd9e","fromNode":"9506f4c0cde75bef","fromSide":"right","toNode":"b06fbe250ce1fe3b","toSide":"left"},
+		{"id":"fb1144caa5bc6f91","fromNode":"9506f4c0cde75bef","fromSide":"right","toNode":"fc515c71a231b6e7","toSide":"left"},
+		{"id":"e79125fc9d871a58","fromNode":"d122a6fa6fcec771","fromSide":"right","toNode":"2ae963b793474ab9","toSide":"left"},
+		{"id":"bf6617c431bfdeef","fromNode":"31920144f69a663c","fromSide":"right","toNode":"c3049e01ce3abdbf","toSide":"left"},
+		{"id":"66e62608cdb63aab","fromNode":"c3049e01ce3abdbf","fromSide":"right","toNode":"0f00da5675b87a48","toSide":"left"},
+		{"id":"8e3aea4b87c757ce","fromNode":"0f00da5675b87a48","fromSide":"right","toNode":"16473861bb835531","toSide":"left"},
+		{"id":"17cd3132fc46ba53","fromNode":"c3049e01ce3abdbf","fromSide":"right","toNode":"a8d41765b28dd8d5","toSide":"left"},
+		{"id":"0d7cfc9d7066b7fd","fromNode":"a8d41765b28dd8d5","fromSide":"right","toNode":"828c8ec9355388e3","toSide":"left"},
+		{"id":"ce0e2509e2daf77c","fromNode":"d122a6fa6fcec771","fromSide":"right","toNode":"a0e1ebf95d775c84","toSide":"left"},
+		{"id":"d99b0c3e79ac7add","fromNode":"2ae963b793474ab9","fromSide":"right","toNode":"8e4e06ac63d4c515","toSide":"left"},
+		{"id":"4faf87ca1d690632","fromNode":"a0e1ebf95d775c84","fromSide":"right","toNode":"8e4e06ac63d4c515","toSide":"left"}
 	]
 }
