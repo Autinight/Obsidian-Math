@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"6a60f31e700dd027","type":"group","x":160,"y":-20,"width":400,"height":400,"label":"Examples of DM"},
+		{"id":"afbb3ccd2530d08d","type":"group","x":160,"y":-380,"width":400,"height":220,"label":"Component of a DM"},
+		{"id":"0b6220df59c81f0d","type":"text","text":"Differential Manifold\n","x":-360,"y":-155,"width":240,"height":60},
+		{"id":"e302f549ed54072d","type":"text","text":"[[dfn - Topological Manifold]]","x":200,"y":-360,"width":250,"height":60},
+		{"id":"c67ec9aae74e6c16","type":"text","text":"[[dfn - Differential Structure]]","x":200,"y":-245,"width":250,"height":60},
+		{"id":"4c656be90ae4e773","type":"text","text":"[[ep - R^n as a Manifold]]","x":200,"y":0,"width":250,"height":60},
+		{"id":"6fb07f7984c5e560","x":680,"y":-185,"width":250,"height":60,"type":"text","text":"  Existence of Maximal Atls\n  "},
+		{"id":"ca00ccc20abe0ea5","x":660,"y":-300,"width":250,"height":60,"type":"text","text":"Compatiable"},
+		{"id":"9506f4c0cde75bef","x":210,"y":97,"width":250,"height":60,"type":"text","text":"S^n"}
+	],
+	"edges":[
+		{"id":"fe072baefc30b197","fromNode":"0b6220df59c81f0d","fromSide":"right","toNode":"afbb3ccd2530d08d","toSide":"left","label":"Defined to Composed of "},
+		{"id":"ad0119a742b9f22b","fromNode":"c67ec9aae74e6c16","fromSide":"right","toNode":"6fb07f7984c5e560","toSide":"left"},
+		{"id":"f7f8f5f6c67ad512","fromNode":"c67ec9aae74e6c16","fromSide":"right","toNode":"ca00ccc20abe0ea5","toSide":"left"},
+		{"id":"f0c3e45825fcf4d8","fromNode":"0b6220df59c81f0d","fromSide":"right","toNode":"6a60f31e700dd027","toSide":"left"}
+	]
+}
