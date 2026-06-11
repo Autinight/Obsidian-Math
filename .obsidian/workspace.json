@@ -11,17 +11,24 @@
             "id": "2535ec1cc40b0a24",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
-                "viewState": {
-                  "x": 571.3526225574105,
-                  "y": 228.90975356321383,
-                  "zoom": -0.6666666666666667
+                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Basic Concepts of Manifold"
+              "icon": "lucide-file",
+              "title": "Evolution of Metric and Curvature"
             }
           }
         ]
@@ -87,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
+                "file": "00.Inbox/Evolution of Metric and Curvature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Atlas - Basic Concepts of Manifold 的大纲"
+              "title": "Evolution of Metric and Curvature 的大纲"
             }
           },
           {
@@ -177,13 +184,13 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
-    "00.Inbox/ep - R^n as a Manifold.md",
-    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
-    "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/Daily Draft 2026-06-10.md",
     "00.Inbox/dfn - Topological Manifold.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/Daily Draft 2026-06-10.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
+    "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/Daily Draft 2026-06-11.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
