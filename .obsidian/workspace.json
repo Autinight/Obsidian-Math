@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Evolution of Metric and Curvature"
+              "title": "pps - Eigenvector with Different Eigenvalue are Independent"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Evolution of Metric and Curvature 的大纲"
+              "title": "pps - Eigenvector with Different Eigenvalue are Independent 的大纲"
             }
           },
           {
@@ -184,13 +184,13 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/Daily Draft 2026-06-10.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
-    "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/Daily Draft 2026-06-11.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
