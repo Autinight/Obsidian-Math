@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"bc576ec63f253814","type":"group","x":-420,"y":100,"width":440,"height":660,"color":"5","label":"① 存在唯一性"},
+		{"id":"530f8521fef003b4","type":"group","x":120,"y":100,"width":440,"height":430,"color":"4","label":"② 变分刻画"},
+		{"id":"3a9d7f02c1e84b65","type":"group","x":660,"y":100,"width":440,"height":320,"color":"6","label":"③ 闭子空间情形"},
+		{"id":"8c47f1a9d52e036b","type":"group","x":1200,"y":100,"width":440,"height":220,"color":"3","label":"④ 正交分解"},
+		{"id":"e46778a03ece0712","type":"text","text":"# Hilbert 空间：最佳逼近与正交分解\n闭凸集上的存在唯一性 → 变分刻画 → 子空间特化 → 正交分解","x":-420,"y":-100,"width":2060,"height":120,"color":"5"},
+		{"id":"0f9e254b8782a439","type":"text","text":"## 闭凸子集\n最佳逼近存在且唯一。","x":-380,"y":140,"width":360,"height":90,"color":"5"},
+		{"id":"a96e6284447c9560","type":"text","text":"距离逼近点列\n$\\left\\| y-x_{n}\\right\\|\\to m$","x":-380,"y":270,"width":360,"height":80,"color":"5"},
+		{"id":"2eb3b02226ca7711","type":"text","text":"借由平行四边形不等式估计\n$\\left\\| x_{m}-x_{n} \\right\\|$","x":-380,"y":390,"width":360,"height":80,"color":"5"},
+		{"id":"5e9cdffee075fea5","type":"text","text":"出现\n$\\frac{x_{m}+ x_{n} }{2 }$\n所以需要凸性。","x":-380,"y":510,"width":360,"height":100,"color":"5"},
+		{"id":"f4926e6998424f2b","type":"text","text":"闭性保证最佳逼近点不会掉出集合。","x":-380,"y":650,"width":360,"height":70,"color":"5"},
+		{"id":"dc32e31973cec488","type":"text","text":"## 变分刻画\n闭凸子集，最佳逼近当且仅当\n$\\operatorname{Re}\\left(y-x_0,x_0-x\\right)\\ge 0,\\forall x$","x":160,"y":140,"width":360,"height":120,"color":"4"},
+		{"id":"a45c89910286dc81","type":"text","text":"凸性：直线段仍落在集合中。","x":160,"y":300,"width":360,"height":70,"color":"4"},
+		{"id":"256d11b9e22385c9","type":"text","text":"沿直线逼近时，交叉项给出\n$\\operatorname{Re}$ 条件。","x":160,"y":410,"width":360,"height":80,"color":"4"},
+		{"id":"4bb544832f233ff0","type":"text","text":"## 闭子空间\n最佳逼近就是差值正交。","x":700,"y":140,"width":360,"height":90,"color":"6"},
+		{"id":"a92ec5fd97176181","type":"text","text":"闭子空间允许反复使用\n$\\operatorname{Re}$ 的全局符号约束，\n从而逼出内积为零。","x":700,"y":270,"width":360,"height":110,"color":"6"},
+		{"id":"42115c8160778260","type":"text","text":"## 正交分解\n闭子空间可按\n“最佳逼近 + 差值”\n分解，恰好得到正交分解。","x":1240,"y":140,"width":360,"height":140,"color":"3"}
+	],
+	"edges":[
+		{"id":"5f49c2448a96fedd","fromNode":"0f9e254b8782a439","fromSide":"bottom","toNode":"a96e6284447c9560","toSide":"top","color":"5"},
+		{"id":"c26aad8aaf4c954c","fromNode":"a96e6284447c9560","fromSide":"bottom","toNode":"2eb3b02226ca7711","toSide":"top","color":"5"},
+		{"id":"a394cdd7dfa134fd","fromNode":"2eb3b02226ca7711","fromSide":"bottom","toNode":"5e9cdffee075fea5","toSide":"top","color":"5"},
+		{"id":"ccf4a06cdc846fac","fromNode":"5e9cdffee075fea5","fromSide":"bottom","toNode":"f4926e6998424f2b","toSide":"top","color":"5"},
+		{"id":"d8ef1840c0022fc0","fromNode":"0f9e254b8782a439","fromSide":"right","toNode":"dc32e31973cec488","toSide":"left","color":"4","label":"等价刻画"},
+		{"id":"87ac4266bcfd1232","fromNode":"dc32e31973cec488","fromSide":"bottom","toNode":"a45c89910286dc81","toSide":"top","color":"4"},
+		{"id":"fdf3e37518247ba4","fromNode":"a45c89910286dc81","fromSide":"bottom","toNode":"256d11b9e22385c9","toSide":"top","color":"4"},
+		{"id":"7ab4baefe9149923","fromNode":"dc32e31973cec488","fromSide":"right","toNode":"4bb544832f233ff0","toSide":"left","color":"6","label":"特化到子空间"},
+		{"id":"bf70ab0d9ea7a851","fromNode":"4bb544832f233ff0","fromSide":"bottom","toNode":"a92ec5fd97176181","toSide":"top","color":"6"},
+		{"id":"f54d4494d97fbd91","fromNode":"4bb544832f233ff0","fromSide":"right","toNode":"42115c8160778260","toSide":"left","color":"3","label":"导出分解"}
+	]
+}
