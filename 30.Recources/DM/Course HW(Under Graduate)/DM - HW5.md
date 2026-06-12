@@ -2,11 +2,9 @@
 
 > [!exercise] Exercise:
 >  设 $(U,\varphi)$ 是 $3$ 维光滑流形 $M$ 的坐标卡, 相应的局部坐标系是 $(U;u^i)$, 假定光滑曲线 $\gamma$ 的参数方程是
-> 
 > $$\varphi(\gamma(t))=(u^1(t),u^2(t),u^3(t))=(\sqrt{2}\cos t,t^2,\sin^2 t),\quad -\pi<t<\pi.$$
 > 
 > 设 $f,g\in C^\infty(M)$ 在 $U$ 上的限制分别是
-> 
 > $$f\circ\varphi^{-1}=(u^1)^2+(u^2)^2+(u^3)^2,\qquad g\circ\varphi^{-1}=u^1u^2u^3.$$
 > 
 > 求:
