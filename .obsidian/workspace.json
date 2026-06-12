@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pps - Eigenvector with Different Eigenvalue are Independent"
+              "title": "DM - HW5"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pps - Eigenvector with Different Eigenvalue are Independent 的大纲"
+              "title": "DM - HW5 的大纲"
             }
           },
           {
@@ -184,11 +184,19 @@
   },
   "active": "2535ec1cc40b0a24",
   "lastOpenFiles": [
+    "Untitled.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
+    "00.Inbox/Daily Draft 2026-06-10.md",
     "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/Daily Draft 2026-06-10.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "00.Inbox/Daily Draft 2026-06-11.md",
@@ -200,7 +208,6 @@
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
     "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
     "30.Recources/DM/Course HW/DM - Review of HW13.md",
     "30.Recources/FA/Course HW/FA - HW13.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
@@ -214,12 +221,6 @@
     "20.Cards/Theorems/thm - Homotopy Invariance of de Rham Cohomology.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch4.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-08.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
-    "31.Obsidian Books/HA_Pan/HA_Pan Ch3.md",
-    "30.Recources/DM/Course HW/DM - HW14.md",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
