@@ -2,8 +2,10 @@
 本节集中计算各种几何量在时间的变化下的演化方程, 把二阶项的结果写成$Laplace$算子, 从而方便地使用抛物型方程的工具.
 
 > [!proposition] Proposition 1
-> .
-> $$ \frac{\partial }{\partial t}g_{ij}= -2 Hh _{ij} $$ 
+> 
+>  $$
+>   \frac{\partial }{\partial t}g_{ij}= -2 Hh _{ij} 
+>   $$ 
 
 > [!note] Note 2 
 > 这里我们利用$\partial _{t}$和$\partial _{i}$的可交换性, 再利用定义$\partial _{t}X= H \vec{n}$,  之后的计算大多都是类似的操作.
@@ -50,8 +52,10 @@
 >  $$
 
 > [!proposition] Proposition 3 
-> .
-> $$ \frac{\partial \vec{n} }{\partial t}= - \operatorname{grad}H $$ 
+> 
+> $$
+>  \frac{\partial \vec{n} }{\partial t}= - \operatorname{grad}H
+>   $$ 
 
 > [!remark] Remark 4 
 > $$ \operatorname{grad}H= \left(\partial _{i}H dx^{i}\right)^{\sharp }= g^{ij}\partial _{i}H \partial _{j}X$$ 
