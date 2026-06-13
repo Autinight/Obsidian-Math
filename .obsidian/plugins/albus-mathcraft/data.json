@@ -16,7 +16,7 @@
   ],
   "theoremNumberingMode": "unified",
   "theoremHeadingLevel": 1,
-  "theoremStyle": "beamer",
+  "theoremStyle": "latex",
   "theoremColors": {
     "theorem": "#1555bc",
     "lemma": "#8b5cf6",
@@ -83,7 +83,7 @@
       "融会贯通"
     ]
   },
-  "settingsTab": "license",
+  "settingsTab": "theorem",
   "simpleTexToken": "",
   "simpleTexSecretName": ""
 }

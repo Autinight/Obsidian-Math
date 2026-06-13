@@ -1,12 +1,9 @@
 [
-  "obsidian-latex-suite",
-  "cursor-commands",
-  "dataview",
-  "open-vscode",
-  "quickadd",
-  "obsidian-tasks-plugin",
-  "obsidian-git",
-  "templater-obsidian",
   "albus-mathcraft",
-  "claudian"
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "quickadd",
+  "open-vscode",
+  "obsidian-latex-suite",
+  "obsidian-git"
 ]

@@ -2,7 +2,6 @@
 本节集中计算各种几何量在时间的变化下的演化方程, 把二阶项的结果写成$Laplace$算子, 从而方便地使用抛物型方程的工具.
 
 > [!proposition] Proposition 1
-> 
 >  $$
 >   \frac{\partial }{\partial t}g_{ij}= -2 Hh _{ij} 
 >   $$ 
@@ -279,13 +278,11 @@
 > $$
 
 > [!proposition] Proposition 9
-> $$
-> \frac{\partial H}{\partial t}=\Delta H+|A|^2H.
-> $$
+> $$\frac{\partial H}{\partial t}=\Delta H+|A|^2H. $$
 
 > [!proof]
 > $$
-> \begin{aligned}
+>  \begin{aligned}
 > \frac{\partial H}{\partial t}
 > &=\frac{\partial}{\partial t}(g^{ij}h_{ij}) \\
 > &=-g^{il}\frac{\partial g_{lm}}{\partial t}g^{mj}h_{ij}
