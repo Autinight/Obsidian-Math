@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
+                "file": "30.Recources/FA/Course HW/FA - HW13.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DM - HW12"
+              "title": "FA - HW13"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
+                "file": "30.Recources/FA/Course HW/FA - HW13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DM - HW12 的大纲"
+              "title": "FA - HW13 的大纲"
             }
           },
           {
@@ -185,8 +185,12 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
@@ -198,7 +202,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "00.Inbox/Daily Draft 2026-06-12.md",
     "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
     "50.Image/MCD/RAW/111.mcd",
@@ -216,13 +219,9 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
     "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
-    "00.Inbox/Daily Draft 2026-06-11.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/未命名",
     "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
