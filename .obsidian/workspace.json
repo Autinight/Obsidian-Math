@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Evolution of Metric and Curvature"
+              "title": "DM - HW7"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Evolution of Metric and Curvature 的大纲"
+              "title": "DM - HW7 的大纲"
             }
           },
           {
@@ -185,13 +185,19 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
+    "00.Inbox/Daily Draft 2026-06-12.md",
     "00.Inbox/dfn - Topological Manifold.md",
     "00.Inbox/ep - R^n as a Manifold.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
     "50.Image/MCD/RAW/111.mcd",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-    "00.Inbox/Daily Draft 2026-06-12.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
@@ -201,15 +207,9 @@
     "10.Atlas/DM/Atlas - Tensor.canvas",
     "00.Inbox/dfn - Differential Structure.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-10.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
     "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "00.Inbox/Daily Draft 2026-06-11.md",
