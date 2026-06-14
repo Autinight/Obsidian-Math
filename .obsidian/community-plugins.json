@@ -1,9 +1,12 @@
 [
-  "albus-mathcraft",
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "quickadd",
   "open-vscode",
   "obsidian-latex-suite",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "cursor-commands",
+  "obsidian42-brat",
+  "albus-mathcraft"
 ]

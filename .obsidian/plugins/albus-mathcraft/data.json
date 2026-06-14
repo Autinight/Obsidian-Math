@@ -1,6 +1,7 @@
 {
   "license": {
-    "key": "MC-eyJpZCI6Ik1DNDkiLCJwbGFuIjoibGlmZXRpbWUiLCJpYXQiOiIyMDI2LTA0LTA5In0.Sj1mhWbjRGYGLByFpbpqvqhICwS_FeHq94J4mFXTr_XoFWeFwUXcWKhA2MIb5gMEUFt0aLwQsZ-MefizQJRFCw"
+    "key": "MC-eyJpZCI6Ik1DNDkiLCJwbGFuIjoibGlmZXRpbWUiLCJpYXQiOiIyMDI2LTA0LTA5In0.Sj1mhWbjRGYGLByFpbpqvqhICwS_FeHq94J4mFXTr_XoFWeFwUXcWKhA2MIb5gMEUFt0aLwQsZ-MefizQJRFCw",
+    "secretName": ""
   },
   "theoremTypes": [
     "theorem",
@@ -14,22 +15,22 @@
     "remark",
     "note"
   ],
-  "theoremNumberingMode": "unified",
+  "theoremNumberingMode": "by-heading",
   "theoremHeadingLevel": 1,
-  "theoremStyle": "latex",
+  "theoremStyle": "card",
   "theoremColors": {
-    "theorem": "#1555bc",
+    "theorem": "#3b82f6",
     "lemma": "#8b5cf6",
     "corollary": "#06b6d4",
     "proposition": "#10b981",
     "definition": "#f59e0b",
     "axiom": "#ef4444",
-    "example": "#8a8a8a",
-    "exercise": "#303030",
+    "example": "#ec4899",
+    "exercise": "#6366f1",
     "remark": "#64748b",
     "note": "#78716c"
   },
-  "language": "en",
+  "language": "zh-CN",
   "pdfPreventBreakInside": true,
   "equationMarkerMode": "all",
   "equationNumberingMode": "by-heading",
@@ -41,8 +42,8 @@
     "enableFileNameBlockLinks": true,
     "enableInSourceMode": false,
     "renderOutline": true,
-    "language": "en",
-    "theoremExternalMode": "default",
+    "language": "zh-CN",
+    "theoremExternalMode": "brackets",
     "theoremRenderModes": {
       "theorem": "name-only",
       "lemma": "name-only",
@@ -55,18 +56,18 @@
       "remark": "number-only",
       "note": "number-only"
     },
-    "equationExternalMode": "default",
+    "equationExternalMode": "brackets",
     "equationRenderMode": "number-only"
   },
   "headingNumbering": {
     "skipKeywords": []
   },
   "tikz": {
-    "exportPath": "50.Image/Tikz/SVG",
-    "mcgFolderPath": "50.Image/MCG/RAW",
-    "mcgExportPath": "50.Image/MCG/SVG",
-    "mcdFolderPath": "50.Image/MCD/RAW",
-    "mcdExportPath": "50.Image/MCD/SVG",
+    "exportPath": "",
+    "mcgFolderPath": "",
+    "mcgExportPath": "",
+    "mcdFolderPath": "",
+    "mcdExportPath": "",
     "enableCache": true
   },
   "geogebraTools": {

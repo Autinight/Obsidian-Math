@@ -278,7 +278,9 @@
 > $$
 
 > [!proposition] Proposition 9
-> $$\frac{\partial H}{\partial t}=\Delta H+|A|^2H. $$
+> $$ 
+> \frac{\partial H}{\partial t}=\Delta H+|A|^2H. 
+> $$
 
 > [!proof]
 > $$
