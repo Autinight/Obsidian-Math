@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW13"
+              "title": "DM - HW7"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
+                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW13 的大纲"
+              "title": "DM - HW7 的大纲"
             }
           },
           {
@@ -185,18 +185,19 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
+    "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
+    "30.Recources/FA/Course HW/FA - HW13.md",
     "00.Inbox/ep - R^n as a Manifold.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW12.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW11.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
