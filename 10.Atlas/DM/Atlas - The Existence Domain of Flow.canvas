@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"cb350350b7cb46b1","x":-320,"y":60,"width":250,"height":60,"type":"text","text":"Uniform Time Lemma"},
+		{"id":"9a5c50dd8c7ae190","x":320,"y":-180,"width":250,"height":80,"type":"text","text":"Compact Supported Vector Field is Complete\n"},
+		{"id":"f4f3c1498b133632","x":782,"y":-231,"width":250,"height":91,"type":"text","text":"Vector Field on compact Manifold is Complete"},
+		{"id":"9e1867f15be4ba66","x":420,"y":160,"width":250,"height":60,"type":"text","text":"Left Invaritan Vector Field is Complete"},
+		{"id":"238c32350101ce35","x":195,"y":367,"width":250,"height":60,"type":"text","text":"Escape Lemma"}
+	],
+	"edges":[
+		{"id":"b268c72402ce164b","fromNode":"cb350350b7cb46b1","fromSide":"right","toNode":"9a5c50dd8c7ae190","toSide":"left","label":"Compactness leads Tubular Neighbourhood, then uniform time"},
+		{"id":"b209f3184c78da96","fromNode":"9a5c50dd8c7ae190","fromSide":"right","toNode":"f4f3c1498b133632","toSide":"left"},
+		{"id":"3aea1f80d3429f87","fromNode":"cb350350b7cb46b1","fromSide":"right","toNode":"9e1867f15be4ba66","toSide":"left","label":"Take use of the existence of origin to eachwhere"},
+		{"id":"26985b78ee68dfea","fromNode":"cb350350b7cb46b1","fromSide":"right","toNode":"238c32350101ce35","toSide":"left","label":"A Uniform Time on Compact Set"}
+	]
+}

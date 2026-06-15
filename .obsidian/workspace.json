@@ -11,24 +11,17 @@
             "id": "c6a6752166b730dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
+                "viewState": {
+                  "x": 325.25291762721747,
+                  "y": 158.70505332177711,
+                  "zoom": -0.3333333333333333
                 }
               },
-              "icon": "lucide-file",
-              "title": "DM - HW7"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - The Existence Domain of Flow"
             }
           }
         ]
@@ -94,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
+                "file": "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DM - HW7 的大纲"
+              "title": "Atlas - The Existence Domain of Flow 的大纲"
             }
           },
           {
@@ -186,6 +179,7 @@
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
+    "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW10.md",
@@ -218,11 +212,9 @@
     "40.Drafts/2026-06/Daily Draft 2026-06-10.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
     "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "10.Atlas/DM/未命名",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
