@@ -34,7 +34,9 @@
 > 
 > 使得
 > 
-> $$(\mathcal{L}_X \alpha)(Y_1, \cdots, Y_r) = X(\alpha(Y_1, \cdots, Y_r)) - \sum_{i=1}^r \alpha(Y_1, \cdots, [X, Y_i], \cdots, Y_r),$$
+> $$
+> (\mathcal{L}_X \alpha)(Y_1, \cdots, Y_r) = X(\alpha(Y_1, \cdots, Y_r)) - \sum_{i=1}^r \alpha(Y_1, \cdots, [X, Y_i], \cdots, Y_r),
+> $$
 > 
 > $$\forall Y_1, \cdots, Y_r \in \mathfrak{X}(M).$$
 > 
@@ -44,7 +46,9 @@
 > 
 > (2) 对于 $\alpha \in \mathcal{A}^r(M)$, $\beta \in \mathcal{A}^s(M)$, 有
 > 
-> $$\mathcal{L}_X(\alpha \wedge \beta) = (\mathcal{L}_X \alpha) \wedge \beta + \alpha \wedge (\mathcal{L}_X \beta).$$
+> $$
+> \mathcal{L}_X(\alpha \wedge \beta) = (\mathcal{L}_X \alpha) \wedge \beta + \alpha \wedge (\mathcal{L}_X \beta).
+> $$
 > 
 > (3) $\mathcal{L}_X = i(X) \circ d + d \circ i(X): \mathcal{A}^r(M) \to \mathcal{A}^r(M)$.
 > 
