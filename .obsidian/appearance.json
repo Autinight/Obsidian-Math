@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 21,
   "baseFontSizeAction": true,
   "textFontFamily": "Lucida Bright,字体管家楷体",
   "interfaceFontFamily": "Lucida Bright",
@@ -8,7 +8,8 @@
   "showRibbon": true,
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
-    "math-callout"
+    "math-callout",
+    "obsidian-callout-sidebar-math"
   ],
   "nativeMenus": false
 }

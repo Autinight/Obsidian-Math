@@ -1482,23 +1482,33 @@ $$\sup_{y \in E_1} f(y) \leqslant s \leqslant \inf_{z \in E_2} f(z).$$
 > [!remark] 注
 > 条件 $E_1 \cap E_2 = \varnothing$ 可以减弱到 $\mathring{E}_1 \cap E_2 = \varnothing$. 这是因为 $E_1$ 有内点, 所以 $\mathring{E}_1$ 有内点, 从而 $\mathring{E}_1$ 是有内点的凸集. 对 $\mathring{E}_1$ 与 $E_2$ 应用本定理结论得到分离它们的闭超平面 $H_f^s$, 不妨设就是
 > 
-> $$f(x) \leqslant s \quad (\forall x \in \mathring{E}_1), \tag{2.4.14}$$
-> $$f(x) \geqslant s \quad (\forall x \in E_2). \tag{2.4.15}$$
+> $$
+> f(x) \leqslant s \quad (\forall x \in \mathring{E}_1), \tag{2.4.14}
+> $$
+> $$
+> f(x) \geqslant s \quad (\forall x \in E_2). \tag{2.4.15}
+> $$
 > 
 > 由 $f$ 的连续性, (2.4.14) 式可以加强为
 > 
-> $$f(x) \leqslant s \quad (\forall x \in \overline{E}_1).$$
+> $$
+> f(x) \leqslant s \quad (\forall x \in \overline{E}_1).
+> $$
 > 
 > 又 $\overline{E}_1 = E_1$ (见习题 1.5.1(2)), 即得
 > 
-> $$f(x) \leqslant s \quad (\forall x \in E_1). \tag{2.4.16}$$
+> $$
+> f(x) \leqslant s \quad (\forall x \in E_1). \tag{2.4.16}
+> $$
 > 
 > 联合 (2.4.15) 式与 (2.4.16) 式, 就是 $H_f^s$ 分离 $E_1$ 和 $E_2$.
 
 > [!corollary] 推论 2.4.17（Ascoli 定理）
 > 设 $E$ 是实 $B^*$ 空间 $\mathscr{X}$ 中的闭凸集, 则 $\forall x_0 \in \mathscr{X} \setminus E, \exists f \in \mathscr{X}^*$ 及 $\alpha \in \mathbb{R}$, 适合
 > 
-> $$f(x) < \alpha < f(x_0) \quad (\forall x \in E). \tag{2.4.17}$$
+> $$
+> f(x) < \alpha < f(x_0) \quad (\forall x \in E). \tag{2.4.17}
+> $$
 
 > [!proof]- 证
 > 因为 $x_0 \in \mathscr{X} \setminus E$ 及 $E$ 是闭集, 所以 $\exists \delta > 0$, 使得

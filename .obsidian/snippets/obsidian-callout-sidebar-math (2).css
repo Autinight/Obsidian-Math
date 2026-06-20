@@ -1,0 +1,414 @@
+/* ================================================================= */
+/*  Obsidian Math Callout - Side-Bar Card Style                      */
+/*  Based on obsidian-callout-chatgpt.css, rebuilt for a clean        */
+/*  white-card layout like the reference screenshot.                  */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  0. Theme Tokens                                                   */
+/* ================================================================= */
+
+body {
+  color-scheme: light;
+
+  /* Accent colors */
+  --color-theorem-rgb: 93, 110, 225;       /* Indigo */
+  --color-lemma-rgb: 139, 92, 246;         /* Violet */
+  --color-definition-rgb: 230, 162, 60;    /* Amber */
+  --color-proposition-rgb: 64, 171, 94;    /* Green */
+  --color-corollary-rgb: 48, 150, 136;     /* Teal */
+  --color-example-rgb: 226, 98, 128;       /* Rose */
+  --color-exercise-rgb: 92, 104, 120;      /* Slate */
+  --color-technique-rgb: 14, 165, 164;     /* Cyan */
+
+  --color-proof-rgb: 124, 124, 124;        /* Gray */
+  --color-solution-rgb: 54, 139, 82;       /* Forest */
+
+  --color-remark-rgb: 81, 132, 196;        /* Blue */
+  --color-proofsketch-rgb: 116, 98, 180;   /* Purple */
+  --color-note-rgb: 226, 98, 128;          /* Rose */
+
+  /* Neutral layout */
+  --math-callout-bg: #ffffff;
+  --math-callout-text: #202124;
+  --math-callout-title: #1f2328;
+  --math-callout-muted: #687076;
+  --math-callout-border-alpha: 0.34;
+  --math-callout-tint-alpha: 0.055;
+
+  --math-callout-radius: 10px;
+  --math-callout-left-bar: 10px;
+  --math-callout-margin: 1.25em 0;
+  --math-callout-shadow: 0 7px 22px rgba(31, 41, 55, 0.08);
+
+  --math-callout-title-padding: 12px 18px 5px;
+  --math-callout-content-padding: 3px 18px 15px;
+  --math-callout-line-height: 1.68;
+  --math-callout-title-weight: 700;
+
+  /* Callout aliases */
+  --callout-default: var(--color-definition-rgb);
+  --callout-theorem: var(--color-theorem-rgb);
+  --callout-lemma: var(--color-lemma-rgb);
+  --callout-definition: var(--color-definition-rgb);
+  --callout-proposition: var(--color-proposition-rgb);
+  --callout-corollary: var(--color-corollary-rgb);
+  --callout-example: var(--color-example-rgb);
+  --callout-exercise: var(--color-exercise-rgb);
+  --callout-problem: var(--color-exercise-rgb);
+  --callout-technique: var(--color-technique-rgb);
+  --callout-proof: var(--color-proof-rgb);
+  --callout-solution: var(--color-solution-rgb);
+  --callout-remark: var(--color-remark-rgb);
+  --callout-proofsketch: var(--color-proofsketch-rgb);
+  --callout-note: var(--color-note-rgb);
+}
+
+/* ================================================================= */
+/*  1. Base Callout: White Card + Thick Colored Side Bar              */
+/* ================================================================= */
+
+.markdown-rendered .callout,
+.markdown-source-view.mod-cm6 .callout {
+  --callout-color: var(--callout-default);
+
+  position: relative;
+  margin: var(--math-callout-margin);
+  padding: 0;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(var(--callout-color), var(--math-callout-tint-alpha)) 0,
+      rgba(var(--callout-color), 0.018) 42%,
+      transparent 100%
+    ),
+    var(--math-callout-bg) !important;
+  border: 2px solid rgba(var(--callout-color), var(--math-callout-border-alpha)) !important;
+  border-left: var(--math-callout-left-bar) solid rgb(var(--callout-color)) !important;
+  border-radius: var(--math-callout-radius) !important;
+  box-shadow: var(--math-callout-shadow) !important;
+}
+
+.markdown-rendered .callout-icon,
+.markdown-source-view.mod-cm6 .callout-icon {
+  display: none !important;
+}
+
+.markdown-rendered .callout-title,
+.markdown-source-view.mod-cm6 .callout-title {
+  display: flex;
+  align-items: center;
+  gap: 0;
+
+  min-height: 0 !important;
+  padding: var(--math-callout-title-padding) !important;
+
+  background: transparent !important;
+  color: var(--math-callout-title) !important;
+
+  font-size: 1em;
+  font-weight: var(--math-callout-title-weight);
+  line-height: 1.35;
+}
+
+.markdown-rendered .callout-title-inner,
+.markdown-source-view.mod-cm6 .callout-title-inner {
+  color: inherit !important;
+}
+
+.markdown-rendered .callout-content,
+.markdown-source-view.mod-cm6 .callout-content {
+  overflow-x: auto;
+  padding: var(--math-callout-content-padding) !important;
+
+  background: transparent !important;
+  color: var(--math-callout-text) !important;
+
+  font-size: 1em;
+  line-height: var(--math-callout-line-height) !important;
+}
+
+.markdown-rendered .callout.is-collapsible .callout-title,
+.markdown-source-view.mod-cm6 .callout.is-collapsible .callout-title {
+  cursor: pointer;
+}
+
+.markdown-rendered .callout-fold,
+.markdown-source-view.mod-cm6 .callout-fold {
+  color: rgba(var(--callout-color), 0.75) !important;
+  opacity: 0.85;
+}
+
+/* ================================================================= */
+/*  2. Callout Color Binding                                          */
+/* ================================================================= */
+
+.callout[data-callout="theorem"] {
+  --callout-color: var(--callout-theorem);
+}
+
+.callout[data-callout="lemma"] {
+  --callout-color: var(--callout-lemma);
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: var(--callout-definition);
+}
+
+.callout[data-callout="proposition"] {
+  --callout-color: var(--callout-proposition);
+}
+
+.callout[data-callout="corollary"] {
+  --callout-color: var(--callout-corollary);
+}
+
+.callout[data-callout="example"],
+.callout[data-callout="special"] {
+  --callout-color: var(--callout-example);
+}
+
+.callout[data-callout="exercise"] {
+  --callout-color: var(--callout-exercise);
+}
+
+.callout[data-callout="problem"] {
+  --callout-color: var(--callout-problem);
+}
+
+.callout[data-callout="technique"] {
+  --callout-color: var(--callout-technique);
+}
+
+.callout[data-callout="proof"] {
+  --callout-color: var(--callout-proof);
+}
+
+.callout[data-callout="solution"] {
+  --callout-color: var(--callout-solution);
+}
+
+.callout[data-callout="remark"] {
+  --callout-color: var(--callout-remark);
+}
+
+.callout[data-callout="proofsketch"] {
+  --callout-color: var(--callout-proofsketch);
+}
+
+.callout[data-callout="note"] {
+  --callout-color: var(--callout-note);
+}
+
+/* ================================================================= */
+/*  3. Proof / Solution: Lightweight Inline Block                     */
+/* ================================================================= */
+
+.markdown-rendered .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+),
+.markdown-source-view.mod-cm6 .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) {
+  margin: 0.95em 0;
+  overflow: visible;
+
+  background: transparent !important;
+  border: none !important;
+  border-left: 3px solid rgba(var(--callout-color), 0.5) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.markdown-rendered .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-title,
+.markdown-source-view.mod-cm6 .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-title {
+  padding: 2px 0 2px 13px !important;
+
+  color: #4f555c !important;
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.markdown-rendered .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content,
+.markdown-source-view.mod-cm6 .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content {
+  padding: 2px 0 4px 13px !important;
+  color: #30343a !important;
+}
+
+.markdown-rendered .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content:not(:empty)::after,
+.markdown-source-view.mod-cm6 .callout:is(
+  [data-callout="proof"],
+  [data-callout="solution"]
+) .callout-content:not(:empty)::after {
+  content: "∎";
+  display: block;
+  margin-top: 0.3em;
+
+  color: #6b7280;
+  text-align: right;
+}
+
+/* ================================================================= */
+/*  4. Text, List, and Math Layout                                    */
+/* ================================================================= */
+
+.markdown-rendered .callout-content > :first-child,
+.markdown-source-view.mod-cm6 .callout-content > :first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-rendered .callout-content > :last-child,
+.markdown-source-view.mod-cm6 .callout-content > :last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-rendered .callout-content > p,
+.markdown-source-view.mod-cm6 .callout-content > p {
+  margin-block: 0.55em;
+}
+
+.markdown-rendered .callout-content > p:empty,
+.markdown-source-view.mod-cm6 .callout-content > p:empty {
+  display: none;
+}
+
+.markdown-rendered .callout-content ul,
+.markdown-rendered .callout-content ol,
+.markdown-source-view.mod-cm6 .callout-content ul,
+.markdown-source-view.mod-cm6 .callout-content ol {
+  margin-block: 0.45em;
+  padding-left: 1.35em;
+}
+
+.markdown-rendered .callout-content li,
+.markdown-source-view.mod-cm6 .callout-content li {
+  margin-block: 0.2em;
+  line-height: var(--math-callout-line-height) !important;
+}
+
+.markdown-rendered .callout-content mjx-container,
+.markdown-rendered .callout-content .katex,
+.markdown-rendered .callout-content .MathJax,
+.markdown-source-view.mod-cm6 .callout-content mjx-container,
+.markdown-source-view.mod-cm6 .callout-content .katex,
+.markdown-source-view.mod-cm6 .callout-content .MathJax {
+  font-size: 1.08em !important;
+}
+
+.markdown-rendered .callout-content .math-block,
+.markdown-rendered .callout-content .katex-display,
+.markdown-source-view.mod-cm6 .callout-content .math-block,
+.markdown-source-view.mod-cm6 .callout-content .katex-display {
+  margin-block: 0.55em !important;
+}
+
+/* ================================================================= */
+/*  5. VS Code Markdown Alert Compatibility                           */
+/* ================================================================= */
+
+.markdown-alert .codicon,
+.markdown-alert-title > svg,
+.markdown-alert-title .markdown-alert-icon {
+  display: none !important;
+}
+
+.markdown-alert {
+  --callout-color: var(--callout-note);
+
+  margin: var(--math-callout-margin) !important;
+  padding: 0 !important;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(var(--callout-color), var(--math-callout-tint-alpha)) 0,
+      rgba(var(--callout-color), 0.018) 42%,
+      transparent 100%
+    ),
+    var(--math-callout-bg) !important;
+  border: 2px solid rgba(var(--callout-color), var(--math-callout-border-alpha)) !important;
+  border-left: var(--math-callout-left-bar) solid rgb(var(--callout-color)) !important;
+  border-radius: var(--math-callout-radius) !important;
+  box-shadow: var(--math-callout-shadow) !important;
+}
+
+.markdown-alert.markdown-alert-note {
+  --callout-color: var(--callout-note);
+}
+
+.markdown-alert.markdown-alert-tip {
+  --callout-color: var(--callout-solution);
+}
+
+.markdown-alert.markdown-alert-important {
+  --callout-color: var(--callout-theorem);
+}
+
+.markdown-alert.markdown-alert-warning {
+  --callout-color: var(--callout-definition);
+}
+
+.markdown-alert.markdown-alert-caution {
+  --callout-color: var(--callout-example);
+}
+
+.markdown-alert-title {
+  margin: 0 !important;
+  padding: var(--math-callout-title-padding) !important;
+
+  color: var(--math-callout-title) !important;
+
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.markdown-alert > *:not(.markdown-alert-title) {
+  padding-inline: 18px;
+}
+
+.markdown-alert > :last-child {
+  padding-bottom: 15px;
+}
+
+/* ================================================================= */
+/*  6. Scrollbar                                                      */
+/* ================================================================= */
+
+.markdown-rendered .callout-content::-webkit-scrollbar,
+.markdown-source-view.mod-cm6 .callout-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.markdown-rendered .callout-content::-webkit-scrollbar-thumb,
+.markdown-source-view.mod-cm6 .callout-content::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.35);
+  border-radius: 999px;
+}
+
+.markdown-rendered .callout-content::-webkit-scrollbar-track,
+.markdown-source-view.mod-cm6 .callout-content::-webkit-scrollbar-track {
+  background: transparent;
+}
