@@ -8,8 +8,7 @@
   "showRibbon": true,
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
-    "math-callout",
-    "obsidian-callout-chatgpt"
+    "math-callout"
   ],
   "nativeMenus": false
 }

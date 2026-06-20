@@ -1475,7 +1475,9 @@ $$\sup_{y \in E_1} f(y) \leqslant s \leqslant \inf_{z \in E_2} f(z).$$
 > [!theorem] 定理 2.4.16（凸集分离定理）
 > 设 $E_1$ 和 $E_2$ 是 $B^*$ 空间中两个互不相交的非空凸集, $E_1$ 有内点, 那么 $\exists s \in \mathbb{R}$ 及非零连续线性泛函 $f$, 使得超平面 $H_f^s$ 分离 $E_1$ 和 $E_2$. 换句话说, 存在一个非零连续线性泛函 $f$, 使得
 > 
-> $$f(x) \leqslant s \quad (\forall x \in E_1), \quad f(x) \geqslant s \quad (\forall x \in E_2).$$
+> $$
+> f(x) \leqslant s \quad (\forall x \in E_1), \quad f(x) \geqslant s \quad (\forall x \in E_2).
+> $$
 
 > [!remark] 注
 > 条件 $E_1 \cap E_2 = \varnothing$ 可以减弱到 $\mathring{E}_1 \cap E_2 = \varnothing$. 这是因为 $E_1$ 有内点, 所以 $\mathring{E}_1$ 有内点, 从而 $\mathring{E}_1$ 是有内点的凸集. 对 $\mathring{E}_1$ 与 $E_2$ 应用本定理结论得到分离它们的闭超平面 $H_f^s$, 不妨设就是
