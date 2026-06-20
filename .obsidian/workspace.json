@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Zhang_Ch2"
+              "title": "FA_Zhang_Ch3"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Zhang_Ch2 的大纲"
+              "title": "FA_Zhang_Ch3 的大纲"
             }
           },
           {
@@ -185,6 +185,7 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
@@ -216,7 +217,6 @@
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "00.Inbox/Daily Draft 2026-06-12.md",
     "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "50.Image/MCD/RAW/111.mcd",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",

@@ -626,9 +626,11 @@ $$R(T^*)=\overline{R(T^*)}=N(T^{**})^\perp={}^\perp N(T).$$ ■
 
 > [!theorem] 定理 3.3.1
 > 若 $A\in\mathfrak{C}(\mathscr{X})$, 则
+> 
 > (1) $0\in\sigma(A)$, 除非 $\dim\mathscr{X}<\infty$;
+> 
 > (2) $\sigma(A)\setminus\{0\}=\sigma_p(A)\setminus\{0\}$;
-
+> 
 > (3) $\sigma_p(A)$ 至多以 $0$ 为聚点.
 
 > [!proof]- Proof of (3)
