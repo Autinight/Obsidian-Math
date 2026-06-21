@@ -663,3 +663,73 @@ $$
 
 
 
+> [!exercise] 2
+> 证明空间 $L^1[a,b]$ 与 $\ell^1$ 不是自反的.
+
+若$L^{1}$是自反的, 由于
+$$
+\left(L^{1}\right)^{*}\simeq L^{\infty} 
+$$
+
+考虑构造不合适的$\left(L^{\infty}\right)^{*}$中的元素.
+
+
+定义
+$$
+F\left(f\right)= f\left(a\right) 
+$$
+如果对于$f\in L^{\infty}$这么定义是定义不了的, 没有逐点的定义. 在$C\left[ a,b \right]$上, 定义
+$$
+F\left(f\right)= f\left(a\right) 
+$$
+将$F$延拓到$L^{\infty}$上. 
+若$F$是自反的, 存在$x$, 使得$F\left(f\right)= f\left(x\right)$, 这里$f\in L^{\infty}$, 
+$$
+f\left(x\right)= \int _{a}^{b}f\left(t\right)x\left(t\right)\,d t 
+$$
+于是
+$$
+F\left(f\right)= f\left(a\right)=  f\left(x\right)= \int _{a}^{b}f\left(t\right)x\left(t\right)\,d t
+$$
+
+
+取
+$$
+f= y_{n},\quad 0\le y_{n}\le 0, \operatorname{supp}y_{n}\subseteq \left[ a,a+ \frac{1 }{n } \right] 
+$$
+
+于是
+$$
+1= \int _{a}^{a+ \frac{1 }{n }}y_{n}\left(t\right)x\left(t\right)\,d t\le \left\| x \right\|_{L^{\infty}}\frac{1 }{n }\to 0 
+$$
+
+证明$\ell ^{1}$非自反
+
+
+$$
+\left(\ell ^{1}\right)^{*}\simeq \ell ^{\infty} 
+$$
+寻找不合适的$F\in \left(\ell ^{\infty}\right)^{*}$,
+
+定义
+$$
+F\left(a\right)= a_{\infty} 
+$$
+
+若是自反的, 则存在 $x$, 使得
+$$
+F\left(a\right)= a\left(x\right) 
+$$
+
+$$
+a_{\infty}= \sum _{k= 1} ^{\infty}a_{k}x_{k},\quad \forall a
+$$
+取$a= e_{k}$, 得到
+$$
+0= x_{k} 
+$$
+在取$a= \left(1,1,1,1\cdots \right)$
+于是
+
+> [!exercise] 3
+> 证明：$B$ 空间 $X$ 是自反的，当且仅当 $X^*$ 是自反的.
