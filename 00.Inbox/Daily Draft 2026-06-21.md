@@ -412,6 +412,14 @@ $$
 $$
 f= \chi _{E_{t}\cap A}\frac{g }{\left| g \right|  }
 $$
+
 $$
-\int  fg\,d t=  
+F\left(f\right)= \int _{E_{t}\cap A}\left| g \right|\ge \left(\left\| F \right\|+ \varepsilon \right) \mu \left(E_{t}\cap A\right)
+$$
+$$
+F\left(f\right)\le \left\| F \right\|\left\| f \right\|= \left\| F \right\|\mu \left(E_{t}\cap A\right)
+$$
+
+$$
+\mu \left(E_{t}\cap A\right)\left(\left\| F \right\|+ \varepsilon \right) \le \mu \left(E_{t}\cap A\right)\left\| F \right\|
 $$

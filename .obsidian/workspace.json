@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
+                "file": "30.Recources/FA/Course HW/FA - HW9.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA - HW13"
+              "title": "FA - HW9"
+            }
+          },
+          {
+            "id": "121450bde8030bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA_Zhang_Ch3"
             }
           }
         ]
@@ -94,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/FA/Course HW/FA - HW13.md",
+                "file": "30.Recources/FA/Course HW/FA - HW9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA - HW13 的大纲"
+              "title": "FA - HW9 的大纲"
             }
           },
           {
@@ -184,17 +208,18 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
-    "30.Recources/FA/Course HW/FA - HW12.md",
-    "30.Recources/FA/Course HW/FA - HW11.md",
-    "30.Recources/FA/Course HW/FA - HW10.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "30.Recources/FA/Course HW/FA - HW9.md",
     "30.Recources/FA/Course HW/FA - HW8.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
-    "00.Inbox/Daily Draft 2026-06-21.md",
     "30.Recources/FA/Course HW/FA - HW13.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "30.Recources/FA/Course HW/FA - HW12.md",
+    "30.Recources/FA/Course HW/FA - HW11.md",
+    "30.Recources/FA/Course HW/FA - HW10.md",
+    "00.Inbox/Daily Draft 2026-06-21.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
     "30.Recources/FA/Course HW/FA - HW2.md",
@@ -210,7 +235,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
