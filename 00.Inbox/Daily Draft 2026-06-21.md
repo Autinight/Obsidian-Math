@@ -344,3 +344,74 @@ $$
 $$
 \nu \left(E\right)\le \left\| F \right\|\left\| \chi _{E} \right\|= \left\| F \right\|\mu \left(E_{n}\right) ^{\frac{1}{p}}
 $$
+
+$\nu \left(E\right)= F\left(\chi _{E}\right)$定义了一个测度.
+
+证明有限可加, 加递减于零的列封闭.
+
+然后证明关于$\mu \left(E\right)$绝对连续.
+
+然后应用Radon-Nikodym定理,
+
+存在可测函数$g$, 使得
+$$
+\nu \left(E\right)= \int _{E}g\,d \mu  
+$$
+
+$$
+F\left(\chi _{E}\right)= \int _{0}^{1}\chi _{E}\left(x\right)g\left(x\right)\,d \mu  
+$$
+于是
+$$
+F\left(f\right)= \int _{0}^{1}f\left(x\right)g\left(x\right)\,d \mu  
+$$
+对于简单函数成立.
+
+简单函数列在$L^{p}$中稠密, 于是
+
+$$
+F\left(f\right)= \lim_{n\to \infty}F\left(f_{n}\right) 
+$$
+但这需要$F$连续, 确实连续.
+
+但是接下来证明
+$$
+\lim_{n\to \infty}F\left(f_{n}\right) = \int _{0}^{1}f\left(x\right)g\left(x\right)\,d \mu 
+$$
+我们需要控制收敛定理, 从而需要$g\in L^{q}$.
+
+
+需要证明两种情况的
+
+$$
+\left\| g \right\|_{L^{q}} \le \left\| F \right\|
+$$
+
+由于暂时没有可积性, 但是还要证明$L^{q}$范数小于等于$\left\| F \right\|$, 于是我们有$E_{t}= \left\{ \left| g \right| \le t \right\}$来截断一下, 获得可积性以便于控制, 然后再单调收敛定理说明真正的可积性.
+所以这个操作的理由是,单调收敛定理不需要可积性, 而是一种先验式的估计.
+
+$$
+f= \chi _{E_{t}}\left| g \right|^{q-2}\bar{g}  
+$$
+于是$p= 1$的情况, 
+
+我们证明
+$$
+\left\| g \right\|_{L^{\infty}}\le \left\| F \right\| 
+$$
+这需要说明
+$$
+A= \left\{ x\in \left[ 0,1 \right] : \left| g\left(x\right) \right|> \left\| F \right\|+ \varepsilon  \right\} 
+$$
+对于任意的$\varepsilon > 0$都是零测的.
+
+我们仍然需要截断, $\chi _{E_{t}}\cap A$, 证明这个集合零测, 
+$$
+f= \chi _{E_{t}\cap A}\operatorname{sgn}\bar{g} 
+$$
+$$
+f= \chi _{E_{t}\cap A}\frac{g }{\left| g \right|  }
+$$
+$$
+\int  fg\,d t=  
+$$
