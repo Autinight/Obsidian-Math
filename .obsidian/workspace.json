@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-21.md",
+                "file": "30.Recources/FA/Course HW/FA - HW10.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Draft 2026-06-21"
+              "title": "FA - HW10"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Daily Draft 2026-06-21.md",
+                "file": "30.Recources/FA/Course HW/FA - HW10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily Draft 2026-06-21 的大纲"
+              "title": "FA - HW10 的大纲"
             }
           },
           {
@@ -218,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,20 +234,22 @@
   "active": "843026b851b820c9",
   "lastOpenFiles": [
     "30.Recources/FA/Course HW/FA - HW9.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "30.Recources/FA/Course HW/FA - HW8.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "31.Obsidian Books/FA_Liu_obsidian.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
+    "30.Recources/FA/Course HW/FA - HW5.md",
+    "30.Recources/FA/Course HW/FA - HW2.md",
+    "30.Recources/FA/Course HW/FA - HW3.md",
     "30.Recources/FA/Course HW/FA - HW13.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
     "30.Recources/FA/Course HW/FA - HW10.md",
     "00.Inbox/Daily Draft 2026-06-21.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+    "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-    "30.Recources/FA/Course HW/FA - HW2.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW14.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW13.md",
@@ -258,8 +260,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW9.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW8.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",

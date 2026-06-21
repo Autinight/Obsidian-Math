@@ -436,4 +436,230 @@ $$
 \alpha = \alpha ^{+ }-\alpha ^{-} 
 $$
 
+取它们右连续的代表元.
+
+单调递增的右连续函数给出Borel测度, $\alpha$给出的有限的Borel符号测度
+$$
+d\alpha = d\alpha ^{+ }-d\alpha ^{-} 
+$$
+
+
+> [!exercise] 2
+> 证明
+> $$
+> (\ell^p)^*=\ell^q,
+> $$
+> 其中
+> $$
+> \frac{1}{p}+\frac{1}{q}=1,\qquad 1\leq p<\infty.
+> $$
+
+任取$y\in \ell ^{q}$,
+
 定义
+$$
+F\left(x\right)= \sum _{k}x_{k}y_{k} 
+$$
+
+$$
+\sum _{k}\left| x_{k}y_{k} \right| \le \left\| x \right\|_{\ell ^{p}}\left\| y \right\|_{\ell ^{q}} < \infty
+$$
+
+于是$F$良定义, 并且
+$$
+\left| F\left(x\right) \right|\le \left\| x \right\|_{\ell ^{p}} \left\| y \right\|_{\ell ^{q}} \implies \left\| F \right\|\le \left\| y \right\|_{\ell ^{q}}
+$$
+
+此外, 取
+$x_{k}^{p}$
+$$
+x_{k}=   y_{k}\left| y_{k} \right|^{q-2}  
+$$
+则
+$$
+\left| x_{k} \right|^{p}= \left| y_{k} \right|^{q-1}  = \left| y_{k} \right| ^{q}
+$$
+于是
+$$
+ \sum _{k}\left| x_{k} \right|^{p}= \sum _{k}\left| y_{k} \right|^{q} < \infty 
+$$
+于是$x\in \ell ^{p}$
+
+于是
+$$
+F\left(x\right)= \sum _{k}y_{k}\left| y_{k} \right|^{q-2}y_{k}= \sum _{k}\left| y_{k} \right|^{q} = \left\| y_{k} \right\|^{q}   
+$$
+$$
+\left\| x \right\|= \left(\sum _{k}\left| y_{k} \right| ^{q}\right) ^{\frac{1}{p}}= \left\| y_{k} \right\|^{\frac{q}{p}}
+$$
+于是
+$$
+\left\| F \right\|\ge \frac{\left\| y_{k} \right\|^{q} }{\left\| y_{k} \right\|^{\frac{q}{p}} }= \left\| y_{k} \right\|_{\ell ^{q}} 
+$$
+因此
+
+$$
+\left\| F \right\|= \left\| y_{k} \right\|_{\ell ^{q}} 
+$$
+这说明
+
+$$
+\left\| F \right\|= \left\| y \right\| 
+$$
+因此给出等距映射$\ell ^{q}\mapsto \left(\ell ^{p}\right)^{*}$, $y\mapsto F$
+
+为了说明映射是满的, 任取$F\in \left(\ell ^{q}\right)^{*}$.
+
+
+令
+$$
+a_{n}= F\left(e_{n}\right) 
+$$
+
+
+任取有限序列$x^{\left(N\right)}$, 我们有
+$$
+F\left(x^{\left(N\right)}\right) = \sum _{k = 1}^{N}a_{k}x_{k}
+$$
+
+令
+$$
+x^{\left(N\right)}_{k}= \begin{cases} a_{k}\left| a_{k} \right| ^{q-2}, &k\le N \\0, &k> N\end{cases}  
+$$
+于是
+$$
+\left\| x_{k}^{\left(N\right)} \right\|= \left(\sum _{k= 1}^{N}\left| y_{k} \right| ^{q}\right)^{\frac{q}{p}} 
+$$
+
+
+$$
+F\left(x_{k}^{\left(N\right)}\right) = \left(\sum _{k= 1}^{N}\left| y_{k} \right|^{q} \right)
+$$
+于是
+$$
+\left\| F \right\|\ge  \left(\sum _{k= 1}^{N}\left| a_{k} \right| ^{q}\right) ^{\frac{1}{q}}
+$$
+令$N\to \infty$, 得到
+$$
+\left\| \mathbf{a} \right\|_{\ell ^{q}} \le \left\| F \right\|
+$$
+于是 $a\in \ell ^{q}$.
+
+定义
+$$
+\widetilde{F}= \sum  _{k= 1}^{N}a_{k}x_{k} 
+$$
+则$\widetilde{F}$和$F$在有限序列上相等, 
+
+
+
+> [!exercise] 3
+> 证明
+> $$
+> c^*=(c_0)^*=\ell^1,
+> $$
+> 其中
+> $$
+> c_0=\left\{x=\{\xi_n\}\in c\mid \lim_{n\to\infty}\xi_n=0\right\}
+> $$
+> 是 $c$ 的子空间。
+
+
+任取$x\in \ell ^{1}$, 定义
+$$
+F\left(y\right)= \sum _{k= 1}^{\infty}x_{k}y_{k} 
+$$
+
+$$
+F\left(y\right)\le \sum _{k=  1}^{\infty}\left| x_{k} \right|\left| y_{k} \right|\le \sup _{k}\left| y_{k} \right| \sum _{k= 1}^{\infty}\left| x_{k} \right|= \left\| y \right\|_{\infty}\left\| x \right\|_{\ell ^{1}}    
+$$
+于是
+$$
+\left\| F \right\|\le \left\| x \right\|_{\ell ^{1}} 
+$$
+
+$F$是线性泛函.
+
+所有映射
+$$
+x\mapsto F_{x} 
+$$
+
+现在, 任取$F\in c^{*}$, 定义
+$$
+a_{n}= F\left(e_{n}\right) 
+$$
+对于有限序列$x^{\left(N\right)}$, 我们有
+$$
+F\left(x^{\left(N\right)}\right) = \sum _{k= 1}^{N}a_{k}x_{k}
+$$
+
+定义
+$$
+x^{\left(N\right)}= \begin{cases} \operatorname{sgn}\left(a_{k}\right), \quad k\le N \\0,&k> N\end{cases}  
+$$
+于是
+$$
+\left\| x^{\left(N\right)} \right\|_{\infty}\le 1
+$$
+于是
+$$
+F\left(x^{\left(N\right)}\right) = \sum _{k= 1}^{N}\left| a_{k} \right| \le \left\| F \right\|\left\| x^{\left(N\right)} \right\|_{\infty}\le \left\| F \right\|
+$$
+令$N\to \infty$, 得到
+$$
+\left\| a \right\|_{\infty}\le \left\| F \right\| 
+$$
+于是
+$$
+\left\| F \right\|= \left\| a \right\|_{\infty} 
+$$
+
+在有限序列上$F= F_{a}$, 由于有限序列在$c_0$中稠密, 故$F= F_{a}$
+
+对于$c$,
+
+
+$x\in c$, 我们有$\lim_{n\to \infty}x_{n}= x$, 则
+
+令
+$$
+x_{\infty} \mathbf{1}= \left(x,x,\cdots , x\right)\in c
+$$
+
+我们有
+$$
+x = x^{0} + x_{\infty} \mathbf{1},\quad x^{0}= x-x_{\infty} \mathbf{1}\in c_0
+$$
+于是
+$$
+c= c_0\oplus \operatorname{span}\mathbf{1} 
+$$
+
+任取 $f\in c^{*}$, 则
+$$
+f\left(x\right)= f\left(x^{0}\right)+  f\left(x_{\infty}  \right)
+$$
+
+定义
+$$
+g\left(x^{0}\right)= f\left(x^{0}\right) 
+$$
+则$g\in c^{*}$,  
+于是
+
+于是
+任取$f\in c^{*}$, 存在唯一的$g\in c^{*}$和$a$, 使得
+$$
+f\left(x\right)= g\left(x_0\right)+ a x_{\infty} 
+$$
+$$
+c^{*}\simeq c_0^{*}\oplus \mathbb{R}   
+$$
+于是
+$$
+c^{*}\simeq \ell ^{1} \oplus \mathbb{R} \simeq \ell ^{1}
+$$
+
+
+
