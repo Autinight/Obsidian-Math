@@ -15,7 +15,7 @@
               "state": {
                 "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -23,7 +23,7 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
@@ -184,15 +184,16 @@
   },
   "active": "c6a6752166b730dc",
   "lastOpenFiles": [
-    "00.Inbox/Daily Draft 2026-06-21.md",
-    "30.Recources/FA/Course HW/FA - HW8.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "30.Recources/FA/Course HW/FA - HW7.md",
     "30.Recources/FA/Course HW/FA - HW9.md",
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
+    "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/FA/Course HW/FA - HW11.md",
+    "30.Recources/FA/Course HW/FA - HW7.md",
+    "30.Recources/FA/Course HW/FA - HW6.md",
+    "30.Recources/FA/Course HW/FA - HW8.md",
+    "00.Inbox/Daily Draft 2026-06-21.md",
     "30.Recources/FA/Course HW/FA - HW13.md",
     "30.Recources/FA/Course HW/FA - HW12.md",
-    "30.Recources/FA/Course HW/FA - HW10.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
@@ -210,7 +211,6 @@
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW3.md",
     "30.Recources/DM/Course HW(Under Graduate)/DM - HW5.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW6.md",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
