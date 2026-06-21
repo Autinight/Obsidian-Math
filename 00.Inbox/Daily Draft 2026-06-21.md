@@ -423,3 +423,17 @@ $$
 $$
 \mu \left(E_{t}\cap A\right)\left(\left\| F \right\|+ \varepsilon \right) \le \mu \left(E_{t}\cap A\right)\left\| F \right\|
 $$
+
+> [!exercise] 1
+> 证明
+> $$
+> (C[a,b])^*=V_0[a,b].
+> $$
+
+
+任取$\alpha \in V_0\left[ a,b \right]$, 则$\alpha$分解为两个单调递增函数之差
+$$
+\alpha = \alpha ^{+ }-\alpha ^{-} 
+$$
+
+定义
