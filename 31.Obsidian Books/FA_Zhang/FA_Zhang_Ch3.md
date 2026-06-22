@@ -401,9 +401,11 @@ $$\dim N(T)=\dim N(T^*)<\infty.$$
 
 > [!theorem] 定理 3.2.1 (Riesz-Fredholm)
 > 设 $\mathscr{X}$ 是 B 空间, $A\in\mathfrak{C}(\mathscr{X})$, $T=I-A$, 则
+> 
 > (1) $\sigma(T)=\sigma(T^*)$;
+> 
 > (2) $\dim N(T)=\dim N(T^*)<\infty$;
-
+>
 > (3) $R(T)=N(T^*)^\perp=\{x\in\mathscr{X}\mid f(x)=0,\ \forall f\in N(T^*)\}$,
 > $R(T^*)={}^\perp N(T)=\{f\in\mathscr{X}^*\mid f(x)=0,\ \forall x\in N(T)\}$.
 

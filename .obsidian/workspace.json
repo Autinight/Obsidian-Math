@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FA_Zhang_Ch4"
+              "title": "FA_Zhang_Ch3"
             }
           },
           {
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
+                "file": "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FA_Zhang_Ch4 的大纲"
+              "title": "FA_Zhang_Ch3 的大纲"
             }
           },
           {
@@ -257,6 +257,7 @@
   },
   "active": "121450bde8030bb6",
   "lastOpenFiles": [
+    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Liu_obsidian.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang.md",
@@ -277,7 +278,6 @@
     "30.Recources/FA/Course HW/FA - HW10.md",
     "30.Recources/FA/Course HW/FA - HW9.md",
     "31.Obsidian Books/HA_Pan/HA_Pan Ch2.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch4.md",
     "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "00.Inbox/Daily Draft 2026-06-21.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
