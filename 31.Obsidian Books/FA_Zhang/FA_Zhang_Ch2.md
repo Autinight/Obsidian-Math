@@ -2489,7 +2489,10 @@ $$
 > $$f(x_n)<\alpha<f(x_0)\quad(\forall n\in\mathbb{N}).$$
 >
 > 这与 $x_n\rightharpoonup x_0\ (n\to\infty)$ 矛盾.
->
+
+
+
+
 > 又既然 $\mathscr{X}^*$ 也是一个 $B$ 空间，在 $\mathscr{X}^*$ 上自然也有两种收敛: 强收敛与弱收敛. 所谓弱收敛 $f_n\rightharpoonup f$，是指对 $\forall x^{**}\in\mathscr{X}^{**}$ 都有 $x^{**}(f_n)\to x^{**}(f)$.
 >
 > 有时候为了不涉及 $\mathscr{X}^{**}$ 而是考察 $\mathscr{X}$.
