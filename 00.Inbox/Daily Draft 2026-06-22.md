@@ -143,5 +143,70 @@ x_0= x-z_0
 $$
 
 
-> > [!exercise] Exercise: 2
+> [!exercise] Exercise: 2
 > 设$X,Y$是$B$空间, $T\in \mathscr{B}(X,Y)$是满射, 求证: 如果在$Y$中$y_n\to y_0$, 则存在$C>0$与$X$中的$x_n\to x_0$, 使得$Tx_n=y_n$, 且$\|x_n\|\le C\|y_n\|$.
+>
+
+满的有界线性算子是开映射.
+
+因此可逆的线性算子是双射. 从而我们有Banach逆算子定理.
+
+
+若$y_{n}\to y_0$, 
+
+$T$把开集映到开集. 
+
+不妨设$y_0= 0$,
+
+对于每个$y_{n}$, 存在$x_{n}$, 使得
+$$
+Tx_{n}= y_{n} 
+$$
+一旦证明$\left\| x_{n} \right\|\le C\left\| y_{n} \right\|$, 立即得到$x_{n}\to 0$. 
+
+希望证明
+$$
+\left\| x_{n} \right\|\le C\left\| y_{n} \right\| 
+$$
+
+$$
+T\left(B_1\right) 
+$$
+
+$$
+\frac{x_{n} }{\left\| x_{n} \right\| } \in B_1
+$$
+
+存在 $\delta > 0$, 使得
+$$
+B_{Y}\left(0, \delta \right)\subseteq T\left(B_X\right)
+$$
+
+$$
+\frac{\delta y_{n} }{\left\| y_{n} \right\| } \in B_{Y}\left(0,\delta \right) 
+$$
+
+存在$\left\| z_{n} \right\|\le 1$, 使得
+$$
+T\left(z_{n}\right) = \frac{\delta y_{n} }{\left\| y_{n} \right\| }
+$$
+
+令
+$$
+x_{n}= \frac{\left\| y_{n} \right\| }{\delta  } z_{n}
+$$
+
+则
+$$
+\left\| x_{n} \right\|= \frac{\left\| z_{n} \right\| }{\delta  } \left\| y_{n} \right\|\le \frac{1 }{\delta  }\left\| y_{n} \right\|
+$$
+
+$T$在$B_{X}$上映满某一个小球.
+
+结构是这样的, $T$把单位球映满一个小球.
+
+缩放之后,单位球
+
+
+$$
+T^{-1} \left(B_{Y}\left(0,\delta \right)\right)\subseteq B_{X} 
