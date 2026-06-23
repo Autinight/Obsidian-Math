@@ -437,13 +437,10 @@ $$\dim N(T)=\dim N(T^*)<\infty.$$
 > $$\widetilde{T}:\mathscr{X}/N(T)\to\mathscr{X},\quad \widetilde{T}[x]\triangleq Tx.$$
 > 显然 $R(\widetilde{T})=R(T)$, 并且 $\widetilde{T}$ 还是有界线性的, 满足 $N(\widetilde{T})=\{[\theta]\}$, 即 $\widetilde{T}$ 的逆算子存在. 为了证明 $R(T)$ 闭, 只需证 $\widetilde{T}^{-1}$ 是连续的.
 > 用反证法, 倘若 $\widetilde{T}^{-1}$ 不连续, 那么 $\exists [w_n]\nrightarrow0$, 但 $\widetilde{T}[w_n]\to0$, 从而有子列 $\|[w_{n_k}]\|\ge\varepsilon>0$. 令 $[x_n]=[w_{n_k}]/\|[w_{n_k}]\|$, 则
-
 > $$\|[x_n]\|=1\quad (n=1,2,\cdots),\quad \text{但}\quad \widetilde{T}[x_n]\to\theta\quad (n\to\infty).$$
-
 > 因此对 $\forall n\in\mathbb{N}$, $\exists x_n\in[x_n]$, 使得
 > $$\|x_n\|<2\quad (n=1,2,\cdots),\quad (I-A)x_n\to\theta\quad (n\to\infty).$$
 > 由 $A$ 是紧的, 有子列 $\{x_{n_k}\}$, 使得 $Ax_{n_k}\to z$ $(k\to\infty)$, 从而
-
 > $$x_{n_k}=Ax_{n_k}+(I-A)x_{n_k}\to z\quad (k\to\infty).$$
 > 于是有 $Tz=\theta$, 即得 $[z]=[\theta]$. 因此
 > $$\|[x_{n_k}]\|=\|[x_{n_k}-z]\|\le\|x_{n_k}-z\|\to0\quad (k\to\infty).$$
