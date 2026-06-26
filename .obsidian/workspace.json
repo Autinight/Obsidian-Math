@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Concepts/Deck Transformation.md",
+                "file": "未命名.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Deck Transformation 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -183,8 +183,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "a11248d5d5d80ad9",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
+    "20.Cards/Concepts/Deck Transformation.md",
+    "未命名.canvas",
     "20.Cards/Concepts/Conjugation Map and the Adjoint Representation of the Lie Group.md",
     "20.Cards/Concepts/Cartan Matrix.md",
     "20.Cards/Concepts/Base for a Root System.md",
@@ -210,7 +212,6 @@
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
     "30.Recources/FA/Course HW/FA - HW6.md",
-    "30.Recources/FA/Course HW/FA - HW8.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
@@ -221,7 +222,6 @@
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/DM/Atlas - Smooth Maps.canvas",
     "10.Atlas/DM/Atlas - Tensor.canvas",
-    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
