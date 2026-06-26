@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/分块行列式的结构性拆解.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "分块行列式的结构性拆解"
+              "title": "LA Xie Ch6"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/分块行列式的结构性拆解.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "分块行列式的结构性拆解 的大纲"
+              "title": "LA Xie Ch6 的大纲"
             }
           },
           {
@@ -185,22 +185,22 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/dfn - Differential Structure.md",
+    "00.Inbox/块循环矩阵的不变子空间分解.md",
+    "00.Inbox/分块行列式的结构性拆解.md",
+    "00.Inbox/dfn - Topological Manifold.md",
+    "20.Cards/Propositions/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-21.md",
+    "40.Drafts/2026-06/Daily Draft 2026-06-22.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
-    "00.Inbox/分块行列式的结构性拆解.md",
-    "00.Inbox/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/ep - R^n as a Manifold.md",
-    "00.Inbox/Daily Draft 2026-06-21.md",
-    "00.Inbox/Daily Draft 2026-06-22.md",
-    "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/dfn - Topological Manifold.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
     "20.Cards/Concepts/Deck Transformation.md",
     "未命名.canvas",
