@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Concepts/Deck Transformation.md",
+                "file": "00.Inbox/分块行列式的结构性拆解.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deck Transformation"
+              "title": "分块行列式的结构性拆解"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "00.Inbox/分块行列式的结构性拆解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "分块行列式的结构性拆解 的大纲"
             }
           },
           {
@@ -183,8 +183,25 @@
       "templates:插入模板": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
+    "00.Inbox/分块行列式的结构性拆解.md",
+    "00.Inbox/块循环矩阵的不变子空间分解.md",
+    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/Daily Draft 2026-06-21.md",
+    "00.Inbox/Daily Draft 2026-06-22.md",
+    "00.Inbox/dfn - Differential Structure.md",
+    "00.Inbox/dfn - Topological Manifold.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
     "20.Cards/Concepts/Deck Transformation.md",
     "未命名.canvas",
     "20.Cards/Concepts/Conjugation Map and the Adjoint Representation of the Lie Group.md",
@@ -195,23 +212,6 @@
     "30.Recources/AT/Obsidian Books/Hatcher 3.A-3.B.md",
     "30.Recources/FA/Course HW/FA - HW7.md",
     "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch1.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/pps - Eigenvector with Different Eigenvalue are Independent.md",
-    "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/Daily Draft 2026-06-22.md",
-    "00.Inbox/Daily Draft 2026-06-21.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW7.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW4.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW2.md",
-    "30.Recources/DM/Course HW(Under Graduate)/DM - HW1.md",
-    "30.Recources/FA/Course HW/FA - HW5.md",
-    "30.Recources/FA/Course HW/FA - HW4.md",
-    "30.Recources/FA/Course HW/FA - HW13.md",
-    "30.Recources/FA/Course HW/FA - HW12.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch3.md",
-    "31.Obsidian Books/FA_Zhang/FA_Zhang_Ch2.md",
-    "30.Recources/FA/Course HW/FA - HW6.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
