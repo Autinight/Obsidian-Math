@@ -15,9 +15,9 @@
     "remark",
     "note"
   ],
-  "theoremNumberingMode": "by-heading",
+  "theoremNumberingMode": "unified",
   "theoremHeadingLevel": 1,
-  "theoremStyle": "card",
+  "theoremStyle": "plain",
   "theoremColors": {
     "theorem": "#3b82f6",
     "lemma": "#8b5cf6",
@@ -30,7 +30,7 @@
     "remark": "#64748b",
     "note": "#78716c"
   },
-  "language": "zh-CN",
+  "language": "en",
   "pdfPreventBreakInside": true,
   "equationMarkerMode": "all",
   "equationNumberingMode": "by-heading",
