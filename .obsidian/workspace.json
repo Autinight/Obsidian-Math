@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
-                "mode": "preview",
+                "file": "00.Inbox/论文名词.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Flag_and_Upper_Triangular_Matrices"
+              "title": "论文名词"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
+                "file": "00.Inbox/论文名词.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flag_and_Upper_Triangular_Matrices 的大纲"
+              "title": "论文名词 的大纲"
             }
           },
           {
@@ -184,13 +184,14 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
+    "00.Inbox/论文名词.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-26.md",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/分块行列式的结构性拆解.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "00.Inbox/ep - R^n as a Manifold.md",
@@ -210,7 +211,6 @@
     "20.Cards/Concepts/Cartan Matrix.md",
     "20.Cards/Concepts/Base for a Root System.md",
     "30.Recources/AT/Obsidian Books/AT Hatcher 3.1 Cohomology.md",
-    "30.Recources/AT/Obsidian Books/AT Hatcher 3.2 Cup Product.md",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
