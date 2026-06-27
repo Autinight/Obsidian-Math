@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -173,7 +173,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -185,17 +184,17 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/分块行列式的结构性拆解.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/Daily Draft 2026-06-26.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/dfn - Topological Manifold.md",
     "20.Cards/Propositions/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
