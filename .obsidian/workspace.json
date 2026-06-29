@@ -11,24 +11,17 @@
             "id": "a11248d5d5d80ad9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+                "viewState": {
+                  "x": 347,
+                  "y": 445,
+                  "zoom": -0.962323457000205
                 }
               },
-              "icon": "lucide-file",
-              "title": "LA Xie Ch7"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - Harmonic Functions"
             }
           }
         ]
@@ -94,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch7 的大纲"
+              "title": "Atlas - Harmonic Functions 的大纲"
             }
           },
           {
@@ -184,35 +177,34 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "10.Atlas/LA/Atlas - Root Systems.canvas",
+    "00.Inbox/分块行列式的结构性拆解.md",
+    "00.Inbox/dfn - Topological Manifold.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/dfn - Differential Structure.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
+    "00.Inbox/可上三角化的flag证明.md",
+    "00.Inbox/论文名词.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/可上三角化的flag证明.md",
     "00.Inbox/ex - 可上三角化的flag证明.md",
-    "00.Inbox/论文名词.md",
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-26.md",
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-    "00.Inbox/分块行列式的结构性拆解.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/ep - R^n as a Manifold.md",
-    "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/dfn - Topological Manifold.md",
     "20.Cards/Propositions/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-21.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-22.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
-    "20.Cards/Concepts/Deck Transformation.md",
     "未命名.canvas",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
-    "10.Atlas/LA/Atlas - Root Systems.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
