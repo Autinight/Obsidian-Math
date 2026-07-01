@@ -116,3 +116,27 @@ if (techs) {
 > $$ M\simeq R^{r}\oplus R/\left< d_1 \right>\oplus R/\left< d_2 \right>\oplus \cdots \oplus R/\left< d _{k} \right> $$ 
 > 其中自由部分为$R^{r}$, 扭部分为$T\left(M\right)\simeq \oplus _{i= 1}^{k}R/\left< d _{i} \right>$. $d_1,\cdots , d _{k}$在相伴的意义下唯一, 成为$M$的不变因子.
 
+设$M$有一组有限生成元$\left\{ x_1,\cdots,x_n  \right\}$.
+考虑一个自由$R$-模$R^{n}$, 标准基为$\left\{ e_1,e_2,\cdots ,e_{n} \right\}$.
+可以定义一个自然的满同态:
+$$ \pi : R^{n}\to M,\quad \pi \left(e_{i}\right)= x_{i} $$
+由于PID上自由模的自摸也是自由模, 故$\operatorname{ker}\pi$也是有限生成的自由模, 且由模的第一同构定理
+$$ M\simeq R^{n}/\operatorname{ker}\pi  $$
+设$r\left(\operatorname{ker}\pi \right)= m$, 取$\operatorname{ker}\pi$的一组基$\left\{ y_1,\cdots,y_m  \right\}$. 我们考虑一个自由摸$R^{m}$, 基为$\left\{ f_1,\cdots,f_m  \right\}$, 定义映射:
+$$ \Phi :R^{m}\to R^{n},\quad \Phi \left(f_{j}\right)= y_{j} $$
+则$\operatorname{Im}\left(\Phi \right)= \operatorname{ker}\pi$
+我们有$M$的一个presentation, 即一个正合列.
+$$ R^{m}\xrightarrow{\Phi }R^{n}\xrightarrow{\pi }M\to 0   $$ 
+分别取$R^{m}$和$R^{n}$的一组基, 使得$\Phi$表示为smith标准型
+$$ \begin{pmatrix} d_1&&&0&\cdots &0 \\ &\ddots&& 0&\cdots &0 \\& &d _{k}&0&\cdots &0\\0&\cdots &0 &0&\cdots &0\\ \vdots &&\vdots&\vdots&&\vdots\\0&\cdots &0&0&\cdots &0 \end{pmatrix} $$
+
+由于
+$$ 
+\begin{aligned} M\simeq R^{n}/ \operatorname{ker}\pi = R^{n}/\operatorname{Im}\Phi & \simeq \frac{R e_1^{\prime} \oplus \cdots \oplus R e_{k}^{\prime} \oplus R e_{k+ 1}^{\prime} \oplus \cdots \oplus R e_{n}^{\prime}  }{R\left( d_1 e_1^{\prime} \right)\oplus \cdots \oplus R\left(d _{k}e_{k}^{\prime} \right)\oplus 0\oplus \cdots \oplus 0 }\\&\simeq  \bigoplus _{i= 1}^{k} R e_{i}^{\prime} / R\left(d _{i}e_{i}^{\prime}  \right) \oplus \bigoplus _{j= k+ 1}^{n}R e_{j}^{\prime} /  0\\&\simeq  R/\left< d_1 \right>\oplus R/\left< d_2 \right>\oplus \cdots \oplus R/\left< d _{k} \right>\oplus R^{n-k}\end{aligned}
+$$ 
+
+
+### 数量矩阵相似, 当且仅当特征矩阵相抵.
+
+> [!theorem] Theorem: 
+> 设$A,B$是域$F$上的$n$阶矩阵, 则$\lambda I-A$于$\lambda I-B$相抵, 当且仅当$A,B$相似.
