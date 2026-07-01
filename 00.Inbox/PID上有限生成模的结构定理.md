@@ -52,7 +52,7 @@ tags: []
 > 称$D_{k}\left(A\right)$为$A$的$k$阶行列式因子.
 
 > [!proposition] Proposition: 行列式因子在相抵下不变
-> PID上矩阵的行列式因子是相抵关系下的不变量.
+> PID上矩阵在不同基下的行列式因子是相伴的
 
 > [!proof]- Proof: 
 > 设$R$是PID, $A,B\in R^{m\times n}$是相抵的矩阵, 即存在可逆矩阵$P,Q$, 使得
@@ -92,7 +92,27 @@ if (techs) {
 > 将$A$化为smith标准型
 > $$ PAQ= \begin{pmatrix} d_1&& &0\\ & \ddots && \\ && d _r&\\0&&&0 \end{pmatrix} $$
 > 则
-> $$ D_{k}\left(A\right)=  d_1 d_2\cdots d _{k},\quad 1\le k\le r,\quad D_{k}= 0, k> r $$ 
+> $$ D_{k}\left(A\right)\sim  d_1 d_2\cdots d _{k},\quad 1\le k\le r,\quad D_{k}= 0, k> r $$ 
 
 > [!corollary] Corollary: 
-> 不变因子是
+> smith标准型在相伴的意义下唯一
+
+> [!proof] Proof: 
+> $$ D_{k}\left(A\right)\sim  d _{k}D_{k-1}\left(A\right) $$ 
+> 由于$D_{k}$是相抵不变的, 我们有
+> 存在可逆元$r_1,r_2$, 
+> $$ D_{k}\left(A\right)= r_1 d _{k}D_{k-1}\left(A\right),\quad D_{k}\left(A\right)= r_2 d _{k}D_{k-1}\left(A\right) $$ 
+> $$ \left(r_1d _{k}- r_2d _{k}^{\prime} \right) D_{k-1}\left(A\right)= 0 $$ 
+> 由于$R$是PID, 有消去律, 得到
+> $$ r_1 d _{k}=r_2 d _{k}^{\prime}  $$ 
+> 故
+> $$ \left(d _{k}\right)= \left(d _{k}^{\prime} \right) $$ 
+
+
+### PID上有限生成模的结构
+
+> [!theorem] Theorem: 
+> 设$R$是PID, $M$是$R$上的有限生成模. 则存在唯一的非负整数$r$, 以及$R$中的非零可逆元$d_1,d_2,\cdots ,d _{k}$, 满足$d_1|d_2|\cdots |d _{k}$, 使得
+> $$ M\simeq R^{r}\oplus R/\left< d_1 \right>\oplus R/\left< d_2 \right>\oplus \cdots \oplus R/\left< d _{k} \right> $$ 
+> 其中自由部分为$R^{r}$, 扭部分为$T\left(M\right)\simeq \oplus _{i= 1}^{k}R/\left< d _{i} \right>$. $d_1,\cdots , d _{k}$在相伴的意义下唯一, 成为$M$的不变因子.
+
