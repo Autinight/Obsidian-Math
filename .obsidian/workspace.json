@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/PID上有限生成模的结构定理.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
