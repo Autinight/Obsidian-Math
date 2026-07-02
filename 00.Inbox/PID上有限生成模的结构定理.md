@@ -67,23 +67,6 @@ tags: []
 > $$ \left(D_{k}\left(B\right)\right)\subseteq \left(D_{k}\left(A\right)\right) $$ 
 > 由对称性
 > $$ \left(D_{k}\left(B\right)\right)= \left(D_{k}\left(A\right)\right) $$ 
-```dataviewjs
-const techs = dv.current().technique;
-if (techs) {
-    const techArray = dv.array(techs);
-    if (techArray.length > 0) {
-        dv.header(3, "Related Techniques");
-        dv.list(
-            dv.pages()
-            .where(p => {
-                return p.aliases && dv.array(p.aliases).some(a => techArray.includes(a));
-            })
-            .file.link
-        )
-    }
-}
-```
-
 > [!proposition] Proposition: 不变因子与行列式因子
 > 设$R$是PID, $A$是$R$上的$n\times m$矩阵, 设$r= r\left(A\right)$
 > $$ D_{k}\left(A\right)= d_1\cdots d _{k}, \quad 1\le k\le r,\quad D_{k}= 0, k> r$$ 
@@ -200,9 +183,45 @@ $$
 $$
 F\left[ x \right]^{n}\xrightarrow{\lambda I-B}F\left[ x \right]  ^{n}\xrightarrow{\pi _{B}}E^{n}\to 0 
 $$
-设$P: F\left[ x \right]^{n}\to F\left[ x \right]^{n}$是可逆矩阵, 使得
+
+我们得到同构
 $$
-P\left(\lambda I -A\right)Q = \lambda I-B 
+E_{A}^{n}\simeq  F\left[ x \right]^{n}/ \operatorname{Im}\left(\lambda I-A\right),\quad E_{B}^{n}\simeq F\left[ x \right]^{n}/\operatorname{Im}\left(\lambda I-B\right) 
 $$
+若$\lambda I- A$与$\lambda I -B$相抵, 则
+$$
+\operatorname{Im}\left(\lambda I -B\right)\simeq \operatorname{Im}\left(\lambda I -A\right) 
+$$
+由此诱导出商模同构
+$$
+F\left[ x \right]^{n}/ \operatorname{Im}\left(\lambda I -A\right)\simeq F\left[ x \right]^{n} / \operatorname{Im}\left(\lambda I -B\right) 
+$$
+即存在 $\varphi : E_{A}^{n}\to E_{B}^{n}$, 使得
+$$
+\varphi \left(x\cdot v\right)= x\cdot \varphi \left(v\right) 
+$$
+由其上作用的定义, 得到
+$$
+TAv= BTv\implies TAT^{-1} = B 
+$$
+反过来, 若$A,B$相似, 则$\lambda I-A$和$\lambda I-B$相似, 自然相抵.
 
 
+
+
+```dataviewjs
+const techs = dv.current().technique;
+if (techs) {
+    const techArray = dv.array(techs);
+    if (techArray.length > 0) {
+        dv.header(3, "Related Techniques");
+        dv.list(
+            dv.pages()
+            .where(p => {
+                return p.aliases && dv.array(p.aliases).some(a => techArray.includes(a));
+            })
+            .file.link
+        )
+    }
+}
+```
