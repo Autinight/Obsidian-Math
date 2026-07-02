@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PID上有限生成模的结构定理"
+              "title": "LA Xie Ch7"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PID上有限生成模的结构定理 的大纲"
+              "title": "LA Xie Ch7 的大纲"
             }
           },
           {
@@ -184,11 +184,11 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "00.Inbox/PID上有限生成模的结构定理.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "00.Inbox/dfn - Topological Manifold.md",

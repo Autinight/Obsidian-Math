@@ -191,18 +191,30 @@ $$
 $$
 E_{A}^{n}\simeq  F\left[ x \right]^{n}/ \operatorname{Im}\left(\lambda I-A\right),\quad E_{B}^{n}\simeq F\left[ x \right]^{n}/\operatorname{Im}\left(\lambda I-B\right) 
 $$
-若$\lambda I- A$与$\lambda I -B$相抵, 则
+若$\lambda I- A$与$\lambda I -B$相抵,  则我们有交换图
 $$
-\operatorname{Im}\left(\lambda I -B\right)\simeq \operatorname{Im}\left(\lambda I -A\right) 
+\begin{CD}
+F[x]^n @>{\lambda I - A}>> F[x]^n  \\
+@V{Q(x)}VV @V{P(x)}VV  \\
+F[x]^n @>{\lambda I - B}>> F[x]^n 
+\end{CD}
 $$
-由此诱导出商模同构
+因此得到
 $$
-F\left[ x \right]^{n}/ \operatorname{Im}\left(\lambda I -A\right)\simeq F\left[ x \right]^{n} / \operatorname{Im}\left(\lambda I -B\right) 
+P\left(x\right)\left(\operatorname{Im}\left(\lambda I-A\right)\right)= \operatorname{Im}\left(\left(\lambda I-B\right)Q\left(x\right)^{-1} \right)= \operatorname{Im}\left(\lambda I-B\right) 
 $$
-即存在 $\varphi : E_{A}^{n}\to E_{B}^{n}$, 使得
+
+由此根据$\operatorname{ker}\left(\pi _{B}\circ P\left(x\right)\right)\subseteq \operatorname{ker}\pi _{A}$, 由商的泛性质, 诱导出线性同构同构$\varphi$, 使得$\varphi \circ \pi _{A}= \pi _{B}\circ P\left(x\right)$
+即存在 $\varphi : E_{A}^{n}\to E_{B}^{n}$, 使得下图交换
+
 $$
-\varphi \left(x\cdot v\right)= x\cdot \varphi \left(v\right) 
+\begin{CD}
+F[x]^n @>{\lambda I - A}>> F[x]^n @>{\pi_A}>> E_A^n \\
+@V{Q(x)}VV @V{P(x)}VV @V{\varphi}VV \\
+F[x]^n @>{\lambda I - B}>> F[x]^n @>{\pi_B}>> E_B^n
+\end{CD}
 $$
+
 由其上作用的定义, 得到
 $$
 TAv= BTv\implies TAT^{-1} = B 
