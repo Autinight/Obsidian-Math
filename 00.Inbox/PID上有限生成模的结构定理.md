@@ -140,40 +140,43 @@ $$
 $$
 \operatorname{ker}\pi _{A}= \operatorname{Im}\left(\lambda I-A\right)
 $$
-事实上, 
-$$
-\pi_{A} \left(\left(\lambda I-A \right)e_{i}^{\prime} \right)= \left(A-A\right)e_{i} = 0 
-$$
-故
-$$
- \operatorname{Im}\left(\lambda I-A \right)\subseteq \operatorname{ker}\pi _{A}
-$$
 
-反之, 若$f^{i}\left(x\right)e_{i}^{\prime} \in \operatorname{ker}\pi _{A}$,  则
-$$
-f^{i}\left(A\right)e_{i}     = 0 
-$$
-由于$\pi _{A}$在常系数向量上的限制是恒等的, 我们有
-$$
-f^{i}\left(A\right)e_{i}^{\prime} = 0 
-$$
-由恒等式
-$$
-\left(x^{k}I-A^{k}\right)= \left(xI-A\right)\left(x^{k-1}I+ x^{k-2}A+ \cdots + A^{k-1}\right) 
-$$
-可知存在$Q^{i}\left(x\right)$, 使得
-$$
-f^{i}\left(x\right)I- f^{i}\left(A\right)= \left(xI-A\right)Q^{i}\left(x\right) 
-$$
-于是
-$$
-f^{i}\left(x\right)e_{i}^{\prime} = \left(xI-A\right)Q^{i}\left(x\right)e_{i}^{\prime} \in \operatorname{Im}\left(xI-A\right)
-$$
-于是
-
-$$
-\operatorname{Im}\left(\lambda I-A  \right)= \operatorname{ker}\pi _{A} 
-$$
+> [!proof]- Proof of Claim
+> 
+> 事实上, 
+> $$
+> \pi_{A} \left(\left(\lambda I-A \right)e_{i}^{\prime} \right)= \left(A-A\right)e_{i} = 0 
+> $$
+> 故
+> $$
+>  \operatorname{Im}\left(\lambda I-A \right)\subseteq \operatorname{ker}\pi _{A}
+> $$
+> 
+> 反之, 若$f^{i}\left(x\right)e_{i}^{\prime} \in \operatorname{ker}\pi _{A}$,  则
+> $$
+> f^{i}\left(A\right)e_{i}     = 0 
+> $$
+> 由于$\pi _{A}$在常系数向量上的限制是恒等的, 我们有
+> $$
+> f^{i}\left(A\right)e_{i}^{\prime} = 0 
+> $$
+> 由恒等式
+> $$
+> \left(x^{k}I-A^{k}\right)= \left(xI-A\right)\left(x^{k-1}I+ x^{k-2}A+ \cdots + A^{k-1}\right) 
+> $$
+> 可知存在$Q^{i}\left(x\right)$, 使得
+> $$
+> f^{i}\left(x\right)I- f^{i}\left(A\right)= \left(xI-A\right)Q^{i}\left(x\right) 
+> $$
+> 于是
+> $$
+> f^{i}\left(x\right)e_{i}^{\prime} = \left(xI-A\right)Q^{i}\left(x\right)e_{i}^{\prime} \in \operatorname{Im}\left(xI-A\right)
+> $$
+> 于是
+> 
+> $$
+> \operatorname{Im}\left(\lambda I-A  \right)= \operatorname{ker}\pi _{A} 
+> $$
 
 我们有正合列
 $$
