@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
-                "mode": "preview",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PID上有限生成模的结构定理及其应用"
+              "title": "LA Xie Ch7"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PID上有限生成模的结构定理及其应用 的大纲"
+              "title": "LA Xie Ch7 的大纲"
             }
           },
           {
@@ -184,11 +184,12 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
+    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "00.Inbox/dfn - Topological Manifold.md",
@@ -202,7 +203,6 @@
     "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "00.Inbox/ex - 可上三角化的flag证明.md",
