@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+                "file": "00.Inbox/英文面试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch7"
+              "title": "英文面试"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+                "file": "00.Inbox/英文面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch7 的大纲"
+              "title": "英文面试 的大纲"
             }
           },
           {
@@ -184,10 +184,11 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "00.Inbox/英文面试.md",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/可上三角化的flag证明.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "00.Inbox/Daily Draft 2026-07-05.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
@@ -212,7 +213,6 @@
     "20.Cards/Propositions/pps - Eigenvector with Different Eigenvalue are Independent.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-21.md",
     "40.Drafts/2026-06/Daily Draft 2026-06-22.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
     "未命名.canvas",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
