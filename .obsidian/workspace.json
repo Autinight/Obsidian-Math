@@ -11,24 +11,17 @@
             "id": "a11248d5d5d80ad9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00.Inbox/英文面试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
+                "viewState": {
+                  "x": -470,
+                  "y": 467.5235286505792,
+                  "zoom": -0.6477290437437837
                 }
               },
-              "icon": "lucide-file",
-              "title": "英文面试"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - Law of Large Number"
             }
           }
         ]
@@ -94,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/英文面试.md",
+                "file": "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "英文面试 的大纲"
+              "title": "Atlas - Law of Large Number 的大纲"
             }
           },
           {
@@ -184,8 +177,14 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
+    "20.Cards/Propositions/pps - Law of Total Expectation.md",
+    "20.Cards/Propositions/pps - Law of Total Variance.md",
+    "20.Cards/Theorems/thm - Lindeberg-Lévy CLT.md",
+    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
+    "20.Cards/Lemmas/lem - Exponential-like Limit.md",
     "00.Inbox/英文面试.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/可上三角化的flag证明.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
@@ -208,19 +207,12 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "00.Inbox/ex - 可上三角化的flag证明.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-26.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-    "20.Cards/Propositions/pps - Eigenvector with Different Eigenvalue are Independent.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-21.md",
-    "40.Drafts/2026-06/Daily Draft 2026-06-22.md",
     "未命名.canvas",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "50.Image/MCD/RAW/111.mcd",
-    "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解..canvas",
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
