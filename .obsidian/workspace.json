@@ -11,17 +11,24 @@
             "id": "a11248d5d5d80ad9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-                "viewState": {
-                  "x": -470,
-                  "y": 467.5235286505792,
-                  "zoom": -0.6477290437437837
+                "file": "00.Inbox/英文面试.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Law of Large Number"
+              "icon": "lucide-file",
+              "title": "英文面试"
             }
           }
         ]
@@ -87,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
+                "file": "00.Inbox/英文面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Atlas - Law of Large Number 的大纲"
+              "title": "英文面试 的大纲"
             }
           },
           {
@@ -177,41 +184,42 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+    "20.Cards/Concepts/Weak Convergence.md",
+    "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
+    "20.Cards/Theorems/thm - Lévy's Continuity Theorem.md",
+    "20.Cards/Concepts/Characteristic Functions.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
+    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
+    "00.Inbox/论文名词.md",
+    "00.Inbox/块循环矩阵的不变子空间分解.md",
+    "00.Inbox/可上三角化的flag证明.md",
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "20.Cards/Propositions/pps - Law of Total Expectation.md",
     "20.Cards/Propositions/pps - Law of Total Variance.md",
     "20.Cards/Theorems/thm - Lindeberg-Lévy CLT.md",
-    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "20.Cards/Lemmas/lem - Exponential-like Limit.md",
     "00.Inbox/英文面试.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
-    "00.Inbox/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/可上三角化的flag证明.md",
-    "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "00.Inbox/Daily Draft 2026-07-05.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "00.Inbox/dfn - Topological Manifold.md",
-    "00.Inbox/论文名词.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
     "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/dfn - Differential Structure.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
-    "00.Inbox/ex - 可上三角化的flag证明.md",
     "未命名.canvas",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
     "10.Atlas/PDE/Atlas - Sobolev Spaces (Beautified).canvas",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "50.Image/MCD/RAW/111.mcd",
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",
