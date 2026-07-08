@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/英文面试.md",
+                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "英文面试"
+              "title": "PID上有限生成模的结构定理及其应用"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/英文面试.md",
+                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "英文面试 的大纲"
+              "title": "PID上有限生成模的结构定理及其应用 的大纲"
             }
           },
           {
@@ -184,14 +184,17 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+    "00.Inbox/Daily Draft 2026-07-05.md",
+    "00.Inbox/论文名词.md",
+    "00.Inbox/英文面试.md",
     "20.Cards/Concepts/Weak Convergence.md",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
     "20.Cards/Theorems/thm - Lévy's Continuity Theorem.md",
     "20.Cards/Concepts/Characteristic Functions.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
-    "00.Inbox/论文名词.md",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/可上三角化的flag证明.md",
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
@@ -202,10 +205,7 @@
     "20.Cards/Propositions/pps - Law of Total Variance.md",
     "20.Cards/Theorems/thm - Lindeberg-Lévy CLT.md",
     "20.Cards/Lemmas/lem - Exponential-like Limit.md",
-    "00.Inbox/英文面试.md",
-    "00.Inbox/Daily Draft 2026-07-05.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
