@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-                "mode": "preview",
+                "file": "00.Inbox/未命名.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "矩阵的trace---线性映射的平均回报率"
+              "title": "未命名"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+                "file": "00.Inbox/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "矩阵的trace---线性映射的平均回报率 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -184,6 +184,8 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/未命名.md",
     "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
@@ -194,7 +196,6 @@
     "00.Inbox/dfn - Topological Manifold.md",
     "40.Drafts/2026-07",
     "00.Inbox/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
     "40.Drafts/2026-07/Daily Draft 2026-07-05.md",
     "00.Inbox/论文名词.md",
@@ -213,7 +214,6 @@
     "20.Cards/Lemmas/lem - Exponential-like Limit.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
