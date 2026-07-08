@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Fable 5的思路.md",
-                "mode": "source",
+                "file": "00.Inbox/fable5的最强大脑.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fable 5的思路"
+              "title": "fable5的最强大脑"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Fable 5的思路.md",
+                "file": "00.Inbox/fable5的最强大脑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Fable 5的思路 的大纲"
+              "title": "fable5的最强大脑 的大纲"
             }
           },
           {
@@ -184,10 +184,14 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "00.Inbox/fable 5的最强大脑.md",
+    "00.Inbox/fable5的最强大脑.md",
+    "00.Inbox/202607081831.md",
+    "202607081831.md",
+    "00.Inbox/Fable 5的思路.md",
     "00.Inbox/关键词.md",
     "Pasted image 20260708162559.png",
     "Pasted image 20260708162549.png",
-    "00.Inbox/Fable 5的思路.md",
     "Untitled.md",
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/分块行列式的结构性拆解.md",
@@ -212,9 +216,6 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
-    "20.Cards/Propositions/pps - Law of Total Expectation.md",
-    "20.Cards/Propositions/pps - Law of Total Variance.md",
-    "20.Cards/Theorems/thm - Lindeberg-Lévy CLT.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
