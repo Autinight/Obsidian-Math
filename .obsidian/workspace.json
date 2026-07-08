@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+                "file": "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PID上有限生成模的结构定理及其应用"
+              "title": "矩阵的trace---线性映射的平均回报率"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+                "file": "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PID上有限生成模的结构定理及其应用 的大纲"
+              "title": "矩阵的trace---线性映射的平均回报率 的大纲"
             }
           },
           {
@@ -184,20 +184,26 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
+    "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
-    "00.Inbox/Daily Draft 2026-07-05.md",
+    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
+    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/ep - R^n as a Manifold.md",
+    "00.Inbox/dfn - Differential Structure.md",
+    "00.Inbox/dfn - Topological Manifold.md",
+    "40.Drafts/2026-07",
+    "00.Inbox/块循环矩阵的不变子空间分解.md",
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
+    "40.Drafts/2026-07/Daily Draft 2026-07-05.md",
     "00.Inbox/论文名词.md",
     "00.Inbox/英文面试.md",
     "20.Cards/Concepts/Weak Convergence.md",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
     "20.Cards/Theorems/thm - Lévy's Continuity Theorem.md",
     "20.Cards/Concepts/Characteristic Functions.md",
-    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
-    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
-    "00.Inbox/块循环矩阵的不变子空间分解.md",
     "00.Inbox/可上三角化的flag证明.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
@@ -208,14 +214,9 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
-    "00.Inbox/dfn - Topological Manifold.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
-    "00.Inbox/分块行列式的结构性拆解.md",
-    "00.Inbox/ep - R^n as a Manifold.md",
-    "00.Inbox/dfn - Differential Structure.md",
     "未命名.canvas",
     "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "10.Atlas/DM/Atlas - The Existence Domain of Flow.canvas",
@@ -229,7 +230,6 @@
     "node_modules/drizzle-orm/query-builders/select.types.js",
     "node_modules/drizzle-orm/query-builders/select.types.d.ts",
     "node_modules/drizzle-orm/query-builders/select.types.d.cts",
-    "node_modules/drizzle-orm/query-builders/select.types.cjs.map",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
