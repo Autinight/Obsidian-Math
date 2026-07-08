@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/未命名.md",
-                "mode": "source",
+                "file": "00.Inbox/Fable 5的思路.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Fable 5的思路"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/未命名.md",
+                "file": "00.Inbox/Fable 5的思路.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "Fable 5的思路 的大纲"
             }
           },
           {
@@ -185,7 +185,7 @@
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
     "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-    "00.Inbox/未命名.md",
+    "00.Inbox/Fable 5的思路.md",
     "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
