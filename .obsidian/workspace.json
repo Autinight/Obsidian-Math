@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "00.Inbox/Fable 5的思路.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -184,8 +184,12 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/关键词.md",
+    "Pasted image 20260708162559.png",
+    "Pasted image 20260708162549.png",
     "00.Inbox/Fable 5的思路.md",
+    "Untitled.md",
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/分块行列式的结构性拆解.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
@@ -211,9 +215,6 @@
     "20.Cards/Propositions/pps - Law of Total Expectation.md",
     "20.Cards/Propositions/pps - Law of Total Variance.md",
     "20.Cards/Theorems/thm - Lindeberg-Lévy CLT.md",
-    "20.Cards/Lemmas/lem - Exponential-like Limit.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
@@ -237,8 +238,6 @@
     "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff79ad08871251d6eb0f86abe1d71ed24c9c3fd1a52d5b736e989bd42c79a59d.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff53c0707341a714624c581ab42f8b0fbf6fe85fb30be0cca895c413cbbd0903.jpg",
-    "31.Obsidian Books/RG_Petersen/images/ff3ce4fc7c1f8f058f54547e715881c779d559a9cd396331b1405246f2b80d51.jpg",
-    "31.Obsidian Books/RG_Petersen/images/ff397be8071123f7c46f21bf3840a8b28ce2bcbadc632284f62415d7d113a0d4.jpg",
-    "31.Obsidian Books/RG_Petersen/images/ff25bf89bfd13915c5f0959ddf3bbc4d679ff4bd4f5f150a3101e63c25121825.jpg"
+    "31.Obsidian Books/RG_Petersen/images/ff3ce4fc7c1f8f058f54547e715881c779d559a9cd396331b1405246f2b80d51.jpg"
   ]
 }
