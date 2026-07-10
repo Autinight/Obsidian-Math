@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+                "file": "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PID上有限生成模的结构定理及其应用"
+              "title": "Flag_and_Upper_Triangular_Matrices"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+                "file": "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PID上有限生成模的结构定理及其应用 的大纲"
+              "title": "Flag_and_Upper_Triangular_Matrices 的大纲"
             }
           },
           {
@@ -184,22 +184,24 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "00.Inbox/英文面试.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/可上三角化的flag证明.md",
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
+    "00.Inbox/Fable 5的思路.md",
     "00.Inbox/fable5的最强大脑.md",
+    "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+    "00.Inbox/英文面试.md",
     "00.Inbox/fable 5的最强大脑.md",
     "00.Inbox/202607081831.md",
     "202607081831.md",
-    "00.Inbox/Fable 5的思路.md",
     "00.Inbox/关键词.md",
     "Pasted image 20260708162559.png",
     "Pasted image 20260708162549.png",
     "Untitled.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/分块行列式的结构性拆解.md",
-    "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/ep - R^n as a Manifold.md",
     "00.Inbox/dfn - Differential Structure.md",
     "00.Inbox/dfn - Topological Manifold.md",
@@ -209,13 +211,10 @@
     "40.Drafts/2026-07/Daily Draft 2026-07-05.md",
     "00.Inbox/论文名词.md",
     "20.Cards/Concepts/Weak Convergence.md",
-    "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
     "20.Cards/Theorems/thm - Lévy's Continuity Theorem.md",
     "20.Cards/Concepts/Characteristic Functions.md",
-    "00.Inbox/可上三角化的flag证明.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
