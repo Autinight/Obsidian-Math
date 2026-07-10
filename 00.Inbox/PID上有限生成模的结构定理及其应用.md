@@ -95,7 +95,7 @@ tags: []
 ### PID上有限生成模的结构
 
 > [!theorem] Theorem: 
-> 设$R$是PID, $M$是$R$上的有限生成模. 则存在唯一的非负整数$r$, 以及$R$中的非零可逆元$d_1,d_2,\cdots ,d _{k}$, 满足$d_1|d_2|\cdots |d _{k}$, 使得
+> 设$R$是PID, $M$是$R$上的有限生成模. 则存在唯一的非负整数$r$, 以及$R$中的非零非可逆元$d_1,d_2,\cdots ,d _{k}$, 满足$d_1|d_2|\cdots |d _{k}$, 使得
 > $$ M\simeq R^{r}\oplus R/\left< d_1 \right>\oplus R/\left< d_2 \right>\oplus \cdots \oplus R/\left< d _{k} \right> $$ 
 > 其中自由部分为$R^{r}$, 扭部分为$T\left(M\right)\simeq \oplus _{i= 1}^{k}R/\left< d _{i} \right>$. $d_1,\cdots , d _{k}$在相伴的意义下唯一, 成为$M$的不变因子.
 
