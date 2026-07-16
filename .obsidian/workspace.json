@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch8"
+              "title": "MA Xie Ch26 场论初步"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch8 的大纲"
+              "title": "MA Xie Ch26 场论初步 的大纲"
             }
           },
           {
@@ -169,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 351.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +184,24 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch25 曲面积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch23 含参变量积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch21 偏导数的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch20 隐函数存在定理与隐函数求导.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch19 偏导数与全微分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch18 多元函数的极限与连续.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
+    "31.Obsidian Books/MA_Xie/MinerU_markdown_数学分析习题课讲义_下册第2版_(谢惠民)_(z-library.sk,_1lib.sk,_z-lib.sk)_2077577927761821696.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch15 Fourier 级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
+    "31.Obsidian Books/MA_Xie",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
@@ -196,26 +212,11 @@
     "00.Inbox/英文面试.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
-    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions up to the boudnary in Sobolev Spaces.md",
-    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions in Sobolev Spaces.md",
-    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "00.Inbox/Flag_and_Upper_Triangular_Matrices.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/可上三角化的flag证明.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-    "00.Inbox/Fable 5的思路.md",
-    "00.Inbox/fable5的最强大脑.md",
-    "00.Inbox/fable 5的最强大脑.md",
-    "00.Inbox/202607081831.md",
-    "202607081831.md",
-    "00.Inbox/关键词.md",
     "Pasted image 20260708162559.png",
     "Pasted image 20260708162549.png",
-    "Untitled.md",
-    "00.Inbox/分块行列式的结构性拆解.md",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "40.Drafts/2026-07",
@@ -231,7 +232,6 @@
     "node_modules/drizzle-orm/query-builders/select.types.js.map",
     "node_modules/drizzle-orm/query-builders/select.types.js",
     "node_modules/drizzle-orm/query-builders/select.types.d.ts",
-    "node_modules/drizzle-orm/query-builders/select.types.d.cts",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
