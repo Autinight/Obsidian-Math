@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-                "mode": "preview",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch4"
+              "title": "MA Xie Ch13 数项级数"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch4 的大纲"
+              "title": "MA Xie Ch13 数项级数 的大纲"
             }
           },
           {
@@ -184,6 +184,9 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
@@ -194,7 +197,6 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch18 多元函数的极限与连续.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch25 曲面积分.md",
@@ -202,12 +204,10 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
     "31.Obsidian Books/MA_Xie/MinerU_markdown_数学分析习题课讲义_下册第2版_(谢惠民)_(z-library.sk,_1lib.sk,_z-lib.sk)_2077577927761821696.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch15 Fourier 级数.md",
     "31.Obsidian Books/MA_Xie",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
     "00.Inbox/英文面试.md",
