@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+                "file": "00.Inbox/高代复习.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA Xie Ch5"
+              "title": "高代复习"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+                "file": "00.Inbox/高代复习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LA Xie Ch5 的大纲"
+              "title": "高代复习 的大纲"
             }
           },
           {
@@ -184,9 +184,10 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "00.Inbox/高代复习.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
@@ -212,7 +213,6 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch9 不定积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch3 实数系基本定理.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
