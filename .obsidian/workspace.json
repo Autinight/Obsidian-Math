@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA Xie Ch12 广义积分"
+              "title": "MA Xie Ch24 曲线积分"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MA Xie Ch12 广义积分 的大纲"
+              "title": "MA Xie Ch24 曲线积分 的大纲"
             }
           },
           {
@@ -184,12 +184,19 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch23 含参变量积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch20 隐函数存在定理与隐函数求导.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch21 偏导数的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch19 偏导数与全微分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch10 定积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch9 不定积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch8 微分学的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
@@ -197,19 +204,12 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch3 实数系基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch2.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch21 偏导数的应用.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch19 偏导数与全微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch20 隐函数存在定理与隐函数求导.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch25 曲面积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
