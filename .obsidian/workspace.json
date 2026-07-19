@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA Xie Ch24 曲线积分"
+              "title": "LA Xie Ch5"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MA Xie Ch24 曲线积分 的大纲"
+              "title": "LA Xie Ch5 的大纲"
             }
           },
           {
@@ -184,32 +184,35 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "31.Obsidian Books/MA_Xie/MA Xie Ch23 含参变量积分.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
+    "OH-Works/截图/shiraagent-20260719-155513.png",
+    "OH-Works/截图",
+    "OH-Works",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch10 定积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch8 微分学的应用.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch4 函数极限.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch23 含参变量积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch20 隐函数存在定理与隐函数求导.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch21 偏导数的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch19 偏导数与全微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch10 定积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch9 不定积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch8 微分学的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch4 函数极限.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch3 实数系基本定理.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch2.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch26 场论初步.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch25 曲面积分.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
@@ -230,15 +233,12 @@
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
     "node_modules/drizzle-orm/query-builders/select.types.js.map",
-    "node_modules/drizzle-orm/query-builders/select.types.js",
-    "node_modules/drizzle-orm/query-builders/select.types.d.ts",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
     "31.Obsidian Books/RG_Petersen/images/ffccdf1a80ee41a53b70a975366732d50f234cc8e6b700c557b8e5b444974d69.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff985ff4f421b16046fae34dfc1880eb7868efb03e1a8ca836dced65bd8da6f5.jpg",
     "31.Obsidian Books/RG_Petersen/images/ff79ad08871251d6eb0f86abe1d71ed24c9c3fd1a52d5b736e989bd42c79a59d.jpg",
-    "31.Obsidian Books/RG_Petersen/images/ff53c0707341a714624c581ab42f8b0fbf6fe85fb30be0cca895c413cbbd0903.jpg",
-    "31.Obsidian Books/RG_Petersen/images/ff3ce4fc7c1f8f058f54547e715881c779d559a9cd396331b1405246f2b80d51.jpg"
+    "31.Obsidian Books/RG_Petersen/images/ff53c0707341a714624c581ab42f8b0fbf6fe85fb30be0cca895c413cbbd0903.jpg"
   ]
 }
