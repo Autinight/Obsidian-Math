@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/级数.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "级数"
+              "title": "MA Xie Ch13 数项级数"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/级数.md",
+                "file": "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "级数 的大纲"
+              "title": "MA Xie Ch13 数项级数 的大纲"
             }
           },
           {
@@ -182,11 +182,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "a11248d5d5d80ad9",
+  "active": "b885c711cfa082b4",
   "lastOpenFiles": [
+    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch15 Fourier 级数.md",
+    "00.Inbox/级数.md",
     "Untitled.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
-    "00.Inbox/级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
@@ -206,13 +208,11 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch10 定积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch8 微分学的应用.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
