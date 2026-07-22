@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "00.Inbox/级数.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Evolution of Metric and Curvature"
+              "title": "级数"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "file": "00.Inbox/级数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Evolution of Metric and Curvature 的大纲"
+              "title": "级数 的大纲"
             }
           },
           {
@@ -184,6 +184,14 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
+    "00.Inbox/级数.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/高代复习.md",
     "00.Inbox/关键词.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
@@ -205,14 +213,6 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch7 微分学的基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch4 函数极限.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch24 曲线积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch23 含参变量积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch20 隐函数存在定理与隐函数求导.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch21 偏导数的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch19 偏导数与全微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch12 广义积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch9 不定积分.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
