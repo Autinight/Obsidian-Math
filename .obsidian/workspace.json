@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/上交考研数学分析2026.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "上交考研数学分析2026"
+              "title": "LA Xie Ch5"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/上交考研数学分析2026.md",
+                "file": "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "上交考研数学分析2026 的大纲"
+              "title": "LA Xie Ch5 的大纲"
             }
           },
           {
@@ -184,6 +184,11 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
+    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
+    "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
     "00.Inbox/上交数学高代2025.md",
     "00.Inbox/上交考研数学分析2026.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
@@ -194,16 +199,12 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch15 Fourier 级数.md",
     "00.Inbox/级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/高代复习.md",
     "00.Inbox/关键词.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
@@ -212,7 +213,6 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch16 无穷级数的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch10 定积分.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
