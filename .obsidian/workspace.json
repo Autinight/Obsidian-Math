@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/上交数学高代2025.md",
+                "file": "20.Cards/Concepts/Sobolev Spaces.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "上交数学高代2025"
+              "title": "Sobolev Spaces"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/上交数学高代2025.md",
+                "file": "20.Cards/Concepts/Sobolev Spaces.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "上交数学高代2025 的大纲"
+              "title": "Sobolev Spaces 的大纲"
             }
           },
           {
@@ -184,9 +184,10 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "00.Inbox/上交数学高代2025.md",
     "00.Inbox/关键词.md",
     "00.Inbox/高代复习.md",
-    "00.Inbox/上交数学高代2025.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
@@ -212,9 +213,7 @@
     "OH-Works",
     "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch17 高维空间中的点集与基本定理.md",
     "31.Obsidian Books/MA_Xie",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
