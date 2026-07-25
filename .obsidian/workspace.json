@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Concepts/mollifier.md",
-                "mode": "preview",
+                "file": "00.Inbox/上交数学高代2026.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mollifier"
+              "title": "上交数学高代2026"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Concepts/mollifier.md",
+                "file": "00.Inbox/上交数学高代2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mollifier 的大纲"
+              "title": "上交数学高代2026 的大纲"
             }
           },
           {
@@ -184,12 +184,20 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
+    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/上交数学高代2026.md",
+    "00.Inbox/PID上有限生成模的结构定理及其应用.md",
+    "00.Inbox/上交数学高代2025.md",
+    "00.Inbox/上交考研数学分析2026.md",
+    "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions up to the boudnary in Sobolev Spaces.md",
+    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions in Sobolev Spaces.md",
+    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
+    "20.Cards/Concepts/mollifier.md",
     "20.Cards/Examples/ep - Examples of Weak Derivative.md",
     "20.Cards/Concepts/Sobolev Spaces.md",
     "00.Inbox/Sobolev空间.md",
-    "00.Inbox/上交数学高代2025.md",
     "00.Inbox/关键词.md",
     "00.Inbox/高代复习.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
@@ -200,17 +208,9 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch1 引论.md",
-    "00.Inbox/上交考研数学分析2026.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch13 数项级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch14 函数项级数与幂级数.md",
     "31.Obsidian Books/MA_Xie/MA Xie Ch11 积分学的应用.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch5 连续函数.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch6 导数与微分.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch15 Fourier 级数.md",
-    "00.Inbox/级数.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
