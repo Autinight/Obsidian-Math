@@ -11,17 +11,24 @@
             "id": "a11248d5d5d80ad9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-                "viewState": {
-                  "x": 199.34024999206466,
-                  "y": 711.6250455682829,
-                  "zoom": -0.7898490550626258
+                "file": "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Sobolev Spaces"
+              "icon": "lucide-file",
+              "title": "lem - Motivation for Sobolev Conjugate"
             }
           }
         ]
@@ -87,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+                "file": "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Atlas - Sobolev Spaces 的大纲"
+              "title": "lem - Motivation for Sobolev Conjugate 的大纲"
             }
           },
           {
@@ -177,8 +184,8 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
     "20.Cards/Theorems/thm - Trace Theorem.md",
     "20.Cards/Lemmas/lem - Young's Inequality.md",
@@ -203,7 +210,6 @@
     "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch3.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
