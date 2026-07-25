@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Concepts/Sobolev Spaces.md",
+                "file": "20.Cards/Concepts/mollifier.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sobolev Spaces"
+              "title": "mollifier"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Concepts/Sobolev Spaces.md",
+                "file": "20.Cards/Concepts/mollifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sobolev Spaces 的大纲"
+              "title": "mollifier 的大纲"
             }
           },
           {
@@ -184,7 +184,11 @@
   },
   "active": "a11248d5d5d80ad9",
   "lastOpenFiles": [
+    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "20.Cards/Examples/ep - Examples of Weak Derivative.md",
+    "20.Cards/Concepts/Sobolev Spaces.md",
+    "00.Inbox/Sobolev空间.md",
     "00.Inbox/上交数学高代2025.md",
     "00.Inbox/关键词.md",
     "00.Inbox/高代复习.md",
@@ -207,12 +211,9 @@
     "31.Obsidian Books/MA_Xie/MA Xie Ch2 数列极限.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch1.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch2.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch8.md",
-    "31.Obsidian Books/MA_Xie/MA Xie Ch22 重积分.md",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
