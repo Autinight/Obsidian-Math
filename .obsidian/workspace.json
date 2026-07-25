@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
-                "mode": "preview",
+                "file": "20.Cards/Theorems/thm - Morrey's Inequality.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lem - Motivation for Sobolev Conjugate"
+              "title": "thm - Morrey's Inequality"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
+                "file": "20.Cards/Theorems/thm - Morrey's Inequality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lem - Motivation for Sobolev Conjugate 的大纲"
+              "title": "thm - Morrey's Inequality 的大纲"
             }
           },
           {
@@ -186,6 +186,11 @@
   "lastOpenFiles": [
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+    "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
+    "20.Cards/Theorems/thm - Morrey's Inequality.md",
+    "20.Cards/Definitions/dfn - Sobolev Conjugate.md",
+    "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
+    "00.Inbox/Daily Draft 2026-07-25.md",
     "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
     "20.Cards/Theorems/thm - Trace Theorem.md",
     "20.Cards/Lemmas/lem - Young's Inequality.md",
@@ -205,11 +210,6 @@
     "00.Inbox/关键词.md",
     "00.Inbox/高代复习.md",
     "31.Obsidian Books/LA_Xie/LA Xie Ch10.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch9.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch7.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch6.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch5.md",
-    "31.Obsidian Books/LA_Xie/LA Xie Ch4.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
