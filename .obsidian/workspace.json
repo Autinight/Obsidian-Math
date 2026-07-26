@@ -11,24 +11,17 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+                "viewState": {
+                  "x": -488.47001703956096,
+                  "y": 717.5153858565504,
+                  "zoom": 0.11483854591413623
                 }
               },
-              "icon": "lucide-file",
-              "title": "thm - General Sobolev Inequalities"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - Second-Order Elliptic Equations"
             }
           }
         ]
@@ -94,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
+                "file": "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "thm - General Sobolev Inequalities 的大纲"
+              "title": "Atlas - Second-Order Elliptic Equations 的大纲"
             }
           },
           {
@@ -184,21 +177,25 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "20.Cards/Theorems/thm - Difference Quotients and Weak Derivatives.md",
+    "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
+    "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "20.Cards/Theorems/thm - Morrey's Inequality.md",
-    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
-    "20.Cards/Theorems/thm - Trace Theorem.md",
-    "20.Cards/Theorems/thm - Estimates for W^{1,p} when p greater than n.md",
     "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
+    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
+    "20.Cards/Definitions/dfn - Version of a Function.md",
+    "20.Cards/Theorems/thm - Estimates for W^{1,p} when p greater than n.md",
+    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
+    "20.Cards/Theorems/thm - Morrey's Inequality.md",
+    "20.Cards/Theorems/thm - Trace Theorem.md",
     "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
     "20.Cards/Theorems/thm - Estimates for W^{1,p}_0 when p less than n.md",
     "20.Cards/Theorems/thm - Estimates for W^{1,p} when p less than n.md",
-    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
     "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "20.Cards/Definitions/dfn - Boundary Value Problem.md",
-    "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "20.Cards/Definitions/dfn - Sobolev Conjugate.md",
     "20.Cards/Lemmas/lem - Motivation for Sobolev Conjugate.md",
@@ -208,10 +205,6 @@
     "00.Inbox/上交考研数学分析2026.md",
     "00.Inbox/上交数学高代2025.md",
     "00.Inbox/PID上有限生成模的结构定理及其应用.md",
-    "00.Inbox/矩阵的trace---线性映射的平均回报率.md",
-    "00.Inbox/上交数学高代2026.md",
-    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions up to the boudnary in Sobolev Spaces.md",
-    "20.Cards/Theorems/thm - Global Approximation by Smooth Functions in Sobolev Spaces.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
