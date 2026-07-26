@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
                 "viewState": {
-                  "x": 182.37905861937347,
-                  "y": 1361.5932406423208,
-                  "zoom": -0.19516145408586322
+                  "x": 347,
+                  "y": 445,
+                  "zoom": -0.9666711098361149
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Second-Order Elliptic Equations"
+              "title": "Atlas - Harmonic Functions"
             }
           }
         ]
@@ -87,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Atlas - Second-Order Elliptic Equations 的大纲"
+              "title": "Atlas - Harmonic Functions 的大纲"
             }
           },
           {
@@ -177,8 +177,12 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term.md",
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "00.Inbox/Sobolev空间.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term.md",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
     "20.Cards/Theorems/thm - Difference Quotients and Weak Derivatives.md",
     "20.Cards/Techniques/tec - Interpolation Principle.md",
@@ -193,7 +197,6 @@
     "20.Cards/Concepts/The Space H^{-1}.md",
     "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
     "20.Cards/Definitions/dfn - Boundary Value Problem.md",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
@@ -202,10 +205,6 @@
     "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
     "20.Cards/Theorems/thm - Morrey's Inequality.md",
     "20.Cards/Theorems/thm - Trace Theorem.md",
-    "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
-    "20.Cards/Theorems/thm - Estimates for W^{1,p}_0 when p less than n.md",
-    "20.Cards/Theorems/thm - Estimates for W^{1,p} when p less than n.md",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
