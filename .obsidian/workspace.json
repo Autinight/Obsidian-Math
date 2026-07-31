@@ -11,17 +11,24 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-                "viewState": {
-                  "x": 347,
-                  "y": 445,
-                  "zoom": -0.9666711098361149
+                "file": "00.Inbox/Evolution of Metric and Curvature.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - Harmonic Functions"
+              "icon": "lucide-file",
+              "title": "Evolution of Metric and Curvature"
             }
           }
         ]
@@ -87,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+                "file": "00.Inbox/Evolution of Metric and Curvature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Atlas - Harmonic Functions 的大纲"
+              "title": "Evolution of Metric and Curvature 的大纲"
             }
           },
           {
@@ -177,10 +184,16 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "00.Inbox/Sobolev空间.md",
+    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
+    "20.Cards/Theorems/thm - Morrey's Inequality.md",
+    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
+    "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
+    "20.Cards/Theorems/thm - Trace Theorem.md",
+    "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
+    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term.md",
     "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
@@ -198,18 +211,12 @@
     "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
     "20.Cards/Definitions/dfn - Boundary Value Problem.md",
     "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
     "20.Cards/Definitions/dfn - Version of a Function.md",
-    "20.Cards/Theorems/thm - Estimates for W^{1,p} when p greater than n.md",
-    "20.Cards/Theorems/thm - General Sobolev Inequalities.md",
-    "20.Cards/Theorems/thm - Morrey's Inequality.md",
-    "20.Cards/Theorems/thm - Trace Theorem.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
     "31.Obsidian Books/MA_Xie",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
     "Pasted image 20260708162559.png",
     "Pasted image 20260708162549.png",
