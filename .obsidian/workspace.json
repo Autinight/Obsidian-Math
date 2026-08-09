@@ -11,24 +11,10 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Evolution of Metric and Curvature"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,13 +80,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Evolution of Metric and Curvature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Evolution of Metric and Curvature 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -182,8 +167,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "55b2c8345fb7677e",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/1.md",
     "00.Inbox/Sobolev空间.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Morrey's Inequality.md",
@@ -191,7 +178,6 @@
     "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
     "20.Cards/Theorems/thm - Trace Theorem.md",
     "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
