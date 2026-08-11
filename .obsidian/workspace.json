@@ -11,10 +11,24 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "30.Recources/ML/MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336"
             }
           }
         ]
@@ -80,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "30.Recources/ML/MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336 的大纲"
             }
           },
           {
@@ -167,8 +182,14 @@
       "templates:插入模板": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "OH-Works/截图/shiraagent-20260719-155513.png",
+    "Pasted image 20260708162549.png",
+    "Pasted image 20260708162559.png",
+    "202607081831.md",
+    "30.Recources/ML/MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336.md",
+    "30.Recources/ML",
     "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/1.md",
     "00.Inbox/Sobolev空间.md",
@@ -196,16 +217,10 @@
     "20.Cards/Concepts/The Space H^{-1}.md",
     "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
     "20.Cards/Definitions/dfn - Boundary Value Problem.md",
-    "20.Cards/Theorems/thm - Rellich-Kondrachov Compactness Theorem.md",
-    "20.Cards/Theorems/thm - Local Approximation by Smooth Functions in Sobolev Space.md",
-    "20.Cards/Definitions/dfn - Version of a Function.md",
-    "OH-Works/截图/shiraagent-20260719-155513.png",
     "OH-Works/截图",
     "OH-Works",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-    "Pasted image 20260708162559.png",
-    "Pasted image 20260708162549.png",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "40.Drafts/2026-07",
@@ -217,7 +232,6 @@
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
     "node_modules/drizzle-orm/table.d.ts",
-    "node_modules/drizzle-orm/query-builders/select.types.js.map",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
