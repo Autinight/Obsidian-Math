@@ -11,24 +11,10 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30.Recources/ML/ACMP带读笔记.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ACMP带读笔记"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,13 +80,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.Recources/ML/ACMP带读笔记.md",
+                "file": "00.Inbox/Sobolev空间.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ACMP带读笔记 的大纲"
+              "title": "Sobolev空间 的大纲"
             }
           },
           {
@@ -182,8 +168,28 @@
       "templates:插入模板": false
     }
   },
-  "active": "55b2c8345fb7677e",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
+    "00.Inbox/Daily Draft 2026-07-25.md",
+    "00.Inbox/上交数学高代2026.md",
+    "00.Inbox/级数.md",
+    "00.Inbox/关键词.md",
+    "00.Inbox/论文名词.md",
+    "00.Inbox/高代复习.md",
+    "20.Cards/Notes/分块行列式的结构性拆解.md",
+    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
+    "20.Cards/Notes/可上三角化的flag证明.md",
+    "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
+    "00.Inbox/上交考研数学分析2026.md",
+    "00.Inbox/上交数学高代2025.md",
+    "00.Inbox/英文面试.md",
+    "00.Inbox/Evolution of Metric and Curvature.md",
+    "00.Inbox/Sobolev空间.md",
+    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
+    "20.Cards/Notes/PID上有限生成模的结构定理及其应用.md",
+    "20.Cards/未命名.md",
+    "20.Cards/Notes",
+    "00.Inbox/202607081831.md",
     "30.Recources/ML/ACMP带读笔记.md",
     "30.Recources/ML/MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
@@ -191,33 +197,14 @@
     "Pasted image 20260708162559.png",
     "202607081831.md",
     "30.Recources/ML",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "00.Inbox/1.md",
-    "00.Inbox/Sobolev空间.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "20.Cards/Theorems/thm - Morrey's Inequality.md",
     "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
     "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
-    "20.Cards/Theorems/thm - Trace Theorem.md",
-    "20.Cards/Theorems/thm - Extension Theorem in W^{1,p}.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations with nonnegative constant term.md",
-    "20.Cards/Theorems/thm - Weak Maximum Principle for Subsolutions(Supersolutions) of Elliptic Equations.md",
-    "20.Cards/Theorems/thm - Difference Quotients and Weak Derivatives.md",
-    "20.Cards/Techniques/tec - Interpolation Principle.md",
-    "20.Cards/Theorems/thm - Interior H^2-regularity.md",
-    "20.Cards/Theorems/thm - Infinite Differentiability in the Interior.md",
-    "20.Cards/Theorems/thm - Higher Interior Regularity.md",
-    "20.Cards/Theorems/thm - First Existence Theorem for weak solutions.md",
-    "20.Cards/Theorems/thm - Lax-Milgram Theorem.md",
-    "20.Cards/Theorems/thm - Energy Estimates.md",
-    "20.Cards/Lemmas/lem - Young's Inequality.md",
-    "20.Cards/Concepts/Weak-Solutions for Elliptic Equations.md",
-    "20.Cards/Concepts/The Space H^{-1}.md",
-    "20.Cards/Definitions/dfn - Elliptic Partial Differential Operator.md",
-    "20.Cards/Definitions/dfn - Boundary Value Problem.md",
     "OH-Works/截图",
     "OH-Works",
     "31.Obsidian Books/MA_Xie",
@@ -232,7 +219,6 @@
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",
     "node_modules/drizzle-orm/table.utils.d.ts",
-    "node_modules/drizzle-orm/table.d.ts",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200836.jpg",
     "00.Inbox/文本附件/Daily-Draft-2026-06-05-cover-20260605-200813.jpg",
     "31.Obsidian Books/RG_Petersen/images/fff6b79fa88ff55759470f83f2692ac2a76e0b049dbacb54b678114827cad1ad.jpg",
