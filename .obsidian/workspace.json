@@ -80,13 +80,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Sobolev空间.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sobolev空间 的大纲"
+              "title": "大纲"
             }
           },
           {
