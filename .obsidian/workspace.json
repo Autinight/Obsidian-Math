@@ -11,10 +11,24 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "20.Cards/Notes/可上三角化的flag证明.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "可上三角化的flag证明"
             }
           }
         ]
@@ -80,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "20.Cards/Notes/可上三角化的flag证明.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "可上三角化的flag证明 的大纲"
             }
           },
           {
@@ -167,8 +182,22 @@
       "templates:插入模板": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
+    "20.Cards/Notes/可上三角化的flag证明.md",
+    "10.Atlas/AT/Atlas - Basic Topology.canvas",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch05.md",
+    "11.Chapter Notes/RG Petersen/chnt - RG Petersen Ch02.md",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "20.Cards/Propositions/pps - Law of Total Variance.md",
+    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
+    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
+    "20.Cards/Theorems/thm - Seperate a point and a compact set.md",
+    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "20.Cards/Theorems/thm - First Existence Theorem for weak solutions.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "00.Inbox/Daily Draft 2026-07-25.md",
     "00.Inbox/上交数学高代2026.md",
     "00.Inbox/级数.md",
@@ -176,8 +205,6 @@
     "00.Inbox/论文名词.md",
     "00.Inbox/高代复习.md",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
-    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
-    "20.Cards/Notes/可上三角化的flag证明.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "00.Inbox/上交考研数学分析2026.md",
     "00.Inbox/上交数学高代2025.md",
@@ -189,31 +216,18 @@
     "20.Cards/未命名.md",
     "20.Cards/Notes",
     "00.Inbox/202607081831.md",
-    "30.Recources/ML/ACMP带读笔记.md",
-    "30.Recources/ML/MinerU_markdown_ACMP_艾伦-卡恩消息传递与图神经网络_2087117536678158336.md",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
     "Pasted image 20260708162559.png",
-    "202607081831.md",
     "30.Recources/ML",
-    "00.Inbox/1.md",
     "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
-    "20.Cards/Theorems/thm - Morrey's Inequality.md",
-    "20.Cards/Theorems/thm - Gagliardo-Nirenberg-Sobolev Inequality.md",
-    "20.Cards/Theorems/thm - Trace-zero functions in W^{1,p}.md",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "OH-Works/截图",
     "OH-Works",
     "31.Obsidian Books/MA_Xie",
     "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "40.Drafts/2026-07",
     "10.Atlas/LA/Atlas - Root Systems.canvas",
-    "未命名.canvas",
-    "10.Atlas/FA/Hilbert空间 最佳逼近和正交分解. 1.canvas",
     "50.Image/MCD/RAW/111.mcd",
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",

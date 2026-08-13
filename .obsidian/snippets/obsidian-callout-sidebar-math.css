@@ -68,8 +68,7 @@ body {
 /*  1. Base Callout: White Card + Colored Side Bar                    */
 /* ================================================================= */
 
-.markdown-rendered .callout,
-.markdown-source-view.mod-cm6 .callout {
+:where(.markdown-rendered, .markdown-source-view.mod-cm6) .callout {
   --callout-color: var(--callout-default);
 
   position: relative;

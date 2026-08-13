@@ -1,0 +1,576 @@
+/* ========================================================================== */
+/*  Shiraha New Warm Paper for Obsidian                                       */
+/*  Palette adapted from ShiraAgent's desktop/src/themes/new-warm-paper.css   */
+/*  Light mode only. Typography and document geometry are left untouched.     */
+/* ========================================================================== */
+
+body.theme-light {
+  color-scheme: light;
+
+  /* ------------------------------------------------------------------------ */
+  /*  Source palette                                                          */
+  /* ------------------------------------------------------------------------ */
+
+  --shiraha-paper: #f5efe4;
+  --shiraha-paper-card: #fbf7ee;
+  --shiraha-paper-sidebar: #efe8db;
+  --shiraha-paper-deep: #e8e0d2;
+  --shiraha-ink: #2a2622;
+  --shiraha-ink-light: #4a433c;
+  --shiraha-ink-muted: #6b6158;
+  --shiraha-ink-faint: #8f867b;
+  --shiraha-ink-ghost: #b8b0a3;
+  --shiraha-line: #d8cfbe;
+  --shiraha-line-strong: #c9bfaf;
+  --shiraha-seal: #537d96;
+  --shiraha-seal-hover: #3f6179;
+  --shiraha-seal-rgb: 83, 125, 150;
+  --shiraha-green: #4a6b4a;
+  --shiraha-red: #8b2c1f;
+  --shiraha-amber: #8b6c31;
+  --shiraha-purple: #71658e;
+
+  /* Flexoki compatibility. */
+  --color-base-00: var(--shiraha-paper);
+  --color-base-05: #f8f3e9;
+  --color-base-10: var(--shiraha-paper-card);
+  --color-base-20: var(--shiraha-paper-sidebar);
+  --color-base-25: var(--shiraha-paper-deep);
+  --color-base-30: var(--shiraha-line);
+  --color-base-35: var(--shiraha-line-strong);
+  --color-base-40: var(--shiraha-ink-ghost);
+  --color-base-50: var(--shiraha-ink-faint);
+  --color-base-60: var(--shiraha-ink-muted);
+  --color-base-70: var(--shiraha-ink-light);
+  --color-base-100: var(--shiraha-ink);
+
+  --accent-h: 202;
+  --accent-s: 29%;
+  --accent-l: 46%;
+  --color-accent-hsl: 202, 29%, 46%;
+  --color-accent: var(--shiraha-seal);
+  --color-accent-1: #486e85;
+  --color-accent-2: var(--shiraha-seal-hover);
+
+  /* ------------------------------------------------------------------------ */
+  /*  Obsidian surfaces                                                       */
+  /* ------------------------------------------------------------------------ */
+
+  --background-primary: var(--shiraha-paper);
+  --background-primary-alt: var(--shiraha-paper-card);
+  --background-secondary: var(--shiraha-paper-sidebar);
+  --background-secondary-alt: var(--shiraha-paper-deep);
+  --background-modifier-hover: rgba(42, 38, 34, 0.045);
+  --background-modifier-active-hover: rgba(var(--shiraha-seal-rgb), 0.11);
+  --background-modifier-border: var(--shiraha-line);
+  --background-modifier-border-hover: var(--shiraha-line-strong);
+  --background-modifier-border-focus: rgba(var(--shiraha-seal-rgb), 0.55);
+  --background-modifier-form-field: var(--shiraha-paper-card);
+  --background-modifier-form-field-highlighted: #fffaf1;
+  --background-modifier-box-shadow: rgba(42, 38, 34, 0.08);
+  --background-modifier-cover: rgba(42, 38, 34, 0.28);
+  --background-modifier-success: rgba(74, 107, 74, 0.12);
+  --background-modifier-error: rgba(139, 44, 31, 0.11);
+  --background-modifier-error-rgb: 139, 44, 31;
+  --background-modifier-error-hover: rgba(139, 44, 31, 0.17);
+  --background-modifier-message: var(--shiraha-ink);
+
+  /* ------------------------------------------------------------------------ */
+  /*  Ink and interaction                                                     */
+  /* ------------------------------------------------------------------------ */
+
+  --text-normal: var(--shiraha-ink);
+  --text-muted: var(--shiraha-ink-muted);
+  --text-faint: var(--shiraha-ink-faint);
+  --text-on-accent: var(--shiraha-paper-card);
+  --text-on-accent-inverted: var(--shiraha-ink);
+  --text-accent: var(--shiraha-seal);
+  --text-accent-hover: var(--shiraha-seal-hover);
+  --text-error: var(--shiraha-red);
+  --text-success: var(--shiraha-green);
+  --text-warning: var(--shiraha-amber);
+  --text-selection: rgba(var(--shiraha-seal-rgb), 0.18);
+  --text-highlight-bg: rgba(183, 145, 63, 0.19);
+  --text-highlight-bg-active: rgba(183, 145, 63, 0.27);
+  --cursor: var(--shiraha-seal-hover);
+
+  --interactive-normal: var(--shiraha-paper-card);
+  --interactive-hover: #f8f2e7;
+  --interactive-accent: var(--shiraha-seal);
+  --interactive-accent-rgb: var(--shiraha-seal-rgb);
+  --interactive-accent-hover: var(--shiraha-seal-hover);
+  --interactive-success: var(--shiraha-green);
+
+  --icon-color: var(--shiraha-ink-muted);
+  --icon-color-hover: var(--shiraha-ink);
+  --icon-color-active: var(--shiraha-seal);
+  --icon-color-focused: var(--shiraha-seal);
+
+  /* ------------------------------------------------------------------------ */
+  /*  Navigation and chrome                                                   */
+  /* ------------------------------------------------------------------------ */
+
+  --titlebar-background: var(--shiraha-paper);
+  --titlebar-background-focused: var(--shiraha-paper);
+  --titlebar-border-color: rgba(216, 207, 190, 0.72);
+  --ribbon-background: var(--shiraha-paper-sidebar);
+  --ribbon-background-collapsed: var(--shiraha-paper-sidebar);
+  --tab-container-background: var(--shiraha-paper);
+  --tab-background-active: var(--shiraha-paper-card);
+  --tab-text-color: var(--shiraha-ink-muted);
+  --tab-text-color-active: var(--shiraha-ink-light);
+  --tab-text-color-focused: var(--shiraha-ink-muted);
+  --tab-text-color-focused-active: var(--shiraha-ink);
+  --tab-divider-color: rgba(216, 207, 190, 0.72);
+  --tab-outline-color: var(--shiraha-line);
+  --divider-color: rgba(216, 207, 190, 0.82);
+  --divider-color-hover: rgba(var(--shiraha-seal-rgb), 0.5);
+
+  --nav-item-color: var(--shiraha-ink-muted);
+  --nav-item-color-hover: var(--shiraha-ink-light);
+  --nav-item-color-active: var(--shiraha-seal-hover);
+  --nav-item-color-selected: var(--shiraha-seal-hover);
+  --nav-item-background-hover: rgba(42, 38, 34, 0.045);
+  --nav-item-background-active: rgba(var(--shiraha-seal-rgb), 0.1);
+  --nav-item-background-selected: rgba(var(--shiraha-seal-rgb), 0.1);
+  --nav-indentation-guide-color: rgba(143, 134, 123, 0.34);
+  --nav-collapse-icon-color: var(--shiraha-ink-faint);
+  --nav-collapse-icon-color-collapsed: var(--shiraha-ink-muted);
+
+  /* ------------------------------------------------------------------------ */
+  /*  Components                                                              */
+  /* ------------------------------------------------------------------------ */
+
+  --modal-background: var(--shiraha-paper-card);
+  --modal-border-color: var(--shiraha-line);
+  --prompt-input-background: var(--shiraha-paper);
+  --prompt-border-color: var(--shiraha-line);
+  --menu-background: var(--shiraha-paper-card);
+  --menu-border-color: var(--shiraha-line);
+  --menu-shadow: 0 8px 28px rgba(42, 38, 34, 0.12);
+  --popover-background: var(--shiraha-paper-card);
+  --popover-border-color: var(--shiraha-line);
+
+  --checkbox-color: var(--shiraha-seal);
+  --checkbox-color-hover: var(--shiraha-seal-hover);
+  --checkbox-border-color: var(--shiraha-ink-ghost);
+  --checkbox-border-color-hover: var(--shiraha-seal);
+  --checkbox-marker-color: var(--shiraha-paper-card);
+  --toggle-thumb-color: var(--shiraha-paper-card);
+  --toggle-border-color: var(--shiraha-line-strong);
+  --toggle-bg: var(--shiraha-ink-ghost);
+  --toggle-bg-active: var(--shiraha-seal);
+  --slider-track-background: var(--shiraha-line);
+  --slider-thumb-border-color: var(--shiraha-seal);
+  --slider-thumb-background: var(--shiraha-paper-card);
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgba(107, 97, 88, 0.22);
+  --scrollbar-active-thumb-bg: rgba(107, 97, 88, 0.42);
+
+  /* ------------------------------------------------------------------------ */
+  /*  Markdown and editor                                                     */
+  /* ------------------------------------------------------------------------ */
+
+  --h1-color: var(--shiraha-ink);
+  --h2-color: #37312c;
+  --h3-color: var(--shiraha-ink-light);
+  --h4-color: #574f47;
+  --h5-color: var(--shiraha-ink-muted);
+  --h6-color: var(--shiraha-ink-faint);
+  --bold-color: var(--shiraha-ink);
+  --italic-color: var(--shiraha-ink-light);
+
+  --link-color: var(--shiraha-seal);
+  --link-color-hover: var(--shiraha-seal-hover);
+  --link-external-color: #4c7775;
+  --link-external-color-hover: #365f5d;
+  --link-unresolved-color: var(--shiraha-ink-faint);
+  --link-unresolved-decoration-color: rgba(143, 134, 123, 0.62);
+
+  --blockquote-background-color: rgba(251, 247, 238, 0.62);
+  --blockquote-border-color: rgba(var(--shiraha-seal-rgb), 0.48);
+  --blockquote-color: var(--shiraha-ink-light);
+  --hr-color: var(--shiraha-line);
+
+  --code-background: rgba(232, 224, 210, 0.72);
+  --code-normal: var(--shiraha-ink-light);
+  --code-comment: var(--shiraha-ink-faint);
+  --code-function: var(--shiraha-seal-hover);
+  --code-important: var(--shiraha-red);
+  --code-keyword: var(--shiraha-purple);
+  --code-operator: #78654f;
+  --code-property: #476c73;
+  --code-punctuation: var(--shiraha-ink-muted);
+  --code-string: var(--shiraha-green);
+  --code-tag: var(--shiraha-red);
+  --code-value: #865a38;
+
+  --table-background: transparent;
+  --table-border-color: var(--shiraha-line);
+  --table-header-background: rgba(232, 224, 210, 0.72);
+  --table-header-background-hover: rgba(216, 207, 190, 0.54);
+  --table-row-alt-background: rgba(251, 247, 238, 0.48);
+  --table-row-background-hover: rgba(var(--shiraha-seal-rgb), 0.055);
+
+  --tag-color: var(--shiraha-seal-hover);
+  --tag-color-hover: var(--shiraha-seal-hover);
+  --tag-background: rgba(var(--shiraha-seal-rgb), 0.09);
+  --tag-background-hover: rgba(var(--shiraha-seal-rgb), 0.15);
+  --tag-border-color: rgba(var(--shiraha-seal-rgb), 0.2);
+  --tag-border-color-hover: rgba(var(--shiraha-seal-rgb), 0.36);
+
+  --embed-background: rgba(251, 247, 238, 0.48);
+  --embed-border-start: rgba(var(--shiraha-seal-rgb), 0.35);
+  --embed-block-shadow-hover: 0 0 0 1px rgba(var(--shiraha-seal-rgb), 0.28);
+
+  /* Properties */
+  --metadata-background: transparent;
+  --metadata-divider-color: var(--shiraha-line);
+  --metadata-label-background: rgba(232, 224, 210, 0.54);
+  --metadata-label-text-color: var(--shiraha-ink-muted);
+  --metadata-input-background: var(--shiraha-paper-card);
+  --metadata-input-text-color: var(--shiraha-ink);
+  --metadata-property-background: rgba(251, 247, 238, 0.55);
+  --metadata-property-background-hover: rgba(251, 247, 238, 0.88);
+  --metadata-property-background-active: rgba(var(--shiraha-seal-rgb), 0.07);
+
+  /* Canvas and graph */
+  --canvas-background: var(--shiraha-paper);
+  --canvas-card-label-color: var(--shiraha-ink-muted);
+  --canvas-dot-pattern: rgba(107, 97, 88, 0.18);
+  --canvas-color: var(--shiraha-seal);
+  --canvas-color-1: var(--shiraha-red);
+  --canvas-color-2: #865a38;
+  --canvas-color-3: var(--shiraha-amber);
+  --canvas-color-4: var(--shiraha-green);
+  --canvas-color-5: #4c7775;
+  --canvas-color-6: var(--shiraha-purple);
+  --graph-line: rgba(107, 97, 88, 0.2);
+  --graph-node: var(--shiraha-seal);
+  --graph-node-focused: var(--shiraha-red);
+  --graph-node-unresolved: var(--shiraha-ink-ghost);
+  --graph-node-tag: var(--shiraha-green);
+  --graph-node-attachment: #865a38;
+
+  /* PDF */
+  --pdf-background: var(--shiraha-paper-sidebar);
+  --pdf-page-background: var(--shiraha-paper-card);
+  --pdf-shadow: 0 2px 12px rgba(42, 38, 34, 0.1);
+
+  /* Match the existing math callout snippet without flattening type colors. */
+  --math-callout-bg: var(--shiraha-paper-card);
+  --math-callout-text: var(--shiraha-ink);
+  --math-callout-title: var(--shiraha-ink);
+  --math-callout-muted: var(--shiraha-ink-muted);
+  --math-callout-border-alpha: 0.24;
+  --math-callout-tint-alpha: 0.05;
+  --math-callout-shadow: 0 2px 10px rgba(42, 38, 34, 0.045);
+
+  /* ShiraAgent uses restrained corners and hairline borders. */
+  --radius-s: 2px;
+  --radius-m: 3px;
+  --radius-l: 4px;
+  --input-radius: 2px;
+  --button-radius: 2px;
+  --modal-radius: 4px;
+  --tab-radius-active: 3px;
+  --callout-radius: 3px;
+  --checkbox-radius: 2px;
+}
+
+/* ========================================================================== */
+/*  Workspace surfaces                                                       */
+/* ========================================================================== */
+
+body.theme-light,
+body.theme-light .app-container,
+body.theme-light .horizontal-main-container,
+body.theme-light .workspace,
+body.theme-light .workspace-split.mod-root {
+  background-color: var(--shiraha-paper);
+}
+
+body.theme-light :is(
+  .workspace-split.mod-left-split,
+  .workspace-split.mod-right-split,
+  .workspace-ribbon,
+  .side-dock-ribbon
+) {
+  background-color: var(--shiraha-paper-sidebar);
+}
+
+body.theme-light :is(
+  .workspace-split.mod-left-split,
+  .workspace-split.mod-right-split
+) :is(.workspace-tabs, .workspace-leaf, .workspace-leaf-content, .view-content) {
+  background-color: transparent;
+}
+
+body.theme-light .workspace-split.mod-root :is(
+  .workspace-tabs,
+  .workspace-leaf,
+  .workspace-leaf-content,
+  .view-content
+) {
+  background-color: var(--shiraha-paper);
+}
+
+body.theme-light .titlebar {
+  background-color: var(--shiraha-paper);
+  border-bottom: 0.5px solid var(--titlebar-border-color);
+}
+
+body.theme-light .workspace-tab-header-container {
+  border-bottom: 0.5px solid var(--shiraha-line);
+  box-shadow: none;
+}
+
+body.theme-light .workspace-split.mod-root > .workspace-leaf-resize-handle,
+body.theme-light .workspace-split.mod-root > .workspace-split-resize-handle,
+body.theme-light .workspace-leaf-resize-handle,
+body.theme-light .workspace-split-resize-handle {
+  border-color: var(--divider-color);
+}
+
+body.theme-light .workspace-tab-header {
+  color: var(--tab-text-color);
+}
+
+body.theme-light .workspace-tab-header.is-active {
+  background-color: var(--shiraha-paper-card);
+  color: var(--tab-text-color-active);
+  box-shadow: inset 0 -1.5px 0 rgba(var(--shiraha-seal-rgb), 0.72);
+}
+
+body.theme-light .workspace-tab-header.is-active::before,
+body.theme-light .workspace-tab-header.is-active::after {
+  box-shadow: none;
+}
+
+body.theme-light :is(.workspace-ribbon, .side-dock-ribbon) {
+  border-color: var(--shiraha-line);
+}
+
+body.theme-light .status-bar {
+  background-color: var(--shiraha-paper-sidebar);
+  border-top: 0.5px solid var(--shiraha-line);
+  color: var(--shiraha-ink-muted);
+  box-shadow: none;
+}
+
+/* ========================================================================== */
+/*  Navigation                                                               */
+/* ========================================================================== */
+
+body.theme-light :is(.nav-file-title, .nav-folder-title, .tree-item-self) {
+  border-radius: 2px;
+}
+
+body.theme-light :is(
+  .nav-file-title.is-active,
+  .nav-file-title.is-selected,
+  .nav-folder-title.is-active,
+  .tree-item-self.is-active
+) {
+  box-shadow: inset 2px 0 0 var(--shiraha-seal);
+}
+
+body.theme-light :is(.nav-file-tag, .nav-folder-collapse-indicator) {
+  color: var(--shiraha-ink-faint);
+}
+
+body.theme-light .search-result-file-match {
+  border-radius: 2px;
+  color: var(--shiraha-ink-light);
+}
+
+body.theme-light .search-result-file-matched-text {
+  background-color: var(--text-highlight-bg);
+  color: var(--shiraha-ink);
+}
+
+/* ========================================================================== */
+/*  Controls, menus, and overlays                                             */
+/* ========================================================================== */
+
+body.theme-light :is(
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  textarea,
+  select,
+  .dropdown
+) {
+  background-color: var(--shiraha-paper-card);
+  border-color: var(--shiraha-line);
+  color: var(--shiraha-ink);
+  box-shadow: none;
+}
+
+body.theme-light :is(
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  textarea,
+  select,
+  .dropdown
+):focus {
+  border-color: rgba(var(--shiraha-seal-rgb), 0.62);
+  box-shadow: 0 0 0 2px rgba(var(--shiraha-seal-rgb), 0.1);
+}
+
+body.theme-light :is(.modal, .prompt, .menu, .suggestion-container, .popover) {
+  background-color: var(--shiraha-paper-card);
+  border: 0.5px solid var(--shiraha-line);
+  box-shadow: 0 10px 32px rgba(42, 38, 34, 0.12);
+}
+
+body.theme-light :is(.menu-item.selected, .suggestion-item.is-selected) {
+  background-color: rgba(var(--shiraha-seal-rgb), 0.1);
+  color: var(--shiraha-seal-hover);
+}
+
+body.theme-light .modal-bg {
+  background-color: rgba(42, 38, 34, 0.28);
+}
+
+body.theme-light .vertical-tab-header {
+  background-color: var(--shiraha-paper-sidebar);
+  border-right: 0.5px solid var(--shiraha-line);
+}
+
+body.theme-light .vertical-tab-content-container {
+  background-color: var(--shiraha-paper-card);
+}
+
+body.theme-light .setting-item {
+  border-color: rgba(216, 207, 190, 0.75);
+}
+
+body.theme-light button:not(.clickable-icon) {
+  box-shadow: none;
+}
+
+body.theme-light .clickable-icon:hover {
+  background-color: rgba(42, 38, 34, 0.055);
+  color: var(--shiraha-ink);
+}
+
+body.theme-light .clickable-icon.is-active {
+  background-color: rgba(var(--shiraha-seal-rgb), 0.11);
+  color: var(--shiraha-seal-hover);
+}
+
+body.theme-light .tooltip {
+  background-color: var(--shiraha-ink);
+  color: var(--shiraha-paper-card);
+  border: 0.5px solid rgba(251, 247, 238, 0.16);
+  box-shadow: 0 5px 16px rgba(42, 38, 34, 0.16);
+}
+
+/* ========================================================================== */
+/*  Editor and reading view                                                   */
+/* ========================================================================== */
+
+body.theme-light :is(
+  .markdown-source-view,
+  .markdown-reading-view,
+  .markdown-preview-view,
+  .markdown-source-view.mod-cm6 .cm-editor,
+  .markdown-source-view.mod-cm6 .cm-scroller
+) {
+  background-color: var(--shiraha-paper);
+}
+
+body.theme-light .markdown-source-view.mod-cm6 .cm-gutters {
+  background-color: transparent;
+  color: var(--shiraha-ink-faint);
+  border-right-color: rgba(216, 207, 190, 0.52);
+}
+
+body.theme-light .markdown-source-view.mod-cm6 .cm-active.cm-line {
+  background-color: rgba(251, 247, 238, 0.62);
+}
+
+body.theme-light .markdown-source-view.mod-cm6 .cm-active .cm-gutterElement {
+  color: var(--shiraha-seal-hover);
+}
+
+body.theme-light :is(.markdown-rendered, .markdown-source-view.mod-cm6) blockquote {
+  background-color: var(--blockquote-background-color);
+  border-inline-start-color: var(--blockquote-border-color);
+}
+
+body.theme-light :is(.markdown-rendered, .markdown-source-view.mod-cm6) hr {
+  border-color: var(--shiraha-line);
+}
+
+body.theme-light :is(.markdown-rendered pre, .markdown-source-view.mod-cm6 .HyperMD-codeblock) {
+  border-color: rgba(216, 207, 190, 0.86);
+  box-shadow: none;
+}
+
+body.theme-light :is(.markdown-rendered table, .markdown-source-view.mod-cm6 table) {
+  border-color: var(--shiraha-line);
+}
+
+body.theme-light :is(.internal-embed, .markdown-embed, .file-embed) {
+  background-color: var(--embed-background);
+  border-color: var(--shiraha-line);
+  box-shadow: none;
+}
+
+body.theme-light :where(.markdown-rendered, .markdown-source-view.mod-cm6) .callout {
+  background-color: color-mix(in srgb, rgb(var(--callout-color)) 5%, var(--shiraha-paper-card));
+  border-color: color-mix(in srgb, rgb(var(--callout-color)) 24%, var(--shiraha-line));
+  box-shadow: 0 2px 10px rgba(42, 38, 34, 0.045);
+}
+
+body.theme-light .metadata-container {
+  border-color: var(--shiraha-line);
+}
+
+body.theme-light ::selection {
+  background-color: var(--text-selection);
+}
+
+/* ========================================================================== */
+/*  Canvas, graph, and scrollbars                                              */
+/* ========================================================================== */
+
+body.theme-light :is(.canvas-wrapper, .canvas-background) {
+  background-color: var(--shiraha-paper);
+}
+
+body.theme-light .canvas-node-container {
+  background-color: var(--shiraha-paper-card);
+  border-color: var(--shiraha-line);
+  box-shadow: 0 2px 10px rgba(42, 38, 34, 0.05);
+}
+
+body.theme-light * {
+  scrollbar-color: rgba(107, 97, 88, 0.24) transparent;
+}
+
+body.theme-light *::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body.theme-light *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body.theme-light *::-webkit-scrollbar-thumb {
+  background-color: rgba(107, 97, 88, 0.24);
+  border-radius: 2px;
+}
+
+body.theme-light *::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(107, 97, 88, 0.42);
+}

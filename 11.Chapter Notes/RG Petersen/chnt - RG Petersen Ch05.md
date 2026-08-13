@@ -1,9 +1,9 @@
 ---
 type: chapter note
 aliases:
-- RG Petersen
+  - RG Petersen
 book: RG Petersen
-chapter: 05
+chapter: 5
 status: active
 tags: []
 ---

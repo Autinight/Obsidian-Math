@@ -9,7 +9,8 @@
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
     "math-callout",
-    "obsidian-callout-sidebar-math"
+    "obsidian-callout-sidebar-math",
+    "shiraha-new-warm-paper"
   ],
   "nativeMenus": false
 }
