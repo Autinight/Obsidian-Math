@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Framelets.md",
-                "mode": "preview",
+                "file": "60.Templates/Paper_Note.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Framelets"
+              "title": "Paper_Note"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Framelets.md",
+                "file": "60.Templates/Paper_Note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Framelets 的大纲"
+              "title": "Paper_Note 的大纲"
             }
           },
           {
@@ -173,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:打开命令面板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -184,8 +185,11 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "20.Cards/Notes/分块行列式的结构性拆解.md",
+    "60.Templates/NOTES.md",
+    "60.Templates/Script_DailyDraft.md",
     "00.Inbox/Framelets.md",
+    "60.Templates/Paper_Note.md",
+    "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Examples/ep - Dirichlet's Principle.md",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
     "20.Cards/Notes/可上三角化的flag证明.md",
@@ -213,9 +217,6 @@
     "00.Inbox/上交数学高代2025.md",
     "00.Inbox/英文面试.md",
     "00.Inbox/Evolution of Metric and Curvature.md",
-    "00.Inbox/Sobolev空间.md",
-    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
-    "20.Cards/Notes/PID上有限生成模的结构定理及其应用.md",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
