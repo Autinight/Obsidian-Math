@@ -1,3 +1,6 @@
+
+### Frame
+
 > [!definition] Definition: Frame
 > Let $H$ be a Hilbert space. A countable family
 > $$ \left\{ g_{\lambda } \right\}_{\lambda \in \Lambda }\subseteq H $$ 
@@ -14,3 +17,6 @@
 > 
 > A frame allows redundancy:
 > - Redundancy means that the same information is represented through more frame elements than are strictly necessary. Consequently, removing one element may still leave a complete or even stable system. The benefit is robustness and flexibility; the cost is extra coefficients and nonunique synthesis representations.
+
+### Wavelet
+
