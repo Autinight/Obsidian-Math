@@ -1,28 +1,18 @@
-<%*
-const title = await tp.system.prompt("Paper title（英文原题）");
-const safeTitle = (title || "Untitled Paper").replace(/[\\/:*?"<>|]/g, "-");
-await tp.file.rename(safeTitle);
-const authors = await tp.system.prompt("Authors（逗号分隔）");
-const status = await tp.system.suggester(
-  ["📖 Skim", "🔧 Working through", "✅ Done"],
-  ["Skim", "Working through", "Done"]
-);
-_%>
 ---
-title: "<% title %>"
-authors: "<% authors %>"
+title: "Tight framelets and fast framelet filter bank transforms on manifolds"
+authors: "Yu Guang Wanga, Xiaosheng Zhuang"
 venue: 
 year: 
 arxiv: 
-date_read: <% tp.date.now("YYYY-MM-DD") %>
-status: <% status %>
+date_read: 2026-08-14
+status: Skim
 tags: [paper-reading]
 ---
 
-# <% title %>
+# Tight framelets and fast framelet filter bank transforms on manifolds
 
 ## 1. One-line Summary
-<% tp.file.cursor() %>
+
 
 > [!summary]
 > 

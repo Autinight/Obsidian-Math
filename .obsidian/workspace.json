@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60.Templates/Paper_Note.md",
-                "mode": "source",
+                "file": "00.Inbox/Framelets.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Paper_Note"
+              "title": "Framelets"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60.Templates/Paper_Note.md",
+                "file": "00.Inbox/Framelets.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Paper_Note 的大纲"
+              "title": "Framelets 的大纲"
             }
           },
           {
@@ -185,10 +185,12 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
+    "00.Inbox/未命名.md",
+    "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "60.Templates/Script_DailyDraft.md",
     "00.Inbox/Framelets.md",
-    "60.Templates/Paper_Note.md",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Examples/ep - Dirichlet's Principle.md",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
@@ -214,9 +216,6 @@
     "00.Inbox/高代复习.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "00.Inbox/上交考研数学分析2026.md",
-    "00.Inbox/上交数学高代2025.md",
-    "00.Inbox/英文面试.md",
-    "00.Inbox/Evolution of Metric and Curvature.md",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
