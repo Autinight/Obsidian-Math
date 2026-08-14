@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Framelets.md",
+                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Framelets"
+              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Framelets.md",
+                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Framelets 的大纲"
+              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan 的大纲"
             }
           },
           {
@@ -185,12 +185,13 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
+    "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "00.Inbox/未命名.md",
+    "00.Inbox/Framelets.md",
+    "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "60.Templates/Script_DailyDraft.md",
-    "00.Inbox/Framelets.md",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Examples/ep - Dirichlet's Principle.md",
     "20.Cards/Examples/ep - Algebra of Quaternions.md",
