@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
-                "mode": "preview",
+                "file": "00.Inbox/Framelets.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan"
+              "title": "Framelets"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
+                "file": "00.Inbox/Framelets.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan 的大纲"
+              "title": "Framelets 的大纲"
             }
           },
           {
@@ -185,9 +185,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/MRA-Based Tight Wavelet Frames.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "00.Inbox/Framelets.md",
+    "00.Inbox/MRA-Based Tight Wavelet Frames.md",
     "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
