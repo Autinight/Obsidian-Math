@@ -1,8 +1,8 @@
 {
   "ribbonIcon": true,
-  "ribbonCommandUsesCode": true,
+  "ribbonCommandUsesCode": false,
   "showFileContextMenuItem": true,
-  "executeTemplate": "code --remote wsl+Ubuntu \"/home/autin/My_Latex.code-workspace\" --goto \"/mnt/d/My_Latex/Obsidian Vault/{{filepath}}:{{line}}\"",
+  "executeTemplate": "code \"{{vaultpath}}\" \"{{vaultpath}}/{{filepath}}\"",
   "urlProtocol": "vscode",
   "openFile": true,
   "workspacePath": "{{vaultpath}}"
