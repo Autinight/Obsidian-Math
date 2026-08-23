@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Framelets.md",
-                "mode": "source",
+                "file": "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Framelets"
+              "title": "MRA-Based_Wavelet_Frames_and__Applications"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Framelets.md",
+                "file": "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Framelets 的大纲"
+              "title": "MRA-Based_Wavelet_Frames_and__Applications 的大纲"
             }
           },
           {
@@ -185,10 +185,11 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
+    "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
+    "00.Inbox/MRA-Based Tight Wavelet Frames.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "00.Inbox/Framelets.md",
-    "00.Inbox/MRA-Based Tight Wavelet Frames.md",
-    "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "60.Templates/Script_DailyDraft.md",
@@ -216,7 +217,6 @@
     "00.Inbox/论文名词.md",
     "00.Inbox/高代复习.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
-    "00.Inbox/上交考研数学分析2026.md",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
