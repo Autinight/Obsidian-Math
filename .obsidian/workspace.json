@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
-                "mode": "preview",
+                "file": "00.Inbox/未命名.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Open_Problems_in_Geometric_Analysis_Precise_Formulations"
+              "title": "未命名"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
+                "file": "00.Inbox/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Open_Problems_in_Geometric_Analysis_Precise_Formulations 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -185,9 +185,10 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
+    "00.Inbox/未命名.md",
     "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
     "00.Inbox/几何分析中小量级开放问题_精确表述.md",
-    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
     "00.Inbox/MRA-Based Tight Wavelet Frames.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
@@ -216,7 +217,6 @@
     "00.Inbox/上交数学高代2026.md",
     "00.Inbox/级数.md",
     "00.Inbox/关键词.md",
-    "00.Inbox/论文名词.md",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
