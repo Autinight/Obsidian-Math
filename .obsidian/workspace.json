@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Agent Workflow, 从pdf到tex代码.md",
-                "mode": "source",
+                "file": "00.Inbox/PLAN.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agent Workflow, 从pdf到tex代码"
+              "title": "PLAN"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Agent Workflow, 从pdf到tex代码.md",
+                "file": "00.Inbox/PLAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Agent Workflow, 从pdf到tex代码 的大纲"
+              "title": "PLAN 的大纲"
             }
           },
           {
@@ -185,8 +185,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
     "00.Inbox/Agent Workflow, 从pdf到tex代码.md",
+    "00.Inbox/PLAN.md",
+    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
     "00.Inbox/Framelets.md",
     "00.Inbox/书单.md",
     "00.Inbox/01.Todo List/线上交流.md",
@@ -215,7 +216,6 @@
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "20.Cards/Theorems/thm - First Existence Theorem for weak solutions.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
