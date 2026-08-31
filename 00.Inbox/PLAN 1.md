@@ -100,9 +100,7 @@ text 9981 | inline_equation 7628 | interline_equation 875 | image 51 | table 1 |
 
 **坑 2（v1 遗漏）**：`image` / `table` / `chart` 类 block **没有自己的 lines**，内容在 `blocks[]` 子数组里，形如 `image_body` + `image_caption`。遍历器必须递归下一层，否则 51 张图和全部图题会被静默丢弃。图题配对**不需要**按 bbox 距离猜——MinerU 已经把 caption 放进同一个父块，直接读即可（实测 51 个图块中 51 个带 caption，仅 2 个 figure-ish 块无 caption）。
 
-**坑 3（v1 误判，已纠正）**：`ref_text` 共 72 个，实测 **71 个是真的参考文献**（集中在 p306 之后，形如 `[Am 1] AMBROSE, W., Parallel translation..., Ann. of Math. 64 (1956), 337–363.`），仅 1 个是定理。v1 写的“ref_text 是定理陈述”是拿首个样本外推造成的错误。**`ref_text` → `bibitem`**。
-
-**坑 4（关键）**：**MinerU 不标记定理**。它只给排版级类型（text / title / interline_equation），定理与普通段落在它眼里同为 `text`。定理环境必须由我们自己从文本模式识别，见 §4.5。
+**坑 3**：存在 `ref_text` 类型，是**定理/引理的正文陈述**（实测样本：`1. (Klingenberg's Lemma). Let M be a complete Riemannian manifold...`），不是参考文献。不要按字面当 bibliography 处理。
 
 ### 1.4 `cross_page` 标记
 
@@ -269,7 +267,7 @@ IR 块类型（第一版只支持这些）：
 
 ```
 heading  paragraph  equation  figure  table
-list     footnote   caption   theorem  proof   bibitem  chart
+list     footnote   caption   theorem  chart
 ```
 
 MinerU 原始类型 → IR kind 映射（依实测分布）：
@@ -279,7 +277,7 @@ MinerU 原始类型 → IR kind 映射（依实测分布）：
 | `title` | `heading` | 层级由编号模式推断 |
 | `text` | `paragraph` | spans 混排，走 inlines |
 | `interline_equation` | `equation` | 875 个，量大，是第二主力 |
-| `ref_text` | `bibitem` | **是参考文献**，71/72 在 p306+ |
+| `ref_text` | `theorem` | **不是参考文献**，是定理陈述 |
 | `image` + 子块 | `figure` | caption 从 `image_caption` 子块直接取 |
 | `table` + 子块 | `table` | html 优先，失败降级图片 |
 | `chart` + 子块 | `chart` | 样本仅 1 个，先按 figure 处理 |
@@ -295,155 +293,9 @@ MinerU 原始类型 → IR kind 映射（依实测分布）：
 | 章节层级 | 依 MinerU 的 title 块 + 编号模式（`3.1` → subsection） |
 | 公式编号提取 | 匹配行尾 `(3.14)` 形态 → 移出正文，转 `\label{eq:3.14}` |
 | 图题配对 | **直接读 `image_caption` 子块**，无需 bbox 距离猜测 |
-| 定理环境识别 | 见 §4.5，独立小节 |
+| 定理环境识别 | `ref_text` 块 + 正则匹配 `(Klingenberg's Lemma).` / `Theorem 3.1.` / `Proof.` |
 
 数学书的定理环境识别用正则准确率很高（格式极规整），不值得动模型。
-
-### 4.5 · 定理提取与 TeX 输出格式
-
-#### 原书实际格式（实测，不是假设）
-
-do Carmo 的定理形态是 **编号在前 + 全大写关键词**，与常见的 `Theorem 3.1.` 相反：
-
-```
-2.1 DEFINITION. A differentiable manifold of dimension n is a set M and ...
-2.7 PROPOSITION. Let $M_1^n$ and $M_2^m$ be differentiable manifolds ...
-4.1 EXAMPLE. (The tangent bundle). Let $M^n$ be a differentiable manifold ...
-3.6 THEOREM (Levi-Civita). ...
-2.10 Theorem. Let $\varphi: M_1^n \to M_2^n$ be ...
-```
-
-实测统计（315 页，正则 `^(\d+\.\d+)\s+([A-Za-z]{4,12})\.`）：
-
-```
-匹配总数 258，未识别关键词 0 个（零误判）
-
-PROPOSITION 50 | REMARK 49 | DEFINITION 41 | EXAMPLE 38
-LEMMA 33 | COROLLARY 25 | THEOREM 22
-
-关键词大小写：ALLCAPS 253 / Title-case 5   → 必须大小写不敏感
-带命名（括号）：35 个
-Proof 开头块：108 个
-```
-
-两个必须遵守的细节：
-
-1. **大小写不敏感**：253 个全大写 + 5 个 Title-case，只匹配一种会漏
-2. **命名位置不固定**：`EXAMPLE. (The tangent bundle).` 和 `THEOREM (Levi-Civita).` 两种都有，括号可在句点前后
-
-#### 误判防范（v1 踩过的坑）
-
-不能只靠关键词开头匹配。以下均为**正文引用**，不是定理陈述：
-
-```
-Proposition 2.5 asserts that if $|v| < \varepsilon_1$, the geodesic ...
-Lemma 3.3 implies that, for all $X, Y, W, Z$, ...
-Corollary 2.8 shows also that $M - C_m(p)$ is homeomorphic to ...
-```
-
-**区分规则**：定理陈述是 `编号 + 关键词 + 句点`；引用是 `关键词 + 编号 + 动词`。因此正则**必须要求编号在关键词之前**，且关键词后跟句点。
-
-#### 环境定义（preamble.tex）
-
-原书编号是“节内连编”（`2.1` `2.7` `3.6`），且定义/命题/定理**共享同一个计数器**（看 `2.7 PROPOSITION` → `2.8 DEFINITION` → `2.10 Theorem` 的连续序列）。这一点必须在 amsthm 里用**共享计数器**表达：
-
-```latex
-\usepackage{amsthm}
-
-% 共享计数器，按节编号 —— 与原书 "2.1 / 2.7 / 2.10" 一致
-\newtheorem{thmlike}{Theorem}[section]
-
-\theoremstyle{plain}
-\newtheorem{theorem}   [thmlike]{Theorem}
-\newtheorem{proposition}[thmlike]{Proposition}
-\newtheorem{lemma}    [thmlike]{Lemma}
-\newtheorem{corollary}[thmlike]{Corollary}
-
-\theoremstyle{definition}
-\newtheorem{definition}[thmlike]{Definition}
-\newtheorem{example}  [thmlike]{Example}
-
-\theoremstyle{remark}
-\newtheorem{remark}   [thmlike]{Remark}
-```
-
-三种 `\theoremstyle` 对应原书的视觉区分：`plain` 斜体正文（定理类）、`definition` 直体（定义与例）、`remark` 直体轻量（注）。
-
-#### 输出格式
-
-**无命名**：
-
-```latex
-\begin{definition}\label{thm:2.1}
-A differentiable manifold of dimension $n$ is a set $M$ and a family of
-injective mappings $x_\alpha$ ...
-\end{definition}
-```
-
-**带命名** → 进 `[...]` 可选参数：
-
-```latex
-\begin{theorem}[Levi-Civita]\label{thm:3.6}
-Given a Riemannian manifold $M$, there exists a unique affine connection
-$\nabla$ on $M$ satisfying ...
-\end{theorem}
-
-\begin{example}[The tangent bundle]\label{thm:4.1}
-Let $M^n$ be a differentiable manifold and let $TM = \{(p,v);\ p \in M\}$ ...
-\end{example}
-```
-
-**证明**：
-
-```latex
-\begin{proof}
-Let $x: U \to M_1$ and $y: V \to M_2$ be parametrizations at $p$ and
-$\varphi(p)$, respectively ...
-\end{proof}
-```
-
-`amsthm` 的 `proof` 环境自带 QED 方块。实测证明块末尾无 QED 标记（尾部采样均为普通文字），说明原书的 QED 符号未被 OCR 捕获，交给 LaTeX 自动生成即可。
-
-#### 编号一致性：本方案最大的工程权衢
-
-原书编号 `2.1` 是 **OCR 读出来的字面值**；LaTeX 的 `\newtheorem` 是 **自动重新生成**。两者一旦不一致，正文里“由命题 2.5 可得”这类引用全部错位。
-
-三种策略：
-
-| 策略 | 做法 | 代价 |
-|---|---|---|
-| **A 保号**（默认） | 用 `\setcounter` 强制对齐原书编号 | 遇原书编号跳号/错号时需保留异常 |
-| B 重编 | 让 LaTeX 自由编号，全书引用改 `\ref` | 必须能识别正文中所有交叉引用，风险高 |
-| C 纯文本 | 不用 amsthm 计数，编号当普通文字写死 | 丢失可引用性 |
-
-**选 A**。理由：扫描书重建的首要目标是与原书对得上，读者拿纸质书对照时编号必须一致。实现：
-
-```latex
-\setcounter{section}{2}\setcounter{thmlike}{0}
-\begin{definition}\label{thm:2.1}   % → 渲染为 "Definition 2.1"
-```
-
-渲染器在每个定理环境前校对：若 LaTeX 即将生成的编号 ≠ OCR 读到的编号，**插入 `\setcounter` 纠偏并在 QA 报告里记一笔**。跳号密集出现时要人工看一眼，往往意味着漏了块。
-
-#### label 命名
-
-```
-thm:<原书编号>     定理类，如 thm:2.7
-eq:<原书编号>      公式，如 eq:3.14
-fig:<block id>     图，如 fig:p0024-img001
-```
-
-定理用原书编号而不用 block id，因为正文引用写的就是原书编号，将来把“Proposition 2.5”自动改成 `\ref{thm:2.5}` 时能直接对上。
-
-#### 降级路径
-
-识别不确定时不要硬猜环境。降级为普通段落，保留字面编号和关键词，置 `needs_review: true`：
-
-```latex
-\noindent\textbf{2.1 DEFINITION.} A differentiable manifold ...
-```
-
-内容不丢，只是少了语义环境，后续可以单独修。
 
 ### S5 · LLM 修复（可选，仅逐块）
 
@@ -518,7 +370,6 @@ xelatex -interaction=nonstopmode -halt-on-error=false main.tex
 L1 Schema     IR 通过 JSON Schema 校验，id 唯一，order 连续
 L2 完整性     块数 / 图片资源 / 公式数 与 MinerU 原始计数对账
               硬指标：text 2207 / interline_eq 875 / inline_eq 7628 / image 51 / title 89
-              定理指标：定理环境 258 / 带命名 35 / proof 108 / bibitem 71
 L3 语法       括号配平、环境配对、未定义命令扫描
 L4 编译       XeLaTeX 退出码、错误分类统计
 L5 引用       undefined reference / 重复 label
@@ -611,8 +462,6 @@ merged.json → adapter → IR → render → xelatex → PDF
 | **CDN 图片链接过期，928 张图全废** | **最高** | S0.5 立即抓取落地，早于一切其他工作 |
 | 嵌套子块未递归导致图和图题静默丢失 | 高 | adapter 递归遍历 + L2 对账图片数 == 51 |
 | span 混排处理错误导致公式/文字错位 | 高 | M1 就专项验证，做 inlines 单元测试 |
-| 定理识别误判（把正文引用当成定理） | 中 | 正则要求编号在关键词之前；实测 258 块零误判 |
-| 定理编号与原书不一致，正文引用全错位 | 高 | 策略 A 保号 + `\setcounter` 纠偏 + QA 记录跳号 |
 | MinerU 版本升级改字段 | 中 | 全部耦合收敛在 `adapter.py`；API 路线额外钉住 `_version_name` |
 | API 与本地产出结构有别 | 中 | adapter 内分支处理，IR 层统一为本地相对路径 |
 | 单个坏公式炸掉全书编译 | 中 | 公式独立试编译 + 降级 `\verb` |
