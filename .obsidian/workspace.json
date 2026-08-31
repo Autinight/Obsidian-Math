@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/01.Todo List/线上交流.md",
+                "file": "00.Inbox/书单.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "线上交流"
+              "title": "书单"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/01.Todo List/线上交流.md",
+                "file": "00.Inbox/书单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线上交流 的大纲"
+              "title": "书单 的大纲"
             }
           },
           {
@@ -185,8 +185,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/几何分析中小量级开放问题_精确表述.md",
     "00.Inbox/01.Todo List/线上交流.md",
+    "00.Inbox/书单.md",
+    "00.Inbox/几何分析中小量级开放问题_精确表述.md",
     "20.Cards/Theorems/thm - Seperate a point and a compact set.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
@@ -216,7 +217,6 @@
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "00.Inbox/Daily Draft 2026-07-25.md",
     "00.Inbox/上交数学高代2026.md",
-    "00.Inbox/级数.md",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
