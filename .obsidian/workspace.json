@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/PLAN 1.md",
+                "file": "00.Inbox/MRA-Based Tight Wavelet Frames.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PLAN 1"
+              "title": "MRA-Based Tight Wavelet Frames"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/PLAN 1.md",
+                "file": "00.Inbox/MRA-Based Tight Wavelet Frames.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PLAN 1 的大纲"
+              "title": "MRA-Based Tight Wavelet Frames 的大纲"
             }
           },
           {
@@ -185,8 +185,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/PLAN.md",
+    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/PLAN 1.md",
+    "00.Inbox/PLAN.md",
     "00.Inbox/PLAN 2.md",
     "00.Inbox/Agent Workflow, 从pdf到tex代码.md",
     "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
@@ -198,7 +199,6 @@
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "00.Inbox/如何搭建AI学习系统.md",
-    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
     "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
     "00.Inbox/MRA-Based Tight Wavelet Frames.md",
