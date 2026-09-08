@@ -1,4 +1,3 @@
-# Open Problems in Geometric Analysis: Precise Formulations and Research-Scale Reductions
 
 > Status checked on: August 25, 2026  
 > Scope: min–max theory, free-boundary minimal surfaces, anisotropic minimal surfaces, and mean curvature flow.
