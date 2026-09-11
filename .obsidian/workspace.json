@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
-                "mode": "preview",
+                "file": "00.Inbox/Daily Draft 2026-09-11.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan"
+              "title": "Daily Draft 2026-09-11"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
+                "file": "00.Inbox/Daily Draft 2026-09-11.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan 的大纲"
+              "title": "Daily Draft 2026-09-11 的大纲"
             }
           },
           {
@@ -185,34 +185,34 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "20.Cards/Concepts/Degree of a Smooth Map.md",
+    "00.Inbox/Daily Draft 2026-09-11.md",
+    "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
+    "20.Cards/Concepts/Functions of Bounded Variation.md",
+    "20.Cards/Concepts/Dynkin diagram.md",
+    "20.Cards/Concepts/Conjugation Map and the Adjoint Representation of the Lie Group.md",
+    "20.Cards/Concepts/Base for a Root System.md",
+    "20.Cards/Concepts/Cartan Matrix.md",
+    "20.Cards/Concepts/Characteristic Functions.md",
+    "20.Cards/Propositions/pps - A map from compact to Hausdorff spaces is closed.md",
+    "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
+    "20.Cards/Notes/可上三角化的flag证明.md",
     "00.Inbox/几何分析中小量级开放问题_精确表述.md",
+    "00.Inbox/书单.md",
+    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
+    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
+    "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
+    "10.Atlas/AT/Atlas - Covering Space.canvas",
+    "20.Cards/Notes/分块行列式的结构性拆解.md",
+    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
     "60.Templates/Script_DailyDraft.md",
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "00.Inbox/thm - Maximum Principle.md",
     "00.Inbox/ksdjkjd.md",
-    "00.Inbox/如何搭建AI学习系统.md",
-    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
-    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/Tight framelets and fast framelet filter bank transforms on manifolds.md",
-    "00.Inbox/MRA-Based Tight Wavelet Frames.md",
-    "00.Inbox/MRA-Based_Wavelet_Frames_and__Applications.md",
-    "00.Inbox/书单.md",
-    "00.Inbox/Agent Workflow, 从pdf到tex代码.md",
-    "00.Inbox/Framelets.md",
-    "00.Inbox/PLAN 1.md",
-    "00.Inbox/PLAN.md",
-    "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
-    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
-    "20.Cards/Notes/PID上有限生成模的结构定理及其应用.md",
-    "20.Cards/Notes/分块行列式的结构性拆解.md",
-    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
-    "31.Obsidian Books/RG_Petersen/Petersen_RG_ch01_Riemannian_Metrics.md",
-    "20.Cards/Notes/可上三角化的flag证明.md",
-    "00.Inbox/PLAN 2.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
-    "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
