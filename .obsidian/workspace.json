@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60.Templates/Script_DailyDraft.md",
-                "mode": "preview",
+                "file": "00.Inbox/Harmonic Function.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Script_DailyDraft"
+              "title": "Harmonic Function"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60.Templates/Script_DailyDraft.md",
+                "file": "00.Inbox/Harmonic Function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Script_DailyDraft 的大纲"
+              "title": "Harmonic Function 的大纲"
             }
           },
           {
@@ -185,10 +185,16 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "20.Cards/Definitions/dfn - Mean Value Properties.md",
+    "00.Inbox/Harmonic Function.md",
+    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "20.Cards/Definitions/dfn - Harmonic Function.md",
+    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "60.Templates/Script_DailyDraft.md",
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "00.Inbox/thm - a.md",
-    "60.Templates/Script_DailyDraft.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
     "20.Cards/Concepts/Degree of a Smooth Map.md",
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
@@ -208,15 +214,9 @@
     "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
-    "20.Cards/Notes/分块行列式的结构性拆解.md",
-    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
-    "00.Inbox/thm - Maximum Principle.md",
-    "00.Inbox/ksdjkjd.md",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "10.Atlas/PDE/Atlas - The Calculus of Variations.canvas",
-    "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
