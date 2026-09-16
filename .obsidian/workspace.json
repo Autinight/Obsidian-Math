@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+                "file": "00.Inbox/Harmonic Function.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Positive Set, Negative Set, Zero Set"
+              "title": "Harmonic Function"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+                "file": "00.Inbox/Harmonic Function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Positive Set, Negative Set, Zero Set 的大纲"
+              "title": "Harmonic Function 的大纲"
             }
           },
           {

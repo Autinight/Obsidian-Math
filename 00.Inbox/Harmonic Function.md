@@ -35,7 +35,7 @@ description: 介绍了调和性质与平均值性质的关系
 > u\left(y\right)= \left(\le ,\ge \right)\frac{1 }{\omega _{n}R^{n} }\int _{B} u\,d x
 > $$
 
-> [!proof] Proof: 
+> [!proof]- Proof: 
 > 
 > We set 
 > $$
@@ -72,7 +72,37 @@ description: 介绍了调和性质与平均值性质的关系
 >  R^{n}u\left(y\right)= \left(\le ,\ge \right)\frac{1 }{\omega _{n} }\int _{B_{\rho }}u\,d x
 > $$
 
+### Maximum Principle
 
+> [!theorem] Theorem: 
+> Let $u\in C^{2}\left(\Omega \right)$ satisfies $\Delta u\ge 0$. Assume that there exists $y\in \Omega$ such that $u\left(y\right)= \sup _{x\in \Omega }u\left(x\right)$. Then $u$ is constant.
+
+> [!proof] Proof: 
+> Let $M= \sup _{x\in \Omega }u\left(x\right)$. Define
+> $$ 
+> \Omega _{M}= \left\{ x\in \Omega : u\left(x\right)= M \right\}
+>  $$ 
+>  Since $u$ is continuous, $u$ is closed relative to $\Omega$. 
+>  Note that $u-M$ is subharmonic either. Let $y$ be any point in $\Omega _{M}$,  we have for each $B_{r}\left(y\right)\subset \subset \Omega$, there is 
+>  $$
+>  0= u\left(y\right)-M\le  \frac{1 }{\omega _{n}r^{n} }\int _{B_{r}\left(y\right)}u\left(x\right)-M\,d x\le 0
+>   $$ 
+>  Thus $u= M$ on $B_{r}\left(x\right)$, $\Omega _{M}$ is open relative to $\Omega$. We have 
+>  $$
+>   \Omega _{M}= \Omega  
+>   $$ 
+
+> [!theorem] Theorem: 
+> Let $u\in C^{2}\left(\Omega \right)\cap C^{0}\left(\overline{\Omega} \right)$. If $\Delta u\ge 0$, then 
+> $$ \sup _{x\in \Omega }u= \sup _{x\in \partial \Omega }u $$
+> 
+> Consequently, for harmonic $u$, we have 
+> $$ \inf _{\partial \Omega }u\le u\left(x\right)\le \sup _{\partial \Omega }u,\quad \forall x\in \Omega  $$
+> 
+
+> [!corollary] Corollary: Uniqueness Theorem for Dirichlet Problem
+> Let $u,v\in C^{2}\left(\Omega \right)\cap C^{0}\left(\overline{\omega}\right)$. If $\Delta u= \Delta v$ and $u|_{\partial \Omega }= v|_{\partial \Omega }$, then $u= v$.
+> 
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
