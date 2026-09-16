@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/多复变 - HW1.md",
+                "file": "00.Inbox/Harmonic Function.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "多复变 - HW1"
+              "title": "Harmonic Function"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/多复变 - HW1.md",
+                "file": "00.Inbox/Harmonic Function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "多复变 - HW1 的大纲"
+              "title": "Harmonic Function 的大纲"
             }
           },
           {
@@ -183,15 +183,22 @@
       "templates:插入模板": false
     }
   },
-  "active": "55b2c8345fb7677e",
+  "active": "a1858d490d4e3409",
   "lastOpenFiles": [
-    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
+    "00.Inbox/书单.md",
+    "00.Inbox/Daily Draft 2026-09-11.md",
+    "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
+    "00.Inbox/几何分析中小量级开放问题_精确表述.md",
+    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
+    "00.Inbox/Harmonic Function.md",
+    "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
+    "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/多复变 - HW1.md",
+    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
     "20.Cards/Notes/可上三角化的flag证明.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Concepts/Base for a Root System.md",
-    "00.Inbox/Harmonic Function.md",
     "20.Cards/Definitions/dfn - Mean Value Properties.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "20.Cards/Definitions/dfn - Harmonic Function.md",
@@ -201,18 +208,11 @@
     "60.Templates/Paper_Note.md",
     "60.Templates/NOTES.md",
     "00.Inbox/thm - a.md",
-    "00.Inbox/Daily Draft 2026-09-11.md",
     "20.Cards/Concepts/Degree of a Smooth Map.md",
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "20.Cards/Concepts/Functions of Bounded Variation.md",
     "20.Cards/Concepts/Dynkin diagram.md",
     "20.Cards/Concepts/Conjugation Map and the Adjoint Representation of the Lie Group.md",
-    "20.Cards/Concepts/Cartan Matrix.md",
-    "20.Cards/Concepts/Characteristic Functions.md",
-    "20.Cards/Propositions/pps - A map from compact to Hausdorff spaces is closed.md",
-    "00.Inbox/几何分析中小量级开放问题_精确表述.md",
-    "00.Inbox/书单.md",
-    "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
