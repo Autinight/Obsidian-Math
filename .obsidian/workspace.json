@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/dfn - Signed Measure.md",
+                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dfn - Signed Measure"
+              "title": "Positive Set, Negative Set, Zero Set"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/dfn - Signed Measure.md",
+                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "dfn - Signed Measure 的大纲"
+              "title": "Positive Set, Negative Set, Zero Set 的大纲"
             }
           },
           {
@@ -185,8 +185,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/Harmonic Function.md",
     "00.Inbox/dfn - Signed Measure.md",
+    "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+    "00.Inbox/Harmonic Function.md",
     "00.Inbox/书单.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
     "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
@@ -212,7 +213,6 @@
     "20.Cards/Concepts/Degree of a Smooth Map.md",
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "20.Cards/Concepts/Functions of Bounded Variation.md",
-    "20.Cards/Concepts/Dynkin diagram.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
