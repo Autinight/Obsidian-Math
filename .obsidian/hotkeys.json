@@ -50,14 +50,6 @@
       "key": "D"
     }
   ],
-  "open-vscode:open-vscode": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
-  ],
   "claudian:new-tab": [
     {
       "modifiers": [
@@ -244,6 +236,14 @@
         "Mod"
       ],
       "key": "T"
+    }
+  ],
+  "open-vscode:open-vscode-via-url": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
     }
   ]
 }

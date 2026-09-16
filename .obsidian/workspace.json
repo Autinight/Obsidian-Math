@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Harmonic Function.md",
-                "mode": "preview",
+                "file": "00.Inbox/dfn - Signed Measure.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Harmonic Function"
+              "title": "dfn - Signed Measure"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Harmonic Function.md",
+                "file": "00.Inbox/dfn - Signed Measure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Harmonic Function 的大纲"
+              "title": "dfn - Signed Measure 的大纲"
             }
           },
           {
@@ -183,14 +183,15 @@
       "templates:插入模板": false
     }
   },
-  "active": "a1858d490d4e3409",
+  "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "00.Inbox/Harmonic Function.md",
+    "00.Inbox/dfn - Signed Measure.md",
     "00.Inbox/书单.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
     "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/几何分析中小量级开放问题_精确表述.md",
     "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
-    "00.Inbox/Harmonic Function.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/多复变 - HW1.md",
@@ -212,7 +213,6 @@
     "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "20.Cards/Concepts/Functions of Bounded Variation.md",
     "20.Cards/Concepts/Dynkin diagram.md",
-    "20.Cards/Concepts/Conjugation Map and the Adjoint Representation of the Lie Group.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
