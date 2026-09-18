@@ -102,7 +102,39 @@ description: 介绍了调和性质与平均值性质的关系
 
 > [!corollary] Corollary: Uniqueness Theorem for Dirichlet Problem
 > Let $u,v\in C^{2}\left(\Omega \right)\cap C^{0}\left(\overline{\omega}\right)$. If $\Delta u= \Delta v$ and $u|_{\partial \Omega }= v|_{\partial \Omega }$, then $u= v$.
-> 
+
+
+### Harnack Inequality  
+
+> [!theorem] Theorem: 
+> Let $u$ be a non-negative harmonic function in $\Omega$. Then for any bounded subdomain $\Omega ^{\prime} \subset \subset \Omega$, there exists $C$ depending only on $n, \Omega , \Omega ^{\prime}$, such that
+> $$
+> \sup _{\Omega ^{\prime} }u\le C \inf _{\Omega ^{\prime} }u 
+> $$ 
+
+> [!remark] Remark: 
+> Preview : 由于下方球的估计方式在经过相似变换和正交变换也是成立的, 因此齐次的椭圆方程也会有类似的估计. 
+
+> [!proof] Proof: 
+> Let $y\in \Omega$, $B_{4R}\left(y\right)\subseteq \Omega ^{\prime}$. Then for any two points $x_1,x_2\in B_{R}\left(y\right)$, 
+> $$
+> u\left(x_1\right)= \frac{1 }{\omega _{n}R^{n} } \int _{B_{R}\left(x_1\right)}u\left(x\right)\,d x\le \frac{1 }{\omega _{n}R^{n} }  \int _{B_{2R}\left(y\right)} u\left(x\right)\,d x
+> $$
+> $$
+> u\left(x_2\right)= \frac{1 }{\omega _{n}\left(3R\right)^{n} } \int _{B_{3R}\left(x_2\right)}u\left(x\right)\,d x\ge \frac{1 }{\omega _{n}\left(3R\right)^{n} } \int _{B_{2R}\left(y\right)} u\left(x\right)\,d x
+> $$
+> Consequently we obtain
+> $$
+> \sup _{B_{R}\left(y\right)}u\le 3^{n} \inf _{B_{R}\left(y\right)}u \tag{1}
+> $$
+> We choose $x_1,x_2\in \overline{\Omega}^{\prime}$ such that $u\left(x_1\right)= \sup _{\Omega ^{\prime} }u$ and $u\left(x_2\right)= \inf _{\Omega ^{\prime} }u$. Let $\Gamma \subseteq \overline{\Omega}^{\prime}$ be a closed arc joining $x_1$ and $x_2$ and choose $R$ such that $4R\le \operatorname{dist}{\left(  \Gamma , \partial \Omega  \right)}$. Since $\Gamma$ is compact in $\Omega$.  $\Gamma$ can be covered by a finite number $N$ of balls with radius $R$. Applying the estimate (1) in each ball and combining the resulting inequalities, we obtain
+> $$
+> u\left(x_1\right)\le 3^{nN}u\left(x_2\right) 
+> $$
+> Hence the estimate holds with $C= 3^{nN}$.
+
+
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
