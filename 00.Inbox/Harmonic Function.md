@@ -133,8 +133,7 @@ description: 介绍了调和性质与平均值性质的关系
 > $$
 > Hence the estimate holds with $C= 3^{nN}$.
 
-
-$$ u\left(y\right)= \int _{\partial \Omega }\left(u\frac{\partial \Gamma }{\partial \nu }\left(x-y\right)-\Gamma \left(x-y\right)\frac{\partial u}{\partial \nu }\right) $$ 
+ 
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
