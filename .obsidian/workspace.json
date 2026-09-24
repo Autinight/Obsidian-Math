@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Harmonic Function.md",
+                "file": "20.Cards/Notes/分块行列式的结构性拆解.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Harmonic Function"
+              "title": "分块行列式的结构性拆解"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/Harmonic Function.md",
+                "file": "20.Cards/Notes/分块行列式的结构性拆解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Harmonic Function 的大纲"
+              "title": "分块行列式的结构性拆解 的大纲"
             }
           },
           {
@@ -185,9 +185,11 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "20.Cards/Notes/可上三角化的flag证明.md",
+    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
+    "00.Inbox/Harmonic Function.md",
     "00.Inbox/dfn - Signed Measure.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
-    "00.Inbox/Harmonic Function.md",
     "00.Inbox/Positive Set, Negative Set, Zero Set.md",
     "00.Inbox/书单.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
@@ -198,7 +200,6 @@
     "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/多复变 - HW1.md",
     "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
-    "20.Cards/Notes/可上三角化的flag证明.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Concepts/Base for a Root System.md",
@@ -212,7 +213,6 @@
     "60.Templates/NOTES.md",
     "00.Inbox/thm - a.md",
     "20.Cards/Concepts/Degree of a Smooth Map.md",
-    "20.Cards/Concepts/First Variation, Euler-Lagrange equation.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
