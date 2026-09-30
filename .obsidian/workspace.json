@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20.Cards/Notes/分块行列式的结构性拆解.md",
-                "mode": "source",
-                "source": false,
+                "file": "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "分块行列式的结构性拆解"
+              "title": "dfn - de Rham Cohomology Group"
             }
           }
         ]
@@ -198,6 +198,18 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "dfn - Topological Manifold.md",
+    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
+    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
+    "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Notes/可上三角化的flag证明.md",
     "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/Harmonic Function.md",
@@ -214,18 +226,10 @@
     "00.Inbox/多复变 - HW1.md",
     "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
-    "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Concepts/Base for a Root System.md",
     "20.Cards/Definitions/dfn - Mean Value Properties.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
-    "20.Cards/Definitions/dfn - Harmonic Function.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
-    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
-    "60.Templates/Script_DailyDraft.md",
-    "60.Templates/Paper_Note.md",
-    "60.Templates/NOTES.md",
-    "00.Inbox/thm - a.md",
-    "20.Cards/Concepts/Degree of a Smooth Map.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
     "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
@@ -235,14 +239,10 @@
     "Pasted image 20260708162549.png",
     "Pasted image 20260708162559.png",
     "30.Recources/ML",
-    "10.Atlas/PDE/Atlas - Sobolev Spaces.canvas",
     "OH-Works/截图",
     "OH-Works",
     "31.Obsidian Books/MA_Xie",
-    "10.Atlas/Probability/Atlas - Law of Large Number.canvas",
-    "10.Atlas/Probability/Atlas - Central Limit Theorems.canvas",
     "40.Drafts/2026-07",
-    "10.Atlas/LA/Atlas - Root Systems.canvas",
     "50.Image/MCD/RAW/111.mcd",
     "10.Atlas/DM/未命名",
     "node_modules/better-sqlite3/build",
