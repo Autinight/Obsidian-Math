@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "baseFontSizeAction": true,
-  "textFontFamily": "Lucida Bright,字体管家楷体",
+  "textFontFamily": "Springer Latin Modern,Songti SC,STSong,Noto Serif CJK SC,Noto Serif SC,Source Han Serif SC,serif",
   "interfaceFontFamily": "Lucida Bright",
   "monospaceFontFamily": "Cambria",
   "cssTheme": "Flexoki Warm",
@@ -9,7 +9,8 @@
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
     "math-callout",
-    "obsidian-callout-sidebar-math"
+    "obsidian-callout-sidebar-math",
+    "springer-latin-modern"
   ],
   "nativeMenus": false
 }
