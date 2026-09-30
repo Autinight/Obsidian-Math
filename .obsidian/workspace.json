@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -188,10 +190,10 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "open-vscode:VSCode": false,
-      "obsidian-git:Open Git source control": false,
+      "templates:插入模板": false,
       "templater-obsidian:Templater": false,
-      "templates:插入模板": false
+      "open-vscode:VSCode": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "55b2c8345fb7677e",
