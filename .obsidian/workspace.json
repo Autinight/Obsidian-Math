@@ -11,17 +11,24 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-                "viewState": {
-                  "x": -503.5,
-                  "y": 340,
-                  "zoom": -0.6722545785173235
+                "file": "00.Inbox/RA - HW - Ch1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Atlas - De Rham Cohomology"
+              "icon": "lucide-file",
+              "title": "RA - HW - Ch1"
             }
           }
         ]
@@ -67,6 +74,16 @@
               },
               "icon": "lucide-search",
               "title": "搜索"
+            }
+          },
+          {
+            "id": "0d1aa0b6442839ad",
+            "type": "leaf",
+            "state": {
+              "type": "mathcraft-note-manager",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "mathcraft-note-manager"
             }
           }
         ]
@@ -186,16 +203,21 @@
       "templates:插入模板": false,
       "templater-obsidian:Templater": false,
       "open-vscode:VSCode": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/如何搭建AI学习系统.md",
-    "00.Inbox/多复变 - HW1.md",
+    "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+    "00.Inbox/RA - HW - Ch1.md",
+    "00.Inbox/Harmonic Function.md",
+    "00.Inbox/dfn - Signed Measure.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
-    "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
+    "00.Inbox/如何搭建AI学习系统.md",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "00.Inbox/多复变 - HW1.md",
+    "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
     "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
@@ -209,9 +231,6 @@
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Notes/可上三角化的flag证明.md",
     "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
-    "00.Inbox/Harmonic Function.md",
-    "00.Inbox/dfn - Signed Measure.md",
-    "00.Inbox/Positive Set, Negative Set, Zero Set.md",
     "00.Inbox/书单.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
     "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
@@ -221,7 +240,6 @@
     "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
     "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "20.Cards/Concepts/Base for a Root System.md",
-    "20.Cards/Definitions/dfn - Mean Value Properties.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
