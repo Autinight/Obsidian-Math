@@ -11,24 +11,17 @@
             "id": "55b2c8345fb7677e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00.Inbox/如何搭建AI学习系统.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+                "viewState": {
+                  "x": -503.5,
+                  "y": 340,
+                  "zoom": -0.6722545785173235
                 }
               },
-              "icon": "lucide-file",
-              "title": "如何搭建AI学习系统"
+              "icon": "lucide-layout-dashboard",
+              "title": "Atlas - De Rham Cohomology"
             }
           }
         ]
@@ -198,8 +191,8 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/多复变 - HW1.md",
     "00.Inbox/如何搭建AI学习系统.md",
+    "00.Inbox/多复变 - HW1.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
     "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
     "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",

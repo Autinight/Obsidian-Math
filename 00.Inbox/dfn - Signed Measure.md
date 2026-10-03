@@ -22,6 +22,8 @@ tags: []
 >    $$
 
 
+
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
