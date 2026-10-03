@@ -16,8 +16,22 @@
     "note"
   ],
   "theoremNumberingMode": "unified",
-  "theoremHeadingLevel": 1,
+  "theoremHeadingMode": "h2",
   "theoremStyle": "plain",
+  "theoremStyleEnabled": {
+    "theorem": false,
+    "lemma": false,
+    "corollary": false,
+    "proposition": false,
+    "definition": false,
+    "axiom": false,
+    "example": false,
+    "exercise": false,
+    "remark": false,
+    "note": false
+  },
+  "remarkNoteSpecial": false,
+  "questionStyleEnabled": false,
   "theoremColors": {
     "theorem": "#3b82f6",
     "lemma": "#8b5cf6",
@@ -34,7 +48,7 @@
   "pdfPreventBreakInside": true,
   "equationMarkerMode": "all",
   "equationNumberingMode": "by-heading",
-  "equationHeadingLevel": 1,
+  "equationHeadingMode": "h2",
   "mathLinks": {
     "templates": [],
     "excludedPaths": [],
@@ -57,9 +71,11 @@
       "note": "number-only"
     },
     "equationExternalMode": "brackets",
-    "equationRenderMode": "number-only"
+    "equationRenderMode": "number-only",
+    "enableDynamicRendering": true
   },
   "headingNumbering": {
+    "level": "h2",
     "skipKeywords": []
   },
   "tikz": {
@@ -70,6 +86,30 @@
     "mcdExportPath": "",
     "enableCache": true
   },
+  "settingsTab": "theorem",
+  "simpleTexToken": "",
+  "simpleTexSecretName": "",
+  "noteManager": {
+    "propertyNames": {
+      "chapter": "chapter",
+      "section": "section",
+      "cluster": "cluster",
+      "orbit": "orbit"
+    },
+    "subjectFolders": [],
+    "exportEnabled": false,
+    "gitPublishEnabled": false,
+    "exportPaths": {},
+    "clusterOrders": {},
+    "lastSubjectPath": "",
+    "lastNotebookPath": "",
+    "openInNewTab": false,
+    "showFolderBasename": true,
+    "autoOpenNewNote": true,
+    "batchFreezeEnabled": false
+  },
+  "theoremHeadingLevel": 1,
+  "equationHeadingLevel": 1,
   "geogebraTools": {
     "tools": []
   },
@@ -83,8 +123,5 @@
       "精通",
       "融会贯通"
     ]
-  },
-  "settingsTab": "license",
-  "simpleTexToken": "",
-  "simpleTexSecretName": ""
+  }
 }
