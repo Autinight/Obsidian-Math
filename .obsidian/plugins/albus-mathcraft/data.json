@@ -86,7 +86,7 @@
     "mcdExportPath": "",
     "enableCache": true
   },
-  "settingsTab": "theorem",
+  "settingsTab": "heading",
   "simpleTexToken": "",
   "simpleTexSecretName": "",
   "noteManager": {
@@ -101,8 +101,8 @@
     "gitPublishEnabled": false,
     "exportPaths": {},
     "clusterOrders": {},
-    "lastSubjectPath": "",
-    "lastNotebookPath": "",
+    "lastSubjectPath": "/",
+    "lastNotebookPath": "/",
     "openInNewTab": false,
     "showFolderBasename": true,
     "autoOpenNewNote": true,

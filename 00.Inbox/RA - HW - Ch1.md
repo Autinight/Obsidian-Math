@@ -1,8 +1,16 @@
+---
+type: homework
+aliases:
+technique: []
+tags: []
+---
 代靖涵 25120222201319
 
-### Section 1.1
-> [!exercise] Exercise: 
+# 1 
+
+> [!exercise] Exercise 1.1
 > 设$\Omega$是可列集, $\mathcal{F}$是$\Omega$的所有有限子集及它们的余集所成的族. 证明$\mathcal{F}$不是$\sigma$代数, 然而$\mathcal{F}$对于有限次的集运算(交, 并, 差, 余)封闭(这样的非空的集族叫做代数).
+> ^exe-74c1bc
 
 > [!proof] Proof: 
 > 设
@@ -23,12 +31,13 @@
 > 
 > 综上可知$\mathcal{F}$是一个代数, 但是不是一个$\sigma$-代数.
 
-> [!exercise] Exercise: 
+> [!exercise] Exercise 1.2
 > 设$\mu$设定义在$\sigma$代数$\mathcal{A}$上的非负的有限可加集函数(即$A,B\in \mathcal{A}, A\cap B= \varnothing\implies \mu \left(A\cup B    \right)= \mu \left(A\right)+ \mu \left(B\right)$). 证明, 若$\left\{ A_{n} \right\}_{n =  1}^{\infty}$是$\mathcal{A}$的一个两两不交的集列, 则
 > $$
 > \mu \left(\bigcup _{n = 1}^{\infty}A_{n}\right)\ge \sum _{n = 1}^{\infty}\mu \left(A_{n}\right) .
 > $$
 > 举出使上式中不等号成立的例子.
+> ^exe-639329
 
 > [!proof] Proof: 
 > 当$\mu \left(\bigcup _{n = 1}^{\infty}A_{n}\right)= \infty$时, 不等式显然成立, 下设$\mu \left(\bigcup _{n = 1}^{\infty}A_{n}\right)< \infty$.
@@ -61,3 +70,6 @@
 > $$
 > \mu \left(\bigcup _{i= 1}^{\infty}A_{i}\right)= \infty,\quad \sum _{ i= 1}^{\infty}\mu \left(A_{i}\right)= 0 
 > $$
+
+# 2 
+
