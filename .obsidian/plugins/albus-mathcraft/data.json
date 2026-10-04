@@ -17,7 +17,7 @@
   ],
   "theoremNumberingMode": "unified",
   "theoremHeadingMode": "h2",
-  "theoremStyle": "plain",
+  "theoremStyle": "card",
   "theoremStyleEnabled": {
     "theorem": false,
     "lemma": false,
@@ -86,7 +86,7 @@
     "mcdExportPath": "",
     "enableCache": true
   },
-  "settingsTab": "heading",
+  "settingsTab": "theorem",
   "simpleTexToken": "",
   "simpleTexSecretName": "",
   "noteManager": {
