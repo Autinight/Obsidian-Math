@@ -73,3 +73,33 @@ tags: []
 
 # 2 
 
+> [!exercise] 
+> 设$\left(X,\mathcal{A},\mu \right)$是完全的测度空间, 证明: 若$f$可测且$f= g$ $\mu$- a.e., 则$g$也可测, 如果$L\left(X,\mathcal{A},\mu \right)$不完全, 此事正确否? 请举例.
+
+> [!proof] 
+> 
+> 存在一个零测集$E$, 使得在$E^{c}$上, $f|_{E^{c}}= g|_{E^{c}}$.
+> 
+> 于是对于任意的$a\in \mathbb{R}$, 
+> $$
+> \begin{aligned} \left\{ x\in X: g\left(x\right)> a \right\}&= \left\{ x\in E: g\left(x\right)> a \right\}\cup \left\{ x\in E^{c} : g\left(x\right)> a\right\}\\&= \left\{ x\in E: g\left(x\right)> a \right\} \cup  \left\{ x\in E^{c}: f\left(x\right)> a \right\} \end{aligned}
+> $$
+> 
+> 其中由于$f$可测, $\left\{ x\in E^{c}: f\left(x\right)> a \right\}$是可测集, 又$\left(X,\mathcal{A},\mu \right)$是完备的, 可知$\left\{ x\in E: g\left(x\right)> a \right\}$作为零测集$E$的子集也是零测的. 于是$\left\{ x\in X: g\left(x\right)> a \right\}$是可测集. 这表明$g$是可测的. 
+> 
+> 
+> 若$L\left(X, \mathcal{A},\mu \right)$不完全, 则不一定正确, 考虑
+> $$
+> X =  \left\{ 1,2,3\right\}, \quad \mathcal{A}= \left\{ \varnothing, X, \left\{ 1,2 \right\}, \left\{ 3 \right\} \right\} 
+> $$
+> 定义
+> $$
+> \mu  \left(E\right)= \begin{cases} 0, & 3\not \in E\\ 1, & 3\in E \end{cases} 
+> $$
+> 此时, 考虑$X$上的函数$f\equiv 0$以及$g$, $g\left(1\right)= 1, g\left(2\right)= 2, g\left(3\right)= 0$. 则$f,g$在零测集$\left\{ 1,2 \right\}$之外相等.
+> 但是
+> $$
+> \left\{ x\in E: g\left(x\right)> 1 \right\}= \left\{ 2 \right\} 
+> $$
+> 不是一个可测集, 故结论对于不完全的测度空间不是正确的.
+

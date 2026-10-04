@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+                "file": "00.Inbox/RA - HW - Ch1.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Positive Set, Negative Set, Zero Set"
+              "title": "RA - HW - Ch1"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/RA - HW - Ch1.md",
     "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+    "00.Inbox/RA - HW - Ch1.md",
     "00.Inbox/Harmonic Function.md",
     "00.Inbox/dfn - Signed Measure.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
