@@ -109,15 +109,6 @@
       "key": "Q"
     }
   ],
-  "albus-mathcraft:number-theorem-callouts": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "workspace:close-window": [],
   "albus-mathcraft:number-equations": [
     {
