@@ -1,16 +1,16 @@
 {
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "baseFontSizeAction": true,
-  "textFontFamily": "Springer Latin Modern,Songti SC,STSong,Noto Serif CJK SC,Noto Serif SC,Source Han Serif SC,serif",
-  "interfaceFontFamily": "Lucida Bright",
-  "monospaceFontFamily": "Cambria",
+  "textFontFamily": "Songti SC,STSong,serif",
+  "interfaceFontFamily": "YuKyokasho Yoko,Hoefler Text",
+  "monospaceFontFamily": "Comic Sans MS",
   "cssTheme": "Flexoki Warm",
   "showRibbon": true,
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
-    "math-callout",
-    "obsidian-callout-sidebar-math",
-    "springer-latin-modern"
+    "math-callout"
   ],
-  "nativeMenus": false
+  "nativeMenus": false,
+  "translucency": false,
+  "theme": "moonstone"
 }

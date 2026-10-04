@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/RA - HW - Ch1.md",
-                "mode": "source",
-                "source": false,
+                "file": "20.Cards/Propositions/pps - The Orientation Determined by a Coordinate Atlas..md",
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RA - HW - Ch1"
+              "title": "pps - The Orientation Determined by a Coordinate Atlas."
             }
           }
         ]
@@ -210,8 +210,12 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/chapter - 1.md",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "00.Inbox/RA - HW - Ch1.md",
+    "00.Inbox/chapter - 1.md",
     "00.Inbox/Positive Set, Negative Set, Zero Set.md",
     "00.Inbox/Harmonic Function.md",
     "00.Inbox/dfn - Signed Measure.md",
@@ -224,9 +228,7 @@
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
     "dfn - Topological Manifold.md",
-    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
@@ -240,12 +242,10 @@
     "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
     "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
-    "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "10.Atlas/AT/Atlas - Basic Topology.canvas",
-    "10.Atlas/Probability/Atlas - Conditional Probability.canvas",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
     "Pasted image 20260708162549.png",
