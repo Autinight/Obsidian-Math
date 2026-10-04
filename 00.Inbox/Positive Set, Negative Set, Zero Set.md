@@ -1,7 +1,7 @@
 ---
 type: concept
 aliases:
-- Positive Set, Negative Set, Zero Set
+  - Positive Set, Negative Set, Zero Set
 technique: []
 tags: []
 ---
