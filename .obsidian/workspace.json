@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/Positive Set, Negative Set, Zero Set.md",
-                "mode": "preview",
+                "file": "00.Inbox/test.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Positive Set, Negative Set, Zero Set"
+              "title": "test"
             }
           }
         ]
@@ -51,9 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -77,7 +75,7 @@
             }
           },
           {
-            "id": "0d1aa0b6442839ad",
+            "id": "26f43c9519185df1",
             "type": "leaf",
             "state": {
               "type": "mathcraft-note-manager",
@@ -106,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20.Cards/Notes/分块行列式的结构性拆解.md",
+                "file": "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "分块行列式的结构性拆解 的大纲"
+              "title": "Atlas - Quotient Manifold 的大纲"
             }
           },
           {
@@ -200,50 +198,49 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "templater-obsidian:Templater": false,
       "open-vscode:VSCode": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false
+      "templater-obsidian:Templater": false,
+      "templates:插入模板": false
     }
   },
   "active": "a1858d490d4e3409",
   "lastOpenFiles": [
-    "00.Inbox/RA - HW - Ch1.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
-    "20.Cards/Theorems/thm - Compactly Supported Vector Fields is Complete.md",
-    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
-    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
-    "00.Inbox/Positive Set, Negative Set, Zero Set.md",
-    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
-    "00.Inbox/如何搭建AI学习系统.md",
-    "20.Cards/Propositions/pps - The Orientation Determined by a Coordinate Atlas..md",
-    "10.Atlas/DM/Atlas - Orientations.canvas",
-    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
-    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
-    "00.Inbox/chapter - 1.md",
-    "00.Inbox/Harmonic Function.md",
-    "00.Inbox/dfn - Signed Measure.md",
-    "00.Inbox/多复变 - HW1.md",
-    "20.Cards/Definitions/dfn - de Rham Cohomology Group.md",
-    "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
-    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
-    "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
+    "00.Inbox/test.md",
     "dfn - Topological Manifold.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
+    "00.Inbox/RA - HW - Ch1.md",
+    "00.Inbox/dfn - Signed Measure.md",
+    "00.Inbox/Harmonic Function.md",
+    "00.Inbox/Positive Set, Negative Set, Zero Set.md",
+    "00.Inbox/多复变 - HW1.md",
+    "00.Inbox/如何搭建AI学习系统.md",
+    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
+    "20.Cards/Definitions/dfn - Flat Chart and Completely Integrable Distribution.md",
+    "10.Atlas/DM/Atlas - Distributions and Foliations.canvas",
+    "10.Atlas/DM/Atlas - Integral Curves and Flows.canvas",
+    "10.Atlas/DM/Atlas - Lie Groups and Lie Algebras.canvas",
+    "10.Atlas/DM/Atlas - Orientations.canvas",
+    "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
+    "10.Atlas/DM/Atlas - De Rham Cohomology.canvas",
+    "10.Atlas/DM/Atlas - Basic Concepts of Manifold.canvas",
     "20.Cards/Notes/分块行列式的结构性拆解.md",
     "20.Cards/Notes/可上三角化的flag证明.md",
-    "20.Cards/Notes/矩阵的trace---线性映射的平均回报率.md",
     "00.Inbox/书单.md",
     "00.Inbox/Daily Draft 2026-09-11.md",
     "00.Inbox/Open_Problems_in_Geometric_Analysis_Precise_Formulations.md",
     "00.Inbox/几何分析中小量级开放问题_精确表述.md",
     "00.Inbox/MinerU_markdown_Riemannian_Geometry_(Manfredo_P._do_Carmo)_(z-library.sk,_1lib.sk,_z-lib.sk)_2094306011320176640.md",
     "00.Inbox/00_Framelet_to_UFGConv_Theory_and_Reproduction_Plan.md",
+    "20.Cards/Notes/Flag_and_Upper_Triangular_Matrices.md",
+    "20.Cards/Notes/块循环矩阵的不变子空间分解.md",
+    "20.Cards/Concepts/Base for a Root System.md",
+    "20.Cards/Definitions/dfn - Mean Value Properties.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
+    "20.Cards/Definitions/dfn - Harmonic Function.md",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
+    "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.1.md",
+    "60.Templates/Script_DailyDraft.md",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
     "20.Cards/Notes",
     "OH-Works/截图/shiraagent-20260719-155513.png",
