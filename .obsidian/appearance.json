@@ -1,14 +1,15 @@
 {
   "baseFontSize": 20,
   "baseFontSizeAction": true,
-  "textFontFamily": "Songti SC,STSong,serif",
-  "interfaceFontFamily": "YuKyokasho Yoko,Hoefler Text",
-  "monospaceFontFamily": "Comic Sans MS",
+  "textFontFamily": "Latin Modern Roman,LXGW WenKai GB Screen,Songti SC,STSong,serif,Andale Mono",
+  "interfaceFontFamily": "LXGW WenKai GB Screen,YuKyokasho Yoko,Hoefler Text",
+  "monospaceFontFamily": "LXGW WenKai Mono GB Screen,Comic Sans MS",
   "cssTheme": "Flexoki Warm",
   "showRibbon": true,
   "accentColor": "#454fd3",
   "enabledCssSnippets": [
-    "math-callout"
+    "math-callout",
+    "obsidian-callout-sidebar-math"
   ],
   "nativeMenus": false,
   "translucency": false,

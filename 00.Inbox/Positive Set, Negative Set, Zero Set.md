@@ -17,6 +17,8 @@ tags: []
 > - The positive set of $-\varphi$ is called the negative set of $\varphi$.
 > - If a set is both positive set and negative set of $\varphi$, we call it  the zero set of $\varphi$.
 
+
+
 ```dataviewjs
 const techs = dv.current().technique;
 if (techs) {
