@@ -73,7 +73,7 @@ tags: []
 
 # 2 
 
-> [!exercise] 
+> [!exercise] Exercise 2.1
 > 设$\left(X,\mathcal{A},\mu \right)$是完全的测度空间, 证明: 若$f$可测且$f= g$ $\mu$- a.e., 则$g$也可测, 如果$L\left(X,\mathcal{A},\mu \right)$不完全, 此事正确否? 请举例.
 
 > [!proof] 
@@ -101,4 +101,30 @@ tags: []
 > \left\{ x\in E: g\left(x\right)> 1 \right\}= \left\{ 2 \right\} 
 > $$
 > 不是一个可测集, 故结论对于不完全的测度空间不是正确的.
+
+# 3 3
+
+> [!exercise] Exercise 3.1
+> 设$f\in L^{\infty}\left(X,\mathscr{A},\mu \right)$, 证明
+> $$
+> \left\| f \right\|_{\infty} =  \inf \left\{ \alpha > 0: \mu \left( \left\{ x\in X: \left| f\left(x\right) \right|> \alpha   \right\}\right) = 0\right\}
+> $$
+
+> [!exercise] Exercise 3.2
+> 设$f\in L^{p}\left(X,\mathscr{A},\mu \right)$对一切$p\in \left[ 1,\infty \right)$成立, 则
+> $$
+> \left\| f \right\|_{\infty} = \lim_{p\to \infty}\left\| f \right\|_{p}.
+> $$
+
+> [!exercise] Exercise 3.3
+> Vitali收敛定理: 设$p\in \left[ 1,\infty \right)$, $\left\{ f_{n} \right\}\subseteq L^{p}\left(X,\mathscr{A},\mu \right)$且$f_{n}\to f$, $f$ $\mu$- a.e. , 有限, 如果
+> 1. $\exists \varepsilon > 0$, $\exists A_{\varepsilon }\in \mathscr{A}, \mu \left(A_{\varepsilon }\right)< \infty$, 使
+>   $$
+>   \int _{X\setminus A_{\varepsilon }}\left| f_{n} \right| ^{p}d \mu < \varepsilon , \quad \forall n\in \mathbb{N} ; 
+>   $$
+> 2. 关于$n$一致成立着
+>    $$
+>    \lim_{\mu \left(E\right)\to 0}\int _{E}\left| f_{n} \right| ^{p}\,d \mu = 0, 
+>    $$
+>   那么$f\in L^{p}\left(X,\mathscr{A},\mu \right)$ 且$\lim_{n\to \infty}\left\| f-f_{n} \right\|_{p}= 0$.
 
