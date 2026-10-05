@@ -110,11 +110,60 @@ tags: []
 > \left\| f \right\|_{\infty} =  \inf \left\{ \alpha > 0: \mu \left( \left\{ x\in X: \left| f\left(x\right) \right|> \alpha   \right\}\right) = 0\right\}
 > $$
 
+根据定义
+$$
+\left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0} \sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus E  \right\}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E}\left| f \right| 
+$$
+记
+
+$$
+m= \inf \left\{ \alpha > 0: \mu \left(\left\{ x\in X:\left| f\left(x\right) \right|> \alpha   \right\}\right)= 0 \right\} 
+$$
+
+对于任意的$a> 0$, 记
+$$
+U_{a}= \left\{ x\in X: \left| f\left(x\right) \right|> a  \right\}
+$$
+则此时
+$$
+m= \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} 
+$$
+
+
+任取$\alpha_0 > 0$使得$\mu \left(U_{\alpha_0 }\right)= 0$,  则在$X\setminus U_{\alpha_0 }$上, $\left| f\left(x\right) \right| \le \alpha_0$, 从而
+$$
+\sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus U_{\alpha_0 }  \right\}\le \alpha_0  
+$$
+由于$\alpha$是任取的, 可知
+$$
+m = \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} \ge \sup _{X\setminus U_{\alpha _0 }}\left| f \right| 
+$$
+又$\left\| f \right\|_{\infty}\le \sup _{X\setminus U_{\alpha_0 }}\left| f \right|$, 可知
+$$
+\left\| f \right\|_{\infty}\le m
+$$
+
+任取$\varepsilon > 0$, 我们有$\mu \left(U_{m-\varepsilon }\right)> 0$.
+
+任取$E$使得$\mu \left(E\right)= 0$. 断言$\sup _{X\setminus E}\left| f \right| > m-\varepsilon$, $U_{m-\varepsilon }\subseteq E$矛盾. 因此
+$$
+\left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E} \left| f \right|\ge m-\varepsilon  
+$$
+令$\varepsilon \to 0^{+ }$, 得到
+$$
+\left\| f\right\|_{\infty}\ge m 
+$$
+
+
 > [!exercise] Exercise 3.2
 > 设$f\in L^{p}\left(X,\mathscr{A},\mu \right)$对一切$p\in \left[ 1,\infty \right)$成立, 则
 > $$
 > \left\| f \right\|_{\infty} = \lim_{p\to \infty}\left\| f \right\|_{p}.
 > $$
+
+$$
+\left\| f \right\|_{p}= \left(\int _{E}\left| f \right|^{p}\,d \mu  \right) ^{\frac{1}{p}}
+$$
 
 > [!exercise] Exercise 3.3
 > Vitali收敛定理: 设$p\in \left[ 1,\infty \right)$, $\left\{ f_{n} \right\}\subseteq L^{p}\left(X,\mathscr{A},\mu \right)$且$f_{n}\to f$, $f$ $\mu$- a.e. , 有限, 如果
