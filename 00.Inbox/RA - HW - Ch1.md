@@ -87,7 +87,6 @@ tags: []
 > 
 > 其中由于$f$可测, $\left\{ x\in E^{c}: f\left(x\right)> a \right\}$是可测集, 又$\left(X,\mathcal{A},\mu \right)$是完备的, 可知$\left\{ x\in E: g\left(x\right)> a \right\}$作为零测集$E$的子集也是零测的. 于是$\left\{ x\in X: g\left(x\right)> a \right\}$是可测集. 这表明$g$是可测的. 
 > 
-> 
 > 若$L\left(X, \mathcal{A},\mu \right)$不完全, 则不一定正确, 考虑
 > $$
 > X =  \left\{ 1,2,3\right\}, \quad \mathcal{A}= \left\{ \varnothing, X, \left\{ 1,2 \right\}, \left\{ 3 \right\} \right\} 
