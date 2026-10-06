@@ -154,6 +154,10 @@ $$
 \left\| f\right\|_{\infty}\ge m 
 $$
 
+$$
+\left\| f \right\|_{\infty}=  
+$$
+
 
 > [!exercise] Exercise 3.2
 > 设$f\in L^{p}\left(X,\mathscr{A},\mu \right)$对一切$p\in \left[ 1,\infty \right)$成立, 则
@@ -164,6 +168,10 @@ $$
 $$
 \left\| f \right\|_{p}= \left(\int _{E}\left| f \right|^{p}\,d \mu  \right) ^{\frac{1}{p}}
 $$
+
+
+
+
 
 > [!exercise] Exercise 3.3
 > Vitali收敛定理: 设$p\in \left[ 1,\infty \right)$, $\left\{ f_{n} \right\}\subseteq L^{p}\left(X,\mathscr{A},\mu \right)$且$f_{n}\to f$, $f$ $\mu$- a.e. , 有限, 如果
