@@ -165,10 +165,24 @@ $$
 > \left\| f \right\|_{\infty} = \lim_{p\to \infty}\left\| f \right\|_{p}.
 > $$
 
-$$
-\left\| f \right\|_{p}= \left(\int _{E}\left| f \right|^{p}\,d \mu  \right) ^{\frac{1}{p}}
-$$
+根据有限测度支撑函数在$L^{p}$中的稠密性($1\le p< \infty$) , 
 
+
+任取$\varepsilon > 0$, 存在一个$B^{\left(p\right)}$, 使得
+$$
+\mu \left(B^{\left(p\right)}\right)< \infty 
+$$
+并且
+$$
+\left(\int _{E\setminus B^{\left(p\right)}} \left\| f \right\|^{p}\,d \mu  \right)^{\frac{1}{p}}< \varepsilon $$
+根据上面的联系, 任取$\alpha > \left\| f \right\|_{\infty}$, $\mu \left(U_{\alpha }\right)= 0$, 其中
+$$
+U_{\alpha } = \left\{ x\in X: \left| f\left(x\right) \right|> \alpha   \right\}
+$$
+于是由Minkowski不等式
+$$
+\begin{aligned} \left(\int _{X}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} &\le \varepsilon+  \left(\int _{B^{\left(p\right)}}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}}\\&= \varepsilon + \left(\int _{B^{\left(p\right)}\setminus U_{\alpha }} \left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} \\& \le \varepsilon + \mu \left(B^{\left(p\right)}\right)^{\frac{1}{p}}\alpha \end{aligned}
+$$
 
 
 
