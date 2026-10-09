@@ -112,49 +112,49 @@ tags: []
 
 > [!proof] 
 > 
-根据定义
-$$
-\left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0} \sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus E  \right\}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E}\left| f \right| 
-$$
-记
-
-$$
-m= \inf \left\{ \alpha > 0: \mu \left(\left\{ x\in X:\left| f\left(x\right) \right|> \alpha   \right\}\right)= 0 \right\} 
-$$
-
-对于任意的$a> 0$, 记
-$$
-U_{a}= \left\{ x\in X: \left| f\left(x\right) \right|> a  \right\}
-$$
-则此时
-$$
-m= \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} 
-$$
-
-
-任取$\alpha_0 > 0$使得$\mu \left(U_{\alpha_0 }\right)= 0$,  则在$X\setminus U_{\alpha_0 }$上, $\left| f\left(x\right) \right| \le \alpha_0$, 从而
-$$
-\sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus U_{\alpha_0 }  \right\}\le \alpha_0  
-$$
-由于$\alpha$是任取的, 可知
-$$
-m = \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} \ge \sup _{X\setminus U_{\alpha _0 }}\left| f \right| 
-$$
-又$\left\| f \right\|_{\infty}\le \sup _{X\setminus U_{\alpha_0 }}\left| f \right|$, 可知
-$$
-\left\| f \right\|_{\infty}\le m
-$$
-
-任取$\varepsilon > 0$, 我们有$\mu \left(U_{m-\varepsilon }\right)> 0$.
-
-任取$E$使得$\mu \left(E\right)= 0$. 断言$\sup _{X\setminus E}\left| f \right| > m-\varepsilon$, $U_{m-\varepsilon }\subseteq E$矛盾. 因此
-$$
-\left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E} \left| f \right|\ge m-\varepsilon  
-$$
-令$\varepsilon \to 0^{+ }$, 得到
-$$
-\left\| f\right\|_{\infty}\ge m 
-$$
+> 根据定义
+> $$
+> \left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0} \sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus E  \right\}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E}\left| f \right| 
+> $$
+> 记
+> 
+> $$
+> m= \inf \left\{ \alpha > 0: \mu \left(\left\{ x\in X:\left| f\left(x\right) \right|> \alpha   \right\}\right)= 0 \right\} 
+> $$
+> 
+> 对于任意的$a> 0$, 记
+> $$
+> U_{a}= \left\{ x\in X: \left| f\left(x\right) \right|> a  \right\}
+> $$
+> 则此时
+> $$
+> m= \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} 
+> $$
+> 
+> 
+> 任取$\alpha_0 > 0$使得$\mu \left(U_{\alpha_0 }\right)= 0$,  则在$X\setminus U_{\alpha_0 }$上, $\left| f\left(x\right) \right| \le \alpha_0$, 从而
+> $$
+> \sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus U_{\alpha_0 }  \right\}\le \alpha_0  
+> $$
+> 由于$\alpha$是任取的, 可知
+> $$
+> m = \inf \left\{ \alpha > 0: \mu \left(U_{\alpha }\right) = 0\right\} \ge \sup _{X\setminus U_{\alpha _0 }}\left| f \right| 
+> $$
+> 又$\left\| f \right\|_{\infty}\le \sup _{X\setminus U_{\alpha_0 }}\left| f \right|$, 可知
+> $$
+> \left\| f \right\|_{\infty}\le m
+> $$
+> 
+> 任取$\varepsilon > 0$, 我们有$\mu \left(U_{m-\varepsilon }\right)> 0$.
+> 
+> 任取$E$使得$\mu \left(E\right)= 0$. 断言$\sup _{X\setminus E}\left| f \right| > m-\varepsilon$, $U_{m-\varepsilon }\subseteq E$矛盾. 因此
+> $$
+> \left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E} \left| f \right|\ge m-\varepsilon  
+> $$
+> 令$\varepsilon \to 0^{+ }$, 得到
+> $$
+> \left\| f\right\|_{\infty}\ge m 
+> $$
 
 
 
@@ -164,44 +164,60 @@ $$
 > \left\| f \right\|_{\infty} = \lim_{p\to \infty}\left\| f \right\|_{p}.
 > $$
 
-
-
-根据有限测度支撑函数在$L^{p}$中的稠密性($1\le p< \infty$) , 
-
-
-任取$\varepsilon > 0$, 存在一个$B^{\left(p\right)}$, 使得
-$$
-\mu \left(B^{\left(p\right)}\right)< \infty 
-$$
-并且
-$$
-\left(\int _{E\setminus B^{\left(p\right)}} \left\| f \right\|^{p}\,d \mu  \right)^{\frac{1}{p}}< \varepsilon $$
-根据上面的联系, 任取$\alpha > \left\| f \right\|_{\infty}$, $\mu \left(U_{\alpha }\right)= 0$, 其中
-$$
-U_{\alpha } = \left\{ x\in X: \left| f\left(x\right) \right|> \alpha   \right\}
-$$
-于是由Minkowski不等式
-$$
-\begin{aligned} \left(\int _{X}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} &\le \varepsilon+  \left(\int _{B^{\left(p\right)}}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}}\\&= \varepsilon + \left(\int _{B^{\left(p\right)}\setminus U_{\alpha }} \left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} \\& \le \varepsilon + \mu \left(B^{\left(p\right)}\right)^{\frac{1}{p}}\alpha \end{aligned}
-$$
-
-发现对于每个$p$找一个$B^{\left(p\right)}$不够, 需要改进, 回忆怎么找的, 
-
-
-考虑集合
-$$
-E_{n}=  \left\{ x\in X: \left| f\left(x\right) \right|> \frac{1 }{n }  \right\} 
-$$
-那么
-
-$$
-\left(\mu \left(E_{n}\right) \right)^{\frac{1}{p}}\frac{1 }{n }\le \left(\int _{E_{n}}\left| f\left(x\right) \right|^{p}\,d \mu\right)^{\frac{1}{p}} \le \left\| f \right\|_{p}
-$$
-$$
-\lim_{n\to \infty}\left(\int _{E_{n}}\left| f\left(x\right) \right|^{p}\,d \mu  \right)^{\frac{1}{p}}= \left\| f \right\|_{p} 
-$$
-这个极限关于$p$一致吗?
-
+> [!proof] 
+> 
+> 当$\left\| f \right\|_{\infty}< \infty$时, 
+> $$
+> \left\{  \left| f\left(x\right) \right|> \left\| f \right\|_{\infty} \right\} = \bigcup _{n = 1}^{\infty}\left\{ \left| f\left(x\right) \right|> \left\| f \right\|_{\infty}+ \frac{1 }{n }  \right\}
+> $$
+> 由Exercise 3.1可知这是一个零测集.
+> 于是
+> $$
+> \int _{X}\left| f\left(x\right) \right|^{p}\,d \mu \le  \left\| f \right\|_{\infty}^{p-1} \int _{X}\left| f\left(x\right) \right|\,d \mu = \left\| f \right\|_{\infty}^{p-1}\left\| f \right\|_{1}   
+> $$
+> 于是
+> $$
+> \left\| f \right\|^{p}\le \left\| f \right\|_{\infty}^{1-\frac{1 }{p }} \left\| f \right\|_{1}^{\frac{1}{p}} 
+> $$
+> 令$p\to \infty$, 得到
+> $$
+> \limsup_{p\to \infty}\left\| f \right\|^{p}\le  \left\| f \right\|_{\infty}
+> $$
+> 
+> 另一方面, 任取$0< a< \left\| f \right\|_{\infty}$, 记$U_{a}= \left\{ x\in X: \left| f\left(x\right) \right|> a  \right\}$, 则$\mu \left(U_{a}\right)> 0$. 于是
+> $$
+> \int _{X}\left| f\left(x\right) \right|^{p}\,d \mu \ge \int _{U_{a}}\left| f\left(x\right) \right|^{p}\,d \mu \ge  \mu \left(U_{a}\right) a^{p}  
+> $$
+> 从而
+> $$
+> \left\| f \right\|_{p}\ge  \left(\mu \left(U_{a}\right)\right)^{\frac{1}{p}} a
+> $$
+> 领$p\to \infty$, 得到
+> $$
+> \liminf_{p\to \infty}\left\| f \right\|_{p} \ge  a 
+> $$
+> 再令$a\to \left\| f \right\|_{\infty}^{-}$, 得到
+> $$
+> \liminf_{p\to \infty}\left\| f \right\|_{p}\ge \left\| f \right\|_{\infty} 
+> $$
+> 
+> 当$\left\| f \right\|_{\infty}= \infty$时, 可知对于任意的$M> 0$, 
+> $$
+> \mu \left(\left\{ x\in X: \left| f\left(x\right) \right|> M  \right\}\right)> 0
+> $$
+> 记
+> $$
+> E_{n}= \left\{ x\in X: \left| f\left(x\right) \right|> M  \right\} 
+> $$
+> 此时
+> $$
+> \left\| f \right\|_{p} \ge \left(\int _{E_{n}}\left| f\left(x\right) \right|^{p} \right)^{\frac{1}{p}}\ge  \left(\mu \left(E_{n}\right)\right)^{\frac{1}{p}}M
+> $$
+> 可知
+> $$
+> \liminf_{p\to \infty} \left\| f \right\|_{p}\ge M 
+> $$
+> 对于任意的$M> 0$成立, 必然有$\lim_{p\to \infty}\left\| f \right\|_{p}= \infty$.
 
 
 
