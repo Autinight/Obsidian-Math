@@ -224,7 +224,7 @@ tags: []
 
 > [!exercise] Exercise 3.3
 > Vitali收敛定理: 设$p\in \left[ 1,\infty \right)$, $\left\{ f_{n} \right\}\subseteq L^{p}\left(X,\mathscr{A},\mu \right)$且$f_{n}\to f$, $f$ $\mu$- a.e. , 有限, 如果
-> 1. $\exists \varepsilon > 0$, $\exists A_{\varepsilon }\in \mathscr{A}, \mu \left(A_{\varepsilon }\right)< \infty$, 使
+> 1. $\forall  \varepsilon > 0$, $\exists A_{\varepsilon }\in \mathscr{A}, \mu \left(A_{\varepsilon }\right)< \infty$, 使
 >   $$
 >   \int _{X\setminus A_{\varepsilon }}\left| f_{n} \right| ^{p}d \mu < \varepsilon , \quad \forall n\in \mathbb{N} ; 
 >   $$
@@ -233,6 +233,74 @@ tags: []
 >    \lim_{\mu \left(E\right)\to 0}\int _{E}\left| f_{n} \right| ^{p}\,d \mu = 0, 
 >    $$
 >   那么$f\in L^{p}\left(X,\mathscr{A},\mu \right)$ 且$\lim_{n\to \infty}\left\| f-f_{n} \right\|_{p}= 0$.
+
+> [!proof] 
+>
+> 任意取定$\varepsilon > 0$, 存在$A\in \mathscr{A}$, $\mu \left(A\right)< \infty$, 使得
+> $$
+> \int _{X\setminus A}\left| f_{n} \right|^{p}\,d \mu < \varepsilon ,\quad \forall n\in \mathbb{N}   
+> $$
+> 
+> 由Fatou引理
+> $$
+> \int _{X\setminus A}\left| f \right|^{p}\,d \mu \le  \liminf_{n\to \infty} \int _{X\setminus A}  \left| f_{n} \right|^{p}\,d \mu  \le \varepsilon 
+> $$
+> 
+> 
+> 
+> 
+> 
+> 由条件2., 存在$\delta > 0$, 
+> $$
+> \int _{E} \left| f_{n} \right|^{p}\,d \mu < \varepsilon ,\quad \forall \mu \left(E\right)< \delta  
+> $$
+> 
+> 
+> 
+> 
+> 由Egrov定理, 存在集合$E\subseteq A$, 满足$\mu \left(E\right)< \delta$, 使得在 $A\setminus E$上, $\left\{ f_{n} \right\}$一致收敛到$f$. 那么此时再由Fatou引理
+> $$
+> \int _{E}\left| f \right|^{p}\,d \mu \le \liminf_{n\to \infty}\int _{E}\left| f_{n} \right|^{p}\,d \mu  \le \varepsilon  
+> $$
+> 
+> $$
+> \begin{aligned} \int _{A\setminus E}\left| f \right|^{p}\,d \mu &=   \int _{A\setminus E}\left| f-f_{n} \right|^{p}\,d \mu +  \int  _{A\setminus E}\left| f_{n} \right|^{p}\,d \mu\\&\le  \mu \left(A\right) \sup _{A\setminus E}\left| f_{n}-f \right|^{p} +  \left\| f_{n} \right\|_{p}^{p}  \end{aligned}
+> $$
+> 
+> 对于充分大的$n$, $\sup _{A\setminus E}\left| f_{n}-f \right|^{p}< \infty$, 于是
+> $$
+> \int _{X}\left| f \right|^{p}\,d \mu \le  \varepsilon + \varepsilon + \mu \left(A\right)\sup _{A\setminus E}\left| f_{n}-f \right|^{p}+ \left\| f_{n} \right\| _{p}^{p}< \infty  
+> $$
+> 
+> 故$f\in L^{p}$.
+> 
+> 由不等式
+> $$
+> \left| f-f_{n} \right|^{p}\le  2^{p-1}\left(\left| f \right|^{p}+ \left| f_{n} \right|^{p}  \right)  
+> $$
+> 得到
+> $$
+> \int _{E}\left| f-f_{n} \right|^{p}\le 2^{p}\varepsilon   
+> $$
+> 并且
+> $$
+> \int _{A\setminus E}\left| f-f_{n} \right|^{p}\,d \mu \le  \mu \left(A\setminus E\right) \sup _{A\setminus E} \left| f_{n}-f \right|^{p} \le \mu \left(A\right)\sup _{A\setminus E} \left| f_{n}-f \right|^{p}   
+> $$
+> 于是
+> $$
+> \left\| f-f_{n} \right\|_{p}\le  \left(2^{p}\varepsilon +  \mu \left(A\right)\sup _{A\setminus E}\left| f_{n}-f \right|^{p} \right)^{\frac{1}{p}} 
+> $$
+> 令$n\to \infty$, 得到
+> $$
+> \limsup_{n\to \infty}\left\| f-f_{n} \right\|_{p}\le  2\varepsilon ^{\frac{1}{p}} 
+> $$
+> 最后, 由于$\varepsilon$是任取的, 令$\varepsilon \to 0^{+ }$, 得到
+> $$
+> \lim_{n\to \infty}\left\| f-f_{n} \right\|_{p}= 0 
+> $$
+
+
+
 
 
 
