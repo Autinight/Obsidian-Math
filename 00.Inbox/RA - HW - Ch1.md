@@ -234,3 +234,5 @@ tags: []
 >    $$
 >   那么$f\in L^{p}\left(X,\mathscr{A},\mu \right)$ 且$\lim_{n\to \infty}\left\| f-f_{n} \right\|_{p}= 0$.
 
+
+
