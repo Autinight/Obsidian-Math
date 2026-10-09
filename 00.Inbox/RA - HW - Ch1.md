@@ -102,7 +102,7 @@ tags: []
 > $$
 > 不是一个可测集, 故结论对于不完全的测度空间不是正确的.
 
-# 3 3
+# 3
 
 > [!exercise] Exercise 3.1
 > 设$f\in L^{\infty}\left(X,\mathscr{A},\mu \right)$, 证明
@@ -298,9 +298,131 @@ tags: []
 > $$
 > \lim_{n\to \infty}\left\| f-f_{n} \right\|_{p}= 0 
 > $$
+>
+
+# 4
+
+> [!exercise] Exercise 4.1
+> 设$\mu$是$\left(X, \mathscr{A}\right)$上的符号测度, $E\in \mathscr{A}$. 证明: $E$是$\mu$-零集的充要条件是$\left| \mu  \right|\left(E\right)= 0$.
 
 
+> [!exercise] Exercise 4.2
+> 设$\left(X,\mathscr{A}\right)$是可测空间, $\mu ,\nu$是它上面的两个符号测度,  证明: 
+> 1. $\mu \ll \nu$且$\mu \perp \nu$的充要条件是$\mu = 0$;
+> 2. $\mu \ll \nu \iff \mu ^{+ }\ll \nu , \mu ^{-}\ll \nu  \iff  \left| \mu  \right|\ll \nu$;
+> 3. 集合$\left\{ \varphi : \varphi \text{是} \left(X,\mathscr{A}\right) \text{上的有限符号测度且}\varphi \ll \nu \right\}$与集合$\left\{ \varphi : \varphi \text{是} \left(X,\mathscr{A}\right) \text{上的有限符号测度且}\varphi \perp\nu \right\}$都是实线性空间.
 
+
+> [!exercise] Exercise 4.3
+> 设 $\nu$ 是可测空间 $(X,\mathcal A)$ 上的符号测度，证明：$\forall E\in\mathcal A$，
+> $$
+> |\nu|(E)=\sup\left\{
+> \sum_{k=1}^{n}|\nu(E_k)|:
+> E=\bigcup_{k=1}^{n}E_k,\ E_k\in\mathcal A,\
+> E_k\cap E_j=\varnothing\ (k\ne j),\ n\in\mathbb N
+> \right\}.
+> $$
+
+> [!exercise] Exercise 4.4
+> 设 $\mu$ 是可测空间 $(X,\mathcal A)$ 上的有限符号测度，证明：
+> $$
+> \forall E\in\mathcal A,\qquad
+> |\mu|(E)=\sup\left\{
+> \left|\int_E f\,d\mu\right|:
+> f\in L(X,\mathcal A,|\mu|),\ |f|\le1
+> \right\}.
+> $$
+
+# 5
+
+> [!exercise] Exercise 5.1
+> 证明链式法则：设 $\mu_0,\mu_1,\mu_2$ 是 $(X,\mathcal A)$ 上的 $\sigma$ 有限测度，且 $\mu_2\ll\mu_1$，$\mu_1\ll\mu_0$，那么 $\mu_2\ll\mu_0$ 且
+> $$
+> \frac{d\mu_2}{d\mu_0}
+> =
+> \frac{d\mu_2}{d\mu_1}\cdot\frac{d\mu_1}{d\mu_0}
+> \qquad \mu_0\text{-a.e.}
+> $$
+
+> [!exercise] Exercise 5.2
+> 请详细写出定理 1.5.7 当 $\mu(X)=\infty$ 时的证明。
+>
+> **定理 1.5.7** 设 $1\le p<\infty$，$\frac1p+\frac1{p'}=1$（规定 $\frac1\infty=0$）。设 $(X,\mathcal A,\mu)$ 是 $\sigma$ 有限测度空间，那么对于每个 $\ell\in[L^p(X,\mathcal A,\mu)]^*$，存在唯一的 $g\in L^{p'}(X,\mathcal A,\mu)$，使得
+> $$
+> \forall f\in L^p(X,\mathcal A,\mu),\qquad
+> \ell(f)=\int_X fg\,d\mu,
+> \qquad
+> \|g\|_{p'}=\|\ell\|.
+> $$
+
+# 6
+
+> [!exercise] Exercise 6.1
+> 设 $\mu^*$ 是 $X$ 上的正则的外测度，$E_n\subset X$ 且 $E_n\subset E_{n+1}$。求证：
+> $$
+> \lim_{n\to\infty}\mu^*(E_n)
+> =
+> \mu^*\left(\lim_{n\to\infty}E_n\right).
+> $$
+
+> [!exercise] Exercise 6.2
+> 证明下述定义的 $H_\alpha$ 确实是 $\mathbb R^n$ 上的距离外测度，并且是正则的。
+>
+> 设 $\alpha>0$，$\varepsilon>0$。对于非空集合 $A\subset\mathbb R^n$，定义
+> $$
+> H_\alpha^\varepsilon(A)
+> =
+> \inf\left\{
+> \sum_{k=1}^{\infty}\delta(A_k)^\alpha:
+> \bigcup_{k=1}^{\infty}A_k\supset A,\ 
+> \delta(A_k)<\varepsilon
+> \right\},
+> $$
+> 其中 $\delta(A_k)$ 表示点集 $A_k$ 的直径，即
+> $$
+> \delta(A_k)=\sup\{|x-y|:x,y\in A_k\}.
+> $$
+> 定义
+> $$
+> H_\alpha(A)=\lim_{\varepsilon\to0+}H_\alpha^\varepsilon(A)
+> \quad(A\ne\varnothing),
+> \qquad
+> H_\alpha(\varnothing)=0.
+> $$
+
+> [!exercise] Exercise 6.3
+> 设 $\Lambda_f$ 是 $\mathbb R$ 上单调增函数 $f$ 导出的 L-S 测度。证明：若 $\Lambda_f\ll m$，则
+> $$
+> \frac{d\Lambda_f}{dm}=f'
+> \qquad m\text{-a.e.},
+> $$
+> 此处 $m$ 代表寻常 Lebesgue 测度。
+
+# 7
+> [!exercise] Exercise 7.1
+> 设 $f\in L(X,\mathcal A,\mu)$，$g\in L(Y,\mathcal B,\nu)$，证明 $f(x)g(y)\in L(X\times Y,\mathcal A\times\mathcal B,\mu\times\nu)$，且
+> $$
+> \int_{X\times Y}f(x)g(y)\,d(\mu\times\nu)
+> =
+> \int_X f\,d\mu\cdot\int_Y g\,d\nu.
+> $$
+
+> [!exercise] Exercise 7.2
+> 对于 $x>0$，有
+> $$
+> \int_{(0,\infty)}e^{-xt}\,dt=\frac1x.
+> $$
+> 利用此事，根据 Fubini 定理证明
+> $$
+> \lim_{n\to\infty}\int_0^n\frac{\sin x}{x}\,dx=\frac{\pi}{2}.
+> $$
+
+> [!exercise] Exercise 7.3
+> 设 $f$ 是 $\mathbb R$ 上的非负实值函数。考虑寻常 Lebesgue 测度，证明 $f$ 可测的充要条件是
+> $$
+> E=\{(x,y):0\le y\le f(x)\}
+> $$
+> 属于 $\mathbb R^2$ 中由可测矩形族生成的 $\sigma$ 代数。
 
 
 
