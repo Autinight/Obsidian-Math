@@ -110,6 +110,8 @@ tags: []
 > \left\| f \right\|_{\infty} =  \inf \left\{ \alpha > 0: \mu \left( \left\{ x\in X: \left| f\left(x\right) \right|> \alpha   \right\}\right) = 0\right\}
 > $$
 
+> [!proof] 
+> 
 根据定义
 $$
 \left\| f \right\|_{\infty}= \inf _{\mu \left(E\right)= 0} \sup \left\{ \left| f\left(x\right) \right|: x\in X\setminus E  \right\}= \inf _{\mu \left(E\right)= 0}\sup _{X\setminus E}\left| f \right| 
@@ -154,9 +156,6 @@ $$
 \left\| f\right\|_{\infty}\ge m 
 $$
 
-$$
-\left\| f \right\|_{\infty}=  
-$$
 
 
 > [!exercise] Exercise 3.2
@@ -164,6 +163,8 @@ $$
 > $$
 > \left\| f \right\|_{\infty} = \lim_{p\to \infty}\left\| f \right\|_{p}.
 > $$
+
+
 
 根据有限测度支撑函数在$L^{p}$中的稠密性($1\le p< \infty$) , 
 
@@ -183,6 +184,24 @@ $$
 $$
 \begin{aligned} \left(\int _{X}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} &\le \varepsilon+  \left(\int _{B^{\left(p\right)}}\left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}}\\&= \varepsilon + \left(\int _{B^{\left(p\right)}\setminus U_{\alpha }} \left\| f \right\|^{p}\,d \mu\right)^{\frac{1}{p}} \\& \le \varepsilon + \mu \left(B^{\left(p\right)}\right)^{\frac{1}{p}}\alpha \end{aligned}
 $$
+
+发现对于每个$p$找一个$B^{\left(p\right)}$不够, 需要改进, 回忆怎么找的, 
+
+
+考虑集合
+$$
+E_{n}=  \left\{ x\in X: \left| f\left(x\right) \right|> \frac{1 }{n }  \right\} 
+$$
+那么
+
+$$
+\left(\mu \left(E_{n}\right) \right)^{\frac{1}{p}}\frac{1 }{n }\le \left(\int _{E_{n}}\left| f\left(x\right) \right|^{p}\,d \mu\right)^{\frac{1}{p}} \le \left\| f \right\|_{p}
+$$
+$$
+\lim_{n\to \infty}\left(\int _{E_{n}}\left| f\left(x\right) \right|^{p}\,d \mu  \right)^{\frac{1}{p}}= \left\| f \right\|_{p} 
+$$
+这个极限关于$p$一致吗?
+
 
 
 
