@@ -15,7 +15,7 @@
               "state": {
                 "file": "00.Inbox/RA - HW - Ch1.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
