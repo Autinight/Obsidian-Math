@@ -305,6 +305,17 @@ tags: []
 > [!exercise] Exercise 4.1
 > 设$\mu$是$\left(X, \mathscr{A}\right)$上的符号测度, $E\in \mathscr{A}$. 证明: $E$是$\mu$-零集的充要条件是$\left| \mu  \right|\left(E\right)= 0$.
 
+若$E$是$\mu$-零集, 则$\forall A\in \mathscr{A}$, $\mu \left(A\cap E\right)= 0$
+$$
+\mu ^{+ }\left(E\right)=  \sup _{A\in \mathscr{A}}\mu \left(A\cap E\right)  = \sup _{A\in \mathscr{A}}\left\{ 0 \right\}= 0
+$$
+$$
+\mu ^{-}\left(E\right)=\sup _{A\in \mathscr{A}} \left\{ -\mu \left(A\cap E\right) \right\}= \sup _{A\in \mathscr{A}}\left\{ 0 \right\}= 0
+$$
+于是
+$$
+\left| \mu  \right|\left(E\right)= \mu ^{+ }\left(E\right)+ \mu ^{-}\left(E\right)= 0  
+$$
 
 > [!exercise] Exercise 4.2
 > 设$\left(X,\mathscr{A}\right)$是可测空间, $\mu ,\nu$是它上面的两个符号测度,  证明: 

@@ -99,6 +99,8 @@ The following theorem shows that we can extract such "positive-measure part" fro
 > \varphi \left(P\right)= \alpha  
 > $$
 >
-> If $P^{c}$ is not a negative set, then there exists $E\in \mathscr{A}$, $E\subseteq P^{c}$, such that $\varphi \left(E\right)> 0$, there from [[Signed Measure#^thm-705be8|the existence lemma for positive set]], there exists 
-
-
+> If $P^{c}$ is not a negative set, then there exists $E\in \mathscr{A}$, $E\subseteq P^{c}$, such that $\varphi \left(E\right)> 0$, there from [[Signed Measure#^thm-705be8|the existence lemma for positive set]], there exists $S\in \mathscr{A}$, $S\subseteq E$ such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set. Then $S\cup P$ is a positive set, but
+> $$
+> \varphi \left(S\cup P\right)= \varphi \left(S\right)+ \varphi \left(P\right)> \varphi \left(P\right)= \alpha  
+> $$
+> which is a contradiction to the definition of $\alpha$.
