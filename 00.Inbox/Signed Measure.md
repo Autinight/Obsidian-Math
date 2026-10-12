@@ -61,19 +61,7 @@ The following theorem shows that we can extract such "positive-measure part" fro
 > Let $\varphi$ be a sgined measure on measurable space $\left(X, \mathscr{A}\right)$. $E\in \mathscr{A}$ and $\varphi \left(E\right)> 0$, then there exists $S\in \mathscr{A}$, $S\subseteq E$, such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set for $\varphi$.
 
 
-```dataviewjs
-const techs = dv.current().technique;
-if (techs) {
-    const techArray = dv.array(techs);
-    if (techArray.length > 0) {
-        dv.header(3, "Related Techniques");
-        dv.list(
-            dv.pages()
-            .where(p => {
-                return p.aliases && dv.array(p.aliases).some(a => techArray.includes(a));
-            })
-            .file.link
-        )
-    }
-}
-```
+# Hahn Decomposition
+
+> [!theorem] Theorem: 
+> Let 
