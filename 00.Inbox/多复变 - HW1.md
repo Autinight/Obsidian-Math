@@ -45,3 +45,5 @@
 > $$
 > \begin{aligned} \sin \left(z_1+ z_2\right)&= \sum _{k= 0}^{\infty} \frac{\left(-1\right)^{k} }{\left(2k+ 1\right)! }\left(z_1+ z_2\right)^{2k+ 1}\\&= \sum _{k= 0}^{\infty}\frac{\left(-1\right)^{k} }{\left(2k+ 1\right)! }\sum _{j= 0}^{2k+ 1}\binom{ 2k+ 1 }{j  }z_1^{j}z_2^{2k+ 1-j}  \\&= \sum _{m,n\ge 0, m+ n\text{为奇数}}\frac{\left(-1\right)^{\frac{m+ n-1 }{2 }} }{m!n! }z_1^{m}z_2^{n} \end{aligned}
 > $$
+
+测试一下同步效果
