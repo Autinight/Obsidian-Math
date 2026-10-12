@@ -59,9 +59,46 @@ The following theorem shows that we can extract such "positive-measure part" fro
 
 > [!theorem] 
 > Let $\varphi$ be a sgined measure on measurable space $\left(X, \mathscr{A}\right)$. $E\in \mathscr{A}$ and $\varphi \left(E\right)> 0$, then there exists $S\in \mathscr{A}$, $S\subseteq E$, such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set for $\varphi$.
+> ^thm-705be8
 
 
 # Hahn Decomposition
 
 > [!theorem] Theorem: 
-> Let 
+> Let $\varphi$ be a signed measure on measurable space $\left(X,\mathscr{A}\right)$. Then there eixsts $P \in \mathscr{A}$, such that $P$ is a positive set for $\varphi$ and $P^{c}$ is a negative set for $\varphi$. Such decomposition is called **Hahn Decomposition**, denoted by $\left(P,P^{c}\right)$. 
+>
+> The Hahn decomposition is unique in the sense: if there exists another Hahn decomposition $\left(P_1,P_1^{c}\right)$, then for each $A\in \mathscr{A}$, there holds
+> $$
+> \varphi \left(P_1\cap A\right)= \varphi \left(P\cap A\right), \quad \varphi \left(P_1^{c}\cap A\right)= \varphi \left(P^{c}\cap A\right) 
+> $$
+
+> [!proof] 
+> We may assume that $\forall A\in \mathscr{A}$, $\varphi \left(A\right)< \infty$. We define 
+> $$
+> \alpha = \sup \left\{ \varphi \left(A\right): A\text{ is a positive set} \right\} 
+> $$
+> We take a sequence $\left\{ A_{k} \right\}\subseteq \mathscr{A}$ such that 
+> $$
+> \lim_{k\to \infty} \varphi \left(A_{k}\right)= \alpha  
+> $$
+> Then we define
+> $$
+> P_{n}= \bigcup _{k= 1}^{n}A_{k},\quad P= \bigcup _{k= 1}^{\infty}A_{k} = \bigcup _{k= 1}^{n}P_{n}
+> $$
+> Then 
+> Not hard to see that $P_{n}$, $P$ are positive sets.  And
+> $$
+> \alpha \ge \varphi \left(P_{n+ 1}\right)\ge \varphi \left(P_{n}\right)\ge \varphi \left(A_{n}\right)
+> $$
+> Then
+> $$
+> \alpha \ge \varphi \left(P\right)= \lim_{n\to \infty}\varphi \left(P_{n}\right)\ge \lim_{n\to \infty}\varphi \left(A_{n}\right)= \alpha 
+> $$
+> Which implies that 
+> $$
+> \varphi \left(P\right)= \alpha  
+> $$
+>
+> If $P^{c}$ is not a negative set, then there exists $E\in \mathscr{A}$, $E\subseteq P^{c}$, such that $\varphi \left(E\right)> 0$, there from [[Signed Measure#^thm-705be8|the existence lemma for positive set]], there exists 
+
+
