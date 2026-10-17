@@ -339,25 +339,6 @@ tags: []
 > 2. $\mu \ll \nu \iff \mu ^{+ }\ll \nu , \mu ^{-}\ll \nu  \iff  \left| \mu  \right|\ll \nu$;
 > 3. 集合$\left\{ \varphi : \varphi \text{是} \left(X,\mathscr{A}\right) \text{上的有限符号测度且}\varphi \ll \nu \right\}$与集合$\left\{ \varphi : \varphi \text{是} \left(X,\mathscr{A}\right) \text{上的有限符号测度且}\varphi \perp\nu \right\}$都是实线性空间.
 
-由1可知, $\mu = 0$属于两个集合, 取其为两个空间的零元.
-
-若$\varphi ,\psi \ll \nu$, 则任取$A\in \mathscr{A}$满足$\nu \left(A\right)= 0$. 由于$\varphi, \psi$是有限的, 不难看出$\varphi + k\psi$是有限的符号测度, 并且
-$$
-\left(\varphi + k\psi \right)\left(A\right)= \varphi \left(A\right)+ k \psi \left(A\right)= 0 
-$$
-
-若$\varphi ,\psi \perp \nu$, 则存在$A, B\in \mathscr{A}$, 使得
-$$
-\left| \varphi  \right|\left(A\right)= \left| \nu  \right|\left(A^{c}\right)= \left| \psi  \right|\left(B\right)= \left| \psi  \right|\left(B^{c}\right)= 0     
-$$
-
-则
-$$
-\left| \varphi + k \psi  \right|\left(A\cap B\right)\le \left| \varphi  \right|\left(A\cap B\right)+ \left| k \right|\left| \psi  \right|\left(A\cap B\right)= 0     
-$$
-
-
-
 
 > [!proof] 
 > 1. 若$\mu = 0$, 则$\left| \mu  \right|= 0$. 此时对于任意的$A\in \mathscr{A}$, $\left| \mu  \right|\left(A\right)=0$成立, $\mu \ll \nu$自动满足. 此外, 由于$\nu \left(\varnothing\right)= 0$, $\left| \nu  \right|\left(\varnothing\right)= 0$, $\left| \mu  \right|\left(X\right)= 0$, 可知$\mu \perp \nu$.
@@ -380,6 +361,26 @@ $$
 >    若$\mu ^{+ }\ll \nu, \mu ^{-}\ll \nu$. 任取$A\in \mathscr{A}$使得$\nu \left(A\right)= 0$, 我们有$\left| \mu  \right|\left(A\right)= \mu ^{+ }\left(A\right)+ \mu ^{-}\left(A\right)= 0$. 这表明$\left| \mu  \right|\ll \nu$.
 >    
 >    若$\left| \mu  \right|\ll \nu$. 任取$A\in \mathscr{A}$使得$\nu \left(A\right)= 0$. 我们有$\left| \mu  \right|\left(A\right)= \mu ^{+ }\left(A\right)+  \mu ^{-}\left(A\right)= 0$, 故而$\mu ^{+ }\left(A\right)= \mu ^{-}\left(A\right)= 0$, 得到$\mu \left(A\right)= \mu ^{+ }\left(A\right)-\mu ^{-}\left(A\right)= 0$, 这表明$\mu \ll \nu$.
+> 3. 由1可知, $\mu = 0$属于两个集合, 取其为两个空间的零元.
+>    若$\varphi ,\psi \ll \nu$, 则任取$A\in \mathscr{A}$满足$\nu \left(A\right)= 0$. 由于$\varphi, \psi$是有限的, 不难看出$\varphi + k\psi$是有限的符号测度, 并且
+>    $$
+>    \left(\varphi + k\psi \right)\left(A\right)= \varphi \left(A\right)+ k \psi \left(A\right)= 0 
+>    $$
+>    
+>    若$\varphi ,\psi \perp \nu$, 则存在$A, B\in \mathscr{A}$, 使得
+>    $$
+>    \left| \varphi  \right|\left(A\right)= \left| \nu  \right|\left(A^{c}\right)= \left| \psi  \right|\left(B\right)= \left| \psi  \right|\left(B^{c}\right)= 0     
+>    $$
+>    
+>    则
+>    $$
+>    \left| \nu  \right|  \left(A^{c}\cup B^{c} \right)= 0
+>    $$
+>    
+>    $$
+>    \left| \varphi + k\psi  \right|\left(A\cap B\right)\le \left| \varphi  \right|\left(A\cap B\right)+ \left| k \right|\left| \psi  \right|\left(A\cap B\right)= 0     
+>    $$
+>    因此$\varphi + k\psi \perp \nu$
 
 > [!exercise] Exercise 4.3
 > 设 $\nu$ 是可测空间 $(X,\mathcal A)$ 上的符号测度，证明：$\forall E\in\mathcal A$，
