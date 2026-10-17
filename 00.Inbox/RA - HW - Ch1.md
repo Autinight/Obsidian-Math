@@ -392,6 +392,69 @@ tags: []
 > \right\}.
 > $$
 
+
+> [!proof] 
+> 
+> 记
+> $$
+> M= \sup \left\{ \sum _{k = 1}^{n}\left| \nu \left(E_{k}\right) \right| : E= \bigcup _{k = 1}^{n}E_{k}, E_{k}\in \mathscr{A}, E_{k}\cap E_{j}= \varnothing\left(k\neq j\right), n \in \mathbb{N}  \right\}
+> $$
+> 
+> 取$\left(X,\mathscr{A}, \nu \right)$的一个Hahn-分解$\left(P, P^{c}\right)$. 则
+> $$
+> \nu ^{+ }\left(E\right)= \nu \left(E\cap P\right), \quad \nu ^{-}\left(E\right)= - \nu  \left(E\cap P^{c}\right) 
+> $$
+> $$
+> \left| \nu  \right|\left(E\right)= \nu \left(E\cap P\right)-\nu \left(E\cap P^{c}\right)  
+> $$
+> 令$E_1= E\cap P$, $E_2= E\cap P^{c}$, 则
+> $$
+> \left| \nu  \right|\left(E\right)= \left| \nu \left(E_1\right) \right| + \left| \nu \left(E_2\right) \right|    
+> $$
+> 因此
+> $$
+> \left| \nu  \right|\left(E\right)\le M  
+> $$
+> 
+> 另一方面, 任取$E_1, E_2, \cdots , E_{n}\in \mathscr{A}$, $E_{k}\cap E_{j}\neq \varnothing\left(k \neq j\right)$, $E= \bigcup _{k = 1}^{n}E_{k}$. 不妨设存在$k_0$, 使得
+> $$
+> \nu \left(E_{i}\right)\le 0, i\le k_0,\quad \nu \left(E_{j}\right)\ge 0, j> k_0 
+> $$
+> 则
+> $$
+> \sum _{k = 1}^{n}\left| \nu \left(E_{i}\right) \right|= \sum _{j = k_0+ 1}^{n}\nu \left(E_{j}\right)- \sum _{i = 1}^{k_0}\nu \left(E_{i}\right)  
+> $$
+> 令$A_2= \bigcup _{i = 1}^{k_0}E_{i}$, $A_1=  \bigcup _{j = k_0+ 1}^{n}E_{j}$. 那么
+> $$
+> \nu \left(A_1\cap E\right)=\sum _{j= k_0+ 1}^{n}\nu \left(E_{j}\right),\quad \nu \left(A_2\cap E\right)= \sum _{i = 1}^{k_0}\nu \left(E_{i}\right)
+> $$
+> 从而
+> $$
+> \sum _{k = 1}^{n}\left| \nu \left(E_{i}\right) \right|= \nu \left(A_1\cap E\right)- \nu \left(A_2\cap E\right)  
+> $$
+> 而
+> $$
+> \nu ^{+ }\left(E\right)= \sup _{A\in \mathscr{A}}\left\{ \nu \left(A\cap E\right) \right\}\ge \nu \left(A_1\cap E\right) 
+> $$
+> $$
+> \nu ^{-}\left(E\right)= \sup _{A\in \mathscr{A}}\left\{ -\nu \left(A\cap E\right) \right\}\ge - \nu \left(A_2\cap E\right) 
+> $$
+> 我们有
+> $$
+> \left| \nu  \right|\left(E\right)= \nu ^{+ }\left(E\right)+ \nu ^{-}\left(E\right)  \ge \nu \left(A_1\cap E\right)-\nu \left(A_2\cap E\right)= \sum _{k= 1}^{n}\left| \nu \left(E_{i}\right) \right| 
+> $$
+> 由于$E_1,\cdots ,E_{n}$是任取的, 得到
+> $$
+> M\le \left| \nu  \right|\left(E\right)  
+> $$
+> 因此
+> $$
+> M= \left| \nu  \right|\left(E\right)  
+> $$
+
+
+
+
 > [!exercise] Exercise 4.4
 > 设 $\mu$ 是可测空间 $(X,\mathcal A)$ 上的有限符号测度，证明：
 > $$
@@ -401,6 +464,22 @@ tags: []
 > f\in L(X,\mathcal A,|\mu|),\ |f|\le1
 > \right\}.
 > $$
+
+> [!proof] 
+> 由Exercise 4.3, 任取满足$\left| f \right| \le 1$的可测函数, 有
+> $$
+> \left| \int _{E} f \,d \mu  \right|\le  \int _{E}\left| f \right| d \left| \mu  \right|    \le \left| \mu  \right|\left(E\right) 
+> $$
+> 反过来, 取$\mu$的Hahn分解$\left(P, P^{c}\right)$, 令
+> $$
+> s= \chi _{P}- \chi _{Pp^{c}} 
+> $$
+> 则$\left| s \right|= 1$, 并且由于$\left| \mu  \right|\left(X\right)< \infty$, 可知$s$关于$\left| \mu  \right|$-可积, 并且
+> $$
+> \int _{E}s\,d \mu = \mu \left(E\cap P\right)-\mu \left(E\cap P^{c}\right)= \mu ^{+ }\left(E\right)-\mu ^{-}\left(E\right)= \left| \mu  \right| \left(E\right) 
+> $$
+> 因此$f = s$时可以取到上确界.
+
 
 # 5
 
@@ -412,6 +491,25 @@ tags: []
 > \frac{d\mu_2}{d\mu_1}\cdot\frac{d\mu_1}{d\mu_0}
 > \qquad \mu_0\text{-a.e.}
 > $$
+
+> [!proof] 
+> 由Radon-Nikodym定理, 非负可测函数
+$$
+ f=  \frac{\mathrm{d}\mu _2 }{\mathrm{d}\mu _1 }, \quad g = \frac{\mathrm{d}\mu _1 }{\mathrm{d}\mu _0 }
+$$
+使得
+$$
+\mu _2 \left(A\right)= \int _{A} f d \mu _1 ,\quad \mu _1 \left(A\right)=  \int _{A} g d \mu _0 ,\quad  
+$$
+
+接下来我们证明对于任意的非负可测函数$h$, 都有
+$$
+\int _{A}h \,d \mu _2 =  \int _{A} fg \,d \mu _0 
+$$
+首先, 对于任意的$A\in \mathscr{A}$, 令$h = \chi _{A}$, 我们有
+$$
+\int _{X} \chi _{A} \,d \mu _1  
+$$
 
 > [!exercise] Exercise 5.2
 > 请详细写出定理 1.5.7 当 $\mu(X)=\infty$ 时的证明。
