@@ -493,23 +493,37 @@ tags: []
 > $$
 
 > [!proof] 
-> 由Radon-Nikodym定理, 非负可测函数
-$$
- f=  \frac{\mathrm{d}\mu _2 }{\mathrm{d}\mu _1 }, \quad g = \frac{\mathrm{d}\mu _1 }{\mathrm{d}\mu _0 }
-$$
-使得
-$$
-\mu _2 \left(A\right)= \int _{A} f d \mu _1 ,\quad \mu _1 \left(A\right)=  \int _{A} g d \mu _0 ,\quad  
-$$
-
-接下来我们证明对于任意的非负可测函数$h$, 都有
-$$
-\int _{A}h \,d \mu _2 =  \int _{A} fg \,d \mu _0 
-$$
-首先, 对于任意的$A\in \mathscr{A}$, 令$h = \chi _{A}$, 我们有
-$$
-\int _{X} \chi _{A} \,d \mu _1  
-$$
+> 由Radon-Nikodym定理, 存在非负可测函数
+> $$
+>  f=  \frac{\mathrm{d}\mu _2 }{\mathrm{d}\mu _1 }, \quad g = \frac{\mathrm{d}\mu _1 }{\mathrm{d}\mu _0 }
+> $$
+> 使得
+> $$
+> \mu _2 \left(A\right)= \int _{A} f d \mu _1 ,\quad \mu _1 \left(A\right)=  \int _{A} g d \mu _0 ,\quad  
+> $$
+> 
+> 定义
+> $$
+> \mathscr{H}= \left\{ h\ge 0: h\text{ 可测 }, \text{且} \int _{X}h \,d \mu _1 = \int _{X} hg \,d \mu _0  \right\} 
+> $$
+> 
+> 首先, 对于任意的$A\in \mathscr{A}$, 令$h = \chi _{A}$, 我们有
+> $$
+> \int _{X} \chi _{A} \,d \mu _1 = \mu _1 \left(A\right)=  \int _{A} f \,d \mu _0 =  \int  _{X} \chi _{A} f \,d \mu _1
+> $$
+> 因此$\chi _{A} \in \mathscr{H}$. 由积分的线性, 意见$\mathscr{H}$对非负线性组合封闭, 因此对于任意的非负可测函数$\varphi$, $\varphi \in \mathscr{H}$. 最后, 若$h_{n}\in \mathscr{H}$, $h_{n}\uparrow h$, 则由$h_{n}g\uparrow hg$, 因此由单调收敛定理, $\mathscr{H}$对渐升列封闭. 故$\mathscr{H}$包含任意可测函数. 因此
+> $$
+> \int _{X} h \,d \mu _1 = \int _{X} h g \,d \mu _0 ,\quad \forall h \in \mathcal{S}\left(X,\mathscr{A}\right) 
+> $$
+> 最后取$h= \chi _{E}f$, 得到
+> 
+> $$
+> \mu _2 \left(E\right)= \int _{E}f \,d \mu _1 = \int _{X}fg \,d \mu_0 
+> $$
+> 这表明
+> $$
+> \frac{\mathrm{d}\mu _2 }{\mathrm{d}\mu _0 } = fg =  \frac{\mathrm{d}\mu _2 }{\mathrm{d}\mu _1 }\cdot \frac{\mathrm{d}\mu _1}{\mathrm{d}\mu _0 }
+> $$
 
 > [!exercise] Exercise 5.2
 > 请详细写出定理 1.5.7 当 $\mu(X)=\infty$ 时的证明。
@@ -522,6 +536,35 @@ $$
 > \|g\|_{p'}=\|\ell\|.
 > $$
 
+> [!proof] 
+> 取$X_{n}\uparrow X$, 其中$\mu \left(X_{n}\right)< \infty$. 对于$u\in L^{p}\left(X_{n}\right)$, 记它的零延拓是$\tilde{u}$. 定义
+> $$
+> \ell _{n}\left(u\right)= \ell \left(\tilde{u}\right) 
+> $$
+> 显然$\left\| \ell _{n} \right\|\le \left\| l \right\|$.
+> 由定理1.5.7, 存在唯一的$g_{n}\in L^{p^{\prime} }\left(X_{n}\right)$, 满足
+> $$
+> \ell _{n}\left(u\right)= \int _{X_{n}}ug_{n}\,d \mu ,\quad \left\| g_{n} \right\|_{p^{\prime} }= \left\| \ell _{n} \right\| \le \left\| \ell  \right\|
+> $$
+> 当$m< n$时, $g_{n}|_{X_{m}}$和$g_{m}$都表示了$\ell _{m}$, 从而它们几乎处处相等.  故存在可测函数$g$, 使得$g|_{X_{n}}= g$几乎处处成立. 于是由单调收敛定理($p^{\prime} = \infty$时由本质上确界), 得到
+> $$
+> \left\| g \right\|_{p^{\prime} }= \sup _{n}\left\| g \right\|_{L^{p^{\prime} }\left(X_{n}\right)} = \sup _{n}\left\| g_{n} \right\|_{p^{\prime} }\le \left\| \ell  \right\|
+> $$
+> 故$g\in L^{p^{\prime} }\left(X\right)$.
+> 任取$f\in L^{p}\left(X\right)$, 令$f_{n}= f \chi _{X_{n}}$. 由于$p< \infty$, 有$\left\| f_{n}-f \right\|_{p}\to 0$, 由$\ell$的连续性以Hölder不等式,
+> $$
+> \left| \ell \left(f\right) \right|  \le \left\| f \right\|_{p}\left\| g \right\|_{p^{\prime} }
+> $$
+> 故
+> $$
+> \left\| \ell  \right\|\le \left\| g \right\|_{p^{\prime} } 
+> $$
+> 综上可知
+> $$
+> \left\| g \right\|_{p ^{\prime} } = \left\| \ell  \right\|
+> $$
+> 若存在$h$也表示了$\ell$, 那么$h= g$几乎处处在$X_{n}$成立, 故而$h= g$几乎处处在$X$上成立.
+
 # 6
 
 > [!exercise] Exercise 6.1
@@ -530,6 +573,34 @@ $$
 > \lim_{n\to\infty}\mu^*(E_n)
 > =
 > \mu^*\left(\lim_{n\to\infty}E_n\right).
+> $$
+
+> [!proof] 
+> 
+> 由正则性, 取可测集$B_{n}\supseteq E_{n}$, 使得
+> $$
+> \mu ^{*}\left(B_{n}\right)= \mu ^{*}\left(E_{n}\right) 
+> $$
+> 令
+> $$
+> A_{n}= \bigcap _{k\ge n}B_{n} 
+> $$
+> 则$A_{n}$可测, 且$A_{n}\subseteq A_{n+ 1}$, 由于$E_{n}\subseteq E_{k}\subseteq B_{k}$, $k\ge n$, 有
+> $$
+> E_{n}\subseteq A_{n}\subseteq B_{n} 
+> $$
+> 故
+> $$
+> \mu ^{*}\left(A_{n}\right)= \mu ^{*}\left(E_{n}\right) 
+> $$
+> 由测度的连续性
+> 
+> $$
+> \mu ^{*}\left(\bigcup _{n}E_{n}\right)\le \mu ^{*}\left(\bigcup _{n}A_{n}\right)= \lim_{n}\mu ^{*}\left(A_{n}\right)= \lim_{n}\mu ^{*}\left(E_{n}\right) 
+> $$
+> 另一侧的不等式由$E_{n}\subseteq \bigcup _{k}E_{k}$得到, 因此
+> $$
+> \lim_{n\to \infty}\mu ^{*}\left(E_{n}\right)= \mu ^{*}\left(\bigcup _{n = 1}^{\infty}E_{n}\right) 
 > $$
 
 > [!exercise] Exercise 6.2
@@ -557,6 +628,56 @@ $$
 > H_\alpha(\varnothing)=0.
 > $$
 
+> [!proof] 
+> 补充定义 $H_\alpha^\varepsilon(\varnothing)=0$. 当 $\varepsilon\downarrow0$ 时, 允许的覆盖减少, 故 $H_\alpha^\varepsilon(A)\uparrow H_\alpha(A)$.
+>
+> 对任意集合列 $(E_j)$, 只需考虑 $\sum_jH_\alpha(E_j)<\infty$. 给定 $\varepsilon,\eta>0$, 为每个 $E_j$ 选取可数覆盖 $(E_{jk})_k$, 使
+> $$
+> \delta(E_{jk})<\varepsilon,\qquad
+> \sum_k\delta(E_{jk})^\alpha
+> <H_\alpha^\varepsilon(E_j)+\eta2^{-j}.
+> $$
+> 合并这些覆盖, 得
+> $$
+> H_\alpha^\varepsilon\Bigl(\bigcup_jE_j\Bigr)
+> \le\sum_{j,k}\delta(E_{jk})^\alpha
+> \le\sum_jH_\alpha(E_j)+\eta.
+> $$
+> 依次令 $\varepsilon\downarrow0$ 和 $\eta\downarrow0$, 得
+> $$
+> H_\alpha\Bigl(\bigcup_jE_j\Bigr)\le\sum_jH_\alpha(E_j).
+> $$
+> 又非负性, 单调性及空集取零均由定义得到, 故 $H_\alpha$ 是外测度.
+>
+> 若 $\operatorname{dist}(E,F)>0$, 取 $0<\varepsilon<\operatorname{dist}(E,F)$. 直径小于 $\varepsilon$ 的集合不能同时与 $E,F$ 相交, 因此将 $E\cup F$ 的覆盖分组可得
+> $$
+> H_\alpha^\varepsilon(E\cup F)
+> \ge H_\alpha^\varepsilon(E)+H_\alpha^\varepsilon(F).
+> $$
+> 令 $\varepsilon\downarrow0$, 再结合次可加性, 得
+> $$
+> H_\alpha(E\cup F)=H_\alpha(E)+H_\alpha(F).
+> $$
+> 故 $H_\alpha$ 是距离外测度.
+>
+> 最后设 $H_\alpha(A)<\infty$. 对每个 $j\ge1$, 取覆盖 $A\subset\bigcup_kA_{jk}$, 使
+> $$
+> \delta(A_{jk})<1/j,\qquad
+> \sum_k\delta(A_{jk})^\alpha<H_\alpha(A)+1/j.
+> $$
+> 令
+> $$
+> B=\bigcap_j\bigcup_k\overline{A_{jk}}.
+> $$
+> 则 $B\supset A$ 为 Borel 集. 由于闭包不改变直径,
+> $$
+> H_\alpha^{1/j}(B)
+> \le\sum_k\delta(\overline{A_{jk}})^\alpha
+> <H_\alpha(A)+1/j.
+> $$
+> 令 $j\to\infty$, 结合单调性得 $H_\alpha(B)=H_\alpha(A)$. 若 $H_\alpha(A)=\infty$, 取 $B=\mathbb R^n$ 即可. 距离外测度的 Borel 集均可测, 因而每个集合都有等外测度的可测上包络, 故 $H_\alpha$ 正则. 
+
+
 > [!exercise] Exercise 6.3
 > 设 $\Lambda_f$ 是 $\mathbb R$ 上单调增函数 $f$ 导出的 L-S 测度。证明：若 $\Lambda_f\ll m$，则
 > $$
@@ -565,6 +686,38 @@ $$
 > $$
 > 此处 $m$ 代表寻常 Lebesgue 测度。
 
+> [!proof] 
+> 首先, 记$F\left(x\right)=f\left(x+\right)$, 则根据L-S测度的定义,
+> $$
+> \Lambda_f\left(\left(a,b\right]\right)=F\left(b\right)-F\left(a\right),\quad a<b
+> $$
+> 由$\Lambda_f\ll m$, 对于任意的$x\in \mathbb{R}$, 有
+> $$
+> 0= \Lambda_f\left(\left\{ x \right\}\right)=F\left(x\right)-F\left(x-\right)= f\left(x+\right)-f\left(x-\right)
+> $$
+> 又由于$f$单调, $f\left(x-\right)\le f\left(x\right)\le f\left(x+\right)$, 因此$f$连续.
+> 
+> 由于$\Lambda_f$在每个有界区间上有限, 故$\Lambda_f$是$\sigma$有限的. 由Radon-Nikodym定理, 存在非负可测函数
+> $$
+> g= \frac{\mathrm{d}\Lambda_f}{\mathrm{d}m}
+> $$
+> 使得
+> $$
+> \Lambda_f\left(A\right)= \int_A g\,dm,\quad \forall A\text{ 可测}
+> $$
+> 任取$a<b$, 由L-S测度的定义以及$f$的连续性,
+> $$
+> f\left(b\right)-f\left(a\right)= \Lambda_f\left(\left(a,b\right]\right)= \int_a^b g\left(t\right)\,dt<\infty
+> $$
+> 这表明$g\in L^1_{\mathrm{loc}}\left(\mathbb{R}\right)$. 由Lebesgue积分的微分定理, 对于几乎处处的$x$, 有
+> $$
+> f'\left(x\right)= \lim_{h\to 0}\frac{f\left(x+h\right)-f\left(x\right)}{h}= \lim_{h\to 0}\frac{1}{h}\int_x^{x+h}g\left(t\right)\,dt= g\left(x\right)
+> $$
+> 因此
+> $$
+> \frac{\mathrm{d}\Lambda_f}{\mathrm{d}m}= f',\quad m\text{-a.e.}
+> $$
+
 # 7
 > [!exercise] Exercise 7.1
 > 设 $f\in L(X,\mathcal A,\mu)$，$g\in L(Y,\mathcal B,\nu)$，证明 $f(x)g(y)\in L(X\times Y,\mathcal A\times\mathcal B,\mu\times\nu)$，且
@@ -572,6 +725,34 @@ $$
 > \int_{X\times Y}f(x)g(y)\,d(\mu\times\nu)
 > =
 > \int_X f\,d\mu\cdot\int_Y g\,d\nu.
+> $$
+
+> [!proof] 
+> 记$F\left(x,y\right)= f\left(x\right)$, $G\left(x,y\right)= g\left(y\right)$. 对于任意的$a\in \mathbb{R}$,
+> $$
+> \left\{ F>a \right\}= \left\{ x\in X: f\left(x\right)>a \right\}\times Y,\quad \left\{ G>a \right\}= X\times\left\{ y\in Y: g\left(y\right)>a \right\}
+> $$
+> 均属于$\mathcal{A}\times\mathcal{B}$, 故$F,G$可测, 进而$f\left(x\right)g\left(y\right)$可测.
+> 
+> 先设$f,g\ge 0$, 取非负简单函数列$f_n\uparrow f$, $g_n\uparrow g$. 由乘积测度在可测矩形上的定义以及积分的线性, 有
+> $$
+> \int_{X\times Y}f_n\left(x\right)g_n\left(y\right)\,d\left(\mu\times\nu\right)= \int_X f_n\,d\mu\cdot\int_Y g_n\,d\nu
+> $$
+> 由于$f_n\left(x\right)g_n\left(y\right)\uparrow f\left(x\right)g\left(y\right)$, 令$n\to\infty$, 由单调收敛定理得到
+> $$
+> \int_{X\times Y}f\left(x\right)g\left(y\right)\,d\left(\mu\times\nu\right)= \int_X f\,d\mu\cdot\int_Y g\,d\nu
+> $$
+> 
+> 对于一般的$f,g$, 先对$\left| f \right|,\left| g \right|$应用上式, 得到
+> $$
+> \int_{X\times Y}\left| f\left(x\right)g\left(y\right) \right|\,d\left(\mu\times\nu\right)= \int_X\left| f \right|\,d\mu\cdot\int_Y\left| g \right|\,d\nu<\infty
+> $$
+> 故$f\left(x\right)g\left(y\right)$可积. 最后, 将$f=f^+-f^-$, $g=g^+-g^-$代入, 对四个非负乘积分别应用已经证明的结论, 再由积分的线性,
+> $$
+> \begin{aligned}
+> \int_{X\times Y}f\left(x\right)g\left(y\right)\,d\left(\mu\times\nu\right)&= \left(\int_X f^+\,d\mu-\int_X f^-\,d\mu\right)\left(\int_Y g^+\,d\nu-\int_Y g^-\,d\nu\right)\\
+> &= \int_X f\,d\mu\cdot\int_Y g\,d\nu
+> \end{aligned}
 > $$
 
 > [!exercise] Exercise 7.2
@@ -584,12 +765,75 @@ $$
 > \lim_{n\to\infty}\int_0^n\frac{\sin x}{x}\,dx=\frac{\pi}{2}.
 > $$
 
+> [!proof] 
+> 任取$n>0$, 由题设中的等式以及Tonelli定理,
+> $$
+> \int_0^n\int_0^\infty e^{-xt}\left| \sin x \right|\,dt\,dx= \int_0^n\frac{\left| \sin x \right|}{x}\,dx\le n<\infty
+> $$
+> 故可以应用Fubini定理交换积分次序. 记
+> $$
+> I_n= \int_0^n\frac{\sin x}{x}\,dx
+> $$
+> 则
+> $$
+> I_n= \int_0^n\int_0^\infty e^{-xt}\sin x\,dt\,dx= \int_0^\infty\int_0^n e^{-xt}\sin x\,dx\,dt
+> $$
+> 直接计算得到
+> $$
+> \int_0^n e^{-xt}\sin x\,dx= \left[-\frac{e^{-xt}\left(t\sin x+\cos x\right)}{1+t^2}\right]_0^n= \frac{1-e^{-nt}\left(\cos n+t\sin n\right)}{1+t^2}
+> $$
+> 因此
+> $$
+> I_n= \int_0^\infty\frac{1}{1+t^2}\,dt-\int_0^\infty\frac{e^{-nt}\left(\cos n+t\sin n\right)}{1+t^2}\,dt= \frac{\pi}{2}-\int_0^\infty\frac{e^{-nt}\left(\cos n+t\sin n\right)}{1+t^2}\,dt
+> $$
+> 而
+> $$
+> \left| I_n-\frac{\pi}{2} \right|\le \int_0^\infty e^{-nt}\frac{1+t}{1+t^2}\,dt\le \int_0^\infty e^{-nt}\left(1+t\right)\,dt= \frac{1}{n}+\frac{1}{n^2}
+> $$
+> 令$n\to\infty$, 得到
+> $$
+> \lim_{n\to\infty}\int_0^n\frac{\sin x}{x}\,dx= \frac{\pi}{2}
+> $$
+
 > [!exercise] Exercise 7.3
 > 设 $f$ 是 $\mathbb R$ 上的非负实值函数。考虑寻常 Lebesgue 测度，证明 $f$ 可测的充要条件是
 > $$
 > E=\{(x,y):0\le y\le f(x)\}
 > $$
 > 属于 $\mathbb R^2$ 中由可测矩形族生成的 $\sigma$ 代数。
+
+> [!proof] 
+> 记$\mathcal{L}$为$\mathbb{R}$上的Lebesgue可测集族, 则题设中的$\sigma$代数为$\mathcal{L}\times\mathcal{L}$.
+> 
+> 若$f$可测, 令$F\left(x,y\right)=f\left(x\right)$, $G\left(x,y\right)=y$. 对于任意的$a\in\mathbb{R}$,
+> $$
+> \left\{ F>a \right\}= \left\{ x\in\mathbb{R}: f\left(x\right)>a \right\}\times\mathbb{R},\quad \left\{ G>a \right\}= \mathbb{R}\times\left(a,\infty\right)
+> $$
+> 均属于$\mathcal{L}\times\mathcal{L}$, 因此$F,G$均可测. 于是
+> $$
+> E= \left\{ G\ge 0 \right\}\cap\left\{ F-G\ge 0 \right\}\in\mathcal{L}\times\mathcal{L}
+> $$
+> 
+> 反之, 设$E\in\mathcal{L}\times\mathcal{L}$. 任取$a\in\mathbb{R}$, 对于$S\subseteq\mathbb{R}^2$, 记它在$y=a$处的截面为
+> $$
+> S_a= \left\{ x\in\mathbb{R}: \left(x,a\right)\in S \right\}
+> $$
+> 定义
+> $$
+> \mathscr{C}_a= \left\{ S\subseteq\mathbb{R}^2: S_a\in\mathcal{L} \right\}
+> $$
+> 由于取截面的运算保持余集以及可列并, 易见$\mathscr{C}_a$是一个$\sigma$代数. 又任意可测矩形$A\times B$的截面为
+> $$
+> \left(A\times B\right)_a= \begin{cases} A,&a\in B\\ \varnothing,&a\notin B \end{cases}
+> $$
+> 因此$\mathscr{C}_a$包含所有可测矩形, 故$\mathcal{L}\times\mathcal{L}\subseteq\mathscr{C}_a$. 特别地, $E_a\in\mathcal{L}$.
+> 
+> 当$a\ge 0$时,
+> $$
+> E_a= \left\{ x\in\mathbb{R}: f\left(x\right)\ge a \right\}
+> $$
+> 当$a<0$时, 由于$f\ge 0$, 也有$\left\{ x\in\mathbb{R}: f\left(x\right)\ge a \right\}=\mathbb{R}\in\mathcal{L}$. 因此对于任意的$a\in\mathbb{R}$, $\left\{ x\in\mathbb{R}: f\left(x\right)\ge a \right\}$都是可测集, 这表明$f$可测.
+
 
 
 
