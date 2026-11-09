@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Inbox/RA - HW - Ch2.md",
+                "file": "00.Inbox/RA - HW - 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RA - HW - Ch2"
+              "title": "RA - HW - 2"
             }
           }
         ]
@@ -209,8 +209,9 @@
   },
   "active": "55b2c8345fb7677e",
   "lastOpenFiles": [
-    "00.Inbox/RA - HW - Ch1.md",
-    "00.Inbox/RA - HW - Ch2.md",
+    "00.Inbox/RA - HW - 1.md",
+    "00.Inbox/RA - HW - 3.md",
+    "00.Inbox/RA - HW - 2.md",
     "00.Inbox/多复变 - HW1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
@@ -241,7 +242,6 @@
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
-    "20.Cards/Notes/分块行列式的结构性拆解.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
