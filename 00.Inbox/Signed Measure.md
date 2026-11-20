@@ -5,9 +5,9 @@ aliases:
 technique: []
 tags: []
 ---
-# Definition
+# 1 Definition
 
-> [!definition] Definition 1 (Definition:)
+> [!definition] Definition 1.1
 > Let $\left(X, \mathscr{A}\right)$ be a measurable space. We say $\nu$ is a **signed measure** on $\left(X,\mathcal{M}\right)$, provided that $\nu$ is  a set function
 > $$
 > \nu : \mathcal{M}\to \left[ -\infty,\infty \right] 
@@ -23,9 +23,9 @@ tags: []
 >    \nu \left(A\right)= \infty,\quad \nu \left(B\right)= -\infty 
 >    $$
 
-# Basic Properties
+# 2 Basic Properties
 
-> [!lemma] 
+> [!lemma] Lemma 2.1
 > Let $\varphi$ be a signed measure on measurable space $\left(X, \mathscr{A}\right)$. 
 > 1. If $E,F\in \mathscr{A}$ with $\varphi \left(E\right)> -\infty$, $F\subseteq E$, then 
 >   $$
@@ -41,9 +41,9 @@ tags: []
 >   $$
 
 
-## Positive Set, Negative Set, Zero Set
+## 2.1 Positive Set, Negative Set, Zero Set
 
-> [!definition] Definition: 
+> [!definition] Definition 2.1.1
 > Let $\varphi$ be a signed measure on measurable space $\left(X,\mathscr{A}\right)$. 
 > - We say $P \in \mathscr{A}$ is a positive set of $\varphi$, if 
 >   $$
@@ -52,19 +52,19 @@ tags: []
 > - The positive set for $-\varphi$ is called the negative set of $\varphi$.
 > - If a set is both positive set and negative set of $\varphi$, we call it  the zero set for $\varphi$.
 
-> [!note] 
+> [!note] Note 2.1.2
 > If we see sets in signed-measure space is composed with "negative-measure part" and "positive-measure part", then a positive set is one who only has "positive-measure part". 
 
 The following theorem shows that we can extract such "positive-measure part" from a set with positive measure.
 
-> [!theorem] 
+> [!theorem] Theorem 2.1.3
 > Let $\varphi$ be a signed measure on measurable space $\left(X, \mathscr{A}\right)$. $E\in \mathscr{A}$ and $\varphi \left(E\right)> 0$, then there exists $S\in \mathscr{A}$, $S\subseteq E$, such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set for $\varphi$.
 > ^thm-705be8
 
 
-# Hahn Decomposition
+# 3 Hahn Decomposition
 
-> [!theorem] Theorem: 
+> [!theorem] Theorem 3.1
 > Let $\varphi$ be a signed measure on measurable space $\left(X,\mathscr{A}\right)$. Then there eixsts $P \in \mathscr{A}$, such that $P$ is a positive set for $\varphi$ and $P^{c}$ is a negative set for $\varphi$. Such decomposition is called **Hahn Decomposition**, denoted by $\left(P,P^{c}\right)$. 
 >
 > The Hahn decomposition is unique in the sense: if there exists another Hahn decomposition $\left(P_1,P_1^{c}\right)$, then for each $A\in \mathscr{A}$, there holds
@@ -105,11 +105,11 @@ The following theorem shows that we can extract such "positive-measure part" fro
 > $$
 > which is a contradiction to the definition of $\alpha$.
 
-# Positive, Negative and Total Variation
+# 4 Positive, Negative and Total Variation
 
 To define the variation, we may see them as the largest part under some perspective that a measurable set can extract.
 
-> [!definition] Definition: 
+> [!definition] Definition 4.1
 > Let $\varphi$ be a signed measure on space $\left(X, \mathscr{A}\right)$. Then for arbitrary $E\in \mathscr{A}$
 > $$ 
 > \varphi ^{+ }\left(E\right)= \sup _{A\in \mathscr{A}}\varphi \left(A\cap E\right) 
@@ -120,5 +120,22 @@ To define the variation, we may see them as the largest part under some perspect
 > $$
 > \left| \varphi   \right|\left(E\right)= \varphi ^{+ }\left(E\right)+ \varphi ^{-}\left(E\right)  
 > $$
-> are called the positive, negative and total variation
+> are called the positive, negative and total variation of $\varphi$, respectively.
+
+Then we may naturally note the following truth, which is a really convenient way to manipulate these concepts.
+
+> [!theorem] Theorem 4.2
+> If $\varphi$ is a signed measure on $\left(X, \mathscr{A}\right)$. And if $P, P^{c}$ are positive set and negative set for $\varphi$, respectively. Then
+> $$
+> \varphi ^{+ }\left(E\right)= \varphi \left(E\cap P  \right) 
+> $$
+> $$
+> \varphi ^{-}\left(E\right)= -\varphi \left(E\cap P^{c}\right) 
+> $$
+
+> [!theorem] Theorem 4.3 (Jordan Decomposition)
+> If $\varphi$ is a signed  measure on $\left(X,\mathscr{A}\right)$, then 
+> $$
+> \varphi = \varphi ^{+ }-\varphi ^{-} 
+> $$
 
