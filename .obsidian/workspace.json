@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "00.Inbox/Signed Measure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Signed Measure"
             }
           }
         ],
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Inbox/多复变 - HW1.md",
+                "file": "00.Inbox/Signed Measure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,8 +212,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,8 +233,10 @@
   },
   "active": "badfb3959bf61fd0",
   "lastOpenFiles": [
-    "00.Inbox/RA - HW - 2.md",
+    "00.Inbox/未命名.md",
+    "00.Inbox/Signed Measure.md",
     "未命名.md",
+    "00.Inbox/RA - HW - 2.md",
     "00.Inbox/RA - HW - 1.md",
     "00.Inbox/RA - HW - 3.md",
     "00.Inbox/多复变 - HW1.md",
@@ -245,7 +246,6 @@
     "11.Chapter Notes/MA/chnt - 反常积分.md",
     "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/Harmonic Function.md",
-    "00.Inbox/Signed Measure.md",
     "11.Chapter Notes/FA(Undergraduate) Middle Term/chnt - FA(Undergraduate) Middle Term.md",
     "00.Inbox/Basic Concepts of Commutative Rings.md",
     "00.Inbox/Positive Set, Negative Set, Zero Set.md",
@@ -266,7 +266,6 @@
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",

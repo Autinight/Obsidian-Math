@@ -58,7 +58,7 @@ tags: []
 The following theorem shows that we can extract such "positive-measure part" from a set with positive measure.
 
 > [!theorem] 
-> Let $\varphi$ be a sgined measure on measurable space $\left(X, \mathscr{A}\right)$. $E\in \mathscr{A}$ and $\varphi \left(E\right)> 0$, then there exists $S\in \mathscr{A}$, $S\subseteq E$, such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set for $\varphi$.
+> Let $\varphi$ be a signed measure on measurable space $\left(X, \mathscr{A}\right)$. $E\in \mathscr{A}$ and $\varphi \left(E\right)> 0$, then there exists $S\in \mathscr{A}$, $S\subseteq E$, such that $\varphi \left(S\right)> 0$ as well as $S$ is a positive set for $\varphi$.
 > ^thm-705be8
 
 
@@ -104,3 +104,21 @@ The following theorem shows that we can extract such "positive-measure part" fro
 > \varphi \left(S\cup P\right)= \varphi \left(S\right)+ \varphi \left(P\right)> \varphi \left(P\right)= \alpha  
 > $$
 > which is a contradiction to the definition of $\alpha$.
+
+# Positive, Negative and Total Variation
+
+To define the variation, we may see them as the largest part under some perspective that a measurable set can extract.
+
+> [!definition] Definition: 
+> Let $\varphi$ be a signed measure on space $\left(X, \mathscr{A}\right)$. Then for arbitrary $E\in \mathscr{A}$
+> $$ 
+> \varphi ^{+ }\left(E\right)= \sup _{A\in \mathscr{A}}\varphi \left(A\cap E\right) 
+> $$ 
+> $$
+> \varphi ^{-}\left(E\right)= \sup _{A\in \mathscr{A} }\left\{ -\varphi \left(A\cap E \right) \right\} 
+> $$
+> $$
+> \left| \varphi   \right|\left(E\right)= \varphi ^{+ }\left(E\right)+ \varphi ^{-}\left(E\right)  
+> $$
+> are called the positive, negative and total variation
+
