@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "RA - HW - 2"
             }
+          },
+          {
+            "id": "badfb3959bf61fd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,11 +232,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "55b2c8345fb7677e",
+  "active": "badfb3959bf61fd0",
   "lastOpenFiles": [
+    "00.Inbox/RA - HW - 2.md",
+    "未命名.md",
     "00.Inbox/RA - HW - 1.md",
     "00.Inbox/RA - HW - 3.md",
-    "00.Inbox/RA - HW - 2.md",
     "00.Inbox/多复变 - HW1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch3.1.md",
     "11.Chapter Notes/AT Hatcher/chnt - AT Hatcher Ch2.2.md",
@@ -241,7 +267,6 @@
     "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.1.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 2.2.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
