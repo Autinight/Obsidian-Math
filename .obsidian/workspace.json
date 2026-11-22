@@ -35,10 +35,24 @@
             "id": "badfb3959bf61fd0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "00.Inbox/mayer-apcsf-zh-v1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mayer-apcsf-zh-v1"
             }
           }
         ],
@@ -117,6 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00.Inbox/mayer-apcsf-zh-v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,7 +212,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,6 +234,7 @@
   },
   "active": "badfb3959bf61fd0",
   "lastOpenFiles": [
+    "00.Inbox/mayer-apcsf-zh-v1.md",
     "00.Inbox/多复变 - HW1.md",
     "未命名.md",
     "00.Inbox/如何搭建AI学习系统.md",
@@ -250,7 +267,6 @@
     "20.Cards/Theorems/thm - Passing Smoothness to The Quotient.md",
     "10.Atlas/DM/Atlas - Quotient Manifold.canvas",
     "20.Cards/Definitions/dfn - Orientation-preseving(reversing) local diffeomorphism.md",
-    "30.Recources/AT/Hatcher Ex/AT Hatcher - Ex - Section 3.2.md",
     "10.Atlas/PDE/Atlas - Harmonic Functions.canvas",
     "10.Atlas/PDE/Atlas - Second-Order Elliptic Equations.canvas",
     "10.Atlas/AT/Atlas - Covering Space.canvas",
