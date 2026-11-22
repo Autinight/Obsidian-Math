@@ -212,7 +212,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -231,7 +232,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "badfb3959bf61fd0",
+  "active": "62f0b661f6c2dd97",
   "lastOpenFiles": [
     "00.Inbox/如何搭建AI学习系统.md",
     "00.Inbox/未命名.md",
